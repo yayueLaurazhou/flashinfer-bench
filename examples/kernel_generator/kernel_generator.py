@@ -1,11 +1,18 @@
 import asyncio
+import json
+import logging
 import os
 import random
 import re
+import time
+from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 
-import openai
-from kernel_generator_prompts import get_optimization_prompt, get_prompt
+from prompts_router import get_optimization_prompt, get_prompt
+from RAG_helper import RAGHelper
+from utils import LLMClient
+
+logger = logging.getLogger(__name__)
 
 from flashinfer_bench import (
     Benchmark,
@@ -21,17 +28,17 @@ from flashinfer_bench import (
     Workload,
 )
 
-
 class KernelGenerator:
     def __init__(
         self,
         model_name: str,
-        language: str = "triton",
+        language: str = "cuda",
         target_gpu: str = "H100",
         api_key: Optional[str] = None,
         base_url: Optional[str] = None,
         reasoning_effort: str = "high",  # only used for openai reasoning models
         use_ffi: bool = True,
+        rag_helper: Optional[RAGHelper] = None,
     ):
         """
         Args:
@@ -42,25 +49,22 @@ class KernelGenerator:
             base_url: Base URL for the API (need to provide for non-openai api models)
             reasoning_effort: Reasoning effort for OpenAI reasoning models ("low", "medium", "high", default: "medium")
             use_ffi: Use FFI bindings when generating CUDA kernels.
+            rag_helper: Optional RAGHelper instance for retrieving relevant documentation.
         """
         self.model_name = model_name
         self.language = language
         self.target_gpu = target_gpu
         self.reasoning_effort = reasoning_effort
         self.use_ffi = use_ffi
+        self.rag_helper = rag_helper
+        self.rag_logs: List[Dict] = []
 
-        if api_key is None:
-            api_key = os.getenv("LLM_API_KEY")
-            if api_key is None:
-                raise ValueError(
-                    "API key must be provided or set in LLM_API_KEY environment variable"
-                )
-
-        client_kwargs = {"api_key": api_key}
-        if base_url is not None:
-            client_kwargs["base_url"] = base_url
-
-        self.client = openai.AsyncOpenAI(**client_kwargs)
+        self.llm = LLMClient(
+            model_name=model_name,
+            api_key=api_key,
+            base_url=base_url,
+            reasoning_effort=reasoning_effort,
+        )
 
     def _get_supported_language(self) -> SupportedLanguages:
         language_map = {
@@ -102,8 +106,15 @@ class KernelGenerator:
 
         selected_workload = random.choice(workloads)
 
-        print(f"Generating optimized solution for {definition.name}")
-        print(f"Using workload {selected_workload.workload.uuid} for optimization feedback")
+        logger.info(
+            "Starting generation for '%s' | model=%s lang=%s gpu=%s rounds=%d beam=%s width=%d",
+            definition.name, self.model_name, self.language, self.target_gpu,
+            gen_rounds, beam, beam_width,
+        )
+        logger.info("Selected workload %s for optimization feedback", selected_workload.workload.uuid)
+
+        # Reset RAG logs for this generation run
+        self.rag_logs = []
 
         if beam:
             return self._beam_search_generate(
@@ -119,8 +130,32 @@ class KernelGenerator:
     async def _sequential_generate_async(
         self, trace_set: TraceSet, definition: Definition, selected_workload, gen_rounds: int
     ) -> Solution:
-        prompt = get_prompt(self.language, definition, self.target_gpu, self.use_ffi)
+        # Retrieve RAG data for the initial prompt
+        initial_rag_data = ""
+        if self.rag_helper:
+            logger.info("[Sequential] Retrieving RAG data for initial prompt...")
+            t0 = time.perf_counter()
+            initial_rag_data = await self.rag_helper.retrieve(
+                definition, trace=None, current_code=None
+            )
+            logger.info(
+                "[Sequential] RAG retrieval complete (%.2fs, %d chars)",
+                time.perf_counter() - t0, len(initial_rag_data),
+            )
+            self.rag_logs.append({
+                "mode": "sequential",
+                "round": 0,
+                "definition": definition.name,
+                "rag_data": initial_rag_data,
+            })
+
+        prompt = get_prompt(
+            self.language, definition, self.target_gpu, self.use_ffi, rag_data=initial_rag_data
+        )
+        logger.info("[Sequential] Generating initial code (prompt length: %d chars)...", len(prompt))
+        t0 = time.perf_counter()
         code_result = await self._generate_code_from_prompt(prompt)
+        logger.info("[Sequential] Initial code generated (%.2fs)", time.perf_counter() - t0)
         current_code = code_result["cleaned"]
         current_raw_code = code_result["raw"]
 
@@ -129,27 +164,27 @@ class KernelGenerator:
         last_trace = None
 
         for round_num in range(1, gen_rounds + 1):
-            print(f"\nGeneration Round {round_num}/{gen_rounds}")
+            logger.info("[Sequential] Round %d/%d", round_num, gen_rounds)
 
             solution = self._create_solution_from_code(current_code, definition, round_num)
             last_solution = solution
 
+            logger.debug("[Sequential] Evaluating solution for round %d...", round_num)
             traces = self._evaluate_solutions(trace_set, definition, [solution], selected_workload)
             trace = traces[0] if traces else None
             if trace:
                 last_trace = trace
                 evaluation = trace.evaluation
-                print(f"Evaluation status: {evaluation.status.value}")
+                logger.info("[Sequential] Round %d evaluation: %s", round_num, evaluation.status.value)
 
                 if evaluation.status == EvaluationStatus.PASSED:
                     speedup = evaluation.performance.speedup_factor
-                    print(f"Solution PASSED! Speedup: {speedup:.2f}x")
+                    logger.info("[Sequential] Round %d PASSED — speedup: %.2fx", round_num, speedup)
                     passing_solutions.append((solution, trace))
                 else:
-                    print(f"Solution failed with {evaluation.status.value}")
+                    logger.warning("[Sequential] Round %d FAILED — %s", round_num, evaluation.status.value)
                     if evaluation.log:
-                        print("Error details:")
-                        print(evaluation.log)
+                        logger.debug("[Sequential] Error details:\n%s", evaluation.log)
 
             if round_num < gen_rounds:
                 best_trace = self._get_best_trace(passing_solutions)
@@ -163,14 +198,22 @@ class KernelGenerator:
                         current_raw_code,
                         self.target_gpu,
                         self.use_ffi,
+                        rag_data=initial_rag_data,
                     )
                 else:
                     optimization_prompt = get_prompt(
-                        self.language, definition, self.target_gpu, self.use_ffi
+                        self.language, definition, self.target_gpu, self.use_ffi,
+                        rag_data=initial_rag_data,
                     )
 
-                print(f"Generating code for round {round_num + 1}...")
+                logger.info(
+                    "[Sequential] Calling LLM for round %d (prompt length: %d chars)...",
+                    round_num + 1, len(optimization_prompt),
+                )
+                t0 = time.perf_counter()
                 code_result = await self._generate_code_from_prompt(optimization_prompt)
+                elapsed = time.perf_counter() - t0
+                logger.info("[Sequential] LLM response received for round %d (%.2fs)", round_num + 1, elapsed)
                 current_code = code_result["cleaned"]
                 current_raw_code = code_result["raw"]
 
@@ -184,7 +227,7 @@ class KernelGenerator:
         depth: int,
         beam_width: int,
     ) -> Solution:
-        print(f"Starting beam search with width={beam_width}, depth={depth}")
+        logger.info("Starting beam search with width=%d, depth=%d", beam_width, depth)
         return asyncio.run(
             self._beam_search_generate_async(
                 trace_set, definition, selected_workload, depth, beam_width
@@ -201,12 +244,36 @@ class KernelGenerator:
     ) -> Solution:
         passing_solutions: List[Tuple[Solution, Trace]] = []
 
-        prompt = get_prompt(self.language, definition, self.target_gpu, self.use_ffi)
+        # Retrieve RAG data for the initial prompt
+        initial_rag_data = ""
+        if self.rag_helper:
+            logger.info("[Beam] Retrieving RAG data for initial prompt...")
+            t0 = time.perf_counter()
+            initial_rag_data = await self.rag_helper.retrieve(
+                definition, trace=None, current_code=None
+            )
+            logger.info(
+                "[Beam] RAG retrieval complete (%.2fs, %d chars)",
+                time.perf_counter() - t0, len(initial_rag_data),
+            )
+            self.rag_logs.append({
+                "mode": "beam",
+                "level": 0,
+                "candidate": "all",
+                "definition": definition.name,
+                "rag_data": initial_rag_data,
+            })
 
-        print(f"\nBeam Level 0: Generating {beam_width} initial candidates...")
+        prompt = get_prompt(
+            self.language, definition, self.target_gpu, self.use_ffi, rag_data=initial_rag_data
+        )
+
+        logger.info("[Beam] Level 0: Generating %d initial candidates (prompt length: %d chars)...", beam_width, len(prompt))
+        t0 = time.perf_counter()
         code_results = await asyncio.gather(
             *[self._generate_code_from_prompt(prompt) for _ in range(beam_width)]
         )
+        logger.info("[Beam] Level 0: %d candidates generated (%.2fs)", beam_width, time.perf_counter() - t0)
 
         initial_candidates = [
             {"code": code_result["cleaned"], "raw_code": code_result["raw"], "round_num": 0}
@@ -218,7 +285,7 @@ class KernelGenerator:
             for i, candidate in enumerate(initial_candidates)
         ]
 
-        print(f"Evaluating {len(solutions)} candidates...")
+        logger.info("[Beam] Evaluating %d initial candidates...", len(solutions))
         traces = self._evaluate_solutions(trace_set, definition, solutions, selected_workload)
 
         beam = []
@@ -232,7 +299,7 @@ class KernelGenerator:
                     if evaluation.status == EvaluationStatus.PASSED
                     else 0.0
                 )
-                print(f"Candidate {i+1}: {evaluation.status.value}, speedup={speedup:.2f}x")
+                logger.info("[Beam] Level 0 candidate %d: %s, speedup=%.2fx", i + 1, evaluation.status.value, speedup)
 
                 if evaluation.status == EvaluationStatus.PASSED:
                     passing_solutions.append((solution, trace))
@@ -253,7 +320,7 @@ class KernelGenerator:
         last_solution = beam[0]["solution"] if beam else None
 
         for level in range(1, depth + 1):
-            print(f"\nBeam Level {level}/{depth}: Expanding {len(beam)} candidates...")
+            logger.info("[Beam] Level %d/%d: Expanding %d candidates...", level, depth, len(beam))
 
             prompts = [
                 get_optimization_prompt(
@@ -263,13 +330,20 @@ class KernelGenerator:
                     beam_item["raw_code"],
                     self.target_gpu,
                     self.use_ffi,
+                    rag_data=initial_rag_data,
                 )
                 for beam_item in beam
             ]
 
+            logger.info(
+                "[Beam] Level %d: Calling LLM for %d candidates (prompt lengths: %s)...",
+                level, len(prompts), [len(p) for p in prompts],
+            )
+            t0 = time.perf_counter()
             code_results = await asyncio.gather(
                 *[self._generate_code_from_prompt(prompt) for prompt in prompts]
             )
+            logger.info("[Beam] Level %d: LLM responses received (%.2fs)", level, time.perf_counter() - t0)
 
             solutions = [
                 self._create_solution_from_code(
@@ -278,7 +352,7 @@ class KernelGenerator:
                 for i, code_result in enumerate(code_results)
             ]
 
-            print(f"Evaluating {len(solutions)} expanded candidates...")
+            logger.info("[Beam] Level %d: Evaluating %d expanded candidates...", level, len(solutions))
             traces = self._evaluate_solutions(trace_set, definition, solutions, selected_workload)
 
             new_candidates = []
@@ -292,8 +366,9 @@ class KernelGenerator:
                         if evaluation.status == EvaluationStatus.PASSED
                         else 0.0
                     )
-                    print(
-                        f"  Candidate {beam_idx+1}: {evaluation.status.value}, speedup={speedup:.2f}x"
+                    logger.info(
+                        "[Beam] Level %d candidate %d: %s, speedup=%.2fx",
+                        level, beam_idx + 1, evaluation.status.value, speedup,
                     )
 
                     if evaluation.status == EvaluationStatus.PASSED:
@@ -314,12 +389,12 @@ class KernelGenerator:
                 new_candidates.sort(key=lambda x: x["speedup"], reverse=True)
                 beam = new_candidates[:beam_width]
                 last_solution = beam[0]["solution"]
-                print(f"Beam level {level} complete. Top speedup: {beam[0]['speedup']:.2f}x")
+                logger.info("[Beam] Level %d complete. Top speedup: %.2fx", level, beam[0]["speedup"])
             else:
-                print(f"No valid candidates at level {level}, stopping beam search")
+                logger.warning("[Beam] No valid candidates at level %d, stopping beam search", level)
                 break
 
-        print(f"\nBeam search complete. Found {len(passing_solutions)} passing solutions.")
+        logger.info("[Beam] Search complete. Found %d passing solutions.", len(passing_solutions))
         return self._select_best_solution(passing_solutions, last_solution)
 
     def _evaluate_solutions(
@@ -366,13 +441,43 @@ class KernelGenerator:
             )
             best_solution = best_solution_trace[0]
             best_speedup = best_solution_trace[1].evaluation.performance.speedup_factor
-            print(f"\nReturning best solution with speedup: {best_speedup:.2f}x")
+            logger.info("Returning best solution with speedup: %.2fx", best_speedup)
             return best_solution
         elif fallback_solution:
-            print(f"\nNo passing solutions found, returning last generated solution")
+            logger.warning("No passing solutions found, returning last generated solution")
             return fallback_solution
         else:
             raise ValueError("No solutions generated")
+
+    def save_rag_log(self, output_dir: str, definition: Definition) -> None:
+        """Save the definition and RAG data collected during generation to a file.
+
+        Args:
+            output_dir: Directory where the solution is saved (e.g. solutions/op_type/def_name/).
+            definition: The Definition object used for generation.
+        """
+        from utils import format_definition
+
+        output_path = Path(output_dir)
+        output_path.mkdir(parents=True, exist_ok=True)
+        log_path = output_path / "rag_log.json"
+
+        log_data = {
+            "definition": {
+                "name": definition.name,
+                "op_type": definition.op_type,
+                "description": format_definition(definition),
+            },
+            "model": self.model_name,
+            "language": self.language,
+            "target_gpu": self.target_gpu,
+            "rag_rounds": self.rag_logs,
+        }
+
+        with open(log_path, "w") as f:
+            json.dump(log_data, f, indent=2)
+
+        logger.info("RAG log saved to %s", log_path)
 
     def _parse_xml_files(self, code: str) -> Dict[str, str]:
         files = {}
@@ -389,7 +494,7 @@ class KernelGenerator:
                 content = match.group(1).strip()
                 files[filename] = content
             else:
-                print(f"Warning: Could not find {filename} in generated code")
+                logger.warning("Could not find %s in generated code", filename)
 
         return files
 
@@ -428,7 +533,7 @@ class KernelGenerator:
 
                 code = code.replace(hex_float, decimal_val)
             except Exception as e:
-                print(f"Warning: Could not convert hex float {hex_float}: {e}")
+                logger.warning("Could not convert hex float %s: %s", hex_float, e)
                 code = code.replace(hex_float, "1.0")
 
         return code
@@ -436,29 +541,17 @@ class KernelGenerator:
     async def _generate_code_from_prompt(self, prompt: str):
         """Generate code from prompt using async API"""
         try:
-            if self.model_name.startswith("gpt-5") or self.model_name.startswith("o3"):
-                response = await self.client.responses.create(
-                    model=self.model_name, input=prompt, reasoning={"effort": self.reasoning_effort}
-                )
-                generated_code = response.output_text.strip()
-            else:
-                response = await self.client.chat.completions.create(
-                    model=self.model_name, messages=[{"role": "user", "content": prompt}]
-                )
-                generated_code = response.choices[0].message.content.strip()
-
+            generated_code = await self.llm.complete(prompt)
             cleaned_code = self._clean_generated_code(generated_code)
-
             return {"raw": generated_code, "cleaned": cleaned_code}
-
         except Exception as e:
-            print(f"Error while generating code: {e}")
+            logger.error("LLM code generation failed: %s", e)
             raise
 
     def _create_solution_from_code(
         self, code, definition: Definition, round_num: int, candidate_idx: int = 0
     ) -> Solution:
-        if self.model_name.startswith("gpt-5") or self.model_name.startswith("o3"):
+        if self.llm.is_reasoning_model:
             solution_name = f"{self.model_name}_{definition.name}_{self.language}_optimized_r{round_num}_c{candidate_idx}_{self.reasoning_effort}"
             solution_description = f"{self.model_name} optimized kernel for {definition.name} (round {round_num}, candidate {candidate_idx}, reasoning effort: {self.reasoning_effort})"
         else:

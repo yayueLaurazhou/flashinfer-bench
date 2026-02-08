@@ -1,0 +1,28 @@
+{
+  "name": "flashinfer_wrapper_ea3787",
+  "definition": "mla_paged_prefill_causal_h16_ckv512_kpe64_ps1",
+  "author": "flashinfer",
+  "spec": {
+    "language": "python",
+    "target_hardware": [
+      "NVIDIA GeForce RTX 4090",
+      "NVIDIA A100",
+      "NVIDIA H20",
+      "NVIDIA H100",
+      "NVIDIA H200",
+      "NVIDIA B200"
+    ],
+    "entry_point": "main.py::run",
+    "dependencies": [
+      "flashinfer"
+    ],
+    "destination_passing_style": false
+  },
+  "sources": [
+    {
+      "path": "main.py",
+      "content": "import torch\nimport flashinfer\n\n_WORKSPACE_SIZE_BYTES = 128 * 1024 * 1024\n_workspace_cache = {}\n_wrapper_cache = {}\n_plan_state = {}\n\n\ndef _get_workspace(device):\n    key = str(device)\n    buffer = _workspace_cache.get(key)\n    if buffer is None or buffer.device != device or buffer.numel() < _WORKSPACE_SIZE_BYTES:\n        buffer = torch.empty(_WORKSPACE_SIZE_BYTES, dtype=torch.int8, device=device)\n        _workspace_cache[key] = buffer\n    return buffer\n\n\ndef _get_wrapper(key, device):\n    wrapper = _wrapper_cache.get(key)\n    if wrapper is None:\n        workspace = _get_workspace(device)\n        wrapper = flashinfer.mla.BatchMLAPagedAttentionWrapper(workspace)\n        _wrapper_cache[key] = wrapper\n    return wrapper\n\n\ndef run(q_nope, q_pe, ckv_cache, kpe_cache, qo_indptr, kv_indptr, kv_indices, sm_scale):\n    total_q, num_qo_heads, head_dim_ckv = q_nope.shape\n    _, _, head_dim_kpe = q_pe.shape\n    page_size = ckv_cache.shape[1]\n    len_indptr = kv_indptr.shape[0]\n    num_kv_indices = kv_indices.shape[0]\n    batch_size = qo_indptr.shape[0] - 1\n\n    device = q_nope.device\n    wrapper_key = (\n        str(device),\n        num_qo_heads,\n        head_dim_ckv,\n        head_dim_kpe,\n        page_size,\n        q_nope.dtype,\n        q_pe.dtype,\n        ckv_cache.dtype,\n        kpe_cache.dtype,\n    )\n\n    wrapper = _get_wrapper(wrapper_key, device)\n    state = _plan_state.get(wrapper_key)\n\n    needs_plan = True\n    if state is not None:\n        needs_plan = (\n            state.get(\"total_q\") != total_q\n            or state.get(\"batch_size\") != batch_size\n            or state.get(\"len_indptr\") != len_indptr\n            or state.get(\"num_kv_indices\") != num_kv_indices\n            or state.get(\"sm_scale\") != sm_scale\n            or state.get(\"qo_indptr_ptr\") != qo_indptr.data_ptr()\n            or state.get(\"kv_indptr_ptr\") != kv_indptr.data_ptr()\n            or state.get(\"kv_indices_ptr\") != kv_indices.data_ptr()\n        )\n\n    if needs_plan:\n        kv_len_arr = (kv_indptr[1:] - kv_indptr[:-1]).to(torch.int32)\n        wrapper.plan(\n            qo_indptr=qo_indptr,\n            kv_indptr=kv_indptr,\n            kv_indices=kv_indices,\n            kv_len_arr=kv_len_arr,\n            num_heads=num_qo_heads,\n            head_dim_ckv=head_dim_ckv,\n            head_dim_kpe=head_dim_kpe,\n            page_size=page_size,\n            causal=True,\n            sm_scale=sm_scale,\n            q_data_type=q_nope.dtype,\n            kv_data_type=ckv_cache.dtype,\n        )\n        _plan_state[wrapper_key] = {\n            \"total_q\": total_q,\n            \"batch_size\": batch_size,\n            \"len_indptr\": len_indptr,\n            \"num_kv_indices\": num_kv_indices,\n            \"sm_scale\": sm_scale,\n            \"qo_indptr_ptr\": qo_indptr.data_ptr(),\n            \"kv_indptr_ptr\": kv_indptr.data_ptr(),\n            \"kv_indices_ptr\": kv_indices.data_ptr(),\n        }\n\n    output, lse = wrapper.run(\n        q_nope,\n        q_pe,\n        ckv_cache,\n        kpe_cache,\n        return_lse=True,\n    )\n\n    return output, lse\n"
+    }
+  ],
+  "description": "Solution using FlashInfer BatchMLAPagedAttentionWrapper."
+}
