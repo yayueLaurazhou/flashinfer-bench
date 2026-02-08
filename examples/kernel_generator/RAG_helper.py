@@ -37,8 +37,6 @@ Each query should target a different aspect:
 Kernel Specification:
 {definition}
 
-{error_context}
-
 Return ONLY a JSON array of exactly 3 query strings, nothing else.
 Example: ["query one", "query two", "query three"]
 """
@@ -112,8 +110,6 @@ class RAGHelper:
     async def retrieve(
         self,
         definition: Definition,
-        trace: Optional[Trace] = None,
-        current_code: Optional[str] = None,
     ) -> str:
         """High-level entry point: generate queries ➜ search ➜ return formatted RAG data.
 
@@ -131,7 +127,7 @@ class RAGHelper:
 
         logger.info("[RAG] Generating search queries via LLM...")
         t0 = time.perf_counter()
-        queries = await self._generate_queries(definition, trace, current_code)
+        queries = await self._generate_queries(definition)
         logger.info("[RAG] Query generation complete (%.2fs) — queries: %s", time.perf_counter() - t0, queries)
 
         # Run all searches concurrently
@@ -174,29 +170,11 @@ class RAGHelper:
     async def _generate_queries(
         self,
         definition: Definition,
-        trace: Optional[Trace] = None,
-        current_code: Optional[str] = None,
     ) -> List[str]:
         """Use an LLM to rewrite the kernel context into 3 targeted search queries."""
         definition_str = format_definition(definition)
-
-        # Build error context if a trace is available
-        error_context = ""
-        if trace is not None and trace.evaluation is not None:
-            status = trace.evaluation.status
-            trace_logs = format_trace_logs(trace)
-            error_context = (
-                f"Current Error Status: {status.value}\n"
-                f"Evaluation Details:\n{trace_logs}\n"
-            )
-            if current_code:
-                # Include a truncated version so the LLM can see what was attempted
-                truncated = current_code[:2000] + ("..." if len(current_code) > 2000 else "")
-                error_context += f"\nCurrent Code (truncated):\n{truncated}\n"
-
         prompt = QUERY_GENERATION_PROMPT.format(
-            definition=definition_str,
-            error_context=error_context if error_context else "No prior evaluation — this is the first generation attempt.",
+            definition=definition_str
         )
 
         try:

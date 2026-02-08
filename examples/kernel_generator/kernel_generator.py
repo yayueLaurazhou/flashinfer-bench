@@ -136,7 +136,7 @@ class KernelGenerator:
             logger.info("[Sequential] Retrieving RAG data for initial prompt...")
             t0 = time.perf_counter()
             initial_rag_data = await self.rag_helper.retrieve(
-                definition, trace=None, current_code=None
+                definition
             )
             logger.info(
                 "[Sequential] RAG retrieval complete (%.2fs, %d chars)",

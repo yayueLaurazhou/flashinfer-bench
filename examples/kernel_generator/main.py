@@ -121,7 +121,7 @@ def main():
                 solution = generator.generate(
                     trace_set=trace_set,
                     definition=definition,
-                    gen_rounds=10,  # For our baseline, we used 10 rounds
+                    gen_rounds=3,  # For our baseline, we used 10 rounds
                     # TODO: uncomment bellow to use beam search
                     # beam=True,
                     # beam_width=3,
