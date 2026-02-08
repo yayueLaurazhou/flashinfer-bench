@@ -1,0 +1,115 @@
+{
+  "description": "Documentation for 7.64. cudaResourceDesc Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "cudaarray_t_cudaresourcedescarray",
+      "title": "cudaArray_t cudaResourceDesc::array",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA array...",
+      "filename": "cudaarray_t_cudaresourcedescarray.md"
+    },
+    {
+      "id": "struct_cudachannelformatdesc_cudaresourcedescdesc",
+      "title": "struct cudaChannelFormatDesc cudaResourceDesc::desc",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Channel descriptor...",
+      "filename": "struct_cudachannelformatdesc_cudaresourcedescdesc.md"
+    },
+    {
+      "id": "void_cudaresourcedescdevptr",
+      "title": "void *cudaResourceDesc::devPtr",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Device pointer...",
+      "filename": "void_cudaresourcedescdevptr.md"
+    },
+    {
+      "id": "unsigned_int_cudaresourcedescflags",
+      "title": "unsigned int cudaResourceDesc::flags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Flags (must be zero)...",
+      "filename": "unsigned_int_cudaresourcedescflags.md"
+    },
+    {
+      "id": "size_t_cudaresourcedescheight",
+      "title": "size_t cudaResourceDesc::height",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Height of the array in elements...",
+      "filename": "size_t_cudaresourcedescheight.md"
+    },
+    {
+      "id": "cudamipmappedarray_t_cudaresourcedescmipmap",
+      "title": "cudaMipmappedArray_t cudaResourceDesc::mipmap",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA mipmapped array...",
+      "filename": "cudamipmappedarray_t_cudaresourcedescmipmap.md"
+    },
+    {
+      "id": "size_t_cudaresourcedescpitchinbytes",
+      "title": "size_t cudaResourceDesc::pitchInBytes",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Pitch between two rows in bytes...",
+      "filename": "size_t_cudaresourcedescpitchinbytes.md"
+    },
+    {
+      "id": "enumcudaresourcetype_cudaresourcedescrestype",
+      "title": "enumcudaResourceType cudaResourceDesc::resType",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Resource type   CUDA Runtime API vRelease Version  |  644   Data Structures...",
+      "filename": "enumcudaresourcetype_cudaresourcedescrestype.md"
+    },
+    {
+      "id": "size_t_cudaresourcedescsizeinbytes",
+      "title": "size_t cudaResourceDesc::sizeInBytes",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Size in bytes...",
+      "filename": "size_t_cudaresourcedescsizeinbytes.md"
+    },
+    {
+      "id": "size_t_cudaresourcedescwidth",
+      "title": "size_t cudaResourceDesc::width",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Width of the array in elements...",
+      "filename": "size_t_cudaresourcedescwidth.md"
+    }
+  ]
+}

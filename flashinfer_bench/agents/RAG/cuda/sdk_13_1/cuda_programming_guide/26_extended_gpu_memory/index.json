@@ -1,0 +1,24 @@
+{
+  "description": "Documentation for 26. Extended GPU Memory",
+  "directories": [
+    {
+      "name": "261_preliminaries",
+      "description": "## 26.1. Preliminaries[\uf0c1](#preliminaries \"Permalink to this headline\")  Before diving into API changes for EGM functionalities, we are going to cover currently supported topologies, identifier assignm..."
+    },
+    {
+      "name": "262_using_the_egm_interface",
+      "description": "## 26.2. Using the EGM Interface[\uf0c1](#using-the-egm-interface \"Permalink to this headline\")..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    }
+  ]
+}

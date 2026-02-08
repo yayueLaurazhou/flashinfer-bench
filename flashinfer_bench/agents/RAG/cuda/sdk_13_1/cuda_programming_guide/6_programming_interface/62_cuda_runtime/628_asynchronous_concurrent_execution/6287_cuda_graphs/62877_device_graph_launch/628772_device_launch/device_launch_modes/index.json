@@ -1,0 +1,50 @@
+{
+  "description": "Documentation for device-launch-modes",
+  "directories": [
+    {
+      "name": "tail_launch",
+      "description": "###### 6.2.8.7.7.2.1.3. Tail Launch[\uf0c1](#tail-launch \"Permalink to this headline\")  Unlike on the host, it is not possible to synchronize with device graphs from the GPU via traditional methods such as..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "fire_and_forget_launch",
+      "title": "fire-and-forget-launch",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "###### 6.2.8.7.7.2.1.1. Fire and Forget Launch[\uf0c1](#fire-and-forget-launch \"Permalink to this headline\")  As the name suggests, a fire and forget launch is submitted to the GPU immediately, and it runs...",
+      "filename": "fire_and_forget_launch.md"
+    },
+    {
+      "id": "graph_execution_environments",
+      "title": "graph-execution-environments",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "###### 6.2.8.7.7.2.1.2. Graph Execution Environments[\uf0c1](#graph-execution-environments \"Permalink to this headline\")  In order to fully understand the device-side synchronization model, it is first nec...",
+      "filename": "graph_execution_environments.md"
+    },
+    {
+      "id": "sibling_launch",
+      "title": "sibling-launch",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "###### 6.2.8.7.7.2.1.4. Sibling Launch[\uf0c1](#sibling-launch \"Permalink to this headline\")  Sibling launch is a variation of fire-and-forget launch in which the graph is launched not as a child of the la...",
+      "filename": "sibling_launch.md"
+    }
+  ]
+}

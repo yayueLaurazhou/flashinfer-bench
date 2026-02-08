@@ -1,0 +1,55 @@
+{
+  "description": "Documentation for 7.53. cudaMemcpyNodeParams Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "struct_cudamemcpy3dparms_cudamemcpynodeparamscopyparams",
+      "title": "struct cudaMemcpy3DParms cudaMemcpyNodeParams::copyParams",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Parameters for the memory copy...",
+      "filename": "struct_cudamemcpy3dparms_cudamemcpynodeparamscopyparams.md"
+    },
+    {
+      "id": "cudaexecutioncontext_t_cudamemcpynodeparamsctx",
+      "title": "cudaExecutionContext_t cudaMemcpyNodeParams::ctx",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Context in which to run the memcpy. If NULL will try to use the current context....",
+      "filename": "cudaexecutioncontext_t_cudamemcpynodeparamsctx.md"
+    },
+    {
+      "id": "int_cudamemcpynodeparamsflags",
+      "title": "int cudaMemcpyNodeParams::flags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Must be zero...",
+      "filename": "int_cudamemcpynodeparamsflags.md"
+    },
+    {
+      "id": "int_cudamemcpynodeparamsreserved",
+      "title": "int cudaMemcpyNodeParams::reserved",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Must be zero...",
+      "filename": "int_cudamemcpynodeparamsreserved.md"
+    }
+  ]
+}

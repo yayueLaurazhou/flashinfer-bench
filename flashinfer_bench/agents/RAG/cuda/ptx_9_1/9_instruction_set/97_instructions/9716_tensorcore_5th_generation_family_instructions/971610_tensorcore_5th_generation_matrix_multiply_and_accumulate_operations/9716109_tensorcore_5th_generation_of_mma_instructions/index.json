@@ -1,0 +1,55 @@
+{
+  "description": "Documentation for 9.7.16.10.9. TensorCore 5th Generation of MMA Instructions",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "97161091_tensorcore_5th_generation_instructions_tcgen05mma",
+      "title": "9.7.16.10.9.1. TensorCore 5th Generation Instructions: tcgen05.mma",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`tcgen05.mma`",
+      "filename": "97161091_tensorcore_5th_generation_instructions_tcgen05mma.md"
+    },
+    {
+      "id": "97161092_tensorcore_5th_generation_instructions_tcgen05mmasp",
+      "title": "9.7.16.10.9.2. TensorCore 5th Generation Instructions: tcgen05.mma.sp",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`tcgen05.mma.sp`",
+      "filename": "97161092_tensorcore_5th_generation_instructions_tcgen05mmasp.md"
+    },
+    {
+      "id": "97161093_tensorcore_5th_generation_instructions_tcgen05mmaws",
+      "title": "9.7.16.10.9.3. TensorCore 5th Generation Instructions: tcgen05.mma.ws",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`tcgen05.mma.ws`",
+      "filename": "97161093_tensorcore_5th_generation_instructions_tcgen05mmaws.md"
+    },
+    {
+      "id": "97161094_tensorcore_5th_generation_instructions_tcgen05mmawssp",
+      "title": "9.7.16.10.9.4. TensorCore 5th Generation Instructions: tcgen05.mma.ws.sp",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`tcgen05.mma.ws.sp`",
+      "filename": "97161094_tensorcore_5th_generation_instructions_tcgen05mmawssp.md"
+    }
+  ]
+}

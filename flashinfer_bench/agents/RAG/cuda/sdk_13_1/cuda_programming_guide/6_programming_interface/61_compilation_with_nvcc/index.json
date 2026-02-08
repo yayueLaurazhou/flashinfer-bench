@@ -1,0 +1,70 @@
+{
+  "description": "Documentation for 6.1. Compilation with NVCC",
+  "directories": [
+    {
+      "name": "611_compilation_workflow",
+      "description": "### 6.1.1. Compilation Workflow[\uf0c1](#compilation-workflow \"Permalink to this headline\")..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "612_binary_compatibility",
+      "title": "6.1.2. Binary Compatibility",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 6.1.2. Binary Compatibility[\uf0c1](#binary-compatibility \"Permalink to this headline\")  Binary code is architecture-specific. A *cubin* object is generated using the compiler option `-code` that speci...",
+      "filename": "612_binary_compatibility.md"
+    },
+    {
+      "id": "613_ptx_compatibility",
+      "title": "6.1.3. PTX Compatibility",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 6.1.3. PTX Compatibility[\uf0c1](#ptx-compatibility \"Permalink to this headline\")  Some *PTX* instructions are only supported on devices of higher compute capabilities. For example, [Warp Shuffle Funct...",
+      "filename": "613_ptx_compatibility.md"
+    },
+    {
+      "id": "614_application_compatibility",
+      "title": "6.1.4. Application Compatibility",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 6.1.4. Application Compatibility[\uf0c1](#application-compatibility \"Permalink to this headline\")  To execute code on devices of specific compute capability, an application must load binary or *PTX* co...",
+      "filename": "614_application_compatibility.md"
+    },
+    {
+      "id": "615_c_compatibility",
+      "title": "6.1.5. C++ Compatibility",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 6.1.5. C++ Compatibility[\uf0c1](#c-compatibility \"Permalink to this headline\")  The front end of the compiler processes CUDA source files according to C++ syntax rules. Full C++ is supported for the h...",
+      "filename": "615_c_compatibility.md"
+    },
+    {
+      "id": "616_64_bit_compatibility",
+      "title": "6.1.6. 64-Bit Compatibility",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 6.1.6. 64-Bit Compatibility[\uf0c1](#bit-compatibility \"Permalink to this headline\")  The 64-bit version of `nvcc` compiles device code in 64-bit mode (i.e., pointers are 64-bit). Device code compiled ...",
+      "filename": "616_64_bit_compatibility.md"
+    }
+  ]
+}

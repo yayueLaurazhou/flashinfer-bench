@@ -1,0 +1,55 @@
+{
+  "description": "Documentation for 9.7.15.5.1.1. Register Fragments",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "This section describes the organization of various matrices located in register operands of the `wgmma.mma_async` instruction."
+    },
+    {
+      "id": "asynchronous_warpgroup_level_matrix_register_fragment_wgmma_64n16",
+      "title": "asynchronous-warpgroup-level-matrix-register-fragment-wgmma-64n16",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "A warpgroup executing `wgmma.mma_async.m64nNk16` will compute an MMA operation of shape `.m64nNk16` where N is a valid `n` dimension as listed in [Matrix Shape](https://docs.nvidia.com/cuda/parallel-thread-execution/#asynchronous-warpgroup-level-matrix-shape).",
+      "filename": "asynchronous_warpgroup_level_matrix_register_fragment_wgmma_64n16.md"
+    },
+    {
+      "id": "asynchronous_warpgroup_level_matrix_register_fragment_wgmma_64n8",
+      "title": "asynchronous-warpgroup-level-matrix-register-fragment-wgmma-64n8",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "A warpgroup executing `wgmma.mma_async.m64nNk8` will compute an MMA operation of shape `.m64nNk8` where N is a valid `n` dimension as listed in [Matrix Shape](https://docs.nvidia.com/cuda/parallel-thread-execution/#asynchronous-warpgroup-level-matrix-shape).",
+      "filename": "asynchronous_warpgroup_level_matrix_register_fragment_wgmma_64n8.md"
+    },
+    {
+      "id": "asynchronous_warpgroup_level_matrix_register_fragment_wgmma_64n32",
+      "title": "asynchronous-warpgroup-level-matrix-register-fragment-wgmma-64n32",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "A warpgroup executing `wgmma.mma_async.m64nNk32` will compute an MMA operation of shape `.m64nNk32` where N is a valid `n` dimension as listed in [Matrix Shape](https://docs.nvidia.com/cuda/parallel-thread-execution/#asynchronous-warpgroup-level-matrix-shape).",
+      "filename": "asynchronous_warpgroup_level_matrix_register_fragment_wgmma_64n32.md"
+    },
+    {
+      "id": "asynchronous_warpgroup_level_matrix_register_fragment_wgmma_64n256",
+      "title": "asynchronous-warpgroup-level-matrix-register-fragment-wgmma-64n256",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "A warpgroup executing `wgmma.mma_async.m64nNk256` will compute an MMA operation of shape `.m64nNk256` where N is a valid `n` dimension as listed in [Matrix Shape](https://docs.nvidia.com/cuda/parallel-thread-execution/#asynchronous-warpgroup-level-matrix-shape).",
+      "filename": "asynchronous_warpgroup_level_matrix_register_fragment_wgmma_64n256.md"
+    }
+  ]
+}

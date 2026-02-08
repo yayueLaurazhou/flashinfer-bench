@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 7.46. cudaMemAccessDesc Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "enumcudamemaccessflags_cudamemaccessdescflags",
+      "title": "enumcudaMemAccessFlags cudaMemAccessDesc::flags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUmemProt accessibility flags to set on the request...",
+      "filename": "enumcudamemaccessflags_cudamemaccessdescflags.md"
+    },
+    {
+      "id": "struct_cudamemlocation_cudamemaccessdesclocation",
+      "title": "struct cudaMemLocation cudaMemAccessDesc::location",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Location on which the request is to change it's accessibility...",
+      "filename": "struct_cudamemlocation_cudamemaccessdesclocation.md"
+    }
+  ]
+}

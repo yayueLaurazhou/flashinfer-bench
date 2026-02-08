@@ -1,0 +1,145 @@
+{
+  "description": "Documentation for 7.66. cudaTextureDesc Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "enumcudatextureaddressmode_cudatexturedescaddressmode",
+      "title": "enumcudaTextureAddressMode cudaTextureDesc::addressMode",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Texture address mode for up to 3 dimensions...",
+      "filename": "enumcudatextureaddressmode_cudatexturedescaddressmode.md"
+    },
+    {
+      "id": "float_cudatexturedescbordercolor",
+      "title": "float cudaTextureDesc::borderColor",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Texture Border Color...",
+      "filename": "float_cudatexturedescbordercolor.md"
+    },
+    {
+      "id": "int_cudatexturedescdisabletrilinearoptimization",
+      "title": "int cudaTextureDesc::disableTrilinearOptimization",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Disable any trilinear filtering optimizations....",
+      "filename": "int_cudatexturedescdisabletrilinearoptimization.md"
+    },
+    {
+      "id": "enumcudatexturefiltermode_cudatexturedescfiltermode",
+      "title": "enumcudaTextureFilterMode cudaTextureDesc::filterMode",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Texture filter mode...",
+      "filename": "enumcudatexturefiltermode_cudatexturedescfiltermode.md"
+    },
+    {
+      "id": "unsigned_int_cudatexturedescmaxanisotropy",
+      "title": "unsigned int cudaTextureDesc::maxAnisotropy",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Limit to the anisotropy ratio...",
+      "filename": "unsigned_int_cudatexturedescmaxanisotropy.md"
+    },
+    {
+      "id": "float_cudatexturedescmaxmipmaplevelclamp",
+      "title": "float cudaTextureDesc::maxMipmapLevelClamp",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Upper end of the mipmap level range to clamp access to...",
+      "filename": "float_cudatexturedescmaxmipmaplevelclamp.md"
+    },
+    {
+      "id": "float_cudatexturedescminmipmaplevelclamp",
+      "title": "float cudaTextureDesc::minMipmapLevelClamp",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Lower end of the mipmap level range to clamp access to   CUDA Runtime API vRelease Version  |  646   Data Structures...",
+      "filename": "float_cudatexturedescminmipmaplevelclamp.md"
+    },
+    {
+      "id": "enumcudatexturefiltermode_cudatexturedescmipmapfiltermode",
+      "title": "enumcudaTextureFilterMode cudaTextureDesc::mipmapFilterMode",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Mipmap filter mode...",
+      "filename": "enumcudatexturefiltermode_cudatexturedescmipmapfiltermode.md"
+    },
+    {
+      "id": "float_cudatexturedescmipmaplevelbias",
+      "title": "float cudaTextureDesc::mipmapLevelBias",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Offset applied to the supplied mipmap level...",
+      "filename": "float_cudatexturedescmipmaplevelbias.md"
+    },
+    {
+      "id": "int_cudatexturedescnormalizedcoords",
+      "title": "int cudaTextureDesc::normalizedCoords",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Indicates whether texture reads are normalized or not...",
+      "filename": "int_cudatexturedescnormalizedcoords.md"
+    },
+    {
+      "id": "enumcudatexturereadmode_cudatexturedescreadmode",
+      "title": "enumcudaTextureReadMode cudaTextureDesc::readMode",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Texture read mode...",
+      "filename": "enumcudatexturereadmode_cudatexturedescreadmode.md"
+    },
+    {
+      "id": "int_cudatexturedescseamlesscubemap",
+      "title": "int cudaTextureDesc::seamlessCubemap",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Enable seamless cube map filtering....",
+      "filename": "int_cudatexturedescseamlesscubemap.md"
+    },
+    {
+      "id": "int_cudatexturedescsrgb",
+      "title": "int cudaTextureDesc::sRGB",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Perform sRGB->linear conversion during texture read...",
+      "filename": "int_cudatexturedescsrgb.md"
+    }
+  ]
+}

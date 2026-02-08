@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 7.3. cudaArrayMemoryRequirements Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "size_t_cudaarraymemoryrequirementsalignment",
+      "title": "size_t cudaArrayMemoryRequirements::alignment",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Alignment necessary for mapping the array....",
+      "filename": "size_t_cudaarraymemoryrequirementsalignment.md"
+    },
+    {
+      "id": "size_t_cudaarraymemoryrequirementssize",
+      "title": "size_t cudaArrayMemoryRequirements::size",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Total size of the array....",
+      "filename": "size_t_cudaarraymemoryrequirementssize.md"
+    }
+  ]
+}

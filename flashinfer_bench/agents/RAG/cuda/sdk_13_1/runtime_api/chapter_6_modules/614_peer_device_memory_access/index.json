@@ -1,0 +1,45 @@
+{
+  "description": "Documentation for 6.14. Peer Device Memory Access",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "__host__cudaerror_t_cudadevicecanaccesspeer_int_canacce_cd6f4fc1",
+      "title": "__host__cudaError_t cudaDeviceCanAccessPeer (int *canAccessPeer, int device, int peerDevice)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Queries if a device may directly access a peer device's memory....",
+      "filename": "__host__cudaerror_t_cudadevicecanaccesspeer_int_canacce_cd6f4fc1.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudadevicedisablepeeraccess_int_peerdevice",
+      "title": "__host__cudaError_t cudaDeviceDisablePeerAccess (int peerDevice)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Disables direct access to memory allocations on a peer device....",
+      "filename": "__host__cudaerror_t_cudadevicedisablepeeraccess_int_peerdevice.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudadeviceenablepeeraccess_int_peer_2cefb621",
+      "title": "__host__cudaError_t cudaDeviceEnablePeerAccess (int peerDevice, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Enables direct access to memory allocations on a peer device....",
+      "filename": "__host__cudaerror_t_cudadeviceenablepeeraccess_int_peer_2cefb621.md"
+    }
+  ]
+}

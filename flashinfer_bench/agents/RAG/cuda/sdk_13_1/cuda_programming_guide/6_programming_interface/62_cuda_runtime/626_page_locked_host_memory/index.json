@@ -1,0 +1,45 @@
+{
+  "description": "Documentation for 6.2.6. Page-Locked Host Memory",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "6261_portable_memory",
+      "title": "6.2.6.1. Portable Memory",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 6.2.6.1. Portable Memory[\uf0c1](#portable-memory \"Permalink to this headline\")  A block of page-locked memory can be used in conjunction with any device in the system (see [Multi-Device System](#mult...",
+      "filename": "6261_portable_memory.md"
+    },
+    {
+      "id": "6262_write_combining_memory",
+      "title": "6.2.6.2. Write-Combining Memory",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 6.2.6.2. Write-Combining Memory[\uf0c1](#write-combining-memory \"Permalink to this headline\")  By default page-locked host memory is allocated as cacheable. It can optionally be allocated as *write-co...",
+      "filename": "6262_write_combining_memory.md"
+    },
+    {
+      "id": "6263_mapped_memory",
+      "title": "6.2.6.3. Mapped Memory",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 6.2.6.3. Mapped Memory[\uf0c1](#mapped-memory \"Permalink to this headline\")  A block of page-locked host memory can also be mapped into the address space of the device by passing flag `cudaHostAllocMa...",
+      "filename": "6263_mapped_memory.md"
+    }
+  ]
+}

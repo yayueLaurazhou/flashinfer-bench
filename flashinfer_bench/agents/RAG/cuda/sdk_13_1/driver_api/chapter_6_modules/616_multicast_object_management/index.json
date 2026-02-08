@@ -1,0 +1,95 @@
+{
+  "description": "Documentation for 6.16. Multicast Object Management",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "curesult_cumulticastadddevice_cumemgenericallocationhan_3d9dd1d4",
+      "title": "CUresult cuMulticastAddDevice (CUmemGenericAllocationHandle mcHandle, CUdevice dev)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Associate a device to a multicast object....",
+      "filename": "curesult_cumulticastadddevice_cumemgenericallocationhan_3d9dd1d4.md"
+    },
+    {
+      "id": "curesult_cumulticastbindaddr_cumemgenericallocationhand_d391ddbe",
+      "title": "CUresult cuMulticastBindAddr (CUmemGenericAllocationHandle mcHandle, size_t mcOffset, CUdeviceptr memptr, size_t size, unsigned long long flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Bind a memory allocation represented by a virtual address to a multicast object....",
+      "filename": "curesult_cumulticastbindaddr_cumemgenericallocationhand_d391ddbe.md"
+    },
+    {
+      "id": "curesult_cumulticastbindaddr_v2_cumemgenericallocationh_36b4cf7b",
+      "title": "CUresult cuMulticastBindAddr_v2 (CUmemGenericAllocationHandle mcHandle, CUdevice dev, size_t mcOffset, CUdeviceptr memptr, size_t size, unsigned long long flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Bind a memory allocation represented by a virtual address to a multicast object....",
+      "filename": "curesult_cumulticastbindaddr_v2_cumemgenericallocationh_36b4cf7b.md"
+    },
+    {
+      "id": "curesult_cumulticastbindmem_cumemgenericallocationhandl_7d6ef96b",
+      "title": "CUresult cuMulticastBindMem (CUmemGenericAllocationHandle mcHandle, size_t mcOffset, CUmemGenericAllocationHandle memHandle, size_t memOffset, size_t size, unsigned long long flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Bind a memory allocation represented by a handle to a multicast object....",
+      "filename": "curesult_cumulticastbindmem_cumemgenericallocationhandl_7d6ef96b.md"
+    },
+    {
+      "id": "curesult_cumulticastbindmem_v2_cumemgenericallocationha_6ef0de47",
+      "title": "CUresult cuMulticastBindMem_v2 (CUmemGenericAllocationHandle mcHandle, CUdevice dev, size_t mcOffset, CUmemGenericAllocationHandle memHandle, size_t memOffset, size_t size, unsigned long long flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Bind a memory allocation represented by a handle to a multicast object....",
+      "filename": "curesult_cumulticastbindmem_v2_cumemgenericallocationha_6ef0de47.md"
+    },
+    {
+      "id": "curesult_cumulticastcreate_cumemgenericallocationhandle_c3cae5ac",
+      "title": "CUresult cuMulticastCreate (CUmemGenericAllocationHandle *mcHandle, const CUmulticastObjectProp *prop)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Create a generic allocation handle representing a multicast object described by the given properties....",
+      "filename": "curesult_cumulticastcreate_cumemgenericallocationhandle_c3cae5ac.md"
+    },
+    {
+      "id": "curesult_cumulticastgetgranularity_size_t_granularity_c_bbfb4d03",
+      "title": "CUresult cuMulticastGetGranularity (size_t *granularity, const CUmulticastObjectProp *prop, CUmulticastGranularity_flags option)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Calculates either the minimal or recommended granularity for multicast object....",
+      "filename": "curesult_cumulticastgetgranularity_size_t_granularity_c_bbfb4d03.md"
+    },
+    {
+      "id": "curesult_cumulticastunbind_cumemgenericallocationhandle_dc145dce",
+      "title": "CUresult cuMulticastUnbind (CUmemGenericAllocationHandle mcHandle, CUdevice dev, size_t mcOffset, size_t size)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Unbind any memory allocations bound to a multicast object at a given offset and upto a given size....",
+      "filename": "curesult_cumulticastunbind_cumemgenericallocationhandle_dc145dce.md"
+    }
+  ]
+}

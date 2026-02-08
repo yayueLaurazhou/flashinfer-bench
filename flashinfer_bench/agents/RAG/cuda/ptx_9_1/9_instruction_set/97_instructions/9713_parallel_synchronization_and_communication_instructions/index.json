@@ -1,0 +1,190 @@
+{
+  "description": "Documentation for 9.7.13. Parallel Synchronization and Communication Instructions",
+  "directories": [
+    {
+      "name": "971315_parallel_synchronization_and_communication_instructions_mbarrier",
+      "description": "`mbarrier` is a barrier created in shared memory that supports :"
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "These instructions are:"
+    },
+    {
+      "id": "97131_parallel_synchronization_and_communication_instructions_bar_barrier",
+      "title": "9.7.13.1. Parallel Synchronization and Communication Instructions: bar, barrier",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`bar`, `bar.cta`, `barrier`, `barrier.cta`",
+      "filename": "97131_parallel_synchronization_and_communication_instructions_bar_barrier.md"
+    },
+    {
+      "id": "97132_parallel_synchronization_and_communication_instructions_barwarpsync",
+      "title": "9.7.13.2. Parallel Synchronization and Communication Instructions: bar.warp.sync",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`bar.warp.sync`",
+      "filename": "97132_parallel_synchronization_and_communication_instructions_barwarpsync.md"
+    },
+    {
+      "id": "97133_parallel_synchronization_and_communication_instructions_barriercluster",
+      "title": "9.7.13.3. Parallel Synchronization and Communication Instructions: barrier.cluster",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`barrier.cluster`",
+      "filename": "97133_parallel_synchronization_and_communication_instructions_barriercluster.md"
+    },
+    {
+      "id": "97134_parallel_synchronization_and_communication_instructions_membar_fence",
+      "title": "9.7.13.4. Parallel Synchronization and Communication Instructions: membar / fence",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`membar`, `fence`",
+      "filename": "97134_parallel_synchronization_and_communication_instructions_membar_fence.md"
+    },
+    {
+      "id": "97135_parallel_synchronization_and_communication_instructions_atom",
+      "title": "9.7.13.5. Parallel Synchronization and Communication Instructions: atom",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`atom`",
+      "filename": "97135_parallel_synchronization_and_communication_instructions_atom.md"
+    },
+    {
+      "id": "97136_parallel_synchronization_and_communication_instructions_red",
+      "title": "9.7.13.6. Parallel Synchronization and Communication Instructions: red",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`red`",
+      "filename": "97136_parallel_synchronization_and_communication_instructions_red.md"
+    },
+    {
+      "id": "97137_parallel_synchronization_and_communication_instructions_redasync",
+      "title": "9.7.13.7. Parallel Synchronization and Communication Instructions: red.async",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`red.async`",
+      "filename": "97137_parallel_synchronization_and_communication_instructions_redasync.md"
+    },
+    {
+      "id": "97138_parallel_synchronization_and_communication_instructions_vote_deprecated",
+      "title": "9.7.13.8. Parallel Synchronization and Communication Instructions: vote (deprecated)",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`vote` (deprecated)",
+      "filename": "97138_parallel_synchronization_and_communication_instructions_vote_deprecated.md"
+    },
+    {
+      "id": "97139_parallel_synchronization_and_communication_instructions_votesync",
+      "title": "9.7.13.9. Parallel Synchronization and Communication Instructions: vote.sync",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`vote.sync`",
+      "filename": "97139_parallel_synchronization_and_communication_instructions_votesync.md"
+    },
+    {
+      "id": "971310_parallel_synchronization_and_communication_instructions_matchsync",
+      "title": "9.7.13.10. Parallel Synchronization and Communication Instructions: match.sync",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`match.sync`",
+      "filename": "971310_parallel_synchronization_and_communication_instructions_matchsync.md"
+    },
+    {
+      "id": "971311_parallel_synchronization_and_communication_instructions_activemask",
+      "title": "9.7.13.11. Parallel Synchronization and Communication Instructions: activemask",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`activemask`",
+      "filename": "971311_parallel_synchronization_and_communication_instructions_activemask.md"
+    },
+    {
+      "id": "971312_parallel_synchronization_and_communication_instructions_reduxsync",
+      "title": "9.7.13.12. Parallel Synchronization and Communication Instructions: redux.sync",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`redux.sync`",
+      "filename": "971312_parallel_synchronization_and_communication_instructions_reduxsync.md"
+    },
+    {
+      "id": "971313_parallel_synchronization_and_communication_instructions_griddepcontrol",
+      "title": "9.7.13.13. Parallel Synchronization and Communication Instructions: griddepcontrol",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`griddepcontrol`",
+      "filename": "971313_parallel_synchronization_and_communication_instructions_griddepcontrol.md"
+    },
+    {
+      "id": "971314_parallel_synchronization_and_communication_instructions_electsync",
+      "title": "9.7.13.14. Parallel Synchronization and Communication Instructions: elect.sync",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`elect.sync`",
+      "filename": "971314_parallel_synchronization_and_communication_instructions_electsync.md"
+    },
+    {
+      "id": "971316_parallel_synchronization_and_communication_instructions_tensormapcp_fenceproxy",
+      "title": "9.7.13.16. Parallel Synchronization and Communication Instructions: tensormap.cp_fenceproxy",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`tensormap.cp_fenceproxy`",
+      "filename": "971316_parallel_synchronization_and_communication_instructions_tensormapcp_fenceproxy.md"
+    },
+    {
+      "id": "971317_parallel_synchronization_and_communication_instructions_clusterlaunchcontroltry_cancel",
+      "title": "9.7.13.17. Parallel Synchronization and Communication Instructions: clusterlaunchcontrol.try_cancel",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`clusterlaunchcontrol.try_cancel`",
+      "filename": "971317_parallel_synchronization_and_communication_instructions_clusterlaunchcontroltry_cancel.md"
+    },
+    {
+      "id": "971318_parallel_synchronization_and_communication_instructions_clusterlaunchcontrolquery_cancel",
+      "title": "9.7.13.18. Parallel Synchronization and Communication Instructions: clusterlaunchcontrol.query_cancel",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`clusterlaunchcontrol.query_cancel`",
+      "filename": "971318_parallel_synchronization_and_communication_instructions_clusterlaunchcontrolquery_cancel.md"
+    }
+  ]
+}

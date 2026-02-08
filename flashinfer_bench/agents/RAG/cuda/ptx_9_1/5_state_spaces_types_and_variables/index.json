@@ -1,0 +1,36 @@
+{
+  "description": "Documentation for 5. State Spaces, Types, and Variables",
+  "directories": [
+    {
+      "name": "51_state_spaces",
+      "description": "A state space is a storage area with particular characteristics. All variables reside in some state space. The characteristics of a state space include its size, addressability, access speed, access rights, and level of sharing between threads."
+    },
+    {
+      "name": "52_types",
+      "description": "Documentation for Types."
+    },
+    {
+      "name": "53_texture_sampler_and_surface_types",
+      "description": "PTX includes built-in *opaque* types for defining texture, sampler, and surface descriptor variables. These types have named fields similar to structures, but all information about layout, field ordering, base address, and overall size is hidden to a PTX program, hence the term *opaque*. The use ..."
+    },
+    {
+      "name": "54_variables",
+      "description": "In PTX, a variable declaration describes both the variable\u2019s type and its state space. In addition to fundamental types, PTX supports types for simple aggregate objects such as vectors and arrays."
+    },
+    {
+      "name": "55_tensors",
+      "description": "A tensor is a multi-dimensional matrix structure in the memory. Tensor is defined by the following properties:"
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "While the specific resources available in a given target GPU will vary, the kinds of resources will be common across platforms, and these resources are abstracted in PTX through state spaces and data types."
+    }
+  ]
+}

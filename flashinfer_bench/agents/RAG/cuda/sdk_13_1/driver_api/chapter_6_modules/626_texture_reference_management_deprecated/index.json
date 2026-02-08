@@ -1,0 +1,285 @@
+{
+  "description": "Documentation for 6.26. Texture Reference Management [DEPRECATED]",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "curesult_cutexrefcreate_cutexref_ptexref",
+      "title": "CUresult cuTexRefCreate (CUtexref *pTexRef)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Creates a texture reference....",
+      "filename": "curesult_cutexrefcreate_cutexref_ptexref.md"
+    },
+    {
+      "id": "curesult_cutexrefdestroy_cutexref_htexref",
+      "title": "CUresult cuTexRefDestroy (CUtexref hTexRef)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Destroys a texture reference....",
+      "filename": "curesult_cutexrefdestroy_cutexref_htexref.md"
+    },
+    {
+      "id": "curesult_cutexrefgetaddress_cudeviceptr_pdptr_cutexref_htexref",
+      "title": "CUresult cuTexRefGetAddress (CUdeviceptr *pdptr, CUtexref hTexRef)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Gets the address associated with a texture reference....",
+      "filename": "curesult_cutexrefgetaddress_cudeviceptr_pdptr_cutexref_htexref.md"
+    },
+    {
+      "id": "curesult_cutexrefgetaddressmode_cuaddress_mode_pam_cute_7cd9dabe",
+      "title": "CUresult cuTexRefGetAddressMode (CUaddress_mode *pam, CUtexref hTexRef, int dim)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Gets the addressing mode used by a texture reference....",
+      "filename": "curesult_cutexrefgetaddressmode_cuaddress_mode_pam_cute_7cd9dabe.md"
+    },
+    {
+      "id": "curesult_cutexrefgetarray_cuarray_pharray_cutexref_htexref",
+      "title": "CUresult cuTexRefGetArray (CUarray *phArray, CUtexref hTexRef)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Gets the array bound to a texture reference....",
+      "filename": "curesult_cutexrefgetarray_cuarray_pharray_cutexref_htexref.md"
+    },
+    {
+      "id": "curesult_cutexrefgetbordercolor_float_pbordercolor_cute_fde6797c",
+      "title": "CUresult cuTexRefGetBorderColor (float *pBorderColor, CUtexref hTexRef)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Gets the border color used by a texture reference....",
+      "filename": "curesult_cutexrefgetbordercolor_float_pbordercolor_cute_fde6797c.md"
+    },
+    {
+      "id": "curesult_cutexrefgetfiltermode_cufilter_mode_pfm_cutexr_3683bbea",
+      "title": "CUresult cuTexRefGetFilterMode (CUfilter_mode *pfm, CUtexref hTexRef)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Gets the filter-mode used by a texture reference....",
+      "filename": "curesult_cutexrefgetfiltermode_cufilter_mode_pfm_cutexr_3683bbea.md"
+    },
+    {
+      "id": "curesult_cutexrefgetflags_unsigned_int_pflags_cutexref_htexref",
+      "title": "CUresult cuTexRefGetFlags (unsigned int *pFlags, CUtexref hTexRef)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Gets the flags used by a texture reference....",
+      "filename": "curesult_cutexrefgetflags_unsigned_int_pflags_cutexref_htexref.md"
+    },
+    {
+      "id": "curesult_cutexrefgetformat_cuarray_format_pformat_int_p_d8ee58c6",
+      "title": "CUresult cuTexRefGetFormat (CUarray_format *pFormat, int *pNumChannels, CUtexref hTexRef)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Gets the format used by a texture reference....",
+      "filename": "curesult_cutexrefgetformat_cuarray_format_pformat_int_p_d8ee58c6.md"
+    },
+    {
+      "id": "curesult_cutexrefgetmaxanisotropy_int_pmaxaniso_cutexref_htexref",
+      "title": "CUresult cuTexRefGetMaxAnisotropy (int *pmaxAniso, CUtexref hTexRef)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Gets the maximum anisotropy for a texture reference....",
+      "filename": "curesult_cutexrefgetmaxanisotropy_int_pmaxaniso_cutexref_htexref.md"
+    },
+    {
+      "id": "curesult_cutexrefgetmipmapfiltermode_cufilter_mode_pfm__17c56cb7",
+      "title": "CUresult cuTexRefGetMipmapFilterMode (CUfilter_mode *pfm, CUtexref hTexRef)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Gets the mipmap filtering mode for a texture reference....",
+      "filename": "curesult_cutexrefgetmipmapfiltermode_cufilter_mode_pfm__17c56cb7.md"
+    },
+    {
+      "id": "curesult_cutexrefgetmipmaplevelbias_float_pbias_cutexref_htexref",
+      "title": "CUresult cuTexRefGetMipmapLevelBias (float *pbias, CUtexref hTexRef)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Gets the mipmap level bias for a texture reference....",
+      "filename": "curesult_cutexrefgetmipmaplevelbias_float_pbias_cutexref_htexref.md"
+    },
+    {
+      "id": "curesult_cutexrefgetmipmaplevelclamp_float_pminmipmaple_fec48c07",
+      "title": "CUresult cuTexRefGetMipmapLevelClamp (float *pminMipmapLevelClamp, float *pmaxMipmapLevelClamp, CUtexref hTexRef)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Gets the min/max mipmap level clamps for a texture reference....",
+      "filename": "curesult_cutexrefgetmipmaplevelclamp_float_pminmipmaple_fec48c07.md"
+    },
+    {
+      "id": "curesult_cutexrefgetmipmappedarray_cumipmappedarray_phm_e87f4fcf",
+      "title": "CUresult cuTexRefGetMipmappedArray (CUmipmappedArray *phMipmappedArray, CUtexref hTexRef)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Gets the mipmapped array bound to a texture reference....",
+      "filename": "curesult_cutexrefgetmipmappedarray_cumipmappedarray_phm_e87f4fcf.md"
+    },
+    {
+      "id": "curesult_cutexrefsetaddress_size_t_byteoffset_cutexref__d713297a",
+      "title": "CUresult cuTexRefSetAddress (size_t *ByteOffset, CUtexref hTexRef, CUdeviceptr dptr, size_t bytes)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Binds an address as a texture reference....",
+      "filename": "curesult_cutexrefsetaddress_size_t_byteoffset_cutexref__d713297a.md"
+    },
+    {
+      "id": "curesult_cutexrefsetaddress2d_cutexref_htexref_const_cu_dcbded2d",
+      "title": "CUresult cuTexRefSetAddress2D (CUtexref hTexRef, const CUDA_ARRAY_DESCRIPTOR *desc, CUdeviceptr dptr, size_t Pitch)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Binds an address as a 2D texture reference....",
+      "filename": "curesult_cutexrefsetaddress2d_cutexref_htexref_const_cu_dcbded2d.md"
+    },
+    {
+      "id": "curesult_cutexrefsetaddressmode_cutexref_htexref_int_di_44c36f4b",
+      "title": "CUresult cuTexRefSetAddressMode (CUtexref hTexRef, int dim, CUaddress_mode am)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets the addressing mode for a texture reference....",
+      "filename": "curesult_cutexrefsetaddressmode_cutexref_htexref_int_di_44c36f4b.md"
+    },
+    {
+      "id": "curesult_cutexrefsetarray_cutexref_htexref_cuarray_harr_678d988c",
+      "title": "CUresult cuTexRefSetArray (CUtexref hTexRef, CUarray hArray, unsigned int Flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Binds an array as a texture reference....",
+      "filename": "curesult_cutexrefsetarray_cutexref_htexref_cuarray_harr_678d988c.md"
+    },
+    {
+      "id": "curesult_cutexrefsetbordercolor_cutexref_htexref_float__797b0bbe",
+      "title": "CUresult cuTexRefSetBorderColor (CUtexref hTexRef, float *pBorderColor)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets the border color for a texture reference....",
+      "filename": "curesult_cutexrefsetbordercolor_cutexref_htexref_float__797b0bbe.md"
+    },
+    {
+      "id": "curesult_cutexrefsetfiltermode_cutexref_htexref_cufilter_mode_fm",
+      "title": "CUresult cuTexRefSetFilterMode (CUtexref hTexRef, CUfilter_mode fm)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets the filtering mode for a texture reference....",
+      "filename": "curesult_cutexrefsetfiltermode_cutexref_htexref_cufilter_mode_fm.md"
+    },
+    {
+      "id": "curesult_cutexrefsetflags_cutexref_htexref_unsigned_int_flags",
+      "title": "CUresult cuTexRefSetFlags (CUtexref hTexRef, unsigned int Flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets the flags for a texture reference....",
+      "filename": "curesult_cutexrefsetflags_cutexref_htexref_unsigned_int_flags.md"
+    },
+    {
+      "id": "curesult_cutexrefsetformat_cutexref_htexref_cuarray_for_41518c6c",
+      "title": "CUresult cuTexRefSetFormat (CUtexref hTexRef, CUarray_format fmt, int NumPackedComponents)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets the format for a texture reference....",
+      "filename": "curesult_cutexrefsetformat_cutexref_htexref_cuarray_for_41518c6c.md"
+    },
+    {
+      "id": "curesult_cutexrefsetmaxanisotropy_cutexref_htexref_unsi_6619e8e7",
+      "title": "CUresult cuTexRefSetMaxAnisotropy (CUtexref hTexRef, unsigned int maxAniso)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets the maximum anisotropy for a texture reference....",
+      "filename": "curesult_cutexrefsetmaxanisotropy_cutexref_htexref_unsi_6619e8e7.md"
+    },
+    {
+      "id": "curesult_cutexrefsetmipmapfiltermode_cutexref_htexref_c_e40dbb7a",
+      "title": "CUresult cuTexRefSetMipmapFilterMode (CUtexref hTexRef, CUfilter_mode fm)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets the mipmap filtering mode for a texture reference....",
+      "filename": "curesult_cutexrefsetmipmapfiltermode_cutexref_htexref_c_e40dbb7a.md"
+    },
+    {
+      "id": "curesult_cutexrefsetmipmaplevelbias_cutexref_htexref_float_bias",
+      "title": "CUresult cuTexRefSetMipmapLevelBias (CUtexref hTexRef, float bias)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets the mipmap level bias for a texture reference....",
+      "filename": "curesult_cutexrefsetmipmaplevelbias_cutexref_htexref_float_bias.md"
+    },
+    {
+      "id": "curesult_cutexrefsetmipmaplevelclamp_cutexref_htexref_f_5fbd62c5",
+      "title": "CUresult cuTexRefSetMipmapLevelClamp (CUtexref hTexRef, float minMipmapLevelClamp, float maxMipmapLevelClamp)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets the mipmap min/max mipmap level clamps for a texture reference....",
+      "filename": "curesult_cutexrefsetmipmaplevelclamp_cutexref_htexref_f_5fbd62c5.md"
+    },
+    {
+      "id": "curesult_cutexrefsetmipmappedarray_cutexref_htexref_cum_d03b556c",
+      "title": "CUresult cuTexRefSetMipmappedArray (CUtexref hTexRef, CUmipmappedArray hMipmappedArray, unsigned int Flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Binds a mipmapped array to a texture reference....",
+      "filename": "curesult_cutexrefsetmipmappedarray_cutexref_htexref_cum_d03b556c.md"
+    }
+  ]
+}

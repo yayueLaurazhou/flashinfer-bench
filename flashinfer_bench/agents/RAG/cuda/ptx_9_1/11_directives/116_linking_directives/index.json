@@ -1,0 +1,55 @@
+{
+  "description": "Documentation for 11.6. Linking Directives",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "* `.extern` * `.visible` * `.weak`"
+    },
+    {
+      "id": "1161_linking_directives_extern",
+      "title": "11.6.1. Linking Directives: .extern",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`.extern`",
+      "filename": "1161_linking_directives_extern.md"
+    },
+    {
+      "id": "1162_linking_directives_visible",
+      "title": "11.6.2. Linking Directives: .visible",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`.visible`",
+      "filename": "1162_linking_directives_visible.md"
+    },
+    {
+      "id": "1163_linking_directives_weak",
+      "title": "11.6.3. Linking Directives: .weak",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`.weak`",
+      "filename": "1163_linking_directives_weak.md"
+    },
+    {
+      "id": "1164_linking_directives_common",
+      "title": "11.6.4. Linking Directives: .common",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`.common`",
+      "filename": "1164_linking_directives_common.md"
+    }
+  ]
+}

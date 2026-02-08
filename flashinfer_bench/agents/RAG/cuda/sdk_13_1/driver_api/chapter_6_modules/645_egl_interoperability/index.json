@@ -1,0 +1,135 @@
+{
+  "description": "Documentation for 6.45. EGL Interoperability",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "curesult_cueglstreamconsumeracquireframe_cueglstreamcon_6f0a3df5",
+      "title": "CUresult cuEGLStreamConsumerAcquireFrame (CUeglStreamConnection *conn, CUgraphicsResource *pCudaResource, CUstream *pStream, unsigned int timeout)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Acquire an image frame from the EGLStream with CUDA as a consumer....",
+      "filename": "curesult_cueglstreamconsumeracquireframe_cueglstreamcon_6f0a3df5.md"
+    },
+    {
+      "id": "curesult_cueglstreamconsumerconnect_cueglstreamconnecti_062ed6f7",
+      "title": "CUresult cuEGLStreamConsumerConnect (CUeglStreamConnection *conn, EGLStreamKHR stream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Connect CUDA to EGLStream as a consumer....",
+      "filename": "curesult_cueglstreamconsumerconnect_cueglstreamconnecti_062ed6f7.md"
+    },
+    {
+      "id": "curesult_cueglstreamconsumerconnectwithflags_cueglstrea_f2d017f8",
+      "title": "CUresult cuEGLStreamConsumerConnectWithFlags (CUeglStreamConnection *conn, EGLStreamKHR stream, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Connect CUDA to EGLStream as a consumer with given flags....",
+      "filename": "curesult_cueglstreamconsumerconnectwithflags_cueglstrea_f2d017f8.md"
+    },
+    {
+      "id": "curesult_cueglstreamconsumerdisconnect_cueglstreamconne_30460c3a",
+      "title": "CUresult cuEGLStreamConsumerDisconnect (CUeglStreamConnection *conn)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Disconnect CUDA as a consumer to EGLStream ....",
+      "filename": "curesult_cueglstreamconsumerdisconnect_cueglstreamconne_30460c3a.md"
+    },
+    {
+      "id": "curesult_cueglstreamconsumerreleaseframe_cueglstreamcon_38c57cf1",
+      "title": "CUresult cuEGLStreamConsumerReleaseFrame (CUeglStreamConnection *conn, CUgraphicsResource pCudaResource, CUstream *pStream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Releases the last frame acquired from the EGLStream....",
+      "filename": "curesult_cueglstreamconsumerreleaseframe_cueglstreamcon_38c57cf1.md"
+    },
+    {
+      "id": "curesult_cueglstreamproducerconnect_cueglstreamconnecti_fda467f9",
+      "title": "CUresult cuEGLStreamProducerConnect (CUeglStreamConnection *conn, EGLStreamKHR stream, EGLint width, EGLint height)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Connect CUDA to EGLStream as a producer....",
+      "filename": "curesult_cueglstreamproducerconnect_cueglstreamconnecti_fda467f9.md"
+    },
+    {
+      "id": "curesult_cueglstreamproducerdisconnect_cueglstreamconne_a93d2735",
+      "title": "CUresult cuEGLStreamProducerDisconnect (CUeglStreamConnection *conn)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Disconnect CUDA as a producer to EGLStream ....",
+      "filename": "curesult_cueglstreamproducerdisconnect_cueglstreamconne_a93d2735.md"
+    },
+    {
+      "id": "curesult_cueglstreamproducerpresentframe_cueglstreamcon_49ee1406",
+      "title": "CUresult cuEGLStreamProducerPresentFrame (CUeglStreamConnection *conn, CUeglFrame eglframe, CUstream *pStream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Present a CUDA eglFrame to the EGLStream with CUDA as a producer....",
+      "filename": "curesult_cueglstreamproducerpresentframe_cueglstreamcon_49ee1406.md"
+    },
+    {
+      "id": "curesult_cueglstreamproducerreturnframe_cueglstreamconn_df400daa",
+      "title": "CUresult cuEGLStreamProducerReturnFrame (CUeglStreamConnection *conn, CUeglFrame *eglframe, CUstream *pStream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Return the CUDA eglFrame to the EGLStream released by the consumer....",
+      "filename": "curesult_cueglstreamproducerreturnframe_cueglstreamconn_df400daa.md"
+    },
+    {
+      "id": "curesult_cueventcreatefromeglsync_cuevent_phevent_eglsy_11e1ddc4",
+      "title": "CUresult cuEventCreateFromEGLSync (CUevent *phEvent, EGLSyncKHR eglSync, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Creates an event from EGLSync object....",
+      "filename": "curesult_cueventcreatefromeglsync_cuevent_phevent_eglsy_11e1ddc4.md"
+    },
+    {
+      "id": "curesult_cugraphicseglregisterimage_cugraphicsresource__e65f833f",
+      "title": "CUresult cuGraphicsEGLRegisterImage (CUgraphicsResource *pCudaResource, EGLImageKHR image, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Registers an EGL image....",
+      "filename": "curesult_cugraphicseglregisterimage_cugraphicsresource__e65f833f.md"
+    },
+    {
+      "id": "curesult_cugraphicsresourcegetmappedeglframe_cueglframe_3b94f649",
+      "title": "CUresult cuGraphicsResourceGetMappedEglFrame (CUeglFrame *eglFrame, CUgraphicsResource resource, unsigned int index, unsigned int mipLevel)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Get an eglFrame through which to access a registered EGL graphics resource....",
+      "filename": "curesult_cugraphicsresourcegetmappedeglframe_cueglframe_3b94f649.md"
+    }
+  ]
+}

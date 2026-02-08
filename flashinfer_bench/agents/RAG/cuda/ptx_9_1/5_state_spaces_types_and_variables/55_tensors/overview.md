@@ -1,0 +1,22 @@
+# 5.5. Tensors
+
+## 5.5. [Tensors](https://docs.nvidia.com/cuda/parallel-thread-execution/#tensors)[](https://docs.nvidia.com/cuda/parallel-thread-execution/#tensors "Permalink to this headline")
+
+A tensor is a multi-dimensional matrix structure in the memory. Tensor is defined by the following
+properties:
+
+* Dimensionality
+* Dimension sizes across each dimension
+* Individual element types
+* Tensor stride across each dimension
+
+PTX supports instructions which can operate on the tensor data. PTX Tensor instructions include:
+
+* Copying data between global and shared memories
+* Reducing the destination tensor data with the source.
+
+The Tensor data can be operated on by various `wmma.mma`, `mma` and `wgmma.mma_async`
+instructions.
+
+PTX Tensor instructions treat the tensor data in the global memory as a multi-dimensional structure
+and treat the data in the shared memory as a linear data.

@@ -1,0 +1,75 @@
+{
+  "description": "Documentation for 13.6.1.2.1. Coherence and Consistency (CDP1)",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "1361211_global_memory_cdp1",
+      "title": "13.6.1.2.1.1. Global Memory (CDP1)",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "###### 13.6.1.2.1.1. Global Memory (CDP1)[\uf0c1](#global-memory-cdp1 \"Permalink to this headline\")  See [Global Memory](#global-memory-cdp2), above, for CDP2 version of document.  Parent and child grids h...",
+      "filename": "1361211_global_memory_cdp1.md"
+    },
+    {
+      "id": "1361212_zero_copy_memory_cdp1",
+      "title": "13.6.1.2.1.2. Zero Copy Memory (CDP1)",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "###### 13.6.1.2.1.2. Zero Copy Memory (CDP1)[\uf0c1](#zero-copy-memory-cdp1 \"Permalink to this headline\")  See [Zero Copy Memory](#zero-copy-memory), above, for CDP2 version of document.  Zero-copy system ...",
+      "filename": "1361212_zero_copy_memory_cdp1.md"
+    },
+    {
+      "id": "1361213_constant_memory_cdp1",
+      "title": "13.6.1.2.1.3. Constant Memory (CDP1)",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "###### 13.6.1.2.1.3. Constant Memory (CDP1)[\uf0c1](#constant-memory-cdp1 \"Permalink to this headline\")  See [Constant Memory](#constant-memory), above, for CDP2 version of document.  Constants are immutab...",
+      "filename": "1361213_constant_memory_cdp1.md"
+    },
+    {
+      "id": "1361214_shared_and_local_memory_cdp1",
+      "title": "13.6.1.2.1.4. Shared and Local Memory (CDP1)",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "###### 13.6.1.2.1.4. Shared and Local Memory (CDP1)[\uf0c1](#shared-and-local-memory-cdp1 \"Permalink to this headline\")  See [Shared and Local Memory](#shared-and-local-memory-cdp2), above, for CDP2 versio...",
+      "filename": "1361214_shared_and_local_memory_cdp1.md"
+    },
+    {
+      "id": "1361215_local_memory_cdp1",
+      "title": "13.6.1.2.1.5. Local Memory (CDP1)",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "###### 13.6.1.2.1.5. Local Memory (CDP1)[\uf0c1](#local-memory-cdp1 \"Permalink to this headline\")  See [Local Memory](#local-memory-cdp2), above, for CDP2 version of document.  Local memory is private stor...",
+      "filename": "1361215_local_memory_cdp1.md"
+    },
+    {
+      "id": "1361216_texture_memory_cdp1",
+      "title": "13.6.1.2.1.6. Texture Memory (CDP1)",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "###### 13.6.1.2.1.6. Texture Memory (CDP1)[\uf0c1](#texture-memory-cdp1 \"Permalink to this headline\")  See [Texture Memory](#texture-memory-cdp), above, for CDP2 version of document.  Writes to the global ...",
+      "filename": "1361216_texture_memory_cdp1.md"
+    }
+  ]
+}

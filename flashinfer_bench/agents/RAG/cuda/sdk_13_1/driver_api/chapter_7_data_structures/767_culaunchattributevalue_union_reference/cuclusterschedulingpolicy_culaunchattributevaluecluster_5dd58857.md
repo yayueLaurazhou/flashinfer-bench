@@ -1,0 +1,5 @@
+# CUclusterSchedulingPolicy CUlaunchAttributeValue::clusterSchedulingPolicyPreference
+
+Value of launch attribute
+CU_LAUNCH_ATTRIBUTE_CLUSTER_SCHEDULING_POLICY_PREFERENCE. Cluster
+scheduling policy preference for the kernel.

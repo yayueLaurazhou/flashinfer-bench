@@ -1,0 +1,25 @@
+{
+  "description": "Documentation for 10.29.2. Using TMA to transfer multi-dimensional arrays",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "102921_multi_dimensional_tma_ptx_wrappers",
+      "title": "10.29.2.1. Multi-dimensional TMA PTX wrappers",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 10.29.2.1. Multi-dimensional TMA PTX wrappers[\uf0c1](#multi-dimensional-tma-ptx-wrappers \"Permalink to this headline\")  Below, the PTX instructions are ordered by their use in the example code above....",
+      "filename": "102921_multi_dimensional_tma_ptx_wrappers.md"
+    }
+  ]
+}

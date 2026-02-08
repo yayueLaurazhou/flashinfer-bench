@@ -1,0 +1,25 @@
+{
+  "description": "Documentation for Chapter 9. Deprecated List",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "copyright",
+      "title": "Copyright",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "\u00a9 2007-2024 NVIDIA Corporation & affiliates. All rights reserved.   NVIDIA Corporation | 2788 San Tomas Expressway, Santa Clara, CA 95051 [https://www.nvidia.com](http://www.nvidia.com)...",
+      "filename": "copyright.md"
+    }
+  ]
+}

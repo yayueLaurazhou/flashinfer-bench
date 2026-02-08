@@ -1,0 +1,45 @@
+{
+  "description": "Documentation for 5.2.5. Packed Data Types",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Certain PTX instructions operate on two or more sets of inputs in parallel, and produce two or more outputs. Such instructions can use the data stored in a packed format. PTX supports packing two or four values of the same scalar data type into a single, larger value. The packed value is consider..."
+    },
+    {
+      "id": "5251_packed_floating_point_data_types",
+      "title": "5.2.5.1. Packed Floating Point Data Types",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "PTX supports various variants of packed floating point data types. Out of them, only `.f16x2` is supported as a fundamental type, while others cannot be used as fundamental types - they are supported as instruction types on certain instructions. When using an instruction with such non-fundamental...",
+      "filename": "5251_packed_floating_point_data_types.md"
+    },
+    {
+      "id": "5252_packed_integer_data_types",
+      "title": "5.2.5.2. Packed Integer Data Types",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "PTX supports two variants of packed integer data types: `.u16x2` and `.s16x2`. The packed data type consists of two `.u16` or `.s16` values. A register variable containing `.u16x2` or `.s16x2` data must be declared with `.b32` type. Packed integer data types cannot be used as fundamental types. T...",
+      "filename": "5252_packed_integer_data_types.md"
+    },
+    {
+      "id": "5253_packed_fixed_point_data_types",
+      "title": "5.2.5.3. Packed Fixed-Point Data Types",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "PTX supports `.s2f6x2` packed fixed-point data type consisting of two `.s2f6` packed fixed-point values. A register variable containing `.s2f6x2` value must be declared with `.b16` type. Packed fixed-point data type cannot be used as fundamental type and is only supported as instruction type.",
+      "filename": "5253_packed_fixed_point_data_types.md"
+    }
+  ]
+}

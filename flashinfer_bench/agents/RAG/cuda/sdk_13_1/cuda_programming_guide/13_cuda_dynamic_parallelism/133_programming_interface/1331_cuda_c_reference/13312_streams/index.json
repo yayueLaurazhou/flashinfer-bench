@@ -1,0 +1,45 @@
+{
+  "description": "Documentation for 13.3.1.2. Streams",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "133121_the_implicit_null_stream",
+      "title": "13.3.1.2.1. The Implicit (NULL) Stream",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 13.3.1.2.1. The Implicit (NULL) Stream[\uf0c1](#the-implicit-null-stream \"Permalink to this headline\")  Within a host program, the unnamed (NULL) stream has additional barrier synchronization semanti...",
+      "filename": "133121_the_implicit_null_stream.md"
+    },
+    {
+      "id": "133122_the_fire_and_forget_stream",
+      "title": "13.3.1.2.2. The Fire-and-Forget Stream",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 13.3.1.2.2. The Fire-and-Forget Stream[\uf0c1](#the-fire-and-forget-stream \"Permalink to this headline\")  The fire-and-forget named stream (`cudaStreamFireAndForget`) allows the user to launch fire-a...",
+      "filename": "133122_the_fire_and_forget_stream.md"
+    },
+    {
+      "id": "133123_the_tail_launch_stream",
+      "title": "13.3.1.2.3. The Tail Launch Stream",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 13.3.1.2.3. The Tail Launch Stream[\uf0c1](#the-tail-launch-stream \"Permalink to this headline\")  The tail launch named stream (`cudaStreamTailLaunch`) allows a grid to schedule a new grid for launch...",
+      "filename": "133123_the_tail_launch_stream.md"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "description": "Documentation for 7.71. CUmemAllocationProp_v1 Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "unsigned_char_cumemallocationprop_v1compressiontype",
+      "title": "unsigned char CUmemAllocationProp_v1::compressionType",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Allocation hint for requesting compressible memory. On devices that support Compute Data Compression, compressible memory can be used to accelerate accesses to data with unstructured sparsity and othe...",
+      "filename": "unsigned_char_cumemallocationprop_v1compressiontype.md"
+    },
+    {
+      "id": "struct_cumemlocation_cumemallocationprop_v1location",
+      "title": "struct CUmemLocation CUmemAllocationProp_v1::location",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Location of allocation   CUDA Driver API TRM-06703-001 _vRelease Version  |  728   Data Structures...",
+      "filename": "struct_cumemlocation_cumemallocationprop_v1location.md"
+    },
+    {
+      "id": "cumemallocationhandletype_cumemallocationprop_v1request_157f2bb7",
+      "title": "CUmemAllocationHandleType CUmemAllocationProp_v1::requestedHandleTypes",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "requested CUmemAllocationHandleType...",
+      "filename": "cumemallocationhandletype_cumemallocationprop_v1request_157f2bb7.md"
+    },
+    {
+      "id": "cumemallocationtype_cumemallocationprop_v1type",
+      "title": "CUmemAllocationType CUmemAllocationProp_v1::type",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Allocation type...",
+      "filename": "cumemallocationtype_cumemallocationprop_v1type.md"
+    },
+    {
+      "id": "unsigned_short_cumemallocationprop_v1usage",
+      "title": "unsigned short CUmemAllocationProp_v1::usage",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Bitmask indicating intended usage for this allocation...",
+      "filename": "unsigned_short_cumemallocationprop_v1usage.md"
+    },
+    {
+      "id": "void_cumemallocationprop_v1win32handlemetadata",
+      "title": "void *CUmemAllocationProp_v1::win32HandleMetaData",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Windows-specific POBJECT_ATTRIBUTES required when CU_MEM_HANDLE_TYPE_WIN32 is specified. This object attributes structure includes security attributes that define the scope of which exported allocatio...",
+      "filename": "void_cumemallocationprop_v1win32handlemetadata.md"
+    }
+  ]
+}

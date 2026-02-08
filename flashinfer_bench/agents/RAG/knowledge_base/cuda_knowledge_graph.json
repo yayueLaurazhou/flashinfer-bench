@@ -1,0 +1,22 @@
+{
+  "total_nodes": 5535,
+  "total_edges": 23772,
+  "nodes_by_category": {
+    "Concept": 160,
+    "Hardware": 3207,
+    "SoftwareComponent": 10,
+    "Function": 2133,
+    "Keyword/Type": 12,
+    "Metric": 7,
+    "Tool": 6
+  },
+  "edges_by_type": {
+    "applied_in": 4700,
+    "uses_principle": 8155,
+    "executes_on": 5462,
+    "implements": 5389,
+    "measures": 66
+  },
+  "density": 0.0007760843781188083,
+  "is_dag": true
+}

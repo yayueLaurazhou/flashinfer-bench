@@ -1,0 +1,60 @@
+{
+  "description": "Documentation for 21. Driver API",
+  "directories": [
+    {
+      "name": "215_driver_entry_point_access",
+      "description": "## 21.5. Driver Entry Point Access[\uf0c1](#driver-entry-point-access \"Permalink to this headline\")..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "211_context",
+      "title": "21.1. Context",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 21.1. Context[\uf0c1](#context \"Permalink to this headline\")  A CUDA context is analogous to a CPU process. All resources and actions performed within the driver API are encapsulated inside a CUDA conte...",
+      "filename": "211_context.md"
+    },
+    {
+      "id": "212_module",
+      "title": "21.2. Module",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 21.2. Module[\uf0c1](#module \"Permalink to this headline\")  Modules are dynamically loadable packages of device code and data, akin to DLLs in Windows, that are output by nvcc (see [Compilation with NVC...",
+      "filename": "212_module.md"
+    },
+    {
+      "id": "213_kernel_execution",
+      "title": "21.3. Kernel Execution",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 21.3. Kernel Execution[\uf0c1](#kernel-execution \"Permalink to this headline\")  `cuLaunchKernel()` launches a kernel with a given execution configuration.  Parameters are passed either as an array of po...",
+      "filename": "213_kernel_execution.md"
+    },
+    {
+      "id": "214_interoperability_between_runtime_and_driver_apis",
+      "title": "21.4. Interoperability between Runtime and Driver APIs",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 21.4. Interoperability between Runtime and Driver APIs[\uf0c1](#interoperability-between-runtime-and-driver-apis \"Permalink to this headline\")  An application can mix runtime API code with driver API co...",
+      "filename": "214_interoperability_between_runtime_and_driver_apis.md"
+    }
+  ]
+}

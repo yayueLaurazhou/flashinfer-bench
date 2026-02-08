@@ -1,0 +1,32 @@
+{
+  "description": "Documentation for 11.6. Group Collectives",
+  "directories": [
+    {
+      "name": "1161_synchronization",
+      "description": "### 11.6.1. Synchronization[\uf0c1](#synchronization \"Permalink to this headline\")..."
+    },
+    {
+      "name": "1162_data_transfer",
+      "description": "### 11.6.2. Data Transfer[\uf0c1](#data-transfer \"Permalink to this headline\")..."
+    },
+    {
+      "name": "1163_data_manipulation",
+      "description": "### 11.6.3. Data Manipulation[\uf0c1](#data-manipulation \"Permalink to this headline\")..."
+    },
+    {
+      "name": "1164_execution_control",
+      "description": "### 11.6.4. Execution control[\uf0c1](#execution-control \"Permalink to this headline\")..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    }
+  ]
+}

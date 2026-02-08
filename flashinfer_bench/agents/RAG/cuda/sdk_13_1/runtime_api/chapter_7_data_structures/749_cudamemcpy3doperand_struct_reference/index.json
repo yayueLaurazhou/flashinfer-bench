@@ -1,0 +1,65 @@
+{
+  "description": "Documentation for 7.49. cudaMemcpy3DOperand Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "cudamemcpy3doperand810_cudamemcpy3doperandarray",
+      "title": "cudaMemcpy3DOperand::@8::@10 cudaMemcpy3DOperand::array",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Struct representing an operand when cudaMemcpy3DOperand::type is cudaMemcpyOperandTypeArray...",
+      "filename": "cudamemcpy3doperand810_cudamemcpy3doperandarray.md"
+    },
+    {
+      "id": "size_t_cudamemcpy3doperandlayerheight",
+      "title": "size_t cudaMemcpy3DOperand::layerHeight",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Height of each layer in elements....",
+      "filename": "size_t_cudamemcpy3doperandlayerheight.md"
+    },
+    {
+      "id": "struct_cudamemlocation_cudamemcpy3doperandlochint",
+      "title": "struct cudaMemLocation cudaMemcpy3DOperand::locHint",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Hint location for the operand. Ignored when the pointers are not managed memory or memory allocated outside CUDA....",
+      "filename": "struct_cudamemlocation_cudamemcpy3doperandlochint.md"
+    },
+    {
+      "id": "cudamemcpy3doperand89_cudamemcpy3doperandptr",
+      "title": "cudaMemcpy3DOperand::@8::@9 cudaMemcpy3DOperand::ptr",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Struct representing an operand when cudaMemcpy3DOperand::type is cudaMemcpyOperandTypePointer...",
+      "filename": "cudamemcpy3doperand89_cudamemcpy3doperandptr.md"
+    },
+    {
+      "id": "size_t_cudamemcpy3doperandrowlength",
+      "title": "size_t cudaMemcpy3DOperand::rowLength",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Length of each row in elements....",
+      "filename": "size_t_cudamemcpy3doperandrowlength.md"
+    }
+  ]
+}

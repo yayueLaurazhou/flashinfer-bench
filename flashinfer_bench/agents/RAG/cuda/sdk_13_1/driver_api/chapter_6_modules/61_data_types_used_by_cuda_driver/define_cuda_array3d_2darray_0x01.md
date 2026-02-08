@@ -1,0 +1,3 @@
+# #define CUDA_ARRAY3D_2DARRAY 0x01
+
+Deprecated, use CUDA_ARRAY3D_LAYERED

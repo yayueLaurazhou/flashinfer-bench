@@ -1,0 +1,65 @@
+{
+  "description": "Documentation for 14.9. Multicast Support",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "1491_query_for_support",
+      "title": "14.9.1. Query for Support",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 14.9.1. Query for Support[\uf0c1](#querying-multicast-obj-mem-support \"Permalink to this headline\")  Before attempting to use Multicast Objects, applications must ensure that the devices they want to u...",
+      "filename": "1491_query_for_support.md"
+    },
+    {
+      "id": "1492_allocating_multicast_objects",
+      "title": "14.9.2. Allocating Multicast Objects",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 14.9.2. Allocating Multicast Objects[\uf0c1](#allocating-multicast-objects \"Permalink to this headline\")  Multicast Objects can be created with `cuMulticastCreate`:  ``` CUmemGenericAllocationHandle cr...",
+      "filename": "1492_allocating_multicast_objects.md"
+    },
+    {
+      "id": "1493_add_devices_to_multicast_objects",
+      "title": "14.9.3. Add Devices to Multicast Objects",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 14.9.3. Add Devices to Multicast Objects[\uf0c1](#add-devices-to-multicast-objects \"Permalink to this headline\")  Devices can be added to a Multicast Team with `cuMulticastAddDevice`:  ``` cuMulticastA...",
+      "filename": "1493_add_devices_to_multicast_objects.md"
+    },
+    {
+      "id": "1494_bind_memory_to_multicast_objects",
+      "title": "14.9.4. Bind Memory to Multicast Objects",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 14.9.4. Bind Memory to Multicast Objects[\uf0c1](#bind-memory-to-multicast-objects \"Permalink to this headline\")  After a Multicast Object has been created and all participating devices have been added...",
+      "filename": "1494_bind_memory_to_multicast_objects.md"
+    },
+    {
+      "id": "1495_use_multicast_mappings",
+      "title": "14.9.5. Use Multicast Mappings",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 14.9.5. Use Multicast Mappings[\uf0c1](#use-multicast-mappings \"Permalink to this headline\")  To use Multicast Mappings in CUDA C++ it is required to use the [multimem PTX instructions](https://docs.nv...",
+      "filename": "1495_use_multicast_mappings.md"
+    }
+  ]
+}

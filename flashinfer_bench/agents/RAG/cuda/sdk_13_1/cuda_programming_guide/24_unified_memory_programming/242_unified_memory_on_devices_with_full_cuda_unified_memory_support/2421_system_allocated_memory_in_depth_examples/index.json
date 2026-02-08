@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 24.2.1. System-Allocated Memory: in-depth examples",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "24211_file_backed_unified_memory",
+      "title": "24.2.1.1. File-backed Unified Memory",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 24.2.1.1. File-backed Unified Memory[\uf0c1](#file-backed-unified-memory \"Permalink to this headline\")  Since [systems with full CUDA Unified Memory support](#um-requirements) allow the device to acce...",
+      "filename": "24211_file_backed_unified_memory.md"
+    },
+    {
+      "id": "24212_inter_process_communication_ipc_with_unified_memory",
+      "title": "24.2.1.2. Inter-Process Communication (IPC) with Unified Memory",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 24.2.1.2. Inter-Process Communication (IPC) with Unified Memory[\uf0c1](#inter-process-communication-ipc-with-unified-memory \"Permalink to this headline\")  Note  As of now, using IPC with Unified Memo...",
+      "filename": "24212_inter_process_communication_ipc_with_unified_memory.md"
+    }
+  ]
+}

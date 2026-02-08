@@ -1,0 +1,55 @@
+{
+  "description": "Documentation for 15.9. Memory Reuse Policies",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "1591_cudamempoolreusefolloweventdependencies",
+      "title": "15.9.1. cudaMemPoolReuseFollowEventDependencies",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 15.9.1. cudaMemPoolReuseFollowEventDependencies[\uf0c1](#cudamempoolreusefolloweventdependencies \"Permalink to this headline\")  Before allocating more physical GPU memory, the allocator examines depend...",
+      "filename": "1591_cudamempoolreusefolloweventdependencies.md"
+    },
+    {
+      "id": "1592_cudamempoolreuseallowopportunistic",
+      "title": "15.9.2. cudaMemPoolReuseAllowOpportunistic",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 15.9.2. cudaMemPoolReuseAllowOpportunistic[\uf0c1](#cudamempoolreuseallowopportunistic \"Permalink to this headline\")  According to the `cudaMemPoolReuseAllowOpportunistic` policy, the allocator examine...",
+      "filename": "1592_cudamempoolreuseallowopportunistic.md"
+    },
+    {
+      "id": "1593_cudamempoolreuseallowinternaldependencies",
+      "title": "15.9.3. cudaMemPoolReuseAllowInternalDependencies",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 15.9.3. cudaMemPoolReuseAllowInternalDependencies[\uf0c1](#cudamempoolreuseallowinternaldependencies \"Permalink to this headline\")  Failing to allocate and map more physical memory from the OS, the dri...",
+      "filename": "1593_cudamempoolreuseallowinternaldependencies.md"
+    },
+    {
+      "id": "1594_disabling_reuse_policies",
+      "title": "15.9.4. Disabling Reuse Policies",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 15.9.4. Disabling Reuse Policies[\uf0c1](#disabling-reuse-policies \"Permalink to this headline\")  While the controllable reuse policies improve memory reuse, users may want to disable them. Allowing op...",
+      "filename": "1594_disabling_reuse_policies.md"
+    }
+  ]
+}

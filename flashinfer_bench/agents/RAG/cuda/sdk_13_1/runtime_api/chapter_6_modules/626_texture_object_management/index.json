@@ -1,0 +1,85 @@
+{
+  "description": "Documentation for 6.26. Texture Object Management",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "__host__cudacreatechanneldesc_int_x_int_y_int_z_int_w_c_36887595",
+      "title": "__host__cudaCreateChannelDesc (int x, int y, int z, int w, cudaChannelFormatKind f)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns a channel descriptor using the specified format....",
+      "filename": "__host__cudacreatechanneldesc_int_x_int_y_int_z_int_w_c_36887595.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudacreatetextureobject_cudatexture_711b8765",
+      "title": "__host__cudaError_t cudaCreateTextureObject (cudaTextureObject_t *pTexObject, const cudaResourceDesc *pResDesc, const cudaTextureDesc *pTexDesc, const cudaResourceViewDesc *pResViewDesc)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Creates a texture object....",
+      "filename": "__host__cudaerror_t_cudacreatetextureobject_cudatexture_711b8765.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudadestroytextureobject_cudatextur_2399bfb9",
+      "title": "__host__cudaError_t cudaDestroyTextureObject (cudaTextureObject_t texObject)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Destroys a texture object....",
+      "filename": "__host__cudaerror_t_cudadestroytextureobject_cudatextur_2399bfb9.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagetchanneldesc_cudachannelforma_fd618f1e",
+      "title": "__host__cudaError_t cudaGetChannelDesc (cudaChannelFormatDesc *desc, cudaArray_const_t array)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Get the channel descriptor of an array....",
+      "filename": "__host__cudaerror_t_cudagetchanneldesc_cudachannelforma_fd618f1e.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagettextureobjectresourcedesc_cu_33b6c957",
+      "title": "__host__cudaError_t cudaGetTextureObjectResourceDesc (cudaResourceDesc *pResDesc, cudaTextureObject_t texObject)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns a texture object's resource descriptor....",
+      "filename": "__host__cudaerror_t_cudagettextureobjectresourcedesc_cu_33b6c957.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagettextureobjectresourceviewdes_bcd9e82f",
+      "title": "__host__cudaError_t cudaGetTextureObjectResourceViewDesc (cudaResourceViewDesc *pResViewDesc, cudaTextureObject_t texObject)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns a texture object's resource view descriptor....",
+      "filename": "__host__cudaerror_t_cudagettextureobjectresourceviewdes_bcd9e82f.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagettextureobjecttexturedesc_cud_b27edb22",
+      "title": "__host__cudaError_t cudaGetTextureObjectTextureDesc (cudaTextureDesc *pTexDesc, cudaTextureObject_t texObject)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns a texture object's texture descriptor....",
+      "filename": "__host__cudaerror_t_cudagettextureobjecttexturedesc_cud_b27edb22.md"
+    }
+  ]
+}

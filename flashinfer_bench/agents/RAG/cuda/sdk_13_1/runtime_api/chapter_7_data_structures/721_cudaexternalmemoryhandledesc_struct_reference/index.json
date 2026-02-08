@@ -1,0 +1,105 @@
+{
+  "description": "Documentation for 7.21. cudaExternalMemoryHandleDesc Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "int_cudaexternalmemoryhandledescfd",
+      "title": "int cudaExternalMemoryHandleDesc::fd",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "File descriptor referencing the memory object. Valid when type is cudaExternalMemoryHandleTypeOpaqueFd...",
+      "filename": "int_cudaexternalmemoryhandledescfd.md"
+    },
+    {
+      "id": "unsigned_int_cudaexternalmemoryhandledescflags",
+      "title": "unsigned int cudaExternalMemoryHandleDesc::flags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Flags must either be zero or cudaExternalMemoryDedicated...",
+      "filename": "unsigned_int_cudaexternalmemoryhandledescflags.md"
+    },
+    {
+      "id": "void_cudaexternalmemoryhandledeschandle",
+      "title": "void *cudaExternalMemoryHandleDesc::handle",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Valid NT handle. Must be NULL if 'name' is non-NULL...",
+      "filename": "void_cudaexternalmemoryhandledeschandle.md"
+    },
+    {
+      "id": "const_void_cudaexternalmemoryhandledescname",
+      "title": "const void *cudaExternalMemoryHandleDesc::name",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Name of a valid memory object. Must be NULL if 'handle' is non-NULL....",
+      "filename": "const_void_cudaexternalmemoryhandledescname.md"
+    },
+    {
+      "id": "const_void_cudaexternalmemoryhandledescnvscibufobject",
+      "title": "const void *cudaExternalMemoryHandleDesc::nvSciBufObject",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "A handle representing NvSciBuf Object. Valid when type is cudaExternalMemoryHandleTypeNvSciBuf...",
+      "filename": "const_void_cudaexternalmemoryhandledescnvscibufobject.md"
+    },
+    {
+      "id": "unsigned_int_cudaexternalmemoryhandledescreserved",
+      "title": "unsigned int cudaExternalMemoryHandleDesc::reserved",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Must be zero...",
+      "filename": "unsigned_int_cudaexternalmemoryhandledescreserved.md"
+    },
+    {
+      "id": "unsigned_long_long_cudaexternalmemoryhandledescsize",
+      "title": "unsigned long long cudaExternalMemoryHandleDesc::size",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Size of the memory allocation   CUDA Runtime API vRelease Version  |  611   Data Structures...",
+      "filename": "unsigned_long_long_cudaexternalmemoryhandledescsize.md"
+    },
+    {
+      "id": "enumcudaexternalmemoryhandletype_cudaexternalmemoryhand_222898ee",
+      "title": "enumcudaExternalMemoryHandleType cudaExternalMemoryHandleDesc::type",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Type of the handle...",
+      "filename": "enumcudaexternalmemoryhandletype_cudaexternalmemoryhand_222898ee.md"
+    },
+    {
+      "id": "cudaexternalmemoryhandledesc1112_cudaexternalmemoryhand_a6d743ef",
+      "title": "cudaExternalMemoryHandleDesc::@11::@12 cudaExternalMemoryHandleDesc::win32",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Win32 handle referencing the semaphore object. Valid when type is one of the following:  cudaExternalMemoryHandleTypeOpaqueWin32...",
+      "filename": "cudaexternalmemoryhandledesc1112_cudaexternalmemoryhand_a6d743ef.md"
+    }
+  ]
+}

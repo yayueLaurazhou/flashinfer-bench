@@ -1,0 +1,85 @@
+{
+  "description": "Documentation for 7.56. cudaMemPoolProps Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "enumcudamemallocationtype_cudamempoolpropsalloctype",
+      "title": "enumcudaMemAllocationType cudaMemPoolProps::allocType",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Allocation type. Currently must be specified as cudaMemAllocationTypePinned...",
+      "filename": "enumcudamemallocationtype_cudamempoolpropsalloctype.md"
+    },
+    {
+      "id": "enumcudamemallocationhandletype_cudamempoolpropshandletypes",
+      "title": "enumcudaMemAllocationHandleType cudaMemPoolProps::handleTypes",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Handle types that will be supported by allocations from the pool....",
+      "filename": "enumcudamemallocationhandletype_cudamempoolpropshandletypes.md"
+    },
+    {
+      "id": "struct_cudamemlocation_cudamempoolpropslocation",
+      "title": "struct cudaMemLocation cudaMemPoolProps::location",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Location allocations should reside.   CUDA Runtime API vRelease Version  |  639   Data Structures...",
+      "filename": "struct_cudamemlocation_cudamempoolpropslocation.md"
+    },
+    {
+      "id": "size_t_cudamempoolpropsmaxsize",
+      "title": "size_t cudaMemPoolProps::maxSize",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Maximum pool size. When set to 0, defaults to a system dependent value....",
+      "filename": "size_t_cudamempoolpropsmaxsize.md"
+    },
+    {
+      "id": "unsigned_char_cudamempoolpropsreserved",
+      "title": "unsigned char cudaMemPoolProps::reserved",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "reserved for future use, must be 0...",
+      "filename": "unsigned_char_cudamempoolpropsreserved.md"
+    },
+    {
+      "id": "unsigned_short_cudamempoolpropsusage",
+      "title": "unsigned short cudaMemPoolProps::usage",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Bitmask indicating intended usage for the pool....",
+      "filename": "unsigned_short_cudamempoolpropsusage.md"
+    },
+    {
+      "id": "void_cudamempoolpropswin32securityattributes",
+      "title": "void *cudaMemPoolProps::win32SecurityAttributes",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Windows-specific LPSECURITYATTRIBUTES required when cudaMemHandleTypeWin32 is specified. This security attribute defines the scope of which exported allocations may be tranferred to other processes. I...",
+      "filename": "void_cudamempoolpropswin32securityattributes.md"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "description": "Documentation for 10.36.3. Examples",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "103631_per_thread_allocation",
+      "title": "10.36.3.1. Per Thread Allocation",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 10.36.3.1. Per Thread Allocation[\uf0c1](#per-thread-allocation \"Permalink to this headline\")  The following code sample:  ``` #include <stdlib.h> #include <stdio.h>  __global__ void mallocTest() {   ...",
+      "filename": "103631_per_thread_allocation.md"
+    },
+    {
+      "id": "103632_per_thread_block_allocation",
+      "title": "10.36.3.2. Per Thread Block Allocation",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 10.36.3.2. Per Thread Block Allocation[\uf0c1](#per-thread-block-allocation \"Permalink to this headline\")  ``` #include <stdlib.h>  __global__ void mallocTest() {     __shared__ int* data;      // The...",
+      "filename": "103632_per_thread_block_allocation.md"
+    },
+    {
+      "id": "103633_allocation_persisting_between_kernel_launches",
+      "title": "10.36.3.3. Allocation Persisting Between Kernel Launches",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 10.36.3.3. Allocation Persisting Between Kernel Launches[\uf0c1](#allocation-persisting-between-kernel-launches \"Permalink to this headline\")  ``` #include <stdlib.h> #include <stdio.h>  #define NUM_B...",
+      "filename": "103633_allocation_persisting_between_kernel_launches.md"
+    }
+  ]
+}

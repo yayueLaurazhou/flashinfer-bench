@@ -1,0 +1,3 @@
+# cudaLaunchMemSyncDomain cudaLaunchAttributeValue::memSyncDomain
+
+Value of launch attribute cudaLaunchAttributeMemSyncDomain. See cudaLaunchMemSyncDomain.

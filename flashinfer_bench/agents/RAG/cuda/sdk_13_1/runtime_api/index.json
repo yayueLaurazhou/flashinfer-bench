@@ -1,0 +1,41 @@
+{
+    "documentation_title": "CUDA Runtime API Reference Manual",
+    "sections": [
+        {
+            "section": "Chapter 1. Difference between the driver and runtime APIs",
+            "description": "Explains the distinction between the high-level Runtime API, which manages context and module loading implicitly for easier use, and the low-level Driver API, which offers fine-grained control over contexts and module handling. It cautions against mixing the two APIs regarding context management, noting that the runtime uses a primary context per device that can conflict with explicit driver contexts if not managed carefully."
+        },
+        {
+            "section": "Chapter 2. API synchronization behavior",
+            "description": "Details the synchronous and asynchronous nature of API calls, specifically memory transfers. It clarifies that the 'Async' suffix does not always guarantee asynchronous execution relative to the host, as behavior depends on memory types (pinned vs. pageable) and transfer directions. It lists specific rules for when host-to-device, device-to-host, and device-to-device copies block the host thread."
+        },
+        {
+            "section": "Chapter 3. Stream synchronization behavior",
+            "description": "Describes the behavior of the default stream (stream 0), distinguishing between the 'legacy' mode, which synchronizes with all blocking streams in the context, and the 'per-thread' mode, where the default stream operates independently for each thread. It mentions how to control this behavior using compilation flags and macros."
+        },
+        {
+            "section": "Chapter 4. Graph object thread safety",
+            "description": "States that CUDA Graph objects (`cudaGraph_t`) are not internally synchronized. It mandates that any access to a graph object, including manipulation or instantiation, must be serialized externally by the developer to prevent race conditions."
+        },
+        {
+            "section": "Chapter 5. Rules for version mixing",
+            "description": "Outlines the Application Binary Interface (ABI) compatibility rules. It restricts passing CUDA-defined structures between functions compiled with different major toolkit versions and advises against mixing different API versions during the lifetime of resources like contexts, memory, and events."
+        },
+        {
+            "section": "Chapter 6. Modules",
+            "description": "The core reference section categorizing all runtime API functions. It covers: \n- **Device Management**: Querying properties and setting devices.\n- **Error Handling**: Translating and retrieving error codes.\n- **Stream & Event Management**: Synchronization primitives and stream lifecycles.\n- **Memory Management**: Allocation (malloc, hostAlloc, mallocAsync), freeing, and data movement (memcpy, memset) including Unified Memory.\n- **Execution Control**: Kernel launch APIs and cooperative groups.\n- **Graph Management**: Creating, capturing, and launching CUDA Graphs.\n- **Interoperability**: Interfaces for OpenGL, Direct3D, EGL, and VDPAU.\n- **Texture/Surface**: Low-level object management.\n- **Execution Contexts**: Managing Green Contexts and resource partitions."
+        },
+        {
+            "section": "Chapter 7. Data Structures",
+            "description": "Provides definitions for the data structures and types utilized by the runtime API, such as `cudaDeviceProp` for device properties, `cudaLaunchConfig_t` for kernel launches, and various parameter structures for graph nodes."
+        },
+        {
+            "section": "Chapter 8. Data Fields",
+            "description": "Lists the specific fields contained within the data structures defined in the previous chapter, providing details on individual members like `cudaDeviceProp::name` or `cudaLaunchAttribute::id`."
+        },
+        {
+            "section": "Chapter 9. Deprecated List",
+            "description": "Enumerates functions, definitions, and features that are deprecated in the current release, advising on their replacements or removal in future versions."
+        }
+    ]
+}

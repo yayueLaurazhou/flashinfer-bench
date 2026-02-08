@@ -1,0 +1,45 @@
+{
+  "description": "Documentation for 6.27. Surface Object Management",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "__host__cudaerror_t_cudacreatesurfaceobject_cudasurface_61249a0e",
+      "title": "__host__cudaError_t cudaCreateSurfaceObject (cudaSurfaceObject_t *pSurfObject, const cudaResourceDesc *pResDesc)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Creates a surface object....",
+      "filename": "__host__cudaerror_t_cudacreatesurfaceobject_cudasurface_61249a0e.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudadestroysurfaceobject_cudasurfac_12fada05",
+      "title": "__host__cudaError_t cudaDestroySurfaceObject (cudaSurfaceObject_t surfObject)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Destroys a surface object....",
+      "filename": "__host__cudaerror_t_cudadestroysurfaceobject_cudasurfac_12fada05.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagetsurfaceobjectresourcedesc_cu_0b436a26",
+      "title": "__host__cudaError_t cudaGetSurfaceObjectResourceDesc (cudaResourceDesc *pResDesc, cudaSurfaceObject_t surfObject)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns a surface object's resource descriptor Returns the resource descriptor for the surface object specified by surfObject....",
+      "filename": "__host__cudaerror_t_cudagetsurfaceobjectresourcedesc_cu_0b436a26.md"
+    }
+  ]
+}

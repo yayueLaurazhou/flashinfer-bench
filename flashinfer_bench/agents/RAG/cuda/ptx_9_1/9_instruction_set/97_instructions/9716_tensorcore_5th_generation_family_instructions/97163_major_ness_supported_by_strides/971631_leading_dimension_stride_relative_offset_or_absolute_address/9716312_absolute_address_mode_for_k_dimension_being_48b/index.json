@@ -1,0 +1,25 @@
+{
+  "description": "Documentation for 9.7.16.3.1.2. Absolute address mode for K dimension being 48B",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "The `tcgen05.mma` instruction with *K-dimension* of 48B would overflow the 128B shared memory boundary if the data is packed contiguously."
+    },
+    {
+      "id": "tcgen05_leading_dimension_byte_offset_absolute_address_restriction",
+      "title": "tcgen05-leading-dimension-byte-offset-absolute-address-restriction",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "Following are the restrictions on the absolute address stride mode:",
+      "filename": "tcgen05_leading_dimension_byte_offset_absolute_address_restriction.md"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+# 5.1.2. Special Register State Space
+
+### 5.1.2. [Special Register State Space](https://docs.nvidia.com/cuda/parallel-thread-execution/#special-register-state-space)[](https://docs.nvidia.com/cuda/parallel-thread-execution/#special-register-state-space "Permalink to this headline")
+
+The special register (`.sreg`) state space holds predefined, platform-specific registers, such as
+grid, cluster, CTA, and thread parameters, clock counters, and performance monitoring registers. All
+special registers are predefined.

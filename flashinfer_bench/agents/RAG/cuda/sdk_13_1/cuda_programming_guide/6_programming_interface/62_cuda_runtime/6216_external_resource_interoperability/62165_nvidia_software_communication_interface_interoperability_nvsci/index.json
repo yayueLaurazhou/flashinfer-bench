@@ -1,0 +1,65 @@
+{
+  "description": "Documentation for 6.2.16.5. NVIDIA Software Communication Interface Interoperability (NVSCI)",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "621651_importing_memory_objects",
+      "title": "6.2.16.5.1. Importing Memory Objects",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 6.2.16.5.1. Importing Memory Objects[\uf0c1](#importing-memory-objects-nvsci \"Permalink to this headline\")  For allocating an NvSciBuf object compatible with a given CUDA device, the corresponding GP...",
+      "filename": "621651_importing_memory_objects.md"
+    },
+    {
+      "id": "621652_mapping_buffers_onto_imported_memory_objects",
+      "title": "6.2.16.5.2. Mapping Buffers onto Imported Memory Objects",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 6.2.16.5.2. Mapping Buffers onto Imported Memory Objects[\uf0c1](#mapping-buffers-onto-imported-memory-objects-nvsci \"Permalink to this headline\")  A device pointer can be mapped onto an imported mem...",
+      "filename": "621652_mapping_buffers_onto_imported_memory_objects.md"
+    },
+    {
+      "id": "621653_mapping_mipmapped_arrays_onto_imported_memory_objects",
+      "title": "6.2.16.5.3. Mapping Mipmapped Arrays onto Imported Memory Objects",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 6.2.16.5.3. Mapping Mipmapped Arrays onto Imported Memory Objects[\uf0c1](#mapping-mipmapped-arrays-onto-imported-memory-objects-nvsci \"Permalink to this headline\")  A CUDA mipmapped array can be map...",
+      "filename": "621653_mapping_mipmapped_arrays_onto_imported_memory_objects.md"
+    },
+    {
+      "id": "621654_importing_synchronization_objects",
+      "title": "6.2.16.5.4. Importing Synchronization Objects",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 6.2.16.5.4. Importing Synchronization Objects[\uf0c1](#importing-synchronization-objects-nvsci \"Permalink to this headline\")  NvSciSync attributes that are compatible with a given CUDA device can be ...",
+      "filename": "621654_importing_synchronization_objects.md"
+    },
+    {
+      "id": "621655_signalingwaiting_on_imported_synchronization_objects",
+      "title": "6.2.16.5.5. Signaling/Waiting on Imported Synchronization Objects",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 6.2.16.5.5. Signaling/Waiting on Imported Synchronization Objects[\uf0c1](#signaling-waiting-on-imported-synchronization-objects-nvsci \"Permalink to this headline\")  An imported `NvSciSyncObj` object...",
+      "filename": "621655_signalingwaiting_on_imported_synchronization_objects.md"
+    }
+  ]
+}

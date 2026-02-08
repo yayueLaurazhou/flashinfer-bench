@@ -1,0 +1,885 @@
+{
+  "description": "Documentation for 6.24. Graph Management",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "curesult_cudevicegetgraphmemattribute_cudevice_device_c_050c657c",
+      "title": "CUresult cuDeviceGetGraphMemAttribute (CUdevice device, CUgraphMem_attribute attr, void *value)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Query asynchronous allocation attributes related to graphs....",
+      "filename": "curesult_cudevicegetgraphmemattribute_cudevice_device_c_050c657c.md"
+    },
+    {
+      "id": "curesult_cudevicegraphmemtrim_cudevice_device",
+      "title": "CUresult cuDeviceGraphMemTrim (CUdevice device)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Free unused memory that was cached on the specified device for use with graphs back to the OS....",
+      "filename": "curesult_cudevicegraphmemtrim_cudevice_device.md"
+    },
+    {
+      "id": "curesult_cudevicesetgraphmemattribute_cudevice_device_c_c9986284",
+      "title": "CUresult cuDeviceSetGraphMemAttribute (CUdevice device, CUgraphMem_attribute attr, void *value)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Set asynchronous allocation attributes related to graphs....",
+      "filename": "curesult_cudevicesetgraphmemattribute_cudevice_device_c_c9986284.md"
+    },
+    {
+      "id": "curesult_cugraphaddbatchmemopnode_cugraphnode_phgraphno_44bd1fd9",
+      "title": "CUresult cuGraphAddBatchMemOpNode (CUgraphNode *phGraphNode, CUgraph hGraph, const CUgraphNode *dependencies, size_t numDependencies, const CUDA_BATCH_MEM_OP_NODE_PARAMS *nodeParams)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Creates a batch memory operation node and adds it to a graph....",
+      "filename": "curesult_cugraphaddbatchmemopnode_cugraphnode_phgraphno_44bd1fd9.md"
+    },
+    {
+      "id": "curesult_cugraphaddchildgraphnode_cugraphnode_phgraphno_06397652",
+      "title": "CUresult cuGraphAddChildGraphNode (CUgraphNode *phGraphNode, CUgraph hGraph, const CUgraphNode *dependencies, size_t numDependencies, CUgraph childGraph)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Creates a child graph node and adds it to a graph....",
+      "filename": "curesult_cugraphaddchildgraphnode_cugraphnode_phgraphno_06397652.md"
+    },
+    {
+      "id": "curesult_cugraphadddependencies_cugraph_hgraph_const_cu_9b9dc988",
+      "title": "CUresult cuGraphAddDependencies (CUgraph hGraph, const CUgraphNode *from, const CUgraphNode *to, const CUgraphEdgeData *edgeData, size_t numDependencies)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Adds dependency edges to a graph....",
+      "filename": "curesult_cugraphadddependencies_cugraph_hgraph_const_cu_9b9dc988.md"
+    },
+    {
+      "id": "curesult_cugraphaddemptynode_cugraphnode_phgraphnode_cu_e6387f7f",
+      "title": "CUresult cuGraphAddEmptyNode (CUgraphNode *phGraphNode, CUgraph hGraph, const CUgraphNode *dependencies, size_t numDependencies)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Creates an empty node and adds it to a graph....",
+      "filename": "curesult_cugraphaddemptynode_cugraphnode_phgraphnode_cu_e6387f7f.md"
+    },
+    {
+      "id": "curesult_cugraphaddeventrecordnode_cugraphnode_phgraphn_2abfa06f",
+      "title": "CUresult cuGraphAddEventRecordNode (CUgraphNode *phGraphNode, CUgraph hGraph, const CUgraphNode *dependencies, size_t numDependencies, CUevent event)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Creates an event record node and adds it to a graph....",
+      "filename": "curesult_cugraphaddeventrecordnode_cugraphnode_phgraphn_2abfa06f.md"
+    },
+    {
+      "id": "curesult_cugraphaddeventwaitnode_cugraphnode_phgraphnod_abfc24dd",
+      "title": "CUresult cuGraphAddEventWaitNode (CUgraphNode *phGraphNode, CUgraph hGraph, const CUgraphNode *dependencies, size_t numDependencies, CUevent event)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Creates an event wait node and adds it to a graph....",
+      "filename": "curesult_cugraphaddeventwaitnode_cugraphnode_phgraphnod_abfc24dd.md"
+    },
+    {
+      "id": "curesult_cugraphaddexternalsemaphoressignalnode_cugraph_7398e761",
+      "title": "CUresult cuGraphAddExternalSemaphoresSignalNode (CUgraphNode *phGraphNode, CUgraph hGraph, const CUgraphNode *dependencies, size_t numDependencies, const CUDA_EXT_SEM_SIGNAL_NODE_PARAMS *nodeParams)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Creates an external semaphore signal node and adds it to a graph....",
+      "filename": "curesult_cugraphaddexternalsemaphoressignalnode_cugraph_7398e761.md"
+    },
+    {
+      "id": "curesult_cugraphaddexternalsemaphoreswaitnode_cugraphno_240a4565",
+      "title": "CUresult cuGraphAddExternalSemaphoresWaitNode (CUgraphNode *phGraphNode, CUgraph hGraph, const CUgraphNode *dependencies, size_t numDependencies, const CUDA_EXT_SEM_WAIT_NODE_PARAMS *nodeParams)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Creates an external semaphore wait node and adds it to a graph....",
+      "filename": "curesult_cugraphaddexternalsemaphoreswaitnode_cugraphno_240a4565.md"
+    },
+    {
+      "id": "curesult_cugraphaddhostnode_cugraphnode_phgraphnode_cug_b447ab20",
+      "title": "CUresult cuGraphAddHostNode (CUgraphNode *phGraphNode, CUgraph hGraph, const CUgraphNode *dependencies, size_t numDependencies, const CUDA_HOST_NODE_PARAMS *nodeParams)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Creates a host execution node and adds it to a graph....",
+      "filename": "curesult_cugraphaddhostnode_cugraphnode_phgraphnode_cug_b447ab20.md"
+    },
+    {
+      "id": "curesult_cugraphaddkernelnode_cugraphnode_phgraphnode_c_b67204c8",
+      "title": "CUresult cuGraphAddKernelNode (CUgraphNode *phGraphNode, CUgraph hGraph, const CUgraphNode *dependencies, size_t numDependencies, const CUDA_KERNEL_NODE_PARAMS *nodeParams)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Creates a kernel execution node and adds it to a graph....",
+      "filename": "curesult_cugraphaddkernelnode_cugraphnode_phgraphnode_c_b67204c8.md"
+    },
+    {
+      "id": "curesult_cugraphaddmemallocnode_cugraphnode_phgraphnode_9ce499d3",
+      "title": "CUresult cuGraphAddMemAllocNode (CUgraphNode *phGraphNode, CUgraph hGraph, const CUgraphNode *dependencies, size_t numDependencies, CUDA_MEM_ALLOC_NODE_PARAMS *nodeParams)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Creates an allocation node and adds it to a graph....",
+      "filename": "curesult_cugraphaddmemallocnode_cugraphnode_phgraphnode_9ce499d3.md"
+    },
+    {
+      "id": "curesult_cugraphaddmemcpynode_cugraphnode_phgraphnode_c_f1f8e07c",
+      "title": "CUresult cuGraphAddMemcpyNode (CUgraphNode *phGraphNode, CUgraph hGraph, const CUgraphNode *dependencies, size_t numDependencies, const CUDA_MEMCPY3D *copyParams, CUcontext ctx)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Creates a memcpy node and adds it to a graph....",
+      "filename": "curesult_cugraphaddmemcpynode_cugraphnode_phgraphnode_c_f1f8e07c.md"
+    },
+    {
+      "id": "curesult_cugraphaddmemfreenode_cugraphnode_phgraphnode__dc0effba",
+      "title": "CUresult cuGraphAddMemFreeNode (CUgraphNode *phGraphNode, CUgraph hGraph, const CUgraphNode *dependencies, size_t numDependencies, CUdeviceptr dptr)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Creates a memory free node and adds it to a graph....",
+      "filename": "curesult_cugraphaddmemfreenode_cugraphnode_phgraphnode__dc0effba.md"
+    },
+    {
+      "id": "curesult_cugraphaddmemsetnode_cugraphnode_phgraphnode_c_cd12b422",
+      "title": "CUresult cuGraphAddMemsetNode (CUgraphNode *phGraphNode, CUgraph hGraph, const CUgraphNode *dependencies, size_t numDependencies, const CUDA_MEMSET_NODE_PARAMS *memsetParams, CUcontext ctx)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Creates a memset node and adds it to a graph....",
+      "filename": "curesult_cugraphaddmemsetnode_cugraphnode_phgraphnode_c_cd12b422.md"
+    },
+    {
+      "id": "curesult_cugraphaddnode_cugraphnode_phgraphnode_cugraph_b7122697",
+      "title": "CUresult cuGraphAddNode (CUgraphNode *phGraphNode, CUgraph hGraph, const CUgraphNode *dependencies, const CUgraphEdgeData *dependencyData, size_t numDependencies, CUgraphNodeParams *nodeParams)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Adds a node of arbitrary type to a graph....",
+      "filename": "curesult_cugraphaddnode_cugraphnode_phgraphnode_cugraph_b7122697.md"
+    },
+    {
+      "id": "curesult_cugraphbatchmemopnodegetparams_cugraphnode_hno_0581d634",
+      "title": "CUresult cuGraphBatchMemOpNodeGetParams (CUgraphNode hNode, CUDA_BATCH_MEM_OP_NODE_PARAMS *nodeParams_out)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns a batch mem op node's parameters....",
+      "filename": "curesult_cugraphbatchmemopnodegetparams_cugraphnode_hno_0581d634.md"
+    },
+    {
+      "id": "curesult_cugraphbatchmemopnodesetparams_cugraphnode_hno_63be0af2",
+      "title": "CUresult cuGraphBatchMemOpNodeSetParams (CUgraphNode hNode, const CUDA_BATCH_MEM_OP_NODE_PARAMS *nodeParams)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets a batch mem op node's parameters....",
+      "filename": "curesult_cugraphbatchmemopnodesetparams_cugraphnode_hno_63be0af2.md"
+    },
+    {
+      "id": "curesult_cugraphchildgraphnodegetgraph_cugraphnode_hnod_734c21bf",
+      "title": "CUresult cuGraphChildGraphNodeGetGraph (CUgraphNode hNode, CUgraph *phGraph)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Gets a handle to the embedded graph of a child graph node....",
+      "filename": "curesult_cugraphchildgraphnodegetgraph_cugraphnode_hnod_734c21bf.md"
+    },
+    {
+      "id": "curesult_cugraphclone_cugraph_phgraphclone_cugraph_originalgraph",
+      "title": "CUresult cuGraphClone (CUgraph *phGraphClone, CUgraph originalGraph)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Clones a graph....",
+      "filename": "curesult_cugraphclone_cugraph_phgraphclone_cugraph_originalgraph.md"
+    },
+    {
+      "id": "curesult_cugraphconditionalhandlecreate_cugraphconditio_ed88f1a1",
+      "title": "CUresult cuGraphConditionalHandleCreate (CUgraphConditionalHandle *pHandle_out, CUgraph hGraph, CUcontext ctx, unsigned int defaultLaunchValue, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Create a conditional handle....",
+      "filename": "curesult_cugraphconditionalhandlecreate_cugraphconditio_ed88f1a1.md"
+    },
+    {
+      "id": "curesult_cugraphcreate_cugraph_phgraph_unsigned_int_flags",
+      "title": "CUresult cuGraphCreate (CUgraph *phGraph, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Creates a graph....",
+      "filename": "curesult_cugraphcreate_cugraph_phgraph_unsigned_int_flags.md"
+    },
+    {
+      "id": "curesult_cugraphdebugdotprint_cugraph_hgraph_const_char_ed9093d5",
+      "title": "CUresult cuGraphDebugDotPrint (CUgraph hGraph, const char *path, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Write a DOT file describing graph structure....",
+      "filename": "curesult_cugraphdebugdotprint_cugraph_hgraph_const_char_ed9093d5.md"
+    },
+    {
+      "id": "curesult_cugraphdestroy_cugraph_hgraph",
+      "title": "CUresult cuGraphDestroy (CUgraph hGraph)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Destroys a graph....",
+      "filename": "curesult_cugraphdestroy_cugraph_hgraph.md"
+    },
+    {
+      "id": "curesult_cugraphdestroynode_cugraphnode_hnode",
+      "title": "CUresult cuGraphDestroyNode (CUgraphNode hNode)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Remove a node from the graph....",
+      "filename": "curesult_cugraphdestroynode_cugraphnode_hnode.md"
+    },
+    {
+      "id": "curesult_cugrapheventrecordnodegetevent_cugraphnode_hno_4885249b",
+      "title": "CUresult cuGraphEventRecordNodeGetEvent (CUgraphNode hNode, CUevent *event_out)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the event associated with an event record node....",
+      "filename": "curesult_cugrapheventrecordnodegetevent_cugraphnode_hno_4885249b.md"
+    },
+    {
+      "id": "curesult_cugrapheventrecordnodesetevent_cugraphnode_hno_c4c255a0",
+      "title": "CUresult cuGraphEventRecordNodeSetEvent (CUgraphNode hNode, CUevent event)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets an event record node's event....",
+      "filename": "curesult_cugrapheventrecordnodesetevent_cugraphnode_hno_c4c255a0.md"
+    },
+    {
+      "id": "curesult_cugrapheventwaitnodegetevent_cugraphnode_hnode_d512ed57",
+      "title": "CUresult cuGraphEventWaitNodeGetEvent (CUgraphNode hNode, CUevent *event_out)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the event associated with an event wait node....",
+      "filename": "curesult_cugrapheventwaitnodegetevent_cugraphnode_hnode_d512ed57.md"
+    },
+    {
+      "id": "curesult_cugrapheventwaitnodesetevent_cugraphnode_hnode_8cab69bb",
+      "title": "CUresult cuGraphEventWaitNodeSetEvent (CUgraphNode hNode, CUevent event)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets an event wait node's event....",
+      "filename": "curesult_cugrapheventwaitnodesetevent_cugraphnode_hnode_8cab69bb.md"
+    },
+    {
+      "id": "curesult_cugraphexecbatchmemopnodesetparams_cugraphexec_e673819f",
+      "title": "CUresult cuGraphExecBatchMemOpNodeSetParams (CUgraphExec hGraphExec, CUgraphNode hNode, const CUDA_BATCH_MEM_OP_NODE_PARAMS *nodeParams)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets the parameters for a batch mem op node in the given graphExec....",
+      "filename": "curesult_cugraphexecbatchmemopnodesetparams_cugraphexec_e673819f.md"
+    },
+    {
+      "id": "curesult_cugraphexecchildgraphnodesetparams_cugraphexec_929205ea",
+      "title": "CUresult cuGraphExecChildGraphNodeSetParams (CUgraphExec hGraphExec, CUgraphNode hNode, CUgraph childGraph)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Updates node parameters in the child graph node in the given graphExec....",
+      "filename": "curesult_cugraphexecchildgraphnodesetparams_cugraphexec_929205ea.md"
+    },
+    {
+      "id": "curesult_cugraphexecdestroy_cugraphexec_hgraphexec",
+      "title": "CUresult cuGraphExecDestroy (CUgraphExec hGraphExec)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Destroys an executable graph....",
+      "filename": "curesult_cugraphexecdestroy_cugraphexec_hgraphexec.md"
+    },
+    {
+      "id": "curesult_cugraphexeceventrecordnodesetevent_cugraphexec_650d1f65",
+      "title": "CUresult cuGraphExecEventRecordNodeSetEvent (CUgraphExec hGraphExec, CUgraphNode hNode, CUevent event)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets the event for an event record node in the given graphExec....",
+      "filename": "curesult_cugraphexeceventrecordnodesetevent_cugraphexec_650d1f65.md"
+    },
+    {
+      "id": "curesult_cugraphexeceventwaitnodesetevent_cugraphexec_h_c57194d1",
+      "title": "CUresult cuGraphExecEventWaitNodeSetEvent (CUgraphExec hGraphExec, CUgraphNode hNode, CUevent event)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets the event for an event wait node in the given graphExec....",
+      "filename": "curesult_cugraphexeceventwaitnodesetevent_cugraphexec_h_c57194d1.md"
+    },
+    {
+      "id": "curesult_cugraphexecexternalsemaphoressignalnodesetpara_a0ef1d37",
+      "title": "CUresult cuGraphExecExternalSemaphoresSignalNodeSetParams (CUgraphExec hGraphExec, CUgraphNode hNode, const CUDA_EXT_SEM_SIGNAL_NODE_PARAMS *nodeParams)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets the parameters for an external semaphore signal node in the given graphExec....",
+      "filename": "curesult_cugraphexecexternalsemaphoressignalnodesetpara_a0ef1d37.md"
+    },
+    {
+      "id": "curesult_cugraphexecexternalsemaphoreswaitnodesetparams_f85fb46b",
+      "title": "CUresult cuGraphExecExternalSemaphoresWaitNodeSetParams (CUgraphExec hGraphExec, CUgraphNode hNode, const CUDA_EXT_SEM_WAIT_NODE_PARAMS *nodeParams)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets the parameters for an external semaphore wait node in the given graphExec....",
+      "filename": "curesult_cugraphexecexternalsemaphoreswaitnodesetparams_f85fb46b.md"
+    },
+    {
+      "id": "curesult_cugraphexecgetflags_cugraphexec_hgraphexec_cuu_c46e8372",
+      "title": "CUresult cuGraphExecGetFlags (CUgraphExec hGraphExec, cuuint64_t *flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Query the instantiation flags of an executable graph....",
+      "filename": "curesult_cugraphexecgetflags_cugraphexec_hgraphexec_cuu_c46e8372.md"
+    },
+    {
+      "id": "curesult_cugraphexecgetid_cugraphexec_hgraphexec_unsign_224fca71",
+      "title": "CUresult cuGraphExecGetId (CUgraphExec hGraphExec, unsigned int *graphId)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the id of a given graph exec....",
+      "filename": "curesult_cugraphexecgetid_cugraphexec_hgraphexec_unsign_224fca71.md"
+    },
+    {
+      "id": "curesult_cugraphexechostnodesetparams_cugraphexec_hgrap_dd820653",
+      "title": "CUresult cuGraphExecHostNodeSetParams (CUgraphExec hGraphExec, CUgraphNode hNode, const CUDA_HOST_NODE_PARAMS *nodeParams)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets the parameters for a host node in the given graphExec....",
+      "filename": "curesult_cugraphexechostnodesetparams_cugraphexec_hgrap_dd820653.md"
+    },
+    {
+      "id": "curesult_cugraphexeckernelnodesetparams_cugraphexec_hgr_0a42bd2c",
+      "title": "CUresult cuGraphExecKernelNodeSetParams (CUgraphExec hGraphExec, CUgraphNode hNode, const CUDA_KERNEL_NODE_PARAMS *nodeParams)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets the parameters for a kernel node in the given graphExec....",
+      "filename": "curesult_cugraphexeckernelnodesetparams_cugraphexec_hgr_0a42bd2c.md"
+    },
+    {
+      "id": "curesult_cugraphexecmemcpynodesetparams_cugraphexec_hgr_c2fc2ffe",
+      "title": "CUresult cuGraphExecMemcpyNodeSetParams (CUgraphExec hGraphExec, CUgraphNode hNode, const CUDA_MEMCPY3D *copyParams, CUcontext ctx)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets the parameters for a memcpy node in the given graphExec....",
+      "filename": "curesult_cugraphexecmemcpynodesetparams_cugraphexec_hgr_c2fc2ffe.md"
+    },
+    {
+      "id": "curesult_cugraphexecmemsetnodesetparams_cugraphexec_hgr_2ec63ae9",
+      "title": "CUresult cuGraphExecMemsetNodeSetParams (CUgraphExec hGraphExec, CUgraphNode hNode, const CUDA_MEMSET_NODE_PARAMS *memsetParams, CUcontext ctx)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets the parameters for a memset node in the given graphExec....",
+      "filename": "curesult_cugraphexecmemsetnodesetparams_cugraphexec_hgr_2ec63ae9.md"
+    },
+    {
+      "id": "curesult_cugraphexecnodesetparams_cugraphexec_hgraphexe_4a7c1afa",
+      "title": "CUresult cuGraphExecNodeSetParams (CUgraphExec hGraphExec, CUgraphNode hNode, CUgraphNodeParams *nodeParams)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Update's a graph node's parameters in an instantiated graph....",
+      "filename": "curesult_cugraphexecnodesetparams_cugraphexec_hgraphexe_4a7c1afa.md"
+    },
+    {
+      "id": "curesult_cugraphexecupdate_cugraphexec_hgraphexec_cugra_8ef1f31c",
+      "title": "CUresult cuGraphExecUpdate (CUgraphExec hGraphExec, CUgraph hGraph, CUgraphExecUpdateResultInfo *resultInfo)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Check whether an executable graph can be updated with a graph and perform the update if possible....",
+      "filename": "curesult_cugraphexecupdate_cugraphexec_hgraphexec_cugra_8ef1f31c.md"
+    },
+    {
+      "id": "curesult_cugraphexternalsemaphoressignalnodegetparams_c_08b0ca63",
+      "title": "CUresult cuGraphExternalSemaphoresSignalNodeGetParams (CUgraphNode hNode, CUDA_EXT_SEM_SIGNAL_NODE_PARAMS *params_out)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns an external semaphore signal node's parameters....",
+      "filename": "curesult_cugraphexternalsemaphoressignalnodegetparams_c_08b0ca63.md"
+    },
+    {
+      "id": "curesult_cugraphexternalsemaphoressignalnodesetparams_c_dd502181",
+      "title": "CUresult cuGraphExternalSemaphoresSignalNodeSetParams (CUgraphNode hNode, const CUDA_EXT_SEM_SIGNAL_NODE_PARAMS *nodeParams)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets an external semaphore signal node's parameters....",
+      "filename": "curesult_cugraphexternalsemaphoressignalnodesetparams_c_dd502181.md"
+    },
+    {
+      "id": "curesult_cugraphexternalsemaphoreswaitnodegetparams_cug_f4caba30",
+      "title": "CUresult cuGraphExternalSemaphoresWaitNodeGetParams (CUgraphNode hNode, CUDA_EXT_SEM_WAIT_NODE_PARAMS *params_out)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns an external semaphore wait node's parameters....",
+      "filename": "curesult_cugraphexternalsemaphoreswaitnodegetparams_cug_f4caba30.md"
+    },
+    {
+      "id": "curesult_cugraphexternalsemaphoreswaitnodesetparams_cug_7d94903b",
+      "title": "CUresult cuGraphExternalSemaphoresWaitNodeSetParams (CUgraphNode hNode, const CUDA_EXT_SEM_WAIT_NODE_PARAMS *nodeParams)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets an external semaphore wait node's parameters....",
+      "filename": "curesult_cugraphexternalsemaphoreswaitnodesetparams_cug_7d94903b.md"
+    },
+    {
+      "id": "curesult_cugraphgetedges_cugraph_hgraph_cugraphnode_fro_6dc7f17f",
+      "title": "CUresult cuGraphGetEdges (CUgraph hGraph, CUgraphNode *from, CUgraphNode *to, CUgraphEdgeData *edgeData, size_t *numEdges)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns a graph's dependency edges....",
+      "filename": "curesult_cugraphgetedges_cugraph_hgraph_cugraphnode_fro_6dc7f17f.md"
+    },
+    {
+      "id": "curesult_cugraphgetid_cugraph_hgraph_unsigned_int_graphid",
+      "title": "CUresult cuGraphGetId (CUgraph hGraph, unsigned int *graphId)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the id of a given graph....",
+      "filename": "curesult_cugraphgetid_cugraph_hgraph_unsigned_int_graphid.md"
+    },
+    {
+      "id": "curesult_cugraphgetnodes_cugraph_hgraph_cugraphnode_nod_657ea776",
+      "title": "CUresult cuGraphGetNodes (CUgraph hGraph, CUgraphNode *nodes, size_t *numNodes)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns a graph's nodes....",
+      "filename": "curesult_cugraphgetnodes_cugraph_hgraph_cugraphnode_nod_657ea776.md"
+    },
+    {
+      "id": "curesult_cugraphgetrootnodes_cugraph_hgraph_cugraphnode_d31e58f3",
+      "title": "CUresult cuGraphGetRootNodes (CUgraph hGraph, CUgraphNode *rootNodes, size_t *numRootNodes)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns a graph's root nodes....",
+      "filename": "curesult_cugraphgetrootnodes_cugraph_hgraph_cugraphnode_d31e58f3.md"
+    },
+    {
+      "id": "curesult_cugraphhostnodegetparams_cugraphnode_hnode_cud_67cadbd1",
+      "title": "CUresult cuGraphHostNodeGetParams (CUgraphNode hNode, CUDA_HOST_NODE_PARAMS *nodeParams)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns a host node's parameters....",
+      "filename": "curesult_cugraphhostnodegetparams_cugraphnode_hnode_cud_67cadbd1.md"
+    },
+    {
+      "id": "curesult_cugraphhostnodesetparams_cugraphnode_hnode_con_f13f7a18",
+      "title": "CUresult cuGraphHostNodeSetParams (CUgraphNode hNode, const CUDA_HOST_NODE_PARAMS *nodeParams)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets a host node's parameters....",
+      "filename": "curesult_cugraphhostnodesetparams_cugraphnode_hnode_con_f13f7a18.md"
+    },
+    {
+      "id": "curesult_cugraphinstantiate_cugraphexec_phgraphexec_cug_230dc0bf",
+      "title": "CUresult cuGraphInstantiate (CUgraphExec *phGraphExec, CUgraph hGraph, unsigned long long flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Creates an executable graph from a graph....",
+      "filename": "curesult_cugraphinstantiate_cugraphexec_phgraphexec_cug_230dc0bf.md"
+    },
+    {
+      "id": "curesult_cugraphinstantiatewithparams_cugraphexec_phgra_b0b3934d",
+      "title": "CUresult cuGraphInstantiateWithParams (CUgraphExec *phGraphExec, CUgraph hGraph, CUDA_GRAPH_INSTANTIATE_PARAMS *instantiateParams)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Creates an executable graph from a graph....",
+      "filename": "curesult_cugraphinstantiatewithparams_cugraphexec_phgra_b0b3934d.md"
+    },
+    {
+      "id": "curesult_cugraphkernelnodecopyattributes_cugraphnode_ds_e9117eab",
+      "title": "CUresult cuGraphKernelNodeCopyAttributes (CUgraphNode dst, CUgraphNode src)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Copies attributes from source node to destination node....",
+      "filename": "curesult_cugraphkernelnodecopyattributes_cugraphnode_ds_e9117eab.md"
+    },
+    {
+      "id": "curesult_cugraphkernelnodegetattribute_cugraphnode_hnod_b36ce6a8",
+      "title": "CUresult cuGraphKernelNodeGetAttribute (CUgraphNode hNode, CUkernelNodeAttrID attr, CUkernelNodeAttrValue *value_out)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Queries node attribute....",
+      "filename": "curesult_cugraphkernelnodegetattribute_cugraphnode_hnod_b36ce6a8.md"
+    },
+    {
+      "id": "curesult_cugraphkernelnodegetparams_cugraphnode_hnode_c_97e63c9f",
+      "title": "CUresult cuGraphKernelNodeGetParams (CUgraphNode hNode, CUDA_KERNEL_NODE_PARAMS *nodeParams)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns a kernel node's parameters....",
+      "filename": "curesult_cugraphkernelnodegetparams_cugraphnode_hnode_c_97e63c9f.md"
+    },
+    {
+      "id": "curesult_cugraphkernelnodesetattribute_cugraphnode_hnod_ddb2eccd",
+      "title": "CUresult cuGraphKernelNodeSetAttribute (CUgraphNode hNode, CUkernelNodeAttrID attr, const CUkernelNodeAttrValue *value)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets node attribute....",
+      "filename": "curesult_cugraphkernelnodesetattribute_cugraphnode_hnod_ddb2eccd.md"
+    },
+    {
+      "id": "curesult_cugraphkernelnodesetparams_cugraphnode_hnode_c_f2ddd82b",
+      "title": "CUresult cuGraphKernelNodeSetParams (CUgraphNode hNode, const CUDA_KERNEL_NODE_PARAMS *nodeParams)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets a kernel node's parameters....",
+      "filename": "curesult_cugraphkernelnodesetparams_cugraphnode_hnode_c_f2ddd82b.md"
+    },
+    {
+      "id": "curesult_cugraphlaunch_cugraphexec_hgraphexec_custream_hstream",
+      "title": "CUresult cuGraphLaunch (CUgraphExec hGraphExec, CUstream hStream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Launches an executable graph in a stream....",
+      "filename": "curesult_cugraphlaunch_cugraphexec_hgraphexec_custream_hstream.md"
+    },
+    {
+      "id": "curesult_cugraphmemallocnodegetparams_cugraphnode_hnode_1dd40533",
+      "title": "CUresult cuGraphMemAllocNodeGetParams (CUgraphNode hNode, CUDA_MEM_ALLOC_NODE_PARAMS *params_out)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns a memory alloc node's parameters....",
+      "filename": "curesult_cugraphmemallocnodegetparams_cugraphnode_hnode_1dd40533.md"
+    },
+    {
+      "id": "curesult_cugraphmemcpynodegetparams_cugraphnode_hnode_c_0e8f736d",
+      "title": "CUresult cuGraphMemcpyNodeGetParams (CUgraphNode hNode, CUDA_MEMCPY3D *nodeParams)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns a memcpy node's parameters....",
+      "filename": "curesult_cugraphmemcpynodegetparams_cugraphnode_hnode_c_0e8f736d.md"
+    },
+    {
+      "id": "curesult_cugraphmemcpynodesetparams_cugraphnode_hnode_c_34289cce",
+      "title": "CUresult cuGraphMemcpyNodeSetParams (CUgraphNode hNode, const CUDA_MEMCPY3D *nodeParams)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets a memcpy node's parameters....",
+      "filename": "curesult_cugraphmemcpynodesetparams_cugraphnode_hnode_c_34289cce.md"
+    },
+    {
+      "id": "curesult_cugraphmemfreenodegetparams_cugraphnode_hnode__2b66c527",
+      "title": "CUresult cuGraphMemFreeNodeGetParams (CUgraphNode hNode, CUdeviceptr *dptr_out)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns a memory free node's parameters....",
+      "filename": "curesult_cugraphmemfreenodegetparams_cugraphnode_hnode__2b66c527.md"
+    },
+    {
+      "id": "curesult_cugraphmemsetnodegetparams_cugraphnode_hnode_c_6b839757",
+      "title": "CUresult cuGraphMemsetNodeGetParams (CUgraphNode hNode, CUDA_MEMSET_NODE_PARAMS *nodeParams)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns a memset node's parameters....",
+      "filename": "curesult_cugraphmemsetnodegetparams_cugraphnode_hnode_c_6b839757.md"
+    },
+    {
+      "id": "curesult_cugraphmemsetnodesetparams_cugraphnode_hnode_c_90a94b70",
+      "title": "CUresult cuGraphMemsetNodeSetParams (CUgraphNode hNode, const CUDA_MEMSET_NODE_PARAMS *nodeParams)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets a memset node's parameters....",
+      "filename": "curesult_cugraphmemsetnodesetparams_cugraphnode_hnode_c_90a94b70.md"
+    },
+    {
+      "id": "curesult_cugraphnodefindinclone_cugraphnode_phnode_cugr_673a7a17",
+      "title": "CUresult cuGraphNodeFindInClone (CUgraphNode *phNode, CUgraphNode hOriginalNode, CUgraph hClonedGraph)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Finds a cloned version of a node....",
+      "filename": "curesult_cugraphnodefindinclone_cugraphnode_phnode_cugr_673a7a17.md"
+    },
+    {
+      "id": "curesult_cugraphnodegetcontaininggraph_cugraphnode_hnod_e35cc4fe",
+      "title": "CUresult cuGraphNodeGetContainingGraph (CUgraphNode hNode, CUgraph *phGraph)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the graph that contains a given graph node....",
+      "filename": "curesult_cugraphnodegetcontaininggraph_cugraphnode_hnod_e35cc4fe.md"
+    },
+    {
+      "id": "curesult_cugraphnodegetdependencies_cugraphnode_hnode_c_412a2699",
+      "title": "CUresult cuGraphNodeGetDependencies (CUgraphNode hNode, CUgraphNode *dependencies, CUgraphEdgeData *edgeData, size_t *numDependencies)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns a node's dependencies....",
+      "filename": "curesult_cugraphnodegetdependencies_cugraphnode_hnode_c_412a2699.md"
+    },
+    {
+      "id": "curesult_cugraphnodegetdependentnodes_cugraphnode_hnode_98133ede",
+      "title": "CUresult cuGraphNodeGetDependentNodes (CUgraphNode hNode, CUgraphNode *dependentNodes, CUgraphEdgeData *edgeData, size_t *numDependentNodes)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns a node's dependent nodes....",
+      "filename": "curesult_cugraphnodegetdependentnodes_cugraphnode_hnode_98133ede.md"
+    },
+    {
+      "id": "curesult_cugraphnodegetenabled_cugraphexec_hgraphexec_c_44fff0ce",
+      "title": "CUresult cuGraphNodeGetEnabled (CUgraphExec hGraphExec, CUgraphNode hNode, unsigned int *isEnabled)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Query whether a node in the given graphExec is enabled....",
+      "filename": "curesult_cugraphnodegetenabled_cugraphexec_hgraphexec_c_44fff0ce.md"
+    },
+    {
+      "id": "curesult_cugraphnodegetlocalid_cugraphnode_hnode_unsign_c50a99af",
+      "title": "CUresult cuGraphNodeGetLocalId (CUgraphNode hNode, unsigned int *nodeId)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the local node id of a given graph node....",
+      "filename": "curesult_cugraphnodegetlocalid_cugraphnode_hnode_unsign_c50a99af.md"
+    },
+    {
+      "id": "curesult_cugraphnodegettoolsid_cugraphnode_hnode_unsign_adee8370",
+      "title": "CUresult cuGraphNodeGetToolsId (CUgraphNode hNode, unsigned long long *toolsNodeId)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns an id used by tools to identify a given node....",
+      "filename": "curesult_cugraphnodegettoolsid_cugraphnode_hnode_unsign_adee8370.md"
+    },
+    {
+      "id": "curesult_cugraphnodegettype_cugraphnode_hnode_cugraphno_718c471b",
+      "title": "CUresult cuGraphNodeGetType (CUgraphNode hNode, CUgraphNodeType *type)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns a node's type....",
+      "filename": "curesult_cugraphnodegettype_cugraphnode_hnode_cugraphno_718c471b.md"
+    },
+    {
+      "id": "curesult_cugraphnodesetenabled_cugraphexec_hgraphexec_c_eadcc9ff",
+      "title": "CUresult cuGraphNodeSetEnabled (CUgraphExec hGraphExec, CUgraphNode hNode, unsigned int isEnabled)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Enables or disables the specified node in the given graphExec....",
+      "filename": "curesult_cugraphnodesetenabled_cugraphexec_hgraphexec_c_eadcc9ff.md"
+    },
+    {
+      "id": "curesult_cugraphnodesetparams_cugraphnode_hnode_cugraph_b683d6a1",
+      "title": "CUresult cuGraphNodeSetParams (CUgraphNode hNode, CUgraphNodeParams *nodeParams)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Update's a graph node's parameters....",
+      "filename": "curesult_cugraphnodesetparams_cugraphnode_hnode_cugraph_b683d6a1.md"
+    },
+    {
+      "id": "curesult_cugraphreleaseuserobject_cugraph_graph_cuusero_386ae25a",
+      "title": "CUresult cuGraphReleaseUserObject (CUgraph graph, CUuserObject object, unsigned int count)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Release a user object reference from a graph....",
+      "filename": "curesult_cugraphreleaseuserobject_cugraph_graph_cuusero_386ae25a.md"
+    },
+    {
+      "id": "curesult_cugraphremovedependencies_cugraph_hgraph_const_19c42d01",
+      "title": "CUresult cuGraphRemoveDependencies (CUgraph hGraph, const CUgraphNode *from, const CUgraphNode *to, const CUgraphEdgeData *edgeData, size_t numDependencies)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Removes dependency edges from a graph....",
+      "filename": "curesult_cugraphremovedependencies_cugraph_hgraph_const_19c42d01.md"
+    },
+    {
+      "id": "curesult_cugraphretainuserobject_cugraph_graph_cuuserob_b19a4331",
+      "title": "CUresult cuGraphRetainUserObject (CUgraph graph, CUuserObject object, unsigned int count, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Retain a reference to a user object from a graph....",
+      "filename": "curesult_cugraphretainuserobject_cugraph_graph_cuuserob_b19a4331.md"
+    },
+    {
+      "id": "curesult_cugraphupload_cugraphexec_hgraphexec_custream_hstream",
+      "title": "CUresult cuGraphUpload (CUgraphExec hGraphExec, CUstream hStream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Uploads an executable graph in a stream....",
+      "filename": "curesult_cugraphupload_cugraphexec_hgraphexec_custream_hstream.md"
+    },
+    {
+      "id": "curesult_cuuserobjectcreate_cuuserobject_object_out_voi_3fe6c740",
+      "title": "CUresult cuUserObjectCreate (CUuserObject *object_out, void *ptr, CUhostFn destroy, unsigned int initialRefcount, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Create a user object....",
+      "filename": "curesult_cuuserobjectcreate_cuuserobject_object_out_voi_3fe6c740.md"
+    },
+    {
+      "id": "curesult_cuuserobjectrelease_cuuserobject_object_unsign_1a87107a",
+      "title": "CUresult cuUserObjectRelease (CUuserObject object, unsigned int count)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Release a reference to a user object....",
+      "filename": "curesult_cuuserobjectrelease_cuuserobject_object_unsign_1a87107a.md"
+    },
+    {
+      "id": "curesult_cuuserobjectretain_cuuserobject_object_unsigne_30ac60cb",
+      "title": "CUresult cuUserObjectRetain (CUuserObject object, unsigned int count)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Retain a reference to a user object....",
+      "filename": "curesult_cuuserobjectretain_cuuserobject_object_unsigne_30ac60cb.md"
+    }
+  ]
+}

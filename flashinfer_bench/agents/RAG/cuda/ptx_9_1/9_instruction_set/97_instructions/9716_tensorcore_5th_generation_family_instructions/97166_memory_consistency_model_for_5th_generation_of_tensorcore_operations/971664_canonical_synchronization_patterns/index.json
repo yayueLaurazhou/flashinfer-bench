@@ -1,0 +1,65 @@
+{
+  "description": "Documentation for 9.7.16.6.4. Canonical synchronization patterns",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Using the above rules, the following are the five canonical synchronization patterns:"
+    },
+    {
+      "id": "9716641_pipelined_instructions_same_thread",
+      "title": "9.7.16.6.4.1. Pipelined instructions, same thread",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "In this pattern, no explicit ordering mechanism is needed and the ordering guarantee is provided by the pipelined instruction pairing.",
+      "filename": "9716641_pipelined_instructions_same_thread.md"
+    },
+    {
+      "id": "9716642_non_pipelined_instructions_same_thread",
+      "title": "9.7.16.6.4.2. Non-pipelined instructions, same thread",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "In this pattern, explicit waiting mechanisms are used to wait for the completion of the asynchronous `tcgen05` operations.",
+      "filename": "9716642_non_pipelined_instructions_same_thread.md"
+    },
+    {
+      "id": "9716643_pipelined_instructions_different_thread",
+      "title": "9.7.16.6.4.3. Pipelined instructions, different thread",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "In this pattern, no explicit waiting mechanism is needed but proper synchronization between threads is needed.",
+      "filename": "9716643_pipelined_instructions_different_thread.md"
+    },
+    {
+      "id": "9716644_non_pipelined_instructions_different_thread",
+      "title": "9.7.16.6.4.4. Non-pipelined instructions, different thread",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "In this pattern, the producer threads that issue the asynchronous `tcgen05` instructions must explicitly wait for the instructions\u2019 completion before synchronizing with the consumer threads.",
+      "filename": "9716644_non_pipelined_instructions_different_thread.md"
+    },
+    {
+      "id": "9716645_register_dependencies_same_thread",
+      "title": "9.7.16.6.4.5. Register dependencies, same thread",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "For `tcgen05.ld`, an intra-thread ordering through true register dependency will be respected regardless of the presence or absence of other forms of synchronization. This form of register dependency does not imply any other form of ordering. For example, a register dependency does not imply that...",
+      "filename": "9716645_register_dependencies_same_thread.md"
+    }
+  ]
+}

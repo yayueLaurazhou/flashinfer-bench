@@ -1,0 +1,25 @@
+{
+  "description": "Documentation for 11.3. Programming Model Concept",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "1131_composition_example",
+      "title": "11.3.1. Composition Example",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 11.3.1. Composition Example[\uf0c1](#composition-example \"Permalink to this headline\")  To illustrate the concept of groups, this example attempts to perform a block-wide sum reduction. Previously, the...",
+      "filename": "1131_composition_example.md"
+    }
+  ]
+}

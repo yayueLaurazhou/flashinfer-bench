@@ -1,0 +1,115 @@
+{
+  "description": "Documentation for 6.32. Library Management",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "__host__cudaerror_t_cudakernelsetattributefordevice_cud_7c5802c6",
+      "title": "__host__cudaError_t cudaKernelSetAttributeForDevice (cudaKernel_t kernel, cudaFuncAttribute attr, int value, int device)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets information about a kernel....",
+      "filename": "__host__cudaerror_t_cudakernelsetattributefordevice_cud_7c5802c6.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudalibraryenumeratekernels_cudaker_b9107f20",
+      "title": "__host__cudaError_t cudaLibraryEnumerateKernels (cudaKernel_t *kernels, unsigned int numKernels, cudaLibrary_t lib)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Retrieve the kernel handles within a library....",
+      "filename": "__host__cudaerror_t_cudalibraryenumeratekernels_cudaker_b9107f20.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudalibrarygetglobal_void_dptr_size_2de26bd2",
+      "title": "__host__cudaError_t cudaLibraryGetGlobal (void **dptr, size_t *bytes, cudaLibrary_t library, const char *name)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns a global device pointer....",
+      "filename": "__host__cudaerror_t_cudalibrarygetglobal_void_dptr_size_2de26bd2.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudalibrarygetkernel_cudakernel_t_p_e42b70c8",
+      "title": "__host__cudaError_t cudaLibraryGetKernel (cudaKernel_t *pKernel, cudaLibrary_t library, const char *name)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns a kernel handle....",
+      "filename": "__host__cudaerror_t_cudalibrarygetkernel_cudakernel_t_p_e42b70c8.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudalibrarygetkernelcount_unsigned__8fd096f7",
+      "title": "__host__cudaError_t cudaLibraryGetKernelCount (unsigned int *count, cudaLibrary_t lib)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the number of kernels within a library....",
+      "filename": "__host__cudaerror_t_cudalibrarygetkernelcount_unsigned__8fd096f7.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudalibrarygetmanaged_void_dptr_siz_40314ba5",
+      "title": "__host__cudaError_t cudaLibraryGetManaged (void **dptr, size_t *bytes, cudaLibrary_t library, const char *name)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns a pointer to managed memory....",
+      "filename": "__host__cudaerror_t_cudalibrarygetmanaged_void_dptr_siz_40314ba5.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudalibrarygetunifiedfunction_void__3c2d3fdd",
+      "title": "__host__cudaError_t cudaLibraryGetUnifiedFunction (void **fptr, cudaLibrary_t library, const char *symbol)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns a pointer to a unified function....",
+      "filename": "__host__cudaerror_t_cudalibrarygetunifiedfunction_void__3c2d3fdd.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudalibraryloaddata_cudalibrary_t_l_6e1914d4",
+      "title": "__host__cudaError_t cudaLibraryLoadData (cudaLibrary_t *library, const void *code, cudaJitOption *jitOptions, void **jitOptionsValues, unsigned int numJitOptions, cudaLibraryOption *libraryOptions, void **libraryOptionValues, unsigned int numLibraryOptions)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Load a library with specified code and options....",
+      "filename": "__host__cudaerror_t_cudalibraryloaddata_cudalibrary_t_l_6e1914d4.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudalibraryloadfromfile_cudalibrary_6fece948",
+      "title": "__host__cudaError_t cudaLibraryLoadFromFile (cudaLibrary_t *library, const char *fileName, cudaJitOption *jitOptions, void **jitOptionsValues, unsigned int numJitOptions, cudaLibraryOption *libraryOptions, void **libraryOptionValues, unsigned int numLibraryOptions)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Load a library with specified file and options....",
+      "filename": "__host__cudaerror_t_cudalibraryloadfromfile_cudalibrary_6fece948.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudalibraryunload_cudalibrary_t_library",
+      "title": "__host__cudaError_t cudaLibraryUnload (cudaLibrary_t library)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Unloads a library....",
+      "filename": "__host__cudaerror_t_cudalibraryunload_cudalibrary_t_library.md"
+    }
+  ]
+}

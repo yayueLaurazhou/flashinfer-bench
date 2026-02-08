@@ -1,0 +1,45 @@
+{
+  "description": "Documentation for 11.3. Control Flow Directives",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "PTX provides directives for specifying potential targets for `brx.idx` and `call` instructions. See the descriptions of `brx.idx` and `call` for more information."
+    },
+    {
+      "id": "1131_control_flow_directives_branchtargets",
+      "title": "11.3.1. Control Flow Directives: .branchtargets",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`.branchtargets`",
+      "filename": "1131_control_flow_directives_branchtargets.md"
+    },
+    {
+      "id": "1132_control_flow_directives_calltargets",
+      "title": "11.3.2. Control Flow Directives: .calltargets",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`.calltargets`",
+      "filename": "1132_control_flow_directives_calltargets.md"
+    },
+    {
+      "id": "1133_control_flow_directives_callprototype",
+      "title": "11.3.3. Control Flow Directives: .callprototype",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`.callprototype`",
+      "filename": "1133_control_flow_directives_callprototype.md"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "description": "Documentation for 9.7.16.10.4. Packing formats of elements in Tensor and Shared memory",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "97161041_packing_format_for_matrix_d_in_tensor_memory",
+      "title": "9.7.16.10.4.1. Packing format for matrix D in Tensor Memory",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "The sub-word elements of matrix `D` are expected not to be packed within a 32-bit Tensor Memory word. For example, if the type of elements of the matrix `D` is 16 bits then a Tensor Memory word would contain a single 16-bit element in its lower 16 bits.",
+      "filename": "97161041_packing_format_for_matrix_d_in_tensor_memory.md"
+    },
+    {
+      "id": "97161042_packing_format_for_matrix_a_and_b",
+      "title": "9.7.16.10.4.2. Packing format for matrix A and B",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "The 6-bit and 4-bit floating point types have different packing format requirements for different MMA kinds in both Tensor memory and Shared memory. The requirements are as follows.",
+      "filename": "97161042_packing_format_for_matrix_a_and_b.md"
+    },
+    {
+      "id": "97161043_packing_format_used_for_matrix_a_by_kindmxf8f6f4_in_tensor_memory",
+      "title": "9.7.16.10.4.3. Packing format used for matrix A by .kind::mxf8f6f4 in Tensor Memory",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "The individual 4-bit and the 6-bit floating point type elements must be packed in an 8-bit container in Tensor memory as shown below. The 8-bit containers must be contiguously packed in a 32-bit Tensor Memory word. For example, if the type of elements of the matrix `A` is 6 bits then 4 consecutiv...",
+      "filename": "97161043_packing_format_used_for_matrix_a_by_kindmxf8f6f4_in_tensor_memory.md"
+    },
+    {
+      "id": "97161044_packing_format_used_for_matrix_a_and_b_by_kindmxf8f6f4_in_shared_memory",
+      "title": "9.7.16.10.4.4. Packing format used for matrix A and B by .kind::mxf8f6f4 in Shared Memory",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "The 4-bit and 6-bit floating point elements in shared memory must be contiguously packed along with padding as follows.",
+      "filename": "97161044_packing_format_used_for_matrix_a_and_b_by_kindmxf8f6f4_in_shared_memory.md"
+    },
+    {
+      "id": "97161045_packing_format_used_for_matrix_a_by_kindmxf4_and_kindmxf4nvf4_in_tensor_memory",
+      "title": "9.7.16.10.4.5. Packing format used for matrix A by .kind::mxf4 and .kind::mxf4nvf4 in Tensor Memory",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "Two 4-bit floating point type elements must be packed in an 8-bit container in Tensor memory as shown in [Figure 204](https://docs.nvidia.com/cuda/parallel-thread-execution/#tcgen05-packing-formats-mxf4-tmem-dig1) for `mxf4`.",
+      "filename": "97161045_packing_format_used_for_matrix_a_by_kindmxf4_and_kindmxf4nvf4_in_tensor_memory.md"
+    },
+    {
+      "id": "97161046_packing_format_used_for_matrix_a_and_b_by_kindmxf4_and_kindmxf4nvf4_in_shared_memory",
+      "title": "9.7.16.10.4.6. Packing format used for matrix A and B by .kind::mxf4 and .kind::mxf4nvf4 in Shared Memory",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "The packing format for 4-bit floating point elements in shared memory is to pack two 4-bit elements in a 8-bit container, with no padding.",
+      "filename": "97161046_packing_format_used_for_matrix_a_and_b_by_kindmxf4_and_kindmxf4nvf4_in_shared_memory.md"
+    }
+  ]
+}

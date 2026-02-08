@@ -1,0 +1,55 @@
+{
+  "description": "Documentation for 6.2.8.7.5. Updating Instantiated Graphs",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "628751_graph_update_limitations",
+      "title": "6.2.8.7.5.1. Graph Update Limitations",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "###### 6.2.8.7.5.1. Graph Update Limitations[\uf0c1](#graph-update-limitations \"Permalink to this headline\")  Kernel nodes:  * The owning context of the function cannot change. * A node whose function orig...",
+      "filename": "628751_graph_update_limitations.md"
+    },
+    {
+      "id": "628752_whole_graph_update",
+      "title": "6.2.8.7.5.2. Whole Graph Update",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "###### 6.2.8.7.5.2. Whole Graph Update[\uf0c1](#whole-graph-update \"Permalink to this headline\")  `cudaGraphExecUpdate()` allows an instantiated graph (the \u201coriginal graph\u201d) to be updated with the paramete...",
+      "filename": "628752_whole_graph_update.md"
+    },
+    {
+      "id": "628753_individual_node_update",
+      "title": "6.2.8.7.5.3. Individual Node Update",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "###### 6.2.8.7.5.3. Individual Node Update[\uf0c1](#individual-node-update \"Permalink to this headline\")  Instantiated graph node parameters can be updated directly. This eliminates the overhead of instant...",
+      "filename": "628753_individual_node_update.md"
+    },
+    {
+      "id": "628754_individual_node_enable",
+      "title": "6.2.8.7.5.4. Individual Node Enable",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "###### 6.2.8.7.5.4. Individual Node Enable[\uf0c1](#individual-node-enable \"Permalink to this headline\")  Kernel, memset and memcpy nodes in an instantiated graph can be enabled or disabled using the `cuda...",
+      "filename": "628754_individual_node_enable.md"
+    }
+  ]
+}

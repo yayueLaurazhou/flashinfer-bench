@@ -1,0 +1,25 @@
+{
+  "description": "Documentation for 16.5. Performance Considerations",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "1651_first_launch_cudagraphupload",
+      "title": "16.5.1. First Launch / cudaGraphUpload",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 16.5.1. First Launch / cudaGraphUpload[\uf0c1](#first-launch-cudagraphupload \"Permalink to this headline\")  Physical memory cannot be allocated or mapped during graph instantiation because the stream i...",
+      "filename": "1651_first_launch_cudagraphupload.md"
+    }
+  ]
+}

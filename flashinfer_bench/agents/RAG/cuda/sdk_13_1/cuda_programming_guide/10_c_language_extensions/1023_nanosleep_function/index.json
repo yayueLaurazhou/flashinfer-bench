@@ -1,0 +1,45 @@
+{
+  "description": "Documentation for 10.23. Nanosleep Function",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "10231_synopsis",
+      "title": "10.23.1. Synopsis",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.23.1. Synopsis[\uf0c1](#nanosleep-synopsis \"Permalink to this headline\")  ``` void __nanosleep(unsigned ns); ```...",
+      "filename": "10231_synopsis.md"
+    },
+    {
+      "id": "10232_description",
+      "title": "10.23.2. Description",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.23.2. Description[\uf0c1](#nanosleep-description \"Permalink to this headline\")  `__nanosleep(ns)` suspends the thread for a sleep duration of approximately `ns` nanoseconds. The maximum sleep durati...",
+      "filename": "10232_description.md"
+    },
+    {
+      "id": "10233_example",
+      "title": "10.23.3. Example",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.23.3. Example[\uf0c1](#nanosleep-example \"Permalink to this headline\")  The following code implements a mutex with exponential back-off.  ``` __device__ void mutex_lock(unsigned int *mutex) {     un...",
+      "filename": "10233_example.md"
+    }
+  ]
+}

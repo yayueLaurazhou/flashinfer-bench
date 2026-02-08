@@ -1,0 +1,25 @@
+{
+  "description": "Documentation for 7.5. CUcheckpointCheckpointArgs Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "cuuint64_t_cucheckpointcheckpointargsreserved",
+      "title": "cuuint64_t CUcheckpointCheckpointArgs::reserved",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Reserved for future use, must be zeroed...",
+      "filename": "cuuint64_t_cucheckpointcheckpointargsreserved.md"
+    }
+  ]
+}

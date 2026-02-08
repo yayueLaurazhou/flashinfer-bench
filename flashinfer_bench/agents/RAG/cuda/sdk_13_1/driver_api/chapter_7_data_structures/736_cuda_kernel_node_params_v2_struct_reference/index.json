@@ -1,0 +1,135 @@
+{
+  "description": "Documentation for 7.36. CUDA_KERNEL_NODE_PARAMS_v2 Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "unsigned_int_cuda_kernel_node_params_v2blockdimx",
+      "title": "unsigned int CUDA_KERNEL_NODE_PARAMS_v2::blockDimX",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "X dimension of each thread block...",
+      "filename": "unsigned_int_cuda_kernel_node_params_v2blockdimx.md"
+    },
+    {
+      "id": "unsigned_int_cuda_kernel_node_params_v2blockdimy",
+      "title": "unsigned int CUDA_KERNEL_NODE_PARAMS_v2::blockDimY",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Y dimension of each thread block...",
+      "filename": "unsigned_int_cuda_kernel_node_params_v2blockdimy.md"
+    },
+    {
+      "id": "unsigned_int_cuda_kernel_node_params_v2blockdimz",
+      "title": "unsigned int CUDA_KERNEL_NODE_PARAMS_v2::blockDimZ",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Z dimension of each thread block...",
+      "filename": "unsigned_int_cuda_kernel_node_params_v2blockdimz.md"
+    },
+    {
+      "id": "cucontext_cuda_kernel_node_params_v2ctx",
+      "title": "CUcontext CUDA_KERNEL_NODE_PARAMS_v2::ctx",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Context for the kernel task to run in. The value NULL will indicate the current context should be used by the api. This field is ignored if func is set....",
+      "filename": "cucontext_cuda_kernel_node_params_v2ctx.md"
+    },
+    {
+      "id": "cuda_kernel_node_params_v2extra",
+      "title": "**CUDA_KERNEL_NODE_PARAMS_v2::extra",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Extra options   CUDA Driver API TRM-06703-001 _vRelease Version  |  695   Data Structures...",
+      "filename": "cuda_kernel_node_params_v2extra.md"
+    },
+    {
+      "id": "cufunction_cuda_kernel_node_params_v2func",
+      "title": "CUfunction CUDA_KERNEL_NODE_PARAMS_v2::func",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Kernel to launch...",
+      "filename": "cufunction_cuda_kernel_node_params_v2func.md"
+    },
+    {
+      "id": "unsigned_int_cuda_kernel_node_params_v2griddimx",
+      "title": "unsigned int CUDA_KERNEL_NODE_PARAMS_v2::gridDimX",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Width of grid in blocks...",
+      "filename": "unsigned_int_cuda_kernel_node_params_v2griddimx.md"
+    },
+    {
+      "id": "unsigned_int_cuda_kernel_node_params_v2griddimy",
+      "title": "unsigned int CUDA_KERNEL_NODE_PARAMS_v2::gridDimY",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Height of grid in blocks...",
+      "filename": "unsigned_int_cuda_kernel_node_params_v2griddimy.md"
+    },
+    {
+      "id": "unsigned_int_cuda_kernel_node_params_v2griddimz",
+      "title": "unsigned int CUDA_KERNEL_NODE_PARAMS_v2::gridDimZ",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Depth of grid in blocks...",
+      "filename": "unsigned_int_cuda_kernel_node_params_v2griddimz.md"
+    },
+    {
+      "id": "cukernel_cuda_kernel_node_params_v2kern",
+      "title": "CUkernel CUDA_KERNEL_NODE_PARAMS_v2::kern",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Kernel to launch, will only be referenced if func is NULL...",
+      "filename": "cukernel_cuda_kernel_node_params_v2kern.md"
+    },
+    {
+      "id": "cuda_kernel_node_params_v2kernelparams",
+      "title": "**CUDA_KERNEL_NODE_PARAMS_v2::kernelParams",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Array of pointers to kernel parameters...",
+      "filename": "cuda_kernel_node_params_v2kernelparams.md"
+    },
+    {
+      "id": "unsigned_int_cuda_kernel_node_params_v2sharedmembytes",
+      "title": "unsigned int CUDA_KERNEL_NODE_PARAMS_v2::sharedMemBytes",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Dynamic shared-memory size per thread block in bytes...",
+      "filename": "unsigned_int_cuda_kernel_node_params_v2sharedmembytes.md"
+    }
+  ]
+}

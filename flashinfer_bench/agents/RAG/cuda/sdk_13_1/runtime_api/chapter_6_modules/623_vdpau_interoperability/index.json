@@ -1,0 +1,55 @@
+{
+  "description": "Documentation for 6.23. VDPAU Interoperability",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphicsvdpauregisteroutputsurf_c87cb92d",
+      "title": "__host__cudaError_t cudaGraphicsVDPAURegisterOutputSurface (cudaGraphicsResource **resource, VdpOutputSurface vdpSurface, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Register a VdpOutputSurface object....",
+      "filename": "__host__cudaerror_t_cudagraphicsvdpauregisteroutputsurf_c87cb92d.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphicsvdpauregistervideosurfa_afa4aa44",
+      "title": "__host__cudaError_t cudaGraphicsVDPAURegisterVideoSurface (cudaGraphicsResource **resource, VdpVideoSurface vdpSurface, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Register a VdpVideoSurface object....",
+      "filename": "__host__cudaerror_t_cudagraphicsvdpauregistervideosurfa_afa4aa44.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudavdpaugetdevice_int_device_vdpde_e2767f73",
+      "title": "__host__cudaError_t cudaVDPAUGetDevice (int *device, VdpDevice vdpDevice, VdpGetProcAddress *vdpGetProcAddress)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Gets the CUDA device associated with a VdpDevice....",
+      "filename": "__host__cudaerror_t_cudavdpaugetdevice_int_device_vdpde_e2767f73.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudavdpausetvdpaudevice_int_device__1920209e",
+      "title": "__host__cudaError_t cudaVDPAUSetVDPAUDevice (int device, VdpDevice vdpDevice, VdpGetProcAddress *vdpGetProcAddress)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets a CUDA device to use VDPAU interoperability....",
+      "filename": "__host__cudaerror_t_cudavdpausetvdpaudevice_int_device__1920209e.md"
+    }
+  ]
+}

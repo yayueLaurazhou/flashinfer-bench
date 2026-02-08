@@ -1,0 +1,60 @@
+{
+  "description": "Documentation for 9.7.16.10.8. Sparse Matrices",
+  "directories": [
+    {
+      "name": "97161084_sparsity_selector",
+      "description": "The value of the sparsity selector selects the sub-columns in the Tensor Memory to form the sparsity metadata matrix, which is used with matrix `A` to form the multiplicand matrix."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "This instruction `tcgen05.mma.sp` can be used when the matrix `A` is a structured sparse matrix with 50% zeros in each row distributed as per its sparse granularity."
+    },
+    {
+      "id": "97161081_sparse_tcgen05mmasp_with_kindtf32",
+      "title": "9.7.16.10.8.1. Sparse tcgen05.mma.sp with .kind::tf32",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "For `.kind::tf32`, matrix `A` is structured sparse at a granularity of `1:2`. In other words, each chunk of two adjacent elements in a row of matrix `A` has one zero and one non-zero element. Only the non-zero element is stored in memory and the 4-bit index in the metadata indicates the position ...",
+      "filename": "97161081_sparse_tcgen05mmasp_with_kindtf32.md"
+    },
+    {
+      "id": "97161082_sparse_tcgen05mmasp_with_kindf16_kindf8f6f4_kindmxf8f6f4_kindi8",
+      "title": "9.7.16.10.8.2. Sparse tcgen05.mma.sp with .kind::f16, .kind::f8f6f4, .kind::mxf8f6f4, .kind::i8",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "For the following `.kind` variants of `tcgen05.mma`:",
+      "filename": "97161082_sparse_tcgen05mmasp_with_kindf16_kindf8f6f4_kindmxf8f6f4_kindi8.md"
+    },
+    {
+      "id": "97161083_sparse_tcgen05mmasp_with_kindmxf4_and_kindmxf4nvf4",
+      "title": "9.7.16.10.8.3. Sparse tcgen05.mma.sp with .kind::mxf4 and .kind::mxf4nvf4",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "For `.kind::mxf4` and `.kind::mxf4nvf4`, matrix `A` is pair-wise structured sparse at a granularity of `4:8`. In other words, each chunk of eight adjacent elements in a row of matrix `A` has four zero and four non-zero elements. The zero and non-zero elements are clustered in sub-chunks of two el...",
+      "filename": "97161083_sparse_tcgen05mmasp_with_kindmxf4_and_kindmxf4nvf4.md"
+    },
+    {
+      "id": "97161085_alignment_restriction",
+      "title": "9.7.16.10.8.5. Alignment restriction",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "The layouts which utilize only half the datapath lanes as specified in [Data Path Layout Organization](https://docs.nvidia.com/cuda/parallel-thread-execution/#tcgen05-data-path-layout-organization), i.e. [Layout F](https://docs.nvidia.com/cuda/parallel-thread-execution/#tcgen05-data-path-layout-f...",
+      "filename": "97161085_alignment_restriction.md"
+    }
+  ]
+}

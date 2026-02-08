@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 8.4. Operation types",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "For simplicity, the rest of the document refers to the following operation types, instead of mentioning specific instructions that give rise to them."
+    },
+    {
+      "id": "841_mmio_operation",
+      "title": "8.4.1. mmio Operation",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "An *mmio* operation is a memory operation with `.mmio` qualifier specified. It is usually performed on a memory location which is mapped to the control registers of peer I/O devices. It can also be used for communication between threads but has poor performance relative to non-*mmio* operations.",
+      "filename": "841_mmio_operation.md"
+    },
+    {
+      "id": "842_volatile_operation",
+      "title": "8.4.2. volatile Operation",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "A *volatile* operation is a memory operation with `.volatile` qualifier specified. The semantics of volatile operations are equivalent to a relaxed memory operation with system-scope but with the following extra implementation-specific constraints:",
+      "filename": "842_volatile_operation.md"
+    }
+  ]
+}

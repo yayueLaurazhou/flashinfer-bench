@@ -1,0 +1,48 @@
+{
+  "description": "Documentation for 11. Directives",
+  "directories": [
+    {
+      "name": "111_ptx_module_directives",
+      "description": "The following directives declare the PTX ISA version of the code in the module, the target architecture for which the code was generated, and the size of addresses within the PTX module."
+    },
+    {
+      "name": "112_specifying_kernel_entry_points_and_functions",
+      "description": "The following directives specify kernel entry points and functions."
+    },
+    {
+      "name": "113_control_flow_directives",
+      "description": "PTX provides directives for specifying potential targets for `brx.idx` and `call` instructions. See the descriptions of `brx.idx` and `call` for more information."
+    },
+    {
+      "name": "114_performance_tuning_directives",
+      "description": "To provide a mechanism for low-level performance tuning, PTX supports the following directives, which pass information to the optimizing backend compiler."
+    },
+    {
+      "name": "115_debugging_directives",
+      "description": "DWARF-format debug information is passed through PTX modules using the following directives:"
+    },
+    {
+      "name": "116_linking_directives",
+      "description": "* `.extern` * `.visible` * `.weak`"
+    },
+    {
+      "name": "117_cluster_dimension_directives",
+      "description": "The following directives specify information about clusters:"
+    },
+    {
+      "name": "118_miscellaneous_directives",
+      "description": "PTX provides the following miscellaneous directives:"
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    }
+  ]
+}

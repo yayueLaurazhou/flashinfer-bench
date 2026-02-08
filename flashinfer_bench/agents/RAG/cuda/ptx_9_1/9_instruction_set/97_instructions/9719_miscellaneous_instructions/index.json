@@ -1,0 +1,65 @@
+{
+  "description": "Documentation for 9.7.19. Miscellaneous Instructions",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "The Miscellaneous instructions are:"
+    },
+    {
+      "id": "97191_miscellaneous_instructions_brkpt",
+      "title": "9.7.19.1. Miscellaneous Instructions: brkpt",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`brkpt`",
+      "filename": "97191_miscellaneous_instructions_brkpt.md"
+    },
+    {
+      "id": "97192_miscellaneous_instructions_nanosleep",
+      "title": "9.7.19.2. Miscellaneous Instructions: nanosleep",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`nanosleep`",
+      "filename": "97192_miscellaneous_instructions_nanosleep.md"
+    },
+    {
+      "id": "97193_miscellaneous_instructions_pmevent",
+      "title": "9.7.19.3. Miscellaneous Instructions: pmevent",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`pmevent`",
+      "filename": "97193_miscellaneous_instructions_pmevent.md"
+    },
+    {
+      "id": "97194_miscellaneous_instructions_trap",
+      "title": "9.7.19.4. Miscellaneous Instructions: trap",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`trap`",
+      "filename": "97194_miscellaneous_instructions_trap.md"
+    },
+    {
+      "id": "97195_miscellaneous_instructions_setmaxnreg",
+      "title": "9.7.19.5. Miscellaneous Instructions: setmaxnreg",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`setmaxnreg`",
+      "filename": "97195_miscellaneous_instructions_setmaxnreg.md"
+    }
+  ]
+}

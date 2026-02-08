@@ -1,0 +1,55 @@
+{
+  "description": "Documentation for 7.13. CUDA_ARRAY_DESCRIPTOR_v2 Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "cuarray_format_cuda_array_descriptor_v2format",
+      "title": "CUarray_format CUDA_ARRAY_DESCRIPTOR_v2::Format",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Array format...",
+      "filename": "cuarray_format_cuda_array_descriptor_v2format.md"
+    },
+    {
+      "id": "size_t_cuda_array_descriptor_v2height",
+      "title": "size_t CUDA_ARRAY_DESCRIPTOR_v2::Height",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Height of array...",
+      "filename": "size_t_cuda_array_descriptor_v2height.md"
+    },
+    {
+      "id": "unsigned_int_cuda_array_descriptor_v2numchannels",
+      "title": "unsigned int CUDA_ARRAY_DESCRIPTOR_v2::NumChannels",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Channels per array element...",
+      "filename": "unsigned_int_cuda_array_descriptor_v2numchannels.md"
+    },
+    {
+      "id": "size_t_cuda_array_descriptor_v2width",
+      "title": "size_t CUDA_ARRAY_DESCRIPTOR_v2::Width",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Width of array...",
+      "filename": "size_t_cuda_array_descriptor_v2width.md"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "description": "Documentation for 24.3.2. Unified memory on Windows or devices with compute capability 5.x",
+  "directories": [
+    {
+      "name": "24324_coherency_and_concurrency",
+      "description": "#### 24.3.2.4. Coherency and Concurrency[\uf0c1](#coherency-and-concurrency \"Permalink to this headline\")  Simultaneous access to managed memory on devices of compute capability lower than 6.0 is not possi..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "24321_data_migration_and_coherency",
+      "title": "24.3.2.1. Data Migration and Coherency",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 24.3.2.1. Data Migration and Coherency[\uf0c1](#data-migration-and-coherency \"Permalink to this headline\")  GPU architectures of compute capability lower than 6.0 do not support fine-grained movement ...",
+      "filename": "24321_data_migration_and_coherency.md"
+    },
+    {
+      "id": "24322_gpu_memory_oversubscription",
+      "title": "24.3.2.2. GPU Memory Oversubscription",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 24.3.2.2. GPU Memory Oversubscription[\uf0c1](#um-legacy-oversubscription \"Permalink to this headline\")  Devices of compute capability lower than 6.0 cannot allocate more managed memory than the physi...",
+      "filename": "24322_gpu_memory_oversubscription.md"
+    },
+    {
+      "id": "24323_multi_gpu",
+      "title": "24.3.2.3. Multi-GPU",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 24.3.2.3. Multi-GPU[\uf0c1](#multi-gpu \"Permalink to this headline\")  On systems with devices of compute capabilities lower than 6.0 managed allocations are automatically visible to all GPUs in a syst...",
+      "filename": "24323_multi_gpu.md"
+    }
+  ]
+}

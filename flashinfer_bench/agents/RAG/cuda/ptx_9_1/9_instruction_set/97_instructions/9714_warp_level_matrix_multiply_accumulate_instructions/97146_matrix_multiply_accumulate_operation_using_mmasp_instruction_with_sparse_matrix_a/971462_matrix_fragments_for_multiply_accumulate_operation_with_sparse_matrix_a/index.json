@@ -1,0 +1,95 @@
+{
+  "description": "Documentation for 9.7.14.6.2. Matrix fragments for multiply-accumulate operation with sparse matrix A",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "In this section we describe how the contents of thread registers are associated with fragments of various matrices and the sparsity metadata. The following conventions are used throughout this section:"
+    },
+    {
+      "id": "9714621_matrix_fragments_for_sparse_mmam16n8k16_with_f16_and_bf16_types",
+      "title": "9.7.14.6.2.1. Matrix Fragments for sparse mma.m16n8k16 with .f16 and .bf16 types",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "A warp executing sparse `mma.m16n8k16` with `.f16` / `.bf16` floating point type will compute an MMA operation of shape `.m16n8k16`.",
+      "filename": "9714621_matrix_fragments_for_sparse_mmam16n8k16_with_f16_and_bf16_types.md"
+    },
+    {
+      "id": "9714622_matrix_fragments_for_sparse_mmam16n8k32_with_f16_and_bf16_types",
+      "title": "9.7.14.6.2.2. Matrix Fragments for sparse mma.m16n8k32 with .f16 and .bf16 types",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "A warp executing sparse `mma.m16n8k32` with `.f16` / `.bf16` floating point type will compute an MMA operation of shape `.m16n8k32`.",
+      "filename": "9714622_matrix_fragments_for_sparse_mmam16n8k32_with_f16_and_bf16_types.md"
+    },
+    {
+      "id": "9714623_matrix_fragments_for_sparse_mmam16n8k16_with_tf32_floating_point_type",
+      "title": "9.7.14.6.2.3. Matrix Fragments for sparse mma.m16n8k16 with .tf32 floating point type",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "A warp executing sparse `mma.m16n8k16` with `.tf32` floating point type will compute an MMA operation of shape `.m16n8k16`.",
+      "filename": "9714623_matrix_fragments_for_sparse_mmam16n8k16_with_tf32_floating_point_type.md"
+    },
+    {
+      "id": "9714624_matrix_fragments_for_sparse_mmam16n8k8_with_tf32_floating_point_type",
+      "title": "9.7.14.6.2.4. Matrix Fragments for sparse mma.m16n8k8 with .tf32 floating point type",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "A warp executing sparse `mma.m16n8k8` with `.tf32` floating point type will compute an MMA operation of shape `.m16n8k8`.",
+      "filename": "9714624_matrix_fragments_for_sparse_mmam16n8k8_with_tf32_floating_point_type.md"
+    },
+    {
+      "id": "9714625_matrix_fragments_for_sparse_mmam16n8k32_with_u8_s8_integer_type",
+      "title": "9.7.14.6.2.5. Matrix Fragments for sparse mma.m16n8k32 with .u8 / .s8 integer type",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "A warp executing sparse `mma.m16n8k32` with `.u8` / `.s8` integer type will compute an MMA operation of shape `.m16n8k32`.",
+      "filename": "9714625_matrix_fragments_for_sparse_mmam16n8k32_with_u8_s8_integer_type.md"
+    },
+    {
+      "id": "9714626_matrix_fragments_for_sparse_mmam16n8k64_with_u8_s8_e4m3_e5m2_type",
+      "title": "9.7.14.6.2.6. Matrix Fragments for sparse mma.m16n8k64 with .u8 / .s8 / .e4m3 / .e5m2 type",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "A warp executing sparse `mma.m16n8k64` with `.u8` / `.s8`/ `.e4m3`/ `.e5m2` / `.e3m2` / `.e2m3` / `.e2m1` type will compute an MMA operation of shape `.m16n8k64`.",
+      "filename": "9714626_matrix_fragments_for_sparse_mmam16n8k64_with_u8_s8_e4m3_e5m2_type.md"
+    },
+    {
+      "id": "9714627_matrix_fragments_for_sparse_mmam16n8k64_with_u4_s4_integer_type",
+      "title": "9.7.14.6.2.7. Matrix Fragments for sparse mma.m16n8k64 with .u4 / .s4 integer type",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "A warp executing sparse `mma.m16n8k64` with `.u4` / `.s4` integer type will compute an MMA operation of shape `.m16n8k64`.",
+      "filename": "9714627_matrix_fragments_for_sparse_mmam16n8k64_with_u4_s4_integer_type.md"
+    },
+    {
+      "id": "9714628_matrix_fragments_for_sparse_mmam16n8k128_with_u4_s4_integer_type",
+      "title": "9.7.14.6.2.8. Matrix Fragments for sparse mma.m16n8k128 with .u4 / .s4 integer type",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "A warp executing sparse `mma.m16n8k128` with `.u4` / `.s4` / `.e2m1` integer type will compute an MMA operation of shape `.m16n8k128`.",
+      "filename": "9714628_matrix_fragments_for_sparse_mmam16n8k128_with_u4_s4_integer_type.md"
+    }
+  ]
+}

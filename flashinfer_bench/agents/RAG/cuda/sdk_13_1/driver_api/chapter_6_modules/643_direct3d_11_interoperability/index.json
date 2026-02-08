@@ -1,0 +1,65 @@
+{
+  "description": "Documentation for 6.43. Direct3D 11 Interoperability",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "direct3d_11_interoperability_deprecated_enum_cud3d11devicelist",
+      "title": "Direct3D 11 Interoperability [DEPRECATED] enum CUd3d11DeviceList",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA devices corresponding to a D3D11 device...",
+      "filename": "direct3d_11_interoperability_deprecated_enum_cud3d11devicelist.md"
+    },
+    {
+      "id": "curesult_cud3d11getdevice_cudevice_pcudadevice_idxgiada_c2d72e65",
+      "title": "CUresult cuD3D11GetDevice (CUdevice *pCudaDevice, IDXGIAdapter *pAdapter)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Gets the CUDA device corresponding to a display adapter....",
+      "filename": "curesult_cud3d11getdevice_cudevice_pcudadevice_idxgiada_c2d72e65.md"
+    },
+    {
+      "id": "curesult_cud3d11getdevices_unsigned_int_pcudadevicecoun_ad259a09",
+      "title": "CUresult cuD3D11GetDevices (unsigned int *pCudaDeviceCount, CUdevice *pCudaDevices, unsigned int cudaDeviceCount, ID3D11Device *pD3D11Device, CUd3d11DeviceList deviceList)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Gets the CUDA devices corresponding to a Direct3D 11 device....",
+      "filename": "curesult_cud3d11getdevices_unsigned_int_pcudadevicecoun_ad259a09.md"
+    },
+    {
+      "id": "curesult_cugraphicsd3d11registerresource_cugraphicsreso_d63678a6",
+      "title": "CUresult cuGraphicsD3D11RegisterResource (CUgraphicsResource *pCudaResource, ID3D11Resource *pD3DResource, unsigned int Flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Register a Direct3D 11 resource for access by CUDA....",
+      "filename": "curesult_cugraphicsd3d11registerresource_cugraphicsreso_d63678a6.md"
+    },
+    {
+      "id": "6431_direct3d_11_interoperability_deprecated",
+      "title": "6.43.1. Direct3D 11 Interoperability [DEPRECATED]",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Direct3D 11 Interoperability  This section describes deprecated Direct3D 11 interoperability functionality....",
+      "filename": "6431_direct3d_11_interoperability_deprecated.md"
+    }
+  ]
+}

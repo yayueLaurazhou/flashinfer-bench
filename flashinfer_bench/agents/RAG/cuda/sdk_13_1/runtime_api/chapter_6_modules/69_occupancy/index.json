@@ -1,0 +1,65 @@
+{
+  "description": "Documentation for 6.9. Occupancy",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "__host__cudaerror_t_cudaoccupancyavailabledynamicsmempe_5d93aa0e",
+      "title": "__host__cudaError_t cudaOccupancyAvailableDynamicSMemPerBlock (size_t *dynamicSmemSize, const void *func, int numBlocks, int blockSize)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns dynamic shared memory available per block when launching numBlocks blocks on SM....",
+      "filename": "__host__cudaerror_t_cudaoccupancyavailabledynamicsmempe_5d93aa0e.md"
+    },
+    {
+      "id": "__host____device__cudaerror_t_cudaoccupancymaxactiveblo_b34f90b6",
+      "title": "__host____device__cudaError_t cudaOccupancyMaxActiveBlocksPerMultiprocessor (int *numBlocks, const void *func, int blockSize, size_t dynamicSMemSize)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns occupancy for a device function....",
+      "filename": "__host____device__cudaerror_t_cudaoccupancymaxactiveblo_b34f90b6.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudaoccupancymaxactiveblockspermult_4c09e743",
+      "title": "__host__cudaError_t cudaOccupancyMaxActiveBlocksPerMultiprocessorWithFlags (int *numBlocks, const void *func, int blockSize, size_t dynamicSMemSize, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns occupancy for a device function with the specified flags....",
+      "filename": "__host__cudaerror_t_cudaoccupancymaxactiveblockspermult_4c09e743.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudaoccupancymaxactiveclusters_int__75e6b3b7",
+      "title": "__host__cudaError_t cudaOccupancyMaxActiveClusters (int *numClusters, const void *func, const cudaLaunchConfig_t *launchConfig)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Given the kernel function (func) and launch configuration (config), return the maximum number of clusters that could co-exist on the target device in *numClusters....",
+      "filename": "__host__cudaerror_t_cudaoccupancymaxactiveclusters_int__75e6b3b7.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudaoccupancymaxpotentialclustersiz_6677e918",
+      "title": "__host__cudaError_t cudaOccupancyMaxPotentialClusterSize (int *clusterSize, const void *func, const cudaLaunchConfig_t *launchConfig)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Given the kernel function (func) and launch configuration (config), return the maximum cluster size in *clusterSize....",
+      "filename": "__host__cudaerror_t_cudaoccupancymaxpotentialclustersiz_6677e918.md"
+    }
+  ]
+}

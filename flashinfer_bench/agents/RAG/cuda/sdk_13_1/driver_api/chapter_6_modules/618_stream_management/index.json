@@ -1,0 +1,255 @@
+{
+  "description": "Documentation for 6.18. Stream Management",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "curesult_custreamaddcallback_custream_hstream_custreamc_3d083215",
+      "title": "CUresult cuStreamAddCallback (CUstream hStream, CUstreamCallback callback, void *userData, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Add a callback to a compute stream....",
+      "filename": "curesult_custreamaddcallback_custream_hstream_custreamc_3d083215.md"
+    },
+    {
+      "id": "curesult_custreamattachmemasync_custream_hstream_cudevi_8fd86704",
+      "title": "CUresult cuStreamAttachMemAsync (CUstream hStream, CUdeviceptr dptr, size_t length, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Attach memory to a stream asynchronously....",
+      "filename": "curesult_custreamattachmemasync_custream_hstream_cudevi_8fd86704.md"
+    },
+    {
+      "id": "curesult_custreambegincapture_custream_hstream_custream_91d032bb",
+      "title": "CUresult cuStreamBeginCapture (CUstream hStream, CUstreamCaptureMode mode)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Begins graph capture on a stream....",
+      "filename": "curesult_custreambegincapture_custream_hstream_custream_91d032bb.md"
+    },
+    {
+      "id": "curesult_custreambegincapturetograph_custream_hstream_c_791b1332",
+      "title": "CUresult cuStreamBeginCaptureToGraph (CUstream hStream, CUgraph hGraph, const CUgraphNode *dependencies, const CUgraphEdgeData *dependencyData, size_t numDependencies, CUstreamCaptureMode mode)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Begins graph capture on a stream to an existing graph....",
+      "filename": "curesult_custreambegincapturetograph_custream_hstream_c_791b1332.md"
+    },
+    {
+      "id": "curesult_custreamcopyattributes_custream_dst_custream_src",
+      "title": "CUresult cuStreamCopyAttributes (CUstream dst, CUstream src)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Copies attributes from source stream to destination stream....",
+      "filename": "curesult_custreamcopyattributes_custream_dst_custream_src.md"
+    },
+    {
+      "id": "curesult_custreamcreate_custream_phstream_unsigned_int_flags",
+      "title": "CUresult cuStreamCreate (CUstream *phStream, unsigned int Flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Create a stream....",
+      "filename": "curesult_custreamcreate_custream_phstream_unsigned_int_flags.md"
+    },
+    {
+      "id": "curesult_custreamcreatewithpriority_custream_phstream_u_aad5b736",
+      "title": "CUresult cuStreamCreateWithPriority (CUstream *phStream, unsigned int flags, int priority)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Create a stream with the given priority....",
+      "filename": "curesult_custreamcreatewithpriority_custream_phstream_u_aad5b736.md"
+    },
+    {
+      "id": "curesult_custreamdestroy_custream_hstream",
+      "title": "CUresult cuStreamDestroy (CUstream hStream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Destroys a stream....",
+      "filename": "curesult_custreamdestroy_custream_hstream.md"
+    },
+    {
+      "id": "curesult_custreamendcapture_custream_hstream_cugraph_phgraph",
+      "title": "CUresult cuStreamEndCapture (CUstream hStream, CUgraph *phGraph)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Ends capture on a stream, returning the captured graph....",
+      "filename": "curesult_custreamendcapture_custream_hstream_cugraph_phgraph.md"
+    },
+    {
+      "id": "curesult_custreamgetattribute_custream_hstream_custream_d2c4f9fc",
+      "title": "CUresult cuStreamGetAttribute (CUstream hStream, CUstreamAttrID attr, CUstreamAttrValue *value_out)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Queries stream attribute....",
+      "filename": "curesult_custreamgetattribute_custream_hstream_custream_d2c4f9fc.md"
+    },
+    {
+      "id": "curesult_custreamgetcaptureinfo_custream_hstream_custre_25520f5e",
+      "title": "CUresult cuStreamGetCaptureInfo (CUstream hStream, CUstreamCaptureStatus *captureStatus_out, cuuint64_t *id_out, CUgraph *graph_out, const CUgraphNode **dependencies_out, const CUgraphEdgeData **edgeData_out, size_t *numDependencies_out)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Query a stream's capture state....",
+      "filename": "curesult_custreamgetcaptureinfo_custream_hstream_custre_25520f5e.md"
+    },
+    {
+      "id": "curesult_custreamgetctx_custream_hstream_cucontext_pctx",
+      "title": "CUresult cuStreamGetCtx (CUstream hStream, CUcontext *pctx)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Query the context associated with a stream....",
+      "filename": "curesult_custreamgetctx_custream_hstream_cucontext_pctx.md"
+    },
+    {
+      "id": "curesult_custreamgetctx_v2_custream_hstream_cucontext_p_2bd89748",
+      "title": "CUresult cuStreamGetCtx_v2 (CUstream hStream, CUcontext *pCtx, CUgreenCtx *pGreenCtx)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Query the contexts associated with a stream....",
+      "filename": "curesult_custreamgetctx_v2_custream_hstream_cucontext_p_2bd89748.md"
+    },
+    {
+      "id": "curesult_custreamgetdevice_custream_hstream_cudevice_device",
+      "title": "CUresult cuStreamGetDevice (CUstream hStream, CUdevice *device)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the device handle of the stream....",
+      "filename": "curesult_custreamgetdevice_custream_hstream_cudevice_device.md"
+    },
+    {
+      "id": "curesult_custreamgetflags_custream_hstream_unsigned_int_flags",
+      "title": "CUresult cuStreamGetFlags (CUstream hStream, unsigned int *flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Query the flags of a given stream....",
+      "filename": "curesult_custreamgetflags_custream_hstream_unsigned_int_flags.md"
+    },
+    {
+      "id": "curesult_custreamgetid_custream_hstream_unsigned_long_l_a299d7e3",
+      "title": "CUresult cuStreamGetId (CUstream hStream, unsigned long long *streamId)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the unique Id associated with the stream handle supplied....",
+      "filename": "curesult_custreamgetid_custream_hstream_unsigned_long_l_a299d7e3.md"
+    },
+    {
+      "id": "curesult_custreamgetpriority_custream_hstream_int_priority",
+      "title": "CUresult cuStreamGetPriority (CUstream hStream, int *priority)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Query the priority of a given stream....",
+      "filename": "curesult_custreamgetpriority_custream_hstream_int_priority.md"
+    },
+    {
+      "id": "curesult_custreamiscapturing_custream_hstream_custreamc_34217b5e",
+      "title": "CUresult cuStreamIsCapturing (CUstream hStream, CUstreamCaptureStatus *captureStatus)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns a stream's capture status....",
+      "filename": "curesult_custreamiscapturing_custream_hstream_custreamc_34217b5e.md"
+    },
+    {
+      "id": "curesult_custreamquery_custream_hstream",
+      "title": "CUresult cuStreamQuery (CUstream hStream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Determine status of a compute stream....",
+      "filename": "curesult_custreamquery_custream_hstream.md"
+    },
+    {
+      "id": "curesult_custreamsetattribute_custream_hstream_custream_965b6d68",
+      "title": "CUresult cuStreamSetAttribute (CUstream hStream, CUstreamAttrID attr, const CUstreamAttrValue *value)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets stream attribute....",
+      "filename": "curesult_custreamsetattribute_custream_hstream_custream_965b6d68.md"
+    },
+    {
+      "id": "curesult_custreamsynchronize_custream_hstream",
+      "title": "CUresult cuStreamSynchronize (CUstream hStream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Wait until a stream's tasks are completed....",
+      "filename": "curesult_custreamsynchronize_custream_hstream.md"
+    },
+    {
+      "id": "curesult_custreamupdatecapturedependencies_custream_hst_0804e4fc",
+      "title": "CUresult cuStreamUpdateCaptureDependencies (CUstream hStream, CUgraphNode *dependencies, const CUgraphEdgeData *dependencyData, size_t numDependencies, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Update the set of dependencies in a capturing stream....",
+      "filename": "curesult_custreamupdatecapturedependencies_custream_hst_0804e4fc.md"
+    },
+    {
+      "id": "curesult_custreamwaitevent_custream_hstream_cuevent_hev_0ab71d6e",
+      "title": "CUresult cuStreamWaitEvent (CUstream hStream, CUevent hEvent, unsigned int Flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Make a compute stream wait on an event....",
+      "filename": "curesult_custreamwaitevent_custream_hstream_cuevent_hev_0ab71d6e.md"
+    },
+    {
+      "id": "curesult_cuthreadexchangestreamcapturemode_custreamcapt_4a390d53",
+      "title": "CUresult cuThreadExchangeStreamCaptureMode (CUstreamCaptureMode *mode)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Swaps the stream capture interaction mode for a thread....",
+      "filename": "curesult_cuthreadexchangestreamcapturemode_custreamcapt_4a390d53.md"
+    }
+  ]
+}

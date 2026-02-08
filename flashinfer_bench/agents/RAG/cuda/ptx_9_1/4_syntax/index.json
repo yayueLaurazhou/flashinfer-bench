@@ -1,0 +1,54 @@
+{
+  "description": "Documentation for 4. Syntax",
+  "directories": [
+    {
+      "name": "43_statements",
+      "description": "A PTX statement is either a directive or an instruction. Statements begin with an optional label and end with a semicolon."
+    },
+    {
+      "name": "45_constants",
+      "description": "PTX supports integer and floating-point constants and constant expressions. These constants may be used in data initialization and as operands to instructions. Type checking rules remain the same for integer, floating-point, and bit-size types. For predicate-type data and instructions, integer co..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "PTX programs are a collection of text source modules (files). PTX source modules have an assembly-language style syntax with instruction operation codes and operands. Pseudo-operations specify symbol and addressing management. The ptxas optimizing backend compiler optimizes and assembles PTX sour..."
+    },
+    {
+      "id": "41_source_format",
+      "title": "4.1. Source Format",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "Source modules are ASCII text. Lines are separated by the newline character (`\\n`).",
+      "filename": "41_source_format.md"
+    },
+    {
+      "id": "42_comments",
+      "title": "4.2. Comments",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "Comments in PTX follow C/C++ syntax, using non-nested `/*` and `*/` for comments that may span multiple lines, and using `//` to begin a comment that extends up to the next newline character, which terminates the current line. Comments cannot occur within character constants, string literals, or ...",
+      "filename": "42_comments.md"
+    },
+    {
+      "id": "44_identifiers",
+      "title": "4.4. Identifiers",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "User-defined identifiers follow extended C++ rules: they either start with a letter followed by zero or more letters, digits, underscore, or dollar characters; or they start with an underscore, dollar, or percentage character followed by one or more letters, digits, underscore, or dollar characters:",
+      "filename": "44_identifiers.md"
+    }
+  ]
+}

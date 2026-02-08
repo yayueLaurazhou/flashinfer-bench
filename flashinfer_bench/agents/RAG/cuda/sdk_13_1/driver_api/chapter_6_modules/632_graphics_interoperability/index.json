@@ -1,0 +1,85 @@
+{
+  "description": "Documentation for 6.32. Graphics Interoperability",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "curesult_cugraphicsmapresources_unsigned_int_count_cugr_2c102042",
+      "title": "CUresult cuGraphicsMapResources (unsigned int count, CUgraphicsResource *resources, CUstream hStream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Map graphics resources for access by CUDA....",
+      "filename": "curesult_cugraphicsmapresources_unsigned_int_count_cugr_2c102042.md"
+    },
+    {
+      "id": "curesult_cugraphicsresourcegetmappedmipmappedarray_cumi_c6e5ef3f",
+      "title": "CUresult cuGraphicsResourceGetMappedMipmappedArray (CUmipmappedArray *pMipmappedArray, CUgraphicsResource resource)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Get a mipmapped array through which to access a mapped graphics resource....",
+      "filename": "curesult_cugraphicsresourcegetmappedmipmappedarray_cumi_c6e5ef3f.md"
+    },
+    {
+      "id": "curesult_cugraphicsresourcegetmappedpointer_cudeviceptr_5bef366e",
+      "title": "CUresult cuGraphicsResourceGetMappedPointer (CUdeviceptr *pDevPtr, size_t *pSize, CUgraphicsResource resource)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Get a device pointer through which to access a mapped graphics resource....",
+      "filename": "curesult_cugraphicsresourcegetmappedpointer_cudeviceptr_5bef366e.md"
+    },
+    {
+      "id": "curesult_cugraphicsresourcesetmapflags_cugraphicsresour_79bb60ab",
+      "title": "CUresult cuGraphicsResourceSetMapFlags (CUgraphicsResource resource, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Set usage flags for mapping a graphics resource....",
+      "filename": "curesult_cugraphicsresourcesetmapflags_cugraphicsresour_79bb60ab.md"
+    },
+    {
+      "id": "curesult_cugraphicssubresourcegetmappedarray_cuarray_pa_c4abef60",
+      "title": "CUresult cuGraphicsSubResourceGetMappedArray (CUarray *pArray, CUgraphicsResource resource, unsigned int arrayIndex, unsigned int mipLevel)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Get an array through which to access a subresource of a mapped graphics resource....",
+      "filename": "curesult_cugraphicssubresourcegetmappedarray_cuarray_pa_c4abef60.md"
+    },
+    {
+      "id": "curesult_cugraphicsunmapresources_unsigned_int_count_cu_63617e28",
+      "title": "CUresult cuGraphicsUnmapResources (unsigned int count, CUgraphicsResource *resources, CUstream hStream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Unmap graphics resources....",
+      "filename": "curesult_cugraphicsunmapresources_unsigned_int_count_cu_63617e28.md"
+    },
+    {
+      "id": "curesult_cugraphicsunregisterresource_cugraphicsresourc_4e9ad651",
+      "title": "CUresult cuGraphicsUnregisterResource (CUgraphicsResource resource)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Unregisters a graphics resource for access by CUDA....",
+      "filename": "curesult_cugraphicsunregisterresource_cugraphicsresourc_4e9ad651.md"
+    }
+  ]
+}

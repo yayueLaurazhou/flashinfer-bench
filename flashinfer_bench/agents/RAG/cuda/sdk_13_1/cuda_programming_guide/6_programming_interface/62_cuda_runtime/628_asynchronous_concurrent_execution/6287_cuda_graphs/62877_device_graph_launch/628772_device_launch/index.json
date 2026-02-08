@@ -1,0 +1,20 @@
+{
+  "description": "Documentation for 6.2.8.7.7.2. Device Launch",
+  "directories": [
+    {
+      "name": "device_launch_modes",
+      "description": "###### 6.2.8.7.7.2.1. Device Launch Modes[\uf0c1](#device-launch-modes \"Permalink to this headline\")  Unlike host launch, device graphs cannot be launched into regular CUDA streams, and can only be launche..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    }
+  ]
+}

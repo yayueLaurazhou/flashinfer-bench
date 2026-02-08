@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 9.7.9.25.1. Completion Mechanisms for Asynchronous Copy Operations",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "A thread must explicitly wait for the completion of an asynchronous copy operation in order to access the result of the operation. Once an asynchronous copy operation is initiated, modifying the source memory location or tensor descriptor or reading from the destination memory location before the..."
+    },
+    {
+      "id": "9792511_async_group_mechanism",
+      "title": "9.7.9.25.1.1. Async-group mechanism",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "When using the async-group completion mechanism, the issuing thread specifies a group of asynchronous operations, called *async-group*, using a *commit* operation and tracks the completion of this group using a *wait* operation. The thread issuing the asynchronous operation must create separate *...",
+      "filename": "9792511_async_group_mechanism.md"
+    },
+    {
+      "id": "9792512_mbarrier_based_mechanism",
+      "title": "9.7.9.25.1.2. Mbarrier-based mechanism",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "A thread can track the completion of one or more asynchronous operations using the current phase of an *mbarrier object*. When the current phase of the *mbarrier object* is complete, it implies that all asynchronous operations tracked by this phase are complete, and all threads participating in t...",
+      "filename": "9792512_mbarrier_based_mechanism.md"
+    }
+  ]
+}

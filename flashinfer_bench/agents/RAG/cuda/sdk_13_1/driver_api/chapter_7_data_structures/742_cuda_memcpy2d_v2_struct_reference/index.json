@@ -1,0 +1,175 @@
+{
+  "description": "Documentation for 7.42. CUDA_MEMCPY2D_v2 Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "cuarray_cuda_memcpy2d_v2dstarray",
+      "title": "CUarray CUDA_MEMCPY2D_v2::dstArray",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Destination array reference...",
+      "filename": "cuarray_cuda_memcpy2d_v2dstarray.md"
+    },
+    {
+      "id": "cudeviceptr_cuda_memcpy2d_v2dstdevice",
+      "title": "CUdeviceptr CUDA_MEMCPY2D_v2::dstDevice",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Destination device pointer...",
+      "filename": "cudeviceptr_cuda_memcpy2d_v2dstdevice.md"
+    },
+    {
+      "id": "void_cuda_memcpy2d_v2dsthost",
+      "title": "void *CUDA_MEMCPY2D_v2::dstHost",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Destination host pointer   CUDA Driver API TRM-06703-001 _vRelease Version  |  701   Data Structures...",
+      "filename": "void_cuda_memcpy2d_v2dsthost.md"
+    },
+    {
+      "id": "cumemorytype_cuda_memcpy2d_v2dstmemorytype",
+      "title": "CUmemorytype CUDA_MEMCPY2D_v2::dstMemoryType",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Destination memory type (host, device, array)...",
+      "filename": "cumemorytype_cuda_memcpy2d_v2dstmemorytype.md"
+    },
+    {
+      "id": "size_t_cuda_memcpy2d_v2dstpitch",
+      "title": "size_t CUDA_MEMCPY2D_v2::dstPitch",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Destination pitch (ignored when dst is array)...",
+      "filename": "size_t_cuda_memcpy2d_v2dstpitch.md"
+    },
+    {
+      "id": "size_t_cuda_memcpy2d_v2dstxinbytes",
+      "title": "size_t CUDA_MEMCPY2D_v2::dstXInBytes",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Destination X in bytes...",
+      "filename": "size_t_cuda_memcpy2d_v2dstxinbytes.md"
+    },
+    {
+      "id": "size_t_cuda_memcpy2d_v2dsty",
+      "title": "size_t CUDA_MEMCPY2D_v2::dstY",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Destination Y...",
+      "filename": "size_t_cuda_memcpy2d_v2dsty.md"
+    },
+    {
+      "id": "size_t_cuda_memcpy2d_v2height",
+      "title": "size_t CUDA_MEMCPY2D_v2::Height",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Height of 2D memory copy...",
+      "filename": "size_t_cuda_memcpy2d_v2height.md"
+    },
+    {
+      "id": "cuarray_cuda_memcpy2d_v2srcarray",
+      "title": "CUarray CUDA_MEMCPY2D_v2::srcArray",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Source array reference...",
+      "filename": "cuarray_cuda_memcpy2d_v2srcarray.md"
+    },
+    {
+      "id": "cudeviceptr_cuda_memcpy2d_v2srcdevice",
+      "title": "CUdeviceptr CUDA_MEMCPY2D_v2::srcDevice",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Source device pointer...",
+      "filename": "cudeviceptr_cuda_memcpy2d_v2srcdevice.md"
+    },
+    {
+      "id": "const_void_cuda_memcpy2d_v2srchost",
+      "title": "const void *CUDA_MEMCPY2D_v2::srcHost",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Source host pointer...",
+      "filename": "const_void_cuda_memcpy2d_v2srchost.md"
+    },
+    {
+      "id": "cumemorytype_cuda_memcpy2d_v2srcmemorytype",
+      "title": "CUmemorytype CUDA_MEMCPY2D_v2::srcMemoryType",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Source memory type (host, device, array)...",
+      "filename": "cumemorytype_cuda_memcpy2d_v2srcmemorytype.md"
+    },
+    {
+      "id": "size_t_cuda_memcpy2d_v2srcpitch",
+      "title": "size_t CUDA_MEMCPY2D_v2::srcPitch",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Source pitch (ignored when src is array)   CUDA Driver API TRM-06703-001 _vRelease Version  |  702   Data Structures...",
+      "filename": "size_t_cuda_memcpy2d_v2srcpitch.md"
+    },
+    {
+      "id": "size_t_cuda_memcpy2d_v2srcxinbytes",
+      "title": "size_t CUDA_MEMCPY2D_v2::srcXInBytes",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Source X in bytes...",
+      "filename": "size_t_cuda_memcpy2d_v2srcxinbytes.md"
+    },
+    {
+      "id": "size_t_cuda_memcpy2d_v2srcy",
+      "title": "size_t CUDA_MEMCPY2D_v2::srcY",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Source Y...",
+      "filename": "size_t_cuda_memcpy2d_v2srcy.md"
+    },
+    {
+      "id": "size_t_cuda_memcpy2d_v2widthinbytes",
+      "title": "size_t CUDA_MEMCPY2D_v2::WidthInBytes",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Width of 2D memory copy in bytes...",
+      "filename": "size_t_cuda_memcpy2d_v2widthinbytes.md"
+    }
+  ]
+}

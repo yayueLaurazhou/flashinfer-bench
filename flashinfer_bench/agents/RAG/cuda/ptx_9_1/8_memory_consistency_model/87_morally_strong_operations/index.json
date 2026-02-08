@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 8.7. Morally strong operations",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Two operations are said to be *morally strong* relative to each other if they satisfy all of the following conditions:"
+    },
+    {
+      "id": "871_conflict_and_data_races",
+      "title": "8.7.1. Conflict and Data-races",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "Two *overlapping* memory operations are said to *conflict* when at least one of them is a *write*.",
+      "filename": "871_conflict_and_data_races.md"
+    },
+    {
+      "id": "872_limitations_on_mixed_size_data_races",
+      "title": "8.7.2. Limitations on Mixed-size Data-races",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "A *data-race* between operations that *overlap* completely is called a *uniform-size data-race*, while a *data-race* between operations that *overlap* partially is called a *mixed-size data-race*.",
+      "filename": "872_limitations_on_mixed_size_data_races.md"
+    }
+  ]
+}

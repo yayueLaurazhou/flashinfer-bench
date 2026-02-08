@@ -1,0 +1,45 @@
+{
+  "description": "Documentation for 7.63. cudaPos Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "size_t_cudaposx",
+      "title": "size_t cudaPos::x",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "x...",
+      "filename": "size_t_cudaposx.md"
+    },
+    {
+      "id": "size_t_cudaposy",
+      "title": "size_t cudaPos::y",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "y   CUDA Runtime API vRelease Version  |  643   Data Structures...",
+      "filename": "size_t_cudaposy.md"
+    },
+    {
+      "id": "size_t_cudaposz",
+      "title": "size_t cudaPos::z",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "z...",
+      "filename": "size_t_cudaposz.md"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "description": "Documentation for 13. CUDA Dynamic Parallelism",
+  "directories": [
+    {
+      "name": "131_introduction",
+      "description": "## 13.1. Introduction[\uf0c1](#introduction-cuda-dynamic-parallelism \"Permalink to this headline\")..."
+    },
+    {
+      "name": "132_execution_environment_and_memory_model",
+      "description": "## 13.2. Execution Environment and Memory Model[\uf0c1](#execution-environment-and-memory-model \"Permalink to this headline\")..."
+    },
+    {
+      "name": "133_programming_interface",
+      "description": "## 13.3. Programming Interface[\uf0c1](#programming-interface-cdp \"Permalink to this headline\")..."
+    },
+    {
+      "name": "134_programming_guidelines",
+      "description": "## 13.4. Programming Guidelines[\uf0c1](#programming-guidelines \"Permalink to this headline\")..."
+    },
+    {
+      "name": "135_cdp2_vs_cdp1",
+      "description": "## 13.5. CDP2 vs CDP1[\uf0c1](#cdp2-vs-cdp1 \"Permalink to this headline\")  This section summarises the differences between, and the compatibility and interoperability of, the new (CDP2) and legacy (CDP1) C..."
+    },
+    {
+      "name": "136_legacy_cuda_dynamic_parallelism_cdp1",
+      "description": "## 13.6. Legacy CUDA Dynamic Parallelism (CDP1)[\uf0c1](#legacy-cuda-dynamic-parallelism-cdp1 \"Permalink to this headline\")  See [CUDA Dynamic Parallelism](#cuda-dynamic-parallelism), above, for CDP2 versi..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    }
+  ]
+}

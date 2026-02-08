@@ -1,0 +1,25 @@
+{
+  "description": "Documentation for 7.14. cudaDevWorkqueueResource Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "unsigned_char_cudadevworkqueueresourcereserved",
+      "title": "unsigned char cudaDevWorkqueueResource::reserved",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Reserved for future use...",
+      "filename": "unsigned_char_cudadevworkqueueresourcereserved.md"
+    }
+  ]
+}

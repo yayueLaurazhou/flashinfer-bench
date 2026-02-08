@@ -1,0 +1,65 @@
+{
+  "description": "Documentation for 6.11. Memory Management [DEPRECATED]",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "__host__cudaerror_t_cudamemcpyarraytoarray_cudaarray_t__cb5ba522",
+      "title": "__host__cudaError_t cudaMemcpyArrayToArray (cudaArray_t dst, size_t wOffsetDst, size_t hOffsetDst, cudaArray_const_t src, size_t wOffsetSrc, size_t hOffsetSrc, size_t count, cudaMemcpyKind kind)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Copies data between host and device....",
+      "filename": "__host__cudaerror_t_cudamemcpyarraytoarray_cudaarray_t__cb5ba522.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudamemcpyfromarray_void_dst_cudaar_722002e7",
+      "title": "__host__cudaError_t cudaMemcpyFromArray (void *dst, cudaArray_const_t src, size_t wOffset, size_t hOffset, size_t count, cudaMemcpyKind kind)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Copies data between host and device....",
+      "filename": "__host__cudaerror_t_cudamemcpyfromarray_void_dst_cudaar_722002e7.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudamemcpyfromarrayasync_void_dst_c_ced2bb3a",
+      "title": "__host__cudaError_t cudaMemcpyFromArrayAsync (void *dst, cudaArray_const_t src, size_t wOffset, size_t hOffset, size_t count, cudaMemcpyKind kind, cudaStream_t stream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Copies data between host and device....",
+      "filename": "__host__cudaerror_t_cudamemcpyfromarrayasync_void_dst_c_ced2bb3a.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudamemcpytoarray_cudaarray_t_dst_s_620f3032",
+      "title": "__host__cudaError_t cudaMemcpyToArray (cudaArray_t dst, size_t wOffset, size_t hOffset, const void *src, size_t count, cudaMemcpyKind kind)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Copies data between host and device....",
+      "filename": "__host__cudaerror_t_cudamemcpytoarray_cudaarray_t_dst_s_620f3032.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudamemcpytoarrayasync_cudaarray_t__26274bfc",
+      "title": "__host__cudaError_t cudaMemcpyToArrayAsync (cudaArray_t dst, size_t wOffset, size_t hOffset, const void *src, size_t count, cudaMemcpyKind kind, cudaStream_t stream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Copies data between host and device....",
+      "filename": "__host__cudaerror_t_cudamemcpytoarrayasync_cudaarray_t__26274bfc.md"
+    }
+  ]
+}

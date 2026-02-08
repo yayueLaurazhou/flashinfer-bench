@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 6.2.8.7.1. Graph Structure",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "628711_node_types",
+      "title": "6.2.8.7.1.1. Node Types",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "###### 6.2.8.7.1.1. Node Types[\uf0c1](#node-types \"Permalink to this headline\")  A graph node can be one of:  * kernel * CPU function call * memory copy * memset * empty node * waiting on an [event](#even...",
+      "filename": "628711_node_types.md"
+    },
+    {
+      "id": "628712_edge_data",
+      "title": "6.2.8.7.1.2. Edge Data",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "###### 6.2.8.7.1.2. Edge Data[\uf0c1](#edge-data \"Permalink to this headline\")  CUDA 12.3 introduced edge data on CUDA Graphs. Edge data modifies a dependency specified by an edge and consists of three par...",
+      "filename": "628712_edge_data.md"
+    }
+  ]
+}

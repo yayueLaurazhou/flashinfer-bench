@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 6.2. Device Management [DEPRECATED]",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "__host____device__cudaerror_t_cudadevicegetsharedmemcon_c213361c",
+      "title": "__host____device__cudaError_t cudaDeviceGetSharedMemConfig (cudaSharedMemConfig *pConfig)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the shared memory configuration for the current device....",
+      "filename": "__host____device__cudaerror_t_cudadevicegetsharedmemcon_c213361c.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudadevicesetsharedmemconfig_cudash_8af7aa6b",
+      "title": "__host__cudaError_t cudaDeviceSetSharedMemConfig (cudaSharedMemConfig config)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets the shared memory configuration for the current device....",
+      "filename": "__host__cudaerror_t_cudadevicesetsharedmemconfig_cudash_8af7aa6b.md"
+    }
+  ]
+}

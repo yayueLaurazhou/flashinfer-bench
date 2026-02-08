@@ -1,0 +1,95 @@
+{
+  "description": "Documentation for 7.50. cudaMemcpy3DParms Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "cudaarray_t_cudamemcpy3dparmsdstarray",
+      "title": "cudaArray_t cudaMemcpy3DParms::dstArray",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Destination memory address   CUDA Runtime API vRelease Version  |  635   Data Structures...",
+      "filename": "cudaarray_t_cudamemcpy3dparmsdstarray.md"
+    },
+    {
+      "id": "struct_cudapos_cudamemcpy3dparmsdstpos",
+      "title": "struct cudaPos cudaMemcpy3DParms::dstPos",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Destination position offset...",
+      "filename": "struct_cudapos_cudamemcpy3dparmsdstpos.md"
+    },
+    {
+      "id": "struct_cudapitchedptr_cudamemcpy3dparmsdstptr",
+      "title": "struct cudaPitchedPtr cudaMemcpy3DParms::dstPtr",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Pitched destination memory address...",
+      "filename": "struct_cudapitchedptr_cudamemcpy3dparmsdstptr.md"
+    },
+    {
+      "id": "struct_cudaextent_cudamemcpy3dparmsextent",
+      "title": "struct cudaExtent cudaMemcpy3DParms::extent",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Requested memory copy size...",
+      "filename": "struct_cudaextent_cudamemcpy3dparmsextent.md"
+    },
+    {
+      "id": "enumcudamemcpykind_cudamemcpy3dparmskind",
+      "title": "enumcudaMemcpyKind cudaMemcpy3DParms::kind",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Type of transfer...",
+      "filename": "enumcudamemcpykind_cudamemcpy3dparmskind.md"
+    },
+    {
+      "id": "cudaarray_t_cudamemcpy3dparmssrcarray",
+      "title": "cudaArray_t cudaMemcpy3DParms::srcArray",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Source memory address...",
+      "filename": "cudaarray_t_cudamemcpy3dparmssrcarray.md"
+    },
+    {
+      "id": "struct_cudapos_cudamemcpy3dparmssrcpos",
+      "title": "struct cudaPos cudaMemcpy3DParms::srcPos",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Source position offset...",
+      "filename": "struct_cudapos_cudamemcpy3dparmssrcpos.md"
+    },
+    {
+      "id": "struct_cudapitchedptr_cudamemcpy3dparmssrcptr",
+      "title": "struct cudaPitchedPtr cudaMemcpy3DParms::srcPtr",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Pitched source memory address...",
+      "filename": "struct_cudapitchedptr_cudamemcpy3dparmssrcptr.md"
+    }
+  ]
+}

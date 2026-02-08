@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 6.2.8.8. Events",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "62881_creation_and_destruction_of_events",
+      "title": "6.2.8.8.1. Creation and Destruction of Events",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 6.2.8.8.1. Creation and Destruction of Events[\uf0c1](#creation-and-destruction-of-events \"Permalink to this headline\")  The following code sample creates two events:  ``` cudaEvent_t start, stop; cu...",
+      "filename": "62881_creation_and_destruction_of_events.md"
+    },
+    {
+      "id": "62882_elapsed_time",
+      "title": "6.2.8.8.2. Elapsed Time",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 6.2.8.8.2. Elapsed Time[\uf0c1](#elapsed-time \"Permalink to this headline\")  The events created in [Creation and Destruction of Events](#creation-and-destruction-events) can be used to time the code ...",
+      "filename": "62882_elapsed_time.md"
+    }
+  ]
+}

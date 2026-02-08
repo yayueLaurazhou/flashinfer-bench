@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 10.26.8. Memory Barrier Primitives Interface",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "102681_data_types",
+      "title": "10.26.8.1. Data Types",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 10.26.8.1. Data Types[\uf0c1](#data-types \"Permalink to this headline\")  ``` typedef /* implementation defined */ __mbarrier_t; typedef /* implementation defined */ __mbarrier_token_t; ```...",
+      "filename": "102681_data_types.md"
+    },
+    {
+      "id": "102682_memory_barrier_primitives_api",
+      "title": "10.26.8.2. Memory Barrier Primitives API",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 10.26.8.2. Memory Barrier Primitives API[\uf0c1](#memory-barrier-primitives-api \"Permalink to this headline\")  ``` uint32_t __mbarrier_maximum_count(); void __mbarrier_init(__mbarrier_t* bar, uint32_t...",
+      "filename": "102682_memory_barrier_primitives_api.md"
+    }
+  ]
+}

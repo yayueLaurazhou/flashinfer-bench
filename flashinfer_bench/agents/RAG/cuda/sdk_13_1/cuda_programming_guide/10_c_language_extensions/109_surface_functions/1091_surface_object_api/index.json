@@ -1,0 +1,155 @@
+{
+  "description": "Documentation for 10.9.1. Surface Object API",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "10911_surf1dread",
+      "title": "10.9.1.1. surf1Dread()",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 10.9.1.1. surf1Dread()[\uf0c1](#surf1dread \"Permalink to this headline\")  ``` template<class T> T surf1Dread(cudaSurfaceObject_t surfObj, int x,                boundaryMode = cudaBoundaryModeTrap); ``...",
+      "filename": "10911_surf1dread.md"
+    },
+    {
+      "id": "10912_surf1dwrite",
+      "title": "10.9.1.2. surf1Dwrite",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 10.9.1.2. surf1Dwrite[\uf0c1](#surf1dwrite \"Permalink to this headline\")  ``` template<class T> void surf1Dwrite(T data,                   cudaSurfaceObject_t surfObj,                   int x,        ...",
+      "filename": "10912_surf1dwrite.md"
+    },
+    {
+      "id": "10913_surf2dread",
+      "title": "10.9.1.3. surf2Dread()",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 10.9.1.3. surf2Dread()[\uf0c1](#surf2dread \"Permalink to this headline\")  ``` template<class T> T surf2Dread(cudaSurfaceObject_t surfObj,               int x, int y,               boundaryMode = cudaB...",
+      "filename": "10913_surf2dread.md"
+    },
+    {
+      "id": "10914_surf2dwrite",
+      "title": "10.9.1.4. surf2Dwrite()",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 10.9.1.4. surf2Dwrite()[\uf0c1](#surf2dwrite \"Permalink to this headline\")  ``` template<class T> void surf2Dwrite(T data,                   cudaSurfaceObject_t surfObj,                   int x, int y...",
+      "filename": "10914_surf2dwrite.md"
+    },
+    {
+      "id": "10915_surf3dread",
+      "title": "10.9.1.5. surf3Dread()",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 10.9.1.5. surf3Dread()[\uf0c1](#surf3dread \"Permalink to this headline\")  ``` template<class T> T surf3Dread(cudaSurfaceObject_t surfObj,               int x, int y, int z,               boundaryMode ...",
+      "filename": "10915_surf3dread.md"
+    },
+    {
+      "id": "10916_surf3dwrite",
+      "title": "10.9.1.6. surf3Dwrite()",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 10.9.1.6. surf3Dwrite()[\uf0c1](#surf3dwrite \"Permalink to this headline\")  ``` template<class T> void surf3Dwrite(T data,                   cudaSurfaceObject_t surfObj,                   int x, int y...",
+      "filename": "10916_surf3dwrite.md"
+    },
+    {
+      "id": "10917_surf1dlayeredread",
+      "title": "10.9.1.7. surf1DLayeredread()",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 10.9.1.7. surf1DLayeredread()[\uf0c1](#surf1dlayeredread \"Permalink to this headline\")  ``` template<class T> T surf1DLayeredread(                  cudaSurfaceObject_t surfObj,                  int x,...",
+      "filename": "10917_surf1dlayeredread.md"
+    },
+    {
+      "id": "10918_surf1dlayeredwrite",
+      "title": "10.9.1.8. surf1DLayeredwrite()",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 10.9.1.8. surf1DLayeredwrite()[\uf0c1](#surf1dlayeredwrite \"Permalink to this headline\")  ``` template<class Type> void surf1DLayeredwrite(T data,                  cudaSurfaceObject_t surfObj,        ...",
+      "filename": "10918_surf1dlayeredwrite.md"
+    },
+    {
+      "id": "10919_surf2dlayeredread",
+      "title": "10.9.1.9. surf2DLayeredread()",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 10.9.1.9. surf2DLayeredread()[\uf0c1](#surf2dlayeredread \"Permalink to this headline\")  ``` template<class T> T surf2DLayeredread(                  cudaSurfaceObject_t surfObj,                  int x,...",
+      "filename": "10919_surf2dlayeredread.md"
+    },
+    {
+      "id": "109110_surf2dlayeredwrite",
+      "title": "10.9.1.10. surf2DLayeredwrite()",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 10.9.1.10. surf2DLayeredwrite()[\uf0c1](#surf2dlayeredwrite \"Permalink to this headline\")  ``` template<class T> void surf2DLayeredwrite(T data,                           cudaSurfaceObject_t surfObj, ...",
+      "filename": "109110_surf2dlayeredwrite.md"
+    },
+    {
+      "id": "109111_surfcubemapread",
+      "title": "10.9.1.11. surfCubemapread()",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 10.9.1.11. surfCubemapread()[\uf0c1](#surfcubemapread \"Permalink to this headline\")  ``` template<class T> T surfCubemapread(                  cudaSurfaceObject_t surfObj,                  int x, int ...",
+      "filename": "109111_surfcubemapread.md"
+    },
+    {
+      "id": "109112_surfcubemapwrite",
+      "title": "10.9.1.12. surfCubemapwrite()",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 10.9.1.12. surfCubemapwrite()[\uf0c1](#surfcubemapwrite \"Permalink to this headline\")  ``` template<class T> void surfCubemapwrite(T data,                  cudaSurfaceObject_t surfObj,                ...",
+      "filename": "109112_surfcubemapwrite.md"
+    },
+    {
+      "id": "109113_surfcubemaplayeredread",
+      "title": "10.9.1.13. surfCubemapLayeredread()",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 10.9.1.13. surfCubemapLayeredread()[\uf0c1](#surfcubemaplayeredread \"Permalink to this headline\")  ``` template<class T> T surfCubemapLayeredread(              cudaSurfaceObject_t surfObj,            ...",
+      "filename": "109113_surfcubemaplayeredread.md"
+    },
+    {
+      "id": "109114_surfcubemaplayeredwrite",
+      "title": "10.9.1.14. surfCubemapLayeredwrite()",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 10.9.1.14. surfCubemapLayeredwrite()[\uf0c1](#surfcubemaplayeredwrite \"Permalink to this headline\")  ``` template<class T> void surfCubemapLayeredwrite(T data,              cudaSurfaceObject_t surfObj...",
+      "filename": "109114_surfcubemaplayeredwrite.md"
+    }
+  ]
+}

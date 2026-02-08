@@ -1,0 +1,65 @@
+{
+  "description": "Documentation for 10.4. Built-in Variables",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "1041_griddim",
+      "title": "10.4.1. gridDim",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.4.1. gridDim[\uf0c1](#griddim \"Permalink to this headline\")  This variable is of type `dim3` (see [dim3](#dim3)) and contains the dimensions of the grid....",
+      "filename": "1041_griddim.md"
+    },
+    {
+      "id": "1042_blockidx",
+      "title": "10.4.2. blockIdx",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.4.2. blockIdx[\uf0c1](#blockidx \"Permalink to this headline\")  This variable is of type `uint3` (see [char, short, int, long, longlong, float, double](#vector-types)) and contains the block index wi...",
+      "filename": "1042_blockidx.md"
+    },
+    {
+      "id": "1043_blockdim",
+      "title": "10.4.3. blockDim",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.4.3. blockDim[\uf0c1](#blockdim \"Permalink to this headline\")  This variable is of type `dim3` (see [dim3](#dim3)) and contains the dimensions of the block....",
+      "filename": "1043_blockdim.md"
+    },
+    {
+      "id": "1044_threadidx",
+      "title": "10.4.4. threadIdx",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.4.4. threadIdx[\uf0c1](#threadidx \"Permalink to this headline\")  This variable is of type `uint3` (see [char, short, int, long, longlong, float, double](#vector-types)) and contains the thread index...",
+      "filename": "1044_threadidx.md"
+    },
+    {
+      "id": "1045_warpsize",
+      "title": "10.4.5. warpSize",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.4.5. warpSize[\uf0c1](#warpsize \"Permalink to this headline\")  This variable is of type `int` and contains the warp size in threads (see [SIMT Architecture](#simt-architecture) for the definition of...",
+      "filename": "1045_warpsize.md"
+    }
+  ]
+}

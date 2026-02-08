@@ -1,0 +1,45 @@
+{
+  "description": "Documentation for 10.17. Alloca Function",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "10171_synopsis",
+      "title": "10.17.1. Synopsis",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.17.1. Synopsis[\uf0c1](#synopsis \"Permalink to this headline\")  ``` __host__ __device__ void * alloca(size_t size); ```...",
+      "filename": "10171_synopsis.md"
+    },
+    {
+      "id": "10172_description",
+      "title": "10.17.2. Description",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.17.2. Description[\uf0c1](#description \"Permalink to this headline\")  The `alloca()` function allocates `size` bytes of memory in the stack frame of the caller. The returned value is a pointer to al...",
+      "filename": "10172_description.md"
+    },
+    {
+      "id": "10173_example",
+      "title": "10.17.3. Example",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.17.3. Example[\uf0c1](#example \"Permalink to this headline\")  ``` __device__ void foo(unsigned int num) {     int4 *ptr = (int4 *)alloca(num * sizeof(int4));     // use of ptr     ... } ```...",
+      "filename": "10173_example.md"
+    }
+  ]
+}

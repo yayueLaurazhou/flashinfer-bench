@@ -1,0 +1,25 @@
+{
+  "description": "Documentation for 7.67. CUuuid_st Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "char_cuuuid_stbytes",
+      "title": "char CUuuid_st::bytes",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "< CUDA definition of UUID   CUDA Runtime API vRelease Version  |  647...",
+      "filename": "char_cuuuid_stbytes.md"
+    }
+  ]
+}

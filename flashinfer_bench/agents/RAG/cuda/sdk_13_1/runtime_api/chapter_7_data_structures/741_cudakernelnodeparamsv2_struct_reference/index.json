@@ -1,0 +1,85 @@
+{
+  "description": "Documentation for 7.41. cudaKernelNodeParamsV2 Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "uint3_cudakernelnodeparamsv2blockdim",
+      "title": "uint3 cudaKernelNodeParamsV2::blockDim",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Block dimensions...",
+      "filename": "uint3_cudakernelnodeparamsv2blockdim.md"
+    },
+    {
+      "id": "cudaexecutioncontext_t_cudakernelnodeparamsv2ctx",
+      "title": "cudaExecutionContext_t cudaKernelNodeParamsV2::ctx",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Context in which to run the kernel. If NULL will try to use the current context....",
+      "filename": "cudaexecutioncontext_t_cudakernelnodeparamsv2ctx.md"
+    },
+    {
+      "id": "cudakernelnodeparamsv2extra",
+      "title": "**cudaKernelNodeParamsV2::extra",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Pointer to kernel arguments in the \"extra\" format...",
+      "filename": "cudakernelnodeparamsv2extra.md"
+    },
+    {
+      "id": "void_cudakernelnodeparamsv2func",
+      "title": "void *cudaKernelNodeParamsV2::func",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Kernel to launch...",
+      "filename": "void_cudakernelnodeparamsv2func.md"
+    },
+    {
+      "id": "uint3_cudakernelnodeparamsv2griddim",
+      "title": "uint3 cudaKernelNodeParamsV2::gridDim",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Grid dimensions...",
+      "filename": "uint3_cudakernelnodeparamsv2griddim.md"
+    },
+    {
+      "id": "cudakernelnodeparamsv2kernelparams",
+      "title": "**cudaKernelNodeParamsV2::kernelParams",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Array of pointers to individual kernel arguments...",
+      "filename": "cudakernelnodeparamsv2kernelparams.md"
+    },
+    {
+      "id": "unsigned_int_cudakernelnodeparamsv2sharedmembytes",
+      "title": "unsigned int cudaKernelNodeParamsV2::sharedMemBytes",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Dynamic shared-memory size per thread block in bytes...",
+      "filename": "unsigned_int_cudakernelnodeparamsv2sharedmembytes.md"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "description": "Documentation for 6.2.3. Device Memory L2 Access Management",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "6231_l2_cache_set_aside_for_persisting_accesses",
+      "title": "6.2.3.1. L2 Cache Set-Aside for Persisting Accesses",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 6.2.3.1. L2 Cache Set-Aside for Persisting Accesses[\uf0c1](#l2-cache-set-aside-for-persisting-accesses \"Permalink to this headline\")  A portion of the L2 cache can be set aside to be used for persist...",
+      "filename": "6231_l2_cache_set_aside_for_persisting_accesses.md"
+    },
+    {
+      "id": "6232_l2_policy_for_persisting_accesses",
+      "title": "6.2.3.2. L2 Policy for Persisting Accesses",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 6.2.3.2. L2 Policy for Persisting Accesses[\uf0c1](#l2-policy-for-persisting-accesses \"Permalink to this headline\")  An access policy window specifies a contiguous region of global memory and a persis...",
+      "filename": "6232_l2_policy_for_persisting_accesses.md"
+    },
+    {
+      "id": "6233_l2_access_properties",
+      "title": "6.2.3.3. L2 Access Properties",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 6.2.3.3. L2 Access Properties[\uf0c1](#l2-access-properties \"Permalink to this headline\")  Three types of access properties are defined for different global memory data accesses:  1. `cudaAccessProper...",
+      "filename": "6233_l2_access_properties.md"
+    },
+    {
+      "id": "6234_l2_persistence_example",
+      "title": "6.2.3.4. L2 Persistence Example",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 6.2.3.4. L2 Persistence Example[\uf0c1](#l2-persistence-example \"Permalink to this headline\")  The following example shows how to set-aside L2 cache for persistent accesses, use the set-aside L2 cache...",
+      "filename": "6234_l2_persistence_example.md"
+    },
+    {
+      "id": "6235_reset_l2_access_to_normal",
+      "title": "6.2.3.5. Reset L2 Access to Normal",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 6.2.3.5. Reset L2 Access to Normal[\uf0c1](#reset-l2-access-to-normal \"Permalink to this headline\")  A persisting L2 cache line from a previous CUDA kernel may persist in L2 long after it has been use...",
+      "filename": "6235_reset_l2_access_to_normal.md"
+    },
+    {
+      "id": "6236_manage_utilization_of_l2_set_aside_cache",
+      "title": "6.2.3.6. Manage Utilization of L2 set-aside cache",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 6.2.3.6. Manage Utilization of L2 set-aside cache[\uf0c1](#manage-utilization-of-l2-set-aside-cache \"Permalink to this headline\")  Multiple CUDA kernels executing concurrently in different CUDA stream...",
+      "filename": "6236_manage_utilization_of_l2_set_aside_cache.md"
+    },
+    {
+      "id": "6237_query_l2_cache_properties",
+      "title": "6.2.3.7. Query L2 cache Properties",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 6.2.3.7. Query L2 cache Properties[\uf0c1](#query-l2-cache-properties \"Permalink to this headline\")  Properties related to L2 cache are a part of `cudaDeviceProp` struct and can be queried using CUDA ...",
+      "filename": "6237_query_l2_cache_properties.md"
+    },
+    {
+      "id": "6238_control_l2_cache_set_aside_size_for_persisting_memory_access",
+      "title": "6.2.3.8. Control L2 Cache Set-Aside Size for Persisting Memory Access",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 6.2.3.8. Control L2 Cache Set-Aside Size for Persisting Memory Access[\uf0c1](#control-l2-cache-set-aside-size-for-persisting-memory-access \"Permalink to this headline\")  The L2 set-aside cache size f...",
+      "filename": "6238_control_l2_cache_set_aside_size_for_persisting_memory_access.md"
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "description": "Documentation for 7.35. cudaGraphNodeParams Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "struct_cudamemallocnodeparamsv2_cudagraphnodeparamsalloc",
+      "title": "struct cudaMemAllocNodeParamsV2 cudaGraphNodeParams::alloc",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Memory allocation node parameters....",
+      "filename": "struct_cudamemallocnodeparamsv2_cudagraphnodeparamsalloc.md"
+    },
+    {
+      "id": "struct_cudaconditionalnodeparams_cudagraphnodeparamsconditional",
+      "title": "struct cudaConditionalNodeParams cudaGraphNodeParams::conditional",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Conditional node parameters....",
+      "filename": "struct_cudaconditionalnodeparams_cudagraphnodeparamsconditional.md"
+    },
+    {
+      "id": "struct_cudaeventrecordnodeparams_cudagraphnodeparamseventrecord",
+      "title": "struct cudaEventRecordNodeParams cudaGraphNodeParams::eventRecord",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Event record node parameters.   CUDA Runtime API vRelease Version  |  624   Data Structures...",
+      "filename": "struct_cudaeventrecordnodeparams_cudagraphnodeparamseventrecord.md"
+    },
+    {
+      "id": "struct_cudaeventwaitnodeparams_cudagraphnodeparamseventwait",
+      "title": "struct cudaEventWaitNodeParams cudaGraphNodeParams::eventWait",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Event wait node parameters....",
+      "filename": "struct_cudaeventwaitnodeparams_cudagraphnodeparamseventwait.md"
+    },
+    {
+      "id": "struct_cudaexternalsemaphoresignalnodeparamsv2_cudagrap_671799a2",
+      "title": "struct cudaExternalSemaphoreSignalNodeParamsV2 cudaGraphNodeParams::extSemSignal",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "External semaphore signal node parameters....",
+      "filename": "struct_cudaexternalsemaphoresignalnodeparamsv2_cudagrap_671799a2.md"
+    },
+    {
+      "id": "struct_cudaexternalsemaphorewaitnodeparamsv2_cudagraphn_a264e82f",
+      "title": "struct cudaExternalSemaphoreWaitNodeParamsV2 cudaGraphNodeParams::extSemWait",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "External semaphore wait node parameters....",
+      "filename": "struct_cudaexternalsemaphorewaitnodeparamsv2_cudagraphn_a264e82f.md"
+    },
+    {
+      "id": "struct_cudamemfreenodeparams_cudagraphnodeparamsfree",
+      "title": "struct cudaMemFreeNodeParams cudaGraphNodeParams::free",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Memory free node parameters....",
+      "filename": "struct_cudamemfreenodeparams_cudagraphnodeparamsfree.md"
+    },
+    {
+      "id": "struct_cudachildgraphnodeparams_cudagraphnodeparamsgraph",
+      "title": "struct cudaChildGraphNodeParams cudaGraphNodeParams::graph",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Child graph node parameters....",
+      "filename": "struct_cudachildgraphnodeparams_cudagraphnodeparamsgraph.md"
+    },
+    {
+      "id": "struct_cudahostnodeparamsv2_cudagraphnodeparamshost",
+      "title": "struct cudaHostNodeParamsV2 cudaGraphNodeParams::host",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Host node parameters....",
+      "filename": "struct_cudahostnodeparamsv2_cudagraphnodeparamshost.md"
+    },
+    {
+      "id": "struct_cudakernelnodeparamsv2_cudagraphnodeparamskernel",
+      "title": "struct cudaKernelNodeParamsV2 cudaGraphNodeParams::kernel",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Kernel node parameters....",
+      "filename": "struct_cudakernelnodeparamsv2_cudagraphnodeparamskernel.md"
+    },
+    {
+      "id": "struct_cudamemcpynodeparams_cudagraphnodeparamsmemcpy",
+      "title": "struct cudaMemcpyNodeParams cudaGraphNodeParams::memcpy",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Memcpy node parameters.   CUDA Runtime API vRelease Version  |  625   Data Structures...",
+      "filename": "struct_cudamemcpynodeparams_cudagraphnodeparamsmemcpy.md"
+    },
+    {
+      "id": "struct_cudamemsetparamsv2_cudagraphnodeparamsmemset",
+      "title": "struct cudaMemsetParamsV2 cudaGraphNodeParams::memset",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Memset node parameters....",
+      "filename": "struct_cudamemsetparamsv2_cudagraphnodeparamsmemset.md"
+    },
+    {
+      "id": "int_cudagraphnodeparamsreserved0",
+      "title": "int cudaGraphNodeParams::reserved0",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Reserved. Must be zero....",
+      "filename": "int_cudagraphnodeparamsreserved0.md"
+    },
+    {
+      "id": "long_long_cudagraphnodeparamsreserved1",
+      "title": "long long cudaGraphNodeParams::reserved1",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Padding. Unused bytes must be zero....",
+      "filename": "long_long_cudagraphnodeparamsreserved1.md"
+    },
+    {
+      "id": "long_long_cudagraphnodeparamsreserved2",
+      "title": "long long cudaGraphNodeParams::reserved2",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Reserved bytes. Must be zero....",
+      "filename": "long_long_cudagraphnodeparamsreserved2.md"
+    },
+    {
+      "id": "enumcudagraphnodetype_cudagraphnodeparamstype",
+      "title": "enumcudaGraphNodeType cudaGraphNodeParams::type",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Type of the node...",
+      "filename": "enumcudagraphnodetype_cudagraphnodeparamstype.md"
+    }
+  ]
+}

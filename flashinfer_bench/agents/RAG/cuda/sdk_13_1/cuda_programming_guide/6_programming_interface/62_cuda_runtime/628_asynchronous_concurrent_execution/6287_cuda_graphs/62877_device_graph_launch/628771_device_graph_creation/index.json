@@ -1,0 +1,45 @@
+{
+  "description": "Documentation for 6.2.8.7.7.1. Device Graph Creation",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "device_graph_requirements",
+      "title": "device-graph-requirements",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "###### 6.2.8.7.7.1.1. Device Graph Requirements[\uf0c1](#device-graph-requirements \"Permalink to this headline\")  General requirements:  * The graph\u2019s nodes must all reside on a single device. * The graph ...",
+      "filename": "device_graph_requirements.md"
+    },
+    {
+      "id": "device_graph_upload",
+      "title": "device-graph-upload",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "###### 6.2.8.7.7.1.2. Device Graph Upload[\uf0c1](#device-graph-upload \"Permalink to this headline\")  In order to launch a graph on the device, it must first be uploaded to the device to populate the neces...",
+      "filename": "device_graph_upload.md"
+    },
+    {
+      "id": "device_graph_update",
+      "title": "device-graph-update",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "###### 6.2.8.7.7.1.3. Device Graph Update[\uf0c1](#device-graph-update \"Permalink to this headline\")  Device graphs can only be updated from the host, and must be re-uploaded to the device upon executable ...",
+      "filename": "device_graph_update.md"
+    }
+  ]
+}

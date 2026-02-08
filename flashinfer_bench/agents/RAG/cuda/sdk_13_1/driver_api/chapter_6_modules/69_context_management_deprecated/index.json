@@ -1,0 +1,55 @@
+{
+  "description": "Documentation for 6.9. Context Management [DEPRECATED]",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "curesult_cuctxattach_cucontext_pctx_unsigned_int_flags",
+      "title": "CUresult cuCtxAttach (CUcontext *pctx, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Increment a context's usage-count....",
+      "filename": "curesult_cuctxattach_cucontext_pctx_unsigned_int_flags.md"
+    },
+    {
+      "id": "curesult_cuctxdetach_cucontext_ctx",
+      "title": "CUresult cuCtxDetach (CUcontext ctx)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Decrement a context's usage-count....",
+      "filename": "curesult_cuctxdetach_cucontext_ctx.md"
+    },
+    {
+      "id": "curesult_cuctxgetsharedmemconfig_cusharedconfig_pconfig",
+      "title": "CUresult cuCtxGetSharedMemConfig (CUsharedconfig *pConfig)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the current shared memory configuration for the current context....",
+      "filename": "curesult_cuctxgetsharedmemconfig_cusharedconfig_pconfig.md"
+    },
+    {
+      "id": "curesult_cuctxsetsharedmemconfig_cusharedconfig_config",
+      "title": "CUresult cuCtxSetSharedMemConfig (CUsharedconfig config)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets the shared memory configuration for the current context....",
+      "filename": "curesult_cuctxsetsharedmemconfig_cusharedconfig_config.md"
+    }
+  ]
+}

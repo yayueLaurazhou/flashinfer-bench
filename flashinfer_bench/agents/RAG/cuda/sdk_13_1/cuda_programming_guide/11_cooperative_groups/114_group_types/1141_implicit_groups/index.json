@@ -1,0 +1,45 @@
+{
+  "description": "Documentation for 11.4.1. Implicit Groups",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "11411_thread_block_group",
+      "title": "11.4.1.1. Thread Block Group",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 11.4.1.1. Thread Block Group[\uf0c1](#thread-block-group \"Permalink to this headline\")  Any CUDA programmer is already familiar with a certain group of threads: the thread block. The Cooperative Group...",
+      "filename": "11411_thread_block_group.md"
+    },
+    {
+      "id": "11412_cluster_group",
+      "title": "11.4.1.2. Cluster Group",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 11.4.1.2. Cluster Group[\uf0c1](#cluster-group \"Permalink to this headline\")  This group object represents all the threads launched in a single cluster. Refer to [Thread Block Clusters](#thread-block-...",
+      "filename": "11412_cluster_group.md"
+    },
+    {
+      "id": "11413_grid_group",
+      "title": "11.4.1.3. Grid Group",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 11.4.1.3. Grid Group[\uf0c1](#grid-group \"Permalink to this headline\")  This group object represents all the threads launched in a single grid. APIs other than `sync()` are available at all times, but...",
+      "filename": "11413_grid_group.md"
+    }
+  ]
+}

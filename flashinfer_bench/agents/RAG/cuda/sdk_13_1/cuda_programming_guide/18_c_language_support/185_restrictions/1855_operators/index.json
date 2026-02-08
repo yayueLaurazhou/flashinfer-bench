@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 18.5.5. Operators",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "18551_assignment_operator",
+      "title": "18.5.5.1. Assignment Operator",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 18.5.5.1. Assignment Operator[\uf0c1](#assignment-operator \"Permalink to this headline\")  `__constant__` variables can only be assigned from the host code through runtime functions ([Device Memory](#d...",
+      "filename": "18551_assignment_operator.md"
+    },
+    {
+      "id": "18552_address_operator",
+      "title": "18.5.5.2. Address Operator",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 18.5.5.2. Address Operator[\uf0c1](#address-operator \"Permalink to this headline\")  It is not allowed to take the address of any of the built-in variables defined in [Built-in Variables](#built-in-var...",
+      "filename": "18552_address_operator.md"
+    }
+  ]
+}

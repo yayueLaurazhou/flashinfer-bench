@@ -1,0 +1,45 @@
+{
+  "description": "Documentation for 11.1. PTX Module Directives",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "The following directives declare the PTX ISA version of the code in the module, the target architecture for which the code was generated, and the size of addresses within the PTX module."
+    },
+    {
+      "id": "1111_ptx_module_directives_version",
+      "title": "11.1.1. PTX Module Directives: .version",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`.version`",
+      "filename": "1111_ptx_module_directives_version.md"
+    },
+    {
+      "id": "1112_ptx_module_directives_target",
+      "title": "11.1.2. PTX Module Directives: .target",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`.target`",
+      "filename": "1112_ptx_module_directives_target.md"
+    },
+    {
+      "id": "1113_ptx_module_directives_address_size",
+      "title": "11.1.3. PTX Module Directives: .address_size",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`.address_size`",
+      "filename": "1113_ptx_module_directives_address_size.md"
+    }
+  ]
+}

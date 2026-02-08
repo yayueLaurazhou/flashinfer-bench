@@ -1,0 +1,45 @@
+{
+  "description": "Documentation for 9.7.5. Mixed Precision Floating-Point Instructions",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Mixed precision floating-point instructions operate on data with varied floating point precision. Before executing the specified operation, operands with different precision needs to be converted such that all the instruction operands can be represented with a consistent floating-point precision...."
+    },
+    {
+      "id": "9751_mixed_precision_floating_point_instructions_add",
+      "title": "9.7.5.1. Mixed Precision Floating Point Instructions: add",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`add`",
+      "filename": "9751_mixed_precision_floating_point_instructions_add.md"
+    },
+    {
+      "id": "9752_mixed_precision_floating_point_instructions_sub",
+      "title": "9.7.5.2. Mixed Precision Floating Point Instructions: sub",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`sub`",
+      "filename": "9752_mixed_precision_floating_point_instructions_sub.md"
+    },
+    {
+      "id": "9753_mixed_precision_floating_point_instructions_fma",
+      "title": "9.7.5.3. Mixed Precision Floating Point Instructions: fma",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`fma`",
+      "filename": "9753_mixed_precision_floating_point_instructions_fma.md"
+    }
+  ]
+}

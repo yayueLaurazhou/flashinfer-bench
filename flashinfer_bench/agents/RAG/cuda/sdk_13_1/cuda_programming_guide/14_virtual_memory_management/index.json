@@ -1,0 +1,88 @@
+{
+  "description": "Documentation for 14. Virtual Memory Management",
+  "directories": [
+    {
+      "name": "143_allocating_physical_memory",
+      "description": "## 14.3. Allocating Physical Memory[\uf0c1](#allocating-physical-memory \"Permalink to this headline\")  The first step in memory allocation using Virtual Memory Management APIs is to create a physical memor..."
+    },
+    {
+      "name": "148_fabric_memory",
+      "description": "## 14.8. Fabric Memory[\uf0c1](#fabric-memory \"Permalink to this headline\")  CUDA 12.4 introduced a new VMM allocation handle type `CU_MEM_HANDLE_TYPE_FABRIC`. On supported platforms and provided the NVIDI..."
+    },
+    {
+      "name": "149_multicast_support",
+      "description": "## 14.9. Multicast Support[\uf0c1](#multicast-support \"Permalink to this headline\")  The [Multicast Object Management APIs](https://docs.nvidia.com/cuda/cuda-driver-api/group__CUDA__MULTICAST.html#group__C..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "141_introduction",
+      "title": "14.1. Introduction",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 14.1. Introduction[\uf0c1](#introduction-virtual-memory-management \"Permalink to this headline\")  The [Virtual Memory Management APIs](https://docs.nvidia.com/cuda/cuda-driver-api/group__CUDA__VA.html) ...",
+      "filename": "141_introduction.md"
+    },
+    {
+      "id": "142_query_for_support",
+      "title": "14.2. Query for Support",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 14.2. Query for Support[\uf0c1](#query-for-support \"Permalink to this headline\")  Before attempting to use Virtual Memory Management APIs, applications must ensure that the devices they want to use supp...",
+      "filename": "142_query_for_support.md"
+    },
+    {
+      "id": "144_reserving_a_virtual_address_range",
+      "title": "14.4. Reserving a Virtual Address Range",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 14.4. Reserving a Virtual Address Range[\uf0c1](#reserving-a-virtual-address-range \"Permalink to this headline\")  Since with Virtual Memory Management the notions of address and memory are distinct, app...",
+      "filename": "144_reserving_a_virtual_address_range.md"
+    },
+    {
+      "id": "145_virtual_aliasing_support",
+      "title": "14.5. Virtual Aliasing Support",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 14.5. Virtual Aliasing Support[\uf0c1](#virtual-aliasing-support \"Permalink to this headline\")  The Virtual Memory Management APIs provide a way to create multiple virtual memory mappings or \u201cproxies\u201d t...",
+      "filename": "145_virtual_aliasing_support.md"
+    },
+    {
+      "id": "146_mapping_memory",
+      "title": "14.6. Mapping Memory",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 14.6. Mapping Memory[\uf0c1](#mapping-memory \"Permalink to this headline\")  The allocated physical memory and the carved out virtual address space from the previous two sections represent the memory and...",
+      "filename": "146_mapping_memory.md"
+    },
+    {
+      "id": "147_controlling_access_rights",
+      "title": "14.7. Controlling Access Rights",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 14.7. Controlling Access Rights[\uf0c1](#controlling-access-rights \"Permalink to this headline\")  The Virtual Memory Management APIs enable applications to explicitly protect their VA ranges with access...",
+      "filename": "147_controlling_access_rights.md"
+    }
+  ]
+}

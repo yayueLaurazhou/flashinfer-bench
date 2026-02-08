@@ -1,0 +1,3 @@
+# CUDA_EXTERNAL_SEMAPHORE_WAIT_PARAMS_v1::@27::@ CUDA_EXTERNAL_SEMAPHORE_WAIT_PARAMS_v1::fence
+
+Parameters for fence objects

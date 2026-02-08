@@ -1,0 +1,25 @@
+{
+  "description": "Documentation for 13.3.1.7. API Errors and Launch Failures",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "133171_launch_setup_apis",
+      "title": "13.3.1.7.1. Launch Setup APIs",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 13.3.1.7.1. Launch Setup APIs[\uf0c1](#launch-setup-apis \"Permalink to this headline\")  Kernel launch is a system-level mechanism exposed through the device runtime library, and as such is available ...",
+      "filename": "133171_launch_setup_apis.md"
+    }
+  ]
+}

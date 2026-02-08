@@ -1,0 +1,75 @@
+{
+  "description": "Documentation for 10.2. Variable Memory Space Specifiers",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "1021___device__",
+      "title": "10.2.1. __device__",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.2.1. \\_\\_device\\_\\_[\uf0c1](#device-variable-specifier \"Permalink to this headline\")  The `__device__` memory space specifier declares a variable that resides on the device.  At most one of the othe...",
+      "filename": "1021___device__.md"
+    },
+    {
+      "id": "1022___constant__",
+      "title": "10.2.2. __constant__",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.2.2. \\_\\_constant\\_\\_[\uf0c1](#constant \"Permalink to this headline\")  The `__constant__` memory space specifier, optionally used together with `__device__`, declares a variable that:  * Resides in ...",
+      "filename": "1022___constant__.md"
+    },
+    {
+      "id": "1023___shared__",
+      "title": "10.2.3. __shared__",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.2.3. \\_\\_shared\\_\\_[\uf0c1](#shared \"Permalink to this headline\")  The `__shared__` memory space specifier, optionally used together with `__device__`, declares a variable that:  * Resides in the sh...",
+      "filename": "1023___shared__.md"
+    },
+    {
+      "id": "1024___grid_constant__",
+      "title": "10.2.4. __grid_constant__",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.2.4. \\_\\_grid\\_constant\\_\\_[\uf0c1](#grid-constant \"Permalink to this headline\")  The `__grid_constant__` annotation for compute architectures greater or equal to 7.0 annotates a `const`-qualified `...",
+      "filename": "1024___grid_constant__.md"
+    },
+    {
+      "id": "1025___managed__",
+      "title": "10.2.5. __managed__",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.2.5. \\_\\_managed\\_\\_[\uf0c1](#managed \"Permalink to this headline\")  The `__managed__` memory space specifier, optionally used together with `__device__`, declares a variable that:  * Can be referen...",
+      "filename": "1025___managed__.md"
+    },
+    {
+      "id": "1026___restrict__",
+      "title": "10.2.6. __restrict__",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.2.6. \\_\\_restrict\\_\\_[\uf0c1](#restrict \"Permalink to this headline\")  `nvcc` supports restricted pointers via the `__restrict__` keyword.  Restricted pointers were introduced in C99 to alleviate th...",
+      "filename": "1026___restrict__.md"
+    }
+  ]
+}

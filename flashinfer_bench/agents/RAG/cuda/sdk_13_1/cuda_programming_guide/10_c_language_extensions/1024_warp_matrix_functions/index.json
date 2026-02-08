@@ -1,0 +1,85 @@
+{
+  "description": "Documentation for 10.24. Warp Matrix Functions",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "10241_description",
+      "title": "10.24.1. Description",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.24.1. Description[\uf0c1](#wmma-description \"Permalink to this headline\")  All following functions and types are defined in the namespace `nvcuda::wmma`. Sub-byte operations are considered preview, ...",
+      "filename": "10241_description.md"
+    },
+    {
+      "id": "10242_alternate_floating_point",
+      "title": "10.24.2. Alternate Floating Point",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.24.2. Alternate Floating Point[\uf0c1](#alternate-floating-point \"Permalink to this headline\")  Tensor Cores support alternate types of floating point operations on devices with compute capability 8...",
+      "filename": "10242_alternate_floating_point.md"
+    },
+    {
+      "id": "10243_double_precision",
+      "title": "10.24.3. Double Precision",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.24.3. Double Precision[\uf0c1](#double-precision \"Permalink to this headline\")  Tensor Cores support double-precision floating point operations on devices with compute capability 8.0 and higher. To ...",
+      "filename": "10243_double_precision.md"
+    },
+    {
+      "id": "10244_sub_byte_operations",
+      "title": "10.24.4. Sub-byte Operations",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.24.4. Sub-byte Operations[\uf0c1](#sub-byte-operations \"Permalink to this headline\")  Sub-byte WMMA operations provide a way to access the low-precision capabilities of Tensor Cores. They are consid...",
+      "filename": "10244_sub_byte_operations.md"
+    },
+    {
+      "id": "10245_restrictions",
+      "title": "10.24.5. Restrictions",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.24.5. Restrictions[\uf0c1](#wmma-restrictions \"Permalink to this headline\")  The special format required by tensor cores may be different for each major and minor device architecture. This is furthe...",
+      "filename": "10245_restrictions.md"
+    },
+    {
+      "id": "10246_element_types_and_matrix_sizes",
+      "title": "10.24.6. Element Types and Matrix Sizes",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.24.6. Element Types and Matrix Sizes[\uf0c1](#element-types-and-matrix-sizes \"Permalink to this headline\")  Tensor Cores support a variety of element types and matrix sizes. The following table pres...",
+      "filename": "10246_element_types_and_matrix_sizes.md"
+    },
+    {
+      "id": "10247_example",
+      "title": "10.24.7. Example",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.24.7. Example[\uf0c1](#wmma-example \"Permalink to this headline\")  The following code implements a 16x16x16 matrix multiplication in a single warp.  ``` #include <mma.h> using namespace nvcuda;  __g...",
+      "filename": "10247_example.md"
+    }
+  ]
+}

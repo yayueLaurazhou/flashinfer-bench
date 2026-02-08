@@ -1,0 +1,75 @@
+{
+  "description": "Documentation for 10.14.2. Bitwise Functions",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "101421_atomicand",
+      "title": "10.14.2.1. atomicAnd()",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 10.14.2.1. atomicAnd()[\uf0c1](#atomicand \"Permalink to this headline\")  ``` int atomicAnd(int* address, int val); unsigned int atomicAnd(unsigned int* address,                        unsigned int val...",
+      "filename": "101421_atomicand.md"
+    },
+    {
+      "id": "101422_atomicor",
+      "title": "10.14.2.2. atomicOr()",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 10.14.2.2. atomicOr()[\uf0c1](#atomicor \"Permalink to this headline\")  ``` int atomicOr(int* address, int val); unsigned int atomicOr(unsigned int* address,                       unsigned int val); un...",
+      "filename": "101422_atomicor.md"
+    },
+    {
+      "id": "101423_atomicxor",
+      "title": "10.14.2.3. atomicXor()",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 10.14.2.3. atomicXor()[\uf0c1](#atomicxor \"Permalink to this headline\")  ``` int atomicXor(int* address, int val); unsigned int atomicXor(unsigned int* address,                        unsigned int val...",
+      "filename": "101423_atomicxor.md"
+    },
+    {
+      "id": "101424___nv_atomic_fetch_or_and___nv_atomic_or",
+      "title": "10.14.2.4. __nv_atomic_fetch_or() and __nv_atomic_or()",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 10.14.2.4. \\_\\_nv\\_atomic\\_fetch\\_or() and \\_\\_nv\\_atomic\\_or()[\uf0c1](#nv-atomic-fetch-or-and-nv-atomic-or \"Permalink to this headline\")  ``` __device__ T __nv_atomic_fetch_or (T* ptr, T val, int or...",
+      "filename": "101424___nv_atomic_fetch_or_and___nv_atomic_or.md"
+    },
+    {
+      "id": "101425___nv_atomic_fetch_xor_and___nv_atomic_xor",
+      "title": "10.14.2.5. __nv_atomic_fetch_xor() and __nv_atomic_xor()",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 10.14.2.5. \\_\\_nv\\_atomic\\_fetch\\_xor() and \\_\\_nv\\_atomic\\_xor()[\uf0c1](#nv-atomic-fetch-xor-and-nv-atomic-xor \"Permalink to this headline\")  ``` __device__ T __nv_atomic_fetch_xor (T* ptr, T val, i...",
+      "filename": "101425___nv_atomic_fetch_xor_and___nv_atomic_xor.md"
+    },
+    {
+      "id": "101426___nv_atomic_fetch_and_and___nv_atomic_and",
+      "title": "10.14.2.6. __nv_atomic_fetch_and() and __nv_atomic_and()",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 10.14.2.6. \\_\\_nv\\_atomic\\_fetch\\_and() and \\_\\_nv\\_atomic\\_and()[\uf0c1](#nv-atomic-fetch-and-and-nv-atomic-and \"Permalink to this headline\")  ``` __device__ T __nv_atomic_fetch_and (T* ptr, T val, i...",
+      "filename": "101426___nv_atomic_fetch_and_and___nv_atomic_and.md"
+    }
+  ]
+}

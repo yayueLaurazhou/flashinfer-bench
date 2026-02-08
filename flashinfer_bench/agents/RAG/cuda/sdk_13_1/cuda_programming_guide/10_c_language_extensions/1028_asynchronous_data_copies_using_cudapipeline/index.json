@@ -1,0 +1,50 @@
+{
+  "description": "Documentation for 10.28. Asynchronous Data Copies using cuda::pipeline",
+  "directories": [
+    {
+      "name": "10284_pipeline_primitives_interface",
+      "description": "### 10.28.4. Pipeline Primitives Interface[\uf0c1](#pipeline-primitives-interface \"Permalink to this headline\")  Pipeline primitives are a C-like interface for `memcpy_async` functionality. The pipeline pr..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "10281_single_stage_asynchronous_data_copies_using_cudapipeline",
+      "title": "10.28.1. Single-Stage Asynchronous Data Copies using cuda::pipeline",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.28.1. Single-Stage Asynchronous Data Copies using `cuda::pipeline`[\uf0c1](#single-stage-asynchronous-data-copies-using-cuda-pipeline \"Permalink to this headline\")  In previous examples we showed ho...",
+      "filename": "10281_single_stage_asynchronous_data_copies_using_cudapipeline.md"
+    },
+    {
+      "id": "10282_multi_stage_asynchronous_data_copies_using_cudapipeline",
+      "title": "10.28.2. Multi-Stage Asynchronous Data Copies using cuda::pipeline",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.28.2. Multi-Stage Asynchronous Data Copies using `cuda::pipeline`[\uf0c1](#multi-stage-asynchronous-data-copies-using-cuda-pipeline \"Permalink to this headline\")  In the previous examples with [coop...",
+      "filename": "10282_multi_stage_asynchronous_data_copies_using_cudapipeline.md"
+    },
+    {
+      "id": "10283_pipeline_interface",
+      "title": "10.28.3. Pipeline Interface",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.28.3. Pipeline Interface[\uf0c1](#pipeline-interface \"Permalink to this headline\")  The complete API documentation for `cuda::memcpy_async` is provided in the [libcudacxx API](https://nvidia.github....",
+      "filename": "10283_pipeline_interface.md"
+    }
+  ]
+}

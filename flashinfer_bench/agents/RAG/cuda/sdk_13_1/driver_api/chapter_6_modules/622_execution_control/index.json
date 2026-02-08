@@ -1,0 +1,145 @@
+{
+  "description": "Documentation for 6.22. Execution Control",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "curesult_cufuncgetattribute_int_pi_cufunction_attribute_b0760fe6",
+      "title": "CUresult cuFuncGetAttribute (int *pi, CUfunction_attribute attrib, CUfunction hfunc)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns information about a function....",
+      "filename": "curesult_cufuncgetattribute_int_pi_cufunction_attribute_b0760fe6.md"
+    },
+    {
+      "id": "curesult_cufuncgetmodule_cumodule_hmod_cufunction_hfunc",
+      "title": "CUresult cuFuncGetModule (CUmodule *hmod, CUfunction hfunc)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns a module handle....",
+      "filename": "curesult_cufuncgetmodule_cumodule_hmod_cufunction_hfunc.md"
+    },
+    {
+      "id": "curesult_cufuncgetname_const_char_name_cufunction_hfunc",
+      "title": "CUresult cuFuncGetName (const char **name, CUfunction hfunc)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the function name for a CUfunction handle....",
+      "filename": "curesult_cufuncgetname_const_char_name_cufunction_hfunc.md"
+    },
+    {
+      "id": "curesult_cufuncgetparaminfo_cufunction_func_size_t_para_11fe133b",
+      "title": "CUresult cuFuncGetParamInfo (CUfunction func, size_t paramIndex, size_t *paramOffset, size_t *paramSize)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the offset and size of a kernel parameter in the device-side parameter layout....",
+      "filename": "curesult_cufuncgetparaminfo_cufunction_func_size_t_para_11fe133b.md"
+    },
+    {
+      "id": "curesult_cufuncisloaded_cufunctionloadingstate_state_cu_37eeee40",
+      "title": "CUresult cuFuncIsLoaded (CUfunctionLoadingState *state, CUfunction function)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns if the function is loaded....",
+      "filename": "curesult_cufuncisloaded_cufunctionloadingstate_state_cu_37eeee40.md"
+    },
+    {
+      "id": "curesult_cufuncload_cufunction_function",
+      "title": "CUresult cuFuncLoad (CUfunction function)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Loads a function....",
+      "filename": "curesult_cufuncload_cufunction_function.md"
+    },
+    {
+      "id": "curesult_cufuncsetattribute_cufunction_hfunc_cufunction_b8b98064",
+      "title": "CUresult cuFuncSetAttribute (CUfunction hfunc, CUfunction_attribute attrib, int value)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets information about a function....",
+      "filename": "curesult_cufuncsetattribute_cufunction_hfunc_cufunction_b8b98064.md"
+    },
+    {
+      "id": "curesult_cufuncsetcacheconfig_cufunction_hfunc_cufunc_c_b7a2de02",
+      "title": "CUresult cuFuncSetCacheConfig (CUfunction hfunc, CUfunc_cache config)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets the preferred cache configuration for a device function....",
+      "filename": "curesult_cufuncsetcacheconfig_cufunction_hfunc_cufunc_c_b7a2de02.md"
+    },
+    {
+      "id": "curesult_culaunchcooperativekernel_cufunction_f_unsigne_768397c5",
+      "title": "CUresult cuLaunchCooperativeKernel (CUfunction f, unsigned int gridDimX, unsigned int gridDimY, unsigned int gridDimZ, unsigned int blockDimX, unsigned int blockDimY, unsigned int blockDimZ, unsigned int sharedMemBytes, CUstream hStream, void **kernelParams)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Launches a CUDA function CUfunction or a CUDA kernel CUkernel where thread blocks can cooperate and synchronize as they execute....",
+      "filename": "curesult_culaunchcooperativekernel_cufunction_f_unsigne_768397c5.md"
+    },
+    {
+      "id": "curesult_culaunchcooperativekernelmultidevice_cuda_laun_af6ef080",
+      "title": "CUresult cuLaunchCooperativeKernelMultiDevice (CUDA_LAUNCH_PARAMS *launchParamsList, unsigned int numDevices, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Launches CUDA functions on multiple devices where thread blocks can cooperate and synchronize as they execute....",
+      "filename": "curesult_culaunchcooperativekernelmultidevice_cuda_laun_af6ef080.md"
+    },
+    {
+      "id": "curesult_culaunchhostfunc_custream_hstream_cuhostfn_fn__819475f7",
+      "title": "CUresult cuLaunchHostFunc (CUstream hStream, CUhostFn fn, void *userData)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Enqueues a host function call in a stream....",
+      "filename": "curesult_culaunchhostfunc_custream_hstream_cuhostfn_fn__819475f7.md"
+    },
+    {
+      "id": "curesult_culaunchkernel_cufunction_f_unsigned_int_gridd_3bd52b87",
+      "title": "CUresult cuLaunchKernel (CUfunction f, unsigned int gridDimX, unsigned int gridDimY, unsigned int gridDimZ, unsigned int blockDimX, unsigned int blockDimY, unsigned int blockDimZ, unsigned int sharedMemBytes, CUstream hStream, void **kernelParams, void **extra)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Launches a CUDA function CUfunction or a CUDA kernel CUkernel....",
+      "filename": "curesult_culaunchkernel_cufunction_f_unsigned_int_gridd_3bd52b87.md"
+    },
+    {
+      "id": "curesult_culaunchkernelex_const_culaunchconfig_config_c_74fca329",
+      "title": "CUresult cuLaunchKernelEx (const CUlaunchConfig *config, CUfunction f, void **kernelParams, void **extra)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Launches a CUDA function CUfunction or a CUDA kernel CUkernel with launch-time configuration....",
+      "filename": "curesult_culaunchkernelex_const_culaunchconfig_config_c_74fca329.md"
+    }
+  ]
+}

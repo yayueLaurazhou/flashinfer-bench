@@ -1,0 +1,24 @@
+{
+  "description": "Documentation for 6.2.8.7.7. Device Graph Launch",
+  "directories": [
+    {
+      "name": "628771_device_graph_creation",
+      "description": "###### 6.2.8.7.7.1. Device Graph Creation[\uf0c1](#device-graph-creation \"Permalink to this headline\")  In order for a graph to be launched from the device, it must be instantiated explicitly for device la..."
+    },
+    {
+      "name": "628772_device_launch",
+      "description": "###### 6.2.8.7.7.2. Device Launch[\uf0c1](#device-launch \"Permalink to this headline\")  Device graphs can be launched from both the host and the device via `cudaGraphLaunch()`, which has the same signature..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    }
+  ]
+}

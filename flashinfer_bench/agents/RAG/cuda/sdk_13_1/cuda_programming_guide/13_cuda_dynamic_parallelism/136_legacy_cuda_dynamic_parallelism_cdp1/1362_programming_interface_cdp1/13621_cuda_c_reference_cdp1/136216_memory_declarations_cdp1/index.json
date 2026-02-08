@@ -1,0 +1,55 @@
+{
+  "description": "Documentation for 13.6.2.1.6. Memory Declarations (CDP1)",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "1362161_device_and_constant_memory_cdp1",
+      "title": "13.6.2.1.6.1. Device and Constant Memory (CDP1)",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "###### 13.6.2.1.6.1. Device and Constant Memory (CDP1)[\uf0c1](#device-and-constant-memory-cdp1 \"Permalink to this headline\")  See [Device and Constant Memory](#device-and-constant-memory), above, for CDP2...",
+      "filename": "1362161_device_and_constant_memory_cdp1.md"
+    },
+    {
+      "id": "1362162_textures_and_surfaces_cdp1",
+      "title": "13.6.2.1.6.2. Textures and Surfaces (CDP1)",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "###### 13.6.2.1.6.2. Textures and Surfaces (CDP1)[\uf0c1](#textures-and-surfaces-cdp1 \"Permalink to this headline\")  See [Textures and Surfaces](#textures-and-surfaces), above, for CDP2 version of document...",
+      "filename": "1362162_textures_and_surfaces_cdp1.md"
+    },
+    {
+      "id": "1362163_shared_memory_variable_declarations_cdp1",
+      "title": "13.6.2.1.6.3. Shared Memory Variable Declarations (CDP1)",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "###### 13.6.2.1.6.3. Shared Memory Variable Declarations (CDP1)[\uf0c1](#shared-memory-variable-declarations-cdp1 \"Permalink to this headline\")  See [Shared Memory Variable Declarations](#shared-memory-var...",
+      "filename": "1362163_shared_memory_variable_declarations_cdp1.md"
+    },
+    {
+      "id": "1362164_symbol_addresses_cdp1",
+      "title": "13.6.2.1.6.4. Symbol Addresses (CDP1)",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "###### 13.6.2.1.6.4. Symbol Addresses (CDP1)[\uf0c1](#symbol-addresses-cdp1 \"Permalink to this headline\")  See [Symbol Addresses](#symbol-addresses), above, for CDP2 version of document.  Device-side symbo...",
+      "filename": "1362164_symbol_addresses_cdp1.md"
+    }
+  ]
+}

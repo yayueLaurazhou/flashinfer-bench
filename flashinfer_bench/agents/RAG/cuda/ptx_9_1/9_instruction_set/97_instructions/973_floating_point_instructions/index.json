@@ -1,0 +1,235 @@
+{
+  "description": "Documentation for 9.7.3. Floating-Point Instructions",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Floating-point instructions operate on `.f32` and `.f64` register operands and constant immediate values. The floating-point instructions are:"
+    },
+    {
+      "id": "9731_floating_point_instructions_testp",
+      "title": "9.7.3.1. Floating Point Instructions: testp",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`testp`",
+      "filename": "9731_floating_point_instructions_testp.md"
+    },
+    {
+      "id": "9732_floating_point_instructions_copysign",
+      "title": "9.7.3.2. Floating Point Instructions: copysign",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`copysign`",
+      "filename": "9732_floating_point_instructions_copysign.md"
+    },
+    {
+      "id": "9733_floating_point_instructions_add",
+      "title": "9.7.3.3. Floating Point Instructions: add",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`add`",
+      "filename": "9733_floating_point_instructions_add.md"
+    },
+    {
+      "id": "9734_floating_point_instructions_sub",
+      "title": "9.7.3.4. Floating Point Instructions: sub",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`sub`",
+      "filename": "9734_floating_point_instructions_sub.md"
+    },
+    {
+      "id": "9735_floating_point_instructions_mul",
+      "title": "9.7.3.5. Floating Point Instructions: mul",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`mul`",
+      "filename": "9735_floating_point_instructions_mul.md"
+    },
+    {
+      "id": "9736_floating_point_instructions_fma",
+      "title": "9.7.3.6. Floating Point Instructions: fma",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`fma`",
+      "filename": "9736_floating_point_instructions_fma.md"
+    },
+    {
+      "id": "9737_floating_point_instructions_mad",
+      "title": "9.7.3.7. Floating Point Instructions: mad",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`mad`",
+      "filename": "9737_floating_point_instructions_mad.md"
+    },
+    {
+      "id": "9738_floating_point_instructions_div",
+      "title": "9.7.3.8. Floating Point Instructions: div",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`div`",
+      "filename": "9738_floating_point_instructions_div.md"
+    },
+    {
+      "id": "9739_floating_point_instructions_abs",
+      "title": "9.7.3.9. Floating Point Instructions: abs",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`abs`",
+      "filename": "9739_floating_point_instructions_abs.md"
+    },
+    {
+      "id": "97310_floating_point_instructions_neg",
+      "title": "9.7.3.10. Floating Point Instructions: neg",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`neg`",
+      "filename": "97310_floating_point_instructions_neg.md"
+    },
+    {
+      "id": "97311_floating_point_instructions_min",
+      "title": "9.7.3.11. Floating Point Instructions: min",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`min`",
+      "filename": "97311_floating_point_instructions_min.md"
+    },
+    {
+      "id": "97312_floating_point_instructions_max",
+      "title": "9.7.3.12. Floating Point Instructions: max",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`max`",
+      "filename": "97312_floating_point_instructions_max.md"
+    },
+    {
+      "id": "97313_floating_point_instructions_rcp",
+      "title": "9.7.3.13. Floating Point Instructions: rcp",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`rcp`",
+      "filename": "97313_floating_point_instructions_rcp.md"
+    },
+    {
+      "id": "97314_floating_point_instructions_rcpapproxftzf64",
+      "title": "9.7.3.14. Floating Point Instructions: rcp.approx.ftz.f64",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`rcp.approx.ftz.f64`",
+      "filename": "97314_floating_point_instructions_rcpapproxftzf64.md"
+    },
+    {
+      "id": "97315_floating_point_instructions_sqrt",
+      "title": "9.7.3.15. Floating Point Instructions: sqrt",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`sqrt`",
+      "filename": "97315_floating_point_instructions_sqrt.md"
+    },
+    {
+      "id": "97316_floating_point_instructions_rsqrt",
+      "title": "9.7.3.16. Floating Point Instructions: rsqrt",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`rsqrt`",
+      "filename": "97316_floating_point_instructions_rsqrt.md"
+    },
+    {
+      "id": "97317_floating_point_instructions_rsqrtapproxftzf64",
+      "title": "9.7.3.17. Floating Point Instructions: rsqrt.approx.ftz.f64",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`rsqrt.approx.ftz.f64`",
+      "filename": "97317_floating_point_instructions_rsqrtapproxftzf64.md"
+    },
+    {
+      "id": "97318_floating_point_instructions_sin",
+      "title": "9.7.3.18. Floating Point Instructions: sin",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`sin`",
+      "filename": "97318_floating_point_instructions_sin.md"
+    },
+    {
+      "id": "97319_floating_point_instructions_cos",
+      "title": "9.7.3.19. Floating Point Instructions: cos",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`cos`",
+      "filename": "97319_floating_point_instructions_cos.md"
+    },
+    {
+      "id": "97320_floating_point_instructions_lg2",
+      "title": "9.7.3.20. Floating Point Instructions: lg2",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`lg2`",
+      "filename": "97320_floating_point_instructions_lg2.md"
+    },
+    {
+      "id": "97321_floating_point_instructions_ex2",
+      "title": "9.7.3.21. Floating Point Instructions: ex2",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`ex2`",
+      "filename": "97321_floating_point_instructions_ex2.md"
+    },
+    {
+      "id": "97322_floating_point_instructions_tanh",
+      "title": "9.7.3.22. Floating Point Instructions: tanh",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`tanh`",
+      "filename": "97322_floating_point_instructions_tanh.md"
+    }
+  ]
+}

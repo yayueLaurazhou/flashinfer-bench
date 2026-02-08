@@ -1,0 +1,68 @@
+{
+  "description": "Documentation for 20. Compute Capabilities",
+  "directories": [
+    {
+      "name": "201_feature_availability",
+      "description": "## 20.1. Feature Availability[\uf0c1](#feature-availability \"Permalink to this headline\")  Most compute features introduced with a compute architecture are intended to be available on all subsequent archit..."
+    },
+    {
+      "name": "204_compute_capability_5x",
+      "description": "## 20.4. Compute Capability 5.x[\uf0c1](#compute-capability-5-x \"Permalink to this headline\")..."
+    },
+    {
+      "name": "205_compute_capability_6x",
+      "description": "## 20.5. Compute Capability 6.x[\uf0c1](#compute-capability-6-x \"Permalink to this headline\")..."
+    },
+    {
+      "name": "206_compute_capability_7x",
+      "description": "## 20.6. Compute Capability 7.x[\uf0c1](#compute-capability-7-x \"Permalink to this headline\")..."
+    },
+    {
+      "name": "207_compute_capability_8x",
+      "description": "## 20.7. Compute Capability 8.x[\uf0c1](#compute-capability-8-x \"Permalink to this headline\")..."
+    },
+    {
+      "name": "208_compute_capability_90",
+      "description": "## 20.8. Compute Capability 9.0[\uf0c1](#compute-capability-9-0 \"Permalink to this headline\")..."
+    },
+    {
+      "name": "209_compute_capability_100",
+      "description": "## 20.9. Compute Capability 10.0[\uf0c1](#compute-capability-10-0 \"Permalink to this headline\")..."
+    },
+    {
+      "name": "2010_compute_capability_120",
+      "description": "## 20.10. Compute Capability 12.0[\uf0c1](#compute-capability-12-0 \"Permalink to this headline\")..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "202_features_and_technical_specifications",
+      "title": "20.2. Features and Technical Specifications",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 20.2. Features and Technical Specifications[\uf0c1](#features-and-technical-specifications \"Permalink to this headline\")  Table 26 Feature Support per Compute Capability[\uf0c1](#features-and-technical-speci...",
+      "filename": "202_features_and_technical_specifications.md"
+    },
+    {
+      "id": "203_floating_point_standard",
+      "title": "20.3. Floating-Point Standard",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 20.3. Floating-Point Standard[\uf0c1](#floating-point-standard \"Permalink to this headline\")  All compute devices follow the IEEE 754-2008 standard for binary floating-point arithmetic with the followin...",
+      "filename": "203_floating_point_standard.md"
+    }
+  ]
+}

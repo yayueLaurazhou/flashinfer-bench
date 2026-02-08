@@ -1,0 +1,82 @@
+# CUresult cuStreamAddCallback (CUstream hStream, CUstreamCallback callback, void *userData, unsigned int flags)
+
+Add a callback to a compute stream.
+
+###### Parameters
+
+**hStream**
+
+  - Stream to add callback to
+**callback**
+
+  - The function to call once preceding stream operations are complete
+**userData**
+
+  - User specified data to be passed to the callback function
+**flags**
+
+  - Reserved for future use, must be 0
+
+###### Returns
+
+CUDA_SUCCESS, CUDA_ERROR_DEINITIALIZED, CUDA_ERROR_NOT_INITIALIZED,
+CUDA_ERROR_INVALID_CONTEXT, CUDA_ERROR_INVALID_HANDLE,
+CUDA_ERROR_NOT_SUPPORTED
+
+###### Description
+
+Adds a callback to be called on the host after all currently enqueued items in the stream have
+completed. For each cuStreamAddCallback call, the callback will be executed exactly once. The
+callback will block later work in the stream until it is finished.
+
+
+CUDA Driver API TRM-06703-001 _vRelease Version  |  331
+
+
+Modules
+
+
+The callback may be passed CUDA_SUCCESS or an error code. In the event of a device error, all
+subsequently executed callbacks will receive an appropriate CUresult.
+
+Callbacks must not make any CUDA API calls. Attempting to use a CUDA API will result in
+CUDA_ERROR_NOT_PERMITTED. Callbacks must not perform any synchronization that may
+depend on outstanding device work or other callbacks that are not mandated to run earlier. Callbacks
+without a mandated order (in independent streams) execute in undefined order and may be serialized.
+
+For the purposes of Unified Memory, callback execution makes a number of guarantees:
+
+The callback stream is considered idle for the duration of the callback. Thus, for example, a
+
+###### **‣**
+
+callback may always use memory attached to the callback stream.
+The start of execution of a callback has the same effect as synchronizing an event recorded in
+
+###### **‣**
+
+the same stream immediately prior to the callback. It thus synchronizes streams which have been
+"joined" prior to the callback.
+Adding device work to any stream does not have the effect of making the stream active until all
+
+###### **‣**
+
+preceding host functions and stream callbacks have executed. Thus, for example, a callback might
+use global attached memory even if work has been added to another stream, if the work has been
+ordered behind the callback with an event.
+Completion of a callback does not cause a stream to become active except as described above. The
+
+###### **‣**
+
+callback stream will remain idle if no device work follows the callback, and will remain idle across
+consecutive callbacks without device work in between. Thus, for example, stream synchronization
+can be done by signaling from a callback at the end of the stream.
+
+
+
+
+
+See also:
+
+cuStreamCreate, cuStreamQuery, cuStreamSynchronize, cuStreamWaitEvent, cuStreamDestroy,
+cuMemAllocManaged, cuStreamAttachMemAsync, cuLaunchHostFunc, cudaStreamAddCallback

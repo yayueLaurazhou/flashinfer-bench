@@ -1,0 +1,105 @@
+{
+  "description": "Documentation for 7.34. cudaGraphKernelNodeUpdate Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "enumcudagraphkernelnodefield_cudagraphkernelnodeupdatefield",
+      "title": "enumcudaGraphKernelNodeField cudaGraphKernelNodeUpdate::field",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Which type of update to apply. Determines how updateData is interpreted...",
+      "filename": "enumcudagraphkernelnodefield_cudagraphkernelnodeupdatefield.md"
+    },
+    {
+      "id": "uint3_cudagraphkernelnodeupdategriddim",
+      "title": "uint3 cudaGraphKernelNodeUpdate::gridDim",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Grid dimensions...",
+      "filename": "uint3_cudagraphkernelnodeupdategriddim.md"
+    },
+    {
+      "id": "unsigned_int_cudagraphkernelnodeupdateisenabled",
+      "title": "unsigned int cudaGraphKernelNodeUpdate::isEnabled",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Node enable/disable data. Nonzero if the node should be enabled, 0 if it should be disabled...",
+      "filename": "unsigned_int_cudagraphkernelnodeupdateisenabled.md"
+    },
+    {
+      "id": "cudagraphdevicenode_t_cudagraphkernelnodeupdatenode",
+      "title": "cudaGraphDeviceNode_t cudaGraphKernelNodeUpdate::node",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Node to update...",
+      "filename": "cudagraphdevicenode_t_cudagraphkernelnodeupdatenode.md"
+    },
+    {
+      "id": "size_t_cudagraphkernelnodeupdateoffset",
+      "title": "size_t cudaGraphKernelNodeUpdate::offset",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Offset into the parameter buffer at which to apply the update   CUDA Runtime API vRelease Version  |  623   Data Structures...",
+      "filename": "size_t_cudagraphkernelnodeupdateoffset.md"
+    },
+    {
+      "id": "cudagraphkernelnodeupdate2728_cudagraphkernelnodeupdateparam",
+      "title": "cudaGraphKernelNodeUpdate::@27::@28 cudaGraphKernelNodeUpdate::param",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Kernel parameter data...",
+      "filename": "cudagraphkernelnodeupdate2728_cudagraphkernelnodeupdateparam.md"
+    },
+    {
+      "id": "const_void_cudagraphkernelnodeupdatepvalue",
+      "title": "const void *cudaGraphKernelNodeUpdate::pValue",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Kernel parameter data to write in...",
+      "filename": "const_void_cudagraphkernelnodeupdatepvalue.md"
+    },
+    {
+      "id": "size_t_cudagraphkernelnodeupdatesize",
+      "title": "size_t cudaGraphKernelNodeUpdate::size",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Number of bytes to update...",
+      "filename": "size_t_cudagraphkernelnodeupdatesize.md"
+    },
+    {
+      "id": "cudagraphkernelnodeupdate27_cudagraphkernelnodeupdateupdatedata",
+      "title": "cudaGraphKernelNodeUpdate::@27 cudaGraphKernelNodeUpdate::updateData",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Update data to apply. Which field is used depends on field's value...",
+      "filename": "cudagraphkernelnodeupdate27_cudagraphkernelnodeupdateupdatedata.md"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+# CUDA_EXTERNAL_SEMAPHORE_HANDLE_DESC_v1::@21::@ CUDA_EXTERNAL_SEMAPHORE_HANDLE_DESC_v1::win32
+
+Win32 handle referencing the semaphore object. Valid when type is one of the following:
+
+CU_EXTERNAL_SEMAPHORE_HANDLE_TYPE_OPAQUE_WIN32
+
+###### **‣**
+
+CU_EXTERNAL_SEMAPHORE_HANDLE_TYPE_OPAQUE_WIN32_KMT
+
+###### **‣**
+
+CU_EXTERNAL_SEMAPHORE_HANDLE_TYPE_D3D12_FENCE
+
+###### **‣**
+
+CU_EXTERNAL_SEMAPHORE_HANDLE_TYPE_D3D11_FENCE
+
+###### **‣**
+
+CU_EXTERNAL_SEMAPHORE_HANDLE_TYPE_D3D11_KEYED_MUTEX
+
+###### **‣**
+
+CU_EXTERNAL_SEMAPHORE_HANDLE_TYPE_TIMELINE_SEMAPHORE_WIN32 Exactly
+
+###### **‣**
+
+one of 'handle' and 'name' must be non-NULL. If type is one of the following:
+CU_EXTERNAL_SEMAPHORE_HANDLE_TYPE_OPAQUE_WIN32_KMT
+
+###### **‣**
+
+CUDA Driver API TRM-06703-001 _vRelease Version  |  689
+
+
+Data Structures
+
+
+CU_EXTERNAL_SEMAPHORE_HANDLE_TYPE_D3D11_KEYED_MUTEX_KMT then
+
+###### **‣**
+
+'name' must be NULL.

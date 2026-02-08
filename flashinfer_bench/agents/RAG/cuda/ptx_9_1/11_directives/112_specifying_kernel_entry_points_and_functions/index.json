@@ -1,0 +1,45 @@
+{
+  "description": "Documentation for 11.2. Specifying Kernel Entry Points and Functions",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "The following directives specify kernel entry points and functions."
+    },
+    {
+      "id": "1121_kernel_and_function_directives_entry",
+      "title": "11.2.1. Kernel and Function Directives: .entry",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`.entry`",
+      "filename": "1121_kernel_and_function_directives_entry.md"
+    },
+    {
+      "id": "1122_kernel_and_function_directives_func",
+      "title": "11.2.2. Kernel and Function Directives: .func",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`.func`",
+      "filename": "1122_kernel_and_function_directives_func.md"
+    },
+    {
+      "id": "1123_kernel_and_function_directives_alias",
+      "title": "11.2.3. Kernel and Function Directives: .alias",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`.alias`",
+      "filename": "1123_kernel_and_function_directives_alias.md"
+    }
+  ]
+}

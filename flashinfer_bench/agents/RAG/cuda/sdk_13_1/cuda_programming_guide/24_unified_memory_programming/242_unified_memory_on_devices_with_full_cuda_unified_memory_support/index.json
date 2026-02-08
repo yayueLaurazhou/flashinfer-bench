@@ -1,0 +1,24 @@
+{
+  "description": "Documentation for 24.2. Unified memory on devices with full CUDA Unified Memory support",
+  "directories": [
+    {
+      "name": "2421_system_allocated_memory_in_depth_examples",
+      "description": "### 24.2.1. System-Allocated Memory: in-depth examples[\uf0c1](#system-allocated-memory-in-depth-examples \"Permalink to this headline\")  [Systems with full CUDA Unified Memory support](#um-requirements) al..."
+    },
+    {
+      "name": "2422_performance_tuning",
+      "description": "### 24.2.2. Performance Tuning[\uf0c1](#performance-tuning \"Permalink to this headline\")  In order to achieve good performance with Unified Memory, it is important to:  * Understand how paging works on you..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    }
+  ]
+}

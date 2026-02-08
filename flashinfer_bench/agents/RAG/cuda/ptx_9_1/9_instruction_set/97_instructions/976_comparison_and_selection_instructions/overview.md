@@ -1,0 +1,16 @@
+# 9.7.6. Comparison and Selection Instructions
+
+### 9.7.6. [Comparison and Selection Instructions](https://docs.nvidia.com/cuda/parallel-thread-execution/#comparison-and-selection-instructions)[](https://docs.nvidia.com/cuda/parallel-thread-execution/#comparison-and-selection-instructions "Permalink to this headline")
+
+The comparison select instructions are:
+
+* `set`
+* `setp`
+* `selp`
+* `slct`
+
+As with single-precision floating-point instructions, the `set`, `setp`, and `slct`
+instructions support subnormal numbers for `sm_20` and higher targets and flush single-precision
+subnormal inputs to sign-preserving zero for `sm_1x` targets. The optional `.ftz` modifier
+provides backward compatibility with `sm_1x` targets by flushing subnormal inputs and results to
+sign-preserving zero regardless of the target architecture.

@@ -1,0 +1,1645 @@
+{
+  "description": "Documentation for 6.37. Data types used by CUDA Runtime",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "struct_cudaaccesspolicywindow_struct_cudaarraymemoryreq_7c441cca",
+      "title": "struct cudaAccessPolicyWindow struct cudaArrayMemoryRequirements struct cudaArraySparseProperties struct cudaAsyncNotificationInfo_t struct cudaChannelFormatDesc struct cudaChildGraphNodeParams struct cudaConditionalNodeParams struct cudaDeviceProp struct cudaDevResource struct cudaDevSmResource struct cudaDevSmResourceGroupParams struct cudaDevWorkqueueConfigResource struct cudaDevWorkqueueResource struct cudaEglFrame struct cudaEglPlaneDesc struct cudaEventRecordNodeParams struct cudaEventWaitNodeParams",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA Runtime API vRelease Version  |  521   Modules...",
+      "filename": "struct_cudaaccesspolicywindow_struct_cudaarraymemoryreq_7c441cca.md"
+    },
+    {
+      "id": "struct_cudaextent_struct_cudaexternalmemorybufferdesc_s_24545ce0",
+      "title": "struct cudaExtent struct cudaExternalMemoryBufferDesc struct cudaExternalMemoryHandleDesc struct cudaExternalMemoryMipmappedArrayDesc struct cudaExternalSemaphoreHandleDesc struct cudaExternalSemaphoreSignalNodeParams struct cudaExternalSemaphoreSignalNodeParamsV2 struct cudaExternalSemaphoreSignalParams struct cudaExternalSemaphoreWaitNodeParams struct cudaExternalSemaphoreWaitNodeParamsV2 struct cudaExternalSemaphoreWaitParams struct cudaFuncAttributes struct cudaGraphEdgeData struct cudaGraphExecUpdateResultInfo struct cudaGraphInstantiateParams struct cudaGraphKernelNodeUpdate struct cudaGraphNodeParams",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA Runtime API vRelease Version  |  522   Modules...",
+      "filename": "struct_cudaextent_struct_cudaexternalmemorybufferdesc_s_24545ce0.md"
+    },
+    {
+      "id": "struct_cudahostnodeparams_struct_cudahostnodeparamsv2_s_d0e6fbc6",
+      "title": "struct cudaHostNodeParams struct cudaHostNodeParamsV2 struct cudaIpcEventHandle_t struct cudaIpcMemHandle_t struct cudaKernelNodeParams struct cudaKernelNodeParamsV2 struct cudaLaunchAttribute union cudaLaunchAttributeValue struct cudaLaunchConfig_t struct cudaLaunchMemSyncDomainMap struct cudaMemAccessDesc struct cudaMemAllocNodeParams struct cudaMemAllocNodeParamsV2 struct cudaMemcpy3DOperand struct cudaMemcpy3DParms struct cudaMemcpy3DPeerParms struct cudaMemcpyAttributes",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA Runtime API vRelease Version  |  523   Modules...",
+      "filename": "struct_cudahostnodeparams_struct_cudahostnodeparamsv2_s_d0e6fbc6.md"
+    },
+    {
+      "id": "struct_cudamemcpynodeparams_struct_cudamemfreenodeparam_ad8c1356",
+      "title": "struct cudaMemcpyNodeParams struct cudaMemFreeNodeParams struct cudaMemLocation struct cudaMemPoolProps struct cudaMemPoolPtrExportData struct cudaMemsetParams struct cudaMemsetParamsV2 struct cudaOffset3D struct cudaPitchedPtr struct cudaPointerAttributes struct cudaPos struct cudaResourceDesc struct cudaResourceViewDesc struct cudaTextureDesc struct CUuuid_st enum cudaAccessProperty",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Specifies performance hint with cudaAccessPolicyWindow for hitProp and missProp members.   CUDA Runtime API vRelease Version  |  524   Modules...",
+      "filename": "struct_cudamemcpynodeparams_struct_cudamemfreenodeparam_ad8c1356.md"
+    },
+    {
+      "id": "enum_cudaasyncnotificationtype",
+      "title": "enum cudaAsyncNotificationType",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Types of async notification that can occur...",
+      "filename": "enum_cudaasyncnotificationtype.md"
+    },
+    {
+      "id": "enum_cudaatomicoperation",
+      "title": "enum cudaAtomicOperation",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA-valid Atomic Operations...",
+      "filename": "enum_cudaatomicoperation.md"
+    },
+    {
+      "id": "enum_cudaatomicoperationcapability",
+      "title": "enum cudaAtomicOperationCapability",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA-valid Atomic Operation capabilities...",
+      "filename": "enum_cudaatomicoperationcapability.md"
+    },
+    {
+      "id": "enum_cudacgscope",
+      "title": "enum cudaCGScope",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA cooperative group scope...",
+      "filename": "enum_cudacgscope.md"
+    },
+    {
+      "id": "enum_cudachannelformatkind",
+      "title": "enum cudaChannelFormatKind",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Channel format kind...",
+      "filename": "enum_cudachannelformatkind.md"
+    },
+    {
+      "id": "enum_cudaclusterschedulingpolicy",
+      "title": "enum cudaClusterSchedulingPolicy",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Cluster scheduling policies. These may be passed to cudaFuncSetAttribute...",
+      "filename": "enum_cudaclusterschedulingpolicy.md"
+    },
+    {
+      "id": "enum_cudacomputemode",
+      "title": "enum cudaComputeMode",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA device compute modes...",
+      "filename": "enum_cudacomputemode.md"
+    },
+    {
+      "id": "enum_cudadeviceattr",
+      "title": "enum cudaDeviceAttr",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA device attributes...",
+      "filename": "enum_cudadeviceattr.md"
+    },
+    {
+      "id": "enum_cudadevicenumaconfig",
+      "title": "enum cudaDeviceNumaConfig",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA device NUMA config...",
+      "filename": "enum_cudadevicenumaconfig.md"
+    },
+    {
+      "id": "enum_cudadevicep2pattr",
+      "title": "enum cudaDeviceP2PAttr",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA device P2P attributes...",
+      "filename": "enum_cudadevicep2pattr.md"
+    },
+    {
+      "id": "enum_cudadevresourcetype",
+      "title": "enum cudaDevResourceType",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Type of resource...",
+      "filename": "enum_cudadevresourcetype.md"
+    },
+    {
+      "id": "enum_cudadevworkqueueconfigscope",
+      "title": "enum cudaDevWorkqueueConfigScope",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sharing scope for workqueues...",
+      "filename": "enum_cudadevworkqueueconfigscope.md"
+    },
+    {
+      "id": "enum_cudadriverentrypointqueryresult",
+      "title": "enum cudaDriverEntryPointQueryResult",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Enum for status from obtaining driver entry points, used with cudaApiGetDriverEntryPoint...",
+      "filename": "enum_cudadriverentrypointqueryresult.md"
+    },
+    {
+      "id": "enum_cudaeglcolorformat",
+      "title": "enum cudaEglColorFormat",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA EGL Color Format - The different planar and multiplanar formats currently supported for CUDA_EGL interops....",
+      "filename": "enum_cudaeglcolorformat.md"
+    },
+    {
+      "id": "enum_cudaeglframetype",
+      "title": "enum cudaEglFrameType",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA EglFrame type - array or pointer...",
+      "filename": "enum_cudaeglframetype.md"
+    },
+    {
+      "id": "enum_cudaeglresourcelocationflags",
+      "title": "enum cudaEglResourceLocationFlags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Resource location flags- sysmem or vidmem  For CUDA context on iGPU, since video and system memory are equivalent - these flags will not have an effect on the execution.  For CUDA context on dGPU, app...",
+      "filename": "enum_cudaeglresourcelocationflags.md"
+    },
+    {
+      "id": "enum_cudaerror",
+      "title": "enum cudaError",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA error types...",
+      "filename": "enum_cudaerror.md"
+    },
+    {
+      "id": "enum_cudaexternalmemoryhandletype",
+      "title": "enum cudaExternalMemoryHandleType",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "External memory handle types...",
+      "filename": "enum_cudaexternalmemoryhandletype.md"
+    },
+    {
+      "id": "enum_cudaexternalsemaphorehandletype",
+      "title": "enum cudaExternalSemaphoreHandleType",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "External semaphore handle types   CUDA Runtime API vRelease Version  |  554   Modules...",
+      "filename": "enum_cudaexternalsemaphorehandletype.md"
+    },
+    {
+      "id": "enum_cudaflushgpudirectrdmawritesoptions",
+      "title": "enum cudaFlushGPUDirectRDMAWritesOptions",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA GPUDirect RDMA flush writes APIs supported on the device...",
+      "filename": "enum_cudaflushgpudirectrdmawritesoptions.md"
+    },
+    {
+      "id": "enum_cudaflushgpudirectrdmawritesscope",
+      "title": "enum cudaFlushGPUDirectRDMAWritesScope",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA GPUDirect RDMA flush writes scopes...",
+      "filename": "enum_cudaflushgpudirectrdmawritesscope.md"
+    },
+    {
+      "id": "enum_cudaflushgpudirectrdmawritestarget",
+      "title": "enum cudaFlushGPUDirectRDMAWritesTarget",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA GPUDirect RDMA flush writes targets...",
+      "filename": "enum_cudaflushgpudirectrdmawritestarget.md"
+    },
+    {
+      "id": "enum_cudafuncattribute",
+      "title": "enum cudaFuncAttribute",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA function attributes that can be set using cudaFuncSetAttribute...",
+      "filename": "enum_cudafuncattribute.md"
+    },
+    {
+      "id": "enum_cudafunccache",
+      "title": "enum cudaFuncCache",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA function cache configurations...",
+      "filename": "enum_cudafunccache.md"
+    },
+    {
+      "id": "enum_cudagetdriverentrypointflags",
+      "title": "enum cudaGetDriverEntryPointFlags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Flags to specify search options to be used with cudaGetDriverEntryPoint For more details see cuGetProcAddress...",
+      "filename": "enum_cudagetdriverentrypointflags.md"
+    },
+    {
+      "id": "enum_cudagpudirectrdmawritesordering",
+      "title": "enum cudaGPUDirectRDMAWritesOrdering",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA GPUDirect RDMA flush writes ordering features of the device...",
+      "filename": "enum_cudagpudirectrdmawritesordering.md"
+    },
+    {
+      "id": "enum_cudagraphchildgraphnodeownership",
+      "title": "enum cudaGraphChildGraphNodeOwnership",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Child graph node ownership...",
+      "filename": "enum_cudagraphchildgraphnodeownership.md"
+    },
+    {
+      "id": "enum_cudagraphconditionalnodetype",
+      "title": "enum cudaGraphConditionalNodeType",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA conditional node types...",
+      "filename": "enum_cudagraphconditionalnodetype.md"
+    },
+    {
+      "id": "enum_cudagraphdebugdotflags",
+      "title": "enum cudaGraphDebugDotFlags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA Graph debug write options...",
+      "filename": "enum_cudagraphdebugdotflags.md"
+    },
+    {
+      "id": "enum_cudagraphdependencytype",
+      "title": "enum cudaGraphDependencyType",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Type annotations that can be applied to graph edges as part of cudaGraphEdgeData....",
+      "filename": "enum_cudagraphdependencytype.md"
+    },
+    {
+      "id": "enum_cudagraphexecupdateresult",
+      "title": "enum cudaGraphExecUpdateResult",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA Graph Update error types...",
+      "filename": "enum_cudagraphexecupdateresult.md"
+    },
+    {
+      "id": "enum_cudagraphicscubeface",
+      "title": "enum cudaGraphicsCubeFace",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA graphics interop array indices for cube maps...",
+      "filename": "enum_cudagraphicscubeface.md"
+    },
+    {
+      "id": "enum_cudagraphicsmapflags",
+      "title": "enum cudaGraphicsMapFlags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA graphics interop map flags...",
+      "filename": "enum_cudagraphicsmapflags.md"
+    },
+    {
+      "id": "enum_cudagraphicsregisterflags",
+      "title": "enum cudaGraphicsRegisterFlags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA graphics interop register flags...",
+      "filename": "enum_cudagraphicsregisterflags.md"
+    },
+    {
+      "id": "enum_cudagraphinstantiateflags",
+      "title": "enum cudaGraphInstantiateFlags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Flags for instantiating a graph...",
+      "filename": "enum_cudagraphinstantiateflags.md"
+    },
+    {
+      "id": "enum_cudagraphinstantiateresult",
+      "title": "enum cudaGraphInstantiateResult",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Graph instantiation results...",
+      "filename": "enum_cudagraphinstantiateresult.md"
+    },
+    {
+      "id": "enum_cudagraphkernelnodefield",
+      "title": "enum cudaGraphKernelNodeField",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Specifies the field to update when performing multiple node updates from the device...",
+      "filename": "enum_cudagraphkernelnodefield.md"
+    },
+    {
+      "id": "enum_cudagraphmemattributetype",
+      "title": "enum cudaGraphMemAttributeType",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Graph memory attributes...",
+      "filename": "enum_cudagraphmemattributetype.md"
+    },
+    {
+      "id": "enum_cudagraphnodetype",
+      "title": "enum cudaGraphNodeType",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA Graph node types...",
+      "filename": "enum_cudagraphnodetype.md"
+    },
+    {
+      "id": "enum_cudajit_cachemode",
+      "title": "enum cudaJit_CacheMode",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Caching modes for dlcm...",
+      "filename": "enum_cudajit_cachemode.md"
+    },
+    {
+      "id": "enum_cudajit_fallback",
+      "title": "enum cudaJit_Fallback",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Cubin matching fallback strategies...",
+      "filename": "enum_cudajit_fallback.md"
+    },
+    {
+      "id": "enum_cudajitoption",
+      "title": "enum cudaJitOption",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Online compiler and linker options...",
+      "filename": "enum_cudajitoption.md"
+    },
+    {
+      "id": "enum_cudalaunchattributeid",
+      "title": "enum cudaLaunchAttributeID",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Launch attributes enum; used as id field of cudaLaunchAttribute   CUDA Runtime API vRelease Version  |  565   Modules...",
+      "filename": "enum_cudalaunchattributeid.md"
+    },
+    {
+      "id": "enum_cudalaunchmemsyncdomain",
+      "title": "enum cudaLaunchMemSyncDomain",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Memory Synchronization Domain  A kernel can be launched in a specified memory synchronization domain that affects all memory operations issued by that kernel. A memory barrier issued in one domain wil...",
+      "filename": "enum_cudalaunchmemsyncdomain.md"
+    },
+    {
+      "id": "enum_cudalibraryoption",
+      "title": "enum cudaLibraryOption",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Library options to be specified with cudaLibraryLoadData() or cudaLibraryLoadFromFile()...",
+      "filename": "enum_cudalibraryoption.md"
+    },
+    {
+      "id": "enum_cudalimit",
+      "title": "enum cudaLimit",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA Limits...",
+      "filename": "enum_cudalimit.md"
+    },
+    {
+      "id": "enum_cudamemaccessflags",
+      "title": "enum cudaMemAccessFlags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Specifies the memory protection flags for mapping....",
+      "filename": "enum_cudamemaccessflags.md"
+    },
+    {
+      "id": "enum_cudamemallocationhandletype",
+      "title": "enum cudaMemAllocationHandleType",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Flags for specifying particular handle types...",
+      "filename": "enum_cudamemallocationhandletype.md"
+    },
+    {
+      "id": "enum_cudamemallocationtype",
+      "title": "enum cudaMemAllocationType",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Defines the allocation types available...",
+      "filename": "enum_cudamemallocationtype.md"
+    },
+    {
+      "id": "enum_cudamemcpy3doperandtype",
+      "title": "enum cudaMemcpy3DOperandType",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "These flags allow applications to convey the operand type for individual copies specified in cudaMemcpy3DBatchAsync....",
+      "filename": "enum_cudamemcpy3doperandtype.md"
+    },
+    {
+      "id": "enum_cudamemcpyflags",
+      "title": "enum cudaMemcpyFlags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Flags to specify for copies within a batch. For more details see cudaMemcpyBatchAsync....",
+      "filename": "enum_cudamemcpyflags.md"
+    },
+    {
+      "id": "enum_cudamemcpykind",
+      "title": "enum cudaMemcpyKind",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA memory copy types...",
+      "filename": "enum_cudamemcpykind.md"
+    },
+    {
+      "id": "enum_cudamemlocationtype",
+      "title": "enum cudaMemLocationType",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Specifies the type of location   CUDA Runtime API vRelease Version  |  571   Modules...",
+      "filename": "enum_cudamemlocationtype.md"
+    },
+    {
+      "id": "enum_cudamemoryadvise",
+      "title": "enum cudaMemoryAdvise",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA Memory Advise values...",
+      "filename": "enum_cudamemoryadvise.md"
+    },
+    {
+      "id": "enum_cudamemorytype",
+      "title": "enum cudaMemoryType",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA memory types...",
+      "filename": "enum_cudamemorytype.md"
+    },
+    {
+      "id": "enum_cudamempoolattr",
+      "title": "enum cudaMemPoolAttr",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA memory pool attributes...",
+      "filename": "enum_cudamempoolattr.md"
+    },
+    {
+      "id": "enum_cudamemrangeattribute",
+      "title": "enum cudaMemRangeAttribute",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA range attributes...",
+      "filename": "enum_cudamemrangeattribute.md"
+    },
+    {
+      "id": "enum_cudaresourcetype",
+      "title": "enum cudaResourceType",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA resource types...",
+      "filename": "enum_cudaresourcetype.md"
+    },
+    {
+      "id": "enum_cudaresourceviewformat",
+      "title": "enum cudaResourceViewFormat",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA texture resource view formats...",
+      "filename": "enum_cudaresourceviewformat.md"
+    },
+    {
+      "id": "enum_cudasharedcarveout",
+      "title": "enum cudaSharedCarveout",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Shared memory carveout configurations. These may be passed to cudaFuncSetAttribute...",
+      "filename": "enum_cudasharedcarveout.md"
+    },
+    {
+      "id": "enum_cudasharedmemconfig",
+      "title": "enum cudaSharedMemConfig",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Deprecated  CUDA shared memory configuration...",
+      "filename": "enum_cudasharedmemconfig.md"
+    },
+    {
+      "id": "enum_cudastreamcapturemode",
+      "title": "enum cudaStreamCaptureMode",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Possible modes for stream capture thread interactions. For more details see cudaStreamBeginCapture and cudaThreadExchangeStreamCaptureMode...",
+      "filename": "enum_cudastreamcapturemode.md"
+    },
+    {
+      "id": "enum_cudastreamcapturestatus",
+      "title": "enum cudaStreamCaptureStatus",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Possible stream capture statuses returned by cudaStreamIsCapturing...",
+      "filename": "enum_cudastreamcapturestatus.md"
+    },
+    {
+      "id": "enum_cudastreamupdatecapturedependenciesflags",
+      "title": "enum cudaStreamUpdateCaptureDependenciesFlags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Flags for cudaStreamUpdateCaptureDependencies...",
+      "filename": "enum_cudastreamupdatecapturedependenciesflags.md"
+    },
+    {
+      "id": "enum_cudasurfaceboundarymode",
+      "title": "enum cudaSurfaceBoundaryMode",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA Surface boundary modes...",
+      "filename": "enum_cudasurfaceboundarymode.md"
+    },
+    {
+      "id": "enum_cudasurfaceformatmode",
+      "title": "enum cudaSurfaceFormatMode",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA Surface format modes...",
+      "filename": "enum_cudasurfaceformatmode.md"
+    },
+    {
+      "id": "enum_cudatextureaddressmode",
+      "title": "enum cudaTextureAddressMode",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA texture address modes...",
+      "filename": "enum_cudatextureaddressmode.md"
+    },
+    {
+      "id": "enum_cudatexturefiltermode",
+      "title": "enum cudaTextureFilterMode",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA texture filter modes...",
+      "filename": "enum_cudatexturefiltermode.md"
+    },
+    {
+      "id": "enum_cudatexturereadmode",
+      "title": "enum cudaTextureReadMode",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA texture read modes...",
+      "filename": "enum_cudatexturereadmode.md"
+    },
+    {
+      "id": "enum_cudauserobjectflags",
+      "title": "enum cudaUserObjectFlags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Flags for user objects for graphs...",
+      "filename": "enum_cudauserobjectflags.md"
+    },
+    {
+      "id": "enum_cudauserobjectretainflags",
+      "title": "enum cudaUserObjectRetainFlags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Flags for retaining user object references for graphs...",
+      "filename": "enum_cudauserobjectretainflags.md"
+    },
+    {
+      "id": "typedef_cudaarray_cudaarray_const_t",
+      "title": "typedef cudaArray *cudaArray_const_t",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA array (as source copy argument)...",
+      "filename": "typedef_cudaarray_cudaarray_const_t.md"
+    },
+    {
+      "id": "typedef_cudaarray_cudaarray_t",
+      "title": "typedef cudaArray *cudaArray_t",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA array...",
+      "filename": "typedef_cudaarray_cudaarray_t.md"
+    },
+    {
+      "id": "typedef_cudaasynccallbackentry_cudaasynccallbackhandle_t",
+      "title": "typedef cudaAsyncCallbackEntry *cudaAsyncCallbackHandle_t",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA async callback handle...",
+      "filename": "typedef_cudaasynccallbackentry_cudaasynccallbackhandle_t.md"
+    },
+    {
+      "id": "typedef_struct_cudevresourcedesc_st_cudadevresourcedesc_t",
+      "title": "typedef struct CUdevResourceDesc_st *cudaDevResourceDesc_t",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "An opaque descriptor handle. The descriptor encapsulates multiple created and configured resources. Created via cudaDeviceResourceGenerateDesc...",
+      "filename": "typedef_struct_cudevresourcedesc_st_cudadevresourcedesc_t.md"
+    },
+    {
+      "id": "typedef_struct_cueglstreamconnection_st_cudaeglstreamconnection",
+      "title": "typedef struct CUeglStreamConnection_st *cudaEglStreamConnection",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA EGLSream Connection   CUDA Runtime API vRelease Version  |  579   Modules...",
+      "filename": "typedef_struct_cueglstreamconnection_st_cudaeglstreamconnection.md"
+    },
+    {
+      "id": "typedef_cudaerror_t",
+      "title": "typedef cudaError_t",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA Error types...",
+      "filename": "typedef_cudaerror_t.md"
+    },
+    {
+      "id": "typedef_struct_cuevent_st_cudaevent_t",
+      "title": "typedef struct CUevent_st *cudaEvent_t",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA event types...",
+      "filename": "typedef_struct_cuevent_st_cudaevent_t.md"
+    },
+    {
+      "id": "typedef_struct_cudaexecutioncontext_st_cudaexecutioncontext_t",
+      "title": "typedef struct cudaExecutionContext_st *cudaExecutionContext_t",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "An opaque handle to a CUDA execution context. It represents an execution context created via CUDA Runtime APIs such as cudaGreenCtxCreate....",
+      "filename": "typedef_struct_cudaexecutioncontext_st_cudaexecutioncontext_t.md"
+    },
+    {
+      "id": "typedef_struct_cuexternalmemory_st_cudaexternalmemory_t",
+      "title": "typedef struct CUexternalMemory_st *cudaExternalMemory_t",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA external memory...",
+      "filename": "typedef_struct_cuexternalmemory_st_cudaexternalmemory_t.md"
+    },
+    {
+      "id": "typedef_struct_cuexternalsemaphore_st_cudaexternalsemaphore_t",
+      "title": "typedef struct CUexternalSemaphore_st *cudaExternalSemaphore_t",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA external semaphore...",
+      "filename": "typedef_struct_cuexternalsemaphore_st_cudaexternalsemaphore_t.md"
+    },
+    {
+      "id": "typedef_struct_cufunc_st_cudafunction_t",
+      "title": "typedef struct CUfunc_st *cudaFunction_t",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA function...",
+      "filename": "typedef_struct_cufunc_st_cudafunction_t.md"
+    },
+    {
+      "id": "typedef_struct_cugraph_st_cudagraph_t",
+      "title": "typedef struct CUgraph_st *cudaGraph_t",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA graph...",
+      "filename": "typedef_struct_cugraph_st_cudagraph_t.md"
+    },
+    {
+      "id": "typedef_unsigned_long_long_cudagraphconditionalhandle",
+      "title": "typedef unsigned long long cudaGraphConditionalHandle",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA handle for conditional graph nodes...",
+      "filename": "typedef_unsigned_long_long_cudagraphconditionalhandle.md"
+    },
+    {
+      "id": "typedef_struct_cugraphdeviceupdatablenode_st_cudagraphd_ef9c8f71",
+      "title": "typedef struct CUgraphDeviceUpdatableNode_st *cudaGraphDeviceNode_t",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA device node handle for device-side node update   CUDA Runtime API vRelease Version  |  580   Modules...",
+      "filename": "typedef_struct_cugraphdeviceupdatablenode_st_cudagraphd_ef9c8f71.md"
+    },
+    {
+      "id": "typedef_struct_cugraphexec_st_cudagraphexec_t",
+      "title": "typedef struct CUgraphExec_st *cudaGraphExec_t",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA executable (launchable) graph...",
+      "filename": "typedef_struct_cugraphexec_st_cudagraphexec_t.md"
+    },
+    {
+      "id": "typedef_cudagraphicsresource_cudagraphicsresource_t",
+      "title": "typedef cudaGraphicsResource *cudaGraphicsResource_t",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA graphics resource types...",
+      "filename": "typedef_cudagraphicsresource_cudagraphicsresource_t.md"
+    },
+    {
+      "id": "typedef_struct_cugraphnode_st_cudagraphnode_t",
+      "title": "typedef struct CUgraphNode_st *cudaGraphNode_t",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA graph node....",
+      "filename": "typedef_struct_cugraphnode_st_cudagraphnode_t.md"
+    },
+    {
+      "id": "typedef_void_cudart_cb_cudahostfn_t_void_userdata",
+      "title": "typedef void (CUDART_CB *cudaHostFn_t) (void* userData)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA host function...",
+      "filename": "typedef_void_cudart_cb_cudahostfn_t_void_userdata.md"
+    },
+    {
+      "id": "typedef_struct_cukern_st_cudakernel_t",
+      "title": "typedef struct CUkern_st *cudaKernel_t",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA kernel...",
+      "filename": "typedef_struct_cukern_st_cudakernel_t.md"
+    },
+    {
+      "id": "typedef_struct_culib_st_cudalibrary_t",
+      "title": "typedef struct CUlib_st *cudaLibrary_t",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA library...",
+      "filename": "typedef_struct_culib_st_cudalibrary_t.md"
+    },
+    {
+      "id": "typedef_struct_cumempoolhandle_st_cudamempool_t",
+      "title": "typedef struct CUmemPoolHandle_st *cudaMemPool_t",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA memory pool...",
+      "filename": "typedef_struct_cumempoolhandle_st_cudamempool_t.md"
+    },
+    {
+      "id": "typedef_cudamipmappedarray_cudamipmappedarray_const_t",
+      "title": "typedef cudaMipmappedArray *cudaMipmappedArray_const_t",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA mipmapped array (as source argument)...",
+      "filename": "typedef_cudamipmappedarray_cudamipmappedarray_const_t.md"
+    },
+    {
+      "id": "typedef_cudamipmappedarray_cudamipmappedarray_t",
+      "title": "typedef cudaMipmappedArray *cudaMipmappedArray_t",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA mipmapped array...",
+      "filename": "typedef_cudamipmappedarray_cudamipmappedarray_t.md"
+    },
+    {
+      "id": "typedef_struct_custream_st_cudastream_t",
+      "title": "typedef struct CUstream_st *cudaStream_t",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA stream   CUDA Runtime API vRelease Version  |  581   Modules...",
+      "filename": "typedef_struct_custream_st_cudastream_t.md"
+    },
+    {
+      "id": "typedef_unsigned_long_long_cudasurfaceobject_t",
+      "title": "typedef unsigned long long cudaSurfaceObject_t",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "An opaque value that represents a CUDA Surface object...",
+      "filename": "typedef_unsigned_long_long_cudasurfaceobject_t.md"
+    },
+    {
+      "id": "typedef_unsigned_long_long_cudatextureobject_t",
+      "title": "typedef unsigned long long cudaTextureObject_t",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "An opaque value that represents a CUDA texture object...",
+      "filename": "typedef_unsigned_long_long_cudatextureobject_t.md"
+    },
+    {
+      "id": "typedef_struct_cuuserobject_st_cudauserobject_t",
+      "title": "typedef struct CUuserObject_st *cudaUserObject_t",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA user object for graphs...",
+      "filename": "typedef_struct_cuuserobject_st_cudauserobject_t.md"
+    },
+    {
+      "id": "define_cuda_egl_max_planes_3",
+      "title": "#define CUDA_EGL_MAX_PLANES 3",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Maximum number of planes per frame...",
+      "filename": "define_cuda_egl_max_planes_3.md"
+    },
+    {
+      "id": "define_cuda_ipc_handle_size_64",
+      "title": "#define CUDA_IPC_HANDLE_SIZE 64",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA IPC Handle Size...",
+      "filename": "define_cuda_ipc_handle_size_64.md"
+    },
+    {
+      "id": "define_cudaarraycolorattachment_0x20",
+      "title": "#define cudaArrayColorAttachment 0x20",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Must be set in cudaExternalMemoryGetMappedMipmappedArray if the mipmapped array is used as a color target in a graphics API...",
+      "filename": "define_cudaarraycolorattachment_0x20.md"
+    },
+    {
+      "id": "define_cudaarraycubemap_0x04",
+      "title": "#define cudaArrayCubemap 0x04",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Must be set in cudaMalloc3DArray to create a cubemap CUDA array...",
+      "filename": "define_cudaarraycubemap_0x04.md"
+    },
+    {
+      "id": "define_cudaarraydefault_0x00",
+      "title": "#define cudaArrayDefault 0x00",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Default CUDA array allocation flag...",
+      "filename": "define_cudaarraydefault_0x00.md"
+    },
+    {
+      "id": "define_cudaarraydeferredmapping_0x80",
+      "title": "#define cudaArrayDeferredMapping 0x80",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Must be set in cudaMallocArray, cudaMalloc3DArray or cudaMallocMipmappedArray in order to create a deferred mapping CUDA array or CUDA mipmapped array...",
+      "filename": "define_cudaarraydeferredmapping_0x80.md"
+    },
+    {
+      "id": "define_cudaarraylayered_0x01",
+      "title": "#define cudaArrayLayered 0x01",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Must be set in cudaMalloc3DArray to create a layered CUDA array   CUDA Runtime API vRelease Version  |  582   Modules...",
+      "filename": "define_cudaarraylayered_0x01.md"
+    },
+    {
+      "id": "define_cudaarraysparse_0x40",
+      "title": "#define cudaArraySparse 0x40",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Must be set in cudaMallocArray, cudaMalloc3DArray or cudaMallocMipmappedArray in order to create a sparse CUDA array or CUDA mipmapped array...",
+      "filename": "define_cudaarraysparse_0x40.md"
+    },
+    {
+      "id": "define_cudaarraysparsepropertiessinglemiptail_0x1",
+      "title": "#define cudaArraySparsePropertiesSingleMipTail 0x1",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Indicates that the layered sparse CUDA array or CUDA mipmapped array has a single mip tail region for all layers...",
+      "filename": "define_cudaarraysparsepropertiessinglemiptail_0x1.md"
+    },
+    {
+      "id": "define_cudaarraysurfaceloadstore_0x02",
+      "title": "#define cudaArraySurfaceLoadStore 0x02",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Must be set in cudaMallocArray or cudaMalloc3DArray in order to bind surfaces to the CUDA array...",
+      "filename": "define_cudaarraysurfaceloadstore_0x02.md"
+    },
+    {
+      "id": "define_cudaarraytexturegather_0x08",
+      "title": "#define cudaArrayTextureGather 0x08",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Must be set in cudaMallocArray or cudaMalloc3DArray in order to perform texture gather operations on the CUDA array...",
+      "filename": "define_cudaarraytexturegather_0x08.md"
+    },
+    {
+      "id": "define_cudacpudeviceid_int_1",
+      "title": "#define cudaCpuDeviceId ((int)-1)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Device id that represents the CPU...",
+      "filename": "define_cudacpudeviceid_int_1.md"
+    },
+    {
+      "id": "define_cudadeviceblockingsync_0x04",
+      "title": "#define cudaDeviceBlockingSync 0x04",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Deprecated This flag was deprecated as of CUDA 4.0 and replaced with cudaDeviceScheduleBlockingSync.  Device flag - Use blocking synchronization...",
+      "filename": "define_cudadeviceblockingsync_0x04.md"
+    },
+    {
+      "id": "define_cudadevicelmemresizetomax_0x10",
+      "title": "#define cudaDeviceLmemResizeToMax 0x10",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Device flag - Keep local memory allocation after launch...",
+      "filename": "define_cudadevicelmemresizetomax_0x10.md"
+    },
+    {
+      "id": "define_cudadevicemaphost_0x08",
+      "title": "#define cudaDeviceMapHost 0x08",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Device flag - Support mapped pinned allocations...",
+      "filename": "define_cudadevicemaphost_0x08.md"
+    },
+    {
+      "id": "define_cudadevicemask_0xff",
+      "title": "#define cudaDeviceMask 0xff",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Device flags mask   CUDA Runtime API vRelease Version  |  583   Modules...",
+      "filename": "define_cudadevicemask_0xff.md"
+    },
+    {
+      "id": "define_cudadevicescheduleauto_0x00",
+      "title": "#define cudaDeviceScheduleAuto 0x00",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Device flag - Automatic scheduling...",
+      "filename": "define_cudadevicescheduleauto_0x00.md"
+    },
+    {
+      "id": "define_cudadevicescheduleblockingsync_0x04",
+      "title": "#define cudaDeviceScheduleBlockingSync 0x04",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Device flag - Use blocking synchronization...",
+      "filename": "define_cudadevicescheduleblockingsync_0x04.md"
+    },
+    {
+      "id": "define_cudadeviceschedulemask_0x07",
+      "title": "#define cudaDeviceScheduleMask 0x07",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Device schedule flags mask...",
+      "filename": "define_cudadeviceschedulemask_0x07.md"
+    },
+    {
+      "id": "define_cudadeviceschedulespin_0x01",
+      "title": "#define cudaDeviceScheduleSpin 0x01",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Device flag - Spin default scheduling...",
+      "filename": "define_cudadeviceschedulespin_0x01.md"
+    },
+    {
+      "id": "define_cudadevicescheduleyield_0x02",
+      "title": "#define cudaDeviceScheduleYield 0x02",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Device flag - Yield default scheduling...",
+      "filename": "define_cudadevicescheduleyield_0x02.md"
+    },
+    {
+      "id": "define_cudadevicesyncmemops_0x80",
+      "title": "#define cudaDeviceSyncMemops 0x80",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Device flag - Ensure synchronous memory operations on this context will synchronize...",
+      "filename": "define_cudadevicesyncmemops_0x80.md"
+    },
+    {
+      "id": "define_cudaeventblockingsync_0x01",
+      "title": "#define cudaEventBlockingSync 0x01",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Event uses blocking synchronization...",
+      "filename": "define_cudaeventblockingsync_0x01.md"
+    },
+    {
+      "id": "define_cudaeventdefault_0x00",
+      "title": "#define cudaEventDefault 0x00",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Default event flag...",
+      "filename": "define_cudaeventdefault_0x00.md"
+    },
+    {
+      "id": "define_cudaeventdisabletiming_0x02",
+      "title": "#define cudaEventDisableTiming 0x02",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Event will not record timing data...",
+      "filename": "define_cudaeventdisabletiming_0x02.md"
+    },
+    {
+      "id": "define_cudaeventinterprocess_0x04",
+      "title": "#define cudaEventInterprocess 0x04",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Event is suitable for interprocess use. cudaEventDisableTiming must be set...",
+      "filename": "define_cudaeventinterprocess_0x04.md"
+    },
+    {
+      "id": "define_cudaeventrecorddefault_0x00",
+      "title": "#define cudaEventRecordDefault 0x00",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Default event record flag   CUDA Runtime API vRelease Version  |  584   Modules...",
+      "filename": "define_cudaeventrecorddefault_0x00.md"
+    },
+    {
+      "id": "define_cudaeventrecordexternal_0x01",
+      "title": "#define cudaEventRecordExternal 0x01",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Event is captured in the graph as an external event node when performing stream capture...",
+      "filename": "define_cudaeventrecordexternal_0x01.md"
+    },
+    {
+      "id": "define_cudaeventwaitdefault_0x00",
+      "title": "#define cudaEventWaitDefault 0x00",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Default event wait flag...",
+      "filename": "define_cudaeventwaitdefault_0x00.md"
+    },
+    {
+      "id": "define_cudaeventwaitexternal_0x01",
+      "title": "#define cudaEventWaitExternal 0x01",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Event is captured in the graph as an external event node when performing stream capture...",
+      "filename": "define_cudaeventwaitexternal_0x01.md"
+    },
+    {
+      "id": "define_cudaexternalmemorydedicated_0x1",
+      "title": "#define cudaExternalMemoryDedicated 0x1",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Indicates that the external memory object is a dedicated resource...",
+      "filename": "define_cudaexternalmemorydedicated_0x1.md"
+    },
+    {
+      "id": "define_cudaexternalsemaphoresignalskipnvscibufmemsync_0x01",
+      "title": "#define cudaExternalSemaphoreSignalSkipNvSciBufMemSync 0x01",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "When the /p flags parameter of cudaExternalSemaphoreSignalParams contains this flag, it indicates that signaling an external semaphore object should skip performing appropriate memory synchronization ...",
+      "filename": "define_cudaexternalsemaphoresignalskipnvscibufmemsync_0x01.md"
+    },
+    {
+      "id": "define_cudaexternalsemaphorewaitskipnvscibufmemsync_0x02",
+      "title": "#define cudaExternalSemaphoreWaitSkipNvSciBufMemSync 0x02",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "When the /p flags parameter of cudaExternalSemaphoreWaitParams contains this flag, it indicates that waiting an external semaphore object should skip performing appropriate memory synchronization oper...",
+      "filename": "define_cudaexternalsemaphorewaitskipnvscibufmemsync_0x02.md"
+    },
+    {
+      "id": "define_cudagraphkernelnodeportdefault_0",
+      "title": "#define cudaGraphKernelNodePortDefault 0",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "This port activates when the kernel has finished executing.   CUDA Runtime API vRelease Version  |  585   Modules...",
+      "filename": "define_cudagraphkernelnodeportdefault_0.md"
+    },
+    {
+      "id": "define_cudagraphkernelnodeportlaunchcompletion_2",
+      "title": "#define cudaGraphKernelNodePortLaunchCompletion 2",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "This port activates when all blocks of the kernel have begun execution. See also cudaLaunchAttributeLaunchCompletionEvent....",
+      "filename": "define_cudagraphkernelnodeportlaunchcompletion_2.md"
+    },
+    {
+      "id": "define_cudagraphkernelnodeportprogrammatic_1",
+      "title": "#define cudaGraphKernelNodePortProgrammatic 1",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "This port activates when all blocks of the kernel have performed cudaTriggerProgrammaticLaunchCompletion() or have terminated. It must be used with edge type cudaGraphDependencyTypeProgrammatic. See a...",
+      "filename": "define_cudagraphkernelnodeportprogrammatic_1.md"
+    },
+    {
+      "id": "define_cudahostallocdefault_0x00",
+      "title": "#define cudaHostAllocDefault 0x00",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Default page-locked allocation flag...",
+      "filename": "define_cudahostallocdefault_0x00.md"
+    },
+    {
+      "id": "define_cudahostallocmapped_0x02",
+      "title": "#define cudaHostAllocMapped 0x02",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Map allocation into device space...",
+      "filename": "define_cudahostallocmapped_0x02.md"
+    },
+    {
+      "id": "define_cudahostallocportable_0x01",
+      "title": "#define cudaHostAllocPortable 0x01",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Pinned memory accessible by all CUDA contexts...",
+      "filename": "define_cudahostallocportable_0x01.md"
+    },
+    {
+      "id": "define_cudahostallocwritecombined_0x04",
+      "title": "#define cudaHostAllocWriteCombined 0x04",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Write-combined memory...",
+      "filename": "define_cudahostallocwritecombined_0x04.md"
+    },
+    {
+      "id": "define_cudahostregisterdefault_0x00",
+      "title": "#define cudaHostRegisterDefault 0x00",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Default host memory registration flag...",
+      "filename": "define_cudahostregisterdefault_0x00.md"
+    },
+    {
+      "id": "define_cudahostregisteriomemory_0x04",
+      "title": "#define cudaHostRegisterIoMemory 0x04",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Memory-mapped I/O space...",
+      "filename": "define_cudahostregisteriomemory_0x04.md"
+    },
+    {
+      "id": "define_cudahostregistermapped_0x02",
+      "title": "#define cudaHostRegisterMapped 0x02",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Map registered memory into device space...",
+      "filename": "define_cudahostregistermapped_0x02.md"
+    },
+    {
+      "id": "define_cudahostregisterportable_0x01",
+      "title": "#define cudaHostRegisterPortable 0x01",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Pinned memory accessible by all CUDA contexts   CUDA Runtime API vRelease Version  |  586   Modules...",
+      "filename": "define_cudahostregisterportable_0x01.md"
+    },
+    {
+      "id": "define_cudahostregisterreadonly_0x08",
+      "title": "#define cudaHostRegisterReadOnly 0x08",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Memory-mapped read-only...",
+      "filename": "define_cudahostregisterreadonly_0x08.md"
+    },
+    {
+      "id": "define_cudainitdeviceflagsarevalid_0x01",
+      "title": "#define cudaInitDeviceFlagsAreValid 0x01",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Tell the CUDA runtime that DeviceFlags is being set in cudaInitDevice call...",
+      "filename": "define_cudainitdeviceflagsarevalid_0x01.md"
+    },
+    {
+      "id": "define_cudainvaliddeviceid_int_2",
+      "title": "#define cudaInvalidDeviceId ((int)-2)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Device id that represents an invalid device...",
+      "filename": "define_cudainvaliddeviceid_int_2.md"
+    },
+    {
+      "id": "define_cudaipcmemlazyenablepeeraccess_0x01",
+      "title": "#define cudaIpcMemLazyEnablePeerAccess 0x01",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Automatically enable peer access between remote devices as needed...",
+      "filename": "define_cudaipcmemlazyenablepeeraccess_0x01.md"
+    },
+    {
+      "id": "define_cudamemattachglobal_0x01",
+      "title": "#define cudaMemAttachGlobal 0x01",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Memory can be accessed by any stream on any device...",
+      "filename": "define_cudamemattachglobal_0x01.md"
+    },
+    {
+      "id": "define_cudamemattachhost_0x02",
+      "title": "#define cudaMemAttachHost 0x02",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Memory cannot be accessed by any stream on any device...",
+      "filename": "define_cudamemattachhost_0x02.md"
+    },
+    {
+      "id": "define_cudamemattachsingle_0x04",
+      "title": "#define cudaMemAttachSingle 0x04",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Memory can only be accessed by a single stream on the associated device...",
+      "filename": "define_cudamemattachsingle_0x04.md"
+    },
+    {
+      "id": "define_cudamempoolcreateusagehwdecompress_0x2",
+      "title": "#define cudaMemPoolCreateUsageHwDecompress 0x2",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "This flag, if set, indicates that the memory will be used as a buffer for hardware accelerated decompression....",
+      "filename": "define_cudamempoolcreateusagehwdecompress_0x2.md"
+    },
+    {
+      "id": "define_cudanvscisyncattrsignal_0x1",
+      "title": "#define cudaNvSciSyncAttrSignal 0x1",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "When /p flags of cudaDeviceGetNvSciSyncAttributes is set to this, it indicates that application need signaler specific NvSciSyncAttr to be filled by cudaDeviceGetNvSciSyncAttributes....",
+      "filename": "define_cudanvscisyncattrsignal_0x1.md"
+    },
+    {
+      "id": "define_cudanvscisyncattrwait_0x2",
+      "title": "#define cudaNvSciSyncAttrWait 0x2",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "When /p flags of cudaDeviceGetNvSciSyncAttributes is set to this, it indicates that application need waiter specific NvSciSyncAttr to be filled by cudaDeviceGetNvSciSyncAttributes.   CUDA Runtime API ...",
+      "filename": "define_cudanvscisyncattrwait_0x2.md"
+    },
+    {
+      "id": "define_cudaoccupancydefault_0x00",
+      "title": "#define cudaOccupancyDefault 0x00",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Default behavior...",
+      "filename": "define_cudaoccupancydefault_0x00.md"
+    },
+    {
+      "id": "define_cudaoccupancydisablecachingoverride_0x01",
+      "title": "#define cudaOccupancyDisableCachingOverride 0x01",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Assume global caching is enabled and cannot be automatically turned off...",
+      "filename": "define_cudaoccupancydisablecachingoverride_0x01.md"
+    },
+    {
+      "id": "define_cudapeeraccessdefault_0x00",
+      "title": "#define cudaPeerAccessDefault 0x00",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Default peer addressing enable flag...",
+      "filename": "define_cudapeeraccessdefault_0x00.md"
+    },
+    {
+      "id": "define_cudastreamdefault_0x00",
+      "title": "#define cudaStreamDefault 0x00",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Default stream flag...",
+      "filename": "define_cudastreamdefault_0x00.md"
+    },
+    {
+      "id": "define_cudastreamlegacy_cudastream_t0x1",
+      "title": "#define cudaStreamLegacy ((cudaStream_t)0x1)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Legacy stream handle  Stream handle that can be passed as a cudaStream_t to use an implicit stream with legacy synchronization behavior.  See details of the synchronization behavior....",
+      "filename": "define_cudastreamlegacy_cudastream_t0x1.md"
+    },
+    {
+      "id": "define_cudastreamnonblocking_0x01",
+      "title": "#define cudaStreamNonBlocking 0x01",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Stream does not synchronize with stream 0 (the NULL stream)...",
+      "filename": "define_cudastreamnonblocking_0x01.md"
+    },
+    {
+      "id": "define_cudastreamperthread_cudastream_t0x2",
+      "title": "#define cudaStreamPerThread ((cudaStream_t)0x2)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Per-thread stream handle  Stream handle that can be passed as a cudaStream_t to use an implicit stream with per-thread synchronization behavior.  See details of the synchronization behavior.   CUDA Ru...",
+      "filename": "define_cudastreamperthread_cudastream_t0x2.md"
+    }
+  ]
+}

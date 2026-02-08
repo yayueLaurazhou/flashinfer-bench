@@ -1,0 +1,72 @@
+{
+  "description": "Documentation for 16. Graph Memory Nodes",
+  "directories": [
+    {
+      "name": "163_api_fundamentals",
+      "description": "## 16.3. API Fundamentals[\uf0c1](#api-fundamentals \"Permalink to this headline\")  Graph memory nodes are graph nodes representing either memory allocation or free actions. As a shorthand, nodes that alloc..."
+    },
+    {
+      "name": "164_optimized_memory_reuse",
+      "description": "## 16.4. Optimized Memory Reuse[\uf0c1](#optimized-memory-reuse \"Permalink to this headline\")  CUDA reuses memory in two ways:  * Virtual and physical memory reuse within a graph is based on virtual addres..."
+    },
+    {
+      "name": "165_performance_considerations",
+      "description": "## 16.5. Performance Considerations[\uf0c1](#performance-considerations \"Permalink to this headline\")  When multiple graphs are launched into the same stream, CUDA attempts to allocate the same physical me..."
+    },
+    {
+      "name": "167_peer_access",
+      "description": "## 16.7. Peer Access[\uf0c1](#peer-access \"Permalink to this headline\")  Graph allocations can be configured for access from multiple GPUs, in which case CUDA will map the allocations onto the peer GPUs as..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "161_introduction",
+      "title": "16.1. Introduction",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 16.1. Introduction[\uf0c1](#graph-memory-nodes-intro \"Permalink to this headline\")  Graph memory nodes allow graphs to create and own memory allocations. Graph memory nodes have GPU ordered lifetime sem...",
+      "filename": "161_introduction.md"
+    },
+    {
+      "id": "162_support_and_compatibility",
+      "title": "16.2. Support and Compatibility",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 16.2. Support and Compatibility[\uf0c1](#support-and-compatibility \"Permalink to this headline\")  Graph memory nodes require an 11.4 capable CUDA driver and support for the stream ordered allocator on t...",
+      "filename": "162_support_and_compatibility.md"
+    },
+    {
+      "id": "166_physical_memory_footprint",
+      "title": "16.6. Physical Memory Footprint",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 16.6. Physical Memory Footprint[\uf0c1](#physical-memory-footprint \"Permalink to this headline\")  The pool-management behavior of asynchronous allocation means that destroying a graph which contains mem...",
+      "filename": "166_physical_memory_footprint.md"
+    },
+    {
+      "id": "168_memory_nodes_in_child_graphs",
+      "title": "16.8. Memory Nodes in Child Graphs",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 16.8. Memory Nodes in Child Graphs[\uf0c1](#memory-nodes-in-child-graphs \"Permalink to this headline\")  CUDA 12.9 introduces the ability to move child graph ownership to a parent graph. Child graphs whi...",
+      "filename": "168_memory_nodes_in_child_graphs.md"
+    }
+  ]
+}

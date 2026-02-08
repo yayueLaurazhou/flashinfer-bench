@@ -1,0 +1,45 @@
+{
+  "description": "Documentation for 6.2.8.6. Programmatic Dependent Launch and Synchronization",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "62861_background",
+      "title": "6.2.8.6.1. Background",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 6.2.8.6.1. Background[\uf0c1](#background \"Permalink to this headline\")  A CUDA application utilizes the GPU by launching and executing multiple kernels on it. A typical GPU activity timeline is show...",
+      "filename": "62861_background.md"
+    },
+    {
+      "id": "62862_api_description",
+      "title": "6.2.8.6.2. API Description",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 6.2.8.6.2. API Description[\uf0c1](#api-description \"Permalink to this headline\")  In Programmatic Dependent Launch, a primary and a secondary kernel are launched in the same CUDA stream. The primary...",
+      "filename": "62862_api_description.md"
+    },
+    {
+      "id": "62863_use_in_cuda_graphs",
+      "title": "6.2.8.6.3. Use in CUDA Graphs",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 6.2.8.6.3. Use in CUDA Graphs[\uf0c1](#use-in-cuda-graphs \"Permalink to this headline\")  Programmatic Dependent Launch can be used in [CUDA Graphs](#cuda-graphs) via [stream capture](#creating-a-grap...",
+      "filename": "62863_use_in_cuda_graphs.md"
+    }
+  ]
+}

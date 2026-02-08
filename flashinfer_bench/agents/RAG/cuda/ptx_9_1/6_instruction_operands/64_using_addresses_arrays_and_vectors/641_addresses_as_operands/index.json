@@ -1,0 +1,25 @@
+{
+  "description": "Documentation for 6.4.1. Addresses as Operands",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "All the memory instructions take an address operand that specifies the memory location being accessed. This addressable operand is one of:"
+    },
+    {
+      "id": "6411_generic_addressing",
+      "title": "6.4.1.1. Generic Addressing",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "If a memory instruction does not specify a state space, the operation is performed using generic addressing. The state spaces `.const`, [Kernel Function Parameters](https://docs.nvidia.com/cuda/parallel-thread-execution/#kernel-function-parameters) (`.param`), `.local` and `.shared` are modeled a...",
+      "filename": "6411_generic_addressing.md"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "description": "Documentation for 9.7.2. Extended-Precision Integer Arithmetic Instructions",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Instructions `add.cc`, `addc`, `sub.cc`, `subc`, `mad.cc` and `madc` reference an implicitly specified condition code register (`CC`) having a single carry flag bit (`CC.CF`) holding carry-in/carry-out or borrow-in/borrow-out. These instructions support extended-precision integer addition, subtra..."
+    },
+    {
+      "id": "9721_extended_precision_arithmetic_instructions_addcc",
+      "title": "9.7.2.1. Extended-Precision Arithmetic Instructions: add.cc",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`add.cc`",
+      "filename": "9721_extended_precision_arithmetic_instructions_addcc.md"
+    },
+    {
+      "id": "9722_extended_precision_arithmetic_instructions_addc",
+      "title": "9.7.2.2. Extended-Precision Arithmetic Instructions: addc",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`addc`",
+      "filename": "9722_extended_precision_arithmetic_instructions_addc.md"
+    },
+    {
+      "id": "9723_extended_precision_arithmetic_instructions_subcc",
+      "title": "9.7.2.3. Extended-Precision Arithmetic Instructions: sub.cc",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`sub.cc`",
+      "filename": "9723_extended_precision_arithmetic_instructions_subcc.md"
+    },
+    {
+      "id": "9724_extended_precision_arithmetic_instructions_subc",
+      "title": "9.7.2.4. Extended-Precision Arithmetic Instructions: subc",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`subc`",
+      "filename": "9724_extended_precision_arithmetic_instructions_subc.md"
+    },
+    {
+      "id": "9725_extended_precision_arithmetic_instructions_madcc",
+      "title": "9.7.2.5. Extended-Precision Arithmetic Instructions: mad.cc",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`mad.cc`",
+      "filename": "9725_extended_precision_arithmetic_instructions_madcc.md"
+    },
+    {
+      "id": "9726_extended_precision_arithmetic_instructions_madc",
+      "title": "9.7.2.6. Extended-Precision Arithmetic Instructions: madc",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`madc`",
+      "filename": "9726_extended_precision_arithmetic_instructions_madc.md"
+    }
+  ]
+}

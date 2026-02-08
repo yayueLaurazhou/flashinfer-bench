@@ -1,0 +1,75 @@
+{
+  "description": "Documentation for 7.74. CUmemDecompressParams Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "cumemdecompressalgorithm_cumemdecompressparamsalgo",
+      "title": "CUmemDecompressAlgorithm CUmemDecompressParams::algo",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "The decompression algorithm to use....",
+      "filename": "cumemdecompressalgorithm_cumemdecompressparamsalgo.md"
+    },
+    {
+      "id": "void_cumemdecompressparamsdst",
+      "title": "void *CUmemDecompressParams::dst",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Pointer to a buffer where the decompressed data will be written. The number of bytes written to this location will be recorded in the memory pointed to by CUmemDecompressParams_st.dstActBytes...",
+      "filename": "void_cumemdecompressparamsdst.md"
+    },
+    {
+      "id": "cuuint32_t_cumemdecompressparamsdstactbytes",
+      "title": "cuuint32_t *CUmemDecompressParams::dstActBytes",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "After the decompression operation has completed, the actual number of bytes written to CUmemDecompressParams.dst will be recorded as a 32-bit unsigned integer in the memory at this address....",
+      "filename": "cuuint32_t_cumemdecompressparamsdstactbytes.md"
+    },
+    {
+      "id": "size_t_cumemdecompressparamsdstnumbytes",
+      "title": "size_t CUmemDecompressParams::dstNumBytes",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "The number of bytes that the decompression operation will be expected to write to CUmemDecompressParams_st.dst. This value is optional; if present, it may be used by the CUDA driver as a heuristic for...",
+      "filename": "size_t_cumemdecompressparamsdstnumbytes.md"
+    },
+    {
+      "id": "const_void_cumemdecompressparamssrc",
+      "title": "const void *CUmemDecompressParams::src",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Pointer to a buffer of at least CUmemDecompressParams_st.srcNumBytes compressed bytes....",
+      "filename": "const_void_cumemdecompressparamssrc.md"
+    },
+    {
+      "id": "size_t_cumemdecompressparamssrcnumbytes",
+      "title": "size_t CUmemDecompressParams::srcNumBytes",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "The number of bytes to be read and decompressed from CUmemDecompressParams_st.src.   CUDA Driver API TRM-06703-001 _vRelease Version  |  731   Data Structures...",
+      "filename": "size_t_cumemdecompressparamssrcnumbytes.md"
+    }
+  ]
+}

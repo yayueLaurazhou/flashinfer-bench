@@ -1,0 +1,25 @@
+{
+  "description": "Documentation for 8.2.3. Multiprocessor Level",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "8231_occupancy_calculator",
+      "title": "8.2.3.1. Occupancy Calculator",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 8.2.3.1. Occupancy Calculator[\uf0c1](#occupancy-calculator \"Permalink to this headline\")  Several API functions exist to assist programmers in choosing thread block size and cluster size based on reg...",
+      "filename": "8231_occupancy_calculator.md"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "description": "Documentation for 21.5.3. Driver Function Retrieval",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "21531_using_the_driver_api",
+      "title": "21.5.3.1. Using the Driver API",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 21.5.3.1. Using the Driver API[\uf0c1](#using-the-driver-api \"Permalink to this headline\")  The driver API requires CUDA version as an argument to get the ABI compatible version for the requested driv...",
+      "filename": "21531_using_the_driver_api.md"
+    },
+    {
+      "id": "21532_using_the_runtime_api",
+      "title": "21.5.3.2. Using the Runtime API",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 21.5.3.2. Using the Runtime API[\uf0c1](#using-the-runtime-api \"Permalink to this headline\")  The runtime API `cudaGetDriverEntryPointByVersion` uses the provided CUDA version to get the ABI compatibl...",
+      "filename": "21532_using_the_runtime_api.md"
+    },
+    {
+      "id": "21533_retrieve_per_thread_default_stream_versions",
+      "title": "21.5.3.3. Retrieve Per-thread Default Stream Versions",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 21.5.3.3. Retrieve Per-thread Default Stream Versions[\uf0c1](#retrieve-per-thread-default-stream-versions \"Permalink to this headline\")  Some CUDA driver APIs can be configured to have *default strea...",
+      "filename": "21533_retrieve_per_thread_default_stream_versions.md"
+    },
+    {
+      "id": "21534_access_new_cuda_features",
+      "title": "21.5.3.4. Access New CUDA features",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 21.5.3.4. Access New CUDA features[\uf0c1](#access-new-cuda-features \"Permalink to this headline\")  It is always recommended to install the latest CUDA toolkit to access new CUDA driver features, but ...",
+      "filename": "21534_access_new_cuda_features.md"
+    }
+  ]
+}

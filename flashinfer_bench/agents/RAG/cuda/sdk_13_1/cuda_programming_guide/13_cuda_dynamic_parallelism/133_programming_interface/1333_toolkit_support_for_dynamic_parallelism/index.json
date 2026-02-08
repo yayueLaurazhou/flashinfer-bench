@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 13.3.3. Toolkit Support for Dynamic Parallelism",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "13331_including_device_runtime_api_in_cuda_code",
+      "title": "13.3.3.1. Including Device Runtime API in CUDA Code",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 13.3.3.1. Including Device Runtime API in CUDA Code[\uf0c1](#including-device-runtime-api-in-cuda-code \"Permalink to this headline\")  Similar to the host-side runtime API, prototypes for the CUDA devi...",
+      "filename": "13331_including_device_runtime_api_in_cuda_code.md"
+    },
+    {
+      "id": "13332_compiling_and_linking",
+      "title": "13.3.3.2. Compiling and Linking",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 13.3.3.2. Compiling and Linking[\uf0c1](#compiling-and-linking \"Permalink to this headline\")  When compiling and linking CUDA programs using dynamic parallelism with `nvcc`, the program will automatic...",
+      "filename": "13332_compiling_and_linking.md"
+    }
+  ]
+}

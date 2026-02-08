@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 4.3. Statements",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "A PTX statement is either a directive or an instruction. Statements begin with an optional label and end with a semicolon."
+    },
+    {
+      "id": "431_directive_statements",
+      "title": "4.3.1. Directive Statements",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "Directive keywords begin with a dot, so no conflict is possible with user-defined identifiers. The directives in PTX are listed in [Table 1](https://docs.nvidia.com/cuda/parallel-thread-execution/#directive-statements-ptx-directives) and described in [State Spaces, Types, and Variables](https://d...",
+      "filename": "431_directive_statements.md"
+    },
+    {
+      "id": "432_instruction_statements",
+      "title": "4.3.2. Instruction Statements",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "Instructions are formed from an instruction opcode followed by a comma-separated list of zero or more operands, and terminated with a semicolon. Operands may be register variables, constant expressions, address expressions, or label names. Instructions have an optional guard predicate which contr...",
+      "filename": "432_instruction_statements.md"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "description": "Documentation for 6.2.16. External Resource Interoperability",
+  "directories": [
+    {
+      "name": "62161_vulkan_interoperability",
+      "description": "#### 6.2.16.1. Vulkan Interoperability[\uf0c1](#vulkan-interoperability \"Permalink to this headline\")..."
+    },
+    {
+      "name": "62163_direct3d_12_interoperability",
+      "description": "#### 6.2.16.3. Direct3D 12 Interoperability[\uf0c1](#direct3d-12-interoperability \"Permalink to this headline\")..."
+    },
+    {
+      "name": "62164_direct3d_11_interoperability",
+      "description": "#### 6.2.16.4. Direct3D 11 Interoperability[\uf0c1](#direct3d-11-interoperability \"Permalink to this headline\")..."
+    },
+    {
+      "name": "62165_nvidia_software_communication_interface_interoperability_nvsci",
+      "description": "#### 6.2.16.5. NVIDIA Software Communication Interface Interoperability (NVSCI)[\uf0c1](#nvidia-software-communication-interface-interoperability-nvsci \"Permalink to this headline\")  NvSciBuf and NvSciSync..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "62162_opengl_interoperability",
+      "title": "6.2.16.2. OpenGL Interoperability",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 6.2.16.2. OpenGL Interoperability[\uf0c1](#opengl-interoperability-ext-res-int \"Permalink to this headline\")  Traditional OpenGL-CUDA interop as outlined in [OpenGL Interoperability](#opengl-interoper...",
+      "filename": "62162_opengl_interoperability.md"
+    }
+  ]
+}

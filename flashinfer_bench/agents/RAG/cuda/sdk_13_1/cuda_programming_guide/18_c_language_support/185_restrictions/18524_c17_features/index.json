@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 18.5.24. C++17 Features",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "185241_inline_variable",
+      "title": "18.5.24.1. Inline Variable",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 18.5.24.1. Inline Variable[\uf0c1](#inline-variable \"Permalink to this headline\")  * A namespace scope inline variable declared with `__device__` or `__constant__` or `__managed__` memory space specif...",
+      "filename": "185241_inline_variable.md"
+    },
+    {
+      "id": "185242_structured_binding",
+      "title": "18.5.24.2. Structured Binding",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 18.5.24.2. Structured Binding[\uf0c1](#structured-binding \"Permalink to this headline\")  A structured binding cannot be declared with a variable memory space specifier.  Example:  ``` struct S { int x...",
+      "filename": "185242_structured_binding.md"
+    }
+  ]
+}

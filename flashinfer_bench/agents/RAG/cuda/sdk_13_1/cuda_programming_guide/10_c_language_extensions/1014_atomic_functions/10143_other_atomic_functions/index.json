@@ -1,0 +1,65 @@
+{
+  "description": "Documentation for 10.14.3. Other atomic functions",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "101431___nv_atomic_load",
+      "title": "10.14.3.1. __nv_atomic_load()",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 10.14.3.1. \\_\\_nv\\_atomic\\_load()[\uf0c1](#nv-atomic-load \"Permalink to this headline\")  ``` __device__ void __nv_atomic_load(T* ptr, T* ret, int order, int scope = __NV_THREAD_SCOPE_SYSTEM); ```  Thi...",
+      "filename": "101431___nv_atomic_load.md"
+    },
+    {
+      "id": "101432___nv_atomic_load_n",
+      "title": "10.14.3.2. __nv_atomic_load_n()",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 10.14.3.2. \\_\\_nv\\_atomic\\_load\\_n()[\uf0c1](#nv-atomic-load-n \"Permalink to this headline\")  ``` __device__ T __nv_atomic_load_n(T* ptr, int order, int scope = __NV_THREAD_SCOPE_SYSTEM); ```  This at...",
+      "filename": "101432___nv_atomic_load_n.md"
+    },
+    {
+      "id": "101433___nv_atomic_store",
+      "title": "10.14.3.3. __nv_atomic_store()",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 10.14.3.3. \\_\\_nv\\_atomic\\_store()[\uf0c1](#nv-atomic-store \"Permalink to this headline\")  ``` __device__ void __nv_atomic_store(T* ptr, T* val, int order, int scope = __NV_THREAD_SCOPE_SYSTEM); ```  ...",
+      "filename": "101433___nv_atomic_store.md"
+    },
+    {
+      "id": "101434___nv_atomic_store_n",
+      "title": "10.14.3.4. __nv_atomic_store_n()",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 10.14.3.4. \\_\\_nv\\_atomic\\_store\\_n()[\uf0c1](#nv-atomic-store-n \"Permalink to this headline\")  ``` __device__ void __nv_atomic_store_n(T* ptr, T val, int order, int scope = __NV_THREAD_SCOPE_SYSTEM);...",
+      "filename": "101434___nv_atomic_store_n.md"
+    },
+    {
+      "id": "101435___nv_atomic_thread_fence",
+      "title": "10.14.3.5. __nv_atomic_thread_fence()",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 10.14.3.5. \\_\\_nv\\_atomic\\_thread\\_fence()[\uf0c1](#nv-atomic-thread-fence \"Permalink to this headline\")  ``` __device__ void __nv_atomic_thread_fence (int order, int scope = __NV_THREAD_SCOPE_SYSTEM)...",
+      "filename": "101435___nv_atomic_thread_fence.md"
+    }
+  ]
+}

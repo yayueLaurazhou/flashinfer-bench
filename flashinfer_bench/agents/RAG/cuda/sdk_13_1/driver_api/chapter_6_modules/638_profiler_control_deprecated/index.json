@@ -1,0 +1,25 @@
+{
+  "description": "Documentation for 6.38. Profiler Control [DEPRECATED]",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "curesult_cuprofilerinitialize_const_char_configfile_con_55f59a1e",
+      "title": "CUresult cuProfilerInitialize (const char *configFile, const char *outputFile, CUoutput_mode outputMode)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Initialize the profiling....",
+      "filename": "curesult_cuprofilerinitialize_const_char_configfile_con_55f59a1e.md"
+    }
+  ]
+}

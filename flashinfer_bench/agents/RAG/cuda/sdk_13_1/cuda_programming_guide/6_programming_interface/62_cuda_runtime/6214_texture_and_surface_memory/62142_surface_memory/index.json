@@ -1,0 +1,45 @@
+{
+  "description": "Documentation for 6.2.14.2. Surface Memory",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "621421_surface_object_api",
+      "title": "6.2.14.2.1. Surface Object API",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 6.2.14.2.1. Surface Object API[\uf0c1](#surface-object-api \"Permalink to this headline\")  A surface object is created using `cudaCreateSurfaceObject()` from a resource description of type `struct cud...",
+      "filename": "621421_surface_object_api.md"
+    },
+    {
+      "id": "621422_cubemap_surfaces",
+      "title": "6.2.14.2.2. Cubemap Surfaces",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 6.2.14.2.2. Cubemap Surfaces[\uf0c1](#cubemap-surfaces \"Permalink to this headline\")  Cubemap surfaces are accessed using`surfCubemapread()` and `surfCubemapwrite()` ([surfCubemapread()](#surfcubemap...",
+      "filename": "621422_cubemap_surfaces.md"
+    },
+    {
+      "id": "621423_cubemap_layered_surfaces",
+      "title": "6.2.14.2.3. Cubemap Layered Surfaces",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 6.2.14.2.3. Cubemap Layered Surfaces[\uf0c1](#cubemap-layered-surfaces \"Permalink to this headline\")  Cubemap layered surfaces are accessed using `surfCubemapLayeredread()` and `surfCubemapLayeredwri...",
+      "filename": "621423_cubemap_layered_surfaces.md"
+    }
+  ]
+}

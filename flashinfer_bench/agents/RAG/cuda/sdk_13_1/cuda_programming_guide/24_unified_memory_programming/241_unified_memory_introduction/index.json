@@ -1,0 +1,30 @@
+{
+  "description": "Documentation for 24.1. Unified Memory Introduction",
+  "directories": [
+    {
+      "name": "2412_programming_model",
+      "description": "### 24.1.2. Programming Model[\uf0c1](#um-opt-in \"Permalink to this headline\")  With CUDA Unified Memory, separate allocations between host and device, and explicit memory transfers between them, are no lo..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "2411_system_requirements_for_unified_memory",
+      "title": "24.1.1. System Requirements for Unified Memory",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 24.1.1. System Requirements for Unified Memory[\uf0c1](#system-requirements-for-unified-memory \"Permalink to this headline\")  The following table shows the different levels of support for CUDA Unified ...",
+      "filename": "2411_system_requirements_for_unified_memory.md"
+    }
+  ]
+}

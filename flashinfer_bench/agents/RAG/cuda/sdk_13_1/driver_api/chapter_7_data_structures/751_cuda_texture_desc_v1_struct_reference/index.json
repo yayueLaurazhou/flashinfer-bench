@@ -1,0 +1,105 @@
+{
+  "description": "Documentation for 7.51. CUDA_TEXTURE_DESC_v1 Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "cuaddress_mode_cuda_texture_desc_v1addressmode",
+      "title": "CUaddress_mode CUDA_TEXTURE_DESC_v1::addressMode",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Address modes...",
+      "filename": "cuaddress_mode_cuda_texture_desc_v1addressmode.md"
+    },
+    {
+      "id": "float_cuda_texture_desc_v1bordercolor",
+      "title": "float CUDA_TEXTURE_DESC_v1::borderColor",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Border Color   CUDA Driver API TRM-06703-001 _vRelease Version  |  713   Data Structures...",
+      "filename": "float_cuda_texture_desc_v1bordercolor.md"
+    },
+    {
+      "id": "cufilter_mode_cuda_texture_desc_v1filtermode",
+      "title": "CUfilter_mode CUDA_TEXTURE_DESC_v1::filterMode",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Filter mode...",
+      "filename": "cufilter_mode_cuda_texture_desc_v1filtermode.md"
+    },
+    {
+      "id": "unsigned_int_cuda_texture_desc_v1flags",
+      "title": "unsigned int CUDA_TEXTURE_DESC_v1::flags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Flags...",
+      "filename": "unsigned_int_cuda_texture_desc_v1flags.md"
+    },
+    {
+      "id": "unsigned_int_cuda_texture_desc_v1maxanisotropy",
+      "title": "unsigned int CUDA_TEXTURE_DESC_v1::maxAnisotropy",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Maximum anisotropy ratio...",
+      "filename": "unsigned_int_cuda_texture_desc_v1maxanisotropy.md"
+    },
+    {
+      "id": "float_cuda_texture_desc_v1maxmipmaplevelclamp",
+      "title": "float CUDA_TEXTURE_DESC_v1::maxMipmapLevelClamp",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Mipmap maximum level clamp...",
+      "filename": "float_cuda_texture_desc_v1maxmipmaplevelclamp.md"
+    },
+    {
+      "id": "float_cuda_texture_desc_v1minmipmaplevelclamp",
+      "title": "float CUDA_TEXTURE_DESC_v1::minMipmapLevelClamp",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Mipmap minimum level clamp...",
+      "filename": "float_cuda_texture_desc_v1minmipmaplevelclamp.md"
+    },
+    {
+      "id": "cufilter_mode_cuda_texture_desc_v1mipmapfiltermode",
+      "title": "CUfilter_mode CUDA_TEXTURE_DESC_v1::mipmapFilterMode",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Mipmap filter mode...",
+      "filename": "cufilter_mode_cuda_texture_desc_v1mipmapfiltermode.md"
+    },
+    {
+      "id": "float_cuda_texture_desc_v1mipmaplevelbias",
+      "title": "float CUDA_TEXTURE_DESC_v1::mipmapLevelBias",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Mipmap level bias...",
+      "filename": "float_cuda_texture_desc_v1mipmaplevelbias.md"
+    }
+  ]
+}

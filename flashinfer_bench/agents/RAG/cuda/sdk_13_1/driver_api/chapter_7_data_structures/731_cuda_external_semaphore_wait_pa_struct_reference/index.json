@@ -1,0 +1,85 @@
+{
+  "description": "Documentation for 7.31. CUDA_EXTERNAL_SEMAPHORE_WAIT_PA Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "cuda_external_semaphore_wait_params_v127_cuda_external__8fea34e7",
+      "title": "CUDA_EXTERNAL_SEMAPHORE_WAIT_PARAMS_v1::@27::@ CUDA_EXTERNAL_SEMAPHORE_WAIT_PARAMS_v1::fence",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Parameters for fence objects...",
+      "filename": "cuda_external_semaphore_wait_params_v127_cuda_external__8fea34e7.md"
+    },
+    {
+      "id": "unsigned_int_cuda_external_semaphore_wait_params_v1flags",
+      "title": "unsigned int CUDA_EXTERNAL_SEMAPHORE_WAIT_PARAMS_v1::flags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Only when CUDA_EXTERNAL_SEMAPHORE_WAIT_PARAMS is used to wait on a CUexternalSemaphore of type CU_EXTERNAL_SEMAPHORE_HANDLE_TYPE_NVSCISYNC, the valid flag is CUDA_EXTERNAL_SEMAPHORE_WAIT_SKIP_NVSCIBUF...",
+      "filename": "unsigned_int_cuda_external_semaphore_wait_params_v1flags.md"
+    },
+    {
+      "id": "unsigned_long_long_cuda_external_semaphore_wait_params_v1key",
+      "title": "unsigned long long CUDA_EXTERNAL_SEMAPHORE_WAIT_PARAMS_v1::key",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Value of key to acquire the mutex with...",
+      "filename": "unsigned_long_long_cuda_external_semaphore_wait_params_v1key.md"
+    },
+    {
+      "id": "cuda_external_semaphore_wait_params_v127_cuda_external__68a0105e",
+      "title": "CUDA_EXTERNAL_SEMAPHORE_WAIT_PARAMS_v1::@27::@ CUDA_EXTERNAL_SEMAPHORE_WAIT_PARAMS_v1::keyedM",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Parameters for keyed mutex objects   CUDA Driver API TRM-06703-001 _vRelease Version  |  691   Data Structures...",
+      "filename": "cuda_external_semaphore_wait_params_v127_cuda_external__68a0105e.md"
+    },
+    {
+      "id": "cuda_external_semaphore_wait_params_v127_cuda_external__9b993f6d",
+      "title": "CUDA_EXTERNAL_SEMAPHORE_WAIT_PARAMS_v1::@27::@ CUDA_EXTERNAL_SEMAPHORE_WAIT_PARAMS_v1::nvSciSy",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Pointer to NvSciSyncFence. Valid if CUexternalSemaphoreHandleType is of type CU_EXTERNAL_SEMAPHORE_HANDLE_TYPE_NVSCISYNC....",
+      "filename": "cuda_external_semaphore_wait_params_v127_cuda_external__9b993f6d.md"
+    },
+    {
+      "id": "unsigned_int_cuda_external_semaphore_wait_params_v1timeout",
+      "title": "unsigned int CUDA_EXTERNAL_SEMAPHORE_WAIT_PARAMS_v1::timeout",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Timeout in milliseconds to wait to acquire the mutex...",
+      "filename": "unsigned_int_cuda_external_semaphore_wait_params_v1timeout.md"
+    },
+    {
+      "id": "unsigned_long_long_cuda_external_semaphore_wait_params_v1value",
+      "title": "unsigned long long CUDA_EXTERNAL_SEMAPHORE_WAIT_PARAMS_v1::value",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Value of fence to be waited on...",
+      "filename": "unsigned_long_long_cuda_external_semaphore_wait_params_v1value.md"
+    }
+  ]
+}

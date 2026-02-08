@@ -1,0 +1,55 @@
+{
+  "description": "Documentation for 7.52. cudaMemcpyAttributes Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "struct_cudamemlocation_cudamemcpyattributesdstlochint",
+      "title": "struct cudaMemLocation cudaMemcpyAttributes::dstLocHint",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Hint location for the destination operand. Ignored when the pointers are not managed memory or memory allocated outside CUDA....",
+      "filename": "struct_cudamemlocation_cudamemcpyattributesdstlochint.md"
+    },
+    {
+      "id": "unsigned_int_cudamemcpyattributesflags",
+      "title": "unsigned int cudaMemcpyAttributes::flags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Additional flags for copies with this attribute. See cudaMemcpyFlags.   CUDA Runtime API vRelease Version  |  637   Data Structures...",
+      "filename": "unsigned_int_cudamemcpyattributesflags.md"
+    },
+    {
+      "id": "enumcudamemcpysrcaccessorder_cudamemcpyattributessrcaccessorder",
+      "title": "enumcudaMemcpySrcAccessOrder cudaMemcpyAttributes::srcAccessOrder",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Source access ordering to be observed for copies with this attribute....",
+      "filename": "enumcudamemcpysrcaccessorder_cudamemcpyattributessrcaccessorder.md"
+    },
+    {
+      "id": "struct_cudamemlocation_cudamemcpyattributessrclochint",
+      "title": "struct cudaMemLocation cudaMemcpyAttributes::srcLocHint",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Hint location for the source operand. Ignored when the pointers are not managed memory or memory allocated outside CUDA....",
+      "filename": "struct_cudamemlocation_cudamemcpyattributessrclochint.md"
+    }
+  ]
+}

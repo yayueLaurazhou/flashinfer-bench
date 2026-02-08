@@ -1,0 +1,65 @@
+{
+  "description": "Documentation for 6.7. Primary Context Management",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "curesult_cudeviceprimaryctxgetstate_cudevice_dev_unsign_13a7e368",
+      "title": "CUresult cuDevicePrimaryCtxGetState (CUdevice dev, unsigned int *flags, int *active)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Get the state of the primary context....",
+      "filename": "curesult_cudeviceprimaryctxgetstate_cudevice_dev_unsign_13a7e368.md"
+    },
+    {
+      "id": "curesult_cudeviceprimaryctxrelease_cudevice_dev",
+      "title": "CUresult cuDevicePrimaryCtxRelease (CUdevice dev)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Release the primary context on the GPU....",
+      "filename": "curesult_cudeviceprimaryctxrelease_cudevice_dev.md"
+    },
+    {
+      "id": "curesult_cudeviceprimaryctxreset_cudevice_dev",
+      "title": "CUresult cuDevicePrimaryCtxReset (CUdevice dev)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Destroy all allocations and reset all state on the primary context....",
+      "filename": "curesult_cudeviceprimaryctxreset_cudevice_dev.md"
+    },
+    {
+      "id": "curesult_cudeviceprimaryctxretain_cucontext_pctx_cudevice_dev",
+      "title": "CUresult cuDevicePrimaryCtxRetain (CUcontext *pctx, CUdevice dev)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Retain the primary context on the GPU....",
+      "filename": "curesult_cudeviceprimaryctxretain_cucontext_pctx_cudevice_dev.md"
+    },
+    {
+      "id": "curesult_cudeviceprimaryctxsetflags_cudevice_dev_unsign_79edd888",
+      "title": "CUresult cuDevicePrimaryCtxSetFlags (CUdevice dev, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Set flags for the primary context....",
+      "filename": "curesult_cudeviceprimaryctxsetflags_cudevice_dev_unsign_79edd888.md"
+    }
+  ]
+}

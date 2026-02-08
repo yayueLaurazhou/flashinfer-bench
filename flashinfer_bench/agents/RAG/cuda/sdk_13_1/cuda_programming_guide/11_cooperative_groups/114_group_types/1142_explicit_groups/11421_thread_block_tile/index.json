@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 11.4.2.1. Thread Block Tile",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "114211_warp_synchronous_code_pattern",
+      "title": "11.4.2.1.1. Warp-Synchronous Code Pattern",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 11.4.2.1.1. Warp-Synchronous Code Pattern[\uf0c1](#warp-synchronous-code-pattern \"Permalink to this headline\")  Developers might have had warp-synchronous codes that they previously made implicit ass...",
+      "filename": "114211_warp_synchronous_code_pattern.md"
+    },
+    {
+      "id": "114212_single_thread_group",
+      "title": "11.4.2.1.2. Single Thread Group",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 11.4.2.1.2. Single Thread Group[\uf0c1](#single-thread-group \"Permalink to this headline\")  Group representing the current thread can be obtained from `this_thread` function:  ``` thread_block_tile<1...",
+      "filename": "114212_single_thread_group.md"
+    }
+  ]
+}

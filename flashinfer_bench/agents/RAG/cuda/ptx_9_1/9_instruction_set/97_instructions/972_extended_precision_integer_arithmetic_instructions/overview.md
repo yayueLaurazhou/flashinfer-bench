@@ -1,0 +1,17 @@
+# 9.7.2. Extended-Precision Integer Arithmetic Instructions
+
+### 9.7.2. [Extended-Precision Integer Arithmetic Instructions](https://docs.nvidia.com/cuda/parallel-thread-execution/#extended-precision-integer-arithmetic-instructions)[](https://docs.nvidia.com/cuda/parallel-thread-execution/#extended-precision-integer-arithmetic-instructions "Permalink to this headline")
+
+Instructions `add.cc`, `addc`, `sub.cc`, `subc`, `mad.cc` and `madc` reference an
+implicitly specified condition code register (`CC`) having a single carry flag bit (`CC.CF`)
+holding carry-in/carry-out or borrow-in/borrow-out. These instructions support extended-precision
+integer addition, subtraction, and multiplication. No other instructions access the condition code,
+and there is no support for setting, clearing, or testing the condition code. The condition code
+register is not preserved across calls and is mainly intended for use in straight-line code
+sequences for computing extended-precision integer addition, subtraction, and multiplication.
+
+The extended-precision arithmetic instructions are:
+
+* `add.cc`, `addc`
+* `sub.cc`, `subc`
+* `mad.cc`, `madc`

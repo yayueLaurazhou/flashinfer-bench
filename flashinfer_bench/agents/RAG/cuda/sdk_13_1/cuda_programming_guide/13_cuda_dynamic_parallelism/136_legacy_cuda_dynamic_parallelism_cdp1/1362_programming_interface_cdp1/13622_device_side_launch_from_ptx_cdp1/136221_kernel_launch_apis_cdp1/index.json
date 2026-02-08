@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 13.6.2.2.1. Kernel Launch APIs (CDP1)",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "1362211_cudalaunchdevice_cdp1",
+      "title": "13.6.2.2.1.1. cudaLaunchDevice (CDP1)",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "###### 13.6.2.2.1.1. cudaLaunchDevice (CDP1)[\uf0c1](#cudalaunchdevice-cdp1 \"Permalink to this headline\")  See [cudaLaunchDevice](#cudalaunchdevice-cdp2), above, for CDP2 version of document.  At the PTX l...",
+      "filename": "1362211_cudalaunchdevice_cdp1.md"
+    },
+    {
+      "id": "1362212_cudagetparameterbuffer_cdp1",
+      "title": "13.6.2.2.1.2. cudaGetParameterBuffer (CDP1)",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "###### 13.6.2.2.1.2. cudaGetParameterBuffer (CDP1)[\uf0c1](#cudagetparameterbuffer-cdp1 \"Permalink to this headline\")  See [cudaGetParameterBuffer](#cudagetparameterbuffer-cdp2), above, for CDP2 version of...",
+      "filename": "1362212_cudagetparameterbuffer_cdp1.md"
+    }
+  ]
+}

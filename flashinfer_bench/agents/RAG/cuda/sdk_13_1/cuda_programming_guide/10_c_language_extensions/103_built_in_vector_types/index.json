@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 10.3. Built-in Vector Types",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "1031_char_short_int_long_longlong_float_double",
+      "title": "10.3.1. char, short, int, long, longlong, float, double",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.3.1. char, short, int, long, longlong, float, double[\uf0c1](#char-short-int-long-longlong-float-double \"Permalink to this headline\")  These are vector types derived from the basic integer and float...",
+      "filename": "1031_char_short_int_long_longlong_float_double.md"
+    },
+    {
+      "id": "1032_dim3",
+      "title": "10.3.2. dim3",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.3.2. dim3[\uf0c1](#dim3 \"Permalink to this headline\")  This type is an integer vector type based on `uint3` that is used to specify dimensions. When defining a variable of type `dim3`, any component...",
+      "filename": "1032_dim3.md"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Documentation for 11.6.4. Execution control",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "11641_invoke_one_and_invoke_one_broadcast",
+      "title": "11.6.4.1. invoke_one and invoke_one_broadcast",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 11.6.4.1. `invoke_one` and `invoke_one_broadcast`[\uf0c1](#invoke-one-and-invoke-one-broadcast \"Permalink to this headline\")  ``` template<typename Group, typename Fn, typename... Args> void invoke_on...",
+      "filename": "11641_invoke_one_and_invoke_one_broadcast.md"
+    }
+  ]
+}

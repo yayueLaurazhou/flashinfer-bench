@@ -1,0 +1,55 @@
+{
+  "description": "Documentation for 6.3. Error Handling",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "__host____device__const_char_cudageterrorname_cudaerror_t_error",
+      "title": "__host____device__const char *cudaGetErrorName (cudaError_t error)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the string representation of an error code enum name....",
+      "filename": "__host____device__const_char_cudageterrorname_cudaerror_t_error.md"
+    },
+    {
+      "id": "__host____device__const_char_cudageterrorstring_cudaerr_47828ad4",
+      "title": "__host____device__const char *cudaGetErrorString (cudaError_t error)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the description string for an error code....",
+      "filename": "__host____device__const_char_cudageterrorstring_cudaerr_47828ad4.md"
+    },
+    {
+      "id": "__host____device__cudaerror_t_cudagetlasterror_void",
+      "title": "__host____device__cudaError_t cudaGetLastError (void)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the last error from a runtime call....",
+      "filename": "__host____device__cudaerror_t_cudagetlasterror_void.md"
+    },
+    {
+      "id": "__host____device__cudaerror_t_cudapeekatlasterror_void",
+      "title": "__host____device__cudaError_t cudaPeekAtLastError (void)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the last error from a runtime call....",
+      "filename": "__host____device__cudaerror_t_cudapeekatlasterror_void.md"
+    }
+  ]
+}

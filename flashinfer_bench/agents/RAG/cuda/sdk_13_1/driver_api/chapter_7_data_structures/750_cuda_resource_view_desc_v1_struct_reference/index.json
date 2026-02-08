@@ -1,0 +1,95 @@
+{
+  "description": "Documentation for 7.50. CUDA_RESOURCE_VIEW_DESC_v1 Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "size_t_cuda_resource_view_desc_v1depth",
+      "title": "size_t CUDA_RESOURCE_VIEW_DESC_v1::depth",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Depth of the resource view...",
+      "filename": "size_t_cuda_resource_view_desc_v1depth.md"
+    },
+    {
+      "id": "unsigned_int_cuda_resource_view_desc_v1firstlayer",
+      "title": "unsigned int CUDA_RESOURCE_VIEW_DESC_v1::firstLayer",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "First layer index...",
+      "filename": "unsigned_int_cuda_resource_view_desc_v1firstlayer.md"
+    },
+    {
+      "id": "unsigned_int_cuda_resource_view_desc_v1firstmipmaplevel",
+      "title": "unsigned int CUDA_RESOURCE_VIEW_DESC_v1::firstMipmapLevel",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "First defined mipmap level   CUDA Driver API TRM-06703-001 _vRelease Version  |  712   Data Structures...",
+      "filename": "unsigned_int_cuda_resource_view_desc_v1firstmipmaplevel.md"
+    },
+    {
+      "id": "curesourceviewformat_cuda_resource_view_desc_v1format",
+      "title": "CUresourceViewFormat CUDA_RESOURCE_VIEW_DESC_v1::format",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Resource view format...",
+      "filename": "curesourceviewformat_cuda_resource_view_desc_v1format.md"
+    },
+    {
+      "id": "size_t_cuda_resource_view_desc_v1height",
+      "title": "size_t CUDA_RESOURCE_VIEW_DESC_v1::height",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Height of the resource view...",
+      "filename": "size_t_cuda_resource_view_desc_v1height.md"
+    },
+    {
+      "id": "unsigned_int_cuda_resource_view_desc_v1lastlayer",
+      "title": "unsigned int CUDA_RESOURCE_VIEW_DESC_v1::lastLayer",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Last layer index...",
+      "filename": "unsigned_int_cuda_resource_view_desc_v1lastlayer.md"
+    },
+    {
+      "id": "unsigned_int_cuda_resource_view_desc_v1lastmipmaplevel",
+      "title": "unsigned int CUDA_RESOURCE_VIEW_DESC_v1::lastMipmapLevel",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Last defined mipmap level...",
+      "filename": "unsigned_int_cuda_resource_view_desc_v1lastmipmaplevel.md"
+    },
+    {
+      "id": "size_t_cuda_resource_view_desc_v1width",
+      "title": "size_t CUDA_RESOURCE_VIEW_DESC_v1::width",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Width of the resource view...",
+      "filename": "size_t_cuda_resource_view_desc_v1width.md"
+    }
+  ]
+}

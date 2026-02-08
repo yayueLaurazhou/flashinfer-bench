@@ -1,0 +1,45 @@
+{
+  "description": "Documentation for 5.3. Texture Sampler and Surface Types",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "PTX includes built-in *opaque* types for defining texture, sampler, and surface descriptor variables. These types have named fields similar to structures, but all information about layout, field ordering, base address, and overall size is hidden to a PTX program, hence the term *opaque*. The use ..."
+    },
+    {
+      "id": "531_texture_and_surface_properties",
+      "title": "5.3.1. Texture and Surface Properties",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "Fields `width`, `height`, and `depth` specify the size of the texture or surface in number of elements in each dimension.",
+      "filename": "531_texture_and_surface_properties.md"
+    },
+    {
+      "id": "532_sampler_properties",
+      "title": "5.3.2. Sampler Properties",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "The `normalized_coords` field indicates whether the texture or surface uses normalized coordinates in the range [0.0, 1.0) instead of unnormalized coordinates in the range [0, N). If no value is specified, the default is set by the runtime system based on the source language.",
+      "filename": "532_sampler_properties.md"
+    },
+    {
+      "id": "533_channel_data_type_and_channel_order_fields",
+      "title": "5.3.3. Channel Data Type and Channel Order Fields",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "The `channel_data_type` and `channel_order` fields have enumeration types corresponding to the source language API. Currently, OpenCL is the only source language that defines these fields. [Table 13](https://docs.nvidia.com/cuda/parallel-thread-execution/#channel-data-type-and-channel-order-field...",
+      "filename": "533_channel_data_type_and_channel_order_fields.md"
+    }
+  ]
+}

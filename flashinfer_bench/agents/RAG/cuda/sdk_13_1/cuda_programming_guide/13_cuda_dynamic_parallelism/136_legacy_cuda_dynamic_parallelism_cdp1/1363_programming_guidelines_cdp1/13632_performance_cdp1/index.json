@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 13.6.3.2. Performance (CDP1)",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "136321_synchronization_cdp1",
+      "title": "13.6.3.2.1. Synchronization (CDP1)",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 13.6.3.2.1. Synchronization (CDP1)[\uf0c1](#synchronization-performance-cdp1 \"Permalink to this headline\")  See [CUDA Dynamic Parallelism](#cuda-dynamic-parallelism), above, for CDP2 version of docum...",
+      "filename": "136321_synchronization_cdp1.md"
+    },
+    {
+      "id": "136322_dynamic_parallelism_enabled_kernel_overhead_cdp1",
+      "title": "13.6.3.2.2. Dynamic-parallelism-enabled Kernel Overhead (CDP1)",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 13.6.3.2.2. Dynamic-parallelism-enabled Kernel Overhead (CDP1)[\uf0c1](#dynamic-parallelism-enabled-kernel-overhead-cdp1 \"Permalink to this headline\")  See [Dynamic-parallelism-enabled Kernel Overhea...",
+      "filename": "136322_dynamic_parallelism_enabled_kernel_overhead_cdp1.md"
+    }
+  ]
+}

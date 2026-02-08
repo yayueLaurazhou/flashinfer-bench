@@ -1,0 +1,55 @@
+{
+  "description": "Documentation for 12. Descriptions of .pragma Strings",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "This section describes the `.pragma` strings defined by ptxas."
+    },
+    {
+      "id": "121_pragma_strings_nounroll",
+      "title": "12.1. Pragma Strings: \"nounroll\"",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`\"nounroll\"`",
+      "filename": "121_pragma_strings_nounroll.md"
+    },
+    {
+      "id": "122_pragma_strings_used_bytes_mask",
+      "title": "12.2. Pragma Strings: \"used_bytes_mask\"",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`\"used_bytes_mask\"`",
+      "filename": "122_pragma_strings_used_bytes_mask.md"
+    },
+    {
+      "id": "123_pragma_strings_enable_smem_spilling",
+      "title": "12.3. Pragma Strings: \"enable_smem_spilling\"",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`\"enable_smem_spilling\"`",
+      "filename": "123_pragma_strings_enable_smem_spilling.md"
+    },
+    {
+      "id": "124_pragma_strings_frequency",
+      "title": "12.4. Pragma Strings: \"frequency\"",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`\"frequency\"`",
+      "filename": "124_pragma_strings_frequency.md"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "description": "Documentation for 6.19. Event Management",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "curesult_cueventcreate_cuevent_phevent_unsigned_int_flags",
+      "title": "CUresult cuEventCreate (CUevent *phEvent, unsigned int Flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Creates an event....",
+      "filename": "curesult_cueventcreate_cuevent_phevent_unsigned_int_flags.md"
+    },
+    {
+      "id": "curesult_cueventdestroy_cuevent_hevent",
+      "title": "CUresult cuEventDestroy (CUevent hEvent)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Destroys an event....",
+      "filename": "curesult_cueventdestroy_cuevent_hevent.md"
+    },
+    {
+      "id": "curesult_cueventelapsedtime_float_pmilliseconds_cuevent_c4b21637",
+      "title": "CUresult cuEventElapsedTime (float *pMilliseconds, CUevent hStart, CUevent hEnd)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Computes the elapsed time between two events....",
+      "filename": "curesult_cueventelapsedtime_float_pmilliseconds_cuevent_c4b21637.md"
+    },
+    {
+      "id": "curesult_cueventquery_cuevent_hevent",
+      "title": "CUresult cuEventQuery (CUevent hEvent)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Queries an event's status....",
+      "filename": "curesult_cueventquery_cuevent_hevent.md"
+    },
+    {
+      "id": "curesult_cueventrecord_cuevent_hevent_custream_hstream",
+      "title": "CUresult cuEventRecord (CUevent hEvent, CUstream hStream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Records an event....",
+      "filename": "curesult_cueventrecord_cuevent_hevent_custream_hstream.md"
+    },
+    {
+      "id": "curesult_cueventrecordwithflags_cuevent_hevent_custream_35f94a1e",
+      "title": "CUresult cuEventRecordWithFlags (CUevent hEvent, CUstream hStream, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Records an event....",
+      "filename": "curesult_cueventrecordwithflags_cuevent_hevent_custream_35f94a1e.md"
+    },
+    {
+      "id": "curesult_cueventsynchronize_cuevent_hevent",
+      "title": "CUresult cuEventSynchronize (CUevent hEvent)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Waits for an event to complete....",
+      "filename": "curesult_cueventsynchronize_cuevent_hevent.md"
+    }
+  ]
+}

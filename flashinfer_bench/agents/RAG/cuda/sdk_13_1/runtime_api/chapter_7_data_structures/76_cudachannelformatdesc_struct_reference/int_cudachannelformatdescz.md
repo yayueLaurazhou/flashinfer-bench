@@ -1,0 +1,3 @@
+# int cudaChannelFormatDesc::z
+
+z

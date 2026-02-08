@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 7.7. cudaChildGraphNodeParams Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "cudagraph_t_cudachildgraphnodeparamsgraph",
+      "title": "cudaGraph_t cudaChildGraphNodeParams::graph",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "The child graph to clone into the node for node creation, or a handle to the graph owned by the node for node query. The graph must not contain conditional nodes. Graphs containing memory allocation o...",
+      "filename": "cudagraph_t_cudachildgraphnodeparamsgraph.md"
+    },
+    {
+      "id": "enumcudagraphchildgraphnodeownership_cudachildgraphnode_185dd0d5",
+      "title": "enumcudaGraphChildGraphNodeOwnership cudaChildGraphNodeParams::ownership",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "The ownership relationship of the child graph node....",
+      "filename": "enumcudagraphchildgraphnodeownership_cudachildgraphnode_185dd0d5.md"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Documentation for 24.3. Unified memory on devices without full CUDA Unified Memory support",
+  "directories": [
+    {
+      "name": "2432_unified_memory_on_windows_or_devices_with_compute_capability_5x",
+      "description": "### 24.3.2. Unified memory on Windows or devices with compute capability 5.x[\uf0c1](#unified-memory-on-windows-or-devices-with-compute-capability-5-x \"Permalink to this headline\")  Devices with compute ca..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "2431_unified_memory_on_devices_with_only_cuda_managed_memory_support",
+      "title": "24.3.1. Unified memory on devices with only CUDA Managed Memory support",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 24.3.1. Unified memory on devices with only CUDA Managed Memory support[\uf0c1](#unified-memory-on-devices-with-only-cuda-managed-memory-support \"Permalink to this headline\")  For devices with compute ...",
+      "filename": "2431_unified_memory_on_devices_with_only_cuda_managed_memory_support.md"
+    }
+  ]
+}

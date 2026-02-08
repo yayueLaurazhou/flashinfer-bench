@@ -1,0 +1,686 @@
+{
+  "description": "Documentation for Chapter 6. Modules",
+  "directories": [
+    {
+      "name": "61_data_types_used_by_cuda_driver",
+      "description": "CUDA Driver API TRM-06703-001 _vRelease Version  |  10   Modules..."
+    },
+    {
+      "name": "62_error_handling",
+      "description": "This section describes the error handling functions of the low-level CUDA driver application programming interface...."
+    },
+    {
+      "name": "63_initialization",
+      "description": "This section describes the initialization functions of the low-level CUDA driver application programming interface...."
+    },
+    {
+      "name": "64_version_management",
+      "description": "This section describes the version management functions of the low-level CUDA driver application programming interface...."
+    },
+    {
+      "name": "65_device_management",
+      "description": "This section describes the device management functions of the low-level CUDA driver application programming interface.   CUDA Driver API TRM-06703-001 _vRelease Version  |  100   Modules..."
+    },
+    {
+      "name": "66_device_management_deprecated",
+      "description": "This section describes the device management functions of the low-level CUDA driver application programming interface...."
+    },
+    {
+      "name": "67_primary_context_management",
+      "description": "This section describes the primary context management functions of the low-level CUDA driver application programming interface.  The primary context is unique per device and shared with the CUDA runti..."
+    },
+    {
+      "name": "68_context_management",
+      "description": "This section describes the context management functions of the low-level CUDA driver application programming interface.   CUDA Driver API TRM-06703-001 _vRelease Version  |  119   Modules   Please not..."
+    },
+    {
+      "name": "69_context_management_deprecated",
+      "description": "This section describes the deprecated context management functions of the low-level CUDA driver application programming interface.   CUDA Driver API TRM-06703-001 _vRelease Version  |  140   Modules..."
+    },
+    {
+      "name": "610_module_management",
+      "description": "This section describes the module management functions of the low-level CUDA driver application programming interface...."
+    },
+    {
+      "name": "611_module_management_deprecated",
+      "description": "This section describes the deprecated module management functions of the low-level CUDA driver application programming interface...."
+    },
+    {
+      "name": "612_library_management",
+      "description": "This section describes the library management functions of the low-level CUDA driver application programming interface.   CUDA Driver API TRM-06703-001 _vRelease Version  |  158   Modules..."
+    },
+    {
+      "name": "613_memory_management",
+      "description": "This section describes the memory management functions of the low-level CUDA driver application programming interface...."
+    },
+    {
+      "name": "614_virtual_memory_management",
+      "description": "This section describes the virtual memory management functions of the low-level CUDA driver application programming interface...."
+    },
+    {
+      "name": "615_stream_ordered_memory_allocator",
+      "description": "This section describes the stream ordered memory allocator exposed by the low-level CUDA driver application programming interface.  overview  The asynchronous allocator allows the user to allocate and..."
+    },
+    {
+      "name": "616_multicast_object_management",
+      "description": "This section describes the CUDA multicast object operations exposed by the low-level CUDA driver application programming interface.  overview  A multicast object created via cuMulticastCreate enables ..."
+    },
+    {
+      "name": "617_unified_addressing",
+      "description": "This section describes the unified addressing functions of the low-level CUDA driver application programming interface.  Overview  CUDA devices can share a unified address space with the host. For the..."
+    },
+    {
+      "name": "618_stream_management",
+      "description": "This section describes the stream management functions of the low-level CUDA driver application programming interface...."
+    },
+    {
+      "name": "619_event_management",
+      "description": "This section describes the event management functions of the low-level CUDA driver application programming interface...."
+    },
+    {
+      "name": "620_external_resource_interoperability",
+      "description": "This section describes the external resource interoperability functions of the low-level CUDA driver application programming interface...."
+    },
+    {
+      "name": "621_stream_memory_operations",
+      "description": "This section describes the stream memory operations of the low-level CUDA driver application programming interface.  Support for the CU_STREAM_WAIT_VALUE_NOR flag can be queried with CU_DEVICE_ATTRIBU..."
+    },
+    {
+      "name": "622_execution_control",
+      "description": "This section describes the execution control functions of the low-level CUDA driver application programming interface.   CUDA Driver API TRM-06703-001 _vRelease Version  |  381   Modules..."
+    },
+    {
+      "name": "623_execution_control_deprecated",
+      "description": "This section describes the deprecated execution control functions of the low-level CUDA driver application programming interface.   CUDA Driver API TRM-06703-001 _vRelease Version  |  403   Modules..."
+    },
+    {
+      "name": "624_graph_management",
+      "description": "This section describes the graph management functions of the low-level CUDA driver application programming interface...."
+    },
+    {
+      "name": "625_occupancy",
+      "description": "This section describes the occupancy calculation functions of the low-level CUDA driver application programming interface...."
+    },
+    {
+      "name": "626_texture_reference_management_deprecated",
+      "description": "This section describes the deprecated texture reference management functions of the low-level CUDA driver application programming interface...."
+    },
+    {
+      "name": "627_surface_reference_management_deprecated",
+      "description": "This section describes the surface reference management functions of the low-level CUDA driver application programming interface...."
+    },
+    {
+      "name": "628_texture_object_management",
+      "description": "This section describes the texture object management functions of the low-level CUDA driver application programming interface. The texture object API is only supported on devices of compute capability..."
+    },
+    {
+      "name": "629_surface_object_management",
+      "description": "This section describes the surface object management functions of the low-level CUDA driver application programming interface. The surface object API is only supported on devices of compute capability..."
+    },
+    {
+      "name": "630_tensor_map_object_managment",
+      "description": "This section describes the tensor map object management functions of the low-level CUDA driver application programming interface. The tensor core API is only supported on devices of compute capability..."
+    },
+    {
+      "name": "631_peer_context_memory_access",
+      "description": "This section describes the direct peer context memory access functions of the low-level CUDA driver application programming interface...."
+    },
+    {
+      "name": "632_graphics_interoperability",
+      "description": "This section describes the graphics interoperability functions of the low-level CUDA driver application programming interface...."
+    },
+    {
+      "name": "633_driver_entry_point_access",
+      "description": "This section describes the driver entry point access functions of the low-level CUDA driver application programming interface.   CUDA Driver API TRM-06703-001 _vRelease Version  |  562   Modules..."
+    },
+    {
+      "name": "634_coredump_attributes_control_api",
+      "description": "This section describes the coredump attribute control functions of the low-level CUDA driver application programming interface...."
+    },
+    {
+      "name": "635_green_contexts",
+      "description": "This section describes the APIs for creation and manipulation of green contexts in the CUDA driver. Green contexts are a lightweight alternative to traditional contexts, that can be used to select a s..."
+    },
+    {
+      "name": "636_error_log_management_functions",
+      "description": "This section describes the error log management functions of the low-level CUDA driver application programming interface...."
+    },
+    {
+      "name": "637_cuda_checkpointing",
+      "description": "CUDA API versioning support  This sections describes the checkpoint and restore functions of the low-level CUDA driver application programming interface.  The CUDA checkpoint and restore API's provide..."
+    },
+    {
+      "name": "638_profiler_control_deprecated",
+      "description": "This section describes the profiler control functions of the low-level CUDA driver application programming interface...."
+    },
+    {
+      "name": "639_profiler_control",
+      "description": "This section describes the profiler control functions of the low-level CUDA driver application programming interface...."
+    },
+    {
+      "name": "640_opengl_interoperability",
+      "description": "This section describes the OpenGL interoperability functions of the low-level CUDA driver application programming interface. Note that mapping of OpenGL resources is performed with the graphics API ag..."
+    },
+    {
+      "name": "641_direct3d_9_interoperability",
+      "description": "This section describes the Direct3D 9 interoperability functions of the low-level CUDA driver application programming interface. Note that mapping of Direct3D 9 resources is performed with the graphic..."
+    },
+    {
+      "name": "642_direct3d_10_interoperability",
+      "description": "This section describes the Direct3D 10 interoperability functions of the low-level CUDA driver application programming interface. Note that mapping of Direct3D 10 resources is performed with the graph..."
+    },
+    {
+      "name": "643_direct3d_11_interoperability",
+      "description": "This section describes the Direct3D 11 interoperability functions of the low-level CUDA driver application programming interface. Note that mapping of Direct3D 11 resources is performed with the graph..."
+    },
+    {
+      "name": "644_vdpau_interoperability",
+      "description": "This section describes the VDPAU interoperability functions of the low-level CUDA driver application programming interface...."
+    },
+    {
+      "name": "645_egl_interoperability",
+      "description": "This section describes the EGL interoperability functions of the low-level CUDA driver application programming interface.   CUDA Driver API TRM-06703-001 _vRelease Version  |  659   Modules..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Error Handling...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Initialization...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Version Management...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Device Management...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Device Management [DEPRECATED]...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Primary Context Management...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Context Management...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Context Management [DEPRECATED]...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Module Management...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Module Management [DEPRECATED]...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Library Management...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Memory Management...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Virtual Memory Management...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Stream Ordered Memory Allocator...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Multicast Object Management...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Unified Addressing...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Stream Management...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Event Management...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "External Resource Interoperability...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Stream Memory Operations...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Execution Control...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Execution Control [DEPRECATED]...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Graph Management...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Occupancy...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Texture Reference Management [DEPRECATED]...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA Driver API TRM-06703-001 _vRelease Version  |  9   Modules   Surface Reference Management [DEPRECATED]...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Texture Object Management...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Surface Object Management...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Tensor Map Object Managment...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Peer Context Memory Access...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Graphics Interoperability...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Driver Entry Point Access...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Coredump Attributes Control API...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Green Contexts...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Error Log Management Functions...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA Checkpointing...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Profiler Control [DEPRECATED]...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Profiler Control...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "OpenGL Interoperability...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "OpenGL Interoperability [DEPRECATED]...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Direct3D 9 Interoperability...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Direct3D 9 Interoperability [DEPRECATED]...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Direct3D 10 Interoperability...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Direct3D 10 Interoperability [DEPRECATED]...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Direct3D 11 Interoperability...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Direct3D 11 Interoperability [DEPRECATED]...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "VDPAU Interoperability...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "EGL Interoperability...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Documentation for **\u2023**",
+      "filename": "section_83bd8fcd.md"
+    }
+  ]
+}

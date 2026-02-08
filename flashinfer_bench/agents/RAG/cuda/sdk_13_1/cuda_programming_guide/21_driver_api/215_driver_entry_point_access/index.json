@@ -1,0 +1,54 @@
+{
+  "description": "Documentation for 21.5. Driver Entry Point Access",
+  "directories": [
+    {
+      "name": "2153_driver_function_retrieval",
+      "description": "### 21.5.3. Driver Function Retrieval[\uf0c1](#driver-function-retrieval \"Permalink to this headline\")  Using the Driver Entry Point Access APIs and the appropriate typedef, we can get the function pointer..."
+    },
+    {
+      "name": "2154_guidelines_for_cugetprocaddress",
+      "description": "### 21.5.4. Guidelines for cuGetProcAddress[\uf0c1](#guidelines-for-cugetprocaddress \"Permalink to this headline\")  Below are guidelines to keep in mind when using `cuGetProcAddress`.  * Code the CUDA vers..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "2151_introduction",
+      "title": "21.5.1. Introduction",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 21.5.1. Introduction[\uf0c1](#introduction-driver-entry-point-access \"Permalink to this headline\")  The `Driver Entry Point Access APIs` provide a way to retrieve the address of a CUDA driver function....",
+      "filename": "2151_introduction.md"
+    },
+    {
+      "id": "2152_driver_function_typedefs",
+      "title": "21.5.2. Driver Function Typedefs",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 21.5.2. Driver Function Typedefs[\uf0c1](#driver-function-typedefs \"Permalink to this headline\")  To help retrieve the CUDA Driver API entry points, the CUDA Toolkit provides access to headers containi...",
+      "filename": "2152_driver_function_typedefs.md"
+    },
+    {
+      "id": "2155_determining_cugetprocaddress_failure_reasons",
+      "title": "21.5.5. Determining cuGetProcAddress Failure Reasons",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 21.5.5. Determining cuGetProcAddress Failure Reasons[\uf0c1](#determining-cugetprocaddress-failure-reasons \"Permalink to this headline\")  There are two types of errors with cuGetProcAddress. Those are ...",
+      "filename": "2155_determining_cugetprocaddress_failure_reasons.md"
+    }
+  ]
+}

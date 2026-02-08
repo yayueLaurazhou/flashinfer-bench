@@ -1,0 +1,60 @@
+{
+  "description": "Documentation for 5.2. Types",
+  "directories": [
+    {
+      "name": "525_packed_data_types",
+      "description": "Certain PTX instructions operate on two or more sets of inputs in parallel, and produce two or more outputs. Such instructions can use the data stored in a packed format. PTX supports packing two or four values of the same scalar data type into a single, larger value. The packed value is consider..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "521_fundamental_types",
+      "title": "5.2.1. Fundamental Types",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "In PTX, the fundamental types reflect the native data types supported by the target architectures. A fundamental type specifies both a basic type and a size. Register variables are always of a fundamental type, and instructions operate on these types. The same type-size specifiers are used for bo...",
+      "filename": "521_fundamental_types.md"
+    },
+    {
+      "id": "522_restricted_use_of_sub_word_sizes",
+      "title": "5.2.2. Restricted Use of Sub-Word Sizes",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "The `.u8`, `.s8`, and `.b8` instruction types are restricted to `ld`, `st`, and `cvt` instructions. The `.f16` floating-point type is allowed only in conversions to and from `.f32`, `.f64` types, in half precision floating point instructions and texture fetch instructions. The `.f16x2` floating p...",
+      "filename": "522_restricted_use_of_sub_word_sizes.md"
+    },
+    {
+      "id": "523_alternate_floating_point_data_formats",
+      "title": "5.2.3. Alternate Floating-Point Data Formats",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "The fundamental floating-point types supported in PTX have implicit bit representations that indicate the number of bits used to store exponent and mantissa. For example, the `.f16` type indicates 5 bits reserved for exponent and 10 bits reserved for mantissa. In addition to the floating-point re...",
+      "filename": "523_alternate_floating_point_data_formats.md"
+    },
+    {
+      "id": "524_fixed_point_data_format",
+      "title": "5.2.4. Fixed-point Data format",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "PTX supports following fixed-point data formats:",
+      "filename": "524_fixed_point_data_format.md"
+    }
+  ]
+}

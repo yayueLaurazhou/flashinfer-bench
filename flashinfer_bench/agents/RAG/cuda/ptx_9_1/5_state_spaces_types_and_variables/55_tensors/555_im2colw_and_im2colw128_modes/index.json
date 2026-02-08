@@ -1,0 +1,55 @@
+{
+  "description": "Documentation for 5.5.5. im2col::w and im2col::w::128 modes",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "These modes are similar to the im2col mode with the restriction that elements are accessed across the `W` dimension only while keeping the `H` and `D` dimension constant."
+    },
+    {
+      "id": "5551_bounding_box",
+      "title": "5.5.5.1. Bounding Box",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "In these modes, the size of the bounding box in `D` and `H` dimensions are 1.",
+      "filename": "5551_bounding_box.md"
+    },
+    {
+      "id": "5552_traversal_stride",
+      "title": "5.5.5.2. Traversal Stride",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "This is similar to im2col mode with the exception of that the number of elements traversed along only the `W` dimension is strided by the traversal stride as specified in the TensorMap.",
+      "filename": "5552_traversal_stride.md"
+    },
+    {
+      "id": "5553_whalo",
+      "title": "5.5.5.3. wHalo",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "In `im2col::w` mode, the `wHalo` argument in the PTX instruction specifies how many filter halo elements must be loaded at the end of the image.",
+      "filename": "5553_whalo.md"
+    },
+    {
+      "id": "5554_woffset",
+      "title": "5.5.5.4. wOffset",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "In the convolution calculations, the same elements along the `W` dimension are reused for different locations within the convolution filter footprint. Based on the number of times a pixel is used, the pixels may be loaded into different shared memory buffers. Each buffer can be loaded by a separa...",
+      "filename": "5554_woffset.md"
+    }
+  ]
+}

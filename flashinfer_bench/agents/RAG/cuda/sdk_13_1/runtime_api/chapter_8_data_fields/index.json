@@ -1,0 +1,255 @@
+{
+  "description": "Documentation for Chapter 8. Data Fields",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "a",
+      "title": "A",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "**accessDescCount**    cudaMemAllocNodeParams cudaMemAllocNodeParamsV2 **accessDescs**  cudaMemAllocNodeParamsV2 cudaMemAllocNodeParams **accessPolicyMaxWindowSize**    cudaDeviceProp **accessPolicyWi...",
+      "filename": "a.md"
+    },
+    {
+      "id": "b",
+      "title": "B",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "**base_ptr**  cudaAccessPolicyWindow   CUDA Runtime API vRelease Version  |  648   Data Fields    **binaryVersion**    cudaFuncAttributes **blockDim**    cudaKernelNodeParamsV2 cudaLaunchConfig_t cuda...",
+      "filename": "b.md"
+    },
+    {
+      "id": "c",
+      "title": "C",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "**cacheModeCA**    cudaFuncAttributes **canMapHostMemory**    cudaDeviceProp **canUseHostPointerForRegisteredMem**    cudaDeviceProp **channelDesc**    cudaEglPlaneDesc **clusterDim**    cudaLaunchAtt...",
+      "filename": "c.md"
+    },
+    {
+      "id": "d",
+      "title": "D",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "**default_**    cudaLaunchMemSyncDomainMap **deferredMappingCudaArraySupported**    cudaDeviceProp **depth**    cudaArraySparseProperties cudaExtent cudaEglPlaneDesc cudaResourceViewDesc **desc**    c...",
+      "filename": "d.md"
+    },
+    {
+      "id": "e",
+      "title": "E",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "**ECCEnabled**    cudaDeviceProp **eglColorFormat**    cudaEglFrame **elementSize**    cudaMemsetParamsV2 cudaMemsetParams **errNode_out**    cudaGraphInstantiateParams **errorFromNode**    cudaGraphE...",
+      "filename": "e.md"
+    },
+    {
+      "id": "f",
+      "title": "F",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "**f**    cudaChannelFormatDesc **fd**    cudaExternalMemoryHandleDesc cudaExternalSemaphoreHandleDesc **fence**    cudaExternalSemaphoreSignalParams cudaExternalSemaphoreWaitParams **field**    cudaGr...",
+      "filename": "f.md"
+    },
+    {
+      "id": "g",
+      "title": "G",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "**globalL1CacheSupported**    cudaDeviceProp **gpuDirectRDMAFlushWritesOptions**    cudaDeviceProp **gpuDirectRDMASupported**    cudaDeviceProp **gpuDirectRDMAWritesOrdering**    cudaDeviceProp **gpuP...",
+      "filename": "g.md"
+    },
+    {
+      "id": "h",
+      "title": "H",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "**handle**    cudaExternalMemoryHandleDesc cudaExternalSemaphoreHandleDesc cudaConditionalNodeParams **handleTypes**    cudaMemPoolProps **height**    cudaMemsetParams cudaMemsetParamsV2 cudaEglPlaneD...",
+      "filename": "h.md"
+    },
+    {
+      "id": "i",
+      "title": "I",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "**id**    cudaMemLocation    CUDA Runtime API vRelease Version  |  654   Data Fields    cudaLaunchAttribute **info**    cudaAsyncNotificationInfo_t **integrated**    cudaDeviceProp **ipcEventSupported...",
+      "filename": "i.md"
+    },
+    {
+      "id": "k",
+      "title": "K",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "**kernel**    cudaGraphNodeParams **kernelParams**    cudaKernelNodeParams cudaKernelNodeParamsV2 **key**    cudaExternalSemaphoreWaitParams **keyedMutex**    cudaExternalSemaphoreSignalParams cudaExt...",
+      "filename": "k.md"
+    },
+    {
+      "id": "l",
+      "title": "L",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "**l2CacheSize**    cudaDeviceProp **lastLayer**    cudaResourceViewDesc **lastMipmapLevel**  cudaResourceViewDesc **launchCompletionEvent**    cudaLaunchAttributeValue **layerHeight**    cudaMemcpy3DO...",
+      "filename": "l.md"
+    },
+    {
+      "id": "m",
+      "title": "M",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "**major**    cudaDeviceProp **managedMemory**  cudaDeviceProp **maxAnisotropy**    cudaTextureDesc **maxBlocksPerMultiProcessor**  cudaDeviceProp **maxDynamicSharedSizeBytes**    cudaFuncAttributes **...",
+      "filename": "m.md"
+    },
+    {
+      "id": "n",
+      "title": "N",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "**name**    cudaDeviceProp cudaExternalMemoryHandleDesc cudaExternalSemaphoreHandleDesc **node**    cudaGraphKernelNodeUpdate **nonPortableClusterSizeAllowed**    cudaFuncAttributes **normalizedCoords...",
+      "filename": "n.md"
+    },
+    {
+      "id": "o",
+      "title": "O",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "**offset**    cudaExternalMemoryBufferDesc cudaExternalMemoryMipmappedArrayDesc cudaGraphKernelNodeUpdate **overBudget**    cudaAsyncNotificationInfo_t **ownership**    cudaChildGraphNodeParams...",
+      "filename": "o.md"
+    },
+    {
+      "id": "p",
+      "title": "P",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "**pageableMemoryAccess**    cudaDeviceProp **pageableMemoryAccessUsesHostPageTables**    cudaDeviceProp **param**    cudaGraphKernelNodeUpdate **paramsArray**    cudaExternalSemaphoreSignalNodeParams ...",
+      "filename": "p.md"
+    },
+    {
+      "id": "r",
+      "title": "R",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "**readMode**    cudaTextureDesc **regsPerBlock**    cudaDeviceProp **regsPerMultiprocessor**    cudaDeviceProp **remote**    cudaLaunchMemSyncDomainMap **requiredClusterWidth**    cudaFuncAttributes *...",
+      "filename": "r.md"
+    },
+    {
+      "id": "s",
+      "title": "S",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "**seamlessCubemap**    cudaTextureDesc **sharedMemBytes**    cudaKernelNodeParams cudaKernelNodeParamsV2 **sharedMemCarveout**  cudaLaunchAttributeValue **sharedMemPerBlock**    cudaDeviceProp **share...",
+      "filename": "s.md"
+    },
+    {
+      "id": "t",
+      "title": "T",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "**tccDriver**    cudaDeviceProp **textureAlignment**    cudaDeviceProp **texturePitchAlignment**    cudaDeviceProp **timelineSemaphoreInteropSupported**    cudaDeviceProp **timeoutMs**    cudaExternal...",
+      "filename": "t.md"
+    },
+    {
+      "id": "u",
+      "title": "U",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "**unifiedAddressing**    cudaDeviceProp **unifiedFunctionPointers**    cudaDeviceProp **updateData**    cudaGraphKernelNodeUpdate **uploadStream**    cudaGraphInstantiateParams **usage**    cudaMemPoo...",
+      "filename": "u.md"
+    },
+    {
+      "id": "v",
+      "title": "V",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "**val**    cudaLaunchAttribute **value**    cudaExternalSemaphoreWaitParams cudaExternalSemaphoreSignalParams cudaMemsetParamsV2 cudaMemsetParams...",
+      "filename": "v.md"
+    },
+    {
+      "id": "w",
+      "title": "W",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "**w**    cudaChannelFormatDesc **warpSize**    cudaDeviceProp **width**    cudaArraySparseProperties cudaResourceDesc cudaResourceViewDesc cudaExtent cudaEglPlaneDesc cudaMemsetParams cudaMemsetParams...",
+      "filename": "w.md"
+    },
+    {
+      "id": "x",
+      "title": "X",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "**x**    cudaChannelFormatDesc cudaPos **xsize**    cudaPitchedPtr...",
+      "filename": "x.md"
+    },
+    {
+      "id": "y",
+      "title": "Y",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "**y**    cudaChannelFormatDesc cudaPos **ysize**    cudaPitchedPtr...",
+      "filename": "y.md"
+    },
+    {
+      "id": "z",
+      "title": "Z",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "**z**    cudaChannelFormatDesc cudaPos    CUDA Runtime API vRelease Version  |  665...",
+      "filename": "z.md"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "description": "Documentation for 20.5. Compute Capability 6.x",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "2051_architecture",
+      "title": "20.5.1. Architecture",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 20.5.1. Architecture[\uf0c1](#architecture-6-x \"Permalink to this headline\")  An SM consists of:  * 64 (compute capability 6.0) or 128 (6.1 and 6.2) CUDA cores for arithmetic operations, * 16 (6.0) or ...",
+      "filename": "2051_architecture.md"
+    },
+    {
+      "id": "2052_global_memory",
+      "title": "20.5.2. Global Memory",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 20.5.2. Global Memory[\uf0c1](#global-memory-6-x \"Permalink to this headline\")  Global memory behaves the same way as in devices of compute capability 5.x (See [Global Memory](#global-memory-5-x))....",
+      "filename": "2052_global_memory.md"
+    },
+    {
+      "id": "2053_shared_memory",
+      "title": "20.5.3. Shared Memory",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 20.5.3. Shared Memory[\uf0c1](#shared-memory-6-x \"Permalink to this headline\")  Shared memory behaves the same way as in devices of compute capability 5.x (See [Shared Memory](#shared-memory-5-x))....",
+      "filename": "2053_shared_memory.md"
+    }
+  ]
+}

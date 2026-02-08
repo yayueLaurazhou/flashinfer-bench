@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 7.66. CUlaunchAttribute Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "culaunchattributeid_culaunchattributeid",
+      "title": "CUlaunchAttributeID CUlaunchAttribute::id",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Attribute to set...",
+      "filename": "culaunchattributeid_culaunchattributeid.md"
+    },
+    {
+      "id": "culaunchattributevalue",
+      "title": "CUlaunchAttribute::value",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Value of the attribute...",
+      "filename": "culaunchattributevalue.md"
+    }
+  ]
+}

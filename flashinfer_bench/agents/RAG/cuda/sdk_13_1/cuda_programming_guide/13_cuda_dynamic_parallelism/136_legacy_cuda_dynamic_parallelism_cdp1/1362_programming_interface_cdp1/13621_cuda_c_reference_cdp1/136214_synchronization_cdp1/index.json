@@ -1,0 +1,25 @@
+{
+  "description": "Documentation for 13.6.2.1.4. Synchronization (CDP1)",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "1362141_block_wide_synchronization_cdp1",
+      "title": "13.6.2.1.4.1. Block Wide Synchronization (CDP1)",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "###### 13.6.2.1.4.1. Block Wide Synchronization (CDP1)[\uf0c1](#block-wide-synchronization-cdp1 \"Permalink to this headline\")  See [CUDA Dynamic Parallelism](#cuda-dynamic-parallelism), above, for CDP2 ver...",
+      "filename": "1362141_block_wide_synchronization_cdp1.md"
+    }
+  ]
+}

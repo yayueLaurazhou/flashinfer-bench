@@ -1,0 +1,534 @@
+{
+  "description": "Documentation for Chapter 6. Modules",
+  "directories": [
+    {
+      "name": "61_device_management",
+      "description": "This section describes the device management functions of the CUDA runtime application programming interface...."
+    },
+    {
+      "name": "62_device_management_deprecated",
+      "description": "This section describes the deprecated device management functions of the CUDA runtime application programming interface.   CUDA Runtime API vRelease Version  |  43   Modules..."
+    },
+    {
+      "name": "63_error_handling",
+      "description": "This section describes the error handling functions of the CUDA runtime application programming interface...."
+    },
+    {
+      "name": "64_stream_management",
+      "description": "This section describes the stream management functions of the CUDA runtime application programming interface...."
+    },
+    {
+      "name": "65_event_management",
+      "description": "This section describes the event management functions of the CUDA runtime application programming interface...."
+    },
+    {
+      "name": "66_external_resource_interoperability",
+      "description": "This section describes the external resource interoperability functions of the CUDA runtime application programming interface...."
+    },
+    {
+      "name": "67_execution_control",
+      "description": "This section describes the execution control functions of the CUDA runtime application programming interface.  Some functions have overloaded C++ API template versions documented separately in the C++..."
+    },
+    {
+      "name": "68_execution_control_deprecated",
+      "description": "This section describes the deprecated execution control functions of the CUDA runtime application programming interface.  Some functions have overloaded C++ API template versions documented separately..."
+    },
+    {
+      "name": "69_occupancy",
+      "description": "This section describes the occupancy calculation functions of the CUDA runtime application programming interface.  Besides the occupancy calculator functions (cudaOccupancyMaxActiveBlocksPerMultiproce..."
+    },
+    {
+      "name": "610_memory_management",
+      "description": "This section describes the memory management functions of the CUDA runtime application programming interface.  Some functions have overloaded C++ API template versions documented separately in the C++..."
+    },
+    {
+      "name": "611_memory_management_deprecated",
+      "description": "This section describes deprecated memory management functions of the CUDA runtime application programming interface.  Some functions have overloaded C++ API template versions documented separately in ..."
+    },
+    {
+      "name": "612_stream_ordered_memory_allocator",
+      "description": "overview  The asynchronous allocator allows the user to allocate and free in stream order. All asynchronous accesses of the allocation must happen between the stream executions of the allocation and t..."
+    },
+    {
+      "name": "613_unified_addressing",
+      "description": "This section describes the unified addressing functions of the CUDA runtime application programming interface.  Overview  CUDA devices can share a unified address space with the host. For these device..."
+    },
+    {
+      "name": "614_peer_device_memory_access",
+      "description": "This section describes the peer device memory access functions of the CUDA runtime application programming interface.   CUDA Runtime API vRelease Version  |  228   Modules..."
+    },
+    {
+      "name": "615_opengl_interoperability",
+      "description": "This section describes the OpenGL interoperability functions of the CUDA runtime application programming interface. Note that mapping of OpenGL resources is performed with the graphics API agnostic, r..."
+    },
+    {
+      "name": "616_opengl_interoperability_deprecated",
+      "description": "This section describes deprecated OpenGL interoperability functionality...."
+    },
+    {
+      "name": "617_direct3d_9_interoperability",
+      "description": "This section describes the Direct3D 9 interoperability functions of the CUDA runtime application programming interface. Note that mapping of Direct3D 9 resources is performed with the graphics API agn..."
+    },
+    {
+      "name": "618_direct3d_9_interoperability_deprecated",
+      "description": "This section describes deprecated Direct3D 9 interoperability functions...."
+    },
+    {
+      "name": "619_direct3d_10_interoperability",
+      "description": "This section describes the Direct3D 10 interoperability functions of the CUDA runtime application programming interface. Note that mapping of Direct3D 10 resources is performed with the graphics API a..."
+    },
+    {
+      "name": "620_direct3d_10_interoperability_deprecated",
+      "description": "This section describes deprecated Direct3D 10 interoperability functions...."
+    },
+    {
+      "name": "621_direct3d_11_interoperability",
+      "description": "This section describes the Direct3D 11 interoperability functions of the CUDA runtime application programming interface. Note that mapping of Direct3D 11 resources is performed with the graphics API a..."
+    },
+    {
+      "name": "622_direct3d_11_interoperability_deprecated",
+      "description": "This section describes deprecated Direct3D 11 interoperability functions...."
+    },
+    {
+      "name": "623_vdpau_interoperability",
+      "description": "This section describes the VDPAU interoperability functions of the CUDA runtime application programming interface...."
+    },
+    {
+      "name": "624_egl_interoperability",
+      "description": "This section describes the EGL interoperability functions of the CUDA runtime application programming interface...."
+    },
+    {
+      "name": "625_graphics_interoperability",
+      "description": "This section describes the graphics interoperability functions of the CUDA runtime application programming interface.   CUDA Runtime API vRelease Version  |  295   Modules..."
+    },
+    {
+      "name": "626_texture_object_management",
+      "description": "This section describes the low level texture object management functions of the CUDA runtime application programming interface. The texture object API is only supported on devices of compute capabilit..."
+    },
+    {
+      "name": "627_surface_object_management",
+      "description": "This section describes the low level texture object management functions of the CUDA runtime application programming interface. The surface object API is only supported on devices of compute capabilit..."
+    },
+    {
+      "name": "628_version_management",
+      "description": "Section covering 6.28. Version Management"
+    },
+    {
+      "name": "629_error_log_management_functions",
+      "description": "This section describes the error log management functions of the CUDA runtime application programming interface. The Error Log Management interface will operate on both the CUDA Driver and CUDA Runtim..."
+    },
+    {
+      "name": "630_graph_management",
+      "description": "This section describes the graph management functions of CUDA runtime application programming interface...."
+    },
+    {
+      "name": "631_driver_entry_point_access",
+      "description": "This section describes the driver entry point access functions of CUDA runtime application programming interface...."
+    },
+    {
+      "name": "632_library_management",
+      "description": "This section describes the library management functions of the CUDA runtime application programming interface...."
+    },
+    {
+      "name": "633_execution_context_management",
+      "description": "This section describes the execution context management functions of the CUDA runtime application programming interface.  Overview  A CUDA execution context cudaExecutionContext_t serves as an abstrac..."
+    },
+    {
+      "name": "634_c_api_routines",
+      "description": "C++-style interface built on top of CUDA runtime API.  This section describes the C++ high level API functions of the CUDA runtime application programming interface. To use these functions, your appli..."
+    },
+    {
+      "name": "635_interactions_with_the_cuda_driver_api",
+      "description": "This section describes the interactions between the CUDA Driver API and the CUDA Runtime API  Execution Contexts  The CUDA Runtime provides cudaExecutionContext_t as an abstraction over driver-level c..."
+    },
+    {
+      "name": "636_profiler_control",
+      "description": "This section describes the profiler control functions of the CUDA runtime application programming interface...."
+    },
+    {
+      "name": "637_data_types_used_by_cuda_runtime",
+      "description": "CUDA Runtime API vRelease Version  |  520   Modules..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Device Management [DEPRECATED]...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Error Handling...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Stream Management...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Event Management...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "External Resource Interoperability...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Execution Control...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Execution Control [DEPRECATED]...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Occupancy...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Memory Management...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Memory Management [DEPRECATED]...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Stream Ordered Memory Allocator...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Unified Addressing...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Peer Device Memory Access...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "OpenGL Interoperability...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "OpenGL Interoperability [DEPRECATED]...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Direct3D 9 Interoperability...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Direct3D 9 Interoperability [DEPRECATED]...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Direct3D 10 Interoperability...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Direct3D 10 Interoperability [DEPRECATED]...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Direct3D 11 Interoperability...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Direct3D 11 Interoperability [DEPRECATED]...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "VDPAU Interoperability...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "EGL Interoperability...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Graphics Interoperability...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Texture Object Management...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA Runtime API vRelease Version  |  9   Modules   Surface Object Management...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Version Management...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Error Log Management Functions...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Graph Management...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Driver Entry Point Access...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Library Management...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Execution Context Management...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "C++ API Routines...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Interactions with the CUDA Driver API...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Profiler Control...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Data types used by CUDA Runtime...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Documentation for **\u2023**",
+      "filename": "section_83bd8fcd.md"
+    }
+  ]
+}

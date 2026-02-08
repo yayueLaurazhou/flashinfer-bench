@@ -1,0 +1,85 @@
+{
+  "description": "Documentation for 7.59. cudaMemsetParamsV2 Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "cudaexecutioncontext_t_cudamemsetparamsv2ctx",
+      "title": "cudaExecutionContext_t cudaMemsetParamsV2::ctx",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Context in which to run the memset. If NULL will try to use the current context....",
+      "filename": "cudaexecutioncontext_t_cudamemsetparamsv2ctx.md"
+    },
+    {
+      "id": "void_cudamemsetparamsv2dst",
+      "title": "void *cudaMemsetParamsV2::dst",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Destination device pointer...",
+      "filename": "void_cudamemsetparamsv2dst.md"
+    },
+    {
+      "id": "unsigned_int_cudamemsetparamsv2elementsize",
+      "title": "unsigned int cudaMemsetParamsV2::elementSize",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Size of each element in bytes. Must be 1, 2, or 4....",
+      "filename": "unsigned_int_cudamemsetparamsv2elementsize.md"
+    },
+    {
+      "id": "size_t_cudamemsetparamsv2height",
+      "title": "size_t cudaMemsetParamsV2::height",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Number of rows...",
+      "filename": "size_t_cudamemsetparamsv2height.md"
+    },
+    {
+      "id": "size_t_cudamemsetparamsv2pitch",
+      "title": "size_t cudaMemsetParamsV2::pitch",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Pitch of destination device pointer. Unused if height is 1...",
+      "filename": "size_t_cudamemsetparamsv2pitch.md"
+    },
+    {
+      "id": "unsigned_int_cudamemsetparamsv2value",
+      "title": "unsigned int cudaMemsetParamsV2::value",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Value to be set   CUDA Runtime API vRelease Version  |  641   Data Structures...",
+      "filename": "unsigned_int_cudamemsetparamsv2value.md"
+    },
+    {
+      "id": "size_t_cudamemsetparamsv2width",
+      "title": "size_t cudaMemsetParamsV2::width",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Width of the row in elements...",
+      "filename": "size_t_cudamemsetparamsv2width.md"
+    }
+  ]
+}

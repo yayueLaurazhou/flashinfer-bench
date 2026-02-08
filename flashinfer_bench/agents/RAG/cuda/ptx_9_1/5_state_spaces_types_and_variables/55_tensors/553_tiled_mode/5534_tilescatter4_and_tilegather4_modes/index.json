@@ -1,0 +1,25 @@
+{
+  "description": "Documentation for 5.5.3.4. .tile::scatter4 and .tile::gather4 modes",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "These modes are similar to the tiled mode with restriction that these modes work only on 2D tensor data. `Tile::scatter4` and `Tile::gather4` modes are used to access multiple non-contiguous rows of tensor data."
+    },
+    {
+      "id": "55341_bounding_box",
+      "title": "5.5.3.4.1. Bounding Box",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "For `Tile::scatter4` and `Tile::gather4` modes, four request coordinates will form four Bounding Boxes in the tensor space.",
+      "filename": "55341_bounding_box.md"
+    }
+  ]
+}

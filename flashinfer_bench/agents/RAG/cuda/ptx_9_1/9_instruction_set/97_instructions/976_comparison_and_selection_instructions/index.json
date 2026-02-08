@@ -1,0 +1,55 @@
+{
+  "description": "Documentation for 9.7.6. Comparison and Selection Instructions",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "The comparison select instructions are:"
+    },
+    {
+      "id": "9761_comparison_and_selection_instructions_set",
+      "title": "9.7.6.1. Comparison and Selection Instructions: set",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`set`",
+      "filename": "9761_comparison_and_selection_instructions_set.md"
+    },
+    {
+      "id": "9762_comparison_and_selection_instructions_setp",
+      "title": "9.7.6.2. Comparison and Selection Instructions: setp",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`setp`",
+      "filename": "9762_comparison_and_selection_instructions_setp.md"
+    },
+    {
+      "id": "9763_comparison_and_selection_instructions_selp",
+      "title": "9.7.6.3. Comparison and Selection Instructions: selp",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`selp`",
+      "filename": "9763_comparison_and_selection_instructions_selp.md"
+    },
+    {
+      "id": "9764_comparison_and_selection_instructions_slct",
+      "title": "9.7.6.4. Comparison and Selection Instructions: slct",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`slct`",
+      "filename": "9764_comparison_and_selection_instructions_slct.md"
+    }
+  ]
+}

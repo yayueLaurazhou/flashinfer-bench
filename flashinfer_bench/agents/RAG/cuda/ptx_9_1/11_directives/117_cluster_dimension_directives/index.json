@@ -1,0 +1,45 @@
+{
+  "description": "Documentation for 11.7. Cluster Dimension Directives",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "The following directives specify information about clusters:"
+    },
+    {
+      "id": "1171_cluster_dimension_directives_reqnctapercluster",
+      "title": "11.7.1. Cluster Dimension Directives: .reqnctapercluster",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`.reqnctapercluster`",
+      "filename": "1171_cluster_dimension_directives_reqnctapercluster.md"
+    },
+    {
+      "id": "1172_cluster_dimension_directives_explicitcluster",
+      "title": "11.7.2. Cluster Dimension Directives: .explicitcluster",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`.explicitcluster`",
+      "filename": "1172_cluster_dimension_directives_explicitcluster.md"
+    },
+    {
+      "id": "1173_cluster_dimension_directives_maxclusterrank",
+      "title": "11.7.3. Cluster Dimension Directives: .maxclusterrank",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`.maxclusterrank`",
+      "filename": "1173_cluster_dimension_directives_maxclusterrank.md"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "description": "Documentation for 7.8. cudaConditionalNodeParams Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "cudaexecutioncontext_t_cudaconditionalnodeparamsctx",
+      "title": "cudaExecutionContext_t cudaConditionalNodeParams::ctx",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA Execution Context   CUDA Runtime API vRelease Version  |  594   Data Structures...",
+      "filename": "cudaexecutioncontext_t_cudaconditionalnodeparamsctx.md"
+    },
+    {
+      "id": "cudagraphconditionalhandle_cudaconditionalnodeparamshandle",
+      "title": "cudaGraphConditionalHandle cudaConditionalNodeParams::handle",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Conditional node handle. Handles must be created in advance of creating the node using cudaGraphConditionalHandleCreate....",
+      "filename": "cudagraphconditionalhandle_cudaconditionalnodeparamshandle.md"
+    },
+    {
+      "id": "cudagraph_t_cudaconditionalnodeparamsphgraph_out",
+      "title": "cudaGraph_t *cudaConditionalNodeParams::phGraph_out",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA-owned array populated with conditional node child graphs during creation of the node. Valid for the lifetime of the conditional node. The contents of the graph(s) are subject to the following con...",
+      "filename": "cudagraph_t_cudaconditionalnodeparamsphgraph_out.md"
+    },
+    {
+      "id": "unsigned_int_cudaconditionalnodeparamssize",
+      "title": "unsigned int cudaConditionalNodeParams::size",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Size of graph output array. Allowed values are 1 for cudaGraphCondTypeWhile, 1 or 2 for cudaGraphCondTypeIf, or any value greater than zero for cudaGraphCondTypeSwitch....",
+      "filename": "unsigned_int_cudaconditionalnodeparamssize.md"
+    },
+    {
+      "id": "enumcudagraphconditionalnodetype_cudaconditionalnodeparamstype",
+      "title": "enumcudaGraphConditionalNodeType cudaConditionalNodeParams::type",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Type of conditional node....",
+      "filename": "enumcudagraphconditionalnodetype_cudaconditionalnodeparamstype.md"
+    }
+  ]
+}

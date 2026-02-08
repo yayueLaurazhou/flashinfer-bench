@@ -1,0 +1,66 @@
+{
+  "description": "Documentation for 13.6.2.1. CUDA C++ Reference (CDP1)",
+  "directories": [
+    {
+      "name": "136211_device_side_kernel_launch_cdp1",
+      "description": "##### 13.6.2.1.1. Device-Side Kernel Launch (CDP1)[\uf0c1](#device-side-kernel-launch-cdp1 \"Permalink to this headline\")  See [Kernel Launch APIs](#id237), above, for CDP2 version of document.  Kernels may..."
+    },
+    {
+      "name": "136212_streams_cdp1",
+      "description": "##### 13.6.2.1.2. Streams (CDP1)[\uf0c1](#streams-cdp1 \"Permalink to this headline\")  See [Streams](#streams-cdp), above, for CDP2 version of document.  Both named and unnamed (NULL) streams are available ..."
+    },
+    {
+      "name": "136214_synchronization_cdp1",
+      "description": "##### 13.6.2.1.4. Synchronization (CDP1)[\uf0c1](#synchronization-programming-interface-cdp1 \"Permalink to this headline\")  See [Synchronization](#synchronization-programming-interface), above, for CDP2 ve..."
+    },
+    {
+      "name": "136216_memory_declarations_cdp1",
+      "description": "##### 13.6.2.1.6. Memory Declarations (CDP1)[\uf0c1](#memory-declarations-cdp1 \"Permalink to this headline\")  See [Memory Declarations](#memory-declarations), above, for CDP2 version of document...."
+    },
+    {
+      "name": "136217_api_errors_and_launch_failures_cdp1",
+      "description": "##### 13.6.2.1.7. API Errors and Launch Failures (CDP1)[\uf0c1](#api-errors-and-launch-failures-cdp1 \"Permalink to this headline\")  See [API Errors and Launch Failures](#api-errors-and-launch-failures), ab..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "136213_events_cdp1",
+      "title": "13.6.2.1.3. Events (CDP1)",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 13.6.2.1.3. Events (CDP1)[\uf0c1](#events-cdp1 \"Permalink to this headline\")  See [Events](#events-cdp), above, for CDP2 version of document.  Only the inter-stream synchronization capabilities of CU...",
+      "filename": "136213_events_cdp1.md"
+    },
+    {
+      "id": "136215_device_management_cdp1",
+      "title": "13.6.2.1.5. Device Management (CDP1)",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 13.6.2.1.5. Device Management (CDP1)[\uf0c1](#device-management-programming-cdp1 \"Permalink to this headline\")  See [Device Management](#device-management-programming), above, for CDP2 version of doc...",
+      "filename": "136215_device_management_cdp1.md"
+    },
+    {
+      "id": "136218_api_reference_cdp1",
+      "title": "13.6.2.1.8. API Reference (CDP1)",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 13.6.2.1.8. API Reference (CDP1)[\uf0c1](#api-reference-cdp1 \"Permalink to this headline\")  See [API Reference](#api-reference-cdp2), above, for CDP2 version of document.  The portions of the CUDA Ru...",
+      "filename": "136218_api_reference_cdp1.md"
+    }
+  ]
+}

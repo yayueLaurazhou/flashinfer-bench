@@ -1,0 +1,50 @@
+{
+  "description": "Documentation for 5.5.3. Tiled Mode",
+  "directories": [
+    {
+      "name": "5534_tilescatter4_and_tilegather4_modes",
+      "description": "These modes are similar to the tiled mode with restriction that these modes work only on 2D tensor data. `Tile::scatter4` and `Tile::gather4` modes are used to access multiple non-contiguous rows of tensor data."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "This section talks about how Tensor and Tensor access work in tiled mode."
+    },
+    {
+      "id": "5531_bounding_box",
+      "title": "5.5.3.1. Bounding Box",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "A tensor can be accessed in chunks known as *Bounding Box*. The Bounding Box has the same dimensionality as the tensor they are accessing into. Size of each bounding Box must be a multiple of 16 bytes. The address of the bounding Box must also be aligned to 16 bytes.",
+      "filename": "5531_bounding_box.md"
+    },
+    {
+      "id": "5532_traversal_stride",
+      "title": "5.5.3.2. Traversal-Stride",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "While the Bounding Box is iterating the tensor across a dimension, the traversal stride specifies the exact number of elements to be skipped. If no jump over is required, default value of 1 must be specified.",
+      "filename": "5532_traversal_stride.md"
+    },
+    {
+      "id": "5533_out_of_boundary_access",
+      "title": "5.5.3.3. Out of Boundary Access",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "PTX Tensor operation can detect and handle the case when the Bounding Box crosses the tensor boundary in any dimension. There are 2 modes:",
+      "filename": "5533_out_of_boundary_access.md"
+    }
+  ]
+}

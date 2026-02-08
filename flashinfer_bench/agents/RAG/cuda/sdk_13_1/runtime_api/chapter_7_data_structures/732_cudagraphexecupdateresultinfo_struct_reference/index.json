@@ -1,0 +1,45 @@
+{
+  "description": "Documentation for 7.32. cudaGraphExecUpdateResultInfo Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "cudagraphnode_t_cudagraphexecupdateresultinfoerrorfromnode",
+      "title": "cudaGraphNode_t cudaGraphExecUpdateResultInfo::errorFromNode",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "The from node of error edge when the topologies do not match. Otherwise NULL....",
+      "filename": "cudagraphnode_t_cudagraphexecupdateresultinfoerrorfromnode.md"
+    },
+    {
+      "id": "cudagraphnode_t_cudagraphexecupdateresultinfoerrornode",
+      "title": "cudaGraphNode_t cudaGraphExecUpdateResultInfo::errorNode",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "The \"to node\" of the error edge when the topologies do not match. The error node when the error is associated with a specific node. NULL when the error is generic....",
+      "filename": "cudagraphnode_t_cudagraphexecupdateresultinfoerrornode.md"
+    },
+    {
+      "id": "enumcudagraphexecupdateresult_cudagraphexecupdateresult_87b93db4",
+      "title": "enumcudaGraphExecUpdateResult cudaGraphExecUpdateResultInfo::result",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Gives more specific detail when a cuda graph update fails....",
+      "filename": "enumcudagraphexecupdateresult_cudagraphexecupdateresult_87b93db4.md"
+    }
+  ]
+}

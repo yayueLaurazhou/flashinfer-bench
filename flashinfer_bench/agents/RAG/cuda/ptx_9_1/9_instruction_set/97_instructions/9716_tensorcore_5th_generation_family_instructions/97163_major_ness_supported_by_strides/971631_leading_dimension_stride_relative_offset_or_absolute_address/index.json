@@ -1,0 +1,30 @@
+{
+  "description": "Documentation for 9.7.16.3.1. Leading Dimension Stride: relative offset or absolute address",
+  "directories": [
+    {
+      "name": "9716312_absolute_address_mode_for_k_dimension_being_48b",
+      "description": "The `tcgen05.mma` instruction with *K-dimension* of 48B would overflow the 128B shared memory boundary if the data is packed contiguously."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "There are two modes of Leading Dimension Strides as described below. Bit #52 in the [Shared memory descriptor](https://docs.nvidia.com/cuda/parallel-thread-execution/#tcgen05-shared-memory-descriptor) is used to distinguish between two modes."
+    },
+    {
+      "id": "9716311_relative_offset_mode",
+      "title": "9.7.16.3.1.1. Relative offset mode",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "In this mode, the leading dimension stride is specified as a relative byte offset between the columns as explained in the below table. The leading dimension stride can either be specified as a relative offset between the columns or as an absolute byte address of next buffer. The leading dimension...",
+      "filename": "9716311_relative_offset_mode.md"
+    }
+  ]
+}

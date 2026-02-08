@@ -1,0 +1,75 @@
+{
+  "description": "Documentation for 10.1. Function Execution Space Specifiers",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "1011___global__",
+      "title": "10.1.1. __global__",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.1.1. \\_\\_global\\_\\_[\uf0c1](#global \"Permalink to this headline\")  The `__global__` execution space specifier declares a function as being a kernel. Such a function is:  * Executed on the device, * ...",
+      "filename": "1011___global__.md"
+    },
+    {
+      "id": "1012___device__",
+      "title": "10.1.2. __device__",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.1.2. \\_\\_device\\_\\_[\uf0c1](#device \"Permalink to this headline\")  The `__device__` execution space specifier declares a function that is:  * Executed on the device, * Callable from the device only....",
+      "filename": "1012___device__.md"
+    },
+    {
+      "id": "1013___host__",
+      "title": "10.1.3. __host__",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.1.3. \\_\\_host\\_\\_[\uf0c1](#host \"Permalink to this headline\")  The `__host__` execution space specifier declares a function that is:  * Executed on the host, * Callable from the host only.  It is eq...",
+      "filename": "1013___host__.md"
+    },
+    {
+      "id": "1014_undefined_behavior",
+      "title": "10.1.4. Undefined behavior",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.1.4. Undefined behavior[\uf0c1](#undefined-behavior \"Permalink to this headline\")  A \u2018cross-execution space\u2019 call has undefined behavior when:  * `__CUDA_ARCH__` is defined, a call from within a `__...",
+      "filename": "1014_undefined_behavior.md"
+    },
+    {
+      "id": "1015___noinline___and___forceinline__",
+      "title": "10.1.5. __noinline__ and __forceinline__",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.1.5. \\_\\_noinline\\_\\_ and \\_\\_forceinline\\_\\_[\uf0c1](#noinline-and-forceinline \"Permalink to this headline\")  The compiler inlines any `__device__` function when deemed appropriate.  The `__noinlin...",
+      "filename": "1015___noinline___and___forceinline__.md"
+    },
+    {
+      "id": "1016___inline_hint__",
+      "title": "10.1.6. __inline_hint__",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.1.6. \\_\\_inline\\_hint\\_\\_[\uf0c1](#inline-hint \"Permalink to this headline\")  The `__inline_hint__` qualifier enables more aggressive inlining in the compiler. Unlike `__forceinline__`, it does not ...",
+      "filename": "1016___inline_hint__.md"
+    }
+  ]
+}

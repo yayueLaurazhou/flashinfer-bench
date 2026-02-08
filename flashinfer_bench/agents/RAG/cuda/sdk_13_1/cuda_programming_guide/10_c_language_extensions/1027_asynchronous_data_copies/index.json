@@ -1,0 +1,70 @@
+{
+  "description": "Documentation for 10.27. Asynchronous Data Copies",
+  "directories": [
+    {
+      "name": "10276_performance_guidance_for_memcpy_async",
+      "description": "### 10.27.6. Performance Guidance for `memcpy_async`[\uf0c1](#performance-guidance-for-memcpy-async \"Permalink to this headline\")  For compute capability 8.x, the pipeline mechanism is shared among CUDA th..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "10271_memcpy_async_api",
+      "title": "10.27.1. memcpy_async API",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.27.1. `memcpy_async` API[\uf0c1](#memcpy-async-api \"Permalink to this headline\")  The `memcpy_async` APIs are provided in the `cuda/barrier`, `cuda/pipeline`, and `cooperative_groups/memcpy_async.h`...",
+      "filename": "10271_memcpy_async_api.md"
+    },
+    {
+      "id": "10272_copy_and_compute_pattern_staging_data_through_shared_memory",
+      "title": "10.27.2. Copy and Compute Pattern - Staging Data Through Shared Memory",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.27.2. Copy and Compute Pattern - Staging Data Through Shared Memory[\uf0c1](#copy-and-compute-pattern-staging-data-through-shared-memory \"Permalink to this headline\")  CUDA applications often employ...",
+      "filename": "10272_copy_and_compute_pattern_staging_data_through_shared_memory.md"
+    },
+    {
+      "id": "10273_without_memcpy_async",
+      "title": "10.27.3. Without memcpy_async",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.27.3. Without `memcpy_async`[\uf0c1](#without-memcpy-async \"Permalink to this headline\")  Without `memcpy_async`, the *copy* phase of the *copy and compute* pattern is expressed as `shared[local_idx...",
+      "filename": "10273_without_memcpy_async.md"
+    },
+    {
+      "id": "10274_with_memcpy_async",
+      "title": "10.27.4. With memcpy_async",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.27.4. With `memcpy_async`[\uf0c1](#with-memcpy-async \"Permalink to this headline\")  With `memcpy_async`, the assignment of shared memory from global memory  ``` shared[local_idx] = global_in[global_...",
+      "filename": "10274_with_memcpy_async.md"
+    },
+    {
+      "id": "10275_asynchronous_data_copies_using_cudabarrier",
+      "title": "10.27.5. Asynchronous Data Copies using cuda::barrier",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.27.5. Asynchronous Data Copies using `cuda::barrier`[\uf0c1](#asynchronous-data-copies-using-cuda-barrier \"Permalink to this headline\")  The `cuda::memcpy_async` overload for [cuda::barrier](#aw-bar...",
+      "filename": "10275_asynchronous_data_copies_using_cudabarrier.md"
+    }
+  ]
+}

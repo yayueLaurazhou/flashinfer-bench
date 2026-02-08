@@ -1,0 +1,65 @@
+{
+  "description": "Documentation for 10.15. Address Space Predicate Functions",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "10151___isglobal",
+      "title": "10.15.1. __isGlobal()",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.15.1. \\_\\_isGlobal()[\uf0c1](#isglobal \"Permalink to this headline\")  ``` __device__ unsigned int __isGlobal(const void *ptr); ```  Returns 1 if `ptr` contains the generic address of an object in gl...",
+      "filename": "10151___isglobal.md"
+    },
+    {
+      "id": "10152___isshared",
+      "title": "10.15.2. __isShared()",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.15.2. \\_\\_isShared()[\uf0c1](#isshared \"Permalink to this headline\")  ``` __device__ unsigned int __isShared(const void *ptr); ```  Returns 1 if `ptr` contains the generic address of an object in sh...",
+      "filename": "10152___isshared.md"
+    },
+    {
+      "id": "10153___isconstant",
+      "title": "10.15.3. __isConstant()",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.15.3. \\_\\_isConstant()[\uf0c1](#isconstant \"Permalink to this headline\")  ``` __device__ unsigned int __isConstant(const void *ptr); ```  Returns 1 if `ptr` contains the generic address of an object...",
+      "filename": "10153___isconstant.md"
+    },
+    {
+      "id": "10154___isgridconstant",
+      "title": "10.15.4. __isGridConstant()",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.15.4. \\_\\_isGridConstant()[\uf0c1](#isgridconstant \"Permalink to this headline\")  ``` __device__ unsigned int __isGridConstant(const void *ptr); ```  Returns 1 if `ptr` contains the generic address ...",
+      "filename": "10154___isgridconstant.md"
+    },
+    {
+      "id": "10155___islocal",
+      "title": "10.15.5. __isLocal()",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.15.5. \\_\\_isLocal()[\uf0c1](#islocal \"Permalink to this headline\")  ``` __device__ unsigned int __isLocal(const void *ptr); ```  Returns 1 if `ptr` contains the generic address of an object in local...",
+      "filename": "10155___islocal.md"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "description": "Documentation for 6.21. Stream Memory Operations",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "curesult_custreambatchmemop_custream_stream_unsigned_in_5603e7ac",
+      "title": "CUresult cuStreamBatchMemOp (CUstream stream, unsigned int count, CUstreamBatchMemOpParams *paramArray, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Batch operations to synchronize the stream via memory operations....",
+      "filename": "curesult_custreambatchmemop_custream_stream_unsigned_in_5603e7ac.md"
+    },
+    {
+      "id": "curesult_custreamwaitvalue32_custream_stream_cudevicept_40a60738",
+      "title": "CUresult cuStreamWaitValue32 (CUstream stream, CUdeviceptr addr, cuuint32_t value, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Wait on a memory location....",
+      "filename": "curesult_custreamwaitvalue32_custream_stream_cudevicept_40a60738.md"
+    },
+    {
+      "id": "curesult_custreamwaitvalue64_custream_stream_cudevicept_58057bc9",
+      "title": "CUresult cuStreamWaitValue64 (CUstream stream, CUdeviceptr addr, cuuint64_t value, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Wait on a memory location....",
+      "filename": "curesult_custreamwaitvalue64_custream_stream_cudevicept_58057bc9.md"
+    },
+    {
+      "id": "curesult_custreamwritevalue32_custream_stream_cudevicep_a670b613",
+      "title": "CUresult cuStreamWriteValue32 (CUstream stream, CUdeviceptr addr, cuuint32_t value, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Write a value to memory....",
+      "filename": "curesult_custreamwritevalue32_custream_stream_cudevicep_a670b613.md"
+    },
+    {
+      "id": "curesult_custreamwritevalue64_custream_stream_cudevicep_de27409b",
+      "title": "CUresult cuStreamWriteValue64 (CUstream stream, CUdeviceptr addr, cuuint64_t value, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Write a value to memory....",
+      "filename": "curesult_custreamwritevalue64_custream_stream_cudevicep_de27409b.md"
+    }
+  ]
+}

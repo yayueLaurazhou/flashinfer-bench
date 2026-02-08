@@ -1,0 +1,75 @@
+{
+  "description": "Documentation for 7.22. cudaExternalMemoryMipmappedArrayDesc Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "struct_cudaextent_cudaexternalmemorymipmappedarraydescextent",
+      "title": "struct cudaExtent cudaExternalMemoryMipmappedArrayDesc::extent",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Dimensions of base level of the mipmap chain...",
+      "filename": "struct_cudaextent_cudaexternalmemorymipmappedarraydescextent.md"
+    },
+    {
+      "id": "unsigned_int_cudaexternalmemorymipmappedarraydescflags",
+      "title": "unsigned int cudaExternalMemoryMipmappedArrayDesc::flags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Flags associated with CUDA mipmapped arrays. See cudaMallocMipmappedArray...",
+      "filename": "unsigned_int_cudaexternalmemorymipmappedarraydescflags.md"
+    },
+    {
+      "id": "struct_cudachannelformatdesc_cudaexternalmemorymipmappe_6a5673cd",
+      "title": "struct cudaChannelFormatDesc cudaExternalMemoryMipmappedArrayDesc::formatDesc",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Format of base level of the mipmap chain   CUDA Runtime API vRelease Version  |  612   Data Structures...",
+      "filename": "struct_cudachannelformatdesc_cudaexternalmemorymipmappe_6a5673cd.md"
+    },
+    {
+      "id": "unsigned_int_cudaexternalmemorymipmappedarraydescnumlevels",
+      "title": "unsigned int cudaExternalMemoryMipmappedArrayDesc::numLevels",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Total number of levels in the mipmap chain...",
+      "filename": "unsigned_int_cudaexternalmemorymipmappedarraydescnumlevels.md"
+    },
+    {
+      "id": "unsigned_long_long_cudaexternalmemorymipmappedarraydescoffset",
+      "title": "unsigned long long cudaExternalMemoryMipmappedArrayDesc::offset",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Offset into the memory object where the base level of the mipmap chain is....",
+      "filename": "unsigned_long_long_cudaexternalmemorymipmappedarraydescoffset.md"
+    },
+    {
+      "id": "unsigned_int_cudaexternalmemorymipmappedarraydescreserved",
+      "title": "unsigned int cudaExternalMemoryMipmappedArrayDesc::reserved",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Must be zero...",
+      "filename": "unsigned_int_cudaexternalmemorymipmappedarraydescreserved.md"
+    }
+  ]
+}

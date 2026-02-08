@@ -1,0 +1,25 @@
+{
+  "description": "Documentation for 7.9. CUcheckpointUnlockArgs Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "cuuint64_t_cucheckpointunlockargsreserved",
+      "title": "cuuint64_t CUcheckpointUnlockArgs::reserved",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Reserved for future use, must be zeroed   CUDA Driver API TRM-06703-001 _vRelease Version  |  677   Data Structures...",
+      "filename": "cuuint64_t_cucheckpointunlockargsreserved.md"
+    }
+  ]
+}

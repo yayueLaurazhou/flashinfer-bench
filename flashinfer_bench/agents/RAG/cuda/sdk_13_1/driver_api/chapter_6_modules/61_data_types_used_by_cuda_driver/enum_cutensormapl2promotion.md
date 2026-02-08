@@ -1,0 +1,10 @@
+# enum CUtensorMapL2promotion
+
+Tensor map L2 promotion type
+
+###### Values
+
+**CU_TENSOR_MAP_L2_PROMOTION_NONE = 0**
+**CU_TENSOR_MAP_L2_PROMOTION_L2_64B**
+**CU_TENSOR_MAP_L2_PROMOTION_L2_128B**
+**CU_TENSOR_MAP_L2_PROMOTION_L2_256B**

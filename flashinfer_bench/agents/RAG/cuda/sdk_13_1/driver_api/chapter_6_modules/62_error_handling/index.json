@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 6.2. Error Handling",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "curesult_cugeterrorname_curesult_error_const_char_pstr",
+      "title": "CUresult cuGetErrorName (CUresult error, const char **pStr)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Gets the string representation of an error code enum name....",
+      "filename": "curesult_cugeterrorname_curesult_error_const_char_pstr.md"
+    },
+    {
+      "id": "curesult_cugeterrorstring_curesult_error_const_char_pstr",
+      "title": "CUresult cuGetErrorString (CUresult error, const char **pStr)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Gets the string description of an error code....",
+      "filename": "curesult_cugeterrorstring_curesult_error_const_char_pstr.md"
+    }
+  ]
+}

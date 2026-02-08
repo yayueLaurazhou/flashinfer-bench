@@ -1,0 +1,45 @@
+{
+  "description": "Documentation for 10.30. Encoding a Tensor Map on Device",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "10301_device_side_encoding_and_modification_of_a_tensor_map",
+      "title": "10.30.1. Device-side Encoding and Modification of a Tensor Map",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.30.1. Device-side Encoding and Modification of a Tensor Map[\uf0c1](#device-side-encoding-and-modification-of-a-tensor-map \"Permalink to this headline\")  The recommended process of encoding a tensor...",
+      "filename": "10301_device_side_encoding_and_modification_of_a_tensor_map.md"
+    },
+    {
+      "id": "10302_usage_of_a_modified_tensor_map",
+      "title": "10.30.2. Usage of a Modified Tensor Map",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.30.2. Usage of a Modified Tensor Map[\uf0c1](#usage-of-a-modified-tensor-map \"Permalink to this headline\")  In contrast to using a tensor map that is passed as a `const __grid_constant__` kernel par...",
+      "filename": "10302_usage_of_a_modified_tensor_map.md"
+    },
+    {
+      "id": "10303_creating_a_template_tensor_map_value_using_the_driver_api",
+      "title": "10.30.3. Creating a Template Tensor Map Value Using the Driver API",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.30.3. Creating a Template Tensor Map Value Using the Driver API[\uf0c1](#creating-a-template-tensor-map-value-using-the-driver-api \"Permalink to this headline\")  The following code creates a minimal...",
+      "filename": "10303_creating_a_template_tensor_map_value_using_the_driver_api.md"
+    }
+  ]
+}

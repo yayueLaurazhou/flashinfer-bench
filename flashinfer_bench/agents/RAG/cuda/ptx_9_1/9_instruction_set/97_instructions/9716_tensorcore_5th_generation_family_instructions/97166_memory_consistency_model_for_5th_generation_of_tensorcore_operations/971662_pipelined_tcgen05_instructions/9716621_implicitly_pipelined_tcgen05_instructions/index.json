@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 9.7.16.6.2.1. Implicitly pipelined tcgen05 Instructions",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Instructions `tcgen05.commit` and `tcgen05.wait` are implicitly pipelined with respect to previously issued `tcgen05.{mma,cp,shift}` and `tcgen05.{ld,st}` instructions respectively that they track from the same thread."
+    },
+    {
+      "id": "tcgen05_memory_consistency_model_mbarrier_completion",
+      "title": "tcgen05-memory-consistency-model-mbarrier-completion",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "Completion of the following instruction\u2019s asynchronous operations is observed through the mbarrier based waiting mechanism:",
+      "filename": "tcgen05_memory_consistency_model_mbarrier_completion.md"
+    },
+    {
+      "id": "tcgen05_memory_consistency_model_wait_completion",
+      "title": "tcgen05-memory-consistency-model-wait-completion",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "Completion of the following instruction\u2019s asynchronous operations is observed through `tcgen05.wait` based waiting mechanism:",
+      "filename": "tcgen05_memory_consistency_model_wait_completion.md"
+    }
+  ]
+}

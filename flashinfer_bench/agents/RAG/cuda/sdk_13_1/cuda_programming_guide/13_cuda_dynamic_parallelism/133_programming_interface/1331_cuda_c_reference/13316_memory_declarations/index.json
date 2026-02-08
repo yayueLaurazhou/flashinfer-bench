@@ -1,0 +1,55 @@
+{
+  "description": "Documentation for 13.3.1.6. Memory Declarations",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "133161_device_and_constant_memory",
+      "title": "13.3.1.6.1. Device and Constant Memory",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 13.3.1.6.1. Device and Constant Memory[\uf0c1](#device-and-constant-memory \"Permalink to this headline\")  Memory declared at file scope with `__device__` or `__constant__` memory space specifiers beh...",
+      "filename": "133161_device_and_constant_memory.md"
+    },
+    {
+      "id": "133162_textures_and_surfaces",
+      "title": "13.3.1.6.2. Textures and Surfaces",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 13.3.1.6.2. Textures and Surfaces[\uf0c1](#textures-and-surfaces \"Permalink to this headline\")  CUDA supports dynamically created texture and surface objects[7](#fn14), where a texture object may be ...",
+      "filename": "133162_textures_and_surfaces.md"
+    },
+    {
+      "id": "133163_shared_memory_variable_declarations",
+      "title": "13.3.1.6.3. Shared Memory Variable Declarations",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 13.3.1.6.3. Shared Memory Variable Declarations[\uf0c1](#shared-memory-variable-declarations \"Permalink to this headline\")  In CUDA C++ shared memory can be declared either as a statically sized file...",
+      "filename": "133163_shared_memory_variable_declarations.md"
+    },
+    {
+      "id": "133164_symbol_addresses",
+      "title": "13.3.1.6.4. Symbol Addresses",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 13.3.1.6.4. Symbol Addresses[\uf0c1](#symbol-addresses \"Permalink to this headline\")  Device-side symbols (i.e., those marked `__device__`) may be referenced from within a kernel simply via the `&` o...",
+      "filename": "133164_symbol_addresses.md"
+    }
+  ]
+}

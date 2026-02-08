@@ -1,0 +1,45 @@
+{
+  "description": "Documentation for asynchronous-warpgroup-level-majorness-supported-by-strides",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "There are two strides involved while accessing a matrix from shared memory:"
+    },
+    {
+      "id": "asynchronous_warpgroup_level_leading_dimension_byte_offset",
+      "title": "asynchronous-warpgroup-level-leading-dimension-byte-offset",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "The leading dimension byte offset is defined differently for transposed and non-transposed matrices. The leading byte offset is defined as follows for matrices whose element types are normalized to 128-bits:",
+      "filename": "asynchronous_warpgroup_level_leading_dimension_byte_offset.md"
+    },
+    {
+      "id": "asynchronous_warpgroup_level_stride_dimension_byte_offset",
+      "title": "asynchronous-warpgroup-level-stride-dimension-byte-offset",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "The stride dimension byte offset is defined differently for transposed and non-transposed matrices. The stride dimension byte offset is defined as follows for matrices whose element types are normalized to 128-bits:",
+      "filename": "asynchronous_warpgroup_level_stride_dimension_byte_offset.md"
+    },
+    {
+      "id": "asynchronous_warpgroup_level_canonical_layouts",
+      "title": "asynchronous-warpgroup-level-canonical-layouts",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "In terms of [CuTe layouts](https://docs.nvidia.com/cutlass/media/docs/cpp/cute/01_layout.html) the canonical layout can be expressed as follows:",
+      "filename": "asynchronous_warpgroup_level_canonical_layouts.md"
+    }
+  ]
+}

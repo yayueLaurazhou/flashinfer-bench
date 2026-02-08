@@ -1,0 +1,25 @@
+{
+  "description": "Documentation for 9.7.16.2.1. Matrix Shape",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "The matrix multiply and accumulate operations support a limited set of shapes for the operand matrices `A`, `B` and `D`. The shapes of all three matrix operands are collectively described by the tuple *MxNxK* where `A` is *MxK* matrix, `B` is a *KxN* matrix, and `D` is a *MxN* matrix."
+    },
+    {
+      "id": "9716211_target_isa_note",
+      "title": "9.7.16.2.1.1. Target ISA Note",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "* K = 96 is only supported for target architecture `sm_103a`.",
+      "filename": "9716211_target_isa_note.md"
+    }
+  ]
+}

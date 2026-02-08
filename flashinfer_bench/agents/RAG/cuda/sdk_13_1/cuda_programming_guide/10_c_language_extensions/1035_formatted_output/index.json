@@ -1,0 +1,55 @@
+{
+  "description": "Documentation for 10.35. Formatted Output",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "10351_format_specifiers",
+      "title": "10.35.1. Format Specifiers",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.35.1. Format Specifiers[\uf0c1](#format-specifiers \"Permalink to this headline\")  As for standard `printf()`, format specifiers take the form: `%[flags][width][.precision][size]type`  The following ...",
+      "filename": "10351_format_specifiers.md"
+    },
+    {
+      "id": "10352_limitations",
+      "title": "10.35.2. Limitations",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.35.2. Limitations[\uf0c1](#limitations \"Permalink to this headline\")  Final formatting of the `printf()`output takes place on the host system. This means that the format string must be understood by...",
+      "filename": "10352_limitations.md"
+    },
+    {
+      "id": "10353_associated_host_side_api",
+      "title": "10.35.3. Associated Host-Side API",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.35.3. Associated Host-Side API[\uf0c1](#associated-host-side-api \"Permalink to this headline\")  The following API functions get and set the size of the buffer used to transfer the `printf()` argumen...",
+      "filename": "10353_associated_host_side_api.md"
+    },
+    {
+      "id": "10354_examples",
+      "title": "10.35.4. Examples",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.35.4. Examples[\uf0c1](#format-specifier-examples \"Permalink to this headline\")  The following code sample:  ``` #include <stdio.h>  __global__ void helloCUDA(float f) {     printf(\"Hello thread %d,...",
+      "filename": "10354_examples.md"
+    }
+  ]
+}

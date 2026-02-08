@@ -1,0 +1,45 @@
+{
+  "description": "Documentation for 7.28. CUDA_EXTERNAL_MEMORY_MIPMAPPED Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "struct_cuda_array3d_descriptor_cuda_external_memory_mip_4c91467b",
+      "title": "struct CUDA_ARRAY3D_DESCRIPTOR CUDA_EXTERNAL_MEMORY_MIPMAPPED_ARRAY_DESC_v",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Format, dimension and type of base level of the mipmap chain...",
+      "filename": "struct_cuda_array3d_descriptor_cuda_external_memory_mip_4c91467b.md"
+    },
+    {
+      "id": "unsigned_int_cuda_external_memory_mipmapped_array_desc_v",
+      "title": "unsigned int CUDA_EXTERNAL_MEMORY_MIPMAPPED_ARRAY_DESC_v",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Total number of levels in the mipmap chain...",
+      "filename": "unsigned_int_cuda_external_memory_mipmapped_array_desc_v.md"
+    },
+    {
+      "id": "unsigned_long_long_cuda_external_memory_mipmapped_array_desc_v",
+      "title": "unsigned long long CUDA_EXTERNAL_MEMORY_MIPMAPPED_ARRAY_DESC_v",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Offset into the memory object where the base level of the mipmap chain is....",
+      "filename": "unsigned_long_long_cuda_external_memory_mipmapped_array_desc_v.md"
+    }
+  ]
+}

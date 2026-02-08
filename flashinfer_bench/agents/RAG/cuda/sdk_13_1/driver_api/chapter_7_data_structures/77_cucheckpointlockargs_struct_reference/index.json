@@ -1,0 +1,45 @@
+{
+  "description": "Documentation for 7.7. CUcheckpointLockArgs Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "unsigned_int_cucheckpointlockargsreserved0",
+      "title": "unsigned int CUcheckpointLockArgs::reserved0",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Reserved for future use, must be zero   CUDA Driver API TRM-06703-001 _vRelease Version  |  676   Data Structures...",
+      "filename": "unsigned_int_cucheckpointlockargsreserved0.md"
+    },
+    {
+      "id": "cuuint64_t_cucheckpointlockargsreserved1",
+      "title": "cuuint64_t CUcheckpointLockArgs::reserved1",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Reserved for future use, must be zeroed...",
+      "filename": "cuuint64_t_cucheckpointlockargsreserved1.md"
+    },
+    {
+      "id": "unsigned_int_cucheckpointlockargstimeoutms",
+      "title": "unsigned int CUcheckpointLockArgs::timeoutMs",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Timeout in milliseconds to attempt to lock the process, 0 indicates no timeout...",
+      "filename": "unsigned_int_cucheckpointlockargstimeoutms.md"
+    }
+  ]
+}

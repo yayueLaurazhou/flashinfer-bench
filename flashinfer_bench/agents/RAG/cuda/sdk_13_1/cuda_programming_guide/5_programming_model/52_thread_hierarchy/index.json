@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 5.2. Thread Hierarchy",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "521_thread_block_clusters",
+      "title": "5.2.1. Thread Block Clusters",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 5.2.1. Thread Block Clusters[\uf0c1](#thread-block-clusters \"Permalink to this headline\")  With the introduction of NVIDIA [Compute Capability 9.0](#compute-capability-9-0), the CUDA programming model ...",
+      "filename": "521_thread_block_clusters.md"
+    },
+    {
+      "id": "522_blocks_as_clusters",
+      "title": "5.2.2. Blocks as Clusters",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 5.2.2. Blocks as Clusters[\uf0c1](#blocks-as-clusters \"Permalink to this headline\")  With `__cluster_dims__`, the number of launched clusters is kept implicit and can only be calculated manually.  ``` ...",
+      "filename": "522_blocks_as_clusters.md"
+    }
+  ]
+}

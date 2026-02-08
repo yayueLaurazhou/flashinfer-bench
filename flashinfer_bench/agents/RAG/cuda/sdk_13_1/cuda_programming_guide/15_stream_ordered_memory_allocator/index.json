@@ -1,0 +1,128 @@
+{
+  "description": "Documentation for 15. Stream Ordered Memory Allocator",
+  "directories": [
+    {
+      "name": "159_memory_reuse_policies",
+      "description": "## 15.9. Memory Reuse Policies[\uf0c1](#memory-reuse-policies \"Permalink to this headline\")  In order to service an allocation request, the driver attempts to reuse memory that was previously freed via `cu..."
+    },
+    {
+      "name": "1511_ipc_memory_pools",
+      "description": "## 15.11. IPC Memory Pools[\uf0c1](#ipc-memory-pools \"Permalink to this headline\")  IPC capable memory pools allow easy, efficient and secure sharing of GPU memory between processes. CUDA\u2019s IPC memory pool..."
+    },
+    {
+      "name": "1513_addendums",
+      "description": "## 15.13. Addendums[\uf0c1](#addendums \"Permalink to this headline\")..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "151_introduction",
+      "title": "15.1. Introduction",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 15.1. Introduction[\uf0c1](#stream-ordered-memory-allocator-intro \"Permalink to this headline\")  Managing memory allocations using `cudaMalloc` and `cudaFree` causes GPU to synchronize across all execut...",
+      "filename": "151_introduction.md"
+    },
+    {
+      "id": "152_query_for_support",
+      "title": "15.2. Query for Support",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 15.2. Query for Support[\uf0c1](#stream-ordered-querying-memory-support \"Permalink to this headline\")  The user can determine whether or not a device supports the stream ordered memory allocator by call...",
+      "filename": "152_query_for_support.md"
+    },
+    {
+      "id": "153_api_fundamentals_cudamallocasync_and_cudafreeasync",
+      "title": "15.3. API Fundamentals (cudaMallocAsync and cudaFreeAsync)",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 15.3. API Fundamentals (cudaMallocAsync and cudaFreeAsync)[\uf0c1](#api-fundamentals-cudamallocasync-and-cudafreeasync \"Permalink to this headline\")  The APIs `cudaMallocAsync` and `cudaFreeAsync` form ...",
+      "filename": "153_api_fundamentals_cudamallocasync_and_cudafreeasync.md"
+    },
+    {
+      "id": "154_memory_pools_and_the_cudamempool_t",
+      "title": "15.4. Memory Pools and the cudaMemPool_t",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 15.4. Memory Pools and the cudaMemPool\\_t[\uf0c1](#memory-pools-and-the-cudamempool-t \"Permalink to this headline\")  Memory pools encapsulate virtual address and physical memory resources that are alloc...",
+      "filename": "154_memory_pools_and_the_cudamempool_t.md"
+    },
+    {
+      "id": "155_defaultimplicit_pools",
+      "title": "15.5. Default/Implicit Pools",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 15.5. Default/Implicit Pools[\uf0c1](#default-implicit-pools \"Permalink to this headline\")  The default memory pool of a device may be retrieved with the `cudaDeviceGetDefaultMempool` API. Allocations f...",
+      "filename": "155_defaultimplicit_pools.md"
+    },
+    {
+      "id": "156_explicit_pools",
+      "title": "15.6. Explicit Pools",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 15.6. Explicit Pools[\uf0c1](#explicit-pools \"Permalink to this headline\")  The API `cudaMemPoolCreate` creates an explicit pool. This allows applications to request properties for their allocation beyo...",
+      "filename": "156_explicit_pools.md"
+    },
+    {
+      "id": "157_physical_page_caching_behavior",
+      "title": "15.7. Physical Page Caching Behavior",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 15.7. Physical Page Caching Behavior[\uf0c1](#physical-page-caching-behavior \"Permalink to this headline\")  By default, the allocator tries to minimize the physical memory owned by a pool. To minimize t...",
+      "filename": "157_physical_page_caching_behavior.md"
+    },
+    {
+      "id": "158_resource_usage_statistics",
+      "title": "15.8. Resource Usage Statistics",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 15.8. Resource Usage Statistics[\uf0c1](#resource-usage-statistics \"Permalink to this headline\")  In CUDA 11.3, the pool attributes `cudaMemPoolAttrReservedMemCurrent`, `cudaMemPoolAttrReservedMemHigh`,...",
+      "filename": "158_resource_usage_statistics.md"
+    },
+    {
+      "id": "1510_device_accessibility_for_multi_gpu_support",
+      "title": "15.10. Device Accessibility for Multi-GPU Support",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 15.10. Device Accessibility for Multi-GPU Support[\uf0c1](#device-accessibility-for-multi-gpu-support \"Permalink to this headline\")  Just like allocation accessibility controlled through the virtual mem...",
+      "filename": "1510_device_accessibility_for_multi_gpu_support.md"
+    },
+    {
+      "id": "1512_synchronization_api_actions",
+      "title": "15.12. Synchronization API Actions",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 15.12. Synchronization API Actions[\uf0c1](#synchronization-api-actions \"Permalink to this headline\")  One of the optimizations that comes with the allocator being part of the CUDA driver is integration...",
+      "filename": "1512_synchronization_api_actions.md"
+    }
+  ]
+}

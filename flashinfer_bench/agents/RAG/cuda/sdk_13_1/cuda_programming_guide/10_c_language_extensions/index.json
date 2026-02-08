@@ -1,0 +1,322 @@
+{
+  "description": "Documentation for 10. C++ Language Extensions",
+  "directories": [
+    {
+      "name": "101_function_execution_space_specifiers",
+      "description": "## 10.1. Function Execution Space Specifiers[\uf0c1](#function-execution-space-specifiers \"Permalink to this headline\")  Function execution space specifiers denote whether a function executes on the host o..."
+    },
+    {
+      "name": "102_variable_memory_space_specifiers",
+      "description": "## 10.2. Variable Memory Space Specifiers[\uf0c1](#variable-memory-space-specifiers \"Permalink to this headline\")  Variable memory space specifiers denote the memory location on the device of a variable.  ..."
+    },
+    {
+      "name": "103_built_in_vector_types",
+      "description": "## 10.3. Built-in Vector Types[\uf0c1](#built-in-vector-types \"Permalink to this headline\")..."
+    },
+    {
+      "name": "104_built_in_variables",
+      "description": "## 10.4. Built-in Variables[\uf0c1](#built-in-variables \"Permalink to this headline\")  Built-in variables specify the grid and block dimensions and the block and thread indices. They are only valid within ..."
+    },
+    {
+      "name": "108_texture_functions",
+      "description": "## 10.8. Texture Functions[\uf0c1](#texture-functions \"Permalink to this headline\")  Texture objects are described in [Texture Object API](#texture-object-api).  Texture fetching is described in [Texture F..."
+    },
+    {
+      "name": "109_surface_functions",
+      "description": "## 10.9. Surface Functions[\uf0c1](#surface-functions \"Permalink to this headline\")  Surface functions are only supported by devices of compute capability 2.0 and higher.  Surface objects are described in ..."
+    },
+    {
+      "name": "1014_atomic_functions",
+      "description": "## 10.14. Atomic Functions[\uf0c1](#atomic-functions \"Permalink to this headline\")  An atomic function performs a read-modify-write atomic operation on one 32-bit, 64-bit, or 128-bit word residing in globa..."
+    },
+    {
+      "name": "1015_address_space_predicate_functions",
+      "description": "## 10.15. Address Space Predicate Functions[\uf0c1](#address-space-predicate-functions \"Permalink to this headline\")  The functions described in this section have unspecified behavior if the argument is a ..."
+    },
+    {
+      "name": "1016_address_space_conversion_functions",
+      "description": "## 10.16. Address Space Conversion Functions[\uf0c1](#address-space-conversion-functions \"Permalink to this headline\")  CUDA C++ pointers (`T*`) can access CUDA C++ objects independently of where these obj..."
+    },
+    {
+      "name": "1017_alloca_function",
+      "description": "## 10.17. Alloca Function[\uf0c1](#alloca-function \"Permalink to this headline\")..."
+    },
+    {
+      "name": "1018_compiler_optimization_hint_functions",
+      "description": "## 10.18. Compiler Optimization Hint Functions[\uf0c1](#compiler-optimization-hint-functions \"Permalink to this headline\")  The functions described in this section can be used to provide additional informa..."
+    },
+    {
+      "name": "1020_warp_match_functions",
+      "description": "## 10.20. Warp Match Functions[\uf0c1](#warp-match-functions \"Permalink to this headline\")  `__match_any_sync` and `__match_all_sync` perform a broadcast-and-compare operation of a variable between threads..."
+    },
+    {
+      "name": "1021_warp_reduce_functions",
+      "description": "## 10.21. Warp Reduce Functions[\uf0c1](#warp-reduce-functions \"Permalink to this headline\")  The `__reduce_sync(unsigned mask, T value)` intrinsics perform a reduction operation on the data provided in `v..."
+    },
+    {
+      "name": "1022_warp_shuffle_functions",
+      "description": "## 10.22. Warp Shuffle Functions[\uf0c1](#warp-shuffle-functions \"Permalink to this headline\")  `__shfl_sync`, `__shfl_up_sync`, `__shfl_down_sync`, and `__shfl_xor_sync` exchange a variable between thread..."
+    },
+    {
+      "name": "1023_nanosleep_function",
+      "description": "## 10.23. Nanosleep Function[\uf0c1](#nanosleep-function \"Permalink to this headline\")..."
+    },
+    {
+      "name": "1024_warp_matrix_functions",
+      "description": "## 10.24. Warp Matrix Functions[\uf0c1](#warp-matrix-functions \"Permalink to this headline\")  C++ warp matrix operations leverage Tensor Cores to accelerate matrix problems of the form `D=A*B+C`. These ope..."
+    },
+    {
+      "name": "1025_dpx",
+      "description": "## 10.25. DPX[\uf0c1](#dpx \"Permalink to this headline\")  DPX is a set of functions that enable finding min and max values, as well as fused addition and min/max, for up to three 16 and 32-bit signed or un..."
+    },
+    {
+      "name": "1026_asynchronous_barrier",
+      "description": "## 10.26. Asynchronous Barrier[\uf0c1](#asynchronous-barrier \"Permalink to this headline\")  The NVIDIA C++ standard library introduces a GPU implementation of [std::barrier](https://nvidia.github.io/libcud..."
+    },
+    {
+      "name": "1027_asynchronous_data_copies",
+      "description": "## 10.27. Asynchronous Data Copies[\uf0c1](#asynchronous-data-copies \"Permalink to this headline\")  CUDA 11 introduces Asynchronous Data operations with `memcpy_async` API to allow device code to explicitl..."
+    },
+    {
+      "name": "1028_asynchronous_data_copies_using_cudapipeline",
+      "description": "## 10.28. Asynchronous Data Copies using `cuda::pipeline`[\uf0c1](#asynchronous-data-copies-using-cuda-pipeline \"Permalink to this headline\")  CUDA provides the `cuda::pipeline` synchronization object to m..."
+    },
+    {
+      "name": "1029_asynchronous_data_copies_using_the_tensor_memory_accelerator_tma",
+      "description": "## 10.29. Asynchronous Data Copies using the Tensor Memory Accelerator (TMA)[\uf0c1](#asynchronous-data-copies-using-the-tensor-memory-accelerator-tma \"Permalink to this headline\")  Many applications requi..."
+    },
+    {
+      "name": "1030_encoding_a_tensor_map_on_device",
+      "description": "## 10.30. Encoding a Tensor Map on Device[\uf0c1](#encoding-a-tensor-map-on-device \"Permalink to this headline\")  Previous sections have described how to create a tensor map on the host using the CUDA driv..."
+    },
+    {
+      "name": "1035_formatted_output",
+      "description": "## 10.35. Formatted Output[\uf0c1](#formatted-output \"Permalink to this headline\")  Formatted output is only supported by devices of compute capability 2.x and higher.  ``` int printf(const char *format[, ..."
+    },
+    {
+      "name": "1036_dynamic_global_memory_allocation_and_operations",
+      "description": "## 10.36. Dynamic Global Memory Allocation and Operations[\uf0c1](#dynamic-global-memory-allocation-and-operations \"Permalink to this headline\")  Dynamic global memory allocation and operations are only su..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "105_memory_fence_functions",
+      "title": "10.5. Memory Fence Functions",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 10.5. Memory Fence Functions[\uf0c1](#memory-fence-functions \"Permalink to this headline\")  The CUDA programming model assumes a device with a weakly-ordered memory model, that is the order in which a C...",
+      "filename": "105_memory_fence_functions.md"
+    },
+    {
+      "id": "106_synchronization_functions",
+      "title": "10.6. Synchronization Functions",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 10.6. Synchronization Functions[\uf0c1](#synchronization-functions \"Permalink to this headline\")  ``` void __syncthreads(); ```  waits until all threads in the thread block have reached this point and a...",
+      "filename": "106_synchronization_functions.md"
+    },
+    {
+      "id": "107_mathematical_functions",
+      "title": "10.7. Mathematical Functions",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 10.7. Mathematical Functions[\uf0c1](#mathematical-functions \"Permalink to this headline\")  The reference manual lists all C/C++ standard library mathematical functions that are supported in device code...",
+      "filename": "107_mathematical_functions.md"
+    },
+    {
+      "id": "1010_read_only_data_cache_load_function",
+      "title": "10.10. Read-Only Data Cache Load Function",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 10.10. Read-Only Data Cache Load Function[\uf0c1](#read-only-data-cache-load-function \"Permalink to this headline\")  The read-only data cache load function is only supported by devices of compute capabi...",
+      "filename": "1010_read_only_data_cache_load_function.md"
+    },
+    {
+      "id": "1011_load_functions_using_cache_hints",
+      "title": "10.11. Load Functions Using Cache Hints",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 10.11. Load Functions Using Cache Hints[\uf0c1](#load-functions-using-cache-hints \"Permalink to this headline\")  These load functions are only supported by devices of compute capability 5.0 and higher. ...",
+      "filename": "1011_load_functions_using_cache_hints.md"
+    },
+    {
+      "id": "1012_store_functions_using_cache_hints",
+      "title": "10.12. Store Functions Using Cache Hints",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 10.12. Store Functions Using Cache Hints[\uf0c1](#store-functions-using-cache-hints \"Permalink to this headline\")  These store functions are only supported by devices of compute capability 5.0 and highe...",
+      "filename": "1012_store_functions_using_cache_hints.md"
+    },
+    {
+      "id": "1013_time_function",
+      "title": "10.13. Time Function",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 10.13. Time Function[\uf0c1](#time-function \"Permalink to this headline\")  ``` clock_t clock(); long long int clock64(); ```  when executed in device code, returns the value of a per-multiprocessor coun...",
+      "filename": "1013_time_function.md"
+    },
+    {
+      "id": "1019_warp_vote_functions",
+      "title": "10.19. Warp Vote Functions",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 10.19. Warp Vote Functions[\uf0c1](#warp-vote-functions \"Permalink to this headline\")  ``` int __all_sync(unsigned mask, int predicate); int __any_sync(unsigned mask, int predicate); unsigned __ballot_s...",
+      "filename": "1019_warp_vote_functions.md"
+    },
+    {
+      "id": "1031_profiler_counter_function",
+      "title": "10.31. Profiler Counter Function",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 10.31. Profiler Counter Function[\uf0c1](#profiler-counter-function \"Permalink to this headline\")  Each multiprocessor has a set of sixteen hardware counters that an application can increment with a sin...",
+      "filename": "1031_profiler_counter_function.md"
+    },
+    {
+      "id": "1032_assertion",
+      "title": "10.32. Assertion",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 10.32. Assertion[\uf0c1](#assertion \"Permalink to this headline\")  Assertion is only supported by devices of compute capability 2.x and higher.  ``` void assert(int expression); ```  stops the kernel ex...",
+      "filename": "1032_assertion.md"
+    },
+    {
+      "id": "1033_trap_function",
+      "title": "10.33. Trap function",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 10.33. Trap function[\uf0c1](#trap-function \"Permalink to this headline\")  A trap operation can be initiated by calling the `__trap()` function from any device thread.  ``` void __trap(); ```  The execu...",
+      "filename": "1033_trap_function.md"
+    },
+    {
+      "id": "1034_breakpoint_function",
+      "title": "10.34. Breakpoint Function",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 10.34. Breakpoint Function[\uf0c1](#breakpoint-function \"Permalink to this headline\")  Execution of a kernel function can be suspended by calling the `__brkpt()` function from any device thread.  ``` vo...",
+      "filename": "1034_breakpoint_function.md"
+    },
+    {
+      "id": "1037_execution_configuration",
+      "title": "10.37. Execution Configuration",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 10.37. Execution Configuration[\uf0c1](#execution-configuration \"Permalink to this headline\")  Any call to a `__global__` function must specify the *execution configuration* for that call. The execution...",
+      "filename": "1037_execution_configuration.md"
+    },
+    {
+      "id": "1038_launch_bounds",
+      "title": "10.38. Launch Bounds",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 10.38. Launch Bounds[\uf0c1](#launch-bounds \"Permalink to this headline\")  As discussed in detail in [Multiprocessor Level](#multiprocessor-level), the fewer registers a kernel uses, the more threads an...",
+      "filename": "1038_launch_bounds.md"
+    },
+    {
+      "id": "1039_maximum_number_of_registers_per_thread",
+      "title": "10.39. Maximum Number of Registers per Thread",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 10.39. Maximum Number of Registers per Thread[\uf0c1](#maximum-number-of-registers-per-thread \"Permalink to this headline\")  To provide a mechanism for low-level performance tuning, CUDA C++ provides th...",
+      "filename": "1039_maximum_number_of_registers_per_thread.md"
+    },
+    {
+      "id": "1040_pragma_unroll",
+      "title": "10.40. #pragma unroll",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 10.40. #pragma unroll[\uf0c1](#pragma-unroll \"Permalink to this headline\")  By default, the compiler unrolls small loops with a known trip count. The `#pragma unroll` directive however can be used to co...",
+      "filename": "1040_pragma_unroll.md"
+    },
+    {
+      "id": "1041_simd_video_instructions",
+      "title": "10.41. SIMD Video Instructions",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 10.41. SIMD Video Instructions[\uf0c1](#simd-video-instructions \"Permalink to this headline\")  PTX ISA version 3.0 includes SIMD (Single Instruction, Multiple Data) video instructions which operate on p...",
+      "filename": "1041_simd_video_instructions.md"
+    },
+    {
+      "id": "1042_diagnostic_pragmas",
+      "title": "10.42. Diagnostic Pragmas",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 10.42. Diagnostic Pragmas[\uf0c1](#diagnostic-pragmas \"Permalink to this headline\")  The following pragmas may be used to control the error severity used when a given diagnostic message is issued.  ``` ...",
+      "filename": "1042_diagnostic_pragmas.md"
+    },
+    {
+      "id": "1043_custom_abi_pragmas",
+      "title": "10.43. Custom ABI Pragmas",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 10.43. Custom ABI Pragmas[\uf0c1](#custom-abi-pragmas \"Permalink to this headline\")  The `#pragma nv_abi` directive enables applications compiled in separate compilation mode to achieve performance simi...",
+      "filename": "1043_custom_abi_pragmas.md"
+    },
+    {
+      "id": "1044_cuda_c_memory_model",
+      "title": "10.44. CUDA C++ Memory Model",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 10.44. CUDA C++ Memory Model[\uf0c1](#cuda-c-memory-model \"Permalink to this headline\")  The CUDA C++ Memory Model extends the ISO C++ Memory Model as documented in the [CUDA C++ Memory Model documentat...",
+      "filename": "1044_cuda_c_memory_model.md"
+    },
+    {
+      "id": "1045_cuda_c_execution_model",
+      "title": "10.45. CUDA C++ Execution Model",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 10.45. CUDA C++ Execution Model[\uf0c1](#cuda-c-execution-model \"Permalink to this headline\")  The CUDA C++ Exeuction Model extends the ISO C++ execution model as documented in the [CUDA C++ Execution M...",
+      "filename": "1045_cuda_c_execution_model.md"
+    }
+  ]
+}

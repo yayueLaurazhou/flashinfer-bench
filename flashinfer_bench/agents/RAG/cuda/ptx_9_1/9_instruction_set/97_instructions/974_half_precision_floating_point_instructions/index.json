@@ -1,0 +1,115 @@
+{
+  "description": "Documentation for 9.7.4. Half Precision Floating-Point Instructions",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Half precision floating-point instructions operate on `.f16` and `.f16x2` register operands. The half precision floating-point instructions are:"
+    },
+    {
+      "id": "9741_half_precision_floating_point_instructions_add",
+      "title": "9.7.4.1. Half Precision Floating Point Instructions: add",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`add`",
+      "filename": "9741_half_precision_floating_point_instructions_add.md"
+    },
+    {
+      "id": "9742_half_precision_floating_point_instructions_sub",
+      "title": "9.7.4.2. Half Precision Floating Point Instructions: sub",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`sub`",
+      "filename": "9742_half_precision_floating_point_instructions_sub.md"
+    },
+    {
+      "id": "9743_half_precision_floating_point_instructions_mul",
+      "title": "9.7.4.3. Half Precision Floating Point Instructions: mul",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`mul`",
+      "filename": "9743_half_precision_floating_point_instructions_mul.md"
+    },
+    {
+      "id": "9744_half_precision_floating_point_instructions_fma",
+      "title": "9.7.4.4. Half Precision Floating Point Instructions: fma",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`fma`",
+      "filename": "9744_half_precision_floating_point_instructions_fma.md"
+    },
+    {
+      "id": "9745_half_precision_floating_point_instructions_neg",
+      "title": "9.7.4.5. Half Precision Floating Point Instructions: neg",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`neg`",
+      "filename": "9745_half_precision_floating_point_instructions_neg.md"
+    },
+    {
+      "id": "9746_half_precision_floating_point_instructions_abs",
+      "title": "9.7.4.6. Half Precision Floating Point Instructions: abs",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`abs`",
+      "filename": "9746_half_precision_floating_point_instructions_abs.md"
+    },
+    {
+      "id": "9747_half_precision_floating_point_instructions_min",
+      "title": "9.7.4.7. Half Precision Floating Point Instructions: min",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`min`",
+      "filename": "9747_half_precision_floating_point_instructions_min.md"
+    },
+    {
+      "id": "9748_half_precision_floating_point_instructions_max",
+      "title": "9.7.4.8. Half Precision Floating Point Instructions: max",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`max`",
+      "filename": "9748_half_precision_floating_point_instructions_max.md"
+    },
+    {
+      "id": "9749_half_precision_floating_point_instructions_tanh",
+      "title": "9.7.4.9. Half Precision Floating Point Instructions: tanh",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`tanh`",
+      "filename": "9749_half_precision_floating_point_instructions_tanh.md"
+    },
+    {
+      "id": "97410_half_precision_floating_point_instructions_ex2",
+      "title": "9.7.4.10. Half Precision Floating Point Instructions: ex2",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`ex2`",
+      "filename": "97410_half_precision_floating_point_instructions_ex2.md"
+    }
+  ]
+}

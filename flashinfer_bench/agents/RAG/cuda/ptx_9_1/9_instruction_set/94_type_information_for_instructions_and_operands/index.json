@@ -1,0 +1,25 @@
+{
+  "description": "Documentation for 9.4. Type Information for Instructions and Operands",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Typed instructions must have a type-size modifier. For example, the `add` instruction requires type and size information to properly perform the addition operation (signed, unsigned, float, different sizes), and this information must be specified as a suffix to the opcode."
+    },
+    {
+      "id": "941_operand_size_exceeding_instruction_type_size",
+      "title": "9.4.1. Operand Size Exceeding Instruction-Type Size",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "For convenience, `ld`, `st`, and `cvt` instructions permit source and destination data operands to be wider than the instruction-type size, so that narrow values may be loaded, stored, and converted using regular-width registers. For example, 8-bit or 16-bit values may be held directly in 32-bit ...",
+      "filename": "941_operand_size_exceeding_instruction_type_size.md"
+    }
+  ]
+}

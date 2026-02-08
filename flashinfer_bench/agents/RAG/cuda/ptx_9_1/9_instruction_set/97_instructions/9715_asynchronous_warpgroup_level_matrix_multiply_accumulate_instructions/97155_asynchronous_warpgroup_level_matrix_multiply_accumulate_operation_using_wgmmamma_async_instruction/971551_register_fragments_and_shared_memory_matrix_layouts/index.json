@@ -1,0 +1,24 @@
+{
+  "description": "Documentation for 9.7.15.5.1. Register Fragments and Shared Memory Matrix Layouts",
+  "directories": [
+    {
+      "name": "9715511_register_fragments",
+      "description": "This section describes the organization of various matrices located in register operands of the `wgmma.mma_async` instruction."
+    },
+    {
+      "name": "9715512_shared_memory_matrix_layout",
+      "description": "If the argument `imm-trans-a` / `imm-trans-b` of the instruction `wgmma.mma_async{.sp}` is 0, then *K-major* is used for matrix `A` / `B` respectively. If the value of argument `imm-trans-a` is 1 then *M-major* is used for matrix `A`. If the value of the argument `imm-trans-b` is 1, then *N-major..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "The input matrix A of the warpgroup wide MMA operations can be either in registers or in the shared memory. The input matrix B of the warpgroup wide MMA operations must be in the shared memory. This section describes the layouts of register fragments and shared memory expected by the warpgroup MM..."
+    }
+  ]
+}

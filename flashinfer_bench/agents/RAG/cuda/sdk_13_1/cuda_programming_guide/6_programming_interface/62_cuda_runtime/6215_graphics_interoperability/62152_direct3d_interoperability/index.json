@@ -1,0 +1,45 @@
+{
+  "description": "Documentation for 6.2.15.2. Direct3D Interoperability",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "621521_direct3d_9_version",
+      "title": "6.2.15.2.1. Direct3D 9 Version",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 6.2.15.2.1. Direct3D 9 Version[\uf0c1](#direct3d-9-version \"Permalink to this headline\")  ``` IDirect3D9* D3D; IDirect3DDevice9* device; struct CUSTOMVERTEX {     FLOAT x, y, z;     DWORD color; }; I...",
+      "filename": "621521_direct3d_9_version.md"
+    },
+    {
+      "id": "621522_direct3d_10_version",
+      "title": "6.2.15.2.2. Direct3D 10 Version",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 6.2.15.2.2. Direct3D 10 Version[\uf0c1](#direct3d-10-version \"Permalink to this headline\")  ``` ID3D10Device* device; struct CUSTOMVERTEX {     FLOAT x, y, z;     DWORD color; }; ID3D10Buffer* positi...",
+      "filename": "621522_direct3d_10_version.md"
+    },
+    {
+      "id": "621523_direct3d_11_version",
+      "title": "6.2.15.2.3. Direct3D 11 Version",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 6.2.15.2.3. Direct3D 11 Version[\uf0c1](#direct3d-11-version \"Permalink to this headline\")  ``` ID3D11Device* device; struct CUSTOMVERTEX {     FLOAT x, y, z;     DWORD color; }; ID3D11Buffer* positi...",
+      "filename": "621523_direct3d_11_version.md"
+    }
+  ]
+}

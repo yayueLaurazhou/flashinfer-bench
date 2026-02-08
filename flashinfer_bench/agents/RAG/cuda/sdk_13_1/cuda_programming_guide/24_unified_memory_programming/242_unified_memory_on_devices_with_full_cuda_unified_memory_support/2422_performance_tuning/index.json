@@ -1,0 +1,60 @@
+{
+  "description": "Documentation for 24.2.2. Performance Tuning",
+  "directories": [
+    {
+      "name": "24221_memory_paging_and_page_sizes",
+      "description": "#### 24.2.2.1. Memory Paging and Page Sizes[\uf0c1](#memory-paging-and-page-sizes \"Permalink to this headline\")  Many of the sections for unified memory performance tuning assume prior knowledge on virtual..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "24222_direct_unified_memory_access_from_host",
+      "title": "24.2.2.2. Direct Unified Memory Access from host",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 24.2.2.2. Direct Unified Memory Access from host[\uf0c1](#direct-unified-memory-access-from-host \"Permalink to this headline\")  Some devices have hardware support for coherent reads, stores and atomic...",
+      "filename": "24222_direct_unified_memory_access_from_host.md"
+    },
+    {
+      "id": "24223_host_native_atomics",
+      "title": "24.2.2.3. Host Native Atomics",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 24.2.2.3. Host Native Atomics[\uf0c1](#host-native-atomics \"Permalink to this headline\")  Some devices, including NVLink-connected devices in [hardware coherent systems](#um-hw-coherency), support har...",
+      "filename": "24223_host_native_atomics.md"
+    },
+    {
+      "id": "24224_atomic_accesses_synchronization_primitives",
+      "title": "24.2.2.4. Atomic accesses & synchronization primitives",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 24.2.2.4. Atomic accesses & synchronization primitives[\uf0c1](#atomic-accesses-synchronization-primitives \"Permalink to this headline\")  CUDA Unified Memory supports all atomic operations available t...",
+      "filename": "24224_atomic_accesses_synchronization_primitives.md"
+    },
+    {
+      "id": "24225_memcpymemset_behavior_with_unified_memory",
+      "title": "24.2.2.5. Memcpy()/Memset() Behavior With Unified Memory",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 24.2.2.5. Memcpy()/Memset() Behavior With Unified Memory[\uf0c1](#memcpy-memset-behavior-with-unified-memory \"Permalink to this headline\")  `cudaMemcpy*()` and `cudaMemset*()` accept any unified memor...",
+      "filename": "24225_memcpymemset_behavior_with_unified_memory.md"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 10.21. Warp Reduce Functions",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "10211_synopsis",
+      "title": "10.21.1. Synopsis",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.21.1. Synopsis[\uf0c1](#warp-reduce-synopsis \"Permalink to this headline\")  ``` // add/min/max unsigned __reduce_add_sync(unsigned mask, unsigned value); unsigned __reduce_min_sync(unsigned mask, un...",
+      "filename": "10211_synopsis.md"
+    },
+    {
+      "id": "10212_description",
+      "title": "10.21.2. Description",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.21.2. Description[\uf0c1](#warp-reduce-description \"Permalink to this headline\")  `__reduce_add_sync`, `__reduce_min_sync`, `__reduce_max_sync` :   Returns the result of applying an arithmetic add, ...",
+      "filename": "10212_description.md"
+    }
+  ]
+}

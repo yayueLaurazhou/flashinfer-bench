@@ -1,0 +1,185 @@
+{
+  "description": "Documentation for 9.7.14.5. Matrix multiply-accumulate operation using mma instruction",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "This section describes warp-level `mma`, `ldmatrix`, `stmatrix`, and `movmatrix` instructions and the organization of various matrices involved in these instructions."
+    },
+    {
+      "id": "971451_matrix_fragments_for_mmam8n8k4_with_f16_floating_point_type",
+      "title": "9.7.14.5.1. Matrix Fragments for mma.m8n8k4 with .f16 floating point type",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "A warp executing `mma.m8n8k4` with `.f16` floating point type will compute 4 MMA operations of shape `.m8n8k4`.",
+      "filename": "971451_matrix_fragments_for_mmam8n8k4_with_f16_floating_point_type.md"
+    },
+    {
+      "id": "971452_matrix_fragments_for_mmam8n8k4_with_f64_floating_point_type",
+      "title": "9.7.14.5.2. Matrix Fragments for mma.m8n8k4 with .f64 floating point type",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "A warp executing `mma.m8n8k4` with `.f64` floating point type will compute an MMA operation of shape `.m8n8k4`.",
+      "filename": "971452_matrix_fragments_for_mmam8n8k4_with_f64_floating_point_type.md"
+    },
+    {
+      "id": "971453_matrix_fragments_for_mmam8n8k16",
+      "title": "9.7.14.5.3. Matrix Fragments for mma.m8n8k16",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "A warp executing `mma.m8n8k16` will compute an MMA operation of shape `.m8n8k16`.",
+      "filename": "971453_matrix_fragments_for_mmam8n8k16.md"
+    },
+    {
+      "id": "971454_matrix_fragments_for_mmam8n8k32",
+      "title": "9.7.14.5.4. Matrix Fragments for mma.m8n8k32",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "A warp executing `mma.m8n8k32` will compute an MMA operation of shape `.m8n8k32`.",
+      "filename": "971454_matrix_fragments_for_mmam8n8k32.md"
+    },
+    {
+      "id": "971455_matrix_fragments_for_mmam8n8k128",
+      "title": "9.7.14.5.5. Matrix Fragments for mma.m8n8k128",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "A warp executing `mma.m8n8k128` will compute an MMA operation of shape `.m8n8k128`.",
+      "filename": "971455_matrix_fragments_for_mmam8n8k128.md"
+    },
+    {
+      "id": "971456_matrix_fragments_for_mmam16n8k4",
+      "title": "9.7.14.5.6. Matrix Fragments for mma.m16n8k4",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "A warp executing `mma.m16n8k4` will compute an MMA operation of shape `.m16n8k4`.",
+      "filename": "971456_matrix_fragments_for_mmam16n8k4.md"
+    },
+    {
+      "id": "971457_matrix_fragments_for_mmam16n8k8",
+      "title": "9.7.14.5.7. Matrix Fragments for mma.m16n8k8",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "A warp executing `mma.m16n8k8` will compute an MMA operation of shape `.m16n8k8`.",
+      "filename": "971457_matrix_fragments_for_mmam16n8k8.md"
+    },
+    {
+      "id": "971458_matrix_fragments_for_mmam16n8k16_with_floating_point_type",
+      "title": "9.7.14.5.8. Matrix Fragments for mma.m16n8k16 with floating point type",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "A warp executing `mma.m16n8k16` floating point types will compute an MMA operation of shape `.m16n8k16`.",
+      "filename": "971458_matrix_fragments_for_mmam16n8k16_with_floating_point_type.md"
+    },
+    {
+      "id": "971459_matrix_fragments_for_mmam16n8k16_with_integer_type",
+      "title": "9.7.14.5.9. Matrix Fragments for mma.m16n8k16 with integer type",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "A warp executing `mma.m16n8k16` will compute an MMA operation of shape `.m16n8k16`.",
+      "filename": "971459_matrix_fragments_for_mmam16n8k16_with_integer_type.md"
+    },
+    {
+      "id": "9714510_matrix_fragments_for_mmam16n8k32",
+      "title": "9.7.14.5.10. Matrix Fragments for mma.m16n8k32",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "A warp executing `mma.m16n8k32` will compute an MMA operation of shape `.m16n8k32`.",
+      "filename": "9714510_matrix_fragments_for_mmam16n8k32.md"
+    },
+    {
+      "id": "9714511_matrix_fragments_for_mmam16n8k64",
+      "title": "9.7.14.5.11. Matrix Fragments for mma.m16n8k64",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "A warp executing `mma.m16n8k64` will compute an MMA operation of shape `.m16n8k64`.",
+      "filename": "9714511_matrix_fragments_for_mmam16n8k64.md"
+    },
+    {
+      "id": "9714512_matrix_fragments_for_mmam16n8k128",
+      "title": "9.7.14.5.12. Matrix Fragments for mma.m16n8k128",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "A warp executing `mma.m16n8k128` will compute an MMA operation of shape `.m16n8k128`.",
+      "filename": "9714512_matrix_fragments_for_mmam16n8k128.md"
+    },
+    {
+      "id": "9714513_matrix_fragments_for_mmam16n8k256",
+      "title": "9.7.14.5.13. Matrix Fragments for mma.m16n8k256",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "A warp executing `mma.m16n8k256` will compute an MMA operation of shape `.m16n8k256`.",
+      "filename": "9714513_matrix_fragments_for_mmam16n8k256.md"
+    },
+    {
+      "id": "9714514_multiply_and_accumulate_instruction_mma",
+      "title": "9.7.14.5.14. Multiply-and-Accumulate Instruction: mma",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`mma`",
+      "filename": "9714514_multiply_and_accumulate_instruction_mma.md"
+    },
+    {
+      "id": "9714515_warp_level_matrix_load_instruction_ldmatrix",
+      "title": "9.7.14.5.15. Warp-level matrix load instruction: ldmatrix",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`ldmatrix`",
+      "filename": "9714515_warp_level_matrix_load_instruction_ldmatrix.md"
+    },
+    {
+      "id": "9714516_warp_level_matrix_store_instruction_stmatrix",
+      "title": "9.7.14.5.16. Warp-level matrix store instruction: stmatrix",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`stmatrix`",
+      "filename": "9714516_warp_level_matrix_store_instruction_stmatrix.md"
+    },
+    {
+      "id": "9714517_warp_level_matrix_transpose_instruction_movmatrix",
+      "title": "9.7.14.5.17. Warp-level matrix transpose instruction: movmatrix",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`movmatrix`",
+      "filename": "9714517_warp_level_matrix_transpose_instruction_movmatrix.md"
+    }
+  ]
+}

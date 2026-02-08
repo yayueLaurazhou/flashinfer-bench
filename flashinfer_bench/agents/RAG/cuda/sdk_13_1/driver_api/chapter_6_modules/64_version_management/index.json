@@ -1,0 +1,25 @@
+{
+  "description": "Documentation for 6.4. Version Management",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "curesult_cudrivergetversion_int_driverversion",
+      "title": "CUresult cuDriverGetVersion (int *driverVersion)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the latest CUDA version supported by driver....",
+      "filename": "curesult_cudrivergetversion_int_driverversion.md"
+    }
+  ]
+}

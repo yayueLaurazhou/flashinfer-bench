@@ -1,0 +1,45 @@
+{
+  "description": "Documentation for 7.19. cudaExtent Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "size_t_cudaextentdepth",
+      "title": "size_t cudaExtent::depth",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Depth in elements...",
+      "filename": "size_t_cudaextentdepth.md"
+    },
+    {
+      "id": "size_t_cudaextentheight",
+      "title": "size_t cudaExtent::height",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Height in elements...",
+      "filename": "size_t_cudaextentheight.md"
+    },
+    {
+      "id": "size_t_cudaextentwidth",
+      "title": "size_t cudaExtent::width",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Width in elements when referring to array memory, in bytes when referring to linear memory...",
+      "filename": "size_t_cudaextentwidth.md"
+    }
+  ]
+}

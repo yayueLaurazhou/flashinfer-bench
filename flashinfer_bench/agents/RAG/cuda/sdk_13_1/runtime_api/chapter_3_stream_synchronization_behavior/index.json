@@ -1,0 +1,36 @@
+{
+  "description": "Documentation for Chapter 3. Stream synchronization behavior",
+  "directories": [],
+  "files": [
+    {
+      "id": "default_stream",
+      "title": "Default stream",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "The default stream, used when 0 is passed as a cudaStream_t or by APIs that operate on a stream implicitly, can be configured to have either legacy or per-thread synchronization behavior as described ...",
+      "filename": "default_stream.md"
+    },
+    {
+      "id": "legacy_default_stream",
+      "title": "Legacy default stream",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "The legacy default stream is an implicit stream which synchronizes with all other streams in the same CUcontext except for non-blocking streams, described below. (For applications using the runtime AP...",
+      "filename": "legacy_default_stream.md"
+    },
+    {
+      "id": "per_thread_default_stream",
+      "title": "Per-thread default stream",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "The per-thread default stream is an implicit stream local to both the thread and the CUcontext, and which does not synchronize with other streams (just like explicitly created streams). The per-thread...",
+      "filename": "per_thread_default_stream.md"
+    }
+  ]
+}

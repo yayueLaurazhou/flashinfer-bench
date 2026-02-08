@@ -1,0 +1,75 @@
+{
+  "description": "Documentation for 7.30. CUDA_EXTERNAL_SEMAPHORE_SIGNAL_P Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "void_cuda_external_semaphore_signal_params_v1fenc",
+      "title": "void *CUDA_EXTERNAL_SEMAPHORE_SIGNAL_PARAMS_v1::fenc",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Pointer to NvSciSyncFence. Valid if CUexternalSemaphoreHandleType is of type CU_EXTERNAL_SEMAPHORE_HANDLE_TYPE_NVSCISYNC....",
+      "filename": "void_cuda_external_semaphore_signal_params_v1fenc.md"
+    },
+    {
+      "id": "cuda_external_semaphore_signal_params_v123_cuda_externa_1712054c",
+      "title": "CUDA_EXTERNAL_SEMAPHORE_SIGNAL_PARAMS_v1::@23 CUDA_EXTERNAL_SEMAPHORE_SIGNAL_PARAMS_v1::fence",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Parameters for fence objects...",
+      "filename": "cuda_external_semaphore_signal_params_v123_cuda_externa_1712054c.md"
+    },
+    {
+      "id": "unsigned_int_cuda_external_semaphore_signal_params_v1flags",
+      "title": "unsigned int CUDA_EXTERNAL_SEMAPHORE_SIGNAL_PARAMS_v1::flags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Only when CUDA_EXTERNAL_SEMAPHORE_SIGNAL_PARAMS is used to signal a CUexternalSemaphore of type CU_EXTERNAL_SEMAPHORE_HANDLE_TYPE_NVSCISYNC, the valid flag is CUDA_EXTERNAL_SEMAPHORE_SIGNAL_SKIP_NVSCI...",
+      "filename": "unsigned_int_cuda_external_semaphore_signal_params_v1flags.md"
+    },
+    {
+      "id": "unsigned_long_long_cuda_external_semaphore_signal_params_v1key",
+      "title": "unsigned long long CUDA_EXTERNAL_SEMAPHORE_SIGNAL_PARAMS_v1::key",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Value of key to release the mutex with...",
+      "filename": "unsigned_long_long_cuda_external_semaphore_signal_params_v1key.md"
+    },
+    {
+      "id": "cuda_external_semaphore_signal_params_v123_cuda_externa_ef5941fa",
+      "title": "CUDA_EXTERNAL_SEMAPHORE_SIGNAL_PARAMS_v1::@23 CUDA_EXTERNAL_SEMAPHORE_SIGNAL_PARAMS_v1::keye",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Parameters for keyed mutex objects   CUDA Driver API TRM-06703-001 _vRelease Version  |  690   Data Structures...",
+      "filename": "cuda_external_semaphore_signal_params_v123_cuda_externa_ef5941fa.md"
+    },
+    {
+      "id": "unsigned_long_long_cuda_external_semaphore_signal_params_v1value",
+      "title": "unsigned long long CUDA_EXTERNAL_SEMAPHORE_SIGNAL_PARAMS_v1::value",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Value of fence to be signaled...",
+      "filename": "unsigned_long_long_cuda_external_semaphore_signal_params_v1value.md"
+    }
+  ]
+}

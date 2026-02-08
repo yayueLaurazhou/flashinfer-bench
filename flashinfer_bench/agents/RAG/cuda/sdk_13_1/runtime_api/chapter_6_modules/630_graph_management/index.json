@@ -1,0 +1,1025 @@
+{
+  "description": "Documentation for 6.30. Graph Management",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "__host__cudaerror_t_cudadevicegetgraphmemattribute_int__c44471f4",
+      "title": "__host__cudaError_t cudaDeviceGetGraphMemAttribute (int device, cudaGraphMemAttributeType attr, void *value)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Query asynchronous allocation attributes related to graphs....",
+      "filename": "__host__cudaerror_t_cudadevicegetgraphmemattribute_int__c44471f4.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudadevicegraphmemtrim_int_device",
+      "title": "__host__cudaError_t cudaDeviceGraphMemTrim (int device)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Free unused memory that was cached on the specified device for use with graphs back to the OS....",
+      "filename": "__host__cudaerror_t_cudadevicegraphmemtrim_int_device.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudadevicesetgraphmemattribute_int__6ea75304",
+      "title": "__host__cudaError_t cudaDeviceSetGraphMemAttribute (int device, cudaGraphMemAttributeType attr, void *value)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Set asynchronous allocation attributes related to graphs....",
+      "filename": "__host__cudaerror_t_cudadevicesetgraphmemattribute_int__6ea75304.md"
+    },
+    {
+      "id": "__device__cudagraphexec_t_cudagetcurrentgraphexec_void",
+      "title": "__device__cudaGraphExec_t cudaGetCurrentGraphExec (void)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Get the currently running device graph id....",
+      "filename": "__device__cudagraphexec_t_cudagetcurrentgraphexec_void.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphaddchildgraphnode_cudagrap_3cbe0bbd",
+      "title": "__host__cudaError_t cudaGraphAddChildGraphNode (cudaGraphNode_t *pGraphNode, cudaGraph_t graph, const cudaGraphNode_t *pDependencies, size_t numDependencies, cudaGraph_t childGraph)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Creates a child graph node and adds it to a graph....",
+      "filename": "__host__cudaerror_t_cudagraphaddchildgraphnode_cudagrap_3cbe0bbd.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphadddependencies_cudagraph__e5cdf2bc",
+      "title": "__host__cudaError_t cudaGraphAddDependencies (cudaGraph_t graph, const cudaGraphNode_t *from, const cudaGraphNode_t *to, const cudaGraphEdgeData *edgeData, size_t numDependencies)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Adds dependency edges to a graph....",
+      "filename": "__host__cudaerror_t_cudagraphadddependencies_cudagraph__e5cdf2bc.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphaddemptynode_cudagraphnode_d3f150fa",
+      "title": "__host__cudaError_t cudaGraphAddEmptyNode (cudaGraphNode_t *pGraphNode, cudaGraph_t graph, const cudaGraphNode_t *pDependencies, size_t numDependencies)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Creates an empty node and adds it to a graph....",
+      "filename": "__host__cudaerror_t_cudagraphaddemptynode_cudagraphnode_d3f150fa.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphaddeventrecordnode_cudagra_391f9d3a",
+      "title": "__host__cudaError_t cudaGraphAddEventRecordNode (cudaGraphNode_t *pGraphNode, cudaGraph_t graph, const cudaGraphNode_t *pDependencies, size_t numDependencies, cudaEvent_t event)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Creates an event record node and adds it to a graph....",
+      "filename": "__host__cudaerror_t_cudagraphaddeventrecordnode_cudagra_391f9d3a.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphaddeventwaitnode_cudagraph_e19c8254",
+      "title": "__host__cudaError_t cudaGraphAddEventWaitNode (cudaGraphNode_t *pGraphNode, cudaGraph_t graph, const cudaGraphNode_t *pDependencies, size_t numDependencies, cudaEvent_t event)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Creates an event wait node and adds it to a graph....",
+      "filename": "__host__cudaerror_t_cudagraphaddeventwaitnode_cudagraph_e19c8254.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphaddexternalsemaphoressigna_53b4094e",
+      "title": "__host__cudaError_t cudaGraphAddExternalSemaphoresSignalNode (cudaGraphNode_t *pGraphNode, cudaGraph_t graph, const cudaGraphNode_t *pDependencies, size_t numDependencies, const cudaExternalSemaphoreSignalNodeParams *nodeParams)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Creates an external semaphore signal node and adds it to a graph....",
+      "filename": "__host__cudaerror_t_cudagraphaddexternalsemaphoressigna_53b4094e.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphaddexternalsemaphoreswaitn_869510cf",
+      "title": "__host__cudaError_t cudaGraphAddExternalSemaphoresWaitNode (cudaGraphNode_t *pGraphNode, cudaGraph_t graph, const cudaGraphNode_t *pDependencies, size_t numDependencies, const cudaExternalSemaphoreWaitNodeParams *nodeParams)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Creates an external semaphore wait node and adds it to a graph....",
+      "filename": "__host__cudaerror_t_cudagraphaddexternalsemaphoreswaitn_869510cf.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphaddhostnode_cudagraphnode__29b4f347",
+      "title": "__host__cudaError_t cudaGraphAddHostNode (cudaGraphNode_t *pGraphNode, cudaGraph_t graph, const cudaGraphNode_t *pDependencies, size_t numDependencies, const cudaHostNodeParams *pNodeParams)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Creates a host execution node and adds it to a graph....",
+      "filename": "__host__cudaerror_t_cudagraphaddhostnode_cudagraphnode__29b4f347.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphaddkernelnode_cudagraphnod_4668f88e",
+      "title": "__host__cudaError_t cudaGraphAddKernelNode (cudaGraphNode_t *pGraphNode, cudaGraph_t graph, const cudaGraphNode_t *pDependencies, size_t numDependencies, const cudaKernelNodeParams *pNodeParams)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Creates a kernel execution node and adds it to a graph....",
+      "filename": "__host__cudaerror_t_cudagraphaddkernelnode_cudagraphnod_4668f88e.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphaddmemallocnode_cudagraphn_8a2dcb18",
+      "title": "__host__cudaError_t cudaGraphAddMemAllocNode (cudaGraphNode_t *pGraphNode, cudaGraph_t graph, const cudaGraphNode_t *pDependencies, size_t numDependencies, cudaMemAllocNodeParams *nodeParams)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Creates an allocation node and adds it to a graph....",
+      "filename": "__host__cudaerror_t_cudagraphaddmemallocnode_cudagraphn_8a2dcb18.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphaddmemcpynode_cudagraphnod_91a2285f",
+      "title": "__host__cudaError_t cudaGraphAddMemcpyNode (cudaGraphNode_t *pGraphNode, cudaGraph_t graph, const cudaGraphNode_t *pDependencies, size_t numDependencies, const cudaMemcpy3DParms *pCopyParams)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Creates a memcpy node and adds it to a graph....",
+      "filename": "__host__cudaerror_t_cudagraphaddmemcpynode_cudagraphnod_91a2285f.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphaddmemcpynode1d_cudagraphn_8460f4df",
+      "title": "__host__cudaError_t cudaGraphAddMemcpyNode1D (cudaGraphNode_t *pGraphNode, cudaGraph_t graph, const cudaGraphNode_t *pDependencies, size_t numDependencies, void *dst, const void *src, size_t count, cudaMemcpyKind kind)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Creates a 1D memcpy node and adds it to a graph....",
+      "filename": "__host__cudaerror_t_cudagraphaddmemcpynode1d_cudagraphn_8460f4df.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphaddmemcpynodefromsymbol_cu_201ad249",
+      "title": "__host__cudaError_t cudaGraphAddMemcpyNodeFromSymbol (cudaGraphNode_t *pGraphNode, cudaGraph_t graph, const cudaGraphNode_t *pDependencies, size_t numDependencies, void *dst, const void *symbol, size_t count, size_t offset, cudaMemcpyKind kind)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Creates a memcpy node to copy from a symbol on the device and adds it to a graph....",
+      "filename": "__host__cudaerror_t_cudagraphaddmemcpynodefromsymbol_cu_201ad249.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphaddmemcpynodetosymbol_cuda_fa7e12cd",
+      "title": "__host__cudaError_t cudaGraphAddMemcpyNodeToSymbol (cudaGraphNode_t *pGraphNode, cudaGraph_t graph, const cudaGraphNode_t *pDependencies, size_t numDependencies, const void *symbol, const void *src, size_t count, size_t offset, cudaMemcpyKind kind)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Creates a memcpy node to copy to a symbol on the device and adds it to a graph....",
+      "filename": "__host__cudaerror_t_cudagraphaddmemcpynodetosymbol_cuda_fa7e12cd.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphaddmemfreenode_cudagraphno_3a2a50f5",
+      "title": "__host__cudaError_t cudaGraphAddMemFreeNode (cudaGraphNode_t *pGraphNode, cudaGraph_t graph, const cudaGraphNode_t *pDependencies, size_t numDependencies, void *dptr)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Creates a memory free node and adds it to a graph....",
+      "filename": "__host__cudaerror_t_cudagraphaddmemfreenode_cudagraphno_3a2a50f5.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphaddmemsetnode_cudagraphnod_af1e459f",
+      "title": "__host__cudaError_t cudaGraphAddMemsetNode (cudaGraphNode_t *pGraphNode, cudaGraph_t graph, const cudaGraphNode_t *pDependencies, size_t numDependencies, const cudaMemsetParams *pMemsetParams)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Creates a memset node and adds it to a graph....",
+      "filename": "__host__cudaerror_t_cudagraphaddmemsetnode_cudagraphnod_af1e459f.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphaddnode_cudagraphnode_t_pg_f3b92796",
+      "title": "__host__cudaError_t cudaGraphAddNode (cudaGraphNode_t *pGraphNode, cudaGraph_t graph, const cudaGraphNode_t *pDependencies, const cudaGraphEdgeData *dependencyData, size_t numDependencies, cudaGraphNodeParams *nodeParams)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Adds a node of arbitrary type to a graph....",
+      "filename": "__host__cudaerror_t_cudagraphaddnode_cudagraphnode_t_pg_f3b92796.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphchildgraphnodegetgraph_cud_b4496776",
+      "title": "__host__cudaError_t cudaGraphChildGraphNodeGetGraph (cudaGraphNode_t node, cudaGraph_t *pGraph)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Gets a handle to the embedded graph of a child graph node....",
+      "filename": "__host__cudaerror_t_cudagraphchildgraphnodegetgraph_cud_b4496776.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphclone_cudagraph_t_pgraphcl_9cbf970a",
+      "title": "__host__cudaError_t cudaGraphClone (cudaGraph_t *pGraphClone, cudaGraph_t originalGraph)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Clones a graph....",
+      "filename": "__host__cudaerror_t_cudagraphclone_cudagraph_t_pgraphcl_9cbf970a.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphconditionalhandlecreate_cu_268ce957",
+      "title": "__host__cudaError_t cudaGraphConditionalHandleCreate (cudaGraphConditionalHandle *pHandle_out, cudaGraph_t graph, unsigned int defaultLaunchValue, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Create a conditional handle....",
+      "filename": "__host__cudaerror_t_cudagraphconditionalhandlecreate_cu_268ce957.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphconditionalhandlecreate_v2_5cf40e1c",
+      "title": "__host__cudaError_t cudaGraphConditionalHandleCreate_v2 (cudaGraphConditionalHandle *pHandle_out, cudaGraph_t graph, cudaExecutionContext_t ctx, unsigned int defaultLaunchValue, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Create a conditional handle....",
+      "filename": "__host__cudaerror_t_cudagraphconditionalhandlecreate_v2_5cf40e1c.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphcreate_cudagraph_t_pgraph__1c4f8375",
+      "title": "__host__cudaError_t cudaGraphCreate (cudaGraph_t *pGraph, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Creates a graph....",
+      "filename": "__host__cudaerror_t_cudagraphcreate_cudagraph_t_pgraph__1c4f8375.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphdebugdotprint_cudagraph_t__5e18f709",
+      "title": "__host__cudaError_t cudaGraphDebugDotPrint (cudaGraph_t graph, const char *path, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Write a DOT file describing graph structure....",
+      "filename": "__host__cudaerror_t_cudagraphdebugdotprint_cudagraph_t__5e18f709.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphdestroy_cudagraph_t_graph",
+      "title": "__host__cudaError_t cudaGraphDestroy (cudaGraph_t graph)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Destroys a graph....",
+      "filename": "__host__cudaerror_t_cudagraphdestroy_cudagraph_t_graph.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphdestroynode_cudagraphnode_t_node",
+      "title": "__host__cudaError_t cudaGraphDestroyNode (cudaGraphNode_t node)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Remove a node from the graph....",
+      "filename": "__host__cudaerror_t_cudagraphdestroynode_cudagraphnode_t_node.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagrapheventrecordnodegetevent_cu_72cb4c08",
+      "title": "__host__cudaError_t cudaGraphEventRecordNodeGetEvent (cudaGraphNode_t node, cudaEvent_t *event_out)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the event associated with an event record node....",
+      "filename": "__host__cudaerror_t_cudagrapheventrecordnodegetevent_cu_72cb4c08.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagrapheventrecordnodesetevent_cu_13947e31",
+      "title": "__host__cudaError_t cudaGraphEventRecordNodeSetEvent (cudaGraphNode_t node, cudaEvent_t event)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets an event record node's event....",
+      "filename": "__host__cudaerror_t_cudagrapheventrecordnodesetevent_cu_13947e31.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagrapheventwaitnodegetevent_cuda_fed41acb",
+      "title": "__host__cudaError_t cudaGraphEventWaitNodeGetEvent (cudaGraphNode_t node, cudaEvent_t *event_out)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the event associated with an event wait node....",
+      "filename": "__host__cudaerror_t_cudagrapheventwaitnodegetevent_cuda_fed41acb.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagrapheventwaitnodesetevent_cuda_25cfd757",
+      "title": "__host__cudaError_t cudaGraphEventWaitNodeSetEvent (cudaGraphNode_t node, cudaEvent_t event)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets an event wait node's event....",
+      "filename": "__host__cudaerror_t_cudagrapheventwaitnodesetevent_cuda_25cfd757.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphexecchildgraphnodesetparam_e4c5b807",
+      "title": "__host__cudaError_t cudaGraphExecChildGraphNodeSetParams (cudaGraphExec_t hGraphExec, cudaGraphNode_t node, cudaGraph_t childGraph)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Updates node parameters in the child graph node in the given graphExec....",
+      "filename": "__host__cudaerror_t_cudagraphexecchildgraphnodesetparam_e4c5b807.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphexecdestroy_cudagraphexec__e75a7538",
+      "title": "__host__cudaError_t cudaGraphExecDestroy (cudaGraphExec_t graphExec)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Destroys an executable graph....",
+      "filename": "__host__cudaerror_t_cudagraphexecdestroy_cudagraphexec__e75a7538.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphexeceventrecordnodeseteven_58333f6e",
+      "title": "__host__cudaError_t cudaGraphExecEventRecordNodeSetEvent (cudaGraphExec_t hGraphExec, cudaGraphNode_t hNode, cudaEvent_t event)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets the event for an event record node in the given graphExec....",
+      "filename": "__host__cudaerror_t_cudagraphexeceventrecordnodeseteven_58333f6e.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphexeceventwaitnodesetevent__8f40197f",
+      "title": "__host__cudaError_t cudaGraphExecEventWaitNodeSetEvent (cudaGraphExec_t hGraphExec, cudaGraphNode_t hNode, cudaEvent_t event)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets the event for an event wait node in the given graphExec....",
+      "filename": "__host__cudaerror_t_cudagraphexeceventwaitnodesetevent__8f40197f.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphexecexternalsemaphoressign_caacefcb",
+      "title": "__host__cudaError_t cudaGraphExecExternalSemaphoresSignalNodeSetParams (cudaGraphExec_t hGraphExec, cudaGraphNode_t hNode, const cudaExternalSemaphoreSignalNodeParams *nodeParams)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets the parameters for an external semaphore signal node in the given graphExec....",
+      "filename": "__host__cudaerror_t_cudagraphexecexternalsemaphoressign_caacefcb.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphexecexternalsemaphoreswait_4643de13",
+      "title": "__host__cudaError_t cudaGraphExecExternalSemaphoresWaitNodeSetParams (cudaGraphExec_t hGraphExec, cudaGraphNode_t hNode, const cudaExternalSemaphoreWaitNodeParams *nodeParams)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets the parameters for an external semaphore wait node in the given graphExec....",
+      "filename": "__host__cudaerror_t_cudagraphexecexternalsemaphoreswait_4643de13.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphexecgetflags_cudagraphexec_2036577a",
+      "title": "__host__cudaError_t cudaGraphExecGetFlags (cudaGraphExec_t graphExec, unsigned long long *flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Query the instantiation flags of an executable graph....",
+      "filename": "__host__cudaerror_t_cudagraphexecgetflags_cudagraphexec_2036577a.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphexecgetid_cudagraphexec_t__61f4cd4f",
+      "title": "__host__cudaError_t cudaGraphExecGetId (cudaGraphExec_t hGraphExec, unsigned int *graphID)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the id of a given graph exec....",
+      "filename": "__host__cudaerror_t_cudagraphexecgetid_cudagraphexec_t__61f4cd4f.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphexechostnodesetparams_cuda_9dcd84f0",
+      "title": "__host__cudaError_t cudaGraphExecHostNodeSetParams (cudaGraphExec_t hGraphExec, cudaGraphNode_t node, const cudaHostNodeParams *pNodeParams)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets the parameters for a host node in the given graphExec....",
+      "filename": "__host__cudaerror_t_cudagraphexechostnodesetparams_cuda_9dcd84f0.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphexeckernelnodesetparams_cu_ca552a51",
+      "title": "__host__cudaError_t cudaGraphExecKernelNodeSetParams (cudaGraphExec_t hGraphExec, cudaGraphNode_t node, const cudaKernelNodeParams *pNodeParams)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets the parameters for a kernel node in the given graphExec....",
+      "filename": "__host__cudaerror_t_cudagraphexeckernelnodesetparams_cu_ca552a51.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphexecmemcpynodesetparams_cu_8a648790",
+      "title": "__host__cudaError_t cudaGraphExecMemcpyNodeSetParams (cudaGraphExec_t hGraphExec, cudaGraphNode_t node, const cudaMemcpy3DParms *pNodeParams)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets the parameters for a memcpy node in the given graphExec....",
+      "filename": "__host__cudaerror_t_cudagraphexecmemcpynodesetparams_cu_8a648790.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphexecmemcpynodesetparams1d__c269fd03",
+      "title": "__host__cudaError_t cudaGraphExecMemcpyNodeSetParams1D (cudaGraphExec_t hGraphExec, cudaGraphNode_t node, void *dst, const void *src, size_t count, cudaMemcpyKind kind)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets the parameters for a memcpy node in the given graphExec to perform a 1-dimensional copy....",
+      "filename": "__host__cudaerror_t_cudagraphexecmemcpynodesetparams1d__c269fd03.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphexecmemcpynodesetparamsfro_b8f12a84",
+      "title": "__host__cudaError_t cudaGraphExecMemcpyNodeSetParamsFromSymbol (cudaGraphExec_t hGraphExec, cudaGraphNode_t node, void *dst, const void *symbol, size_t count, size_t offset, cudaMemcpyKind kind)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets the parameters for a memcpy node in the given graphExec to copy from a symbol on the device....",
+      "filename": "__host__cudaerror_t_cudagraphexecmemcpynodesetparamsfro_b8f12a84.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphexecmemcpynodesetparamstos_db773634",
+      "title": "__host__cudaError_t cudaGraphExecMemcpyNodeSetParamsToSymbol (cudaGraphExec_t hGraphExec, cudaGraphNode_t node, const void *symbol, const void *src, size_t count, size_t offset, cudaMemcpyKind kind)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets the parameters for a memcpy node in the given graphExec to copy to a symbol on the device....",
+      "filename": "__host__cudaerror_t_cudagraphexecmemcpynodesetparamstos_db773634.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphexecmemsetnodesetparams_cu_ee009638",
+      "title": "__host__cudaError_t cudaGraphExecMemsetNodeSetParams (cudaGraphExec_t hGraphExec, cudaGraphNode_t node, const cudaMemsetParams *pNodeParams)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets the parameters for a memset node in the given graphExec....",
+      "filename": "__host__cudaerror_t_cudagraphexecmemsetnodesetparams_cu_ee009638.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphexecnodesetparams_cudagrap_6fc9daec",
+      "title": "__host__cudaError_t cudaGraphExecNodeSetParams (cudaGraphExec_t graphExec, cudaGraphNode_t node, cudaGraphNodeParams *nodeParams)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Update's a graph node's parameters in an instantiated graph....",
+      "filename": "__host__cudaerror_t_cudagraphexecnodesetparams_cudagrap_6fc9daec.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphexecupdate_cudagraphexec_t_3b626ed8",
+      "title": "__host__cudaError_t cudaGraphExecUpdate (cudaGraphExec_t hGraphExec, cudaGraph_t hGraph, cudaGraphExecUpdateResultInfo *resultInfo)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Check whether an executable graph can be updated with a graph and perform the update if possible....",
+      "filename": "__host__cudaerror_t_cudagraphexecupdate_cudagraphexec_t_3b626ed8.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphexternalsemaphoressignalno_7e30e029",
+      "title": "__host__cudaError_t cudaGraphExternalSemaphoresSignalNodeGetParams (cudaGraphNode_t hNode, cudaExternalSemaphoreSignalNodeParams *params_out)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns an external semaphore signal node's parameters....",
+      "filename": "__host__cudaerror_t_cudagraphexternalsemaphoressignalno_7e30e029.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphexternalsemaphoressignalno_422b14f4",
+      "title": "__host__cudaError_t cudaGraphExternalSemaphoresSignalNodeSetParams (cudaGraphNode_t hNode, const cudaExternalSemaphoreSignalNodeParams *nodeParams)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets an external semaphore signal node's parameters....",
+      "filename": "__host__cudaerror_t_cudagraphexternalsemaphoressignalno_422b14f4.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphexternalsemaphoreswaitnode_87025c31",
+      "title": "__host__cudaError_t cudaGraphExternalSemaphoresWaitNodeGetParams (cudaGraphNode_t hNode, cudaExternalSemaphoreWaitNodeParams *params_out)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns an external semaphore wait node's parameters....",
+      "filename": "__host__cudaerror_t_cudagraphexternalsemaphoreswaitnode_87025c31.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphexternalsemaphoreswaitnode_dccbebb3",
+      "title": "__host__cudaError_t cudaGraphExternalSemaphoresWaitNodeSetParams (cudaGraphNode_t hNode, const cudaExternalSemaphoreWaitNodeParams *nodeParams)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets an external semaphore wait node's parameters....",
+      "filename": "__host__cudaerror_t_cudagraphexternalsemaphoreswaitnode_dccbebb3.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphgetedges_cudagraph_t_graph_a6e3ffd5",
+      "title": "__host__cudaError_t cudaGraphGetEdges (cudaGraph_t graph, cudaGraphNode_t *from, cudaGraphNode_t *to, cudaGraphEdgeData *edgeData, size_t *numEdges)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns a graph's dependency edges....",
+      "filename": "__host__cudaerror_t_cudagraphgetedges_cudagraph_t_graph_a6e3ffd5.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphgetid_cudagraph_t_hgraph_u_a026ee47",
+      "title": "__host__cudaError_t cudaGraphGetId (cudaGraph_t hGraph, unsigned int *graphID)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the id of a given graph....",
+      "filename": "__host__cudaerror_t_cudagraphgetid_cudagraph_t_hgraph_u_a026ee47.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphgetnodes_cudagraph_t_graph_2a9e6dd2",
+      "title": "__host__cudaError_t cudaGraphGetNodes (cudaGraph_t graph, cudaGraphNode_t *nodes, size_t *numNodes)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns a graph's nodes....",
+      "filename": "__host__cudaerror_t_cudagraphgetnodes_cudagraph_t_graph_2a9e6dd2.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphgetrootnodes_cudagraph_t_g_20a44b2b",
+      "title": "__host__cudaError_t cudaGraphGetRootNodes (cudaGraph_t graph, cudaGraphNode_t *pRootNodes, size_t *pNumRootNodes)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns a graph's root nodes....",
+      "filename": "__host__cudaerror_t_cudagraphgetrootnodes_cudagraph_t_g_20a44b2b.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphhostnodegetparams_cudagrap_51ecc127",
+      "title": "__host__cudaError_t cudaGraphHostNodeGetParams (cudaGraphNode_t node, cudaHostNodeParams *pNodeParams)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns a host node's parameters....",
+      "filename": "__host__cudaerror_t_cudagraphhostnodegetparams_cudagrap_51ecc127.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphhostnodesetparams_cudagrap_4db3beb4",
+      "title": "__host__cudaError_t cudaGraphHostNodeSetParams (cudaGraphNode_t node, const cudaHostNodeParams *pNodeParams)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets a host node's parameters....",
+      "filename": "__host__cudaerror_t_cudagraphhostnodesetparams_cudagrap_4db3beb4.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphinstantiate_cudagraphexec__365debaa",
+      "title": "__host__cudaError_t cudaGraphInstantiate (cudaGraphExec_t *pGraphExec, cudaGraph_t graph, unsigned long long flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Creates an executable graph from a graph....",
+      "filename": "__host__cudaerror_t_cudagraphinstantiate_cudagraphexec__365debaa.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphinstantiatewithflags_cudag_c65f7f1e",
+      "title": "__host__cudaError_t cudaGraphInstantiateWithFlags (cudaGraphExec_t *pGraphExec, cudaGraph_t graph, unsigned long long flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Creates an executable graph from a graph....",
+      "filename": "__host__cudaerror_t_cudagraphinstantiatewithflags_cudag_c65f7f1e.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphinstantiatewithparams_cuda_574d6cd4",
+      "title": "__host__cudaError_t cudaGraphInstantiateWithParams (cudaGraphExec_t *pGraphExec, cudaGraph_t graph, cudaGraphInstantiateParams *instantiateParams)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Creates an executable graph from a graph....",
+      "filename": "__host__cudaerror_t_cudagraphinstantiatewithparams_cuda_574d6cd4.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphkernelnodecopyattributes_c_7b66f9ef",
+      "title": "__host__cudaError_t cudaGraphKernelNodeCopyAttributes (cudaGraphNode_t hDst, cudaGraphNode_t hSrc)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Copies attributes from source node to destination node....",
+      "filename": "__host__cudaerror_t_cudagraphkernelnodecopyattributes_c_7b66f9ef.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphkernelnodegetattribute_cud_a5c461ce",
+      "title": "__host__cudaError_t cudaGraphKernelNodeGetAttribute (cudaGraphNode_t hNode, cudaKernelNodeAttrID attr, cudaKernelNodeAttrValue *value_out)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Queries node attribute....",
+      "filename": "__host__cudaerror_t_cudagraphkernelnodegetattribute_cud_a5c461ce.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphkernelnodegetparams_cudagr_4b03ad8e",
+      "title": "__host__cudaError_t cudaGraphKernelNodeGetParams (cudaGraphNode_t node, cudaKernelNodeParams *pNodeParams)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns a kernel node's parameters....",
+      "filename": "__host__cudaerror_t_cudagraphkernelnodegetparams_cudagr_4b03ad8e.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphkernelnodesetattribute_cud_872a7742",
+      "title": "__host__cudaError_t cudaGraphKernelNodeSetAttribute (cudaGraphNode_t hNode, cudaKernelNodeAttrID attr, const cudaKernelNodeAttrValue *value)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets node attribute....",
+      "filename": "__host__cudaerror_t_cudagraphkernelnodesetattribute_cud_872a7742.md"
+    },
+    {
+      "id": "__device__cudaerror_t_cudagraphkernelnodesetenabled_cud_c329ded4",
+      "title": "__device__cudaError_t cudaGraphKernelNodeSetEnabled (cudaGraphDeviceNode_t node, bool enable)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Enables or disables the given kernel node....",
+      "filename": "__device__cudaerror_t_cudagraphkernelnodesetenabled_cud_c329ded4.md"
+    },
+    {
+      "id": "__device__cudaerror_t_cudagraphkernelnodesetgriddim_cud_cf5014aa",
+      "title": "__device__cudaError_t cudaGraphKernelNodeSetGridDim (cudaGraphDeviceNode_t node, dim3 gridDim)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Updates the grid dimensions of the given kernel node....",
+      "filename": "__device__cudaerror_t_cudagraphkernelnodesetgriddim_cud_cf5014aa.md"
+    },
+    {
+      "id": "template_typename_t___device__cudaerror_t_cudagraphkern_b09b04a0",
+      "title": "template < typename T > __device__cudaError_t cudaGraphKernelNodeSetParam (cudaGraphDeviceNode_t node, size_t offset, const T value)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Updates the kernel parameters of the given kernel node....",
+      "filename": "template_typename_t___device__cudaerror_t_cudagraphkern_b09b04a0.md"
+    },
+    {
+      "id": "__device__cudaerror_t_cudagraphkernelnodesetparam_cudag_ff5192f8",
+      "title": "__device__cudaError_t cudaGraphKernelNodeSetParam (cudaGraphDeviceNode_t node, size_t offset, const void *value, size_t size)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Updates the kernel parameters of the given kernel node....",
+      "filename": "__device__cudaerror_t_cudagraphkernelnodesetparam_cudag_ff5192f8.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphkernelnodesetparams_cudagr_4484bc1c",
+      "title": "__host__cudaError_t cudaGraphKernelNodeSetParams (cudaGraphNode_t node, const cudaKernelNodeParams *pNodeParams)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets a kernel node's parameters....",
+      "filename": "__host__cudaerror_t_cudagraphkernelnodesetparams_cudagr_4484bc1c.md"
+    },
+    {
+      "id": "__device__cudaerror_t_cudagraphkernelnodeupdatesapply_c_a23185a5",
+      "title": "__device__cudaError_t cudaGraphKernelNodeUpdatesApply (const cudaGraphKernelNodeUpdate *updates, size_t updateCount)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Batch applies multiple kernel node updates....",
+      "filename": "__device__cudaerror_t_cudagraphkernelnodeupdatesapply_c_a23185a5.md"
+    },
+    {
+      "id": "__host____device__cudaerror_t_cudagraphlaunch_cudagraph_fe06c0bf",
+      "title": "__host____device__cudaError_t cudaGraphLaunch (cudaGraphExec_t graphExec, cudaStream_t stream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Launches an executable graph in a stream....",
+      "filename": "__host____device__cudaerror_t_cudagraphlaunch_cudagraph_fe06c0bf.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphmemallocnodegetparams_cuda_4f0c22ed",
+      "title": "__host__cudaError_t cudaGraphMemAllocNodeGetParams (cudaGraphNode_t node, cudaMemAllocNodeParams *params_out)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns a memory alloc node's parameters....",
+      "filename": "__host__cudaerror_t_cudagraphmemallocnodegetparams_cuda_4f0c22ed.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphmemcpynodegetparams_cudagr_fc0cb797",
+      "title": "__host__cudaError_t cudaGraphMemcpyNodeGetParams (cudaGraphNode_t node, cudaMemcpy3DParms *pNodeParams)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns a memcpy node's parameters....",
+      "filename": "__host__cudaerror_t_cudagraphmemcpynodegetparams_cudagr_fc0cb797.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphmemcpynodesetparams_cudagr_90b8b71f",
+      "title": "__host__cudaError_t cudaGraphMemcpyNodeSetParams (cudaGraphNode_t node, const cudaMemcpy3DParms *pNodeParams)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets a memcpy node's parameters....",
+      "filename": "__host__cudaerror_t_cudagraphmemcpynodesetparams_cudagr_90b8b71f.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphmemcpynodesetparams1d_cuda_a7ee5cd3",
+      "title": "__host__cudaError_t cudaGraphMemcpyNodeSetParams1D (cudaGraphNode_t node, void *dst, const void *src, size_t count, cudaMemcpyKind kind)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets a memcpy node's parameters to perform a 1-dimensional copy....",
+      "filename": "__host__cudaerror_t_cudagraphmemcpynodesetparams1d_cuda_a7ee5cd3.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphmemcpynodesetparamsfromsym_6a2cbcbc",
+      "title": "__host__cudaError_t cudaGraphMemcpyNodeSetParamsFromSymbol (cudaGraphNode_t node, void *dst, const void *symbol, size_t count, size_t offset, cudaMemcpyKind kind)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets a memcpy node's parameters to copy from a symbol on the device....",
+      "filename": "__host__cudaerror_t_cudagraphmemcpynodesetparamsfromsym_6a2cbcbc.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphmemcpynodesetparamstosymbo_c3f82044",
+      "title": "__host__cudaError_t cudaGraphMemcpyNodeSetParamsToSymbol (cudaGraphNode_t node, const void *symbol, const void *src, size_t count, size_t offset, cudaMemcpyKind kind)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets a memcpy node's parameters to copy to a symbol on the device....",
+      "filename": "__host__cudaerror_t_cudagraphmemcpynodesetparamstosymbo_c3f82044.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphmemfreenodegetparams_cudag_94af8c71",
+      "title": "__host__cudaError_t cudaGraphMemFreeNodeGetParams (cudaGraphNode_t node, void *dptr_out)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns a memory free node's parameters....",
+      "filename": "__host__cudaerror_t_cudagraphmemfreenodegetparams_cudag_94af8c71.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphmemsetnodegetparams_cudagr_4b200ad1",
+      "title": "__host__cudaError_t cudaGraphMemsetNodeGetParams (cudaGraphNode_t node, cudaMemsetParams *pNodeParams)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns a memset node's parameters....",
+      "filename": "__host__cudaerror_t_cudagraphmemsetnodegetparams_cudagr_4b200ad1.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphmemsetnodesetparams_cudagr_136efed8",
+      "title": "__host__cudaError_t cudaGraphMemsetNodeSetParams (cudaGraphNode_t node, const cudaMemsetParams *pNodeParams)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets a memset node's parameters....",
+      "filename": "__host__cudaerror_t_cudagraphmemsetnodesetparams_cudagr_136efed8.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphnodefindinclone_cudagraphn_09327ddd",
+      "title": "__host__cudaError_t cudaGraphNodeFindInClone (cudaGraphNode_t *pNode, cudaGraphNode_t originalNode, cudaGraph_t clonedGraph)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Finds a cloned version of a node....",
+      "filename": "__host__cudaerror_t_cudagraphnodefindinclone_cudagraphn_09327ddd.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphnodegetcontaininggraph_cud_dd49c3e0",
+      "title": "__host__cudaError_t cudaGraphNodeGetContainingGraph (cudaGraphNode_t hNode, cudaGraph_t *phGraph)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the graph that contains a given graph node....",
+      "filename": "__host__cudaerror_t_cudagraphnodegetcontaininggraph_cud_dd49c3e0.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphnodegetdependencies_cudagr_051454c8",
+      "title": "__host__cudaError_t cudaGraphNodeGetDependencies (cudaGraphNode_t node, cudaGraphNode_t *pDependencies, cudaGraphEdgeData *edgeData, size_t *pNumDependencies)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns a node's dependencies....",
+      "filename": "__host__cudaerror_t_cudagraphnodegetdependencies_cudagr_051454c8.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphnodegetdependentnodes_cuda_ada8bf22",
+      "title": "__host__cudaError_t cudaGraphNodeGetDependentNodes (cudaGraphNode_t node, cudaGraphNode_t *pDependentNodes, cudaGraphEdgeData *edgeData, size_t *pNumDependentNodes)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns a node's dependent nodes....",
+      "filename": "__host__cudaerror_t_cudagraphnodegetdependentnodes_cuda_ada8bf22.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphnodegetenabled_cudagraphex_5dca12fc",
+      "title": "__host__cudaError_t cudaGraphNodeGetEnabled (cudaGraphExec_t hGraphExec, cudaGraphNode_t hNode, unsigned int *isEnabled)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Query whether a node in the given graphExec is enabled....",
+      "filename": "__host__cudaerror_t_cudagraphnodegetenabled_cudagraphex_5dca12fc.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphnodegetlocalid_cudagraphno_589b0a61",
+      "title": "__host__cudaError_t cudaGraphNodeGetLocalId (cudaGraphNode_t hNode, unsigned int *nodeId)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the node id of a given graph node....",
+      "filename": "__host__cudaerror_t_cudagraphnodegetlocalid_cudagraphno_589b0a61.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphnodegettoolsid_cudagraphno_27f5df48",
+      "title": "__host__cudaError_t cudaGraphNodeGetToolsId (cudaGraphNode_t hNode, unsigned long long *toolsNodeId)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns an id used by tools to identify a given node....",
+      "filename": "__host__cudaerror_t_cudagraphnodegettoolsid_cudagraphno_27f5df48.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphnodegettype_cudagraphnode__1729391b",
+      "title": "__host__cudaError_t cudaGraphNodeGetType (cudaGraphNode_t node, cudaGraphNodeType *pType)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns a node's type....",
+      "filename": "__host__cudaerror_t_cudagraphnodegettype_cudagraphnode__1729391b.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphnodesetenabled_cudagraphex_72a55ed5",
+      "title": "__host__cudaError_t cudaGraphNodeSetEnabled (cudaGraphExec_t hGraphExec, cudaGraphNode_t hNode, unsigned int isEnabled)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Enables or disables the specified node in the given graphExec....",
+      "filename": "__host__cudaerror_t_cudagraphnodesetenabled_cudagraphex_72a55ed5.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphnodesetparams_cudagraphnod_8c2ef357",
+      "title": "__host__cudaError_t cudaGraphNodeSetParams (cudaGraphNode_t node, cudaGraphNodeParams *nodeParams)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Update's a graph node's parameters....",
+      "filename": "__host__cudaerror_t_cudagraphnodesetparams_cudagraphnod_8c2ef357.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphreleaseuserobject_cudagrap_cfceae70",
+      "title": "__host__cudaError_t cudaGraphReleaseUserObject (cudaGraph_t graph, cudaUserObject_t object, unsigned int count)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Release a user object reference from a graph....",
+      "filename": "__host__cudaerror_t_cudagraphreleaseuserobject_cudagrap_cfceae70.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphremovedependencies_cudagra_2a7a0a8d",
+      "title": "__host__cudaError_t cudaGraphRemoveDependencies (cudaGraph_t graph, const cudaGraphNode_t *from, const cudaGraphNode_t *to, const cudaGraphEdgeData *edgeData, size_t numDependencies)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Removes dependency edges from a graph....",
+      "filename": "__host__cudaerror_t_cudagraphremovedependencies_cudagra_2a7a0a8d.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphretainuserobject_cudagraph_6385e4f1",
+      "title": "__host__cudaError_t cudaGraphRetainUserObject (cudaGraph_t graph, cudaUserObject_t object, unsigned int count, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Retain a reference to a user object from a graph....",
+      "filename": "__host__cudaerror_t_cudagraphretainuserobject_cudagraph_6385e4f1.md"
+    },
+    {
+      "id": "__device___void_cudagraphsetconditional_cudagraphcondit_cc676784",
+      "title": "__device__ void cudaGraphSetConditional (cudaGraphConditionalHandle handle, unsigned int value)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets the condition value associated with a conditional node....",
+      "filename": "__device___void_cudagraphsetconditional_cudagraphcondit_cc676784.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphupload_cudagraphexec_t_gra_e657f83e",
+      "title": "__host__cudaError_t cudaGraphUpload (cudaGraphExec_t graphExec, cudaStream_t stream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Uploads an executable graph in a stream....",
+      "filename": "__host__cudaerror_t_cudagraphupload_cudagraphexec_t_gra_e657f83e.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudauserobjectcreate_cudauserobject_011fbf89",
+      "title": "__host__cudaError_t cudaUserObjectCreate (cudaUserObject_t *object_out, void *ptr, cudaHostFn_t destroy, unsigned int initialRefcount, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Create a user object....",
+      "filename": "__host__cudaerror_t_cudauserobjectcreate_cudauserobject_011fbf89.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudauserobjectrelease_cudauserobjec_76a23751",
+      "title": "__host__cudaError_t cudaUserObjectRelease (cudaUserObject_t object, unsigned int count)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Release a reference to a user object....",
+      "filename": "__host__cudaerror_t_cudauserobjectrelease_cudauserobjec_76a23751.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudauserobjectretain_cudauserobject_2d62c3a1",
+      "title": "__host__cudaError_t cudaUserObjectRetain (cudaUserObject_t object, unsigned int count)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Retain a reference to a user object....",
+      "filename": "__host__cudaerror_t_cudauserobjectretain_cudauserobject_2d62c3a1.md"
+    }
+  ]
+}

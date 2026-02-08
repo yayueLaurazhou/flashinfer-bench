@@ -1,0 +1,85 @@
+{
+  "description": "Documentation for 24.3.2.4. Coherency and Concurrency",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "243241_gpu_exclusive_access_to_managed_memory",
+      "title": "24.3.2.4.1. GPU Exclusive Access To Managed Memory",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 24.3.2.4.1. GPU Exclusive Access To Managed Memory[\uf0c1](#gpu-exclusive-access-to-managed-memory \"Permalink to this headline\")  To ensure coherency on pre-6.x GPU architectures, the Unified Memory ...",
+      "filename": "243241_gpu_exclusive_access_to_managed_memory.md"
+    },
+    {
+      "id": "243242_explicit_synchronization_and_logical_gpu_activity",
+      "title": "24.3.2.4.2. Explicit Synchronization and Logical GPU Activity",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 24.3.2.4.2. Explicit Synchronization and Logical GPU Activity[\uf0c1](#explicit-synchronization-and-logical-gpu-activity \"Permalink to this headline\")  Note that explicit synchronization is required ...",
+      "filename": "243242_explicit_synchronization_and_logical_gpu_activity.md"
+    },
+    {
+      "id": "243243_managing_data_visibility_and_concurrent_cpu_gpu_access_with_streams",
+      "title": "24.3.2.4.3. Managing Data Visibility and Concurrent CPU + GPU Access with Streams",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 24.3.2.4.3. Managing Data Visibility and Concurrent CPU + GPU Access with Streams[\uf0c1](#managing-data-visibility-and-concurrent-cpu-gpu-access-with-streams \"Permalink to this headline\")  Until now...",
+      "filename": "243243_managing_data_visibility_and_concurrent_cpu_gpu_access_with_streams.md"
+    },
+    {
+      "id": "243244_stream_association_examples",
+      "title": "24.3.2.4.4. Stream Association Examples",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 24.3.2.4.4. Stream Association Examples[\uf0c1](#stream-association-examples \"Permalink to this headline\")  Associating data with a stream allows fine-grained control over CPU + GPU concurrency, but ...",
+      "filename": "243244_stream_association_examples.md"
+    },
+    {
+      "id": "243245_stream_attach_with_multithreaded_host_programs",
+      "title": "24.3.2.4.5. Stream Attach With Multithreaded Host Programs",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 24.3.2.4.5. Stream Attach With Multithreaded Host Programs[\uf0c1](#stream-attach-with-multithreaded-host-programs \"Permalink to this headline\")  The primary use for `cudaStreamAttachMemAsync()` is t...",
+      "filename": "243245_stream_attach_with_multithreaded_host_programs.md"
+    },
+    {
+      "id": "243246_advanced_topic_modular_programs_and_data_access_constraints",
+      "title": "24.3.2.4.6. Advanced Topic: Modular Programs and Data Access Constraints",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 24.3.2.4.6. Advanced Topic: Modular Programs and Data Access Constraints[\uf0c1](#advanced-topic-modular-programs-and-data-access-constraints \"Permalink to this headline\")  In the previous example `c...",
+      "filename": "243246_advanced_topic_modular_programs_and_data_access_constraints.md"
+    },
+    {
+      "id": "243247_memcpymemset_behavior_with_stream_associated_unified_memory",
+      "title": "24.3.2.4.7. Memcpy()/Memset() Behavior With Stream-associated Unified Memory",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 24.3.2.4.7. Memcpy()/Memset() Behavior With Stream-associated Unified Memory[\uf0c1](#memcpy-memset-behavior-with-stream-associated-unified-memory \"Permalink to this headline\")  See [Memcpy()/Memset(...",
+      "filename": "243247_memcpymemset_behavior_with_stream_associated_unified_memory.md"
+    }
+  ]
+}

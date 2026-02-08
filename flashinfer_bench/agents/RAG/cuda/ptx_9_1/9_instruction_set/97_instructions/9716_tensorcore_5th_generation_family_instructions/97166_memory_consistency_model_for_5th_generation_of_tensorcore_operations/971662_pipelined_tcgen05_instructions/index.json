@@ -1,0 +1,20 @@
+{
+  "description": "Documentation for 9.7.16.6.2. Pipelined tcgen05 Instructions",
+  "directories": [
+    {
+      "name": "9716621_implicitly_pipelined_tcgen05_instructions",
+      "description": "Instructions `tcgen05.commit` and `tcgen05.wait` are implicitly pipelined with respect to previously issued `tcgen05.{mma,cp,shift}` and `tcgen05.{ld,st}` instructions respectively that they track from the same thread."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "The asynchronous `tcgen05` operations may execute and complete in a different order than they were issued. However, some specific pairs of the asynchronous `tcgen05` instructions form `tcgen05` pipelines, where in the two asynchronous operations are guaranteed to execute in the same order as the ..."
+    }
+  ]
+}

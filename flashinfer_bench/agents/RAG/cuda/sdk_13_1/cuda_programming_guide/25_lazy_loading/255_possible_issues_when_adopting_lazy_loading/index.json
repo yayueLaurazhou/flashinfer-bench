@@ -1,0 +1,45 @@
+{
+  "description": "Documentation for 25.5. Possible Issues when Adopting Lazy Loading",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "2551_concurrent_execution",
+      "title": "25.5.1. Concurrent Execution",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 25.5.1. Concurrent Execution[\uf0c1](#concurrent-execution \"Permalink to this headline\")  Loading kernels might require context synchronization. Some programs incorrectly treat the possibility of concu...",
+      "filename": "2551_concurrent_execution.md"
+    },
+    {
+      "id": "2552_allocators",
+      "title": "25.5.2. Allocators",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 25.5.2. Allocators[\uf0c1](#allocators \"Permalink to this headline\")  Lazy Loading delays loading code from initialization phase of the program closer to execution phase. Loading code onto the GPU requ...",
+      "filename": "2552_allocators.md"
+    },
+    {
+      "id": "2553_autotuning",
+      "title": "25.5.3. Autotuning",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 25.5.3. Autotuning[\uf0c1](#autotuning \"Permalink to this headline\")  Some applications launch several kernels implementing the same functionality to determine which one is the fastest. While it is ove...",
+      "filename": "2553_autotuning.md"
+    }
+  ]
+}

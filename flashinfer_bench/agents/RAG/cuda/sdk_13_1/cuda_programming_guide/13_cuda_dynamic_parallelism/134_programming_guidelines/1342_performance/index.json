@@ -1,0 +1,25 @@
+{
+  "description": "Documentation for 13.4.2. Performance",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "13421_dynamic_parallelism_enabled_kernel_overhead",
+      "title": "13.4.2.1. Dynamic-parallelism-enabled Kernel Overhead",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 13.4.2.1. Dynamic-parallelism-enabled Kernel Overhead[\uf0c1](#dynamic-parallelism-enabled-kernel-overhead \"Permalink to this headline\")  System software which is active when controlling dynamic launc...",
+      "filename": "13421_dynamic_parallelism_enabled_kernel_overhead.md"
+    }
+  ]
+}

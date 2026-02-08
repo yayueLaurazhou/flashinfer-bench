@@ -1,0 +1,3 @@
+# struct cudaAccessPolicyWindow cudaLaunchAttributeValue::accessPolicyWindow
+
+Value of launch attribute cudaLaunchAttributeAccessPolicyWindow.

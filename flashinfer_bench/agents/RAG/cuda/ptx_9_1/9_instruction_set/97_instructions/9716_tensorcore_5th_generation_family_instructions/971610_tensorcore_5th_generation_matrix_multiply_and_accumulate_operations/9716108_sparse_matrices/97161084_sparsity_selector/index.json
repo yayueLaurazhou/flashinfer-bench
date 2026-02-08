@@ -1,0 +1,75 @@
+{
+  "description": "Documentation for 9.7.16.10.8.4. Sparsity selector",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "The value of the sparsity selector selects the sub-columns in the Tensor Memory to form the sparsity metadata matrix, which is used with matrix `A` to form the multiplicand matrix."
+    },
+    {
+      "id": "tcgen05_sparse_matrices_sparsity_selector_kind_f16_m64",
+      "title": "tcgen05-sparse-matrices-sparsity-selector-kind-f16-m64",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "[Figure 262](https://docs.nvidia.com/cuda/parallel-thread-execution/#tcgen05-sparse-matrices-sparsity-selector-kind-f16-m64-dig) shows which sub-columns gets selected for different values of Sparsity Selector.",
+      "filename": "tcgen05_sparse_matrices_sparsity_selector_kind_f16_m64.md"
+    },
+    {
+      "id": "tcgen05_sparse_matrices_sparsity_selector_kind_f16_m128_256",
+      "title": "tcgen05-sparse-matrices-sparsity-selector-kind-f16-m128-256",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "[Figure 263](https://docs.nvidia.com/cuda/parallel-thread-execution/#tcgen05-sparse-matrices-sparsity-selector-kind-f16-m128-256-dig) shows which sub-columns gets selected for different values of Sparsity Selector.",
+      "filename": "tcgen05_sparse_matrices_sparsity_selector_kind_f16_m128_256.md"
+    },
+    {
+      "id": "tcgen05_sparse_matrices_sparsity_selector_kind_tf32_m64",
+      "title": "tcgen05-sparse-matrices-sparsity-selector-kind-tf32-m64",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "[Figure 264](https://docs.nvidia.com/cuda/parallel-thread-execution/#tcgen05-sparse-matrices-sparsity-selector-kind-tf32-m64-dig) shows which sub-columns gets selected for different values of Sparsity Selector.",
+      "filename": "tcgen05_sparse_matrices_sparsity_selector_kind_tf32_m64.md"
+    },
+    {
+      "id": "tcgen05_sparse_matrices_sparsity_selector_kind_tf32_m128_256",
+      "title": "tcgen05-sparse-matrices-sparsity-selector-kind-tf32-m128-256",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "[Figure 265](https://docs.nvidia.com/cuda/parallel-thread-execution/#tcgen05-sparse-matrices-sparsity-selector-kind-tf32-m128-256-dig) shows which sub-columns gets selected for different values of Sparsity Selector.",
+      "filename": "tcgen05_sparse_matrices_sparsity_selector_kind_tf32_m128_256.md"
+    },
+    {
+      "id": "tcgen05_sparse_matrices_sparsity_selector_kind_f8f6f4_mxf8f6f4_m64",
+      "title": "tcgen05-sparse-matrices-sparsity-selector-kind-f8f6f4-mxf8f6f4-m64",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "The value of the sparsity selector:",
+      "filename": "tcgen05_sparse_matrices_sparsity_selector_kind_f8f6f4_mxf8f6f4_m64.md"
+    },
+    {
+      "id": "tcgen05_sparse_matrices_sparsity_selector_kind_f8f6f4_mxf8f6f4_m128_256",
+      "title": "tcgen05-sparse-matrices-sparsity-selector-kind-f8f6f4-mxf8f6f4-m128-256",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "The value of the sparsity selector:",
+      "filename": "tcgen05_sparse_matrices_sparsity_selector_kind_f8f6f4_mxf8f6f4_m128_256.md"
+    }
+  ]
+}

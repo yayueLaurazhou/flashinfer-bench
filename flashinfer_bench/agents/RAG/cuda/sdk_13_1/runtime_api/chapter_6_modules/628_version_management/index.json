@@ -1,0 +1,26 @@
+{
+  "description": "Documentation for 6.28. Version Management",
+  "directories": [],
+  "files": [
+    {
+      "id": "__host__cudaerror_t_cudadrivergetversion_int_driverversion",
+      "title": "__host__cudaError_t cudaDriverGetVersion (int *driverVersion)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the latest version of CUDA supported by the driver....",
+      "filename": "__host__cudaerror_t_cudadrivergetversion_int_driverversion.md"
+    },
+    {
+      "id": "__host____device__cudaerror_t_cudaruntimegetversion_int_eb0f3d24",
+      "title": "__host____device__cudaError_t cudaRuntimeGetVersion (int *runtimeVersion)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the CUDA Runtime version....",
+      "filename": "__host____device__cudaerror_t_cudaruntimegetversion_int_eb0f3d24.md"
+    }
+  ]
+}

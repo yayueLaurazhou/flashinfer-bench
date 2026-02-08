@@ -1,0 +1,45 @@
+{
+  "description": "Documentation for 20.4. Compute Capability 5.x",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "2041_architecture",
+      "title": "20.4.1. Architecture",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 20.4.1. Architecture[\uf0c1](#architecture \"Permalink to this headline\")  An SM consists of:  * 128 CUDA cores for arithmetic operations (see [CUDA C++ Best Practices Guide](https://docs.nvidia.com/cud...",
+      "filename": "2041_architecture.md"
+    },
+    {
+      "id": "2042_global_memory",
+      "title": "20.4.2. Global Memory",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 20.4.2. Global Memory[\uf0c1](#global-memory-5-x \"Permalink to this headline\")  Global memory accesses are always cached in L2.  Data that is read-only for the entire lifetime of the kernel can also be...",
+      "filename": "2042_global_memory.md"
+    },
+    {
+      "id": "2043_shared_memory",
+      "title": "20.4.3. Shared Memory",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 20.4.3. Shared Memory[\uf0c1](#shared-memory-5-x \"Permalink to this headline\")  Shared memory has 32 banks that are organized such that successive 32-bit words map to successive banks. Each bank has a ...",
+      "filename": "2043_shared_memory.md"
+    }
+  ]
+}

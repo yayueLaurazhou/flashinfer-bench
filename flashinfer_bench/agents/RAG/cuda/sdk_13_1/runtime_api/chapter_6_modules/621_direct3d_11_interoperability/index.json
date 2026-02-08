@@ -1,0 +1,55 @@
+{
+  "description": "Documentation for 6.21. Direct3D 11 Interoperability",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "enum_cudad3d11devicelist",
+      "title": "enum cudaD3D11DeviceList",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA devices corresponding to a D3D11 device...",
+      "filename": "enum_cudad3d11devicelist.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudad3d11getdevice_int_device_idxgi_6dbcbb1d",
+      "title": "__host__cudaError_t cudaD3D11GetDevice (int *device, IDXGIAdapter *pAdapter)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Gets the device number for an adapter....",
+      "filename": "__host__cudaerror_t_cudad3d11getdevice_int_device_idxgi_6dbcbb1d.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudad3d11getdevices_unsigned_int_pc_841c629f",
+      "title": "__host__cudaError_t cudaD3D11GetDevices (unsigned int *pCudaDeviceCount, int *pCudaDevices, unsigned int cudaDeviceCount, ID3D11Device *pD3D11Device, cudaD3D11DeviceList deviceList)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Gets the CUDA devices corresponding to a Direct3D 11 device....",
+      "filename": "__host__cudaerror_t_cudad3d11getdevices_unsigned_int_pc_841c629f.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphicsd3d11registerresource_c_8c7d8d02",
+      "title": "__host__cudaError_t cudaGraphicsD3D11RegisterResource (cudaGraphicsResource **resource, ID3D11Resource *pD3DResource, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Register a Direct3D 11 resource for access by CUDA....",
+      "filename": "__host__cudaerror_t_cudagraphicsd3d11registerresource_c_8c7d8d02.md"
+    }
+  ]
+}

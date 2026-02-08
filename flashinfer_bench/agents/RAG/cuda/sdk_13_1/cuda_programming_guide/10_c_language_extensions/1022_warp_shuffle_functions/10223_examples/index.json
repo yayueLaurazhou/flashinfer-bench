@@ -1,0 +1,45 @@
+{
+  "description": "Documentation for 10.22.3. Examples",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "102231_broadcast_of_a_single_value_across_a_warp",
+      "title": "10.22.3.1. Broadcast of a single value across a warp",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 10.22.3.1. Broadcast of a single value across a warp[\uf0c1](#broadcast-of-a-single-value-across-a-warp \"Permalink to this headline\")  ``` #include <stdio.h>  __global__ void bcast(int arg) {     int ...",
+      "filename": "102231_broadcast_of_a_single_value_across_a_warp.md"
+    },
+    {
+      "id": "102232_inclusive_plus_scan_across_sub_partitions_of_8_threads",
+      "title": "10.22.3.2. Inclusive plus-scan across sub-partitions of 8 threads",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 10.22.3.2. Inclusive plus-scan across sub-partitions of 8 threads[\uf0c1](#inclusive-plus-scan-across-sub-partitions-of-8-threads \"Permalink to this headline\")  ``` #include <stdio.h>  __global__ void...",
+      "filename": "102232_inclusive_plus_scan_across_sub_partitions_of_8_threads.md"
+    },
+    {
+      "id": "102233_reduction_across_a_warp",
+      "title": "10.22.3.3. Reduction across a warp",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 10.22.3.3. Reduction across a warp[\uf0c1](#reduction-across-a-warp \"Permalink to this headline\")  ``` #include <stdio.h>  __global__ void warpReduce() {     int laneId = threadIdx.x & 0x1f;     // Se...",
+      "filename": "102233_reduction_across_a_warp.md"
+    }
+  ]
+}

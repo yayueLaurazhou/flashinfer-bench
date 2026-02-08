@@ -1,0 +1,75 @@
+{
+  "description": "Documentation for 6.40. OpenGL Interoperability",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "opengl_interoperability_deprecated_enum_cugldevicelist",
+      "title": "OpenGL Interoperability [DEPRECATED] enum CUGLDeviceList",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA devices corresponding to an OpenGL device...",
+      "filename": "opengl_interoperability_deprecated_enum_cugldevicelist.md"
+    },
+    {
+      "id": "curesult_cuglgetdevices_unsigned_int_pcudadevicecount_c_ba3777f2",
+      "title": "CUresult cuGLGetDevices (unsigned int *pCudaDeviceCount, CUdevice *pCudaDevices, unsigned int cudaDeviceCount, CUGLDeviceList deviceList)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Gets the CUDA devices associated with the current OpenGL context....",
+      "filename": "curesult_cuglgetdevices_unsigned_int_pcudadevicecount_c_ba3777f2.md"
+    },
+    {
+      "id": "curesult_cugraphicsglregisterbuffer_cugraphicsresource__913200a7",
+      "title": "CUresult cuGraphicsGLRegisterBuffer (CUgraphicsResource *pCudaResource, GLuint buffer, unsigned int Flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Registers an OpenGL buffer object....",
+      "filename": "curesult_cugraphicsglregisterbuffer_cugraphicsresource__913200a7.md"
+    },
+    {
+      "id": "curesult_cugraphicsglregisterimage_cugraphicsresource_p_6513dc43",
+      "title": "CUresult cuGraphicsGLRegisterImage (CUgraphicsResource *pCudaResource, GLuint image, GLenum target, unsigned int Flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Register an OpenGL texture or renderbuffer object....",
+      "filename": "curesult_cugraphicsglregisterimage_cugraphicsresource_p_6513dc43.md"
+    },
+    {
+      "id": "curesult_cuwglgetdevice_cudevice_pdevice_hgpunv_hgpu",
+      "title": "CUresult cuWGLGetDevice (CUdevice *pDevice, HGPUNV hGpu)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Gets the CUDA device associated with hGpu....",
+      "filename": "curesult_cuwglgetdevice_cudevice_pdevice_hgpunv_hgpu.md"
+    },
+    {
+      "id": "6401_opengl_interoperability_deprecated",
+      "title": "6.40.1. OpenGL Interoperability [DEPRECATED]",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "OpenGL Interoperability  This section describes deprecated OpenGL interoperability functionality....",
+      "filename": "6401_opengl_interoperability_deprecated.md"
+    }
+  ]
+}

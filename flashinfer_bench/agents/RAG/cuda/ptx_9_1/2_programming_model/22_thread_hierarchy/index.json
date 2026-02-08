@@ -1,0 +1,45 @@
+{
+  "description": "Documentation for 2.2. Thread Hierarchy",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "The batch of threads that executes a kernel is organized as a grid. A grid consists of either cooperative thread arrays or clusters of cooperative thread arrays as described in this section and illustrated in [Figure 1](https://docs.nvidia.com/cuda/parallel-thread-execution/#grid-of-clusters-grid..."
+    },
+    {
+      "id": "221_cooperative_thread_arrays",
+      "title": "2.2.1. Cooperative Thread Arrays",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "The *Parallel Thread Execution (PTX)* programming model is explicitly parallel: a PTX program specifies the execution of a given thread of a parallel thread array. A *cooperative thread array*, or CTA, is an array of threads that execute a kernel concurrently or in parallel.",
+      "filename": "221_cooperative_thread_arrays.md"
+    },
+    {
+      "id": "222_cluster_of_cooperative_thread_arrays",
+      "title": "2.2.2. Cluster of Cooperative Thread Arrays",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "Cluster is a group of CTAs that run concurrently or in parallel and can synchronize and communicate with each other via shared memory. The executing CTA has to make sure that the shared memory of the peer CTA exists before communicating with it via shared memory and the peer CTA hasn\u2019t exited bef...",
+      "filename": "222_cluster_of_cooperative_thread_arrays.md"
+    },
+    {
+      "id": "223_grid_of_clusters",
+      "title": "2.2.3. Grid of Clusters",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "There is a maximum number of threads that a CTA can contain and a maximum number of CTAs that a cluster can contain. However, clusters with CTAs that execute the same kernel can be batched together into a grid of clusters, so that the total number of threads that can be launched in a single kerne...",
+      "filename": "223_grid_of_clusters.md"
+    }
+  ]
+}

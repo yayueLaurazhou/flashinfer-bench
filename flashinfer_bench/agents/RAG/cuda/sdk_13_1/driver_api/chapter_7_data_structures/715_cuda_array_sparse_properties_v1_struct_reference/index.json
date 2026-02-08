@@ -1,0 +1,75 @@
+{
+  "description": "Documentation for 7.15. CUDA_ARRAY_SPARSE_PROPERTIES_v1 Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "unsigned_int_cuda_array_sparse_properties_v1depth",
+      "title": "unsigned int CUDA_ARRAY_SPARSE_PROPERTIES_v1::depth",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Depth of sparse tile in elements...",
+      "filename": "unsigned_int_cuda_array_sparse_properties_v1depth.md"
+    },
+    {
+      "id": "unsigned_int_cuda_array_sparse_properties_v1flags",
+      "title": "unsigned int CUDA_ARRAY_SPARSE_PROPERTIES_v1::flags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Flags will either be zero or CU_ARRAY_SPARSE_PROPERTIES_SINGLE_MIPTAIL...",
+      "filename": "unsigned_int_cuda_array_sparse_properties_v1flags.md"
+    },
+    {
+      "id": "unsigned_int_cuda_array_sparse_properties_v1height",
+      "title": "unsigned int CUDA_ARRAY_SPARSE_PROPERTIES_v1::height",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Height of sparse tile in elements...",
+      "filename": "unsigned_int_cuda_array_sparse_properties_v1height.md"
+    },
+    {
+      "id": "unsigned_int_cuda_array_sparse_properties_v1miptailfirstlevel",
+      "title": "unsigned int CUDA_ARRAY_SPARSE_PROPERTIES_v1::miptailFirstLevel",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "First mip level at which the mip tail begins....",
+      "filename": "unsigned_int_cuda_array_sparse_properties_v1miptailfirstlevel.md"
+    },
+    {
+      "id": "unsigned_long_long_cuda_array_sparse_properties_v1miptailsize",
+      "title": "unsigned long long CUDA_ARRAY_SPARSE_PROPERTIES_v1::miptailSize",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Total size of the mip tail.   CUDA Driver API TRM-06703-001 _vRelease Version  |  680   Data Structures...",
+      "filename": "unsigned_long_long_cuda_array_sparse_properties_v1miptailsize.md"
+    },
+    {
+      "id": "unsigned_int_cuda_array_sparse_properties_v1width",
+      "title": "unsigned int CUDA_ARRAY_SPARSE_PROPERTIES_v1::width",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Width of sparse tile in elements...",
+      "filename": "unsigned_int_cuda_array_sparse_properties_v1width.md"
+    }
+  ]
+}

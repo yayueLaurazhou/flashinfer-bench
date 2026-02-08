@@ -1,0 +1,55 @@
+{
+  "description": "Documentation for 9.7.9.27.1. Data Movement and Conversion Instructions: Tensor copy",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "9792711_restriction_on_tensor_copy_instructions",
+      "title": "9.7.9.27.1.1. Restriction on Tensor Copy instructions",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "Following are the restrictions on the types `.b4x16`, `.b4x16_p64`, `.b6x16_p32` and `.b6p2x16`:",
+      "filename": "9792711_restriction_on_tensor_copy_instructions.md"
+    },
+    {
+      "id": "9792712_data_movement_and_conversion_instructions_cpasyncbulktensor",
+      "title": "9.7.9.27.1.2. Data Movement and Conversion Instructions: cp.async.bulk.tensor",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`cp.async.bulk.tensor`",
+      "filename": "9792712_data_movement_and_conversion_instructions_cpasyncbulktensor.md"
+    },
+    {
+      "id": "9792713_data_movement_and_conversion_instructions_cpreduceasyncbulktensor",
+      "title": "9.7.9.27.1.3. Data Movement and Conversion Instructions: cp.reduce.async.bulk.tensor",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`cp.reduce.async.bulk.tensor`",
+      "filename": "9792713_data_movement_and_conversion_instructions_cpreduceasyncbulktensor.md"
+    },
+    {
+      "id": "9792714_data_movement_and_conversion_instructions_cpasyncbulkprefetchtensor",
+      "title": "9.7.9.27.1.4. Data Movement and Conversion Instructions: cp.async.bulk.prefetch.tensor",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`cp.async.bulk.prefetch.tensor`",
+      "filename": "9792714_data_movement_and_conversion_instructions_cpasyncbulkprefetchtensor.md"
+    }
+  ]
+}

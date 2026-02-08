@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 6.11. Module Management [DEPRECATED]",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "curesult_cumodulegetsurfref_cusurfref_psurfref_cumodule_de5cbd42",
+      "title": "CUresult cuModuleGetSurfRef (CUsurfref *pSurfRef, CUmodule hmod, const char *name)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns a handle to a surface reference....",
+      "filename": "curesult_cumodulegetsurfref_cusurfref_psurfref_cumodule_de5cbd42.md"
+    },
+    {
+      "id": "curesult_cumodulegettexref_cutexref_ptexref_cumodule_hm_d50c2d90",
+      "title": "CUresult cuModuleGetTexRef (CUtexref *pTexRef, CUmodule hmod, const char *name)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns a handle to a texture reference....",
+      "filename": "curesult_cumodulegettexref_cutexref_ptexref_cumodule_hm_d50c2d90.md"
+    }
+  ]
+}

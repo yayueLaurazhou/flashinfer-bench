@@ -1,0 +1,34 @@
+{
+  "description": "Documentation for 10.29. Asynchronous Data Copies using the Tensor Memory Accelerator (TMA)",
+  "directories": [
+    {
+      "name": "10292_using_tma_to_transfer_multi_dimensional_arrays",
+      "description": "### 10.29.2. Using TMA to transfer multi-dimensional arrays[\uf0c1](#using-tma-to-transfer-multi-dimensional-arrays \"Permalink to this headline\")  The primary difference between the one-dimensional and mul..."
+    },
+    {
+      "name": "10293_tma_swizzle",
+      "description": "### 10.29.3. TMA Swizzle[\uf0c1](#tma-swizzle \"Permalink to this headline\")  By default, the TMA engine loads data to shared memory in the same order as it is laid out in global memory. However, this layou..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "10291_using_tma_to_transfer_one_dimensional_arrays",
+      "title": "10.29.1. Using TMA to transfer one-dimensional arrays",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.29.1. Using TMA to transfer one-dimensional arrays[\uf0c1](#using-tma-to-transfer-one-dimensional-arrays \"Permalink to this headline\")  This section demonstrates how to write a simple kernel that re...",
+      "filename": "10291_using_tma_to_transfer_one_dimensional_arrays.md"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "description": "Documentation for 7.16. cudaEglPlaneDesc Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "struct_cudachannelformatdesc_cudaeglplanedescchanneldesc",
+      "title": "struct cudaChannelFormatDesc cudaEglPlaneDesc::channelDesc",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Channel Format Descriptor...",
+      "filename": "struct_cudachannelformatdesc_cudaeglplanedescchanneldesc.md"
+    },
+    {
+      "id": "unsigned_int_cudaeglplanedescdepth",
+      "title": "unsigned int cudaEglPlaneDesc::depth",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Depth of plane   CUDA Runtime API vRelease Version  |  608   Data Structures...",
+      "filename": "unsigned_int_cudaeglplanedescdepth.md"
+    },
+    {
+      "id": "unsigned_int_cudaeglplanedescheight",
+      "title": "unsigned int cudaEglPlaneDesc::height",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Height of plane...",
+      "filename": "unsigned_int_cudaeglplanedescheight.md"
+    },
+    {
+      "id": "unsigned_int_cudaeglplanedescnumchannels",
+      "title": "unsigned int cudaEglPlaneDesc::numChannels",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Number of channels for the plane...",
+      "filename": "unsigned_int_cudaeglplanedescnumchannels.md"
+    },
+    {
+      "id": "unsigned_int_cudaeglplanedescpitch",
+      "title": "unsigned int cudaEglPlaneDesc::pitch",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Pitch of plane...",
+      "filename": "unsigned_int_cudaeglplanedescpitch.md"
+    },
+    {
+      "id": "unsigned_int_cudaeglplanedescreserved",
+      "title": "unsigned int cudaEglPlaneDesc::reserved",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Reserved for future use...",
+      "filename": "unsigned_int_cudaeglplanedescreserved.md"
+    },
+    {
+      "id": "unsigned_int_cudaeglplanedescwidth",
+      "title": "unsigned int cudaEglPlaneDesc::width",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Width of plane...",
+      "filename": "unsigned_int_cudaeglplanedescwidth.md"
+    }
+  ]
+}

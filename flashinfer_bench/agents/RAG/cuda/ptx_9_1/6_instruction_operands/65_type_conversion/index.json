@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 6.5. Type Conversion",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "All operands to all arithmetic, logic, and data movement instruction must be of the same type and size, except for operations where changing the size and/or type is part of the definition of the instruction. Operands of different sizes or types must be converted prior to the operation."
+    },
+    {
+      "id": "651_scalar_conversions",
+      "title": "6.5.1. Scalar Conversions",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "[Table 15](https://docs.nvidia.com/cuda/parallel-thread-execution/#scalar-conversions-convert-instruction-precision-and-format-t1) and [Table 16](https://docs.nvidia.com/cuda/parallel-thread-execution/#scalar-conversions-convert-instruction-precision-and-format-t2) show what precision and format ...",
+      "filename": "651_scalar_conversions.md"
+    },
+    {
+      "id": "652_rounding_modifiers",
+      "title": "6.5.2. Rounding Modifiers",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "Conversion instructions may specify a rounding modifier. In PTX, there are four integer rounding modifiers and six floating-point rounding modifiers. [Table 17](https://docs.nvidia.com/cuda/parallel-thread-execution/#rounding-modifiers-floating-point-rounding-modifiers) and [Table 18](https://doc...",
+      "filename": "652_rounding_modifiers.md"
+    }
+  ]
+}

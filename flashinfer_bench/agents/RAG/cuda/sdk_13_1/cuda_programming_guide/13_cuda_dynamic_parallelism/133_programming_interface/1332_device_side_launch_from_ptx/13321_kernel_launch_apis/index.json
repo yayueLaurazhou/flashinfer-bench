@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 13.3.2.1. Kernel Launch APIs",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "133211_cudalaunchdevice",
+      "title": "13.3.2.1.1. cudaLaunchDevice",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 13.3.2.1.1. cudaLaunchDevice[\uf0c1](#cudalaunchdevice \"Permalink to this headline\")  At the PTX level, `cudaLaunchDevice()`needs to be declared in one of the two forms shown below before it is used....",
+      "filename": "133211_cudalaunchdevice.md"
+    },
+    {
+      "id": "133212_cudagetparameterbuffer",
+      "title": "13.3.2.1.2. cudaGetParameterBuffer",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 13.3.2.1.2. cudaGetParameterBuffer[\uf0c1](#cudagetparameterbuffer \"Permalink to this headline\")  `cudaGetParameterBuffer()` needs to be declared at the PTX level before it\u2019s used. The PTX-level decl...",
+      "filename": "133212_cudagetparameterbuffer.md"
+    }
+  ]
+}

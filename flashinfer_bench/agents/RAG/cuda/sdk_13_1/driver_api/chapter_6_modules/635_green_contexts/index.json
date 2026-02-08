@@ -1,0 +1,345 @@
+{
+  "description": "Documentation for 6.35. Green Contexts",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "cuDeviceGetDevResource. In case of workqueues, a new configuration can be used or an existing one queried via the cuDeviceGetDevResource API. (2) Modify these resources by either partitioning them (in...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "configuration (in case of workqueues). To partition SMs, we recommend cuDevSmResourceSplit. Changing the workqueue configuration can be done directly in place. (3) Finalize the specification of resour...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "cuDevResourceGenerateDesc. (4) Create a green context via cuGreenCtxCreate. This provisions the resource, such as workqueues...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "(until this step it was only a configuration specification). (5) Create a stream via cuGreenCtxStreamCreate, and use it throughout your application....",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "SMs  There are two possible partition operations - with cuDevSmResourceSplitByCount the partitions created have to follow default SM count granularity requirements, so it will often be rounded up and ...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "The smCount must be a multiple of 2....",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "The alignment (and default value of coscheduledSmCount) is 2....",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "On Compute Architecture 9.0+:...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "The smCount must be a multiple of 8, or coscheduledSmCount if provided....",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "The alignment (and default value of coscheduledSmCount) is 8. While the maximum value...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "for coscheduled SM count is 32 on all Compute Architecture 9.0+, it's recommended to follow cluster size requirements. The portable cluster size and the max cluster size should be used in order to ben...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "cu_workqueue_scope_device_ctx",
+      "title": "\u2023 CU_WORKQUEUE_SCOPE_DEVICE_CTX:",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "contexts (default driver behavior). When possible, use non-overlapping...",
+      "filename": "cu_workqueue_scope_device_ctx.md"
+    },
+    {
+      "id": "cu_workqueue_scope_green_ctx_balanced",
+      "title": "\u2023 CU_WORKQUEUE_SCOPE_GREEN_CTX_BALANCED:",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "workqueue resources with other balanced green contexts.  The maximum concurrency limit depends on CUDA_DEVICE_MAX_CONNECTIONS and can be queried from the primary context via cuCtxGetDevResource. Confi...",
+      "filename": "cu_workqueue_scope_green_ctx_balanced.md"
+    },
+    {
+      "id": "cuda_mps_active_thread_percentage",
+      "title": "\u2023 CUDA_MPS_ACTIVE_THREAD_PERCENTAGE",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "that are used for running kernels can be scaled up to the value of SMs used for the MPS client.   CUDA Driver API TRM-06703-001 _vRelease Version  |  573   Modules   On Compute Architecture 9.x: When ...",
+      "filename": "cuda_mps_active_thread_percentage.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "future kernels running under green contexts may use and share an additional set of 2 SMs....",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "struct_cu_dev_sm_resource_group_params_struct_cudevreso_e7a68c2e",
+      "title": "struct CU_DEV_SM_RESOURCE_GROUP_PARAMS struct CUdevResource struct CUdevSmResource struct CUdevWorkqueueConfigResource struct CUdevWorkqueueResource enum CUdevResourceType",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Type of resource...",
+      "filename": "struct_cu_dev_sm_resource_group_params_struct_cudevreso_e7a68c2e.md"
+    },
+    {
+      "id": "enum_cudevworkqueueconfigscope",
+      "title": "enum CUdevWorkqueueConfigScope",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sharing scope for workqueues...",
+      "filename": "enum_cudevworkqueueconfigscope.md"
+    },
+    {
+      "id": "typedef_struct_cudevresourcedesc_st_cudevresourcedesc",
+      "title": "typedef struct CUdevResourceDesc_st *CUdevResourceDesc",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "An opaque descriptor handle. The descriptor encapsulates multiple created and configured resources. Created via cuDevResourceGenerateDesc...",
+      "filename": "typedef_struct_cudevresourcedesc_st_cudevresourcedesc.md"
+    },
+    {
+      "id": "curesult_cuctxfromgreenctx_cucontext_pcontext_cugreenctx_hctx",
+      "title": "CUresult cuCtxFromGreenCtx (CUcontext *pContext, CUgreenCtx hCtx)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Converts a green context into the primary context....",
+      "filename": "curesult_cuctxfromgreenctx_cucontext_pcontext_cugreenctx_hctx.md"
+    },
+    {
+      "id": "curesult_cuctxgetdevresource_cucontext_hctx_cudevresour_939c9da4",
+      "title": "CUresult cuCtxGetDevResource (CUcontext hCtx, CUdevResource *resource, CUdevResourceType type)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Get context resources....",
+      "filename": "curesult_cuctxgetdevresource_cucontext_hctx_cudevresour_939c9da4.md"
+    },
+    {
+      "id": "curesult_cudevicegetdevresource_cudevice_device_cudevre_ed760cad",
+      "title": "CUresult cuDeviceGetDevResource (CUdevice device, CUdevResource *resource, CUdevResourceType type)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Get device resources....",
+      "filename": "curesult_cudevicegetdevresource_cudevice_device_cudevre_ed760cad.md"
+    },
+    {
+      "id": "curesult_cudevresourcegeneratedesc_cudevresourcedesc_ph_44e30350",
+      "title": "CUresult cuDevResourceGenerateDesc (CUdevResourceDesc *phDesc, CUdevResource *resources, unsigned int nbResources)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Generate a resource descriptor....",
+      "filename": "curesult_cudevresourcegeneratedesc_cudevresourcedesc_ph_44e30350.md"
+    },
+    {
+      "id": "curesult_cudevsmresourcesplit_cudevresource_result_unsi_45e141d0",
+      "title": "CUresult cuDevSmResourceSplit (CUdevResource *result, unsigned int nbGroups, const CUdevResource *input, CUdevResource *remainder, unsigned int flags, CU_DEV_SM_RESOURCE_GROUP_PARAMS *groupParams)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Splits a CU_DEV_RESOURCE_TYPE_SM resource into structured groups....",
+      "filename": "curesult_cudevsmresourcesplit_cudevresource_result_unsi_45e141d0.md"
+    },
+    {
+      "id": "curesult_cudevsmresourcesplitbycount_cudevresource_resu_39da611a",
+      "title": "CUresult cuDevSmResourceSplitByCount (CUdevResource *result, unsigned int *nbGroups, const CUdevResource *input, CUdevResource *remainder, unsigned int flags, unsigned int minCount)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Splits CU_DEV_RESOURCE_TYPE_SM resources....",
+      "filename": "curesult_cudevsmresourcesplitbycount_cudevresource_resu_39da611a.md"
+    },
+    {
+      "id": "curesult_cugreenctxcreate_cugreenctx_phctx_cudevresourc_263796a6",
+      "title": "CUresult cuGreenCtxCreate (CUgreenCtx *phCtx, CUdevResourceDesc desc, CUdevice dev, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Creates a green context with a specified set of resources....",
+      "filename": "curesult_cugreenctxcreate_cugreenctx_phctx_cudevresourc_263796a6.md"
+    },
+    {
+      "id": "curesult_cugreenctxdestroy_cugreenctx_hctx",
+      "title": "CUresult cuGreenCtxDestroy (CUgreenCtx hCtx)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Destroys a green context....",
+      "filename": "curesult_cugreenctxdestroy_cugreenctx_hctx.md"
+    },
+    {
+      "id": "curesult_cugreenctxgetdevresource_cugreenctx_hctx_cudev_5c76a1c7",
+      "title": "CUresult cuGreenCtxGetDevResource (CUgreenCtx hCtx, CUdevResource *resource, CUdevResourceType type)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Get green context resources....",
+      "filename": "curesult_cugreenctxgetdevresource_cugreenctx_hctx_cudev_5c76a1c7.md"
+    },
+    {
+      "id": "curesult_cugreenctxgetid_cugreenctx_greenctx_unsigned_l_b2cab903",
+      "title": "CUresult cuGreenCtxGetId (CUgreenCtx greenCtx, unsigned long long *greenCtxId)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the unique Id associated with the green context supplied....",
+      "filename": "curesult_cugreenctxgetid_cugreenctx_greenctx_unsigned_l_b2cab903.md"
+    },
+    {
+      "id": "curesult_cugreenctxrecordevent_cugreenctx_hctx_cuevent_hevent",
+      "title": "CUresult cuGreenCtxRecordEvent (CUgreenCtx hCtx, CUevent hEvent)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Records an event....",
+      "filename": "curesult_cugreenctxrecordevent_cugreenctx_hctx_cuevent_hevent.md"
+    },
+    {
+      "id": "curesult_cugreenctxstreamcreate_custream_phstream_cugre_300fbb38",
+      "title": "CUresult cuGreenCtxStreamCreate (CUstream *phStream, CUgreenCtx greenCtx, unsigned int flags, int priority)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Create a stream for use in the green context....",
+      "filename": "curesult_cugreenctxstreamcreate_custream_phstream_cugre_300fbb38.md"
+    },
+    {
+      "id": "curesult_cugreenctxwaitevent_cugreenctx_hctx_cuevent_hevent",
+      "title": "CUresult cuGreenCtxWaitEvent (CUgreenCtx hCtx, CUevent hEvent)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Make a green context wait on an event....",
+      "filename": "curesult_cugreenctxwaitevent_cugreenctx_hctx_cuevent_hevent.md"
+    },
+    {
+      "id": "curesult_custreamgetdevresource_custream_hstream_cudevr_13986c1d",
+      "title": "CUresult cuStreamGetDevResource (CUstream hStream, CUdevResource *resource, CUdevResourceType type)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Get stream resources....",
+      "filename": "curesult_custreamgetdevresource_custream_hstream_cudevr_13986c1d.md"
+    },
+    {
+      "id": "curesult_custreamgetgreenctx_custream_hstream_cugreenctx_phctx",
+      "title": "CUresult cuStreamGetGreenCtx (CUstream hStream, CUgreenCtx *phCtx)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Query the green context associated with a stream....",
+      "filename": "curesult_custreamgetgreenctx_custream_hstream_cugreenctx_phctx.md"
+    }
+  ]
+}

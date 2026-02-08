@@ -1,0 +1,3 @@
+# CUstreamBatchMemOpParams_v1::CUstreamMemOpMemoryBarrie CUstreamBatchMemOpParams_v1::memoryBarrier
+
+Params for CU_STREAM_MEM_OP_BARRIER operations.

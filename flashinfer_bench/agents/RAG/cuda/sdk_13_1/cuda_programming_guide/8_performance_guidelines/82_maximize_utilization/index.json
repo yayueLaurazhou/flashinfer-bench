@@ -1,0 +1,40 @@
+{
+  "description": "Documentation for 8.2. Maximize Utilization",
+  "directories": [
+    {
+      "name": "823_multiprocessor_level",
+      "description": "### 8.2.3. Multiprocessor Level[\uf0c1](#multiprocessor-level \"Permalink to this headline\")  At an even lower level, the application should maximize parallel execution between the various functional units ..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "821_application_level",
+      "title": "8.2.1. Application Level",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 8.2.1. Application Level[\uf0c1](#application-level \"Permalink to this headline\")  At a high level, the application should maximize parallel execution between the host, the devices, and the bus connect...",
+      "filename": "821_application_level.md"
+    },
+    {
+      "id": "822_device_level",
+      "title": "8.2.2. Device Level",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 8.2.2. Device Level[\uf0c1](#device-level \"Permalink to this headline\")  At a lower level, the application should maximize parallel execution between the multiprocessors of a device.  Multiple kernels ...",
+      "filename": "822_device_level.md"
+    }
+  ]
+}

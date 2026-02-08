@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 13.5. CDP2 vs CDP1",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "1351_differences_between_cdp1_and_cdp2",
+      "title": "13.5.1. Differences Between CDP1 and CDP2",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 13.5.1. Differences Between CDP1 and CDP2[\uf0c1](#differences-between-cdp1-and-cdp2 \"Permalink to this headline\")  Explicit device-side synchronization is no longer possible with CDP2 or on devices of...",
+      "filename": "1351_differences_between_cdp1_and_cdp2.md"
+    },
+    {
+      "id": "1352_compatibility_and_interoperability",
+      "title": "13.5.2. Compatibility and Interoperability",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 13.5.2. Compatibility and Interoperability[\uf0c1](#compatibility-and-interoperability \"Permalink to this headline\")  CDP2 is the default. Functions can be compiled with `-DCUDA_FORCE_CDP1_IF_SUPPORTED...",
+      "filename": "1352_compatibility_and_interoperability.md"
+    }
+  ]
+}

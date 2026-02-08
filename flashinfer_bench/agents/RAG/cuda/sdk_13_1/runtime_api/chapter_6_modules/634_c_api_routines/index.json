@@ -1,0 +1,485 @@
+{
+  "description": "Documentation for 6.34. C++ API Routines",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "__cudaoccupancyb2dhelper",
+      "title": "__cudaOccupancyB2DHelper",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "cppClassifierVisibility: visibility=public...",
+      "filename": "__cudaoccupancyb2dhelper.md"
+    },
+    {
+      "id": "template_class_t___host__cudacreatechanneldesc_void",
+      "title": "template < class T > __host__cudaCreateChannelDesc (void)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "[C++ API] Returns a channel descriptor using the specified format...",
+      "filename": "template_class_t___host__cudacreatechanneldesc_void.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudaeventcreate_cudaevent_t_event_u_a77ec61d",
+      "title": "__host__cudaError_t cudaEventCreate (cudaEvent_t *event, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "[C++ API] Creates an event object with the specified flags...",
+      "filename": "__host__cudaerror_t_cudaeventcreate_cudaevent_t_event_u_a77ec61d.md"
+    },
+    {
+      "id": "template_class_t___host__cudaerror_t_cudafuncgetattribu_cef1c7f4",
+      "title": "template < class T > __host__cudaError_t cudaFuncGetAttributes (cudaFuncAttributes *attr, T *entry)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "[C++ API] Find out attributes for a given function...",
+      "filename": "template_class_t___host__cudaerror_t_cudafuncgetattribu_cef1c7f4.md"
+    },
+    {
+      "id": "template_class_t___host__cudaerror_t_cudafuncgetname_co_6967417f",
+      "title": "template < class T > __host__cudaError_t cudaFuncGetName (const char **name, T *func)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the function name for a device entry function pointer....",
+      "filename": "template_class_t___host__cudaerror_t_cudafuncgetname_co_6967417f.md"
+    },
+    {
+      "id": "template_class_t___host__cudaerror_t_cudafuncsetattribu_5ee9797f",
+      "title": "template < class T > __host__cudaError_t cudaFuncSetAttribute (T *func, cudaFuncAttribute attr, int value)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "[C++ API] Set attributes for a given function...",
+      "filename": "template_class_t___host__cudaerror_t_cudafuncsetattribu_5ee9797f.md"
+    },
+    {
+      "id": "template_class_t___host__cudaerror_t_cudafuncsetcacheco_80e6430e",
+      "title": "template < class T > __host__cudaError_t cudaFuncSetCacheConfig (T *func, cudaFuncCache cacheConfig)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "[C++ API] Sets the preferred cache configuration for a device function...",
+      "filename": "template_class_t___host__cudaerror_t_cudafuncsetcacheco_80e6430e.md"
+    },
+    {
+      "id": "template_class_t___host__cudaerror_t_cudagetkernel_cuda_5324b93a",
+      "title": "template < class T > __host__cudaError_t cudaGetKernel (cudaKernel_t *kernelPtr, T *func)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Get pointer to device kernel that matches entry function entryFuncAddr....",
+      "filename": "template_class_t___host__cudaerror_t_cudagetkernel_cuda_5324b93a.md"
+    },
+    {
+      "id": "template_class_t___host__cudaerror_t_cudagetsymboladdre_68002205",
+      "title": "template < class T > __host__cudaError_t cudaGetSymbolAddress (void **devPtr, const T symbol)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "[C++ API] Finds the address associated with a CUDA symbol...",
+      "filename": "template_class_t___host__cudaerror_t_cudagetsymboladdre_68002205.md"
+    },
+    {
+      "id": "template_class_t___host__cudaerror_t_cudagetsymbolsize__d7095632",
+      "title": "template < class T > __host__cudaError_t cudaGetSymbolSize (size_t *size, const T symbol)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "[C++ API] Finds the size of the object associated with a CUDA symbol...",
+      "filename": "template_class_t___host__cudaerror_t_cudagetsymbolsize__d7095632.md"
+    },
+    {
+      "id": "template_class_t___host__cudaerror_t_cudagraphaddmemcpy_287bb1fb",
+      "title": "template < class T > __host__cudaError_t cudaGraphAddMemcpyNodeFromSymbol (cudaGraphNode_t *pGraphNode, cudaGraph_t graph, const cudaGraphNode_t *pDependencies, size_t numDependencies, void *dst, const T symbol, size_t count, size_t offset, cudaMemcpyKind kind)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Creates a memcpy node to copy from a symbol on the device and adds it to a graph....",
+      "filename": "template_class_t___host__cudaerror_t_cudagraphaddmemcpy_287bb1fb.md"
+    },
+    {
+      "id": "template_class_t___host__cudaerror_t_cudagraphaddmemcpy_61f36d9a",
+      "title": "template < class T > __host__cudaError_t cudaGraphAddMemcpyNodeToSymbol (cudaGraphNode_t *pGraphNode, cudaGraph_t graph, const cudaGraphNode_t *pDependencies, size_t numDependencies, const T symbol, const void *src, size_t count, size_t offset, cudaMemcpyKind kind)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Creates a memcpy node to copy to a symbol on the device and adds it to a graph....",
+      "filename": "template_class_t___host__cudaerror_t_cudagraphaddmemcpy_61f36d9a.md"
+    },
+    {
+      "id": "template_class_t___host__cudaerror_t_cudagraphexecmemcp_c849afa8",
+      "title": "template < class T > __host__cudaError_t cudaGraphExecMemcpyNodeSetParamsFromSymbol (cudaGraphExec_t hGraphExec, cudaGraphNode_t node, void *dst, const T symbol, size_t count, size_t offset, cudaMemcpyKind kind)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets the parameters for a memcpy node in the given graphExec to copy from a symbol on the device....",
+      "filename": "template_class_t___host__cudaerror_t_cudagraphexecmemcp_c849afa8.md"
+    },
+    {
+      "id": "template_class_t___host__cudaerror_t_cudagraphexecmemcp_d523ed7e",
+      "title": "template < class T > __host__cudaError_t cudaGraphExecMemcpyNodeSetParamsToSymbol (cudaGraphExec_t hGraphExec, cudaGraphNode_t node, const T symbol, const void *src, size_t count, size_t offset, cudaMemcpyKind kind)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets the parameters for a memcpy node in the given graphExec to copy to a symbol on the device....",
+      "filename": "template_class_t___host__cudaerror_t_cudagraphexecmemcp_d523ed7e.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphinstantiate_cudagraphexec__790945fd",
+      "title": "__host__cudaError_t cudaGraphInstantiate (cudaGraphExec_t *pGraphExec, cudaGraph_t graph, cudaGraphNode_t *pErrorNode, char *pLogBuffer, size_t bufferSize)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Creates an executable graph from a graph....",
+      "filename": "__host__cudaerror_t_cudagraphinstantiate_cudagraphexec__790945fd.md"
+    },
+    {
+      "id": "template_class_t___host__cudaerror_t_cudagraphmemcpynod_832acedb",
+      "title": "template < class T > __host__cudaError_t cudaGraphMemcpyNodeSetParamsFromSymbol (cudaGraphNode_t node, void *dst, const T symbol, size_t count, size_t offset, cudaMemcpyKind kind)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets a memcpy node's parameters to copy from a symbol on the device....",
+      "filename": "template_class_t___host__cudaerror_t_cudagraphmemcpynod_832acedb.md"
+    },
+    {
+      "id": "template_class_t___host__cudaerror_t_cudagraphmemcpynod_6f269222",
+      "title": "template < class T > __host__cudaError_t cudaGraphMemcpyNodeSetParamsToSymbol (cudaGraphNode_t node, const T symbol, const void *src, size_t count, size_t offset, cudaMemcpyKind kind)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets a memcpy node's parameters to copy to a symbol on the device....",
+      "filename": "template_class_t___host__cudaerror_t_cudagraphmemcpynod_6f269222.md"
+    },
+    {
+      "id": "template_class_t___host__cudaerror_t_cudalaunchcooperat_1b41c7ef",
+      "title": "template < class T > __host__cudaError_t cudaLaunchCooperativeKernel (T *func, dim3 gridDim, dim3 blockDim, void **args, size_t sharedMem, cudaStream_t stream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Launches a device function....",
+      "filename": "template_class_t___host__cudaerror_t_cudalaunchcooperat_1b41c7ef.md"
+    },
+    {
+      "id": "template_class_t___host__cudaerror_t_cudalaunchkernel_t_1a37419d",
+      "title": "template < class T > __host__cudaError_t cudaLaunchKernel (T *func, dim3 gridDim, dim3 blockDim, void **args, size_t sharedMem, cudaStream_t stream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Launches a device function....",
+      "filename": "template_class_t___host__cudaerror_t_cudalaunchkernel_t_1a37419d.md"
+    },
+    {
+      "id": "template_typename_acttypes___host__cudaerror_t_cudalaun_d429b673",
+      "title": "template < typename... ActTypes > __host__cudaError_t cudaLaunchKernelEx (const cudaLaunchConfig_t *config, const cudaKernel_t kernel, ActTypes &&... args)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Launches a CUDA function with launch-time configuration....",
+      "filename": "template_typename_acttypes___host__cudaerror_t_cudalaun_d429b673.md"
+    },
+    {
+      "id": "template_typename_exptypes_typename_acttypes___host__cu_e2ad43e0",
+      "title": "template < typename... ExpTypes, typename... ActTypes > __host__cudaError_t cudaLaunchKernelEx (const cudaLaunchConfig_t *config, void(*)(ExpTypes...) kernel, ActTypes &&... args)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Launches a CUDA function with launch-time configuration....",
+      "filename": "template_typename_exptypes_typename_acttypes___host__cu_e2ad43e0.md"
+    },
+    {
+      "id": "template_class_t___host__cudaerror_t_cudalibrarygetglob_1c9be1c2",
+      "title": "template < class T > __host__cudaError_t cudaLibraryGetGlobal (T **dptr, size_t *bytes, cudaLibrary_t library, const char *name)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns a global device pointer....",
+      "filename": "template_class_t___host__cudaerror_t_cudalibrarygetglob_1c9be1c2.md"
+    },
+    {
+      "id": "template_class_t___host__cudaerror_t_cudalibrarygetmana_66d4fc60",
+      "title": "template < class T > __host__cudaError_t cudaLibraryGetManaged (T **dptr, size_t *bytes, cudaLibrary_t library, const char *name)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns a pointer to managed memory....",
+      "filename": "template_class_t___host__cudaerror_t_cudalibrarygetmana_66d4fc60.md"
+    },
+    {
+      "id": "template_class_t___host__cudaerror_t_cudalibrarygetunif_be0d4630",
+      "title": "template < class T > __host__cudaError_t cudaLibraryGetUnifiedFunction (T **fptr, cudaLibrary_t library, const char *symbol)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns a pointer to a unified function....",
+      "filename": "template_class_t___host__cudaerror_t_cudalibrarygetunif_be0d4630.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudamallocasync_void_ptr_size_t_siz_e0042dbc",
+      "title": "__host__cudaError_t cudaMallocAsync (void **ptr, size_t size, cudaMemPool_t memPool, cudaStream_t stream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Allocate from a pool....",
+      "filename": "__host__cudaerror_t_cudamallocasync_void_ptr_size_t_siz_e0042dbc.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudamallochost_void_ptr_size_t_size_89f572d0",
+      "title": "__host__cudaError_t cudaMallocHost (void **ptr, size_t size, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "[C++ API] Allocates page-locked memory on the host...",
+      "filename": "__host__cudaerror_t_cudamallochost_void_ptr_size_t_size_89f572d0.md"
+    },
+    {
+      "id": "template_class_t___host__cudaerror_t_cudamallocmanaged__6b0c72a6",
+      "title": "template < class T > __host__cudaError_t cudaMallocManaged (T **devPtr, size_t size, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Allocates memory that will be automatically managed by the Unified Memory system....",
+      "filename": "template_class_t___host__cudaerror_t_cudamallocmanaged__6b0c72a6.md"
+    },
+    {
+      "id": "template_typename_t_typename_u___host__cudaerror_t_cuda_fa7d807f",
+      "title": "template < typename T, typename U > __host__cudaError_t cudaMemcpyBatchAsync (const T **dsts, const U **srcs, const size_t *sizes, size_t count, cudaMemcpyAttributes attr, cudaStream_t hStream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Performs a batch of memory copies asynchronously....",
+      "filename": "template_typename_t_typename_u___host__cudaerror_t_cuda_fa7d807f.md"
+    },
+    {
+      "id": "template_typename_t_typename_u___host__cudaerror_t_cuda_85467ffb",
+      "title": "template < typename T, typename U > __host__cudaError_t cudaMemcpyBatchAsync (const T **dsts, const U **srcs, const size_t *sizes, size_t count, cudaMemcpyAttributes *attrs, size_t *attrsIdxs, size_t numAttrs, cudaStream_t hStream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Performs a batch of memory copies asynchronously....",
+      "filename": "template_typename_t_typename_u___host__cudaerror_t_cuda_85467ffb.md"
+    },
+    {
+      "id": "template_class_t___host__cudaerror_t_cudamemcpyfromsymb_6970aa9d",
+      "title": "template < class T > __host__cudaError_t cudaMemcpyFromSymbol (void *dst, const T symbol, size_t count, size_t offset, cudaMemcpyKind kind)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "[C++ API] Copies data from the given symbol on the device...",
+      "filename": "template_class_t___host__cudaerror_t_cudamemcpyfromsymb_6970aa9d.md"
+    },
+    {
+      "id": "template_class_t___host__cudaerror_t_cudamemcpyfromsymb_23cc5c0a",
+      "title": "template < class T > __host__cudaError_t cudaMemcpyFromSymbolAsync (void *dst, const T symbol, size_t count, size_t offset, cudaMemcpyKind kind, cudaStream_t stream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "[C++ API] Copies data from the given symbol on the device...",
+      "filename": "template_class_t___host__cudaerror_t_cudamemcpyfromsymb_23cc5c0a.md"
+    },
+    {
+      "id": "template_class_t___host__cudaerror_t_cudamemcpytosymbol_dfc2b2f5",
+      "title": "template < class T > __host__cudaError_t cudaMemcpyToSymbol (const T symbol, const void *src, size_t count, size_t offset, cudaMemcpyKind kind)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "[C++ API] Copies data to the given symbol on the device...",
+      "filename": "template_class_t___host__cudaerror_t_cudamemcpytosymbol_dfc2b2f5.md"
+    },
+    {
+      "id": "template_class_t___host__cudaerror_t_cudamemcpytosymbol_996b7fe9",
+      "title": "template < class T > __host__cudaError_t cudaMemcpyToSymbolAsync (const T symbol, const void *src, size_t count, size_t offset, cudaMemcpyKind kind, cudaStream_t stream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "[C++ API] Copies data to the given symbol on the device...",
+      "filename": "template_class_t___host__cudaerror_t_cudamemcpytosymbol_996b7fe9.md"
+    },
+    {
+      "id": "template_typename_t___host__cudaerror_t_cudamemdiscarda_651d37fe",
+      "title": "template < typename T > __host__cudaError_t cudaMemDiscardAndPrefetchBatchAsync (T **dptrs, size_t *sizes, size_t count, cudaMemLocation prefetchLocs, unsigned long long flags, cudaStream_t stream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Performs a batch of memory discard and prefetches asynchronously....",
+      "filename": "template_typename_t___host__cudaerror_t_cudamemdiscarda_651d37fe.md"
+    },
+    {
+      "id": "template_typename_t___host__cudaerror_t_cudamemdiscarda_834e4512",
+      "title": "template < typename T > __host__cudaError_t cudaMemDiscardAndPrefetchBatchAsync (T **dptrs, size_t *sizes, size_t count, cudaMemLocation *prefetchLocs, size_t *prefetchLocIdxs, size_t numPrefetchLocs, unsigned long long flags, cudaStream_t stream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Performs a batch of memory discard and prefetches asynchronously....",
+      "filename": "template_typename_t___host__cudaerror_t_cudamemdiscarda_834e4512.md"
+    },
+    {
+      "id": "template_typename_t___host__cudaerror_t_cudamemprefetch_18eda69a",
+      "title": "template < typename T > __host__cudaError_t cudaMemPrefetchBatchAsync (T **dptrs, size_t *sizes, size_t count, cudaMemLocation prefetchLocs, unsigned long long flags, cudaStream_t stream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Performs a batch of memory prefetches asynchronously....",
+      "filename": "template_typename_t___host__cudaerror_t_cudamemprefetch_18eda69a.md"
+    },
+    {
+      "id": "template_typename_t___host__cudaerror_t_cudamemprefetch_0bcc8f3a",
+      "title": "template < typename T > __host__cudaError_t cudaMemPrefetchBatchAsync (T **dptrs, size_t *sizes, size_t count, cudaMemLocation *prefetchLocs, size_t *prefetchLocIdxs, size_t numPrefetchLocs, unsigned long long flags, cudaStream_t stream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Performs a batch of memory prefetches asynchronously....",
+      "filename": "template_typename_t___host__cudaerror_t_cudamemprefetch_0bcc8f3a.md"
+    },
+    {
+      "id": "template_class_t___host__cudaerror_t_cudaoccupancyavail_660e7186",
+      "title": "template < class T > __host__cudaError_t cudaOccupancyAvailableDynamicSMemPerBlock (size_t *dynamicSmemSize, T *func, int numBlocks, int blockSize)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns dynamic shared memory available per block when launching numBlocks blocks on SM....",
+      "filename": "template_class_t___host__cudaerror_t_cudaoccupancyavail_660e7186.md"
+    },
+    {
+      "id": "template_class_t___host__cudaerror_t_cudaoccupancymaxac_cfa4b47f",
+      "title": "template < class T > __host__cudaError_t cudaOccupancyMaxActiveBlocksPerMultiprocessor (int *numBlocks, T func, int blockSize, size_t dynamicSMemSize)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns occupancy for a device function....",
+      "filename": "template_class_t___host__cudaerror_t_cudaoccupancymaxac_cfa4b47f.md"
+    },
+    {
+      "id": "template_class_t___host__cudaerror_t_cudaoccupancymaxac_6f7fd4dc",
+      "title": "template < class T > __host__cudaError_t cudaOccupancyMaxActiveBlocksPerMultiprocessorWithFlags (int *numBlocks, T func, int blockSize, size_t dynamicSMemSize, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns occupancy for a device function with the specified flags....",
+      "filename": "template_class_t___host__cudaerror_t_cudaoccupancymaxac_6f7fd4dc.md"
+    },
+    {
+      "id": "template_class_t___host__cudaerror_t_cudaoccupancymaxac_4343964d",
+      "title": "template < class T > __host__cudaError_t cudaOccupancyMaxActiveClusters (int *numClusters, T *func, const cudaLaunchConfig_t *config)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Given the kernel function (func) and launch configuration (config), return the maximum number of clusters that could co-exist on the target device in *numClusters....",
+      "filename": "template_class_t___host__cudaerror_t_cudaoccupancymaxac_4343964d.md"
+    },
+    {
+      "id": "template_class_t___host__cudaerror_t_cudaoccupancymaxpo_34387383",
+      "title": "template < class T > __host__cudaError_t cudaOccupancyMaxPotentialBlockSize (int *minGridSize, int *blockSize, T func, size_t dynamicSMemSize, int blockSizeLimit)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns grid and block size that achieves maximum potential occupancy for a device function....",
+      "filename": "template_class_t___host__cudaerror_t_cudaoccupancymaxpo_34387383.md"
+    },
+    {
+      "id": "template_typename_unaryfunction_class_t___host__cudaerr_b8636070",
+      "title": "template < typename UnaryFunction, class T > __host__cudaError_t cudaOccupancyMaxPotentialBlockSizeVariableSMem (int *minGridSize, int *blockSize, T func, UnaryFunction blockSizeToDynamicSMemSize, int blockSizeLimit)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns grid and block size that achieves maximum potential occupancy for a device function....",
+      "filename": "template_typename_unaryfunction_class_t___host__cudaerr_b8636070.md"
+    },
+    {
+      "id": "template_typename_unaryfunction_class_t___host__cudaerr_0cc277a1",
+      "title": "template < typename UnaryFunction, class T > __host__cudaError_t cudaOccupancyMaxPotentialBlockSizeVariableSMemWithFlags (int *minGridSize, int *blockSize, T func, UnaryFunction blockSizeToDynamicSMemSize, int blockSizeLimit, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns grid and block size that achieves maximum potential occupancy for a device function....",
+      "filename": "template_typename_unaryfunction_class_t___host__cudaerr_0cc277a1.md"
+    },
+    {
+      "id": "template_class_t___host__cudaerror_t_cudaoccupancymaxpo_40f8508c",
+      "title": "template < class T > __host__cudaError_t cudaOccupancyMaxPotentialBlockSizeWithFlags (int *minGridSize, int *blockSize, T func, size_t dynamicSMemSize, int blockSizeLimit, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns grid and block size that achived maximum potential occupancy for a device function with the specified flags....",
+      "filename": "template_class_t___host__cudaerror_t_cudaoccupancymaxpo_40f8508c.md"
+    },
+    {
+      "id": "template_class_t___host__cudaerror_t_cudaoccupancymaxpo_2acc7b7a",
+      "title": "template < class T > __host__cudaError_t cudaOccupancyMaxPotentialClusterSize (int *clusterSize, T *func, const cudaLaunchConfig_t *config)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Given the kernel function (func) and launch configuration (config), return the maximum cluster size in *clusterSize....",
+      "filename": "template_class_t___host__cudaerror_t_cudaoccupancymaxpo_2acc7b7a.md"
+    },
+    {
+      "id": "template_class_t___host__cudaerror_t_cudastreamattachme_c61721e3",
+      "title": "template < class T > __host__cudaError_t cudaStreamAttachMemAsync (cudaStream_t stream, T *devPtr, size_t length, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Attach memory to a stream asynchronously....",
+      "filename": "template_class_t___host__cudaerror_t_cudastreamattachme_c61721e3.md"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "description": "Documentation for 7.68. CUlaunchConfig Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "culaunchattribute_culaunchconfigattrs",
+      "title": "CUlaunchAttribute *CUlaunchConfig::attrs",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "List of attributes; nullable if CUlaunchConfig::numAttrs == 0...",
+      "filename": "culaunchattribute_culaunchconfigattrs.md"
+    },
+    {
+      "id": "unsigned_int_culaunchconfigblockdimx",
+      "title": "unsigned int CUlaunchConfig::blockDimX",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "X dimension of each thread block...",
+      "filename": "unsigned_int_culaunchconfigblockdimx.md"
+    },
+    {
+      "id": "unsigned_int_culaunchconfigblockdimy",
+      "title": "unsigned int CUlaunchConfig::blockDimY",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Y dimension of each thread block...",
+      "filename": "unsigned_int_culaunchconfigblockdimy.md"
+    },
+    {
+      "id": "unsigned_int_culaunchconfigblockdimz",
+      "title": "unsigned int CUlaunchConfig::blockDimZ",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Z dimension of each thread block   CUDA Driver API TRM-06703-001 _vRelease Version  |  726   Data Structures...",
+      "filename": "unsigned_int_culaunchconfigblockdimz.md"
+    },
+    {
+      "id": "unsigned_int_culaunchconfiggriddimx",
+      "title": "unsigned int CUlaunchConfig::gridDimX",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Width of grid in blocks...",
+      "filename": "unsigned_int_culaunchconfiggriddimx.md"
+    },
+    {
+      "id": "unsigned_int_culaunchconfiggriddimy",
+      "title": "unsigned int CUlaunchConfig::gridDimY",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Height of grid in blocks...",
+      "filename": "unsigned_int_culaunchconfiggriddimy.md"
+    },
+    {
+      "id": "unsigned_int_culaunchconfiggriddimz",
+      "title": "unsigned int CUlaunchConfig::gridDimZ",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Depth of grid in blocks...",
+      "filename": "unsigned_int_culaunchconfiggriddimz.md"
+    },
+    {
+      "id": "custream_culaunchconfighstream",
+      "title": "CUstream CUlaunchConfig::hStream",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Stream identifier...",
+      "filename": "custream_culaunchconfighstream.md"
+    },
+    {
+      "id": "unsigned_int_culaunchconfignumattrs",
+      "title": "unsigned int CUlaunchConfig::numAttrs",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Number of attributes populated in CUlaunchConfig::attrs...",
+      "filename": "unsigned_int_culaunchconfignumattrs.md"
+    },
+    {
+      "id": "unsigned_int_culaunchconfigsharedmembytes",
+      "title": "unsigned int CUlaunchConfig::sharedMemBytes",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Dynamic shared-memory size per thread block in bytes...",
+      "filename": "unsigned_int_culaunchconfigsharedmembytes.md"
+    }
+  ]
+}

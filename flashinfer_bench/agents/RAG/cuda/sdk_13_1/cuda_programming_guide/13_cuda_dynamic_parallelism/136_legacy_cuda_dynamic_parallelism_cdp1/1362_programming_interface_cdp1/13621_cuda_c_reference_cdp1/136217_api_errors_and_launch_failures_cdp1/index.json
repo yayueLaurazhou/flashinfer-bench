@@ -1,0 +1,25 @@
+{
+  "description": "Documentation for 13.6.2.1.7. API Errors and Launch Failures (CDP1)",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "1362171_launch_setup_apis_cdp1",
+      "title": "13.6.2.1.7.1. Launch Setup APIs (CDP1)",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "###### 13.6.2.1.7.1. Launch Setup APIs (CDP1)[\uf0c1](#launch-setup-apis-cdp1 \"Permalink to this headline\")  See [Launch Setup APIs](#launch-setup-apis), above, for CDP2 version of document.  Kernel launch...",
+      "filename": "1362171_launch_setup_apis_cdp1.md"
+    }
+  ]
+}

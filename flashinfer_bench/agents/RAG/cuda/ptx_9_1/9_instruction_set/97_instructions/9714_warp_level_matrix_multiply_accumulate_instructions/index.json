@@ -1,0 +1,58 @@
+{
+  "description": "Documentation for 9.7.14. Warp Level Matrix Multiply-Accumulate Instructions",
+  "directories": [
+    {
+      "name": "97144_matrix_multiply_accumulate_operation_using_wmma_instructions",
+      "description": "This section describes warp level `wmma.load, wmma.mma` and `wmma.store` instructions and the organization of various matrices invovled in these instruction."
+    },
+    {
+      "name": "97145_matrix_multiply_accumulate_operation_using_mma_instruction",
+      "description": "This section describes warp-level `mma`, `ldmatrix`, `stmatrix`, and `movmatrix` instructions and the organization of various matrices involved in these instructions."
+    },
+    {
+      "name": "97146_matrix_multiply_accumulate_operation_using_mmasp_instruction_with_sparse_matrix_a",
+      "description": "This section describes warp-level `mma.sp{::ordered_metadata}` instruction with sparse matrix A. This variant of the `mma` operation can be used when A is a structured sparse matrix with 50% zeros in each row distributed in a shape-specific granularity. For an `MxNxK` sparse `mma.sp{::ordered_met..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "The matrix multiply and accumulate operation has the following form:"
+    },
+    {
+      "id": "97141_matrix_shape",
+      "title": "9.7.14.1. Matrix Shape",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "The matrix multiply and accumulate operations support a limited set of shapes for the operand matrices A, B and C. The shapes of all three matrix operands are collectively described by the tuple `MxNxK`, where A is an `MxK` matrix, B is a `KxN` matrix, while C and D are `MxN` matrices.",
+      "filename": "97141_matrix_shape.md"
+    },
+    {
+      "id": "97142_matrix_data_types",
+      "title": "9.7.14.2. Matrix Data-types",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "The matrix multiply and accumulate operation is supported separately on integer, floating-point, sub-byte integer and single bit data-types. All operands must contain the same basic type kind, i.e., integer or floating-point.",
+      "filename": "97142_matrix_data_types.md"
+    },
+    {
+      "id": "97143_block_scaling_for_mmasync",
+      "title": "9.7.14.3. Block Scaling for mma.sync",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "The `mma` instruction with the following `.kind` qualifier:",
+      "filename": "97143_block_scaling_for_mmasync.md"
+    }
+  ]
+}

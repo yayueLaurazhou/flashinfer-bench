@@ -1,0 +1,165 @@
+{
+  "description": "Documentation for 6.5. Device Management",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "curesult_cudeviceget_cudevice_device_int_ordinal",
+      "title": "CUresult cuDeviceGet (CUdevice *device, int ordinal)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns a handle to a compute device....",
+      "filename": "curesult_cudeviceget_cudevice_device_int_ordinal.md"
+    },
+    {
+      "id": "curesult_cudevicegetattribute_int_pi_cudevice_attribute_e359c20c",
+      "title": "CUresult cuDeviceGetAttribute (int *pi, CUdevice_attribute attrib, CUdevice dev)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns information about the device....",
+      "filename": "curesult_cudevicegetattribute_int_pi_cudevice_attribute_e359c20c.md"
+    },
+    {
+      "id": "curesult_cudevicegetcount_int_count",
+      "title": "CUresult cuDeviceGetCount (int *count)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the number of compute-capable devices....",
+      "filename": "curesult_cudevicegetcount_int_count.md"
+    },
+    {
+      "id": "curesult_cudevicegetdefaultmempool_cumemorypool_pool_ou_e1798807",
+      "title": "CUresult cuDeviceGetDefaultMemPool (CUmemoryPool *pool_out, CUdevice dev)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the default mempool of a device....",
+      "filename": "curesult_cudevicegetdefaultmempool_cumemorypool_pool_ou_e1798807.md"
+    },
+    {
+      "id": "curesult_cudevicegetexecaffinitysupport_int_pi_cuexecaf_c1de88a8",
+      "title": "CUresult cuDeviceGetExecAffinitySupport (int *pi, CUexecAffinityType type, CUdevice dev)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns information about the execution affinity support of the device....",
+      "filename": "curesult_cudevicegetexecaffinitysupport_int_pi_cuexecaf_c1de88a8.md"
+    },
+    {
+      "id": "curesult_cudevicegethostatomiccapabilities_unsigned_int_00ef08d9",
+      "title": "CUresult cuDeviceGetHostAtomicCapabilities (unsigned int *capabilities, const CUatomicOperation *operations, unsigned int count, CUdevice dev)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Queries details about atomic operations supported between the device and host....",
+      "filename": "curesult_cudevicegethostatomiccapabilities_unsigned_int_00ef08d9.md"
+    },
+    {
+      "id": "curesult_cudevicegetluid_char_luid_unsigned_int_devicen_55a9215d",
+      "title": "CUresult cuDeviceGetLuid (char *luid, unsigned int *deviceNodeMask, CUdevice dev)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Return an LUID and device node mask for the device....",
+      "filename": "curesult_cudevicegetluid_char_luid_unsigned_int_devicen_55a9215d.md"
+    },
+    {
+      "id": "curesult_cudevicegetmempool_cumemorypool_pool_cudevice_dev",
+      "title": "CUresult cuDeviceGetMemPool (CUmemoryPool *pool, CUdevice dev)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Gets the current mempool for a device....",
+      "filename": "curesult_cudevicegetmempool_cumemorypool_pool_cudevice_dev.md"
+    },
+    {
+      "id": "curesult_cudevicegetname_char_name_int_len_cudevice_dev",
+      "title": "CUresult cuDeviceGetName (char *name, int len, CUdevice dev)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns an identifier string for the device....",
+      "filename": "curesult_cudevicegetname_char_name_int_len_cudevice_dev.md"
+    },
+    {
+      "id": "curesult_cudevicegetnvscisyncattributes_void_nvscisynca_3a7576fb",
+      "title": "CUresult cuDeviceGetNvSciSyncAttributes (void *nvSciSyncAttrList, CUdevice dev, int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Return NvSciSync attributes that this device can support....",
+      "filename": "curesult_cudevicegetnvscisyncattributes_void_nvscisynca_3a7576fb.md"
+    },
+    {
+      "id": "curesult_cudevicegettexture1dlinearmaxwidth_size_t_maxw_7be9ccb8",
+      "title": "CUresult cuDeviceGetTexture1DLinearMaxWidth (size_t *maxWidthInElements, CUarray_format format, unsigned numChannels, CUdevice dev)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the maximum number of elements allocatable in a 1D linear texture for a given texture element size....",
+      "filename": "curesult_cudevicegettexture1dlinearmaxwidth_size_t_maxw_7be9ccb8.md"
+    },
+    {
+      "id": "curesult_cudevicegetuuid_cuuuid_uuid_cudevice_dev",
+      "title": "CUresult cuDeviceGetUuid (CUuuid *uuid, CUdevice dev)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Return an UUID for the device....",
+      "filename": "curesult_cudevicegetuuid_cuuuid_uuid_cudevice_dev.md"
+    },
+    {
+      "id": "curesult_cudevicesetmempool_cudevice_dev_cumemorypool_pool",
+      "title": "CUresult cuDeviceSetMemPool (CUdevice dev, CUmemoryPool pool)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets the current memory pool of a device....",
+      "filename": "curesult_cudevicesetmempool_cudevice_dev_cumemorypool_pool.md"
+    },
+    {
+      "id": "curesult_cudevicetotalmem_size_t_bytes_cudevice_dev",
+      "title": "CUresult cuDeviceTotalMem (size_t *bytes, CUdevice dev)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the total amount of memory on the device....",
+      "filename": "curesult_cudevicetotalmem_size_t_bytes_cudevice_dev.md"
+    },
+    {
+      "id": "curesult_cuflushgpudirectrdmawrites_cuflushgpudirectrdm_d70355eb",
+      "title": "CUresult cuFlushGPUDirectRDMAWrites (CUflushGPUDirectRDMAWritesTarget target, CUflushGPUDirectRDMAWritesScope scope)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Blocks until remote writes are visible to the specified scope....",
+      "filename": "curesult_cuflushgpudirectrdmawrites_cuflushgpudirectrdm_d70355eb.md"
+    }
+  ]
+}

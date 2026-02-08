@@ -1,0 +1,25 @@
+{
+  "description": "Documentation for 7.59. CUexecAffinitySmCount_v1 Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "unsigned_int_cuexecaffinitysmcount_v1val",
+      "title": "unsigned int CUexecAffinitySmCount_v1::val",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "The number of SMs the context is limited to use....",
+      "filename": "unsigned_int_cuexecaffinitysmcount_v1val.md"
+    }
+  ]
+}

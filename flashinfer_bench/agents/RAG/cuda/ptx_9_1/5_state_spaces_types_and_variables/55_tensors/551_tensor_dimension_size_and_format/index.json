@@ -1,0 +1,20 @@
+{
+  "description": "Documentation for 5.5.1. Tensor Dimension, size and format",
+  "directories": [
+    {
+      "name": "5511_sub_byte_types",
+      "description": "Documentation for Sub Byte Types."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Tensors can have dimensions: 1D, 2D, 3D, 4D or 5D."
+    }
+  ]
+}

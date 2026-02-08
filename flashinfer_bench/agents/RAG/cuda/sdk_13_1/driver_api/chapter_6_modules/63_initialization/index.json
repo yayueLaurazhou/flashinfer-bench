@@ -1,0 +1,25 @@
+{
+  "description": "Documentation for 6.3. Initialization",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "curesult_cuinit_unsigned_int_flags",
+      "title": "CUresult cuInit (unsigned int Flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Initialize the CUDA driver API Initializes the driver API and must be called before any other function from the driver API in the current process. Currently, the Flags parameter must be 0. If cuInit()...",
+      "filename": "curesult_cuinit_unsigned_int_flags.md"
+    }
+  ]
+}

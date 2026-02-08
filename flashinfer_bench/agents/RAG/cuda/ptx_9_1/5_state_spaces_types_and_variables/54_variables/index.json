@@ -1,0 +1,95 @@
+{
+  "description": "Documentation for 5.4. Variables",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "In PTX, a variable declaration describes both the variable\u2019s type and its state space. In addition to fundamental types, PTX supports types for simple aggregate objects such as vectors and arrays."
+    },
+    {
+      "id": "541_variable_declarations",
+      "title": "5.4.1. Variable Declarations",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "All storage for data is specified with variable declarations. Every variable must reside in one of the state spaces enumerated in the previous section.",
+      "filename": "541_variable_declarations.md"
+    },
+    {
+      "id": "542_vectors",
+      "title": "5.4.2. Vectors",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "Limited-length vector types are supported. Vectors of length 2 and 4 of any non-predicate fundamental type can be declared by prefixing the type with `.v2` or `.v4`. Vectors must be based on a fundamental type, and they may reside in the register space. Vectors cannot exceed 128-bits in length; f...",
+      "filename": "542_vectors.md"
+    },
+    {
+      "id": "543_array_declarations",
+      "title": "5.4.3. Array Declarations",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "Array declarations are provided to allow the programmer to reserve space. To declare an array, the variable name is followed with dimensional declarations similar to fixed-size array declarations in C. The size of each dimension is a constant expression.",
+      "filename": "543_array_declarations.md"
+    },
+    {
+      "id": "544_initializers",
+      "title": "5.4.4. Initializers",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "Declared variables may specify an initial value using a syntax similar to C/C++, where the variable name is followed by an equals sign and the initial value or values for the variable. A scalar takes a single value, while vectors and arrays take nested lists of values inside of curly braces (the ...",
+      "filename": "544_initializers.md"
+    },
+    {
+      "id": "545_alignment",
+      "title": "5.4.5. Alignment",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "Byte alignment of storage for all addressable variables can be specified in the variable declaration. Alignment is specified using an optional `.align` *byte-count* specifier immediately following the state-space specifier. The variable will be aligned to an address which is an integer multiple o...",
+      "filename": "545_alignment.md"
+    },
+    {
+      "id": "546_parameterized_variable_names",
+      "title": "5.4.6. Parameterized Variable Names",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "Since PTX supports virtual registers, it is quite common for a compiler frontend to generate a large number of register names. Rather than require explicit declaration of every name, PTX supports a syntax for creating a set of variables having a common prefix string appended with integer suffixes.",
+      "filename": "546_parameterized_variable_names.md"
+    },
+    {
+      "id": "547_variable_attributes",
+      "title": "5.4.7. Variable Attributes",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "Variables may be declared with an optional `.attribute` directive which allows specifying special attributes of variables. Keyword `.attribute` is followed by attribute specification inside parenthesis. Multiple attributes are separated by comma.",
+      "filename": "547_variable_attributes.md"
+    },
+    {
+      "id": "548_variable_and_function_attribute_directive_attribute",
+      "title": "5.4.8. Variable and Function Attribute Directive: .attribute",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`.attribute`",
+      "filename": "548_variable_and_function_attribute_directive_attribute.md"
+    }
+  ]
+}

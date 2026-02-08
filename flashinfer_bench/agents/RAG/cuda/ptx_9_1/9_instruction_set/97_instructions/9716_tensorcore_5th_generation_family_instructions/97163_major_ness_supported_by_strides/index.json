@@ -1,0 +1,40 @@
+{
+  "description": "Documentation for 9.7.16.3. Major-ness supported by Strides",
+  "directories": [
+    {
+      "name": "971631_leading_dimension_stride_relative_offset_or_absolute_address",
+      "description": "There are two modes of Leading Dimension Strides as described below. Bit #52 in the [Shared memory descriptor](https://docs.nvidia.com/cuda/parallel-thread-execution/#tcgen05-shared-memory-descriptor) is used to distinguish between two modes."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "There are two strides involved while accessing a matrix from shared memory:"
+    },
+    {
+      "id": "971632_stride_dimension_byte_offset",
+      "title": "9.7.16.3.2. Stride Dimension Byte Offset",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "The stride dimension byte offset is defined differently for transposed and non-transposed matrices. The stride dimension byte offset is defined as follows for matrices whose element types are normalized to 128-bits:",
+      "filename": "971632_stride_dimension_byte_offset.md"
+    },
+    {
+      "id": "971633_canonical_layouts",
+      "title": "9.7.16.3.3. Canonical Layouts",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "In terms of [CuTe layouts](https://docs.nvidia.com/cutlass/media/docs/cpp/cute/01_layout.html) the canonical layout can be expressed as follows:",
+      "filename": "971633_canonical_layouts.md"
+    }
+  ]
+}

@@ -1,0 +1,284 @@
+{
+  "description": "Documentation for 9.7.9. Data Movement and Conversion Instructions",
+  "directories": [
+    {
+      "name": "97925_data_movement_and_conversion_instructions_asynchronous_copy",
+      "description": "An asynchronous copy operation performs the underlying operation asynchronously in the background, thus allowing the issuing threads to perform subsequent tasks."
+    },
+    {
+      "name": "97927_data_movement_and_conversion_instructions_multimemcpreduceasyncbulk",
+      "description": "`multimem.cp.reduce.async.bulk`"
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "These instructions copy data from place to place, and from state space to state space, possibly converting it from one format to another. `mov`, `ld`, `ldu`, and `st` operate on both scalar and vector types. The `isspacep` instruction is provided to query whether a generic address falls within a ..."
+    },
+    {
+      "id": "9791_cache_operators",
+      "title": "9.7.9.1. Cache Operators",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "PTX ISA version 2.0 introduced optional cache operators on load and store instructions. The cache operators require a target architecture of `sm_20` or higher.",
+      "filename": "9791_cache_operators.md"
+    },
+    {
+      "id": "9792_cache_eviction_priority_hints",
+      "title": "9.7.9.2. Cache Eviction Priority Hints",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "PTX ISA version 7.4 adds optional cache eviction priority hints on load and store instructions. Cache eviction priority requires target architecture `sm_70` or higher.",
+      "filename": "9792_cache_eviction_priority_hints.md"
+    },
+    {
+      "id": "9793_data_movement_and_conversion_instructions_mov",
+      "title": "9.7.9.3. Data Movement and Conversion Instructions: mov",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`mov`",
+      "filename": "9793_data_movement_and_conversion_instructions_mov.md"
+    },
+    {
+      "id": "9794_data_movement_and_conversion_instructions_mov",
+      "title": "9.7.9.4. Data Movement and Conversion Instructions: mov",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`mov`",
+      "filename": "9794_data_movement_and_conversion_instructions_mov.md"
+    },
+    {
+      "id": "9795_data_movement_and_conversion_instructions_shfl_deprecated",
+      "title": "9.7.9.5. Data Movement and Conversion Instructions: shfl (deprecated)",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`shfl` (deprecated)",
+      "filename": "9795_data_movement_and_conversion_instructions_shfl_deprecated.md"
+    },
+    {
+      "id": "9796_data_movement_and_conversion_instructions_shflsync",
+      "title": "9.7.9.6. Data Movement and Conversion Instructions: shfl.sync",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`shfl.sync`",
+      "filename": "9796_data_movement_and_conversion_instructions_shflsync.md"
+    },
+    {
+      "id": "9797_data_movement_and_conversion_instructions_prmt",
+      "title": "9.7.9.7. Data Movement and Conversion Instructions: prmt",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`prmt`",
+      "filename": "9797_data_movement_and_conversion_instructions_prmt.md"
+    },
+    {
+      "id": "9798_data_movement_and_conversion_instructions_ld",
+      "title": "9.7.9.8. Data Movement and Conversion Instructions: ld",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`ld`",
+      "filename": "9798_data_movement_and_conversion_instructions_ld.md"
+    },
+    {
+      "id": "9799_data_movement_and_conversion_instructions_ldglobalnc",
+      "title": "9.7.9.9. Data Movement and Conversion Instructions: ld.global.nc",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`ld.global.nc`",
+      "filename": "9799_data_movement_and_conversion_instructions_ldglobalnc.md"
+    },
+    {
+      "id": "97910_data_movement_and_conversion_instructions_ldu",
+      "title": "9.7.9.10. Data Movement and Conversion Instructions: ldu",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`ldu`",
+      "filename": "97910_data_movement_and_conversion_instructions_ldu.md"
+    },
+    {
+      "id": "97911_data_movement_and_conversion_instructions_st",
+      "title": "9.7.9.11. Data Movement and Conversion Instructions: st",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`st`",
+      "filename": "97911_data_movement_and_conversion_instructions_st.md"
+    },
+    {
+      "id": "97912_data_movement_and_conversion_instructions_stasync",
+      "title": "9.7.9.12. Data Movement and Conversion Instructions: st.async",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`st.async`",
+      "filename": "97912_data_movement_and_conversion_instructions_stasync.md"
+    },
+    {
+      "id": "97913_data_movement_and_conversion_instructions_stbulk",
+      "title": "9.7.9.13. Data Movement and Conversion Instructions: st.bulk",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`st.bulk`",
+      "filename": "97913_data_movement_and_conversion_instructions_stbulk.md"
+    },
+    {
+      "id": "97914_data_movement_and_conversion_instructions_multimemld_reduce_multimemst_multimemred",
+      "title": "9.7.9.14. Data Movement and Conversion Instructions:\nmultimem.ld_reduce, multimem.st, multimem.red",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "multimem.ld_reduce, multimem.st, multimem.red",
+      "filename": "97914_data_movement_and_conversion_instructions_multimemld_reduce_multimemst_multimemred.md"
+    },
+    {
+      "id": "97915_data_movement_and_conversion_instructions_prefetch_prefetchu",
+      "title": "9.7.9.15. Data Movement and Conversion Instructions: prefetch, prefetchu",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`prefetch`, `prefetchu`",
+      "filename": "97915_data_movement_and_conversion_instructions_prefetch_prefetchu.md"
+    },
+    {
+      "id": "97916_data_movement_and_conversion_instructions_applypriority",
+      "title": "9.7.9.16. Data Movement and Conversion Instructions: applypriority",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`applypriority`",
+      "filename": "97916_data_movement_and_conversion_instructions_applypriority.md"
+    },
+    {
+      "id": "97917_data_movement_and_conversion_instructions_discard",
+      "title": "9.7.9.17. Data Movement and Conversion Instructions: discard",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`discard`",
+      "filename": "97917_data_movement_and_conversion_instructions_discard.md"
+    },
+    {
+      "id": "97918_data_movement_and_conversion_instructions_createpolicy",
+      "title": "9.7.9.18. Data Movement and Conversion Instructions: createpolicy",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`createpolicy`",
+      "filename": "97918_data_movement_and_conversion_instructions_createpolicy.md"
+    },
+    {
+      "id": "97919_data_movement_and_conversion_instructions_isspacep",
+      "title": "9.7.9.19. Data Movement and Conversion Instructions: isspacep",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`isspacep`",
+      "filename": "97919_data_movement_and_conversion_instructions_isspacep.md"
+    },
+    {
+      "id": "97920_data_movement_and_conversion_instructions_cvta",
+      "title": "9.7.9.20. Data Movement and Conversion Instructions: cvta",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`cvta`",
+      "filename": "97920_data_movement_and_conversion_instructions_cvta.md"
+    },
+    {
+      "id": "97921_data_movement_and_conversion_instructions_cvt",
+      "title": "9.7.9.21. Data Movement and Conversion Instructions: cvt",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`cvt`",
+      "filename": "97921_data_movement_and_conversion_instructions_cvt.md"
+    },
+    {
+      "id": "97922_data_movement_and_conversion_instructions_cvtpack",
+      "title": "9.7.9.22. Data Movement and Conversion Instructions: cvt.pack",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`cvt.pack`",
+      "filename": "97922_data_movement_and_conversion_instructions_cvtpack.md"
+    },
+    {
+      "id": "97923_data_movement_and_conversion_instructions_mapa",
+      "title": "9.7.9.23. Data Movement and Conversion Instructions: mapa",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`mapa`",
+      "filename": "97923_data_movement_and_conversion_instructions_mapa.md"
+    },
+    {
+      "id": "97924_data_movement_and_conversion_instructions_getctarank",
+      "title": "9.7.9.24. Data Movement and Conversion Instructions: getctarank",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`getctarank`",
+      "filename": "97924_data_movement_and_conversion_instructions_getctarank.md"
+    },
+    {
+      "id": "97926_data_movement_and_conversion_instructions_multimemcpasyncbulk",
+      "title": "9.7.9.26. Data Movement and Conversion Instructions: multimem.cp.async.bulk",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`multimem.cp.async.bulk`",
+      "filename": "97926_data_movement_and_conversion_instructions_multimemcpasyncbulk.md"
+    },
+    {
+      "id": "97928_data_movement_and_conversion_instructions_tensormapreplace",
+      "title": "9.7.9.28. Data Movement and Conversion Instructions: tensormap.replace",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`tensormap.replace`",
+      "filename": "97928_data_movement_and_conversion_instructions_tensormapreplace.md"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "description": "Documentation for 6.2.8.5. Streams",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "62851_creation_and_destruction_of_streams",
+      "title": "6.2.8.5.1. Creation and Destruction of Streams",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 6.2.8.5.1. Creation and Destruction of Streams[\uf0c1](#creation-and-destruction-of-streams \"Permalink to this headline\")  A stream is defined by creating a stream object and specifying it as the str...",
+      "filename": "62851_creation_and_destruction_of_streams.md"
+    },
+    {
+      "id": "62852_default_stream",
+      "title": "6.2.8.5.2. Default Stream",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 6.2.8.5.2. Default Stream[\uf0c1](#default-stream \"Permalink to this headline\")  Kernel launches and host `<->` device memory copies that do not specify any stream parameter, or equivalently that set...",
+      "filename": "62852_default_stream.md"
+    },
+    {
+      "id": "62853_explicit_synchronization",
+      "title": "6.2.8.5.3. Explicit Synchronization",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 6.2.8.5.3. Explicit Synchronization[\uf0c1](#explicit-synchronization \"Permalink to this headline\")  There are various ways to explicitly synchronize streams with each other.  `cudaDeviceSynchronize(...",
+      "filename": "62853_explicit_synchronization.md"
+    },
+    {
+      "id": "62854_implicit_synchronization",
+      "title": "6.2.8.5.4. Implicit Synchronization",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 6.2.8.5.4. Implicit Synchronization[\uf0c1](#implicit-synchronization \"Permalink to this headline\")  Two operations from different streams cannot run concurrently if any CUDA operation on the NULL st...",
+      "filename": "62854_implicit_synchronization.md"
+    },
+    {
+      "id": "62855_overlapping_behavior",
+      "title": "6.2.8.5.5. Overlapping Behavior",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 6.2.8.5.5. Overlapping Behavior[\uf0c1](#overlapping-behavior \"Permalink to this headline\")  The amount of execution overlap between two streams depends on the order in which the commands are issued ...",
+      "filename": "62855_overlapping_behavior.md"
+    },
+    {
+      "id": "62856_host_functions_callbacks",
+      "title": "6.2.8.5.6. Host Functions (Callbacks)",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 6.2.8.5.6. Host Functions (Callbacks)[\uf0c1](#host-functions-callbacks \"Permalink to this headline\")  The runtime provides a way to insert a CPU function call at any point into a stream via `cudaLau...",
+      "filename": "62856_host_functions_callbacks.md"
+    },
+    {
+      "id": "62857_stream_priorities",
+      "title": "6.2.8.5.7. Stream Priorities",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 6.2.8.5.7. Stream Priorities[\uf0c1](#stream-priorities \"Permalink to this headline\")  The relative priorities of streams can be specified at creation using `cudaStreamCreateWithPriority()`. The rang...",
+      "filename": "62857_stream_priorities.md"
+    }
+  ]
+}

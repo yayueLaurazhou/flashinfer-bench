@@ -1,0 +1,45 @@
+{
+  "description": "Documentation for 19. Texture Fetching",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "191_nearest_point_sampling",
+      "title": "19.1. Nearest-Point Sampling",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 19.1. Nearest-Point Sampling[\uf0c1](#nearest-point-sampling \"Permalink to this headline\")  In this filtering mode, the value returned by the texture fetch is  * *tex(x)=T[i]* for a one-dimensional text...",
+      "filename": "191_nearest_point_sampling.md"
+    },
+    {
+      "id": "192_linear_filtering",
+      "title": "19.2. Linear Filtering",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 19.2. Linear Filtering[\uf0c1](#linear-filtering \"Permalink to this headline\")  In this filtering mode, which is only available for floating-point textures, the value returned by the texture fetch is  *...",
+      "filename": "192_linear_filtering.md"
+    },
+    {
+      "id": "193_table_lookup",
+      "title": "19.3. Table Lookup",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 19.3. Table Lookup[\uf0c1](#table-lookup \"Permalink to this headline\")  A table lookup *TL(x)* where *x* spans the interval *[0,R]* can be implemented as *TL(x)=tex((N-1)/R)x+0.5)* in order to ensure th...",
+      "filename": "193_table_lookup.md"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Documentation for 8.11. Special Cases",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "8111_reductions_do_not_form_acquire_patterns",
+      "title": "8.11.1. Reductions do not form Acquire Patterns",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "Atomic reduction operations like `red` do not form acquire patterns with acquire fences.",
+      "filename": "8111_reductions_do_not_form_acquire_patterns.md"
+    }
+  ]
+}

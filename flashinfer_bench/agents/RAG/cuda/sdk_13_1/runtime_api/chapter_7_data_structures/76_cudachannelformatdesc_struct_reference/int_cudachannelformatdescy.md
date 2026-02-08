@@ -1,0 +1,3 @@
+# int cudaChannelFormatDesc::y
+
+y

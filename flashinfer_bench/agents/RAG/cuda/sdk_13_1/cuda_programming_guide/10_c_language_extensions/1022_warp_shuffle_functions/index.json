@@ -1,0 +1,40 @@
+{
+  "description": "Documentation for 10.22. Warp Shuffle Functions",
+  "directories": [
+    {
+      "name": "10223_examples",
+      "description": "### 10.22.3. Examples[\uf0c1](#examples \"Permalink to this headline\")..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "10221_synopsis",
+      "title": "10.22.1. Synopsis",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.22.1. Synopsis[\uf0c1](#warp-shuffle-synopsis \"Permalink to this headline\")  ``` T __shfl_sync(unsigned mask, T var, int srcLane, int width=warpSize); T __shfl_up_sync(unsigned mask, T var, unsigned...",
+      "filename": "10221_synopsis.md"
+    },
+    {
+      "id": "10222_description",
+      "title": "10.22.2. Description",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.22.2. Description[\uf0c1](#warp-shuffle-description \"Permalink to this headline\")  The `__shfl_sync()` intrinsics permit exchanging of a variable between threads within a warp without use of shared ...",
+      "filename": "10222_description.md"
+    }
+  ]
+}

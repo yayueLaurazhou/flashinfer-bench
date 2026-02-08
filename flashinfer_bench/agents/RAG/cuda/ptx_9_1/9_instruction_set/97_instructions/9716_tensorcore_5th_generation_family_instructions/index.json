@@ -1,0 +1,64 @@
+{
+  "description": "Documentation for 9.7.16. TensorCore 5th Generation Family Instructions",
+  "directories": [
+    {
+      "name": "97161_tensor_memory",
+      "description": "The 5th generation TensorCore has dedicated on-chip memory that is specialized for use by TensorCore operations. This Tensor Memory is organized as a two-dimensional matrix where the horizontal rows are called lanes and the vertical columns are called columns."
+    },
+    {
+      "name": "97162_matrix_and_data_movement_shape",
+      "description": "There are two kinds of shapes involved."
+    },
+    {
+      "name": "97163_major_ness_supported_by_strides",
+      "description": "There are two strides involved while accessing a matrix from shared memory:"
+    },
+    {
+      "name": "97164_matrix_descriptors",
+      "description": "There are three kinds of matrix descriptors used by the `tcgen05` family of instructions."
+    },
+    {
+      "name": "97165_issue_granularity",
+      "description": "Each of the `tcgen05` operation has different requirements for the number of threads/warps that needs to issue them."
+    },
+    {
+      "name": "97166_memory_consistency_model_for_5th_generation_of_tensorcore_operations",
+      "description": "Ordering of `tcgen05` instructions is described in terms of two key concepts:"
+    },
+    {
+      "name": "97167_tensor_memory_allocation_and_management_instructions",
+      "description": "Documentation for Tensor Memory Allocation And Management Instructions."
+    },
+    {
+      "name": "97168_tensor_memory_and_register_loadstore_instructions",
+      "description": "The threads of the CTA can perform the loads and stores to the [Tensor Memory](https://docs.nvidia.com/cuda/parallel-thread-execution/#tensor-memory) of the CTA and move data between registers and Tensor Memory. The loads and stores of data can be performed in certain shapes as specified in the [..."
+    },
+    {
+      "name": "97169_tensor_memory_data_movement_instructions",
+      "description": "Data from the shared memory can be copied asynchronously to the [Tensor Memory](https://docs.nvidia.com/cuda/parallel-thread-execution/#tensor-memory) using the [Tensorcore 5th Generation Instructions: tcgen05.cp](https://docs.nvidia.com/cuda/parallel-thread-execution/#tcgen05-instructions-tcgen0..."
+    },
+    {
+      "name": "971610_tensorcore_5th_generation_matrix_multiply_and_accumulate_operations",
+      "description": "The 5th generation of TensorCore operations of shape *MxNxK* perform matrix multiplication and accumulation of the form:"
+    },
+    {
+      "name": "971611_tensorcore_5th_generation_specialized_synchronization_operations",
+      "description": "Documentation for Tensorcore 5Th Generation Specialized Synchronization Operations."
+    },
+    {
+      "name": "971612_tensorcore_5th_generation_async_synchronization_operations",
+      "description": "Documentation for Tensorcore 5Th Generation Async Synchronization Operations."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    }
+  ]
+}

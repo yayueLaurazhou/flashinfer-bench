@@ -1,0 +1,30 @@
+{
+  "description": "Documentation for 13.3.2. Device-side Launch from PTX",
+  "directories": [
+    {
+      "name": "13321_kernel_launch_apis",
+      "description": "#### 13.3.2.1. Kernel Launch APIs[\uf0c1](#kernel-launch-apis \"Permalink to this headline\")  Device-side kernel launches can be implemented using the following two APIs accessible from PTX: `cudaLaunchDevi..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "13322_parameter_buffer_layout",
+      "title": "13.3.2.2. Parameter Buffer Layout",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 13.3.2.2. Parameter Buffer Layout[\uf0c1](#parameter-buffer-layout \"Permalink to this headline\")  Parameter reordering in the parameter buffer is prohibited, and each individual parameter placed in th...",
+      "filename": "13322_parameter_buffer_layout.md"
+    }
+  ]
+}

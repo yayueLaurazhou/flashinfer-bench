@@ -1,0 +1,62 @@
+{
+    "description": "PTX ISA Release 9.1 Documentation",
+    "directories": [
+      {
+        "name": "1_introduction",
+        "description": "# 1. Introduction\n\nThis section introduces PTX as a low-level parallel thread execution virtual machine and instruction set architecture (ISA). It covers the goals of PTX in enabling scalable data-parallel computing, the evolution of the GPU as a many-core processor, and the document structure. It also details the new features in PTX ISA Version 9.1, such as support for the `volatile` qualifier on local state space and new floating-point format conversions."
+      },
+      {
+        "name": "2_programming_model",
+        "description": "# 2. Programming Model\n\nThis section defines the PTX programming model, focusing on the thread hierarchy and memory hierarchy. It explains Cooperative Thread Arrays (CTAs), the new Cluster level (groups of CTAs introduced in sm_90), and Grids. It details how threads are organized into warps and how they can synchronize and communicate via shared memory and barriers. It also outlines the memory hierarchy, including global, shared, local, constant, texture, and parameter state spaces."
+      },
+      {
+        "name": "3_ptx_machine_model",
+        "description": "# 3. PTX Machine Model\n\nThis section describes the underlying machine model, including the array of Streaming Multiprocessors (SMs) and the SIMT (Single-Instruction, Multiple-Thread) architecture. It covers Independent Thread Scheduling (introduced in Volta), which allows full concurrency between threads, and details the on-chip memory resources such as registers, shared memory, and caches (constant, texture, L1/L2)."
+      },
+      {
+        "name": "4_syntax",
+        "description": "# 4. Syntax\n\nThis section specifies the syntax of the PTX language. It covers source format rules, comment styles, and the structure of statements (directives and instructions). It defines the rules for user-defined identifiers and detailed syntax for constants, including integer, floating-point (standard and alternate formats), predicate constants, and constant expression evaluation rules."
+      },
+      {
+        "name": "5_state_spaces_types_and_variables",
+        "description": "# 5. State Spaces, Types, and Variables\n\nThis section enumerates the PTX state spaces (`.reg`, `.global`, `.shared`, `.local`, `.const`, `.param`, etc.) and their properties. It defines the fundamental data types (integer, floating-point, bit-size, predicate) and alternate data formats (e.g., `bf16`, `tf32`, `e4m3`, `e5m2`). It also covers variable declarations, initializers, alignment, vector types, array declarations, and extensive details on Tensor data structures and access modes (Tiled and Im2col)."
+      },
+      {
+        "name": "6_instruction_operands",
+        "description": "# 6. Instruction Operands\n\nThis section describes the valid operands for PTX instructions. It details operand type checking, source and destination operand rules, and the use of addresses, arrays, vectors, labels, and function names as operands. It also explains type conversion rules between different data sizes and formats, and provides cost estimates for accessing different state spaces."
+      },
+      {
+        "name": "7_abstracting_the_abi",
+        "description": "# 7. Abstracting the ABI\n\nThis section describes how PTX abstracts the Application Binary Interface (ABI). It covers function declarations and definitions (`.func`, `.entry`), parameter passing conventions using the `.param` state space, and stack manipulation using instructions like `alloca` for dynamic stack allocation."
+      },
+      {
+        "name": "8_memory_consistency_model",
+        "description": "# 8. Memory Consistency Model\n\nThis section defines the memory consistency model for PTX threads running on sm_70 and later. It specifies the ordering constraints on memory operations (program order, observation order), memory synchronization, scope (CTA, Cluster, GPU, System), and atomicity. It details concepts like Acquire/Release patterns, fence operations (`fence.sc`, `fence.acq_rel`), and causality."
+      },
+      {
+        "name": "9_instruction_set",
+        "description": "# 9. Instruction Set\n\nThis is the core reference for all PTX instructions. It includes integer and floating-point arithmetic (including half-precision and matrix multiply-accumulate `mma`/`wmma`), comparison and selection, logic and shift, and data movement instructions (`ld`, `st`, `cp.async`, `tensormap`). It also covers texture and surface instructions, control flow (`bra`, `call`), synchronization (`bar`, `mbarrier`), and miscellaneous instructions."
+      },
+      {
+        "name": "10_special_registers",
+        "description": "# 10. Special Registers\n\nThis section lists the predefined read-only special registers available in PTX. It includes identifiers for threads (`%tid`), blocks (`%ctaid`), clusters (`%clusterid`), and grids (`%gridid`), as well as lane identifiers (`%laneid`), clock counters (`%clock`, `%globaltimer`), and performance monitoring registers (`%pm`)."
+      },
+      {
+        "name": "11_directives",
+        "description": "# 11. Directives\n\nThis section describes the assembly directives used in PTX source modules. It includes directives for specifying the PTX version and target architecture (`.version`, `.target`), defining kernel entry points and functions (`.entry`, `.func`), linking (`.extern`, `.visible`), performance tuning (`.maxnreg`, `.maxntid`), and debugging (`.file`, `.loc`)."
+      },
+      {
+        "name": "12_pragma_strings",
+        "description": "# 12. Descriptions of .pragma Strings\n\nThis section describes supported pragma strings that pass information to the compiler. It includes pragmas for loop unrolling (`\"nounroll\"`), shared memory spilling (`\"enable_smem_spilling\"`), and basic block execution frequency hints (`\"frequency\"`)."
+      },
+      {
+        "name": "13_release_notes",
+        "description": "# 13. Release Notes\n\nThis section provides a history of changes in the PTX ISA, from version 1.0 up to the current version 9.1. It lists new instructions, features, and target architectures supported in each release."
+      },
+      {
+        "name": "14_notices",
+        "description": "# 14. Notices\n\nThis section contains legal notices, trademark information, and copyright statements regarding the PTX ISA documentation."
+      }
+    ],
+    "files": []
+}

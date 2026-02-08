@@ -1,0 +1,45 @@
+{
+  "description": "Documentation for 3. Introduction",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "31_the_benefits_of_using_gpus",
+      "title": "3.1. The Benefits of Using GPUs",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 3.1. The Benefits of Using GPUs[\uf0c1](#the-benefits-of-using-gpus \"Permalink to this headline\")  The Graphics Processing Unit (GPU)[1](#fn1) provides much higher instruction throughput and memory band...",
+      "filename": "31_the_benefits_of_using_gpus.md"
+    },
+    {
+      "id": "32_cuda_a_general_purpose_parallel_computing_platform_and_programming_model",
+      "title": "3.2. CUDA\u00ae: A General-Purpose Parallel Computing Platform and Programming Model",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 3.2. CUDA\u00ae: A General-Purpose Parallel Computing Platform and Programming Model[\uf0c1](#cuda-a-general-purpose-parallel-computing-platform-and-programming-model \"Permalink to this headline\")  In Novemb...",
+      "filename": "32_cuda_a_general_purpose_parallel_computing_platform_and_programming_model.md"
+    },
+    {
+      "id": "33_a_scalable_programming_model",
+      "title": "3.3. A Scalable Programming Model",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 3.3. A Scalable Programming Model[\uf0c1](#a-scalable-programming-model \"Permalink to this headline\")  The advent of multicore CPUs and manycore GPUs means that mainstream processor chips are now parall...",
+      "filename": "33_a_scalable_programming_model.md"
+    }
+  ]
+}

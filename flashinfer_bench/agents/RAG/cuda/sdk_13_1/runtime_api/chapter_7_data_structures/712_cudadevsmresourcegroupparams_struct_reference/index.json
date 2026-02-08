@@ -1,0 +1,65 @@
+{
+  "description": "Documentation for 7.12. cudaDevSmResourceGroupParams Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "unsigned_int_cudadevsmresourcegroupparamscoscheduledsmcount",
+      "title": "unsigned int cudaDevSmResourceGroupParams::coscheduledSmCount",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "The amount of co-scheduled SMs grouped together for locality purposes....",
+      "filename": "unsigned_int_cudadevsmresourcegroupparamscoscheduledsmcount.md"
+    },
+    {
+      "id": "unsigned_int_cudadevsmresourcegroupparamsflags",
+      "title": "unsigned int cudaDevSmResourceGroupParams::flags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Combination of cudaDevSmResourceGroup_flags values to indicate this this group is created....",
+      "filename": "unsigned_int_cudadevsmresourcegroupparamsflags.md"
+    },
+    {
+      "id": "unsigned_int_cudadevsmresourcegroupparamspreferredcosch_d6f0a801",
+      "title": "unsigned int cudaDevSmResourceGroupParams::preferredCoscheduledSmCount",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "When possible, combine co-scheduled groups together into larger groups of this size....",
+      "filename": "unsigned_int_cudadevsmresourcegroupparamspreferredcosch_d6f0a801.md"
+    },
+    {
+      "id": "unsigned_int_cudadevsmresourcegroupparamsreserved",
+      "title": "unsigned int cudaDevSmResourceGroupParams::reserved",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Reserved for future use - ensure this is is zero initialized....",
+      "filename": "unsigned_int_cudadevsmresourcegroupparamsreserved.md"
+    },
+    {
+      "id": "unsigned_int_cudadevsmresourcegroupparamssmcount",
+      "title": "unsigned int cudaDevSmResourceGroupParams::smCount",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "The amount of SMs available in this resource.   CUDA Runtime API vRelease Version  |  606   Data Structures...",
+      "filename": "unsigned_int_cudadevsmresourcegroupparamssmcount.md"
+    }
+  ]
+}

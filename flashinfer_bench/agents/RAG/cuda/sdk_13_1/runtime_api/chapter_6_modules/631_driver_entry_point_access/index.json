@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 6.31. Driver Entry Point Access",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "__host__cudaerror_t_cudagetdriverentrypoint_const_char__41164833",
+      "title": "__host__cudaError_t cudaGetDriverEntryPoint (const char *symbol, void **funcPtr, unsigned long long flags, cudaDriverEntryPointQueryResult *driverStatus)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the requested driver API function pointer....",
+      "filename": "__host__cudaerror_t_cudagetdriverentrypoint_const_char__41164833.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagetdriverentrypointbyversion_co_b4e5fab2",
+      "title": "__host__cudaError_t cudaGetDriverEntryPointByVersion (const char *symbol, void **funcPtr, unsigned int cudaVersion, unsigned long long flags, cudaDriverEntryPointQueryResult *driverStatus)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the requested driver API function pointer by CUDA version....",
+      "filename": "__host__cudaerror_t_cudagetdriverentrypointbyversion_co_b4e5fab2.md"
+    }
+  ]
+}

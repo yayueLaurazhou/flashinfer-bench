@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 9.7.16.1. Tensor Memory",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "The 5th generation TensorCore has dedicated on-chip memory that is specialized for use by TensorCore operations. This Tensor Memory is organized as a two-dimensional matrix where the horizontal rows are called lanes and the vertical columns are called columns."
+    },
+    {
+      "id": "971611_tensor_memory_addressing",
+      "title": "9.7.16.1.1. Tensor Memory Addressing",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "Tensor Memory addresses are 32-bit wide and specify two components.",
+      "filename": "971611_tensor_memory_addressing.md"
+    },
+    {
+      "id": "971612_tensor_memory_allocation",
+      "title": "9.7.16.1.2. Tensor Memory Allocation",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "The Tensor Memory is dynamically allocated. The Tensor Memory must be allocated by a single warp in a CTA using the [Tensor Memory Allocation and Management Instructions](https://docs.nvidia.com/cuda/parallel-thread-execution/#tcgen05-memory-alloc-manage-instructions).",
+      "filename": "971612_tensor_memory_allocation.md"
+    }
+  ]
+}

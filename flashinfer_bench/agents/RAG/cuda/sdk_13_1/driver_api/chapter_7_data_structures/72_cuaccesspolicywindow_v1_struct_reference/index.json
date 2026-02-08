@@ -1,0 +1,65 @@
+{
+  "description": "Documentation for 7.2. CUaccessPolicyWindow_v1 Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "void_cuaccesspolicywindow_v1base_ptr",
+      "title": "void *CUaccessPolicyWindow_v1::base_ptr",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Starting address of the access policy window. CUDA driver may align it....",
+      "filename": "void_cuaccesspolicywindow_v1base_ptr.md"
+    },
+    {
+      "id": "cuaccessproperty_cuaccesspolicywindow_v1hitprop",
+      "title": "CUaccessProperty CUaccessPolicyWindow_v1::hitProp",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUaccessProperty set for hit....",
+      "filename": "cuaccessproperty_cuaccesspolicywindow_v1hitprop.md"
+    },
+    {
+      "id": "float_cuaccesspolicywindow_v1hitratio",
+      "title": "float CUaccessPolicyWindow_v1::hitRatio",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "hitRatio specifies percentage of lines assigned hitProp, rest are assigned missProp....",
+      "filename": "float_cuaccesspolicywindow_v1hitratio.md"
+    },
+    {
+      "id": "cuaccessproperty_cuaccesspolicywindow_v1missprop",
+      "title": "CUaccessProperty CUaccessPolicyWindow_v1::missProp",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUaccessProperty set for miss. Must be either NORMAL or STREAMING...",
+      "filename": "cuaccessproperty_cuaccesspolicywindow_v1missprop.md"
+    },
+    {
+      "id": "size_t_cuaccesspolicywindow_v1num_bytes",
+      "title": "size_t CUaccessPolicyWindow_v1::num_bytes",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Size in bytes of the window policy. CUDA driver may restrict the maximum size and alignment....",
+      "filename": "size_t_cuaccesspolicywindow_v1num_bytes.md"
+    }
+  ]
+}

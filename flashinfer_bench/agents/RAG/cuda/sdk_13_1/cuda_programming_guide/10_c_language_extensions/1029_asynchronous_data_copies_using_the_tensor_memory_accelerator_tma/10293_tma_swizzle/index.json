@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 10.29.3. TMA Swizzle",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "102931_example_matrix_transpose",
+      "title": "10.29.3.1. Example \u2018Matrix Transpose\u2019",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 10.29.3.1. Example \u2018Matrix Transpose\u2019[\uf0c1](#example-matrix-transpose \"Permalink to this headline\")  An example is the transpose of a matrix where data is mapped from row to column first access. The...",
+      "filename": "102931_example_matrix_transpose.md"
+    },
+    {
+      "id": "102932_the_swizzle_modes",
+      "title": "10.29.3.2. The Swizzle Modes",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 10.29.3.2. The Swizzle Modes[\uf0c1](#the-swizzle-modes \"Permalink to this headline\")  As previously mentioned, there are four swizzle modes. The following tables show the different swizzle patterns, ...",
+      "filename": "102932_the_swizzle_modes.md"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Documentation for 9.7.15.5. Asynchronous Warpgroup Level Matrix Multiply-Accumulate Operation using wgmma.mma_async instruction",
+  "directories": [
+    {
+      "name": "971551_register_fragments_and_shared_memory_matrix_layouts",
+      "description": "The input matrix A of the warpgroup wide MMA operations can be either in registers or in the shared memory. The input matrix B of the warpgroup wide MMA operations must be in the shared memory. This section describes the layouts of register fragments and shared memory expected by the warpgroup MM..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "This section describes warpgroup level `wgmma.mma_async` instruction and the organization of various matrices involved in this instruction."
+    },
+    {
+      "id": "971552_asynchronous_multiply_and_accumulate_instruction_wgmmamma_async",
+      "title": "9.7.15.5.2. Asynchronous Multiply-and-Accumulate Instruction: wgmma.mma_async",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`wgmma.mma_async`",
+      "filename": "971552_asynchronous_multiply_and_accumulate_instruction_wgmmamma_async.md"
+    }
+  ]
+}

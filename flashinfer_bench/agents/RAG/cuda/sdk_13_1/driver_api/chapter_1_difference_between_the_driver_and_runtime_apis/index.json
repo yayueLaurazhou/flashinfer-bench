@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for Chapter 1. Difference between the driver and runtime APIs",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "complexity_vs_control",
+      "title": "Complexity vs. control",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "The runtime API eases device code management by providing implicit primary context initialization and management, and implicit module management. This leads to simpler code, but it also lacks the leve...",
+      "filename": "complexity_vs_control.md"
+    },
+    {
+      "id": "context_management",
+      "title": "Context management",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Unless an execution context cudaExecutionContext_t is specified, the runtime API decides itself which context to use for a thread: if a context has been made current to the calling thread through the ...",
+      "filename": "context_management.md"
+    }
+  ]
+}

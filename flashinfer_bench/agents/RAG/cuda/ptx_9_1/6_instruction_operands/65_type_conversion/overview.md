@@ -1,0 +1,7 @@
+# 6.5. Type Conversion
+
+## 6.5. [Type Conversion](https://docs.nvidia.com/cuda/parallel-thread-execution/#type-conversion)[](https://docs.nvidia.com/cuda/parallel-thread-execution/#type-conversion "Permalink to this headline")
+
+All operands to all arithmetic, logic, and data movement instruction must be of the same type and
+size, except for operations where changing the size and/or type is part of the definition of the
+instruction. Operands of different sizes or types must be converted prior to the operation.

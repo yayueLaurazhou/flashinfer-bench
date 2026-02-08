@@ -1,0 +1,20 @@
+{
+  "description": "Documentation for 9.7.16.2.3. Data Movement Shape",
+  "directories": [
+    {
+      "name": "9716231_memory_layout",
+      "description": "The following shows the layout of the matrix fragments across threads of the warp."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "The data movement shape indicates the dimension of the data to be moved to or from the [Tensor Memory](https://docs.nvidia.com/cuda/parallel-thread-execution/#tensor-memory). These shapes are described as a tuple `lane x size` where:"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "description": "Documentation for 27. Notices",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "271_notice",
+      "title": "27.1. Notice",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 27.1. Notice[\uf0c1](#notice \"Permalink to this headline\")  This document is provided for information purposes only and shall not be regarded as a warranty of a certain functionality, condition, or qual...",
+      "filename": "271_notice.md"
+    },
+    {
+      "id": "272_opencl",
+      "title": "27.2. OpenCL",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 27.2. OpenCL[\uf0c1](#opencl \"Permalink to this headline\")  OpenCL is a trademark of Apple Inc. used under license to the Khronos Group Inc....",
+      "filename": "272_opencl.md"
+    },
+    {
+      "id": "273_trademarks",
+      "title": "27.3. Trademarks",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 27.3. Trademarks[\uf0c1](#trademarks \"Permalink to this headline\")  NVIDIA and the NVIDIA logo are trademarks or registered trademarks of NVIDIA Corporation in the U.S. and other countries. Other compan...",
+      "filename": "273_trademarks.md"
+    }
+  ]
+}

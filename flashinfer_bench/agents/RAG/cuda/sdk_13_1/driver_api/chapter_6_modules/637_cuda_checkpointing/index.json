@@ -1,0 +1,75 @@
+{
+  "description": "Documentation for 6.37. CUDA Checkpointing",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "curesult_cucheckpointprocesscheckpoint_int_pid_cucheckp_f762c30d",
+      "title": "CUresult cuCheckpointProcessCheckpoint (int pid, CUcheckpointCheckpointArgs *args)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Checkpoint a CUDA process's GPU memory contents....",
+      "filename": "curesult_cucheckpointprocesscheckpoint_int_pid_cucheckp_f762c30d.md"
+    },
+    {
+      "id": "curesult_cucheckpointprocessgetrestorethreadid_int_pid_int_tid",
+      "title": "CUresult cuCheckpointProcessGetRestoreThreadId (int pid, int *tid)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the restore thread ID for a CUDA process....",
+      "filename": "curesult_cucheckpointprocessgetrestorethreadid_int_pid_int_tid.md"
+    },
+    {
+      "id": "curesult_cucheckpointprocessgetstate_int_pid_cuprocesss_350fcb28",
+      "title": "CUresult cuCheckpointProcessGetState (int pid, CUprocessState *state)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the process state of a CUDA process....",
+      "filename": "curesult_cucheckpointprocessgetstate_int_pid_cuprocesss_350fcb28.md"
+    },
+    {
+      "id": "curesult_cucheckpointprocesslock_int_pid_cucheckpointlo_65c5bd16",
+      "title": "CUresult cuCheckpointProcessLock (int pid, CUcheckpointLockArgs *args)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Lock a running CUDA process....",
+      "filename": "curesult_cucheckpointprocesslock_int_pid_cucheckpointlo_65c5bd16.md"
+    },
+    {
+      "id": "curesult_cucheckpointprocessrestore_int_pid_cucheckpoin_cf29b5f4",
+      "title": "CUresult cuCheckpointProcessRestore (int pid, CUcheckpointRestoreArgs *args)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Restore a CUDA process's GPU memory contents from its last checkpoint....",
+      "filename": "curesult_cucheckpointprocessrestore_int_pid_cucheckpoin_cf29b5f4.md"
+    },
+    {
+      "id": "curesult_cucheckpointprocessunlock_int_pid_cucheckpoint_cc1db0ad",
+      "title": "CUresult cuCheckpointProcessUnlock (int pid, CUcheckpointUnlockArgs *args)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Unlock a CUDA process to allow CUDA API calls....",
+      "filename": "curesult_cucheckpointprocessunlock_int_pid_cucheckpoint_cc1db0ad.md"
+    }
+  ]
+}

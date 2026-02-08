@@ -1,0 +1,75 @@
+{
+  "description": "Documentation for 7.15. cudaEglFrame Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "cudaeglcolorformat_cudaeglframeeglcolorformat",
+      "title": "cudaEglColorFormat cudaEglFrame::eglColorFormat",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA EGL Color Format...",
+      "filename": "cudaeglcolorformat_cudaeglframeeglcolorformat.md"
+    },
+    {
+      "id": "cudaeglframetype_cudaeglframeframetype",
+      "title": "cudaEglFrameType cudaEglFrame::frameType",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Array or Pitch...",
+      "filename": "cudaeglframetype_cudaeglframeframetype.md"
+    },
+    {
+      "id": "cudaarray_t_cudaeglframeparray",
+      "title": "cudaArray_t cudaEglFrame::pArray",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Array of CUDA arrays corresponding to each plane...",
+      "filename": "cudaarray_t_cudaeglframeparray.md"
+    },
+    {
+      "id": "unsigned_int_cudaeglframeplanecount",
+      "title": "unsigned int cudaEglFrame::planeCount",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Number of planes...",
+      "filename": "unsigned_int_cudaeglframeplanecount.md"
+    },
+    {
+      "id": "struct_cudaeglplanedesc_cudaeglframeplanedesc",
+      "title": "struct cudaEglPlaneDesc cudaEglFrame::planeDesc",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA EGL Plane Descriptor cudaEglPlaneDesc...",
+      "filename": "struct_cudaeglplanedesc_cudaeglframeplanedesc.md"
+    },
+    {
+      "id": "struct_cudapitchedptr_cudaeglframeppitch",
+      "title": "struct cudaPitchedPtr cudaEglFrame::pPitch",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Array of Pointers corresponding to each plane...",
+      "filename": "struct_cudapitchedptr_cudaeglframeppitch.md"
+    }
+  ]
+}

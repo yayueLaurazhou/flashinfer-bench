@@ -1,0 +1,84 @@
+{
+  "description": "Documentation for 5.1. State Spaces",
+  "directories": [
+    {
+      "name": "513_constant_state_space",
+      "description": "The constant (`.const`) state space is a read-only memory initialized by the host. Constant memory is accessed with a `ld.const` instruction. Constant memory is restricted in size, currently limited to 64 KB which can be used to hold statically-sized constant variables. There is an additional 640..."
+    },
+    {
+      "name": "516_parameter_state_space",
+      "description": "The parameter (`.param`) state space is used (1) to pass input arguments from the host to the kernel, (2a) to declare formal input and return parameters for device functions called from within kernel execution, and (2b) to declare locally-scoped byte array variables that serve as function call ar..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "A state space is a storage area with particular characteristics. All variables reside in some state space. The characteristics of a state space include its size, addressability, access speed, access rights, and level of sharing between threads."
+    },
+    {
+      "id": "511_register_state_space",
+      "title": "5.1.1. Register State Space",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "Registers (`.reg` state space) are fast storage locations. The number of registers is limited, and will vary from platform to platform. When the limit is exceeded, register variables will be spilled to memory, causing changes in performance. For each architecture, there is a recommended maximum n...",
+      "filename": "511_register_state_space.md"
+    },
+    {
+      "id": "512_special_register_state_space",
+      "title": "5.1.2. Special Register State Space",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "The special register (`.sreg`) state space holds predefined, platform-specific registers, such as grid, cluster, CTA, and thread parameters, clock counters, and performance monitoring registers. All special registers are predefined.",
+      "filename": "512_special_register_state_space.md"
+    },
+    {
+      "id": "514_global_state_space",
+      "title": "5.1.4. Global State Space",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "The global (`.global`) state space is memory that is accessible by all threads in a context. It is the mechanism by which threads in different CTAs, clusters, and grids can communicate. Use `ld.global`, `st.global`, and `atom.global` to access global variables.",
+      "filename": "514_global_state_space.md"
+    },
+    {
+      "id": "515_local_state_space",
+      "title": "5.1.5. Local State Space",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "The local state space (`.local`) is private memory for each thread to keep its own data. It is typically standard memory with cache. The size is limited, as it must be allocated on a per-thread basis. Use `ld.local` and `st.local` to access local variables.",
+      "filename": "515_local_state_space.md"
+    },
+    {
+      "id": "517_shared_state_space",
+      "title": "5.1.7. Shared State Space",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "The shared (`.shared`) state space is a memory that is owned by an executing CTA and is accessible to the threads of all the CTAs within a cluster. An address in shared memory can be read and written by any thread in a CTA cluster.",
+      "filename": "517_shared_state_space.md"
+    },
+    {
+      "id": "518_texture_state_space_deprecated",
+      "title": "5.1.8. Texture State Space (deprecated)",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "The texture (`.tex`) state space is global memory accessed via the texture instruction. It is shared by all threads in a context. Texture memory is read-only and cached, so accesses to texture memory are not coherent with global memory stores to the texture image.",
+      "filename": "518_texture_state_space_deprecated.md"
+    }
+  ]
+}

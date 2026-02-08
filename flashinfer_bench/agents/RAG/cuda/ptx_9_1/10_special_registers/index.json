@@ -1,0 +1,345 @@
+{
+  "description": "Documentation for 10. Special Registers",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "PTX includes a number of predefined, read-only variables, which are visible as special registers and accessed through `mov` or `cvt` instructions."
+    },
+    {
+      "id": "101_special_registers_tid",
+      "title": "10.1. Special Registers: %tid",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`%tid`",
+      "filename": "101_special_registers_tid.md"
+    },
+    {
+      "id": "102_special_registers_ntid",
+      "title": "10.2. Special Registers: %ntid",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`%ntid`",
+      "filename": "102_special_registers_ntid.md"
+    },
+    {
+      "id": "103_special_registers_laneid",
+      "title": "10.3. Special Registers: %laneid",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`%laneid`",
+      "filename": "103_special_registers_laneid.md"
+    },
+    {
+      "id": "104_special_registers_warpid",
+      "title": "10.4. Special Registers: %warpid",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`%warpid`",
+      "filename": "104_special_registers_warpid.md"
+    },
+    {
+      "id": "105_special_registers_nwarpid",
+      "title": "10.5. Special Registers: %nwarpid",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`%nwarpid`",
+      "filename": "105_special_registers_nwarpid.md"
+    },
+    {
+      "id": "106_special_registers_ctaid",
+      "title": "10.6. Special Registers: %ctaid",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`%ctaid`",
+      "filename": "106_special_registers_ctaid.md"
+    },
+    {
+      "id": "107_special_registers_nctaid",
+      "title": "10.7. Special Registers: %nctaid",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`%nctaid`",
+      "filename": "107_special_registers_nctaid.md"
+    },
+    {
+      "id": "108_special_registers_smid",
+      "title": "10.8. Special Registers: %smid",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`%smid`",
+      "filename": "108_special_registers_smid.md"
+    },
+    {
+      "id": "109_special_registers_nsmid",
+      "title": "10.9. Special Registers: %nsmid",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`%nsmid`",
+      "filename": "109_special_registers_nsmid.md"
+    },
+    {
+      "id": "1010_special_registers_gridid",
+      "title": "10.10. Special Registers: %gridid",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`%gridid`",
+      "filename": "1010_special_registers_gridid.md"
+    },
+    {
+      "id": "1011_special_registers_is_explicit_cluster",
+      "title": "10.11. Special Registers: %is_explicit_cluster",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`%is_explicit_cluster`",
+      "filename": "1011_special_registers_is_explicit_cluster.md"
+    },
+    {
+      "id": "1012_special_registers_clusterid",
+      "title": "10.12. Special Registers: %clusterid",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`%clusterid`",
+      "filename": "1012_special_registers_clusterid.md"
+    },
+    {
+      "id": "1013_special_registers_nclusterid",
+      "title": "10.13. Special Registers: %nclusterid",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`%nclusterid`",
+      "filename": "1013_special_registers_nclusterid.md"
+    },
+    {
+      "id": "1014_special_registers_cluster_ctaid",
+      "title": "10.14. Special Registers: %cluster_ctaid",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`%cluster_ctaid`",
+      "filename": "1014_special_registers_cluster_ctaid.md"
+    },
+    {
+      "id": "1015_special_registers_cluster_nctaid",
+      "title": "10.15. Special Registers: %cluster_nctaid",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`%cluster_nctaid`",
+      "filename": "1015_special_registers_cluster_nctaid.md"
+    },
+    {
+      "id": "1016_special_registers_cluster_ctarank",
+      "title": "10.16. Special Registers: %cluster_ctarank",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`%cluster_ctarank`",
+      "filename": "1016_special_registers_cluster_ctarank.md"
+    },
+    {
+      "id": "1017_special_registers_cluster_nctarank",
+      "title": "10.17. Special Registers: %cluster_nctarank",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`%cluster_nctarank`",
+      "filename": "1017_special_registers_cluster_nctarank.md"
+    },
+    {
+      "id": "1018_special_registers_lanemask_eq",
+      "title": "10.18. Special Registers: %lanemask_eq",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`%lanemask_eq`",
+      "filename": "1018_special_registers_lanemask_eq.md"
+    },
+    {
+      "id": "1019_special_registers_lanemask_le",
+      "title": "10.19. Special Registers: %lanemask_le",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`%lanemask_le`",
+      "filename": "1019_special_registers_lanemask_le.md"
+    },
+    {
+      "id": "1020_special_registers_lanemask_lt",
+      "title": "10.20. Special Registers: %lanemask_lt",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`%lanemask_lt`",
+      "filename": "1020_special_registers_lanemask_lt.md"
+    },
+    {
+      "id": "1021_special_registers_lanemask_ge",
+      "title": "10.21. Special Registers: %lanemask_ge",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`%lanemask_ge`",
+      "filename": "1021_special_registers_lanemask_ge.md"
+    },
+    {
+      "id": "1022_special_registers_lanemask_gt",
+      "title": "10.22. Special Registers: %lanemask_gt",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`%lanemask_gt`",
+      "filename": "1022_special_registers_lanemask_gt.md"
+    },
+    {
+      "id": "1023_special_registers_clock_clock_hi",
+      "title": "10.23. Special Registers: %clock, %clock_hi",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`%clock`, `%clock_hi`",
+      "filename": "1023_special_registers_clock_clock_hi.md"
+    },
+    {
+      "id": "1024_special_registers_clock64",
+      "title": "10.24. Special Registers: %clock64",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`%clock64`",
+      "filename": "1024_special_registers_clock64.md"
+    },
+    {
+      "id": "1025_special_registers_pm0_pm7",
+      "title": "10.25. Special Registers: %pm0 \u2026 %pm7",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`%pm0` \u2026 `%pm7`",
+      "filename": "1025_special_registers_pm0_pm7.md"
+    },
+    {
+      "id": "1026_special_registers_pm0_64_pm7_64",
+      "title": "10.26. Special Registers: %pm0_64 \u2026 %pm7_64",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`%pm0_64` \u2026 `%pm7_64`",
+      "filename": "1026_special_registers_pm0_64_pm7_64.md"
+    },
+    {
+      "id": "1027_special_registers_envreg32",
+      "title": "10.27. Special Registers: %envreg<32>",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`%envreg<32>`",
+      "filename": "1027_special_registers_envreg32.md"
+    },
+    {
+      "id": "1028_special_registers_globaltimer_globaltimer_lo_globaltimer_hi",
+      "title": "10.28. Special Registers: %globaltimer, %globaltimer_lo, %globaltimer_hi",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`%globaltimer`, `%globaltimer_lo`, `%globaltimer_hi`",
+      "filename": "1028_special_registers_globaltimer_globaltimer_lo_globaltimer_hi.md"
+    },
+    {
+      "id": "1029_special_registers_reserved_smem_offset_begin_reserved_smem_offset_end_reserved_smem_offset_cap_reserved_smem_offset_2",
+      "title": "10.29. Special Registers: %reserved_smem_offset_begin, %reserved_smem_offset_end,\n%reserved_smem_offset_cap, %reserved_smem_offset_<2>",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "%reserved_smem_offset_cap, %reserved_smem_offset_<2>",
+      "filename": "1029_special_registers_reserved_smem_offset_begin_reserved_smem_offset_end_reserved_smem_offset_cap_reserved_smem_offset_2.md"
+    },
+    {
+      "id": "1030_special_registers_total_smem_size",
+      "title": "10.30. Special Registers: %total_smem_size",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`%total_smem_size`",
+      "filename": "1030_special_registers_total_smem_size.md"
+    },
+    {
+      "id": "1031_special_registers_aggr_smem_size",
+      "title": "10.31. Special Registers: %aggr_smem_size",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`%aggr_smem_size`",
+      "filename": "1031_special_registers_aggr_smem_size.md"
+    },
+    {
+      "id": "1032_special_registers_dynamic_smem_size",
+      "title": "10.32. Special Registers: %dynamic_smem_size",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`%dynamic_smem_size`",
+      "filename": "1032_special_registers_dynamic_smem_size.md"
+    },
+    {
+      "id": "1033_special_registers_current_graph_exec",
+      "title": "10.33. Special Registers: %current_graph_exec",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`%current_graph_exec`",
+      "filename": "1033_special_registers_current_graph_exec.md"
+    }
+  ]
+}

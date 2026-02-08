@@ -1,0 +1,3 @@
+# unsigned int CUDA_ARRAY_SPARSE_PROPERTIES_v1::flags
+
+Flags will either be zero or CU_ARRAY_SPARSE_PROPERTIES_SINGLE_MIPTAIL

@@ -1,0 +1,3 @@
+# 9.7.9.25.3. Data Movement and Conversion Instructions: Non-bulk copy
+
+##### 9.7.9.25.3. [Data Movement and Conversion Instructions: Non-bulk copy](https://docs.nvidia.com/cuda/parallel-thread-execution/#data-movement-and-conversion-instructions-non-bulk-copy)[](https://docs.nvidia.com/cuda/parallel-thread-execution/#data-movement-and-conversion-instructions-non-bulk-copy "Permalink to this headline")

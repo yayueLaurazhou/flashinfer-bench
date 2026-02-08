@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 7.70. CUmemAccessDesc_v1 Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "cumemaccess_flags_cumemaccessdesc_v1flags",
+      "title": "CUmemAccess_flags CUmemAccessDesc_v1::flags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUmemProt accessibility flags to set on the request...",
+      "filename": "cumemaccess_flags_cumemaccessdesc_v1flags.md"
+    },
+    {
+      "id": "struct_cumemlocation_cumemaccessdesc_v1location",
+      "title": "struct CUmemLocation CUmemAccessDesc_v1::location",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Location on which the request is to change it's accessibility...",
+      "filename": "struct_cumemlocation_cumemaccessdesc_v1location.md"
+    }
+  ]
+}

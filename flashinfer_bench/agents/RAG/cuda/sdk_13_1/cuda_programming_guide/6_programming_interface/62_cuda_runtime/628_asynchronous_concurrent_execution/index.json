@@ -1,0 +1,82 @@
+{
+  "description": "Documentation for 6.2.8. Asynchronous Concurrent Execution",
+  "directories": [
+    {
+      "name": "6285_streams",
+      "description": "#### 6.2.8.5. Streams[\uf0c1](#streams \"Permalink to this headline\")  Applications manage the concurrent operations described above through *streams*. A stream is a sequence of commands (possibly issued by..."
+    },
+    {
+      "name": "6286_programmatic_dependent_launch_and_synchronization",
+      "description": "#### 6.2.8.6. Programmatic Dependent Launch and Synchronization[\uf0c1](#programmatic-dependent-launch-and-synchronization \"Permalink to this headline\")  Warning  This document has been replaced by a new [..."
+    },
+    {
+      "name": "6287_cuda_graphs",
+      "description": "#### 6.2.8.7. CUDA Graphs[\uf0c1](#cuda-graphs \"Permalink to this headline\")  CUDA Graphs present a new model for work submission in CUDA. A graph is a series of operations, such as kernel launches, connec..."
+    },
+    {
+      "name": "6288_events",
+      "description": "#### 6.2.8.8. Events[\uf0c1](#events \"Permalink to this headline\")  The runtime also provides a way to closely monitor the device\u2019s progress, as well as perform accurate timing, by letting the application ..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "6281_concurrent_execution_between_host_and_device",
+      "title": "6.2.8.1. Concurrent Execution between Host and Device",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 6.2.8.1. Concurrent Execution between Host and Device[\uf0c1](#concurrent-execution-between-host-and-device \"Permalink to this headline\")  Concurrent host execution is facilitated through asynchronous...",
+      "filename": "6281_concurrent_execution_between_host_and_device.md"
+    },
+    {
+      "id": "6282_concurrent_kernel_execution",
+      "title": "6.2.8.2. Concurrent Kernel Execution",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 6.2.8.2. Concurrent Kernel Execution[\uf0c1](#concurrent-kernel-execution \"Permalink to this headline\")  Some devices of compute capability 2.x and higher can execute multiple kernels concurrently. Ap...",
+      "filename": "6282_concurrent_kernel_execution.md"
+    },
+    {
+      "id": "6283_overlap_of_data_transfer_and_kernel_execution",
+      "title": "6.2.8.3. Overlap of Data Transfer and Kernel Execution",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 6.2.8.3. Overlap of Data Transfer and Kernel Execution[\uf0c1](#overlap-of-data-transfer-and-kernel-execution \"Permalink to this headline\")  Some devices can perform an asynchronous memory copy to or ...",
+      "filename": "6283_overlap_of_data_transfer_and_kernel_execution.md"
+    },
+    {
+      "id": "6284_concurrent_data_transfers",
+      "title": "6.2.8.4. Concurrent Data Transfers",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 6.2.8.4. Concurrent Data Transfers[\uf0c1](#concurrent-data-transfers \"Permalink to this headline\")  Some devices of compute capability 2.x and higher can overlap copies to and from the device. Applic...",
+      "filename": "6284_concurrent_data_transfers.md"
+    },
+    {
+      "id": "6289_synchronous_calls",
+      "title": "6.2.8.9. Synchronous Calls",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 6.2.8.9. Synchronous Calls[\uf0c1](#synchronous-calls \"Permalink to this headline\")  When a synchronous function is called, control is not returned to the host thread before the device has completed t...",
+      "filename": "6289_synchronous_calls.md"
+    }
+  ]
+}

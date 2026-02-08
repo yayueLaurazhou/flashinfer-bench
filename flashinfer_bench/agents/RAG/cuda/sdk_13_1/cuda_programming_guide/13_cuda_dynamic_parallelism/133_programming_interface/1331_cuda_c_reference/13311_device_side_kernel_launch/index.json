@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 13.3.1.1. Device-Side Kernel Launch",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "133111_launches_are_asynchronous",
+      "title": "13.3.1.1.1. Launches are Asynchronous",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 13.3.1.1.1. Launches are Asynchronous[\uf0c1](#launches-are-asynchronous \"Permalink to this headline\")  Identical to host-side launches, all device-side kernel launches are asynchronous with respect ...",
+      "filename": "133111_launches_are_asynchronous.md"
+    },
+    {
+      "id": "133112_launch_environment_configuration",
+      "title": "13.3.1.1.2. Launch Environment Configuration",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 13.3.1.1.2. Launch Environment Configuration[\uf0c1](#launch-environment-configuration \"Permalink to this headline\")  All global device configuration settings (for example, shared memory and L1 cache...",
+      "filename": "133112_launch_environment_configuration.md"
+    }
+  ]
+}

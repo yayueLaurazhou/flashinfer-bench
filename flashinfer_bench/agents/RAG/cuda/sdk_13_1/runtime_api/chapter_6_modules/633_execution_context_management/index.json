@@ -1,0 +1,365 @@
+{
+  "description": "Documentation for 6.33. Execution Context Management",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "context of the specified device. cudaGreenCtxCreate: Creates a green context with the specified resources and returns an execution...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "context.   CUDA Runtime API vRelease Version  |  441   Modules   Once you have an execution context at hand, you can perform context-level operations via the CUDA Runtime APIs. This includes:  Submitt...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Querying context via cudaExecutionCtxGetDevResource, cudaExecutionCtxGetDevice, etc....",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Synchronizing and tracking context-level operations via cudaExecutionCtxSynchronize,...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "cudaExecutionCtxRecordEvent, cudaExecutionCtxWaitEvent. Performing context-level graph node operations via cudaGraphAddNode by specifying the context...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "in nodeParams. Note that individual node creation APIs, such as cudaGraphAddKernelNode, do not support specifying an execution context.  Note: The above APIs take in an explicit cudaExecutionContext_t...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "cudaDeviceGetDevResource. In case of workqueues, a new configuration can be used or an existing one queried via the cudaDeviceGetDevResource API. (2) Modify these resources by either partitioning them...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "the configuration (in case of workqueues). To partition SMs, we recommend cudaDevSmResourceSplit. Changing the workqueue configuration can be done directly in place. (3) Finalize the specification of ...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "cudaDevResourceGenerateDesc. (4) Create a green context via cudaGreenCtxCreate. This provisions the resource, such as...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "workqueues (until this step it was only a configuration specification). (5) Create a stream via cudaExecutionCtxStreamCreate, and use it throughout your application....",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "SMs  There are two possible partition operations - with cudaDevSmResourceSplitByCount the partitions created have to follow default SM count granularity requirements, so it will often be rounded up an...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "The smCount must be a multiple of 2....",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "The alignment (and default value of coscheduledSmCount) is 2....",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "On Compute Architecture 9.0+:...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "The smCount must be a multiple of 8, or coscheduledSmCount if provided....",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "The alignment (and default value of coscheduledSmCount) is 8. While the maximum value...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "for coscheduled SM count is 32 on all Compute Architecture 9.0+, it's recommended to follow cluster size requirements. The portable cluster size and the max cluster size should be used in order to ben...",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "cudadevworkqueueconfigscopedevicectx",
+      "title": "\u2023 cudaDevWorkqueueConfigScopeDeviceCtx:",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "all contexts (default driver behavior). When possible, use non##### \u2023 cudaDevWorkqueueConfigScopeGreenCtxBalanced: overlapping workqueue resources with other balanced green contexts.  The maximum conc...",
+      "filename": "cudadevworkqueueconfigscopedevicectx.md"
+    },
+    {
+      "id": "cuda_mps_active_thread_percentage",
+      "title": "\u2023 CUDA_MPS_ACTIVE_THREAD_PERCENTAGE",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "that are used for running kernels can be scaled up to the value of SMs used for the MPS client. On Compute Architecture 9.x: When a module with dynamic parallelism (CDP) is loaded, all...",
+      "filename": "cuda_mps_active_thread_percentage.md"
+    },
+    {
+      "id": "section_83bd8fcd",
+      "title": "**\u2023**",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "future kernels running under green contexts may use and share an additional set of 2 SMs....",
+      "filename": "section_83bd8fcd.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudadevicegetdevresource_int_device_c5a83213",
+      "title": "__host__cudaError_t cudaDeviceGetDevResource (int device, cudaDevResource *resource, cudaDevResourceType type)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Get device resources....",
+      "filename": "__host__cudaerror_t_cudadevicegetdevresource_int_device_c5a83213.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudadevicegetexecutionctx_cudaexecu_2a112c51",
+      "title": "__host__cudaError_t cudaDeviceGetExecutionCtx (cudaExecutionContext_t *ctx, int device)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the execution context for a device....",
+      "filename": "__host__cudaerror_t_cudadevicegetexecutionctx_cudaexecu_2a112c51.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudadevresourcegeneratedesc_cudadev_20af11ec",
+      "title": "__host__cudaError_t cudaDevResourceGenerateDesc (cudaDevResourceDesc_t *phDesc, cudaDevResource *resources, unsigned int nbResources)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Generate a resource descriptor....",
+      "filename": "__host__cudaerror_t_cudadevresourcegeneratedesc_cudadev_20af11ec.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudadevsmresourcesplit_cudadevresou_88be6e75",
+      "title": "__host__cudaError_t cudaDevSmResourceSplit (cudaDevResource *result, unsigned int nbGroups, const cudaDevResource *input, cudaDevResource *remainder, unsigned int flags, cudaDevSmResourceGroupParams *groupParams)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Splits a cudaDevResourceTypeSm resource into structured groups....",
+      "filename": "__host__cudaerror_t_cudadevsmresourcesplit_cudadevresou_88be6e75.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudadevsmresourcesplitbycount_cudad_a4a8c0be",
+      "title": "__host__cudaError_t cudaDevSmResourceSplitByCount (cudaDevResource *result, unsigned int *nbGroups, const cudaDevResource *input, cudaDevResource *remaining, unsigned int flags, unsigned int minCount)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Splits cudaDevResourceTypeSm resources....",
+      "filename": "__host__cudaerror_t_cudadevsmresourcesplitbycount_cudad_a4a8c0be.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudaexecutionctxdestroy_cudaexecuti_77025643",
+      "title": "__host__cudaError_t cudaExecutionCtxDestroy (cudaExecutionContext_t ctx)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Destroy a execution context....",
+      "filename": "__host__cudaerror_t_cudaexecutionctxdestroy_cudaexecuti_77025643.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudaexecutionctxgetdevice_int_devic_dadb474a",
+      "title": "__host__cudaError_t cudaExecutionCtxGetDevice (int *device, cudaExecutionContext_t ctx)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the device handle for the execution context....",
+      "filename": "__host__cudaerror_t_cudaexecutionctxgetdevice_int_devic_dadb474a.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudaexecutionctxgetdevresource_cuda_f8a7aa84",
+      "title": "__host__cudaError_t cudaExecutionCtxGetDevResource (cudaExecutionContext_t ctx, cudaDevResource *resource, cudaDevResourceType type)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Get context resources....",
+      "filename": "__host__cudaerror_t_cudaexecutionctxgetdevresource_cuda_f8a7aa84.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudaexecutionctxgetid_cudaexecution_a4b5a5b8",
+      "title": "__host__cudaError_t cudaExecutionCtxGetId (cudaExecutionContext_t ctx, unsigned long long *ctxId)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the unique Id associated with the execution context supplied....",
+      "filename": "__host__cudaerror_t_cudaexecutionctxgetid_cudaexecution_a4b5a5b8.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudaexecutionctxrecordevent_cudaexe_36858d58",
+      "title": "__host__cudaError_t cudaExecutionCtxRecordEvent (cudaExecutionContext_t ctx, cudaEvent_t event)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Records an event for the specified execution context....",
+      "filename": "__host__cudaerror_t_cudaexecutionctxrecordevent_cudaexe_36858d58.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudaexecutionctxstreamcreate_cudast_fa0b5e94",
+      "title": "__host__cudaError_t cudaExecutionCtxStreamCreate (cudaStream_t *phStream, cudaExecutionContext_t ctx, unsigned int flags, int priority)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Creates a stream and initializes it for the given execution context....",
+      "filename": "__host__cudaerror_t_cudaexecutionctxstreamcreate_cudast_fa0b5e94.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudaexecutionctxsynchronize_cudaexe_9ca46175",
+      "title": "__host__cudaError_t cudaExecutionCtxSynchronize (cudaExecutionContext_t ctx)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Block for the specified execution context's tasks to complete....",
+      "filename": "__host__cudaerror_t_cudaexecutionctxsynchronize_cudaexe_9ca46175.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudaexecutionctxwaitevent_cudaexecu_b9b43ecb",
+      "title": "__host__cudaError_t cudaExecutionCtxWaitEvent (cudaExecutionContext_t ctx, cudaEvent_t event)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Make an execution context wait on an event....",
+      "filename": "__host__cudaerror_t_cudaexecutionctxwaitevent_cudaexecu_b9b43ecb.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagreenctxcreate_cudaexecutioncon_f081fa42",
+      "title": "__host__cudaError_t cudaGreenCtxCreate (cudaExecutionContext_t *phCtx, cudaDevResourceDesc_t desc, int device, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Creates a green context with a specified set of resources....",
+      "filename": "__host__cudaerror_t_cudagreenctxcreate_cudaexecutioncon_f081fa42.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudastreamgetdevresource_cudastream_66ea2b6d",
+      "title": "__host__cudaError_t cudaStreamGetDevResource (cudaStream_t hStream, cudaDevResource *resource, cudaDevResourceType type)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Get stream resources....",
+      "filename": "__host__cudaerror_t_cudastreamgetdevresource_cudastream_66ea2b6d.md"
+    }
+  ]
+}

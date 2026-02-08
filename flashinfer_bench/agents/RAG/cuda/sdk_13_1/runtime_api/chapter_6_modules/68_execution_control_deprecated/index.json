@@ -1,0 +1,25 @@
+{
+  "description": "Documentation for 6.8. Execution Control [DEPRECATED]",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "__host__cudaerror_t_cudafuncsetsharedmemconfig_const_vo_a5c2eee6",
+      "title": "__host__cudaError_t cudaFuncSetSharedMemConfig (const void *func, cudaSharedMemConfig config)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets the shared memory configuration for a device function....",
+      "filename": "__host__cudaerror_t_cudafuncsetsharedmemconfig_const_vo_a5c2eee6.md"
+    }
+  ]
+}

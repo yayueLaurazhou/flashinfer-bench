@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 13.6.2.3. Toolkit Support for Dynamic Parallelism (CDP1)",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "136231_including_device_runtime_api_in_cuda_code_cdp1",
+      "title": "13.6.2.3.1. Including Device Runtime API in CUDA Code (CDP1)",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 13.6.2.3.1. Including Device Runtime API in CUDA Code (CDP1)[\uf0c1](#including-device-runtime-api-in-cuda-code-cdp1 \"Permalink to this headline\")  See [Including Device Runtime API in CUDA Code](#in...",
+      "filename": "136231_including_device_runtime_api_in_cuda_code_cdp1.md"
+    },
+    {
+      "id": "136232_compiling_and_linking_cdp1",
+      "title": "13.6.2.3.2. Compiling and Linking (CDP1)",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 13.6.2.3.2. Compiling and Linking (CDP1)[\uf0c1](#compiling-and-linking-cdp1 \"Permalink to this headline\")  See [Compiling and Linking](#compiling-and-linking), above, for CDP2 version of document.  ...",
+      "filename": "136232_compiling_and_linking_cdp1.md"
+    }
+  ]
+}

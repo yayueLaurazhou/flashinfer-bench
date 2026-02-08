@@ -1,0 +1,72 @@
+{
+  "description": "Documentation for 5.5. Tensors",
+  "directories": [
+    {
+      "name": "551_tensor_dimension_size_and_format",
+      "description": "Tensors can have dimensions: 1D, 2D, 3D, 4D or 5D."
+    },
+    {
+      "name": "553_tiled_mode",
+      "description": "This section talks about how Tensor and Tensor access work in tiled mode."
+    },
+    {
+      "name": "554_im2col_mode",
+      "description": "Im2col mode supports the following tensor dimensions : 3D, 4D and 5D. In this mode, the tensor data is treated as a batch of images with the following properties:"
+    },
+    {
+      "name": "555_im2colw_and_im2colw128_modes",
+      "description": "These modes are similar to the im2col mode with the restriction that elements are accessed across the `W` dimension only while keeping the `H` and `D` dimension constant."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "A tensor is a multi-dimensional matrix structure in the memory. Tensor is defined by the following properties:"
+    },
+    {
+      "id": "552_tensor_access_modes",
+      "title": "5.5.2. Tensor Access Modes",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "Tensor data can be accessed in two modes:",
+      "filename": "552_tensor_access_modes.md"
+    },
+    {
+      "id": "556_interleave_layout",
+      "title": "5.5.6. Interleave layout",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "Tensor can be interleaved and the following interleave layouts are supported:",
+      "filename": "556_interleave_layout.md"
+    },
+    {
+      "id": "557_swizzling_modes",
+      "title": "5.5.7. Swizzling Modes",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "The layout of the data in the shared memory can be different to that of global memory, for access performance reasons. The following describes various swizzling modes:",
+      "filename": "557_swizzling_modes.md"
+    },
+    {
+      "id": "558_tensor_map",
+      "title": "5.5.8. Tensor-map",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "The tensor-map is a 128-byte opaque object either in `.const` space or `.param` (kernel function parameter) space or `.global` space which describes the tensor properties and the access properties of the tensor data described in previous sections.",
+      "filename": "558_tensor_map.md"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "description": "Documentation for 15.13. Addendums",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "15131_cudamemcpyasync_current_contextdevice_sensitivity",
+      "title": "15.13.1. cudaMemcpyAsync Current Context/Device Sensitivity",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 15.13.1. cudaMemcpyAsync Current Context/Device Sensitivity[\uf0c1](#cudamemcpyasync-current-context-device-sensitivity \"Permalink to this headline\")  In the current CUDA driver, any async `memcpy` inv...",
+      "filename": "15131_cudamemcpyasync_current_contextdevice_sensitivity.md"
+    },
+    {
+      "id": "15132_cupointergetattribute_query",
+      "title": "15.13.2. cuPointerGetAttribute Query",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 15.13.2. cuPointerGetAttribute Query[\uf0c1](#cupointergetattribute-query \"Permalink to this headline\")  Invoking `cuPointerGetAttribute` on an allocation after invoking `cudaFreeAsync` on it results i...",
+      "filename": "15132_cupointergetattribute_query.md"
+    },
+    {
+      "id": "15133_cugraphaddmemsetnode",
+      "title": "15.13.3. cuGraphAddMemsetNode",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 15.13.3. cuGraphAddMemsetNode[\uf0c1](#cugraphaddmemsetnode \"Permalink to this headline\")  `cuGraphAddMemsetNode` does not work with memory allocated via the stream ordered allocator. However, memsets ...",
+      "filename": "15133_cugraphaddmemsetnode.md"
+    },
+    {
+      "id": "15134_pointer_attributes",
+      "title": "15.13.4. Pointer Attributes",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 15.13.4. Pointer Attributes[\uf0c1](#pointer-attributes \"Permalink to this headline\")  The `cuPointerGetAttributes` query works on stream ordered allocations. Since stream ordered allocations are not c...",
+      "filename": "15134_pointer_attributes.md"
+    },
+    {
+      "id": "15135_cpu_virtual_memory",
+      "title": "15.13.5. CPU Virtual Memory",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 15.13.5. CPU Virtual Memory[\uf0c1](#cpu-virtual-memory \"Permalink to this headline\")  When using CUDA stream-ordered memory allocator APIs, avoid setting VRAM limitations with \u201culimit -v\u201d as this is n...",
+      "filename": "15135_cpu_virtual_memory.md"
+    }
+  ]
+}

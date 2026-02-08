@@ -1,0 +1,45 @@
+{
+  "description": "Documentation for 18.5.3. Qualifiers",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "18531_device_memory_space_specifiers",
+      "title": "18.5.3.1. Device Memory Space Specifiers",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 18.5.3.1. Device Memory Space Specifiers[\uf0c1](#device-memory-space-specifiers \"Permalink to this headline\")  The `__device__`, `__shared__`, `__managed__` and `__constant__` memory space specifiers...",
+      "filename": "18531_device_memory_space_specifiers.md"
+    },
+    {
+      "id": "18532___managed___memory_space_specifier",
+      "title": "18.5.3.2. __managed__ Memory Space Specifier",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 18.5.3.2. \\_\\_managed\\_\\_ Memory Space Specifier[\uf0c1](#managed-memory-space-specifier \"Permalink to this headline\")  Variables marked with the `__managed__` memory space specifier (\u201cmanaged\u201d variab...",
+      "filename": "18532___managed___memory_space_specifier.md"
+    },
+    {
+      "id": "18533_volatile_qualifier",
+      "title": "18.5.3.3. Volatile Qualifier",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 18.5.3.3. Volatile Qualifier[\uf0c1](#volatile-qualifier \"Permalink to this headline\")  Note  The `volatile` keyword is supported to maintain compatibility with ISO C++; however, few if any of its [re...",
+      "filename": "18533_volatile_qualifier.md"
+    }
+  ]
+}

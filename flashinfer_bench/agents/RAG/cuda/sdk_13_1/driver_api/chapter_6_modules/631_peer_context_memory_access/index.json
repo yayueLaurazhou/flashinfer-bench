@@ -1,0 +1,65 @@
+{
+  "description": "Documentation for 6.31. Peer Context Memory Access",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "curesult_cuctxdisablepeeraccess_cucontext_peercontext",
+      "title": "CUresult cuCtxDisablePeerAccess (CUcontext peerContext)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Disables direct access to memory allocations in a peer context and unregisters any registered allocations....",
+      "filename": "curesult_cuctxdisablepeeraccess_cucontext_peercontext.md"
+    },
+    {
+      "id": "curesult_cuctxenablepeeraccess_cucontext_peercontext_un_92624d2b",
+      "title": "CUresult cuCtxEnablePeerAccess (CUcontext peerContext, unsigned int Flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Enables direct access to memory allocations in a peer context....",
+      "filename": "curesult_cuctxenablepeeraccess_cucontext_peercontext_un_92624d2b.md"
+    },
+    {
+      "id": "curesult_cudevicecanaccesspeer_int_canaccesspeer_cudevi_2c2cad88",
+      "title": "CUresult cuDeviceCanAccessPeer (int *canAccessPeer, CUdevice dev, CUdevice peerDev)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Queries if a device may directly access a peer device's memory....",
+      "filename": "curesult_cudevicecanaccesspeer_int_canaccesspeer_cudevi_2c2cad88.md"
+    },
+    {
+      "id": "curesult_cudevicegetp2patomiccapabilities_unsigned_int__c294ed18",
+      "title": "CUresult cuDeviceGetP2PAtomicCapabilities (unsigned int *capabilities, const CUatomicOperation *operations, unsigned int count, CUdevice srcDevice, CUdevice dstDevice)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Queries details about atomic operations supported between two devices....",
+      "filename": "curesult_cudevicegetp2patomiccapabilities_unsigned_int__c294ed18.md"
+    },
+    {
+      "id": "curesult_cudevicegetp2pattribute_int_value_cudevice_p2p_1bfa95a6",
+      "title": "CUresult cuDeviceGetP2PAttribute (int *value, CUdevice_P2PAttribute attrib, CUdevice srcDevice, CUdevice dstDevice)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Queries attributes of the link between two devices....",
+      "filename": "curesult_cudevicegetp2pattribute_int_value_cudevice_p2p_1bfa95a6.md"
+    }
+  ]
+}

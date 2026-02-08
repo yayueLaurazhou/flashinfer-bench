@@ -1,0 +1,185 @@
+{
+  "description": "Documentation for 6.12. Stream Ordered Memory Allocator",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "__host__cudaerror_t_cudafreeasync_void_devptr_cudastrea_4d88de61",
+      "title": "__host__cudaError_t cudaFreeAsync (void *devPtr, cudaStream_t hStream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Frees memory with stream ordered semantics....",
+      "filename": "__host__cudaerror_t_cudafreeasync_void_devptr_cudastrea_4d88de61.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudamallocasync_void_devptr_size_t__2541500c",
+      "title": "__host__cudaError_t cudaMallocAsync (void **devPtr, size_t size, cudaStream_t hStream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Allocates memory with stream ordered semantics....",
+      "filename": "__host__cudaerror_t_cudamallocasync_void_devptr_size_t__2541500c.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudamallocfrompoolasync_void_ptr_si_7d3dc551",
+      "title": "__host__cudaError_t cudaMallocFromPoolAsync (void **ptr, size_t size, cudaMemPool_t memPool, cudaStream_t stream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Allocates memory from a specified pool with stream ordered semantics....",
+      "filename": "__host__cudaerror_t_cudamallocfrompoolasync_void_ptr_si_7d3dc551.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudamemgetdefaultmempool_cudamempoo_866937c5",
+      "title": "__host__cudaError_t cudaMemGetDefaultMemPool (cudaMemPool_t *memPool, cudaMemLocation *location, cudaMemAllocationType type)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the default memory pool for a given location and allocation type....",
+      "filename": "__host__cudaerror_t_cudamemgetdefaultmempool_cudamempoo_866937c5.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudamemgetmempool_cudamempool_t_mem_7c43fd21",
+      "title": "__host__cudaError_t cudaMemGetMemPool (cudaMemPool_t *memPool, cudaMemLocation *location, cudaMemAllocationType type)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Gets the current memory pool for a given memory location and allocation type....",
+      "filename": "__host__cudaerror_t_cudamemgetmempool_cudamempool_t_mem_7c43fd21.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudamempoolcreate_cudamempool_t_mem_6f076861",
+      "title": "__host__cudaError_t cudaMemPoolCreate (cudaMemPool_t *memPool, const cudaMemPoolProps *poolProps)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Creates a memory pool....",
+      "filename": "__host__cudaerror_t_cudamempoolcreate_cudamempool_t_mem_6f076861.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudamempooldestroy_cudamempool_t_mempool",
+      "title": "__host__cudaError_t cudaMemPoolDestroy (cudaMemPool_t memPool)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Destroys the specified memory pool....",
+      "filename": "__host__cudaerror_t_cudamempooldestroy_cudamempool_t_mempool.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudamempoolexportpointer_cudamempoo_9b58a18b",
+      "title": "__host__cudaError_t cudaMemPoolExportPointer (cudaMemPoolPtrExportData *exportData, void *ptr)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Export data to share a memory pool allocation between processes....",
+      "filename": "__host__cudaerror_t_cudamempoolexportpointer_cudamempoo_9b58a18b.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudamempoolexporttoshareablehandle__fddc4355",
+      "title": "__host__cudaError_t cudaMemPoolExportToShareableHandle (void *shareableHandle, cudaMemPool_t memPool, cudaMemAllocationHandleType handleType, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Exports a memory pool to the requested handle type....",
+      "filename": "__host__cudaerror_t_cudamempoolexporttoshareablehandle__fddc4355.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudamempoolgetaccess_cudamemaccessf_ca93b098",
+      "title": "__host__cudaError_t cudaMemPoolGetAccess (cudaMemAccessFlags *flags, cudaMemPool_t memPool, cudaMemLocation *location)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the accessibility of a pool from a device....",
+      "filename": "__host__cudaerror_t_cudamempoolgetaccess_cudamemaccessf_ca93b098.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudamempoolgetattribute_cudamempool_7dcba8f6",
+      "title": "__host__cudaError_t cudaMemPoolGetAttribute (cudaMemPool_t memPool, cudaMemPoolAttr attr, void *value)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Gets attributes of a memory pool....",
+      "filename": "__host__cudaerror_t_cudamempoolgetattribute_cudamempool_7dcba8f6.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudamempoolimportfromshareablehandl_33d15d62",
+      "title": "__host__cudaError_t cudaMemPoolImportFromShareableHandle (cudaMemPool_t *memPool, void *shareableHandle, cudaMemAllocationHandleType handleType, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "imports a memory pool from a shared handle....",
+      "filename": "__host__cudaerror_t_cudamempoolimportfromshareablehandl_33d15d62.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudamempoolimportpointer_void_ptr_c_ef3dd7ba",
+      "title": "__host__cudaError_t cudaMemPoolImportPointer (void **ptr, cudaMemPool_t memPool, cudaMemPoolPtrExportData *exportData)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Import a memory pool allocation from another process....",
+      "filename": "__host__cudaerror_t_cudamempoolimportpointer_void_ptr_c_ef3dd7ba.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudamempoolsetaccess_cudamempool_t__b3b4d243",
+      "title": "__host__cudaError_t cudaMemPoolSetAccess (cudaMemPool_t memPool, const cudaMemAccessDesc *descList, size_t count)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Controls visibility of pools between devices....",
+      "filename": "__host__cudaerror_t_cudamempoolsetaccess_cudamempool_t__b3b4d243.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudamempoolsetattribute_cudamempool_8931ffe8",
+      "title": "__host__cudaError_t cudaMemPoolSetAttribute (cudaMemPool_t memPool, cudaMemPoolAttr attr, void *value)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets attributes of a memory pool....",
+      "filename": "__host__cudaerror_t_cudamempoolsetattribute_cudamempool_8931ffe8.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudamempooltrimto_cudamempool_t_mem_b5322140",
+      "title": "__host__cudaError_t cudaMemPoolTrimTo (cudaMemPool_t memPool, size_t minBytesToKeep)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Tries to release memory back to the OS....",
+      "filename": "__host__cudaerror_t_cudamempooltrimto_cudamempool_t_mem_b5322140.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudamemsetmempool_cudamemlocation_l_5dec9866",
+      "title": "__host__cudaError_t cudaMemSetMemPool (cudaMemLocation *location, cudaMemAllocationType type, cudaMemPool_t memPool)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets the current memory pool for a memory location and allocation type....",
+      "filename": "__host__cudaerror_t_cudamemsetmempool_cudamemlocation_l_5dec9866.md"
+    }
+  ]
+}

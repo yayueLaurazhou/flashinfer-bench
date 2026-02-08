@@ -1,0 +1,75 @@
+{
+  "description": "Documentation for 6.29. Error Log Management Functions",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "typedef_void_cudart_cb_cudalogscallback_t_void_data_cud_3d4e8a16",
+      "title": "typedef void (CUDART_CB *cudaLogsCallback_t) (void* data, cudaLogLevel logLevel, char* message, size_t length)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Type of public error reporting callback functions....",
+      "filename": "typedef_void_cudart_cb_cudalogscallback_t_void_data_cud_3d4e8a16.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudalogscurrent_cudalogiterator_ite_aefce325",
+      "title": "__host__cudaError_t cudaLogsCurrent (cudaLogIterator *iterator_out, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets log iterator to point to the end of log buffer, where the next message would be written....",
+      "filename": "__host__cudaerror_t_cudalogscurrent_cudalogiterator_ite_aefce325.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudalogsdumptofile_cudalogiterator__beef201d",
+      "title": "__host__cudaError_t cudaLogsDumpToFile (cudaLogIterator *iterator, const char *pathToFile, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Dump accumulated driver logs into a file....",
+      "filename": "__host__cudaerror_t_cudalogsdumptofile_cudalogiterator__beef201d.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudalogsdumptomemory_cudalogiterato_f4c76ab6",
+      "title": "__host__cudaError_t cudaLogsDumpToMemory (cudaLogIterator *iterator, char *buffer, size_t *size, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Dump accumulated driver logs into a buffer....",
+      "filename": "__host__cudaerror_t_cudalogsdumptomemory_cudalogiterato_f4c76ab6.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudalogsregistercallback_cudalogsca_16206944",
+      "title": "__host__cudaError_t cudaLogsRegisterCallback (cudaLogsCallback_t callbackFunc, void *userData, cudaLogsCallbackHandle *callback_out)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Register a callback function to receive error log messages....",
+      "filename": "__host__cudaerror_t_cudalogsregistercallback_cudalogsca_16206944.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudalogsunregistercallback_cudalogs_20920b72",
+      "title": "__host__cudaError_t cudaLogsUnregisterCallback (cudaLogsCallbackHandle callback)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Unregister a log message callback....",
+      "filename": "__host__cudaerror_t_cudalogsunregistercallback_cudalogs_20920b72.md"
+    }
+  ]
+}

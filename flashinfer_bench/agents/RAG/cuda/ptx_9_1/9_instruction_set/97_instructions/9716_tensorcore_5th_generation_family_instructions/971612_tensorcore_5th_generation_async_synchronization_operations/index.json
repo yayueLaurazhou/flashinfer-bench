@@ -1,0 +1,25 @@
+{
+  "description": "Documentation for 9.7.16.12. TensorCore 5th Generation Async Synchronization Operations",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "9716121_tensorcore_5th_generation_instructions_tcgen05commit",
+      "title": "9.7.16.12.1. TensorCore 5th Generation Instructions: tcgen05.commit",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`tcgen05.commit`",
+      "filename": "9716121_tensorcore_5th_generation_instructions_tcgen05commit.md"
+    }
+  ]
+}

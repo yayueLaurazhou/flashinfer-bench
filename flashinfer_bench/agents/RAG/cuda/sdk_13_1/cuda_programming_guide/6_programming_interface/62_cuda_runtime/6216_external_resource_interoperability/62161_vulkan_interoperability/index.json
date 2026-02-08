@@ -1,0 +1,75 @@
+{
+  "description": "Documentation for 6.2.16.1. Vulkan Interoperability",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "621611_matching_device_uuids",
+      "title": "6.2.16.1.1. Matching device UUIDs",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 6.2.16.1.1. Matching device UUIDs[\uf0c1](#matching-device-uuids \"Permalink to this headline\")  When importing memory and synchronization objects exported by Vulkan, they must be imported and mapped ...",
+      "filename": "621611_matching_device_uuids.md"
+    },
+    {
+      "id": "621612_importing_memory_objects",
+      "title": "6.2.16.1.2. Importing Memory Objects",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 6.2.16.1.2. Importing Memory Objects[\uf0c1](#importing-memory-objects \"Permalink to this headline\")  On Linux and Windows 10, both dedicated and non-dedicated memory objects exported by Vulkan can b...",
+      "filename": "621612_importing_memory_objects.md"
+    },
+    {
+      "id": "621613_mapping_buffers_onto_imported_memory_objects",
+      "title": "6.2.16.1.3. Mapping Buffers onto Imported Memory Objects",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 6.2.16.1.3. Mapping Buffers onto Imported Memory Objects[\uf0c1](#mapping-buffers-onto-imported-memory-objects \"Permalink to this headline\")  A device pointer can be mapped onto an imported memory ob...",
+      "filename": "621613_mapping_buffers_onto_imported_memory_objects.md"
+    },
+    {
+      "id": "621614_mapping_mipmapped_arrays_onto_imported_memory_objects",
+      "title": "6.2.16.1.4. Mapping Mipmapped Arrays onto Imported Memory Objects",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 6.2.16.1.4. Mapping Mipmapped Arrays onto Imported Memory Objects[\uf0c1](#mapping-mipmapped-arrays-onto-imported-memory-objects \"Permalink to this headline\")  A CUDA mipmapped array can be mapped on...",
+      "filename": "621614_mapping_mipmapped_arrays_onto_imported_memory_objects.md"
+    },
+    {
+      "id": "621615_importing_synchronization_objects",
+      "title": "6.2.16.1.5. Importing Synchronization Objects",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 6.2.16.1.5. Importing Synchronization Objects[\uf0c1](#importing-synchronization-objects \"Permalink to this headline\")  A Vulkan semaphore object exported using `VK_EXTERNAL_SEMAPHORE_HANDLE_TYPE_OPA...",
+      "filename": "621615_importing_synchronization_objects.md"
+    },
+    {
+      "id": "621616_signalingwaiting_on_imported_synchronization_objects",
+      "title": "6.2.16.1.6. Signaling/Waiting on Imported Synchronization Objects",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 6.2.16.1.6. Signaling/Waiting on Imported Synchronization Objects[\uf0c1](#signaling-waiting-on-imported-synchronization-objects \"Permalink to this headline\")  An imported Vulkan semaphore object can...",
+      "filename": "621616_signalingwaiting_on_imported_synchronization_objects.md"
+    }
+  ]
+}

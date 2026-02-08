@@ -1,0 +1,45 @@
+{
+  "description": "Documentation for 9.7.15.6.2. Matrix fragments for warpgroup-level multiply-accumulate operation with sparse matrix A",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "In this section we describe how the contents of thread registers are associated with fragments of A matrix and the sparsity metadata."
+    },
+    {
+      "id": "9715621_matrix_fragments_for_sparse_wgmmamma_asyncm64nnk32",
+      "title": "9.7.15.6.2.1. Matrix Fragments for sparse wgmma.mma_async.m64nNk32",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "A warpgroup executing sparse `wgmma.mma_async.m64nNk32` will compute an MMA operation of shape `.m64nNk32` where N is a valid n dimension as listed in [Matrix Shape](https://docs.nvidia.com/cuda/parallel-thread-execution/#asynchronous-warpgroup-level-matrix-shape).",
+      "filename": "9715621_matrix_fragments_for_sparse_wgmmamma_asyncm64nnk32.md"
+    },
+    {
+      "id": "9715622_matrix_fragments_for_sparse_wgmmamma_asyncm64nnk16",
+      "title": "9.7.15.6.2.2. Matrix Fragments for sparse wgmma.mma_async.m64nNk16",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "A warpgroup executing sparse `wgmma.mma_async.m64nNk16` will compute an MMA operation of shape `.m64nNk16` where N is a valid n dimension as listed in [Matrix Shape](https://docs.nvidia.com/cuda/parallel-thread-execution/#asynchronous-warpgroup-level-matrix-shape).",
+      "filename": "9715622_matrix_fragments_for_sparse_wgmmamma_asyncm64nnk16.md"
+    },
+    {
+      "id": "9715623_matrix_fragments_for_sparse_wgmmamma_asyncm64nnk64",
+      "title": "9.7.15.6.2.3. Matrix Fragments for sparse wgmma.mma_async.m64nNk64",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "A warpgroup executing sparse `wgmma.mma_async.m64nNk64` will compute an MMA operation of shape `.m64nNk64` where N is a valid n dimension as listed in [Matrix Shape](https://docs.nvidia.com/cuda/parallel-thread-execution/#asynchronous-warpgroup-level-matrix-shape).",
+      "filename": "9715623_matrix_fragments_for_sparse_wgmmamma_asyncm64nnk64.md"
+    }
+  ]
+}

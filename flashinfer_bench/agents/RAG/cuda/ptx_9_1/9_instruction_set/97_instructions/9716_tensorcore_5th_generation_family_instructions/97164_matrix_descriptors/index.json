@@ -1,0 +1,40 @@
+{
+  "description": "Documentation for 9.7.16.4. Matrix Descriptors",
+  "directories": [
+    {
+      "name": "971641_shared_memory_descriptor",
+      "description": "The shared memory descriptor describes the properties of multiplicand matrix in shared memory including its location in the shared memory of the current *CTA*. It is a 64-bit value contained in a register with the following layout:"
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "There are three kinds of matrix descriptors used by the `tcgen05` family of instructions."
+    },
+    {
+      "id": "971642_instruction_descriptor",
+      "title": "9.7.16.4.2. Instruction descriptor",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "The instruction descriptor describes the shapes, types and other details of all the matrices and the matrix-multiplication-and-accumulation operation. It is a 32-bit value in registers and the exact layout is dependent on the MMA-Kind:",
+      "filename": "971642_instruction_descriptor.md"
+    },
+    {
+      "id": "971643_zero_column_mask_descriptor",
+      "title": "9.7.16.4.3. Zero-Column Mask Descriptor",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "The zero-column mask descriptor is used to generate a mask that specifies which columns of `B` matrix will have zero value for the MMA operation regardless of the values present in the shared memory. The total size of the generated mask is N-bits.",
+      "filename": "971643_zero_column_mask_descriptor.md"
+    }
+  ]
+}

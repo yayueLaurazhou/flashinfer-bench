@@ -1,0 +1,34 @@
+{
+  "description": "Documentation for 9.7.16.10.7. Block Scaling for tcgen05.mma.sync",
+  "directories": [
+    {
+      "name": "97161072_scale_factor_a_id",
+      "description": "The value of the scale factor `A ID` selects the sub-columns in the Tensor Memory to form the scale factor `A` matrix, which is used to scale the matrix `A`."
+    },
+    {
+      "name": "97161073_scale_factor_b_id",
+      "description": "The value of the scale factor `B ID` selects the sub-columns in the Tensor Memory to form the scale factor `B` matrix, which is used to scale the matrix `B`."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "The `tcgen05.mma` instructions with the following `.kind` qualifier:"
+    },
+    {
+      "id": "97161071_valid_combinations_of_scale_vectorsize_with_types_and_mma_kind",
+      "title": "9.7.16.10.7.1. Valid combinations of scale_vectorsize with types and MMA-Kind",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "The shape of *scale\\_A* and *scale\\_B* matrices depend on the `.scale_vectorsize` as shown in [Table 56](https://docs.nvidia.com/cuda/parallel-thread-execution/#tcgen05-mma-scale-valid-comb).",
+      "filename": "97161071_valid_combinations_of_scale_vectorsize_with_types_and_mma_kind.md"
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "description": "Documentation for 6.12. Library Management",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "curesult_cukernelgetattribute_int_pi_cufunction_attribu_e16e5876",
+      "title": "CUresult cuKernelGetAttribute (int *pi, CUfunction_attribute attrib, CUkernel kernel, CUdevice dev)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns information about a kernel....",
+      "filename": "curesult_cukernelgetattribute_int_pi_cufunction_attribu_e16e5876.md"
+    },
+    {
+      "id": "curesult_cukernelgetfunction_cufunction_pfunc_cukernel_kernel",
+      "title": "CUresult cuKernelGetFunction (CUfunction *pFunc, CUkernel kernel)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns a function handle....",
+      "filename": "curesult_cukernelgetfunction_cufunction_pfunc_cukernel_kernel.md"
+    },
+    {
+      "id": "curesult_cukernelgetlibrary_culibrary_plib_cukernel_kernel",
+      "title": "CUresult cuKernelGetLibrary (CUlibrary *pLib, CUkernel kernel)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns a library handle....",
+      "filename": "curesult_cukernelgetlibrary_culibrary_plib_cukernel_kernel.md"
+    },
+    {
+      "id": "curesult_cukernelgetname_const_char_name_cukernel_hfunc",
+      "title": "CUresult cuKernelGetName (const char **name, CUkernel hfunc)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the function name for a CUkernel handle....",
+      "filename": "curesult_cukernelgetname_const_char_name_cukernel_hfunc.md"
+    },
+    {
+      "id": "curesult_cukernelgetparaminfo_cukernel_kernel_size_t_pa_cf3dac1a",
+      "title": "CUresult cuKernelGetParamInfo (CUkernel kernel, size_t paramIndex, size_t *paramOffset, size_t *paramSize)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the offset and size of a kernel parameter in the device-side parameter layout....",
+      "filename": "curesult_cukernelgetparaminfo_cukernel_kernel_size_t_pa_cf3dac1a.md"
+    },
+    {
+      "id": "curesult_cukernelsetattribute_cufunction_attribute_attr_617d8364",
+      "title": "CUresult cuKernelSetAttribute (CUfunction_attribute attrib, int val, CUkernel kernel, CUdevice dev)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets information about a kernel....",
+      "filename": "curesult_cukernelsetattribute_cufunction_attribute_attr_617d8364.md"
+    },
+    {
+      "id": "curesult_cukernelsetcacheconfig_cukernel_kernel_cufunc__327d4ae2",
+      "title": "CUresult cuKernelSetCacheConfig (CUkernel kernel, CUfunc_cache config, CUdevice dev)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets the preferred cache configuration for a device kernel....",
+      "filename": "curesult_cukernelsetcacheconfig_cukernel_kernel_cufunc__327d4ae2.md"
+    },
+    {
+      "id": "curesult_culibraryenumeratekernels_cukernel_kernels_uns_d2dd321e",
+      "title": "CUresult cuLibraryEnumerateKernels (CUkernel *kernels, unsigned int numKernels, CUlibrary lib)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Retrieve the kernel handles within a library....",
+      "filename": "curesult_culibraryenumeratekernels_cukernel_kernels_uns_d2dd321e.md"
+    },
+    {
+      "id": "curesult_culibrarygetglobal_cudeviceptr_dptr_size_t_byt_1a8942d6",
+      "title": "CUresult cuLibraryGetGlobal (CUdeviceptr *dptr, size_t *bytes, CUlibrary library, const char *name)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns a global device pointer....",
+      "filename": "curesult_culibrarygetglobal_cudeviceptr_dptr_size_t_byt_1a8942d6.md"
+    },
+    {
+      "id": "curesult_culibrarygetkernel_cukernel_pkernel_culibrary__e2951184",
+      "title": "CUresult cuLibraryGetKernel (CUkernel *pKernel, CUlibrary library, const char *name)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns a kernel handle....",
+      "filename": "curesult_culibrarygetkernel_cukernel_pkernel_culibrary__e2951184.md"
+    },
+    {
+      "id": "curesult_culibrarygetkernelcount_unsigned_int_count_cul_435e2b13",
+      "title": "CUresult cuLibraryGetKernelCount (unsigned int *count, CUlibrary lib)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the number of kernels within a library....",
+      "filename": "curesult_culibrarygetkernelcount_unsigned_int_count_cul_435e2b13.md"
+    },
+    {
+      "id": "curesult_culibrarygetmanaged_cudeviceptr_dptr_size_t_by_2f29cd39",
+      "title": "CUresult cuLibraryGetManaged (CUdeviceptr *dptr, size_t *bytes, CUlibrary library, const char *name)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns a pointer to managed memory....",
+      "filename": "curesult_culibrarygetmanaged_cudeviceptr_dptr_size_t_by_2f29cd39.md"
+    },
+    {
+      "id": "curesult_culibrarygetmodule_cumodule_pmod_culibrary_library",
+      "title": "CUresult cuLibraryGetModule (CUmodule *pMod, CUlibrary library)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns a module handle....",
+      "filename": "curesult_culibrarygetmodule_cumodule_pmod_culibrary_library.md"
+    },
+    {
+      "id": "curesult_culibrarygetunifiedfunction_void_fptr_culibrar_65d07855",
+      "title": "CUresult cuLibraryGetUnifiedFunction (void **fptr, CUlibrary library, const char *symbol)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns a pointer to a unified function....",
+      "filename": "curesult_culibrarygetunifiedfunction_void_fptr_culibrar_65d07855.md"
+    },
+    {
+      "id": "curesult_culibraryloaddata_culibrary_library_const_void_87944374",
+      "title": "CUresult cuLibraryLoadData (CUlibrary *library, const void *code, CUjit_option *jitOptions, void **jitOptionsValues, unsigned int numJitOptions, CUlibraryOption *libraryOptions, void **libraryOptionValues, unsigned int numLibraryOptions)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Load a library with specified code and options....",
+      "filename": "curesult_culibraryloaddata_culibrary_library_const_void_87944374.md"
+    },
+    {
+      "id": "curesult_culibraryloadfromfile_culibrary_library_const__a6b96ccb",
+      "title": "CUresult cuLibraryLoadFromFile (CUlibrary *library, const char *fileName, CUjit_option *jitOptions, void **jitOptionsValues, unsigned int numJitOptions, CUlibraryOption *libraryOptions, void **libraryOptionValues, unsigned int numLibraryOptions)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Load a library with specified file and options....",
+      "filename": "curesult_culibraryloadfromfile_culibrary_library_const__a6b96ccb.md"
+    },
+    {
+      "id": "curesult_culibraryunload_culibrary_library",
+      "title": "CUresult cuLibraryUnload (CUlibrary library)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Unloads a library....",
+      "filename": "curesult_culibraryunload_culibrary_library.md"
+    }
+  ]
+}

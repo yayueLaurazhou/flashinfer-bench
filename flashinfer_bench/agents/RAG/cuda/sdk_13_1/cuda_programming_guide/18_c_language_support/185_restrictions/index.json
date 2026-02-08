@@ -1,0 +1,212 @@
+{
+  "description": "Documentation for 18.5. Restrictions",
+  "directories": [
+    {
+      "name": "1852_preprocessor_symbols",
+      "description": "### 18.5.2. Preprocessor Symbols[\uf0c1](#preprocessor-symbols \"Permalink to this headline\")..."
+    },
+    {
+      "name": "1853_qualifiers",
+      "description": "### 18.5.3. Qualifiers[\uf0c1](#qualifiers \"Permalink to this headline\")..."
+    },
+    {
+      "name": "1855_operators",
+      "description": "### 18.5.5. Operators[\uf0c1](#operators \"Permalink to this headline\")..."
+    },
+    {
+      "name": "18510_functions",
+      "description": "### 18.5.10. Functions[\uf0c1](#functions \"Permalink to this headline\")..."
+    },
+    {
+      "name": "18511_classes",
+      "description": "### 18.5.11. Classes[\uf0c1](#classes \"Permalink to this headline\")..."
+    },
+    {
+      "name": "18522_c11_features",
+      "description": "### 18.5.22. C++11 Features[\uf0c1](#c-11-features \"Permalink to this headline\")  C++11 features that are enabled by default by the host compiler are also supported by nvcc, subject to the restrictions des..."
+    },
+    {
+      "name": "18523_c14_features",
+      "description": "### 18.5.23. C++14 Features[\uf0c1](#c-14-features \"Permalink to this headline\")  C++14 features enabled by default by the host compiler are also supported by nvcc. Passing nvcc `-std=c++14` flag turns on ..."
+    },
+    {
+      "name": "18524_c17_features",
+      "description": "### 18.5.24. C++17 Features[\uf0c1](#c-17-features \"Permalink to this headline\")  C++17 features enabled by default by the host compiler are also supported by nvcc. Passing nvcc `-std=c++17` flag turns on ..."
+    },
+    {
+      "name": "18525_c20_features",
+      "description": "### 18.5.25. C++20 Features[\uf0c1](#c-20-features \"Permalink to this headline\")  C++20 features enabled by default by the host compiler are also supported by nvcc. Passing nvcc `-std=c++20` flag turns on ..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "1851_host_compiler_extensions",
+      "title": "18.5.1. Host Compiler Extensions",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 18.5.1. Host Compiler Extensions[\uf0c1](#host-compiler-extensions \"Permalink to this headline\")  Host compiler specific language extensions are not supported in device code.  `__Complex` types are onl...",
+      "filename": "1851_host_compiler_extensions.md"
+    },
+    {
+      "id": "1854_pointers",
+      "title": "18.5.4. Pointers",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 18.5.4. Pointers[\uf0c1](#pointers \"Permalink to this headline\")  Dereferencing a pointer either to global or shared memory in code that is executed on the host, or to host memory in code that is execu...",
+      "filename": "1854_pointers.md"
+    },
+    {
+      "id": "1856_run_time_type_information_rtti",
+      "title": "18.5.6. Run Time Type Information (RTTI)",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 18.5.6. Run Time Type Information (RTTI)[\uf0c1](#run-time-type-information-rtti \"Permalink to this headline\")  The following RTTI-related features are supported in host code, but not in device code.  ...",
+      "filename": "1856_run_time_type_information_rtti.md"
+    },
+    {
+      "id": "1857_exception_handling",
+      "title": "18.5.7. Exception Handling",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 18.5.7. Exception Handling[\uf0c1](#exception-handling \"Permalink to this headline\")  Exception handling is only supported in host code, but not in device code.  Exception specification is not supporte...",
+      "filename": "1857_exception_handling.md"
+    },
+    {
+      "id": "1858_standard_library",
+      "title": "18.5.8. Standard Library",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 18.5.8. Standard Library[\uf0c1](#standard-library \"Permalink to this headline\")  Standard libraries are only supported in host code, but not in device code, unless specified otherwise....",
+      "filename": "1858_standard_library.md"
+    },
+    {
+      "id": "1859_namespace_reservations",
+      "title": "18.5.9. Namespace Reservations",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 18.5.9. Namespace Reservations[\uf0c1](#namespace-reservations \"Permalink to this headline\")  Unless an exception is otherwise noted, it is undefined behavior to add any declarations or definitions to ...",
+      "filename": "1859_namespace_reservations.md"
+    },
+    {
+      "id": "18512_templates",
+      "title": "18.5.12. Templates",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 18.5.12. Templates[\uf0c1](#templates \"Permalink to this headline\")  A type or template cannot be used in the type, non-type or template template argument of a `__global__` function template instantiat...",
+      "filename": "18512_templates.md"
+    },
+    {
+      "id": "18513_trigraphs_and_digraphs",
+      "title": "18.5.13. Trigraphs and Digraphs",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 18.5.13. Trigraphs and Digraphs[\uf0c1](#trigraphs-and-digraphs \"Permalink to this headline\")  Trigraphs are not supported on any platform. Digraphs are not supported on Windows....",
+      "filename": "18513_trigraphs_and_digraphs.md"
+    },
+    {
+      "id": "18514_const_qualified_variables",
+      "title": "18.5.14. Const-qualified variables",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 18.5.14. Const-qualified variables[\uf0c1](#const-qualified-variables \"Permalink to this headline\")  Let \u2018V\u2019 denote a namespace scope variable or a class static member variable that has const qualified...",
+      "filename": "18514_const_qualified_variables.md"
+    },
+    {
+      "id": "18515_long_double",
+      "title": "18.5.15. Long Double",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 18.5.15. Long Double[\uf0c1](#long-double \"Permalink to this headline\")  The use of `long double` type is not supported in device code....",
+      "filename": "18515_long_double.md"
+    },
+    {
+      "id": "18516_deprecation_annotation",
+      "title": "18.5.16. Deprecation Annotation",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 18.5.16. Deprecation Annotation[\uf0c1](#deprecation-annotation \"Permalink to this headline\")  nvcc supports the use of `deprecated` attribute when using `gcc`, `clang`, `xlC`, `icc` or `pgcc` host com...",
+      "filename": "18516_deprecation_annotation.md"
+    },
+    {
+      "id": "18517_noreturn_annotation",
+      "title": "18.5.17. Noreturn Annotation",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 18.5.17. Noreturn Annotation[\uf0c1](#noreturn-annotation \"Permalink to this headline\")  nvcc supports the use of `noreturn` attribute when using `gcc`, `clang`, `xlC`, `icc` or `pgcc` host compilers, ...",
+      "filename": "18517_noreturn_annotation.md"
+    },
+    {
+      "id": "18518_likely_unlikely_standard_attributes",
+      "title": "18.5.18. [[likely]] / [[unlikely]] Standard Attributes",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 18.5.18. [[likely]] / [[unlikely]] Standard Attributes[\uf0c1](#likely-unlikely-standard-attributes \"Permalink to this headline\")  These attributes are accepted in all configurations that support the C...",
+      "filename": "18518_likely_unlikely_standard_attributes.md"
+    },
+    {
+      "id": "18519_const_and_pure_gnu_attributes",
+      "title": "18.5.19. const and pure GNU Attributes",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 18.5.19. const and pure GNU Attributes[\uf0c1](#const-and-pure-gnu-attributes \"Permalink to this headline\")  These attributes are supported for both host and device functions, when using a language dia...",
+      "filename": "18519_const_and_pure_gnu_attributes.md"
+    },
+    {
+      "id": "18520___nv_pure___attribute",
+      "title": "18.5.20. __nv_pure__ Attribute",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 18.5.20. \\_\\_nv\\_pure\\_\\_ Attribute[\uf0c1](#nv-pure-attribute \"Permalink to this headline\")  The `__nv_pure__` attributed is supported for both host and device functions. For host functions, when usin...",
+      "filename": "18520___nv_pure___attribute.md"
+    },
+    {
+      "id": "18521_intel_host_compiler_specific",
+      "title": "18.5.21. Intel Host Compiler Specific",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 18.5.21. Intel Host Compiler Specific[\uf0c1](#intel-host-compiler-specific \"Permalink to this headline\")  The CUDA frontend compiler parser does not recognize some of the intrinsic functions supported...",
+      "filename": "18521_intel_host_compiler_specific.md"
+    }
+  ]
+}

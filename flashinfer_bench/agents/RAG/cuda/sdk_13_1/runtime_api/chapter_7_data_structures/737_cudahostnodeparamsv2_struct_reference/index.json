@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 7.37. cudaHostNodeParamsV2 Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "cudahostfn_t_cudahostnodeparamsv2fn",
+      "title": "cudaHostFn_t cudaHostNodeParamsV2::fn",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "The function to call when the node executes...",
+      "filename": "cudahostfn_t_cudahostnodeparamsv2fn.md"
+    },
+    {
+      "id": "void_cudahostnodeparamsv2userdata",
+      "title": "void *cudaHostNodeParamsV2::userData",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Argument to pass to the function...",
+      "filename": "void_cudahostnodeparamsv2userdata.md"
+    }
+  ]
+}

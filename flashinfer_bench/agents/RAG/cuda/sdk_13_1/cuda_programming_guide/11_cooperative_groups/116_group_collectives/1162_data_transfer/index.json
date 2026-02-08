@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 11.6.2. Data Transfer",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "11621_memcpy_async",
+      "title": "11.6.2.1. memcpy_async",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 11.6.2.1. `memcpy_async`[\uf0c1](#memcpy-async \"Permalink to this headline\")  `memcpy_async` is a group-wide collective memcpy that utilizes hardware accelerated support for non-blocking memory transa...",
+      "filename": "11621_memcpy_async.md"
+    },
+    {
+      "id": "11622_wait_and_wait_prior",
+      "title": "11.6.2.2. wait and wait_prior",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 11.6.2.2. `wait and wait_prior`[\uf0c1](#wait-and-wait-prior \"Permalink to this headline\")  ``` template <typename TyGroup> void wait(TyGroup & group);  template <unsigned int NumStages, typename TyGr...",
+      "filename": "11622_wait_and_wait_prior.md"
+    }
+  ]
+}

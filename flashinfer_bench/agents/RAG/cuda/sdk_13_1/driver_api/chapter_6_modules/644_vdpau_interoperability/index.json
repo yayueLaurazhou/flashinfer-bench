@@ -1,0 +1,55 @@
+{
+  "description": "Documentation for 6.44. VDPAU Interoperability",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "curesult_cugraphicsvdpauregisteroutputsurface_cugraphic_9f9fbdc2",
+      "title": "CUresult cuGraphicsVDPAURegisterOutputSurface (CUgraphicsResource *pCudaResource, VdpOutputSurface vdpSurface, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Registers a VDPAU VdpOutputSurface object....",
+      "filename": "curesult_cugraphicsvdpauregisteroutputsurface_cugraphic_9f9fbdc2.md"
+    },
+    {
+      "id": "curesult_cugraphicsvdpauregistervideosurface_cugraphics_81a5d7bd",
+      "title": "CUresult cuGraphicsVDPAURegisterVideoSurface (CUgraphicsResource *pCudaResource, VdpVideoSurface vdpSurface, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Registers a VDPAU VdpVideoSurface object....",
+      "filename": "curesult_cugraphicsvdpauregistervideosurface_cugraphics_81a5d7bd.md"
+    },
+    {
+      "id": "curesult_cuvdpauctxcreate_cucontext_pctx_unsigned_int_f_8bf2a122",
+      "title": "CUresult cuVDPAUCtxCreate (CUcontext *pCtx, unsigned int flags, CUdevice device, VdpDevice vdpDevice, VdpGetProcAddress *vdpGetProcAddress)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Create a CUDA context for interoperability with VDPAU....",
+      "filename": "curesult_cuvdpauctxcreate_cucontext_pctx_unsigned_int_f_8bf2a122.md"
+    },
+    {
+      "id": "curesult_cuvdpaugetdevice_cudevice_pdevice_vdpdevice_vd_3f27a8cf",
+      "title": "CUresult cuVDPAUGetDevice (CUdevice *pDevice, VdpDevice vdpDevice, VdpGetProcAddress *vdpGetProcAddress)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Gets the CUDA device associated with a VDPAU device....",
+      "filename": "curesult_cuvdpaugetdevice_cudevice_pdevice_vdpdevice_vd_3f27a8cf.md"
+    }
+  ]
+}

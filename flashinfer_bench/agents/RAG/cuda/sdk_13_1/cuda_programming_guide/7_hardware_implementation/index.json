@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 7. Hardware Implementation",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "71_simt_architecture",
+      "title": "7.1. SIMT Architecture",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 7.1. SIMT Architecture[\uf0c1](#simt-architecture \"Permalink to this headline\")  The multiprocessor creates, manages, schedules, and executes threads in groups of 32 parallel threads called *warps*. Ind...",
+      "filename": "71_simt_architecture.md"
+    },
+    {
+      "id": "72_hardware_multithreading",
+      "title": "7.2. Hardware Multithreading",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 7.2. Hardware Multithreading[\uf0c1](#hardware-multithreading \"Permalink to this headline\")  The execution context (program counters, registers, and so on) for each warp processed by a multiprocessor is...",
+      "filename": "72_hardware_multithreading.md"
+    }
+  ]
+}

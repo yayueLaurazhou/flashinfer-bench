@@ -1,0 +1,55 @@
+{
+  "description": "Documentation for 7.79. CUmulticastObjectProp_v1 Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "unsigned_long_long_cumulticastobjectprop_v1flags",
+      "title": "unsigned long long CUmulticastObjectProp_v1::flags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Flags for future use, must be zero now...",
+      "filename": "unsigned_long_long_cumulticastobjectprop_v1flags.md"
+    },
+    {
+      "id": "unsigned_long_long_cumulticastobjectprop_v1handletypes",
+      "title": "unsigned long long CUmulticastObjectProp_v1::handleTypes",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Bitmask of exportable handle types (see CUmemAllocationHandleType) for this object   CUDA Driver API TRM-06703-001 _vRelease Version  |  733   Data Structures...",
+      "filename": "unsigned_long_long_cumulticastobjectprop_v1handletypes.md"
+    },
+    {
+      "id": "unsigned_int_cumulticastobjectprop_v1numdevices",
+      "title": "unsigned int CUmulticastObjectProp_v1::numDevices",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "The number of devices in the multicast team that will bind memory to this object...",
+      "filename": "unsigned_int_cumulticastobjectprop_v1numdevices.md"
+    },
+    {
+      "id": "size_t_cumulticastobjectprop_v1size",
+      "title": "size_t CUmulticastObjectProp_v1::size",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "The maximum amount of memory that can be bound to this multicast object per device...",
+      "filename": "size_t_cumulticastobjectprop_v1size.md"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "description": "Documentation for 9.7.16.8. Tensor Memory and Register Load/Store Instructions",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "The threads of the CTA can perform the loads and stores to the [Tensor Memory](https://docs.nvidia.com/cuda/parallel-thread-execution/#tensor-memory) of the CTA and move data between registers and Tensor Memory. The loads and stores of data can be performed in certain shapes as specified in the [..."
+    },
+    {
+      "id": "971681_access_restrictions",
+      "title": "9.7.16.8.1. Access restrictions",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "Not all threads of the CTA can access the entire Tensor Memory via the `tcgen05.ld` and `tcgen05.st` operations.",
+      "filename": "971681_access_restrictions.md"
+    },
+    {
+      "id": "971682_packing_and_unpacking",
+      "title": "9.7.16.8.2. Packing and Unpacking",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "Optionally, the following pack and unpack operations can be performed during the load and store:",
+      "filename": "971682_packing_and_unpacking.md"
+    },
+    {
+      "id": "971683_tensorcore_5th_generation_instructions_tcgen05ld",
+      "title": "9.7.16.8.3. Tensorcore 5th Generation Instructions: tcgen05.ld",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`tcgen05.ld`",
+      "filename": "971683_tensorcore_5th_generation_instructions_tcgen05ld.md"
+    },
+    {
+      "id": "971684_tensorcore_5th_generation_instructions_tcgen05st",
+      "title": "9.7.16.8.4. Tensorcore 5th Generation Instructions: tcgen05.st",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`tcgen05.st`",
+      "filename": "971684_tensorcore_5th_generation_instructions_tcgen05st.md"
+    },
+    {
+      "id": "971685_tensorcore_5th_generation_instructions_tcgen05wait",
+      "title": "9.7.16.8.5. Tensorcore 5th Generation Instructions: tcgen05.wait",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`tcgen05.wait`",
+      "filename": "971685_tensorcore_5th_generation_instructions_tcgen05wait.md"
+    }
+  ]
+}

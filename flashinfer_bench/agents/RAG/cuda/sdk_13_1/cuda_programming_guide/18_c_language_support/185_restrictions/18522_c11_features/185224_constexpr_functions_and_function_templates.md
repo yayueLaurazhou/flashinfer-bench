@@ -1,0 +1,5 @@
+# 18.5.22.4. Constexpr functions and function templates
+
+#### 18.5.22.4. Constexpr functions and function templates[](#constexpr-functions-and-function-templates "Permalink to this headline")
+
+By default, a constexpr function cannot be called from a function with incompatible execution space [16](#fn23). The experimental nvcc flag `--expt-relaxed-constexpr` removes this restriction [17](#fn24). When this flag is specified, host code can invoke a `__device__` constexpr function and device code can invoke a `__host__` constexpr function. nvcc will define the macro `__CUDACC_RELAXED_CONSTEXPR__` when `--expt-relaxed-constexpr` has been specified. Note that a function template instantiation may not be a constexpr function even if the corresponding template is marked with the keyword `constexpr` (C++11 Standard Section `[dcl.constexpr.p6]`).

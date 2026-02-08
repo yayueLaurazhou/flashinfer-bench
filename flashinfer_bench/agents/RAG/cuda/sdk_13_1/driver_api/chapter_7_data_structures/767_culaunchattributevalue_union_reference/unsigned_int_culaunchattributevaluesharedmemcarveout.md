@@ -1,0 +1,4 @@
+# unsigned int CUlaunchAttributeValue::sharedMemCarveout
+
+Value of launch attribute
+CU_LAUNCH_ATTRIBUTE_PREFERRED_SHARED_MEMORY_CARVEOUT.

@@ -1,0 +1,25 @@
+{
+  "description": "Documentation for 5.5.1.1. Sub-byte Types",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "55111_padding_and_alignment_of_the_sub_byte_types",
+      "title": "5.5.1.1.1. Padding and alignment of the sub-byte types",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "The sub-byte types are expected to packed contiguously in the global memory and the Tensor copy instruction will expand them by appending empty spaces as shown below:",
+      "filename": "55111_padding_and_alignment_of_the_sub_byte_types.md"
+    }
+  ]
+}

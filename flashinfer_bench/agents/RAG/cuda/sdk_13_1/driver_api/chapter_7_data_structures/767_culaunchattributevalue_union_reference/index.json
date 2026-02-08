@@ -1,0 +1,155 @@
+{
+  "description": "Documentation for 7.67. CUlaunchAttributeValue Union Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "struct_cuaccesspolicywindow_culaunchattributevalueacces_8a94c258",
+      "title": "struct CUaccessPolicyWindow CUlaunchAttributeValue::accessPolicyWindow",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Value of launch attribute CU_LAUNCH_ATTRIBUTE_ACCESS_POLICY_WINDOW.   CUDA Driver API TRM-06703-001 _vRelease Version  |  723   Data Structures...",
+      "filename": "struct_cuaccesspolicywindow_culaunchattributevalueacces_8a94c258.md"
+    },
+    {
+      "id": "culaunchattributevalue6_culaunchattributevalueclusterdim",
+      "title": "CUlaunchAttributeValue::@6 CUlaunchAttributeValue::clusterDim",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Value of launch attribute CU_LAUNCH_ATTRIBUTE_CLUSTER_DIMENSION that represents the desired cluster dimensions for the kernel. Opaque type with the following fields:     - The X dimension of the clust...",
+      "filename": "culaunchattributevalue6_culaunchattributevalueclusterdim.md"
+    },
+    {
+      "id": "cuclusterschedulingpolicy_culaunchattributevaluecluster_5dd58857",
+      "title": "CUclusterSchedulingPolicy CUlaunchAttributeValue::clusterSchedulingPolicyPreference",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Value of launch attribute CU_LAUNCH_ATTRIBUTE_CLUSTER_SCHEDULING_POLICY_PREFERENCE. Cluster scheduling policy preference for the kernel....",
+      "filename": "cuclusterschedulingpolicy_culaunchattributevaluecluster_5dd58857.md"
+    },
+    {
+      "id": "int_culaunchattributevaluecooperative",
+      "title": "int CUlaunchAttributeValue::cooperative",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Value of launch attribute CU_LAUNCH_ATTRIBUTE_COOPERATIVE. Nonzero indicates a cooperative kernel (see cuLaunchCooperativeKernel)....",
+      "filename": "int_culaunchattributevaluecooperative.md"
+    },
+    {
+      "id": "culaunchattributevalue10_culaunchattributevaluedeviceup_dd232b69",
+      "title": "CUlaunchAttributeValue::@10 CUlaunchAttributeValue::deviceUpdatableKernelNode",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Value of launch attribute CU_LAUNCH_ATTRIBUTE_DEVICE_UPDATABLE_KERNEL_NODE. with the following fields:  deviceUpdatable - Whether or not the resulting kernel node should be device-updatable....",
+      "filename": "culaunchattributevalue10_culaunchattributevaluedeviceup_dd232b69.md"
+    },
+    {
+      "id": "culaunchattributevalue8_culaunchattributevaluelaunchcom_18a05d1c",
+      "title": "CUlaunchAttributeValue::@8 CUlaunchAttributeValue::launchCompletionEvent",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Value of launch attribute CU_LAUNCH_ATTRIBUTE_LAUNCH_COMPLETION_EVENT with the following fields:  event - Event to fire when the last block launches...",
+      "filename": "culaunchattributevalue8_culaunchattributevaluelaunchcom_18a05d1c.md"
+    },
+    {
+      "id": "culaunchmemsyncdomain_culaunchattributevaluememsyncdomain",
+      "title": "CUlaunchMemSyncDomain CUlaunchAttributeValue::memSyncDomain",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Value of launch attribute CU_LAUNCH_ATTRIBUTE_MEM_SYNC_DOMAIN. See::CUlaunchMemSyncDomain...",
+      "filename": "culaunchmemsyncdomain_culaunchattributevaluememsyncdomain.md"
+    },
+    {
+      "id": "struct_culaunchmemsyncdomainmap_culaunchattributevaluem_788d0441",
+      "title": "struct CUlaunchMemSyncDomainMap CUlaunchAttributeValue::memSyncDomainMap",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Value of launch attribute CU_LAUNCH_ATTRIBUTE_MEM_SYNC_DOMAIN_MAP. See CUlaunchMemSyncDomainMap....",
+      "filename": "struct_culaunchmemsyncdomainmap_culaunchattributevaluem_788d0441.md"
+    },
+    {
+      "id": "culaunchattributevalue9_culaunchattributevaluepreferred_23682d58",
+      "title": "CUlaunchAttributeValue::@9 CUlaunchAttributeValue::preferredClusterDim",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Value of launch attribute CU_LAUNCH_ATTRIBUTE_PREFERRED_CLUSTER_DIMENSION that represents the desired preferred cluster dimensions for the kernel. Opaque type with the following fields:     - The X di...",
+      "filename": "culaunchattributevalue9_culaunchattributevaluepreferred_23682d58.md"
+    },
+    {
+      "id": "int_culaunchattributevaluepriority",
+      "title": "int CUlaunchAttributeValue::priority",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Value of launch attribute CU_LAUNCH_ATTRIBUTE_PRIORITY. Execution priority of the kernel....",
+      "filename": "int_culaunchattributevaluepriority.md"
+    },
+    {
+      "id": "culaunchattributevalue7_culaunchattributevalueprogrammaticevent",
+      "title": "CUlaunchAttributeValue::@7 CUlaunchAttributeValue::programmaticEvent",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Value of launch attribute CU_LAUNCH_ATTRIBUTE_PROGRAMMATIC_EVENT with the following fields:  event - Event to fire when all blocks trigger it....",
+      "filename": "culaunchattributevalue7_culaunchattributevalueprogrammaticevent.md"
+    },
+    {
+      "id": "int_culaunchattributevalueprogrammaticstreamserializationallowed",
+      "title": "int CUlaunchAttributeValue::programmaticStreamSerializationAllowed",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Value of launch attribute CU_LAUNCH_ATTRIBUTE_PROGRAMMATIC_STREAM_SERIALIZATION....",
+      "filename": "int_culaunchattributevalueprogrammaticstreamserializationallowed.md"
+    },
+    {
+      "id": "unsigned_int_culaunchattributevaluesharedmemcarveout",
+      "title": "unsigned int CUlaunchAttributeValue::sharedMemCarveout",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Value of launch attribute CU_LAUNCH_ATTRIBUTE_PREFERRED_SHARED_MEMORY_CARVEOUT....",
+      "filename": "unsigned_int_culaunchattributevaluesharedmemcarveout.md"
+    },
+    {
+      "id": "cusynchronizationpolicy_culaunchattributevaluesyncpolicy",
+      "title": "CUsynchronizationPolicy CUlaunchAttributeValue::syncPolicy",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Value of launch attribute CU_LAUNCH_ATTRIBUTE_SYNCHRONIZATION_POLICY. CUsynchronizationPolicy for work queued up in this stream...",
+      "filename": "cusynchronizationpolicy_culaunchattributevaluesyncpolicy.md"
+    }
+  ]
+}

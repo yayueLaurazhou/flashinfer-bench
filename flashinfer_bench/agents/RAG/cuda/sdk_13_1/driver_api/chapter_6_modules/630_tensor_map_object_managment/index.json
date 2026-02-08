@@ -1,0 +1,55 @@
+{
+  "description": "Documentation for 6.30. Tensor Map Object Managment",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "curesult_cutensormapencodeim2col_cutensormap_tensormap__fe6ee9ef",
+      "title": "CUresult cuTensorMapEncodeIm2col (CUtensorMap *tensorMap, CUtensorMapDataType tensorDataType, cuuint32_t tensorRank, void *globalAddress, const cuuint64_t *globalDim, const cuuint64_t *globalStrides, const int *pixelBoxLowerCorner, const int *pixelBoxUpperCorner, cuuint32_t channelsPerPixel, cuuint32_t pixelsPerColumn, const cuuint32_t *elementStrides, CUtensorMapInterleave interleave, CUtensorMapSwizzle swizzle, CUtensorMapL2promotion l2Promotion, CUtensorMapFloatOOBfill oobFill)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Create a tensor map descriptor object representing im2col memory region....",
+      "filename": "curesult_cutensormapencodeim2col_cutensormap_tensormap__fe6ee9ef.md"
+    },
+    {
+      "id": "curesult_cutensormapencodeim2colwide_cutensormap_tensor_0ec6b362",
+      "title": "CUresult cuTensorMapEncodeIm2colWide (CUtensorMap *tensorMap, CUtensorMapDataType tensorDataType, cuuint32_t tensorRank, void *globalAddress, const cuuint64_t *globalDim, const cuuint64_t *globalStrides, int pixelBoxLowerCornerWidth, int pixelBoxUpperCornerWidth, cuuint32_t channelsPerPixel, cuuint32_t pixelsPerColumn, const cuuint32_t *elementStrides, CUtensorMapInterleave interleave, CUtensorMapIm2ColWideMode mode, CUtensorMapSwizzle swizzle, CUtensorMapL2promotion l2Promotion, CUtensorMapFloatOOBfill oobFill)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Create a tensor map descriptor object representing im2col memory region, but where the elements are exclusively loaded along the W dimension....",
+      "filename": "curesult_cutensormapencodeim2colwide_cutensormap_tensor_0ec6b362.md"
+    },
+    {
+      "id": "curesult_cutensormapencodetiled_cutensormap_tensormap_c_1c9a710f",
+      "title": "CUresult cuTensorMapEncodeTiled (CUtensorMap *tensorMap, CUtensorMapDataType tensorDataType, cuuint32_t tensorRank, void *globalAddress, const cuuint64_t *globalDim, const cuuint64_t *globalStrides, const cuuint32_t *boxDim, const cuuint32_t *elementStrides, CUtensorMapInterleave interleave, CUtensorMapSwizzle swizzle, CUtensorMapL2promotion l2Promotion, CUtensorMapFloatOOBfill oobFill)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Create a tensor map descriptor object representing tiled memory region....",
+      "filename": "curesult_cutensormapencodetiled_cutensormap_tensormap_c_1c9a710f.md"
+    },
+    {
+      "id": "curesult_cutensormapreplaceaddress_cutensormap_tensorma_954cb62f",
+      "title": "CUresult cuTensorMapReplaceAddress (CUtensorMap *tensorMap, void *globalAddress)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Modify an existing tensor map descriptor with an updated global address....",
+      "filename": "curesult_cutensormapreplaceaddress_cutensormap_tensorma_954cb62f.md"
+    }
+  ]
+}

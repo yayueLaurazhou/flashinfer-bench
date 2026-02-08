@@ -1,0 +1,175 @@
+{
+  "description": "Documentation for 10.14.1. Arithmetic Functions",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "101411_atomicadd",
+      "title": "10.14.1.1. atomicAdd()",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 10.14.1.1. atomicAdd()[\uf0c1](#atomicadd \"Permalink to this headline\")  ``` int atomicAdd(int* address, int val); unsigned int atomicAdd(unsigned int* address,                        unsigned int val...",
+      "filename": "101411_atomicadd.md"
+    },
+    {
+      "id": "101412_atomicsub",
+      "title": "10.14.1.2. atomicSub()",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 10.14.1.2. atomicSub()[\uf0c1](#atomicsub \"Permalink to this headline\")  ``` int atomicSub(int* address, int val); unsigned int atomicSub(unsigned int* address,                        unsigned int val...",
+      "filename": "101412_atomicsub.md"
+    },
+    {
+      "id": "101413_atomicexch",
+      "title": "10.14.1.3. atomicExch()",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 10.14.1.3. atomicExch()[\uf0c1](#atomicexch \"Permalink to this headline\")  ``` int atomicExch(int* address, int val); unsigned int atomicExch(unsigned int* address,                         unsigned in...",
+      "filename": "101413_atomicexch.md"
+    },
+    {
+      "id": "101414_atomicmin",
+      "title": "10.14.1.4. atomicMin()",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 10.14.1.4. atomicMin()[\uf0c1](#atomicmin \"Permalink to this headline\")  ``` int atomicMin(int* address, int val); unsigned int atomicMin(unsigned int* address,                        unsigned int val...",
+      "filename": "101414_atomicmin.md"
+    },
+    {
+      "id": "101415_atomicmax",
+      "title": "10.14.1.5. atomicMax()",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 10.14.1.5. atomicMax()[\uf0c1](#atomicmax \"Permalink to this headline\")  ``` int atomicMax(int* address, int val); unsigned int atomicMax(unsigned int* address,                        unsigned int val...",
+      "filename": "101415_atomicmax.md"
+    },
+    {
+      "id": "101416_atomicinc",
+      "title": "10.14.1.6. atomicInc()",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 10.14.1.6. atomicInc()[\uf0c1](#atomicinc \"Permalink to this headline\")  ``` unsigned int atomicInc(unsigned int* address,                        unsigned int val); ```  reads the 32-bit word `old` lo...",
+      "filename": "101416_atomicinc.md"
+    },
+    {
+      "id": "101417_atomicdec",
+      "title": "10.14.1.7. atomicDec()",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 10.14.1.7. atomicDec()[\uf0c1](#atomicdec \"Permalink to this headline\")  ``` unsigned int atomicDec(unsigned int* address,                        unsigned int val); ```  reads the 32-bit word `old` lo...",
+      "filename": "101417_atomicdec.md"
+    },
+    {
+      "id": "101418_atomiccas",
+      "title": "10.14.1.8. atomicCAS()",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 10.14.1.8. atomicCAS()[\uf0c1](#atomiccas \"Permalink to this headline\")  ``` int atomicCAS(int* address, int compare, int val); unsigned int atomicCAS(unsigned int* address,                        uns...",
+      "filename": "101418_atomiccas.md"
+    },
+    {
+      "id": "101419___nv_atomic_exchange",
+      "title": "10.14.1.9. __nv_atomic_exchange()",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 10.14.1.9. \\_\\_nv\\_atomic\\_exchange()[\uf0c1](#nv-atomic-exchange \"Permalink to this headline\")  ``` __device__ void __nv_atomic_exchange(T* ptr, T* val, T *ret, int order, int scope = __NV_THREAD_SCO...",
+      "filename": "101419___nv_atomic_exchange.md"
+    },
+    {
+      "id": "1014110___nv_atomic_exchange_n",
+      "title": "10.14.1.10. __nv_atomic_exchange_n()",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 10.14.1.10. \\_\\_nv\\_atomic\\_exchange\\_n()[\uf0c1](#nv-atomic-exchange-n \"Permalink to this headline\")  ``` __device__ T __nv_atomic_exchange_n(T* ptr, T val, int order, int scope = __NV_THREAD_SCOPE_S...",
+      "filename": "1014110___nv_atomic_exchange_n.md"
+    },
+    {
+      "id": "1014111___nv_atomic_compare_exchange",
+      "title": "10.14.1.11. __nv_atomic_compare_exchange()",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 10.14.1.11. \\_\\_nv\\_atomic\\_compare\\_exchange()[\uf0c1](#nv-atomic-compare-exchange \"Permalink to this headline\")  ``` __device__ bool __nv_atomic_compare_exchange (T* ptr, T* expected, T* desired, bo...",
+      "filename": "1014111___nv_atomic_compare_exchange.md"
+    },
+    {
+      "id": "1014112___nv_atomic_compare_exchange_n",
+      "title": "10.14.1.12. __nv_atomic_compare_exchange_n()",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 10.14.1.12. \\_\\_nv\\_atomic\\_compare\\_exchange\\_n()[\uf0c1](#nv-atomic-compare-exchange-n \"Permalink to this headline\")  ``` __device__ bool __nv_atomic_compare_exchange_n (T* ptr, T* expected, T desir...",
+      "filename": "1014112___nv_atomic_compare_exchange_n.md"
+    },
+    {
+      "id": "1014113___nv_atomic_fetch_add_and___nv_atomic_add",
+      "title": "10.14.1.13. __nv_atomic_fetch_add() and __nv_atomic_add()",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 10.14.1.13. \\_\\_nv\\_atomic\\_fetch\\_add() and \\_\\_nv\\_atomic\\_add()[\uf0c1](#nv-atomic-fetch-add-and-nv-atomic-add \"Permalink to this headline\")  ``` __device__ T __nv_atomic_fetch_add (T* ptr, T val, ...",
+      "filename": "1014113___nv_atomic_fetch_add_and___nv_atomic_add.md"
+    },
+    {
+      "id": "1014114___nv_atomic_fetch_sub_and___nv_atomic_sub",
+      "title": "10.14.1.14. __nv_atomic_fetch_sub() and __nv_atomic_sub()",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 10.14.1.14. \\_\\_nv\\_atomic\\_fetch\\_sub() and \\_\\_nv\\_atomic\\_sub()[\uf0c1](#nv-atomic-fetch-sub-and-nv-atomic-sub \"Permalink to this headline\")  ``` __device__ T __nv_atomic_fetch_sub (T* ptr, T val, ...",
+      "filename": "1014114___nv_atomic_fetch_sub_and___nv_atomic_sub.md"
+    },
+    {
+      "id": "1014115___nv_atomic_fetch_min_and___nv_atomic_min",
+      "title": "10.14.1.15. __nv_atomic_fetch_min() and __nv_atomic_min()",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 10.14.1.15. \\_\\_nv\\_atomic\\_fetch\\_min() and \\_\\_nv\\_atomic\\_min()[\uf0c1](#nv-atomic-fetch-min-and-nv-atomic-min \"Permalink to this headline\")  ``` __device__ T __nv_atomic_fetch_min (T* ptr, T val, ...",
+      "filename": "1014115___nv_atomic_fetch_min_and___nv_atomic_min.md"
+    },
+    {
+      "id": "1014116___nv_atomic_fetch_max_and___nv_atomic_max",
+      "title": "10.14.1.16. __nv_atomic_fetch_max() and __nv_atomic_max()",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 10.14.1.16. \\_\\_nv\\_atomic\\_fetch\\_max() and \\_\\_nv\\_atomic\\_max()[\uf0c1](#nv-atomic-fetch-max-and-nv-atomic-max \"Permalink to this headline\")  ``` __device__ T __nv_atomic_fetch_max (T* ptr, T val, ...",
+      "filename": "1014116___nv_atomic_fetch_max_and___nv_atomic_max.md"
+    }
+  ]
+}

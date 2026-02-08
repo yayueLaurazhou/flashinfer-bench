@@ -1,0 +1,155 @@
+{
+  "description": "Documentation for 6.20. Direct3D 10 Interoperability [DEPRECATED]",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "enum_cudad3d10mapflags",
+      "title": "enum cudaD3D10MapFlags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA D3D10 Map Flags...",
+      "filename": "enum_cudad3d10mapflags.md"
+    },
+    {
+      "id": "enum_cudad3d10registerflags",
+      "title": "enum cudaD3D10RegisterFlags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA D3D10 Register Flags...",
+      "filename": "enum_cudad3d10registerflags.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudad3d10getdirect3ddevice_id3d10de_2f182ba7",
+      "title": "__host__cudaError_t cudaD3D10GetDirect3DDevice (ID3D10Device **ppD3D10Device)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Gets the Direct3D device against which the current CUDA context was created....",
+      "filename": "__host__cudaerror_t_cudad3d10getdirect3ddevice_id3d10de_2f182ba7.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudad3d10mapresources_int_count_id3_9ad322f8",
+      "title": "__host__cudaError_t cudaD3D10MapResources (int count, ID3D10Resource **ppResources)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Maps Direct3D Resources for access by CUDA....",
+      "filename": "__host__cudaerror_t_cudad3d10mapresources_int_count_id3_9ad322f8.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudad3d10registerresource_id3d10res_7177008e",
+      "title": "__host__cudaError_t cudaD3D10RegisterResource (ID3D10Resource *pResource, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Registers a Direct3D 10 resource for access by CUDA....",
+      "filename": "__host__cudaerror_t_cudad3d10registerresource_id3d10res_7177008e.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudad3d10resourcegetmappedarray_cud_e955cbfe",
+      "title": "__host__cudaError_t cudaD3D10ResourceGetMappedArray (cudaArray **ppArray, ID3D10Resource *pResource, unsigned int subResource)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Gets an array through which to access a subresource of a Direct3D resource which has been mapped for access by CUDA....",
+      "filename": "__host__cudaerror_t_cudad3d10resourcegetmappedarray_cud_e955cbfe.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudad3d10resourcegetmappedpitch_siz_e25d9694",
+      "title": "__host__cudaError_t cudaD3D10ResourceGetMappedPitch (size_t *pPitch, size_t *pPitchSlice, ID3D10Resource *pResource, unsigned int subResource)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Gets the pitch of a subresource of a Direct3D resource which has been mapped for access by CUDA....",
+      "filename": "__host__cudaerror_t_cudad3d10resourcegetmappedpitch_siz_e25d9694.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudad3d10resourcegetmappedpointer_v_574adf09",
+      "title": "__host__cudaError_t cudaD3D10ResourceGetMappedPointer (void **pPointer, ID3D10Resource *pResource, unsigned int subResource)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Gets a pointer through which to access a subresource of a Direct3D resource which has been mapped for access by CUDA....",
+      "filename": "__host__cudaerror_t_cudad3d10resourcegetmappedpointer_v_574adf09.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudad3d10resourcegetmappedsize_size_778af092",
+      "title": "__host__cudaError_t cudaD3D10ResourceGetMappedSize (size_t *pSize, ID3D10Resource *pResource, unsigned int subResource)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Gets the size of a subresource of a Direct3D resource which has been mapped for access by CUDA....",
+      "filename": "__host__cudaerror_t_cudad3d10resourcegetmappedsize_size_778af092.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudad3d10resourcegetsurfacedimensio_43f10625",
+      "title": "__host__cudaError_t cudaD3D10ResourceGetSurfaceDimensions (size_t *pWidth, size_t *pHeight, size_t *pDepth, ID3D10Resource *pResource, unsigned int subResource)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Gets the dimensions of a registered Direct3D surface....",
+      "filename": "__host__cudaerror_t_cudad3d10resourcegetsurfacedimensio_43f10625.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudad3d10resourcesetmapflags_id3d10_88d1a92a",
+      "title": "__host__cudaError_t cudaD3D10ResourceSetMapFlags (ID3D10Resource *pResource, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Set usage flags for mapping a Direct3D resource....",
+      "filename": "__host__cudaerror_t_cudad3d10resourcesetmapflags_id3d10_88d1a92a.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudad3d10setdirect3ddevice_id3d10de_a2311834",
+      "title": "__host__cudaError_t cudaD3D10SetDirect3DDevice (ID3D10Device *pD3D10Device, int device)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets the Direct3D 10 device to use for interoperability with a CUDA device....",
+      "filename": "__host__cudaerror_t_cudad3d10setdirect3ddevice_id3d10de_a2311834.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudad3d10unmapresources_int_count_i_5784ef13",
+      "title": "__host__cudaError_t cudaD3D10UnmapResources (int count, ID3D10Resource **ppResources)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Unmaps Direct3D resources....",
+      "filename": "__host__cudaerror_t_cudad3d10unmapresources_int_count_i_5784ef13.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudad3d10unregisterresource_id3d10r_7564b2e7",
+      "title": "__host__cudaError_t cudaD3D10UnregisterResource (ID3D10Resource *pResource)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Unregisters a Direct3D resource....",
+      "filename": "__host__cudaerror_t_cudad3d10unregisterresource_id3d10r_7564b2e7.md"
+    }
+  ]
+}

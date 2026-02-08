@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 9.7.16.5. Issue Granularity",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Each of the `tcgen05` operation has different requirements for the number of threads/warps that needs to issue them."
+    },
+    {
+      "id": "971651_cta_pair",
+      "title": "9.7.16.5.1. CTA Pair",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "Any 2 CTAs within the cluster whose `%cluster_ctarank` differs by the last bit only is said to form a CTA pair.",
+      "filename": "971651_cta_pair.md"
+    },
+    {
+      "id": "971652_peer_cta",
+      "title": "9.7.16.5.2. Peer CTA",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "The peer CTA of the odd CTA within the CTA pair is the even CTA in the same pair. Similarly, the peer CTA of the even CTA within the CTA pair is the odd CTA in the same pair.",
+      "filename": "971652_peer_cta.md"
+    }
+  ]
+}

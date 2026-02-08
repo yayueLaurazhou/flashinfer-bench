@@ -1,0 +1,185 @@
+{
+  "description": "Documentation for 7.3. CUarrayMapInfo_v1 Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "unsigned_int_cuarraymapinfo_v1devicebitmask",
+      "title": "unsigned int CUarrayMapInfo_v1::deviceBitMask",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Device ordinal bit mask   CUDA Driver API TRM-06703-001 _vRelease Version  |  673   Data Structures...",
+      "filename": "unsigned_int_cuarraymapinfo_v1devicebitmask.md"
+    },
+    {
+      "id": "unsigned_int_cuarraymapinfo_v1extentdepth",
+      "title": "unsigned int CUarrayMapInfo_v1::extentDepth",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Depth in elements...",
+      "filename": "unsigned_int_cuarraymapinfo_v1extentdepth.md"
+    },
+    {
+      "id": "unsigned_int_cuarraymapinfo_v1extentheight",
+      "title": "unsigned int CUarrayMapInfo_v1::extentHeight",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Height in elements...",
+      "filename": "unsigned_int_cuarraymapinfo_v1extentheight.md"
+    },
+    {
+      "id": "unsigned_int_cuarraymapinfo_v1extentwidth",
+      "title": "unsigned int CUarrayMapInfo_v1::extentWidth",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Width in elements...",
+      "filename": "unsigned_int_cuarraymapinfo_v1extentwidth.md"
+    },
+    {
+      "id": "unsigned_int_cuarraymapinfo_v1flags",
+      "title": "unsigned int CUarrayMapInfo_v1::flags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "flags for future use, must be zero now....",
+      "filename": "unsigned_int_cuarraymapinfo_v1flags.md"
+    },
+    {
+      "id": "unsigned_int_cuarraymapinfo_v1layer",
+      "title": "unsigned int CUarrayMapInfo_v1::layer",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "For CUDA layered arrays must be a valid layer index. Otherwise, must be zero...",
+      "filename": "unsigned_int_cuarraymapinfo_v1layer.md"
+    },
+    {
+      "id": "unsigned_int_cuarraymapinfo_v1level",
+      "title": "unsigned int CUarrayMapInfo_v1::level",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "For CUDA mipmapped arrays must a valid mipmap level. For CUDA arrays must be zero...",
+      "filename": "unsigned_int_cuarraymapinfo_v1level.md"
+    },
+    {
+      "id": "cumemhandletype_cuarraymapinfo_v1memhandletype",
+      "title": "CUmemHandleType CUarrayMapInfo_v1::memHandleType",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Memory handle type...",
+      "filename": "cumemhandletype_cuarraymapinfo_v1memhandletype.md"
+    },
+    {
+      "id": "cumemoperationtype_cuarraymapinfo_v1memoperationtype",
+      "title": "CUmemOperationType CUarrayMapInfo_v1::memOperationType",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Memory operation type...",
+      "filename": "cumemoperationtype_cuarraymapinfo_v1memoperationtype.md"
+    },
+    {
+      "id": "unsigned_long_long_cuarraymapinfo_v1offset",
+      "title": "unsigned long long CUarrayMapInfo_v1::offset",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Offset within mip tail  Offset within the memory...",
+      "filename": "unsigned_long_long_cuarraymapinfo_v1offset.md"
+    },
+    {
+      "id": "unsigned_int_cuarraymapinfo_v1offsetx",
+      "title": "unsigned int CUarrayMapInfo_v1::offsetX",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Starting X offset in elements   CUDA Driver API TRM-06703-001 _vRelease Version  |  674   Data Structures...",
+      "filename": "unsigned_int_cuarraymapinfo_v1offsetx.md"
+    },
+    {
+      "id": "unsigned_int_cuarraymapinfo_v1offsety",
+      "title": "unsigned int CUarrayMapInfo_v1::offsetY",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Starting Y offset in elements...",
+      "filename": "unsigned_int_cuarraymapinfo_v1offsety.md"
+    },
+    {
+      "id": "unsigned_int_cuarraymapinfo_v1offsetz",
+      "title": "unsigned int CUarrayMapInfo_v1::offsetZ",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Starting Z offset in elements...",
+      "filename": "unsigned_int_cuarraymapinfo_v1offsetz.md"
+    },
+    {
+      "id": "unsigned_int_cuarraymapinfo_v1reserved",
+      "title": "unsigned int CUarrayMapInfo_v1::reserved",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Reserved for future use, must be zero now....",
+      "filename": "unsigned_int_cuarraymapinfo_v1reserved.md"
+    },
+    {
+      "id": "curesourcetype_cuarraymapinfo_v1resourcetype",
+      "title": "CUresourcetype CUarrayMapInfo_v1::resourceType",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Resource type...",
+      "filename": "curesourcetype_cuarraymapinfo_v1resourcetype.md"
+    },
+    {
+      "id": "unsigned_long_long_cuarraymapinfo_v1size",
+      "title": "unsigned long long CUarrayMapInfo_v1::size",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Extent in bytes...",
+      "filename": "unsigned_long_long_cuarraymapinfo_v1size.md"
+    },
+    {
+      "id": "cuarraysparsesubresourcetype_cuarraymapinfo_v1subresourcetype",
+      "title": "CUarraySparseSubresourceType CUarrayMapInfo_v1::subresourceType",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sparse subresource type...",
+      "filename": "cuarraysparsesubresourcetype_cuarraymapinfo_v1subresourcetype.md"
+    }
+  ]
+}

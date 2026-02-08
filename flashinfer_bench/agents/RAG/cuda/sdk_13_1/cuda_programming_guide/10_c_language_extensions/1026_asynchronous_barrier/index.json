@@ -1,0 +1,90 @@
+{
+  "description": "Documentation for 10.26. Asynchronous Barrier",
+  "directories": [
+    {
+      "name": "10268_memory_barrier_primitives_interface",
+      "description": "### 10.26.8. Memory Barrier Primitives Interface[\uf0c1](#memory-barrier-primitives-interface \"Permalink to this headline\")  Memory barrier primitives are C-like interfaces to `cuda::barrier` functionality..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "10261_simple_synchronization_pattern",
+      "title": "10.26.1. Simple Synchronization Pattern",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.26.1. Simple Synchronization Pattern[\uf0c1](#simple-synchronization-pattern \"Permalink to this headline\")  Without the arrive/wait barrier, synchronization is achieved using `__syncthreads()` (to s...",
+      "filename": "10261_simple_synchronization_pattern.md"
+    },
+    {
+      "id": "10262_temporal_splitting_and_five_stages_of_synchronization",
+      "title": "10.26.2. Temporal Splitting and Five Stages of Synchronization",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.26.2. Temporal Splitting and Five Stages of Synchronization[\uf0c1](#temporal-splitting-and-five-stages-of-synchronization \"Permalink to this headline\")  The temporally-split synchronization pattern...",
+      "filename": "10262_temporal_splitting_and_five_stages_of_synchronization.md"
+    },
+    {
+      "id": "10263_bootstrap_initialization_expected_arrival_count_and_participation",
+      "title": "10.26.3. Bootstrap Initialization, Expected Arrival Count, and Participation",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.26.3. Bootstrap Initialization, Expected Arrival Count, and Participation[\uf0c1](#bootstrap-initialization-expected-arrival-count-and-participation \"Permalink to this headline\")  Initialization mus...",
+      "filename": "10263_bootstrap_initialization_expected_arrival_count_and_participation.md"
+    },
+    {
+      "id": "10264_a_barriers_phase_arrival_countdown_completion_and_reset",
+      "title": "10.26.4. A Barrier\u2019s Phase: Arrival, Countdown, Completion, and Reset",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.26.4. A Barrier\u2019s Phase: Arrival, Countdown, Completion, and Reset[\uf0c1](#a-barrier-s-phase-arrival-countdown-completion-and-reset \"Permalink to this headline\")  A `cuda::barrier` counts down from...",
+      "filename": "10264_a_barriers_phase_arrival_countdown_completion_and_reset.md"
+    },
+    {
+      "id": "10265_spatial_partitioning_also_known_as_warp_specialization",
+      "title": "10.26.5. Spatial Partitioning (also known as Warp Specialization)",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.26.5. Spatial Partitioning (also known as Warp Specialization)[\uf0c1](#spatial-partitioning-also-known-as-warp-specialization \"Permalink to this headline\")  A thread block can be spatially partitio...",
+      "filename": "10265_spatial_partitioning_also_known_as_warp_specialization.md"
+    },
+    {
+      "id": "10266_early_exit_dropping_out_of_participation",
+      "title": "10.26.6. Early Exit (Dropping out of Participation)",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.26.6. Early Exit (Dropping out of Participation)[\uf0c1](#early-exit-dropping-out-of-participation \"Permalink to this headline\")  When a thread that is participating in a sequence of synchronization...",
+      "filename": "10266_early_exit_dropping_out_of_participation.md"
+    },
+    {
+      "id": "10267_completion_function",
+      "title": "10.26.7. Completion Function",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.26.7. Completion Function[\uf0c1](#completion-function \"Permalink to this headline\")  The `CompletionFunction` of `cuda::barrier<Scope, CompletionFunction>` is executed once per phase, after the las...",
+      "filename": "10267_completion_function.md"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "description": "Documentation for 9.7.18.2. SIMD Video Instructions",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "The SIMD video instructions operate on pairs of 16-bit values and quads of 8-bit values."
+    },
+    {
+      "id": "971821_simd_video_instructions_vadd2_vsub2_vavrg2_vabsdiff2_vmin2_vmax2",
+      "title": "9.7.18.2.1. SIMD Video Instructions: vadd2, vsub2, vavrg2, vabsdiff2, vmin2, vmax2",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`vadd2`, `vsub2`",
+      "filename": "971821_simd_video_instructions_vadd2_vsub2_vavrg2_vabsdiff2_vmin2_vmax2.md"
+    },
+    {
+      "id": "971822_simd_video_instructions_vset2",
+      "title": "9.7.18.2.2. SIMD Video Instructions: vset2",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`vset2`",
+      "filename": "971822_simd_video_instructions_vset2.md"
+    },
+    {
+      "id": "971823_simd_video_instructions_vadd4_vsub4_vavrg4_vabsdiff4_vmin4_vmax4",
+      "title": "9.7.18.2.3. SIMD Video Instructions: vadd4, vsub4, vavrg4, vabsdiff4, vmin4, vmax4",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`vadd4`, `vsub4`",
+      "filename": "971823_simd_video_instructions_vadd4_vsub4_vavrg4_vabsdiff4_vmin4_vmax4.md"
+    },
+    {
+      "id": "971824_simd_video_instructions_vset4",
+      "title": "9.7.18.2.4. SIMD Video Instructions: vset4",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`vset4`",
+      "filename": "971824_simd_video_instructions_vset4.md"
+    }
+  ]
+}

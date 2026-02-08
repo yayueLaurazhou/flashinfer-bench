@@ -1,0 +1,4 @@
+# CUlaunchMemSyncDomain CUlaunchAttributeValue::memSyncDomain
+
+Value of launch attribute CU_LAUNCH_ATTRIBUTE_MEM_SYNC_DOMAIN.
+See::CUlaunchMemSyncDomain

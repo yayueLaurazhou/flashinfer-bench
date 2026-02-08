@@ -1,0 +1,75 @@
+{
+  "description": "Documentation for 10.18. Compiler Optimization Hint Functions",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "10181___builtin_assume_aligned",
+      "title": "10.18.1. __builtin_assume_aligned()",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.18.1. \\_\\_builtin\\_assume\\_aligned()[\uf0c1](#builtin-assume-aligned \"Permalink to this headline\")  ``` void * __builtin_assume_aligned (const void *exp, size_t align) ```  Allows the compiler to as...",
+      "filename": "10181___builtin_assume_aligned.md"
+    },
+    {
+      "id": "10182___builtin_assume",
+      "title": "10.18.2. __builtin_assume()",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.18.2. \\_\\_builtin\\_assume()[\uf0c1](#builtin-assume \"Permalink to this headline\")  ``` void __builtin_assume(bool exp) ```  Allows the compiler to assume that the Boolean argument is true. If the ar...",
+      "filename": "10182___builtin_assume.md"
+    },
+    {
+      "id": "10183___assume",
+      "title": "10.18.3. __assume()",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.18.3. \\_\\_assume()[\uf0c1](#assume \"Permalink to this headline\")  ``` void __assume(bool exp) ```  Allows the compiler to assume that the Boolean argument is true. If the argument is not true at run...",
+      "filename": "10183___assume.md"
+    },
+    {
+      "id": "10184___builtin_expect",
+      "title": "10.18.4. __builtin_expect()",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.18.4. \\_\\_builtin\\_expect()[\uf0c1](#builtin-expect \"Permalink to this headline\")  ``` long __builtin_expect (long exp, long c) ```  Indicates to the compiler that it is expected that `exp == c`, an...",
+      "filename": "10184___builtin_expect.md"
+    },
+    {
+      "id": "10185___builtin_unreachable",
+      "title": "10.18.5. __builtin_unreachable()",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.18.5. \\_\\_builtin\\_unreachable()[\uf0c1](#builtin-unreachable \"Permalink to this headline\")  ``` void __builtin_unreachable(void) ```  Indicates to the compiler that control flow never reaches the p...",
+      "filename": "10185___builtin_unreachable.md"
+    },
+    {
+      "id": "10186_restrictions",
+      "title": "10.18.6. Restrictions",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.18.6. Restrictions[\uf0c1](#restrictions \"Permalink to this headline\")  `__assume()` is only supported when using `cl.exe` host compiler. The other functions are supported on all platforms, subject ...",
+      "filename": "10186_restrictions.md"
+    }
+  ]
+}

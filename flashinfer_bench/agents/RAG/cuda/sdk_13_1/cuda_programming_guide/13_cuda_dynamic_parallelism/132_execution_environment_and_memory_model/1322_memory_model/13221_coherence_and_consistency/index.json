@@ -1,0 +1,75 @@
+{
+  "description": "Documentation for 13.2.2.1. Coherence and Consistency",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "132211_global_memory",
+      "title": "13.2.2.1.1. Global Memory",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 13.2.2.1.1. Global Memory[\uf0c1](#global-memory \"Permalink to this headline\")  Parent and child grids have coherent access to global memory, with weak consistency guarantees between child and parent...",
+      "filename": "132211_global_memory.md"
+    },
+    {
+      "id": "132212_zero_copy_memory",
+      "title": "13.2.2.1.2. Zero Copy Memory",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 13.2.2.1.2. Zero Copy Memory[\uf0c1](#zero-copy-memory \"Permalink to this headline\")  Zero-copy system memory has identical coherence and consistency guarantees to global memory, and follows the sema...",
+      "filename": "132212_zero_copy_memory.md"
+    },
+    {
+      "id": "132213_constant_memory",
+      "title": "13.2.2.1.3. Constant Memory",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 13.2.2.1.3. Constant Memory[\uf0c1](#constant-memory \"Permalink to this headline\")  Constants may not be modified from the device. They may only be modified from the host, but the behavior of modifyi...",
+      "filename": "132213_constant_memory.md"
+    },
+    {
+      "id": "132214_shared_and_local_memory",
+      "title": "13.2.2.1.4. Shared and Local Memory",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 13.2.2.1.4. Shared and Local Memory[\uf0c1](#shared-and-local-memory \"Permalink to this headline\")  Shared and Local memory is private to a thread block or thread, respectively, and is not visible or...",
+      "filename": "132214_shared_and_local_memory.md"
+    },
+    {
+      "id": "132215_local_memory",
+      "title": "13.2.2.1.5. Local Memory",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 13.2.2.1.5. Local Memory[\uf0c1](#local-memory \"Permalink to this headline\")  Local memory is private storage for an executing thread, and is not visible outside of that thread. It is illegal to pass...",
+      "filename": "132215_local_memory.md"
+    },
+    {
+      "id": "132216_texture_memory",
+      "title": "13.2.2.1.6. Texture Memory",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 13.2.2.1.6. Texture Memory[\uf0c1](#texture-memory-cdp \"Permalink to this headline\")  Writes to the global memory region over which a texture is mapped are incoherent with respect to texture accesses...",
+      "filename": "132216_texture_memory.md"
+    }
+  ]
+}

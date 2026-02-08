@@ -1,0 +1,85 @@
+{
+  "description": "Documentation for 6.25. Graphics Interoperability",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphicsmapresources_int_count__994a2424",
+      "title": "__host__cudaError_t cudaGraphicsMapResources (int count, cudaGraphicsResource_t *resources, cudaStream_t stream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Map graphics resources for access by CUDA....",
+      "filename": "__host__cudaerror_t_cudagraphicsmapresources_int_count__994a2424.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphicsresourcegetmappedmipmap_2bc5926e",
+      "title": "__host__cudaError_t cudaGraphicsResourceGetMappedMipmappedArray (cudaMipmappedArray_t *mipmappedArray, cudaGraphicsResource_t resource)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Get a mipmapped array through which to access a mapped graphics resource....",
+      "filename": "__host__cudaerror_t_cudagraphicsresourcegetmappedmipmap_2bc5926e.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphicsresourcegetmappedpointe_694b79ad",
+      "title": "__host__cudaError_t cudaGraphicsResourceGetMappedPointer (void **devPtr, size_t *size, cudaGraphicsResource_t resource)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Get an device pointer through which to access a mapped graphics resource....",
+      "filename": "__host__cudaerror_t_cudagraphicsresourcegetmappedpointe_694b79ad.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphicsresourcesetmapflags_cud_b674613d",
+      "title": "__host__cudaError_t cudaGraphicsResourceSetMapFlags (cudaGraphicsResource_t resource, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Set usage flags for mapping a graphics resource....",
+      "filename": "__host__cudaerror_t_cudagraphicsresourcesetmapflags_cud_b674613d.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphicssubresourcegetmappedarr_34dc851a",
+      "title": "__host__cudaError_t cudaGraphicsSubResourceGetMappedArray (cudaArray_t *array, cudaGraphicsResource_t resource, unsigned int arrayIndex, unsigned int mipLevel)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Get an array through which to access a subresource of a mapped graphics resource....",
+      "filename": "__host__cudaerror_t_cudagraphicssubresourcegetmappedarr_34dc851a.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphicsunmapresources_int_coun_a6cd1227",
+      "title": "__host__cudaError_t cudaGraphicsUnmapResources (int count, cudaGraphicsResource_t *resources, cudaStream_t stream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Unmap graphics resources....",
+      "filename": "__host__cudaerror_t_cudagraphicsunmapresources_int_coun_a6cd1227.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphicsunregisterresource_cuda_08992c9f",
+      "title": "__host__cudaError_t cudaGraphicsUnregisterResource (cudaGraphicsResource_t resource)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Unregisters a graphics resource for access by CUDA....",
+      "filename": "__host__cudaerror_t_cudagraphicsunregisterresource_cuda_08992c9f.md"
+    }
+  ]
+}

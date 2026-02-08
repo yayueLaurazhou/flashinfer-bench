@@ -1,0 +1,3 @@
+# int cudaLaunchAttributeValue::programmaticStreamSerializationAllowe
+
+Value of launch attribute cudaLaunchAttributeProgrammaticStreamSerialization.

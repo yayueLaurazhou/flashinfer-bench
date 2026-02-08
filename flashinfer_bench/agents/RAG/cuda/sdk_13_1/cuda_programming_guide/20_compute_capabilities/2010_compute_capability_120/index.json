@@ -1,0 +1,55 @@
+{
+  "description": "Documentation for 20.10. Compute Capability 12.0",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "20101_architecture",
+      "title": "20.10.1. Architecture",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 20.10.1. Architecture[\uf0c1](#architecture-12-0 \"Permalink to this headline\")  A Streaming Multiprocessor (SM) consists of:  * 128 FP32 cores for single-precision arithmetic operations, * 2 FP64 cores...",
+      "filename": "20101_architecture.md"
+    },
+    {
+      "id": "20102_global_memory",
+      "title": "20.10.2. Global Memory",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 20.10.2. Global Memory[\uf0c1](#global-memory-12-0 \"Permalink to this headline\")  Global memory behaves the same way as for devices of compute capability 5.x (See [Global Memory](#global-memory-5-x))....",
+      "filename": "20102_global_memory.md"
+    },
+    {
+      "id": "20103_shared_memory",
+      "title": "20.10.3. Shared Memory",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 20.10.3. Shared Memory[\uf0c1](#shared-memory-12-0 \"Permalink to this headline\")  The amount of the unified data cache reserved for shared memory is configurable on a per kernel basis and is identical ...",
+      "filename": "20103_shared_memory.md"
+    },
+    {
+      "id": "20104_features_accelerating_specialized_computations",
+      "title": "20.10.4. Features Accelerating Specialized Computations",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 20.10.4. Features Accelerating Specialized Computations[\uf0c1](#features-accelerating-specialized-computations-12-0 \"Permalink to this headline\")  The NVIDIA Blackwell GPU architecture extends feature...",
+      "filename": "20104_features_accelerating_specialized_computations.md"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "description": "Documentation for 9.7.16.2.3.1. Memory Layout",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "The following shows the layout of the matrix fragments across threads of the warp."
+    },
+    {
+      "id": "tcgen05_matrix_fragments_shape_3232b",
+      "title": "tcgen05-matrix-fragments-shape-3232b",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "A `tcgen05{.ld,.st}.32x32b` instruction has the following data vector register.",
+      "filename": "tcgen05_matrix_fragments_shape_3232b.md"
+    },
+    {
+      "id": "tcgen05_matrix_fragments_shape_6464b",
+      "title": "tcgen05-matrix-fragments-shape-6464b",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "A `tcgen05{.ld,.st}.16x64b` instruction has the following data vector register.",
+      "filename": "tcgen05_matrix_fragments_shape_6464b.md"
+    },
+    {
+      "id": "tcgen05_matrix_fragments_shape_16128b",
+      "title": "tcgen05-matrix-fragments-shape-16128b",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "A `tcgen05{.ld,.st}.16x128b` instruction has the following data vector register.",
+      "filename": "tcgen05_matrix_fragments_shape_16128b.md"
+    },
+    {
+      "id": "tcgen05_matrix_fragments_shape_16256b",
+      "title": "tcgen05-matrix-fragments-shape-16256b",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "A `tcgen05{.ld,.st}.16x256b` instruction has the following data vector register.",
+      "filename": "tcgen05_matrix_fragments_shape_16256b.md"
+    },
+    {
+      "id": "tcgen05_matrix_fragments_shape_1632b2",
+      "title": "tcgen05-matrix-fragments-shape-1632b2",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "A `tcgen05{.ld,.st}.16x32bx2` instruction has the following data vector register.",
+      "filename": "tcgen05_matrix_fragments_shape_1632b2.md"
+    }
+  ]
+}

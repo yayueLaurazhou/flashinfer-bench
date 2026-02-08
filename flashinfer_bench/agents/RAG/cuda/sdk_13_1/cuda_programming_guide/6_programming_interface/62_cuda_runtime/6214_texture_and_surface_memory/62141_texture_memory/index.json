@@ -1,0 +1,75 @@
+{
+  "description": "Documentation for 6.2.14.1. Texture Memory",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "621411_texture_object_api",
+      "title": "6.2.14.1.1. Texture Object API",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 6.2.14.1.1. Texture Object API[\uf0c1](#texture-object-api \"Permalink to this headline\")  A texture object is created using `cudaCreateTextureObject()` from a resource description of type `struct cud...",
+      "filename": "621411_texture_object_api.md"
+    },
+    {
+      "id": "621412_16_bit_floating_point_textures",
+      "title": "6.2.14.1.2. 16-Bit Floating-Point Textures",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 6.2.14.1.2. 16-Bit Floating-Point Textures[\uf0c1](#bit-floating-point-textures \"Permalink to this headline\")  The 16-bit floating-point or *half* format supported by CUDA arrays is the same as the I...",
+      "filename": "621412_16_bit_floating_point_textures.md"
+    },
+    {
+      "id": "621413_layered_textures",
+      "title": "6.2.14.1.3. Layered Textures",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 6.2.14.1.3. Layered Textures[\uf0c1](#layered-textures \"Permalink to this headline\")  A one-dimensional or two-dimensional layered texture (also known as *texture array* in Direct3D and *array textur...",
+      "filename": "621413_layered_textures.md"
+    },
+    {
+      "id": "621414_cubemap_textures",
+      "title": "6.2.14.1.4. Cubemap Textures",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 6.2.14.1.4. Cubemap Textures[\uf0c1](#cubemap-textures \"Permalink to this headline\")  A *cubemap* texture is a special type of two-dimensional layered texture that has six layers representing the fac...",
+      "filename": "621414_cubemap_textures.md"
+    },
+    {
+      "id": "621415_cubemap_layered_textures",
+      "title": "6.2.14.1.5. Cubemap Layered Textures",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 6.2.14.1.5. Cubemap Layered Textures[\uf0c1](#cubemap-layered-textures \"Permalink to this headline\")  A *cubemap layered* texture is a layered texture whose layers are cubemaps of same dimension.  A ...",
+      "filename": "621415_cubemap_layered_textures.md"
+    },
+    {
+      "id": "621416_texture_gather",
+      "title": "6.2.14.1.6. Texture Gather",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 6.2.14.1.6. Texture Gather[\uf0c1](#texture-gather \"Permalink to this headline\")  Texture gather is a special texture fetch that is available for two-dimensional textures only. It is performed by the...",
+      "filename": "621416_texture_gather.md"
+    }
+  ]
+}

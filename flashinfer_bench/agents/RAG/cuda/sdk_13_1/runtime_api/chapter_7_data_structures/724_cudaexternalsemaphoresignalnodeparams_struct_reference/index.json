@@ -1,0 +1,45 @@
+{
+  "description": "Documentation for 7.24. cudaExternalSemaphoreSignalNodeParams Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "cudaexternalsemaphore_t_cudaexternalsemaphoresignalnode_994740cc",
+      "title": "cudaExternalSemaphore_t *cudaExternalSemaphoreSignalNodeParams::extSemArray",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Array of external semaphore handles.   CUDA Runtime API vRelease Version  |  614   Data Structures...",
+      "filename": "cudaexternalsemaphore_t_cudaexternalsemaphoresignalnode_994740cc.md"
+    },
+    {
+      "id": "unsigned_int_cudaexternalsemaphoresignalnodeparamsnumextsems",
+      "title": "unsigned int cudaExternalSemaphoreSignalNodeParams::numExtSems",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Number of handles and parameters supplied in extSemArray and paramsArray....",
+      "filename": "unsigned_int_cudaexternalsemaphoresignalnodeparamsnumextsems.md"
+    },
+    {
+      "id": "cudaexternalsemaphoresignalparams_cudaexternalsemaphore_2d202503",
+      "title": "cudaExternalSemaphoreSignalParams *cudaExternalSemaphoreSignalNodeParams::paramsArray",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Array of external semaphore signal parameters....",
+      "filename": "cudaexternalsemaphoresignalparams_cudaexternalsemaphore_2d202503.md"
+    }
+  ]
+}

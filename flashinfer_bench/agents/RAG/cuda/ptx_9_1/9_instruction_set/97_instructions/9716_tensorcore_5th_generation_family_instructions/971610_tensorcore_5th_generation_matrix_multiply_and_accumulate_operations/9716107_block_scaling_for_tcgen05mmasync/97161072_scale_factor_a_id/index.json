@@ -1,0 +1,65 @@
+{
+  "description": "Documentation for 9.7.16.10.7.2. Scale Factor A ID",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "The value of the scale factor `A ID` selects the sub-columns in the Tensor Memory to form the scale factor `A` matrix, which is used to scale the matrix `A`."
+    },
+    {
+      "id": "tcgen05_mma_scale_factor_a_layout_1x",
+      "title": "tcgen05-mma-scale-factor-a-layout-1x",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "There is one scale factor per row of the `A` matrix with block size as 32 and the scale factor must be provided in 1-byte aligned sub-column of the Tensor Memory. *SFA\\_ID* specifies the byte offset in the Tensor Memory word that must be used for the scale factor matrix. [Figure 231](https://docs...",
+      "filename": "tcgen05_mma_scale_factor_a_layout_1x.md"
+    },
+    {
+      "id": "tcgen05_mma_scale_factor_a_layout_2x",
+      "title": "tcgen05-mma-scale-factor-a-layout-2x",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "There are two scale factors per row of the `A` matrix with block size as 32 and the scale factor must be provided in 2-byte aligned sub-column of the Tensor Memory. *SFA\\_ID* specifies the half word offset in the Tensor Memory word that must be used for the scale factor matrix. [Figure 232](https...",
+      "filename": "tcgen05_mma_scale_factor_a_layout_2x.md"
+    },
+    {
+      "id": "tcgen05_mma_scale_factor_a_layout_4x",
+      "title": "tcgen05-mma-scale-factor-a-layout-4x",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "There are four scale factors per row of the `A` matrix with block size as 16 and the scale factor must be provided in 4-byte aligned sub-column of the Tensor Memory. The *SFA\\_ID* value must be 0 and this specifies that all of the columns (in green) will be used for the scale factor matrix. [Figu...",
+      "filename": "tcgen05_mma_scale_factor_a_layout_4x.md"
+    },
+    {
+      "id": "tcgen05_mma_scale_factor_a_layout_block32_k96",
+      "title": "tcgen05-mma-scale-factor-a-layout-block32-k96",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "There are three scale factors per row of the `A` matrix with block size as 32 and the scale factor must be provided in 4-byte aligned sub-column of the Tensor Memory. *SFA\\_ID* specifies the byte offset in the Tensor Memory word that must be used for the scale factor matrix. [Figure 234](https://...",
+      "filename": "tcgen05_mma_scale_factor_a_layout_block32_k96.md"
+    },
+    {
+      "id": "tcgen05_mma_scale_factor_a_layout_block16_k96",
+      "title": "tcgen05-mma-scale-factor-a-layout-block16-k96",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "There are six scale factors per row of the `A` matrix with block size as 16 and the scale factor must be provided in 4-byte aligned sub-column of the Tensor Memory. *SFA\\_ID* specifies the byte offset in the Tensor Memory word that must be used for the scale factor matrix. [Figure 238](https://do...",
+      "filename": "tcgen05_mma_scale_factor_a_layout_block16_k96.md"
+    }
+  ]
+}

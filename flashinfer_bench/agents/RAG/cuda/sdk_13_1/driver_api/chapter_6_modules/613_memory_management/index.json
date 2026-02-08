@@ -1,0 +1,785 @@
+{
+  "description": "Documentation for 6.13. Memory Management",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "struct_cumemdecompressparams",
+      "title": "struct CUmemDecompressParams",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Structure describing the parameters that compose a single decompression operation....",
+      "filename": "struct_cumemdecompressparams.md"
+    },
+    {
+      "id": "enum_cumemdecompressalgorithm",
+      "title": "enum CUmemDecompressAlgorithm",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Bitmasks for CU_DEVICE_ATTRIBUTE_MEM_DECOMPRESS_ALGORITHM_MASK....",
+      "filename": "enum_cumemdecompressalgorithm.md"
+    },
+    {
+      "id": "curesult_cuarray3dcreate_cuarray_phandle_const_cuda_arr_2e277ab1",
+      "title": "CUresult cuArray3DCreate (CUarray *pHandle, const CUDA_ARRAY3D_DESCRIPTOR *pAllocateArray)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Creates a 3D CUDA array....",
+      "filename": "curesult_cuarray3dcreate_cuarray_phandle_const_cuda_arr_2e277ab1.md"
+    },
+    {
+      "id": "curesult_cuarray3dgetdescriptor_cuda_array3d_descriptor_bfe4569a",
+      "title": "CUresult cuArray3DGetDescriptor (CUDA_ARRAY3D_DESCRIPTOR *pArrayDescriptor, CUarray hArray)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Get a 3D CUDA array descriptor....",
+      "filename": "curesult_cuarray3dgetdescriptor_cuda_array3d_descriptor_bfe4569a.md"
+    },
+    {
+      "id": "curesult_cuarraycreate_cuarray_phandle_const_cuda_array_df96d903",
+      "title": "CUresult cuArrayCreate (CUarray *pHandle, const CUDA_ARRAY_DESCRIPTOR *pAllocateArray)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Creates a 1D or 2D CUDA array....",
+      "filename": "curesult_cuarraycreate_cuarray_phandle_const_cuda_array_df96d903.md"
+    },
+    {
+      "id": "curesult_cuarraydestroy_cuarray_harray",
+      "title": "CUresult cuArrayDestroy (CUarray hArray)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Destroys a CUDA array....",
+      "filename": "curesult_cuarraydestroy_cuarray_harray.md"
+    },
+    {
+      "id": "curesult_cuarraygetdescriptor_cuda_array_descriptor_par_3aa98222",
+      "title": "CUresult cuArrayGetDescriptor (CUDA_ARRAY_DESCRIPTOR *pArrayDescriptor, CUarray hArray)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Get a 1D or 2D CUDA array descriptor....",
+      "filename": "curesult_cuarraygetdescriptor_cuda_array_descriptor_par_3aa98222.md"
+    },
+    {
+      "id": "curesult_cuarraygetmemoryrequirements_cuda_array_memory_6f71129b",
+      "title": "CUresult cuArrayGetMemoryRequirements (CUDA_ARRAY_MEMORY_REQUIREMENTS *memoryRequirements, CUarray array, CUdevice device)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the memory requirements of a CUDA array....",
+      "filename": "curesult_cuarraygetmemoryrequirements_cuda_array_memory_6f71129b.md"
+    },
+    {
+      "id": "curesult_cuarraygetplane_cuarray_pplanearray_cuarray_ha_2b73697d",
+      "title": "CUresult cuArrayGetPlane (CUarray *pPlaneArray, CUarray hArray, unsigned int planeIdx)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Gets a CUDA array plane from a CUDA array....",
+      "filename": "curesult_cuarraygetplane_cuarray_pplanearray_cuarray_ha_2b73697d.md"
+    },
+    {
+      "id": "curesult_cuarraygetsparseproperties_cuda_array_sparse_p_c0600964",
+      "title": "CUresult cuArrayGetSparseProperties (CUDA_ARRAY_SPARSE_PROPERTIES *sparseProperties, CUarray array)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the layout properties of a sparse CUDA array....",
+      "filename": "curesult_cuarraygetsparseproperties_cuda_array_sparse_p_c0600964.md"
+    },
+    {
+      "id": "curesult_cudevicegetbypcibusid_cudevice_dev_const_char_pcibusid",
+      "title": "CUresult cuDeviceGetByPCIBusId (CUdevice *dev, const char *pciBusId)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns a handle to a compute device....",
+      "filename": "curesult_cudevicegetbypcibusid_cudevice_dev_const_char_pcibusid.md"
+    },
+    {
+      "id": "curesult_cudevicegetpcibusid_char_pcibusid_int_len_cudevice_dev",
+      "title": "CUresult cuDeviceGetPCIBusId (char *pciBusId, int len, CUdevice dev)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns a PCI Bus Id string for the device....",
+      "filename": "curesult_cudevicegetpcibusid_char_pcibusid_int_len_cudevice_dev.md"
+    },
+    {
+      "id": "curesult_cudeviceregisterasyncnotification_cudevice_dev_ce28532b",
+      "title": "CUresult cuDeviceRegisterAsyncNotification (CUdevice device, CUasyncCallback callbackFunc, void *userData, CUasyncCallbackHandle *callback)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Registers a callback function to receive async notifications....",
+      "filename": "curesult_cudeviceregisterasyncnotification_cudevice_dev_ce28532b.md"
+    },
+    {
+      "id": "curesult_cudeviceunregisterasyncnotification_cudevice_d_6fe8a10a",
+      "title": "CUresult cuDeviceUnregisterAsyncNotification (CUdevice device, CUasyncCallbackHandle callback)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Unregisters an async notification callback....",
+      "filename": "curesult_cudeviceunregisterasyncnotification_cudevice_d_6fe8a10a.md"
+    },
+    {
+      "id": "curesult_cuipcclosememhandle_cudeviceptr_dptr",
+      "title": "CUresult cuIpcCloseMemHandle (CUdeviceptr dptr)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Attempts to close memory mapped with cuIpcOpenMemHandle....",
+      "filename": "curesult_cuipcclosememhandle_cudeviceptr_dptr.md"
+    },
+    {
+      "id": "curesult_cuipcgeteventhandle_cuipceventhandle_phandle_c_15721dfd",
+      "title": "CUresult cuIpcGetEventHandle (CUipcEventHandle *pHandle, CUevent event)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Gets an interprocess handle for a previously allocated event....",
+      "filename": "curesult_cuipcgeteventhandle_cuipceventhandle_phandle_c_15721dfd.md"
+    },
+    {
+      "id": "curesult_cuipcgetmemhandle_cuipcmemhandle_phandle_cudev_56102ebc",
+      "title": "CUresult cuIpcGetMemHandle (CUipcMemHandle *pHandle, CUdeviceptr dptr)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Gets an interprocess memory handle for an existing device memory allocation....",
+      "filename": "curesult_cuipcgetmemhandle_cuipcmemhandle_phandle_cudev_56102ebc.md"
+    },
+    {
+      "id": "curesult_cuipcopeneventhandle_cuevent_phevent_cuipceven_dba5cfbf",
+      "title": "CUresult cuIpcOpenEventHandle (CUevent *phEvent, CUipcEventHandle handle)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Opens an interprocess event handle for use in the current process....",
+      "filename": "curesult_cuipcopeneventhandle_cuevent_phevent_cuipceven_dba5cfbf.md"
+    },
+    {
+      "id": "curesult_cuipcopenmemhandle_cudeviceptr_pdptr_cuipcmemh_05df6258",
+      "title": "CUresult cuIpcOpenMemHandle (CUdeviceptr *pdptr, CUipcMemHandle handle, unsigned int Flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Opens an interprocess memory handle exported from another process and returns a device pointer usable in the local process....",
+      "filename": "curesult_cuipcopenmemhandle_cudeviceptr_pdptr_cuipcmemh_05df6258.md"
+    },
+    {
+      "id": "curesult_cumemalloc_cudeviceptr_dptr_size_t_bytesize",
+      "title": "CUresult cuMemAlloc (CUdeviceptr *dptr, size_t bytesize)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Allocates device memory....",
+      "filename": "curesult_cumemalloc_cudeviceptr_dptr_size_t_bytesize.md"
+    },
+    {
+      "id": "curesult_cumemallochost_void_pp_size_t_bytesize",
+      "title": "CUresult cuMemAllocHost (void **pp, size_t bytesize)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Allocates page-locked host memory....",
+      "filename": "curesult_cumemallochost_void_pp_size_t_bytesize.md"
+    },
+    {
+      "id": "curesult_cumemallocmanaged_cudeviceptr_dptr_size_t_byte_9c5d6f6e",
+      "title": "CUresult cuMemAllocManaged (CUdeviceptr *dptr, size_t bytesize, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Allocates memory that will be automatically managed by the Unified Memory system....",
+      "filename": "curesult_cumemallocmanaged_cudeviceptr_dptr_size_t_byte_9c5d6f6e.md"
+    },
+    {
+      "id": "curesult_cumemallocpitch_cudeviceptr_dptr_size_t_ppitch_d6ac987c",
+      "title": "CUresult cuMemAllocPitch (CUdeviceptr *dptr, size_t *pPitch, size_t WidthInBytes, size_t Height, unsigned int ElementSizeBytes)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Allocates pitched device memory....",
+      "filename": "curesult_cumemallocpitch_cudeviceptr_dptr_size_t_ppitch_d6ac987c.md"
+    },
+    {
+      "id": "curesult_cumembatchdecompressasync_cumemdecompressparam_11397c9d",
+      "title": "CUresult cuMemBatchDecompressAsync (CUmemDecompressParams *paramsArray, size_t count, unsigned int flags, size_t *errorIndex, CUstream stream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Submit a batch of count independent decompression operations....",
+      "filename": "curesult_cumembatchdecompressasync_cumemdecompressparam_11397c9d.md"
+    },
+    {
+      "id": "curesult_cumemcpy_cudeviceptr_dst_cudeviceptr_src_size__f730af9a",
+      "title": "CUresult cuMemcpy (CUdeviceptr dst, CUdeviceptr src, size_t ByteCount)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Copies memory....",
+      "filename": "curesult_cumemcpy_cudeviceptr_dst_cudeviceptr_src_size__f730af9a.md"
+    },
+    {
+      "id": "curesult_cumemcpy2d_const_cuda_memcpy2d_pcopy",
+      "title": "CUresult cuMemcpy2D (const CUDA_MEMCPY2D *pCopy)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Copies memory for 2D arrays....",
+      "filename": "curesult_cumemcpy2d_const_cuda_memcpy2d_pcopy.md"
+    },
+    {
+      "id": "curesult_cumemcpy2dasync_const_cuda_memcpy2d_pcopy_cust_34714cfc",
+      "title": "CUresult cuMemcpy2DAsync (const CUDA_MEMCPY2D *pCopy, CUstream hStream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Copies memory for 2D arrays....",
+      "filename": "curesult_cumemcpy2dasync_const_cuda_memcpy2d_pcopy_cust_34714cfc.md"
+    },
+    {
+      "id": "curesult_cumemcpy2dunaligned_const_cuda_memcpy2d_pcopy",
+      "title": "CUresult cuMemcpy2DUnaligned (const CUDA_MEMCPY2D *pCopy)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Copies memory for 2D arrays....",
+      "filename": "curesult_cumemcpy2dunaligned_const_cuda_memcpy2d_pcopy.md"
+    },
+    {
+      "id": "curesult_cumemcpy3d_const_cuda_memcpy3d_pcopy",
+      "title": "CUresult cuMemcpy3D (const CUDA_MEMCPY3D *pCopy)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Copies memory for 3D arrays....",
+      "filename": "curesult_cumemcpy3d_const_cuda_memcpy3d_pcopy.md"
+    },
+    {
+      "id": "curesult_cumemcpy3dasync_const_cuda_memcpy3d_pcopy_cust_d5ba3e2b",
+      "title": "CUresult cuMemcpy3DAsync (const CUDA_MEMCPY3D *pCopy, CUstream hStream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Copies memory for 3D arrays....",
+      "filename": "curesult_cumemcpy3dasync_const_cuda_memcpy3d_pcopy_cust_d5ba3e2b.md"
+    },
+    {
+      "id": "curesult_cumemcpy3dbatchasync_size_t_numops_cuda_memcpy_1a710013",
+      "title": "CUresult cuMemcpy3DBatchAsync (size_t numOps, CUDA_MEMCPY3D_BATCH_OP *opList, unsigned long long flags, CUstream hStream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Performs a batch of 3D memory copies asynchronously....",
+      "filename": "curesult_cumemcpy3dbatchasync_size_t_numops_cuda_memcpy_1a710013.md"
+    },
+    {
+      "id": "curesult_cumemcpy3dpeer_const_cuda_memcpy3d_peer_pcopy",
+      "title": "CUresult cuMemcpy3DPeer (const CUDA_MEMCPY3D_PEER *pCopy)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Copies memory between contexts....",
+      "filename": "curesult_cumemcpy3dpeer_const_cuda_memcpy3d_peer_pcopy.md"
+    },
+    {
+      "id": "curesult_cumemcpy3dpeerasync_const_cuda_memcpy3d_peer_p_cfe50ef9",
+      "title": "CUresult cuMemcpy3DPeerAsync (const CUDA_MEMCPY3D_PEER *pCopy, CUstream hStream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Copies memory between contexts asynchronously....",
+      "filename": "curesult_cumemcpy3dpeerasync_const_cuda_memcpy3d_peer_p_cfe50ef9.md"
+    },
+    {
+      "id": "curesult_cumemcpyasync_cudeviceptr_dst_cudeviceptr_src__ebf7d9ee",
+      "title": "CUresult cuMemcpyAsync (CUdeviceptr dst, CUdeviceptr src, size_t ByteCount, CUstream hStream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Copies memory asynchronously....",
+      "filename": "curesult_cumemcpyasync_cudeviceptr_dst_cudeviceptr_src__ebf7d9ee.md"
+    },
+    {
+      "id": "curesult_cumemcpyatoa_cuarray_dstarray_size_t_dstoffset_240fb9ab",
+      "title": "CUresult cuMemcpyAtoA (CUarray dstArray, size_t dstOffset, CUarray srcArray, size_t srcOffset, size_t ByteCount)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Copies memory from Array to Array....",
+      "filename": "curesult_cumemcpyatoa_cuarray_dstarray_size_t_dstoffset_240fb9ab.md"
+    },
+    {
+      "id": "curesult_cumemcpyatod_cudeviceptr_dstdevice_cuarray_src_68e5a8d9",
+      "title": "CUresult cuMemcpyAtoD (CUdeviceptr dstDevice, CUarray srcArray, size_t srcOffset, size_t ByteCount)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Copies memory from Array to Device....",
+      "filename": "curesult_cumemcpyatod_cudeviceptr_dstdevice_cuarray_src_68e5a8d9.md"
+    },
+    {
+      "id": "curesult_cumemcpyatoh_void_dsthost_cuarray_srcarray_siz_a6a1be15",
+      "title": "CUresult cuMemcpyAtoH (void *dstHost, CUarray srcArray, size_t srcOffset, size_t ByteCount)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Copies memory from Array to Host....",
+      "filename": "curesult_cumemcpyatoh_void_dsthost_cuarray_srcarray_siz_a6a1be15.md"
+    },
+    {
+      "id": "curesult_cumemcpyatohasync_void_dsthost_cuarray_srcarra_6af84f69",
+      "title": "CUresult cuMemcpyAtoHAsync (void *dstHost, CUarray srcArray, size_t srcOffset, size_t ByteCount, CUstream hStream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Copies memory from Array to Host....",
+      "filename": "curesult_cumemcpyatohasync_void_dsthost_cuarray_srcarra_6af84f69.md"
+    },
+    {
+      "id": "curesult_cumemcpybatchasync_cudeviceptr_dsts_cudevicept_d6318ede",
+      "title": "CUresult cuMemcpyBatchAsync (CUdeviceptr *dsts, CUdeviceptr *srcs, size_t *sizes, size_t count, CUmemcpyAttributes *attrs, size_t *attrsIdxs, size_t numAttrs, CUstream hStream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Performs a batch of memory copies asynchronously....",
+      "filename": "curesult_cumemcpybatchasync_cudeviceptr_dsts_cudevicept_d6318ede.md"
+    },
+    {
+      "id": "curesult_cumemcpydtoa_cuarray_dstarray_size_t_dstoffset_839b5c7c",
+      "title": "CUresult cuMemcpyDtoA (CUarray dstArray, size_t dstOffset, CUdeviceptr srcDevice, size_t ByteCount)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Copies memory from Device to Array....",
+      "filename": "curesult_cumemcpydtoa_cuarray_dstarray_size_t_dstoffset_839b5c7c.md"
+    },
+    {
+      "id": "curesult_cumemcpydtod_cudeviceptr_dstdevice_cudeviceptr_95b326d5",
+      "title": "CUresult cuMemcpyDtoD (CUdeviceptr dstDevice, CUdeviceptr srcDevice, size_t ByteCount)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Copies memory from Device to Device....",
+      "filename": "curesult_cumemcpydtod_cudeviceptr_dstdevice_cudeviceptr_95b326d5.md"
+    },
+    {
+      "id": "curesult_cumemcpydtodasync_cudeviceptr_dstdevice_cudevi_ab38dcd5",
+      "title": "CUresult cuMemcpyDtoDAsync (CUdeviceptr dstDevice, CUdeviceptr srcDevice, size_t ByteCount, CUstream hStream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Copies memory from Device to Device....",
+      "filename": "curesult_cumemcpydtodasync_cudeviceptr_dstdevice_cudevi_ab38dcd5.md"
+    },
+    {
+      "id": "curesult_cumemcpydtoh_void_dsthost_cudeviceptr_srcdevic_d565963f",
+      "title": "CUresult cuMemcpyDtoH (void *dstHost, CUdeviceptr srcDevice, size_t ByteCount)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Copies memory from Device to Host....",
+      "filename": "curesult_cumemcpydtoh_void_dsthost_cudeviceptr_srcdevic_d565963f.md"
+    },
+    {
+      "id": "curesult_cumemcpydtohasync_void_dsthost_cudeviceptr_src_f8a33126",
+      "title": "CUresult cuMemcpyDtoHAsync (void *dstHost, CUdeviceptr srcDevice, size_t ByteCount, CUstream hStream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Copies memory from Device to Host....",
+      "filename": "curesult_cumemcpydtohasync_void_dsthost_cudeviceptr_src_f8a33126.md"
+    },
+    {
+      "id": "curesult_cumemcpyhtoa_cuarray_dstarray_size_t_dstoffset_df676c22",
+      "title": "CUresult cuMemcpyHtoA (CUarray dstArray, size_t dstOffset, const void *srcHost, size_t ByteCount)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Copies memory from Host to Array....",
+      "filename": "curesult_cumemcpyhtoa_cuarray_dstarray_size_t_dstoffset_df676c22.md"
+    },
+    {
+      "id": "curesult_cumemcpyhtoaasync_cuarray_dstarray_size_t_dsto_5f387696",
+      "title": "CUresult cuMemcpyHtoAAsync (CUarray dstArray, size_t dstOffset, const void *srcHost, size_t ByteCount, CUstream hStream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Copies memory from Host to Array....",
+      "filename": "curesult_cumemcpyhtoaasync_cuarray_dstarray_size_t_dsto_5f387696.md"
+    },
+    {
+      "id": "curesult_cumemcpyhtod_cudeviceptr_dstdevice_const_void__3a95cbb2",
+      "title": "CUresult cuMemcpyHtoD (CUdeviceptr dstDevice, const void *srcHost, size_t ByteCount)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Copies memory from Host to Device....",
+      "filename": "curesult_cumemcpyhtod_cudeviceptr_dstdevice_const_void__3a95cbb2.md"
+    },
+    {
+      "id": "curesult_cumemcpyhtodasync_cudeviceptr_dstdevice_const__b5a333ad",
+      "title": "CUresult cuMemcpyHtoDAsync (CUdeviceptr dstDevice, const void *srcHost, size_t ByteCount, CUstream hStream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Copies memory from Host to Device....",
+      "filename": "curesult_cumemcpyhtodasync_cudeviceptr_dstdevice_const__b5a333ad.md"
+    },
+    {
+      "id": "curesult_cumemcpypeer_cudeviceptr_dstdevice_cucontext_d_4fd14297",
+      "title": "CUresult cuMemcpyPeer (CUdeviceptr dstDevice, CUcontext dstContext, CUdeviceptr srcDevice, CUcontext srcContext, size_t ByteCount)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Copies device memory between two contexts....",
+      "filename": "curesult_cumemcpypeer_cudeviceptr_dstdevice_cucontext_d_4fd14297.md"
+    },
+    {
+      "id": "curesult_cumemcpypeerasync_cudeviceptr_dstdevice_cucont_57675804",
+      "title": "CUresult cuMemcpyPeerAsync (CUdeviceptr dstDevice, CUcontext dstContext, CUdeviceptr srcDevice, CUcontext srcContext, size_t ByteCount, CUstream hStream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Copies device memory between two contexts asynchronously....",
+      "filename": "curesult_cumemcpypeerasync_cudeviceptr_dstdevice_cucont_57675804.md"
+    },
+    {
+      "id": "curesult_cumemfree_cudeviceptr_dptr",
+      "title": "CUresult cuMemFree (CUdeviceptr dptr)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Frees device memory....",
+      "filename": "curesult_cumemfree_cudeviceptr_dptr.md"
+    },
+    {
+      "id": "curesult_cumemfreehost_void_p",
+      "title": "CUresult cuMemFreeHost (void *p)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Frees page-locked host memory....",
+      "filename": "curesult_cumemfreehost_void_p.md"
+    },
+    {
+      "id": "curesult_cumemgetaddressrange_cudeviceptr_pbase_size_t__b6f7695d",
+      "title": "CUresult cuMemGetAddressRange (CUdeviceptr *pbase, size_t *psize, CUdeviceptr dptr)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Get information on memory allocations....",
+      "filename": "curesult_cumemgetaddressrange_cudeviceptr_pbase_size_t__b6f7695d.md"
+    },
+    {
+      "id": "curesult_cumemgethandleforaddressrange_void_handle_cude_bdfa1fdd",
+      "title": "CUresult cuMemGetHandleForAddressRange (void *handle, CUdeviceptr dptr, size_t size, CUmemRangeHandleType handleType, unsigned long long flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Retrieve handle for an address range....",
+      "filename": "curesult_cumemgethandleforaddressrange_void_handle_cude_bdfa1fdd.md"
+    },
+    {
+      "id": "curesult_cumemgetinfo_size_t_free_size_t_total",
+      "title": "CUresult cuMemGetInfo (size_t *free, size_t *total)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Gets free and total memory....",
+      "filename": "curesult_cumemgetinfo_size_t_free_size_t_total.md"
+    },
+    {
+      "id": "curesult_cumemhostalloc_void_pp_size_t_bytesize_unsigne_65159384",
+      "title": "CUresult cuMemHostAlloc (void **pp, size_t bytesize, unsigned int Flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Allocates page-locked host memory....",
+      "filename": "curesult_cumemhostalloc_void_pp_size_t_bytesize_unsigne_65159384.md"
+    },
+    {
+      "id": "curesult_cumemhostgetdevicepointer_cudeviceptr_pdptr_vo_61ab1e35",
+      "title": "CUresult cuMemHostGetDevicePointer (CUdeviceptr *pdptr, void *p, unsigned int Flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Passes back device pointer of mapped pinned memory....",
+      "filename": "curesult_cumemhostgetdevicepointer_cudeviceptr_pdptr_vo_61ab1e35.md"
+    },
+    {
+      "id": "curesult_cumemhostgetflags_unsigned_int_pflags_void_p",
+      "title": "CUresult cuMemHostGetFlags (unsigned int *pFlags, void *p)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Passes back flags that were used for a pinned allocation....",
+      "filename": "curesult_cumemhostgetflags_unsigned_int_pflags_void_p.md"
+    },
+    {
+      "id": "curesult_cumemhostregister_void_p_size_t_bytesize_unsig_362b3187",
+      "title": "CUresult cuMemHostRegister (void *p, size_t bytesize, unsigned int Flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Registers an existing host memory range for use by CUDA....",
+      "filename": "curesult_cumemhostregister_void_p_size_t_bytesize_unsig_362b3187.md"
+    },
+    {
+      "id": "curesult_cumemhostunregister_void_p",
+      "title": "CUresult cuMemHostUnregister (void *p)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Unregisters a memory range that was registered with cuMemHostRegister....",
+      "filename": "curesult_cumemhostunregister_void_p.md"
+    },
+    {
+      "id": "curesult_cumemsetd16_cudeviceptr_dstdevice_unsigned_sho_0639ae2c",
+      "title": "CUresult cuMemsetD16 (CUdeviceptr dstDevice, unsigned short us, size_t N)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Initializes device memory....",
+      "filename": "curesult_cumemsetd16_cudeviceptr_dstdevice_unsigned_sho_0639ae2c.md"
+    },
+    {
+      "id": "curesult_cumemsetd16async_cudeviceptr_dstdevice_unsigne_c2f67800",
+      "title": "CUresult cuMemsetD16Async (CUdeviceptr dstDevice, unsigned short us, size_t N, CUstream hStream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets device memory....",
+      "filename": "curesult_cumemsetd16async_cudeviceptr_dstdevice_unsigne_c2f67800.md"
+    },
+    {
+      "id": "curesult_cumemsetd2d16_cudeviceptr_dstdevice_size_t_dst_1b131b19",
+      "title": "CUresult cuMemsetD2D16 (CUdeviceptr dstDevice, size_t dstPitch, unsigned short us, size_t Width, size_t Height)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Initializes device memory....",
+      "filename": "curesult_cumemsetd2d16_cudeviceptr_dstdevice_size_t_dst_1b131b19.md"
+    },
+    {
+      "id": "curesult_cumemsetd2d16async_cudeviceptr_dstdevice_size__6d9cdd34",
+      "title": "CUresult cuMemsetD2D16Async (CUdeviceptr dstDevice, size_t dstPitch, unsigned short us, size_t Width, size_t Height, CUstream hStream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets device memory....",
+      "filename": "curesult_cumemsetd2d16async_cudeviceptr_dstdevice_size__6d9cdd34.md"
+    },
+    {
+      "id": "curesult_cumemsetd2d32_cudeviceptr_dstdevice_size_t_dst_386667f0",
+      "title": "CUresult cuMemsetD2D32 (CUdeviceptr dstDevice, size_t dstPitch, unsigned int ui, size_t Width, size_t Height)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Initializes device memory....",
+      "filename": "curesult_cumemsetd2d32_cudeviceptr_dstdevice_size_t_dst_386667f0.md"
+    },
+    {
+      "id": "curesult_cumemsetd2d32async_cudeviceptr_dstdevice_size__31fedffe",
+      "title": "CUresult cuMemsetD2D32Async (CUdeviceptr dstDevice, size_t dstPitch, unsigned int ui, size_t Width, size_t Height, CUstream hStream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets device memory....",
+      "filename": "curesult_cumemsetd2d32async_cudeviceptr_dstdevice_size__31fedffe.md"
+    },
+    {
+      "id": "curesult_cumemsetd2d8_cudeviceptr_dstdevice_size_t_dstp_d62c73c2",
+      "title": "CUresult cuMemsetD2D8 (CUdeviceptr dstDevice, size_t dstPitch, unsigned char uc, size_t Width, size_t Height)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Initializes device memory....",
+      "filename": "curesult_cumemsetd2d8_cudeviceptr_dstdevice_size_t_dstp_d62c73c2.md"
+    },
+    {
+      "id": "curesult_cumemsetd2d8async_cudeviceptr_dstdevice_size_t_ed9a93a8",
+      "title": "CUresult cuMemsetD2D8Async (CUdeviceptr dstDevice, size_t dstPitch, unsigned char uc, size_t Width, size_t Height, CUstream hStream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets device memory....",
+      "filename": "curesult_cumemsetd2d8async_cudeviceptr_dstdevice_size_t_ed9a93a8.md"
+    },
+    {
+      "id": "curesult_cumemsetd32_cudeviceptr_dstdevice_unsigned_int_87a8fa9d",
+      "title": "CUresult cuMemsetD32 (CUdeviceptr dstDevice, unsigned int ui, size_t N)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Initializes device memory....",
+      "filename": "curesult_cumemsetd32_cudeviceptr_dstdevice_unsigned_int_87a8fa9d.md"
+    },
+    {
+      "id": "curesult_cumemsetd32async_cudeviceptr_dstdevice_unsigne_1ba19da2",
+      "title": "CUresult cuMemsetD32Async (CUdeviceptr dstDevice, unsigned int ui, size_t N, CUstream hStream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets device memory....",
+      "filename": "curesult_cumemsetd32async_cudeviceptr_dstdevice_unsigne_1ba19da2.md"
+    },
+    {
+      "id": "curesult_cumemsetd8_cudeviceptr_dstdevice_unsigned_char_65fe70bd",
+      "title": "CUresult cuMemsetD8 (CUdeviceptr dstDevice, unsigned char uc, size_t N)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Initializes device memory....",
+      "filename": "curesult_cumemsetd8_cudeviceptr_dstdevice_unsigned_char_65fe70bd.md"
+    },
+    {
+      "id": "curesult_cumemsetd8async_cudeviceptr_dstdevice_unsigned_987919a7",
+      "title": "CUresult cuMemsetD8Async (CUdeviceptr dstDevice, unsigned char uc, size_t N, CUstream hStream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets device memory....",
+      "filename": "curesult_cumemsetd8async_cudeviceptr_dstdevice_unsigned_987919a7.md"
+    },
+    {
+      "id": "curesult_cumipmappedarraycreate_cumipmappedarray_phandl_1f5cc928",
+      "title": "CUresult cuMipmappedArrayCreate (CUmipmappedArray *pHandle, const CUDA_ARRAY3D_DESCRIPTOR *pMipmappedArrayDesc, unsigned int numMipmapLevels)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Creates a CUDA mipmapped array....",
+      "filename": "curesult_cumipmappedarraycreate_cumipmappedarray_phandl_1f5cc928.md"
+    },
+    {
+      "id": "curesult_cumipmappedarraydestroy_cumipmappedarray_hmipm_6dc8a567",
+      "title": "CUresult cuMipmappedArrayDestroy (CUmipmappedArray hMipmappedArray)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Destroys a CUDA mipmapped array....",
+      "filename": "curesult_cumipmappedarraydestroy_cumipmappedarray_hmipm_6dc8a567.md"
+    },
+    {
+      "id": "curesult_cumipmappedarraygetlevel_cuarray_plevelarray_c_6afdc31d",
+      "title": "CUresult cuMipmappedArrayGetLevel (CUarray *pLevelArray, CUmipmappedArray hMipmappedArray, unsigned int level)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Gets a mipmap level of a CUDA mipmapped array....",
+      "filename": "curesult_cumipmappedarraygetlevel_cuarray_plevelarray_c_6afdc31d.md"
+    },
+    {
+      "id": "curesult_cumipmappedarraygetmemoryrequirements_cuda_arr_f1015523",
+      "title": "CUresult cuMipmappedArrayGetMemoryRequirements (CUDA_ARRAY_MEMORY_REQUIREMENTS *memoryRequirements, CUmipmappedArray mipmap, CUdevice device)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the memory requirements of a CUDA mipmapped array....",
+      "filename": "curesult_cumipmappedarraygetmemoryrequirements_cuda_arr_f1015523.md"
+    },
+    {
+      "id": "curesult_cumipmappedarraygetsparseproperties_cuda_array_96cd8fe0",
+      "title": "CUresult cuMipmappedArrayGetSparseProperties (CUDA_ARRAY_SPARSE_PROPERTIES *sparseProperties, CUmipmappedArray mipmap)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the layout properties of a sparse CUDA mipmapped array....",
+      "filename": "curesult_cumipmappedarraygetsparseproperties_cuda_array_96cd8fe0.md"
+    }
+  ]
+}

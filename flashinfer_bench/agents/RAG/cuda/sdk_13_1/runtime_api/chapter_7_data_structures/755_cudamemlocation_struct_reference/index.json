@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 7.55. cudaMemLocation Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "int_cudamemlocationid",
+      "title": "int cudaMemLocation::id",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "identifier for a given this location's CUmemLocationType....",
+      "filename": "int_cudamemlocationid.md"
+    },
+    {
+      "id": "enumcudamemlocationtype_cudamemlocationtype",
+      "title": "enumcudaMemLocationType cudaMemLocation::type",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Specifies the location type, which modifies the meaning of id....",
+      "filename": "enumcudamemlocationtype_cudamemlocationtype.md"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Documentation for 7.56. CUdevWorkqueueResource Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "unsigned_char_cudevworkqueueresourcereserved",
+      "title": "unsigned char CUdevWorkqueueResource::reserved",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Reserved for future use...",
+      "filename": "unsigned_char_cudevworkqueueresourcereserved.md"
+    }
+  ]
+}

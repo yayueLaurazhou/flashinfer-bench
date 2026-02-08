@@ -1,0 +1,75 @@
+{
+  "description": "Documentation for 13.2.1. Execution Environment",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "13211_parent_and_child_grids",
+      "title": "13.2.1.1. Parent and Child Grids",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 13.2.1.1. Parent and Child Grids[\uf0c1](#parent-and-child-grids \"Permalink to this headline\")  A device thread that configures and launches a new grid belongs to the parent grid, and the grid created...",
+      "filename": "13211_parent_and_child_grids.md"
+    },
+    {
+      "id": "13212_scope_of_cuda_primitives",
+      "title": "13.2.1.2. Scope of CUDA Primitives",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 13.2.1.2. Scope of CUDA Primitives[\uf0c1](#scope-of-cuda-primitives \"Permalink to this headline\")  On both host and device, the CUDA runtime offers an API for launching kernels and for tracking depen...",
+      "filename": "13212_scope_of_cuda_primitives.md"
+    },
+    {
+      "id": "13213_synchronization",
+      "title": "13.2.1.3. Synchronization",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 13.2.1.3. Synchronization[\uf0c1](#dynamic-parallelism-synchronization \"Permalink to this headline\")  Warning  Explicit synchronization with child kernels from a parent block (i.e. using `cudaDeviceSy...",
+      "filename": "13213_synchronization.md"
+    },
+    {
+      "id": "13214_streams_and_events",
+      "title": "13.2.1.4. Streams and Events",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 13.2.1.4. Streams and Events[\uf0c1](#streams-and-events \"Permalink to this headline\")  CUDA *Streams* and *Events* allow control over dependencies between grid launches: grids launched into the same ...",
+      "filename": "13214_streams_and_events.md"
+    },
+    {
+      "id": "13215_ordering_and_concurrency",
+      "title": "13.2.1.5. Ordering and Concurrency",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 13.2.1.5. Ordering and Concurrency[\uf0c1](#ordering-and-concurrency \"Permalink to this headline\")  The ordering of kernel launches from the device runtime follows CUDA Stream ordering semantics. With...",
+      "filename": "13215_ordering_and_concurrency.md"
+    },
+    {
+      "id": "13216_device_management",
+      "title": "13.2.1.6. Device Management",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 13.2.1.6. Device Management[\uf0c1](#device-management \"Permalink to this headline\")  There is no multi-GPU support from the device runtime; the device runtime is only capable of operating on the devi...",
+      "filename": "13216_device_management.md"
+    }
+  ]
+}

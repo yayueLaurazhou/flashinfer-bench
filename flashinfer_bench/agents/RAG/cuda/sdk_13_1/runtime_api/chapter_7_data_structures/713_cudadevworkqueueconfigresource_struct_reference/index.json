@@ -1,0 +1,45 @@
+{
+  "description": "Documentation for 7.13. cudaDevWorkqueueConfigResource Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "int_cudadevworkqueueconfigresourcedevice",
+      "title": "int cudaDevWorkqueueConfigResource::device",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "The device on which the workqueue resources are available...",
+      "filename": "int_cudadevworkqueueconfigresourcedevice.md"
+    },
+    {
+      "id": "enumcudadevworkqueueconfigscope_cudadevworkqueueconfigr_07cc5e0f",
+      "title": "enumcudaDevWorkqueueConfigScope cudaDevWorkqueueConfigResource::sharingScope",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "The sharing scope for the workqueue resources...",
+      "filename": "enumcudadevworkqueueconfigscope_cudadevworkqueueconfigr_07cc5e0f.md"
+    },
+    {
+      "id": "unsigned_int_cudadevworkqueueconfigresourcewqconcurrencylimit",
+      "title": "unsigned int cudaDevWorkqueueConfigResource::wqConcurrencyLimit",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "The expected maximum number of concurrent stream-ordered workloads...",
+      "filename": "unsigned_int_cudadevworkqueueconfigresourcewqconcurrencylimit.md"
+    }
+  ]
+}

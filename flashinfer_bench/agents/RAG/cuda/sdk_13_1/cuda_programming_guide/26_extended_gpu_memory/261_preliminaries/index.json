@@ -1,0 +1,55 @@
+{
+  "description": "Documentation for 26.1. Preliminaries",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "2611_egm_platforms_system_topology",
+      "title": "26.1.1. EGM Platforms: System topology",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 26.1.1. EGM Platforms: System topology[\uf0c1](#egm-platforms-system-topology \"Permalink to this headline\")  Currently, EGM can be enabled in three platforms: **(1) Single-Node, Single-GPU**: Consists ...",
+      "filename": "2611_egm_platforms_system_topology.md"
+    },
+    {
+      "id": "2612_socket_identifiers_what_are_they_how_to_access_them",
+      "title": "26.1.2. Socket Identifiers: What are they? How to access them?",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 26.1.2. Socket Identifiers: What are they? How to access them?[\uf0c1](#socket-identifiers-what-are-they-how-to-access-them \"Permalink to this headline\")  NUMA (Non-Uniform Memory Access) is a memory a...",
+      "filename": "2612_socket_identifiers_what_are_they_how_to_access_them.md"
+    },
+    {
+      "id": "2613_allocators_and_egm_support",
+      "title": "26.1.3. Allocators and EGM support",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 26.1.3. Allocators and EGM support[\uf0c1](#allocators-and-egm-support \"Permalink to this headline\")  Mapping system memory as EGM does not cause any performance issues. In fact, accessing a remote soc...",
+      "filename": "2613_allocators_and_egm_support.md"
+    },
+    {
+      "id": "2614_memory_management_extensions_to_current_apis",
+      "title": "26.1.4. Memory management extensions to current APIs",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 26.1.4. Memory management extensions to current APIs[\uf0c1](#memory-management-extensions-to-current-apis \"Permalink to this headline\")  Currently, EGM memory can be mapped with Virtual Memory (`cuMem...",
+      "filename": "2614_memory_management_extensions_to_current_apis.md"
+    }
+  ]
+}

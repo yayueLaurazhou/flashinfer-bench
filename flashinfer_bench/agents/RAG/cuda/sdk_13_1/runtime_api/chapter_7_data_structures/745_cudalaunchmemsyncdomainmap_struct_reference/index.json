@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 7.45. cudaLaunchMemSyncDomainMap Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "unsigned_char_cudalaunchmemsyncdomainmapdefault_",
+      "title": "unsigned char cudaLaunchMemSyncDomainMap::default_",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "The default domain ID to use for designated kernels...",
+      "filename": "unsigned_char_cudalaunchmemsyncdomainmapdefault_.md"
+    },
+    {
+      "id": "unsigned_char_cudalaunchmemsyncdomainmapremote",
+      "title": "unsigned char cudaLaunchMemSyncDomainMap::remote",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "The remote domain ID to use for designated kernels...",
+      "filename": "unsigned_char_cudalaunchmemsyncdomainmapremote.md"
+    }
+  ]
+}

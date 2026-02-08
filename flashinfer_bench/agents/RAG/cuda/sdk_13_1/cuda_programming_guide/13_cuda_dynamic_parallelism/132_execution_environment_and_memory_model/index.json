@@ -1,0 +1,24 @@
+{
+  "description": "Documentation for 13.2. Execution Environment and Memory Model",
+  "directories": [
+    {
+      "name": "1321_execution_environment",
+      "description": "### 13.2.1. Execution Environment[\uf0c1](#execution-environment \"Permalink to this headline\")  The CUDA execution model is based on primitives of threads, thread blocks, and grids, with kernel functions d..."
+    },
+    {
+      "name": "1322_memory_model",
+      "description": "### 13.2.2. Memory Model[\uf0c1](#memory-model \"Permalink to this headline\")  Parent and child grids share the same global and constant memory storage, but have distinct local and shared memory...."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    }
+  ]
+}

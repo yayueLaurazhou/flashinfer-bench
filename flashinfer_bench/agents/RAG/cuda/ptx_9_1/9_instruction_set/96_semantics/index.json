@@ -1,0 +1,25 @@
+{
+  "description": "Documentation for 9.6. Semantics",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "The goal of the semantic description of an instruction is to describe the results in all cases in as simple language as possible. The semantics are described using C, until C is not expressive enough."
+    },
+    {
+      "id": "961_machine_specific_semantics_of_16_bit_code",
+      "title": "9.6.1. Machine-Specific Semantics of 16-bit Code",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "A PTX program may execute on a GPU with either a 16-bit or a 32-bit data path. When executing on a 32-bit data path, 16-bit registers in PTX are mapped to 32-bit physical registers, and 16-bit computations are *promoted* to 32-bit computations. This can lead to computational differences between c...",
+      "filename": "961_machine_specific_semantics_of_16_bit_code.md"
+    }
+  ]
+}

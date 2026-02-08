@@ -1,0 +1,110 @@
+{
+  "description": "Documentation for 18.5.22. C++11 Features",
+  "directories": [
+    {
+      "name": "185226_inline_namespaces",
+      "description": "#### 18.5.22.6. Inline namespaces[\uf0c1](#inline-namespaces \"Permalink to this headline\")  For an input CUDA translation unit, the CUDA compiler may invoke the host compiler for compiling the host code wi..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "185221_lambda_expressions",
+      "title": "18.5.22.1. Lambda Expressions",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 18.5.22.1. Lambda Expressions[\uf0c1](#lambda-expressions \"Permalink to this headline\")  The execution space specifiers for all member functions[15](#fn22) of the closure class associated with a lambd...",
+      "filename": "185221_lambda_expressions.md"
+    },
+    {
+      "id": "185222_stdinitializer_list",
+      "title": "18.5.22.2. std::initializer_list",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 18.5.22.2. std::initializer\\_list[\uf0c1](#std-initializer-list \"Permalink to this headline\")  By default, the CUDA compiler will implicitly consider the member functions of `std::initializer_list` to...",
+      "filename": "185222_stdinitializer_list.md"
+    },
+    {
+      "id": "185223_rvalue_references",
+      "title": "18.5.22.3. Rvalue references",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 18.5.22.3. Rvalue references[\uf0c1](#rvalue-references \"Permalink to this headline\")  By default, the CUDA compiler will implicitly consider `std::move` and `std::forward` function templates to have ...",
+      "filename": "185223_rvalue_references.md"
+    },
+    {
+      "id": "185224_constexpr_functions_and_function_templates",
+      "title": "18.5.22.4. Constexpr functions and function templates",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 18.5.22.4. Constexpr functions and function templates[\uf0c1](#constexpr-functions-and-function-templates \"Permalink to this headline\")  By default, a constexpr function cannot be called from a functi...",
+      "filename": "185224_constexpr_functions_and_function_templates.md"
+    },
+    {
+      "id": "185225_constexpr_variables",
+      "title": "18.5.22.5. Constexpr variables",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 18.5.22.5. Constexpr variables[\uf0c1](#constexpr-variables \"Permalink to this headline\")  Let \u2018V\u2019 denote a namespace scope variable or a class static member variable that has been marked constexpr an...",
+      "filename": "185225_constexpr_variables.md"
+    },
+    {
+      "id": "185227_thread_local",
+      "title": "18.5.22.7. thread_local",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 18.5.22.7. thread\\_local[\uf0c1](#thread-local \"Permalink to this headline\")  The `thread_local` storage specifier is not allowed in device code....",
+      "filename": "185227_thread_local.md"
+    },
+    {
+      "id": "185228___global___functions_and_function_templates",
+      "title": "18.5.22.8. __global__ functions and function templates",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 18.5.22.8. \\_\\_global\\_\\_ functions and function templates[\uf0c1](#global-functions-and-function-templates \"Permalink to this headline\")  If the closure type associated with a lambda expression is us...",
+      "filename": "185228___global___functions_and_function_templates.md"
+    },
+    {
+      "id": "185229___managed___and___shared___variables",
+      "title": "18.5.22.9. __managed__ and __shared__ variables",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 18.5.22.9. \\_\\_managed\\_\\_ and \\_\\_shared\\_\\_ variables[\uf0c1](#managed-and-shared-variables \"Permalink to this headline\")  `` `__managed__ `` and `__shared__` variables cannot be marked with the key...",
+      "filename": "185229___managed___and___shared___variables.md"
+    },
+    {
+      "id": "1852210_defaulted_functions",
+      "title": "18.5.22.10. Defaulted functions",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 18.5.22.10. Defaulted functions[\uf0c1](#defaulted-functions \"Permalink to this headline\")  Execution space specifiers on a non-virtual function that is explicitly-defaulted on its first declaration a...",
+      "filename": "1852210_defaulted_functions.md"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Documentation for 7.17. cudaEventRecordNodeParams Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "cudaevent_t_cudaeventrecordnodeparamsevent",
+      "title": "cudaEvent_t cudaEventRecordNodeParams::event",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "The event to record when the node executes...",
+      "filename": "cudaevent_t_cudaeventrecordnodeparamsevent.md"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "description": "Documentation for 6.23. Execution Control [DEPRECATED]",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "curesult_cufuncsetblockshape_cufunction_hfunc_int_x_int_y_int_z",
+      "title": "CUresult cuFuncSetBlockShape (CUfunction hfunc, int x, int y, int z)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets the block-dimensions for the function....",
+      "filename": "curesult_cufuncsetblockshape_cufunction_hfunc_int_x_int_y_int_z.md"
+    },
+    {
+      "id": "curesult_cufuncsetsharedmemconfig_cufunction_hfunc_cush_9e4f4da0",
+      "title": "CUresult cuFuncSetSharedMemConfig (CUfunction hfunc, CUsharedconfig config)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets the shared memory configuration for a device function....",
+      "filename": "curesult_cufuncsetsharedmemconfig_cufunction_hfunc_cush_9e4f4da0.md"
+    },
+    {
+      "id": "curesult_cufuncsetsharedsize_cufunction_hfunc_unsigned_int_bytes",
+      "title": "CUresult cuFuncSetSharedSize (CUfunction hfunc, unsigned int bytes)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets the dynamic shared-memory size for the function....",
+      "filename": "curesult_cufuncsetsharedsize_cufunction_hfunc_unsigned_int_bytes.md"
+    },
+    {
+      "id": "curesult_culaunch_cufunction_f",
+      "title": "CUresult cuLaunch (CUfunction f)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Launches a CUDA function....",
+      "filename": "curesult_culaunch_cufunction_f.md"
+    },
+    {
+      "id": "curesult_culaunchgrid_cufunction_f_int_grid_width_int_g_e509102a",
+      "title": "CUresult cuLaunchGrid (CUfunction f, int grid_width, int grid_height)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Launches a CUDA function....",
+      "filename": "curesult_culaunchgrid_cufunction_f_int_grid_width_int_g_e509102a.md"
+    },
+    {
+      "id": "curesult_culaunchgridasync_cufunction_f_int_grid_width__5392926b",
+      "title": "CUresult cuLaunchGridAsync (CUfunction f, int grid_width, int grid_height, CUstream hStream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Launches a CUDA function....",
+      "filename": "curesult_culaunchgridasync_cufunction_f_int_grid_width__5392926b.md"
+    },
+    {
+      "id": "curesult_cuparamsetf_cufunction_hfunc_int_offset_float_value",
+      "title": "CUresult cuParamSetf (CUfunction hfunc, int offset, float value)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Adds a floating-point parameter to the function's argument list....",
+      "filename": "curesult_cuparamsetf_cufunction_hfunc_int_offset_float_value.md"
+    },
+    {
+      "id": "curesult_cuparamseti_cufunction_hfunc_int_offset_unsign_a9337287",
+      "title": "CUresult cuParamSeti (CUfunction hfunc, int offset, unsigned int value)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Adds an integer parameter to the function's argument list....",
+      "filename": "curesult_cuparamseti_cufunction_hfunc_int_offset_unsign_a9337287.md"
+    },
+    {
+      "id": "curesult_cuparamsetsize_cufunction_hfunc_unsigned_int_numbytes",
+      "title": "CUresult cuParamSetSize (CUfunction hfunc, unsigned int numbytes)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets the parameter size for the function....",
+      "filename": "curesult_cuparamsetsize_cufunction_hfunc_unsigned_int_numbytes.md"
+    },
+    {
+      "id": "curesult_cuparamsettexref_cufunction_hfunc_int_texunit__ac4fb5b8",
+      "title": "CUresult cuParamSetTexRef (CUfunction hfunc, int texunit, CUtexref hTexRef)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Adds a texture-reference to the function's argument list....",
+      "filename": "curesult_cuparamsettexref_cufunction_hfunc_int_texunit__ac4fb5b8.md"
+    },
+    {
+      "id": "curesult_cuparamsetv_cufunction_hfunc_int_offset_void_p_eb9c9ca3",
+      "title": "CUresult cuParamSetv (CUfunction hfunc, int offset, void *ptr, unsigned int numbytes)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Adds arbitrary data to the function's argument list....",
+      "filename": "curesult_cuparamsetv_cufunction_hfunc_int_offset_void_p_eb9c9ca3.md"
+    }
+  ]
+}

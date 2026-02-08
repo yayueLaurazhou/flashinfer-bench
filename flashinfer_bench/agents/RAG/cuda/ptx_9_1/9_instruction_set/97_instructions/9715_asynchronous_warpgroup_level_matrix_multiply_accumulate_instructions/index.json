@@ -1,0 +1,68 @@
+{
+  "description": "Documentation for 9.7.15. Asynchronous Warpgroup Level Matrix Multiply-Accumulate Instructions",
+  "directories": [
+    {
+      "name": "97155_asynchronous_warpgroup_level_matrix_multiply_accumulate_operation_using_wgmmamma_async_instruction",
+      "description": "This section describes warpgroup level `wgmma.mma_async` instruction and the organization of various matrices involved in this instruction."
+    },
+    {
+      "name": "97156_asynchronous_warpgroup_level_multiply_and_accumulate_operation_using_wgmmamma_asyncsp_instruction",
+      "description": "This section describes warp-level `wgmma.mma_async.sp` instruction with sparse matrix A. This variant of the `wgmma.mma_async` operation can be used when A is a structured sparse matrix with 50% zeros in each row distributed in a shape-specific granularity. For an `MxNxK` sparse `wgmma.mma_async...."
+    },
+    {
+      "name": "97157_asynchronous_wgmma_proxy_operations",
+      "description": "This section describes warpgroup level `wgmma.fence`, `wgmma.commit_group` and `wgmma.wait_group` instructions."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "The warpgroup level matrix multiply and accumulate operation has either of the following forms, where matrix `D` is called accumulator:"
+    },
+    {
+      "id": "97151_warpgroup",
+      "title": "9.7.15.1. Warpgroup",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "A warpgroup is a set of four contiguous warps such that the *warp-rank* of the first warp is a multiple of 4.",
+      "filename": "97151_warpgroup.md"
+    },
+    {
+      "id": "97152_matrix_shape",
+      "title": "9.7.15.2. Matrix Shape",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "The matrix multiply and accumulate operations support a limited set of shapes for the operand matrices A, B and D. The shapes of all three matrix operands are collectively described by the tuple `MxNxK`, where A is an `MxK` matrix, B is a `KxN` matrix, while D is a `MxN` matrix.",
+      "filename": "97152_matrix_shape.md"
+    },
+    {
+      "id": "97153_matrix_data_types",
+      "title": "9.7.15.3. Matrix Data-types",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "The matrix multiply and accumulate operation is supported separately on integer, floating-point, sub-byte integer and single bit data-types. All operands must contain the same basic type kind, i.e., integer or floating-point.",
+      "filename": "97153_matrix_data_types.md"
+    },
+    {
+      "id": "97154_async_proxy",
+      "title": "9.7.15.4. Async Proxy",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "The `wgmma.mma_async` operations are performed in the asynchronous proxy (or async proxy).",
+      "filename": "97154_async_proxy.md"
+    }
+  ]
+}

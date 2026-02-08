@@ -1,0 +1,13 @@
+# 6.4.1.1. Generic Addressing
+
+#### 6.4.1.1. [Generic Addressing](https://docs.nvidia.com/cuda/parallel-thread-execution/#generic-addressing)[](https://docs.nvidia.com/cuda/parallel-thread-execution/#generic-addressing "Permalink to this headline")
+
+If a memory instruction does not specify a state space, the operation is performed using generic
+addressing. The state spaces `.const`, [Kernel Function Parameters](https://docs.nvidia.com/cuda/parallel-thread-execution/#kernel-function-parameters)
+(`.param`), `.local` and `.shared` are modeled as
+windows within the generic address space. Each window is defined by a window base and a window size
+that is equal to the size of the corresponding state space. A generic address maps to `global`
+memory unless it falls within the window for `const`, `local`, or `shared` memory. The
+[Kernel Function Parameters](https://docs.nvidia.com/cuda/parallel-thread-execution/#kernel-function-parameters) (`.param`) window is contained
+within the `.global` window. Within each window, a generic address maps to an address in the
+underlying state space by subtracting the window base from the generic address.

@@ -1,0 +1,655 @@
+{
+  "description": "Documentation for 6.10. Memory Management",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "__host__cudaerror_t_cudaarraygetinfo_cudachannelformatd_a8c1bd95",
+      "title": "__host__cudaError_t cudaArrayGetInfo (cudaChannelFormatDesc *desc, cudaExtent *extent, unsigned int *flags, cudaArray_t array)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Gets info about the specified cudaArray....",
+      "filename": "__host__cudaerror_t_cudaarraygetinfo_cudachannelformatd_a8c1bd95.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudaarraygetmemoryrequirements_cuda_21312c2f",
+      "title": "__host__cudaError_t cudaArrayGetMemoryRequirements (cudaArrayMemoryRequirements *memoryRequirements, cudaArray_t array, int device)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the memory requirements of a CUDA array....",
+      "filename": "__host__cudaerror_t_cudaarraygetmemoryrequirements_cuda_21312c2f.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudaarraygetplane_cudaarray_t_pplan_302a2485",
+      "title": "__host__cudaError_t cudaArrayGetPlane (cudaArray_t *pPlaneArray, cudaArray_t hArray, unsigned int planeIdx)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Gets a CUDA array plane from a CUDA array....",
+      "filename": "__host__cudaerror_t_cudaarraygetplane_cudaarray_t_pplan_302a2485.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudaarraygetsparseproperties_cudaar_dbafec8e",
+      "title": "__host__cudaError_t cudaArrayGetSparseProperties (cudaArraySparseProperties *sparseProperties, cudaArray_t array)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the layout properties of a sparse CUDA array....",
+      "filename": "__host__cudaerror_t_cudaarraygetsparseproperties_cudaar_dbafec8e.md"
+    },
+    {
+      "id": "__host____device__cudaerror_t_cudafree_void_devptr",
+      "title": "__host____device__cudaError_t cudaFree (void *devPtr)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Frees memory on the device....",
+      "filename": "__host____device__cudaerror_t_cudafree_void_devptr.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudafreearray_cudaarray_t_array",
+      "title": "__host__cudaError_t cudaFreeArray (cudaArray_t array)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Frees an array on the device....",
+      "filename": "__host__cudaerror_t_cudafreearray_cudaarray_t_array.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudafreehost_void_ptr",
+      "title": "__host__cudaError_t cudaFreeHost (void *ptr)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Frees page-locked memory....",
+      "filename": "__host__cudaerror_t_cudafreehost_void_ptr.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudafreemipmappedarray_cudamipmappe_76c8f165",
+      "title": "__host__cudaError_t cudaFreeMipmappedArray (cudaMipmappedArray_t mipmappedArray)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Frees a mipmapped array on the device....",
+      "filename": "__host__cudaerror_t_cudafreemipmappedarray_cudamipmappe_76c8f165.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagetmipmappedarraylevel_cudaarra_054eb950",
+      "title": "__host__cudaError_t cudaGetMipmappedArrayLevel (cudaArray_t *levelArray, cudaMipmappedArray_const_t mipmappedArray, unsigned int level)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Gets a mipmap level of a CUDA mipmapped array....",
+      "filename": "__host__cudaerror_t_cudagetmipmappedarraylevel_cudaarra_054eb950.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagetsymboladdress_void_devptr_co_5f194f73",
+      "title": "__host__cudaError_t cudaGetSymbolAddress (void **devPtr, const void *symbol)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Finds the address associated with a CUDA symbol....",
+      "filename": "__host__cudaerror_t_cudagetsymboladdress_void_devptr_co_5f194f73.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagetsymbolsize_size_t_size_const_54cd38be",
+      "title": "__host__cudaError_t cudaGetSymbolSize (size_t *size, const void *symbol)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Finds the size of the object associated with a CUDA symbol....",
+      "filename": "__host__cudaerror_t_cudagetsymbolsize_size_t_size_const_54cd38be.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudahostalloc_void_phost_size_t_siz_0cb101ec",
+      "title": "__host__cudaError_t cudaHostAlloc (void **pHost, size_t size, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Allocates page-locked memory on the host....",
+      "filename": "__host__cudaerror_t_cudahostalloc_void_phost_size_t_siz_0cb101ec.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudahostgetdevicepointer_void_pdevi_9badf337",
+      "title": "__host__cudaError_t cudaHostGetDevicePointer (void **pDevice, void *pHost, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Passes back device pointer of mapped host memory allocated by cudaHostAlloc or registered by cudaHostRegister....",
+      "filename": "__host__cudaerror_t_cudahostgetdevicepointer_void_pdevi_9badf337.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudahostgetflags_unsigned_int_pflag_5d52a905",
+      "title": "__host__cudaError_t cudaHostGetFlags (unsigned int *pFlags, void *pHost)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Passes back flags used to allocate pinned host memory allocated by cudaHostAlloc....",
+      "filename": "__host__cudaerror_t_cudahostgetflags_unsigned_int_pflag_5d52a905.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudahostregister_void_ptr_size_t_si_2f043779",
+      "title": "__host__cudaError_t cudaHostRegister (void *ptr, size_t size, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Registers an existing host memory range for use by CUDA....",
+      "filename": "__host__cudaerror_t_cudahostregister_void_ptr_size_t_si_2f043779.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudahostunregister_void_ptr",
+      "title": "__host__cudaError_t cudaHostUnregister (void *ptr)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Unregisters a memory range that was registered with cudaHostRegister....",
+      "filename": "__host__cudaerror_t_cudahostunregister_void_ptr.md"
+    },
+    {
+      "id": "__host____device__cudaerror_t_cudamalloc_void_devptr_size_t_size",
+      "title": "__host____device__cudaError_t cudaMalloc (void **devPtr, size_t size)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Allocate memory on the device....",
+      "filename": "__host____device__cudaerror_t_cudamalloc_void_devptr_size_t_size.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudamalloc3d_cudapitchedptr_pitched_95c07351",
+      "title": "__host__cudaError_t cudaMalloc3D (cudaPitchedPtr *pitchedDevPtr, cudaExtent extent)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Allocates logical 1D, 2D, or 3D memory objects on the device....",
+      "filename": "__host__cudaerror_t_cudamalloc3d_cudapitchedptr_pitched_95c07351.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudamalloc3darray_cudaarray_t_array_83f3f341",
+      "title": "__host__cudaError_t cudaMalloc3DArray (cudaArray_t *array, const cudaChannelFormatDesc *desc, cudaExtent extent, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Allocate an array on the device....",
+      "filename": "__host__cudaerror_t_cudamalloc3darray_cudaarray_t_array_83f3f341.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudamallocarray_cudaarray_t_array_c_5b5331d0",
+      "title": "__host__cudaError_t cudaMallocArray (cudaArray_t *array, const cudaChannelFormatDesc *desc, size_t width, size_t height, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Allocate an array on the device....",
+      "filename": "__host__cudaerror_t_cudamallocarray_cudaarray_t_array_c_5b5331d0.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudamallochost_void_ptr_size_t_size",
+      "title": "__host__cudaError_t cudaMallocHost (void **ptr, size_t size)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Allocates page-locked memory on the host....",
+      "filename": "__host__cudaerror_t_cudamallochost_void_ptr_size_t_size.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudamallocmanaged_void_devptr_size__f69ab237",
+      "title": "__host__cudaError_t cudaMallocManaged (void **devPtr, size_t size, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Allocates memory that will be automatically managed by the Unified Memory system....",
+      "filename": "__host__cudaerror_t_cudamallocmanaged_void_devptr_size__f69ab237.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudamallocmipmappedarray_cudamipmap_e7a231a9",
+      "title": "__host__cudaError_t cudaMallocMipmappedArray (cudaMipmappedArray_t *mipmappedArray, const cudaChannelFormatDesc *desc, cudaExtent extent, unsigned int numLevels, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Allocate a mipmapped array on the device....",
+      "filename": "__host__cudaerror_t_cudamallocmipmappedarray_cudamipmap_e7a231a9.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudamallocpitch_void_devptr_size_t__ee7f9277",
+      "title": "__host__cudaError_t cudaMallocPitch (void **devPtr, size_t *pitch, size_t width, size_t height)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Allocates pitched memory on the device....",
+      "filename": "__host__cudaerror_t_cudamallocpitch_void_devptr_size_t__ee7f9277.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudamemadvise_const_void_devptr_siz_a6e6a93b",
+      "title": "__host__cudaError_t cudaMemAdvise (const void *devPtr, size_t count, cudaMemoryAdvise advice, cudaMemLocation location)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Advise about the usage of a given memory range....",
+      "filename": "__host__cudaerror_t_cudamemadvise_const_void_devptr_siz_a6e6a93b.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudamemcpy_void_dst_const_void_src__27061698",
+      "title": "__host__cudaError_t cudaMemcpy (void *dst, const void *src, size_t count, cudaMemcpyKind kind)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Copies data between host and device....",
+      "filename": "__host__cudaerror_t_cudamemcpy_void_dst_const_void_src__27061698.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudamemcpy2d_void_dst_size_t_dpitch_5f3a567e",
+      "title": "__host__cudaError_t cudaMemcpy2D (void *dst, size_t dpitch, const void *src, size_t spitch, size_t width, size_t height, cudaMemcpyKind kind)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Copies data between host and device....",
+      "filename": "__host__cudaerror_t_cudamemcpy2d_void_dst_size_t_dpitch_5f3a567e.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudamemcpy2darraytoarray_cudaarray__bbcb2895",
+      "title": "__host__cudaError_t cudaMemcpy2DArrayToArray (cudaArray_t dst, size_t wOffsetDst, size_t hOffsetDst, cudaArray_const_t src, size_t wOffsetSrc, size_t hOffsetSrc, size_t width, size_t height, cudaMemcpyKind kind)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Copies data between host and device....",
+      "filename": "__host__cudaerror_t_cudamemcpy2darraytoarray_cudaarray__bbcb2895.md"
+    },
+    {
+      "id": "__host____device__cudaerror_t_cudamemcpy2dasync_void_ds_b43621ac",
+      "title": "__host____device__cudaError_t cudaMemcpy2DAsync (void *dst, size_t dpitch, const void *src, size_t spitch, size_t width, size_t height, cudaMemcpyKind kind, cudaStream_t stream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Copies data between host and device....",
+      "filename": "__host____device__cudaerror_t_cudamemcpy2dasync_void_ds_b43621ac.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudamemcpy2dfromarray_void_dst_size_2d38a567",
+      "title": "__host__cudaError_t cudaMemcpy2DFromArray (void *dst, size_t dpitch, cudaArray_const_t src, size_t wOffset, size_t hOffset, size_t width, size_t height, cudaMemcpyKind kind)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Copies data between host and device....",
+      "filename": "__host__cudaerror_t_cudamemcpy2dfromarray_void_dst_size_2d38a567.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudamemcpy2dfromarrayasync_void_dst_e13e6817",
+      "title": "__host__cudaError_t cudaMemcpy2DFromArrayAsync (void *dst, size_t dpitch, cudaArray_const_t src, size_t wOffset, size_t hOffset, size_t width, size_t height, cudaMemcpyKind kind, cudaStream_t stream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Copies data between host and device....",
+      "filename": "__host__cudaerror_t_cudamemcpy2dfromarrayasync_void_dst_e13e6817.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudamemcpy2dtoarray_cudaarray_t_dst_ec89c9d9",
+      "title": "__host__cudaError_t cudaMemcpy2DToArray (cudaArray_t dst, size_t wOffset, size_t hOffset, const void *src, size_t spitch, size_t width, size_t height, cudaMemcpyKind kind)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Copies data between host and device....",
+      "filename": "__host__cudaerror_t_cudamemcpy2dtoarray_cudaarray_t_dst_ec89c9d9.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudamemcpy2dtoarrayasync_cudaarray__76d921e5",
+      "title": "__host__cudaError_t cudaMemcpy2DToArrayAsync (cudaArray_t dst, size_t wOffset, size_t hOffset, const void *src, size_t spitch, size_t width, size_t height, cudaMemcpyKind kind, cudaStream_t stream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Copies data between host and device....",
+      "filename": "__host__cudaerror_t_cudamemcpy2dtoarrayasync_cudaarray__76d921e5.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudamemcpy3d_const_cudamemcpy3dparms_p",
+      "title": "__host__cudaError_t cudaMemcpy3D (const cudaMemcpy3DParms *p)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Copies data between 3D objects....",
+      "filename": "__host__cudaerror_t_cudamemcpy3d_const_cudamemcpy3dparms_p.md"
+    },
+    {
+      "id": "__host____device__cudaerror_t_cudamemcpy3dasync_const_c_60259a7f",
+      "title": "__host____device__cudaError_t cudaMemcpy3DAsync (const cudaMemcpy3DParms *p, cudaStream_t stream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Copies data between 3D objects....",
+      "filename": "__host____device__cudaerror_t_cudamemcpy3dasync_const_c_60259a7f.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudamemcpy3dbatchasync_size_t_numop_52c32374",
+      "title": "__host__cudaError_t cudaMemcpy3DBatchAsync (size_t numOps, cudaMemcpy3DBatchOp *opList, unsigned long long flags, cudaStream_t stream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Performs a batch of 3D memory copies asynchronously....",
+      "filename": "__host__cudaerror_t_cudamemcpy3dbatchasync_size_t_numop_52c32374.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudamemcpy3dpeer_const_cudamemcpy3d_6ccdc32e",
+      "title": "__host__cudaError_t cudaMemcpy3DPeer (const cudaMemcpy3DPeerParms *p)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Copies memory between devices....",
+      "filename": "__host__cudaerror_t_cudamemcpy3dpeer_const_cudamemcpy3d_6ccdc32e.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudamemcpy3dpeerasync_const_cudamem_3ec2dd00",
+      "title": "__host__cudaError_t cudaMemcpy3DPeerAsync (const cudaMemcpy3DPeerParms *p, cudaStream_t stream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Copies memory between devices asynchronously....",
+      "filename": "__host__cudaerror_t_cudamemcpy3dpeerasync_const_cudamem_3ec2dd00.md"
+    },
+    {
+      "id": "__host____device__cudaerror_t_cudamemcpyasync_void_dst__428baf0b",
+      "title": "__host____device__cudaError_t cudaMemcpyAsync (void *dst, const void *src, size_t count, cudaMemcpyKind kind, cudaStream_t stream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Copies data between host and device....",
+      "filename": "__host____device__cudaerror_t_cudamemcpyasync_void_dst__428baf0b.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudamemcpybatchasync_const_void_dst_365fa609",
+      "title": "__host__cudaError_t cudaMemcpyBatchAsync (const void **dsts, const void **srcs, const size_t *sizes, size_t count, cudaMemcpyAttributes *attrs, size_t *attrsIdxs, size_t numAttrs, cudaStream_t stream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Performs a batch of memory copies asynchronously....",
+      "filename": "__host__cudaerror_t_cudamemcpybatchasync_const_void_dst_365fa609.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudamemcpyfromsymbol_void_dst_const_8f34f745",
+      "title": "__host__cudaError_t cudaMemcpyFromSymbol (void *dst, const void *symbol, size_t count, size_t offset, cudaMemcpyKind kind)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Copies data from the given symbol on the device....",
+      "filename": "__host__cudaerror_t_cudamemcpyfromsymbol_void_dst_const_8f34f745.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudamemcpyfromsymbolasync_void_dst__6a98a00a",
+      "title": "__host__cudaError_t cudaMemcpyFromSymbolAsync (void *dst, const void *symbol, size_t count, size_t offset, cudaMemcpyKind kind, cudaStream_t stream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Copies data from the given symbol on the device....",
+      "filename": "__host__cudaerror_t_cudamemcpyfromsymbolasync_void_dst__6a98a00a.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudamemcpypeer_void_dst_int_dstdevi_2af51de3",
+      "title": "__host__cudaError_t cudaMemcpyPeer (void *dst, int dstDevice, const void *src, int srcDevice, size_t count)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Copies memory between two devices....",
+      "filename": "__host__cudaerror_t_cudamemcpypeer_void_dst_int_dstdevi_2af51de3.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudamemcpypeerasync_void_dst_int_ds_3766f32f",
+      "title": "__host__cudaError_t cudaMemcpyPeerAsync (void *dst, int dstDevice, const void *src, int srcDevice, size_t count, cudaStream_t stream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Copies memory between two devices asynchronously....",
+      "filename": "__host__cudaerror_t_cudamemcpypeerasync_void_dst_int_ds_3766f32f.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudamemcpytosymbol_const_void_symbo_426e4159",
+      "title": "__host__cudaError_t cudaMemcpyToSymbol (const void *symbol, const void *src, size_t count, size_t offset, cudaMemcpyKind kind)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Copies data to the given symbol on the device....",
+      "filename": "__host__cudaerror_t_cudamemcpytosymbol_const_void_symbo_426e4159.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudamemcpytosymbolasync_const_void__6f034a7e",
+      "title": "__host__cudaError_t cudaMemcpyToSymbolAsync (const void *symbol, const void *src, size_t count, size_t offset, cudaMemcpyKind kind, cudaStream_t stream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Copies data to the given symbol on the device....",
+      "filename": "__host__cudaerror_t_cudamemcpytosymbolasync_const_void__6f034a7e.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudamemdiscardandprefetchbatchasync_5be7f17f",
+      "title": "__host__cudaError_t cudaMemDiscardAndPrefetchBatchAsync (void **dptrs, size_t *sizes, size_t count, cudaMemLocation *prefetchLocs, size_t *prefetchLocIdxs, size_t numPrefetchLocs, unsigned long long flags, cudaStream_t stream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Performs a batch of memory discards and prefetches asynchronously....",
+      "filename": "__host__cudaerror_t_cudamemdiscardandprefetchbatchasync_5be7f17f.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudamemdiscardbatchasync_void_dptrs_3656ff19",
+      "title": "__host__cudaError_t cudaMemDiscardBatchAsync (void **dptrs, size_t *sizes, size_t count, unsigned long long flags, cudaStream_t stream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Performs a batch of memory discards asynchronously....",
+      "filename": "__host__cudaerror_t_cudamemdiscardbatchasync_void_dptrs_3656ff19.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudamemgetinfo_size_t_free_size_t_total",
+      "title": "__host__cudaError_t cudaMemGetInfo (size_t *free, size_t *total)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Gets free and total device memory....",
+      "filename": "__host__cudaerror_t_cudamemgetinfo_size_t_free_size_t_total.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudamemprefetchasync_const_void_dev_8ede693b",
+      "title": "__host__cudaError_t cudaMemPrefetchAsync (const void *devPtr, size_t count, cudaMemLocation location, unsigned int flags, cudaStream_t stream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Prefetches memory to the specified destination location....",
+      "filename": "__host__cudaerror_t_cudamemprefetchasync_const_void_dev_8ede693b.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudamemprefetchbatchasync_void_dptr_1bed18e7",
+      "title": "__host__cudaError_t cudaMemPrefetchBatchAsync (void **dptrs, size_t *sizes, size_t count, cudaMemLocation *prefetchLocs, size_t *prefetchLocIdxs, size_t numPrefetchLocs, unsigned long long flags, cudaStream_t stream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Performs a batch of memory prefetches asynchronously....",
+      "filename": "__host__cudaerror_t_cudamemprefetchbatchasync_void_dptr_1bed18e7.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudamemrangegetattribute_void_data__83f662ab",
+      "title": "__host__cudaError_t cudaMemRangeGetAttribute (void *data, size_t dataSize, cudaMemRangeAttribute attribute, const void *devPtr, size_t count)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Query an attribute of a given memory range....",
+      "filename": "__host__cudaerror_t_cudamemrangegetattribute_void_data__83f662ab.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudamemrangegetattributes_void_data_9c8ec401",
+      "title": "__host__cudaError_t cudaMemRangeGetAttributes (void **data, size_t *dataSizes, cudaMemRangeAttribute *attributes, size_t numAttributes, const void *devPtr, size_t count)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Query attributes of a given memory range....",
+      "filename": "__host__cudaerror_t_cudamemrangegetattributes_void_data_9c8ec401.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudamemset_void_devptr_int_value_si_37d1f900",
+      "title": "__host__cudaError_t cudaMemset (void *devPtr, int value, size_t count)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Initializes or sets device memory to a value....",
+      "filename": "__host__cudaerror_t_cudamemset_void_devptr_int_value_si_37d1f900.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudamemset2d_void_devptr_size_t_pit_6b366dd8",
+      "title": "__host__cudaError_t cudaMemset2D (void *devPtr, size_t pitch, int value, size_t width, size_t height)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Initializes or sets device memory to a value....",
+      "filename": "__host__cudaerror_t_cudamemset2d_void_devptr_size_t_pit_6b366dd8.md"
+    },
+    {
+      "id": "__host____device__cudaerror_t_cudamemset2dasync_void_de_d0f1aae8",
+      "title": "__host____device__cudaError_t cudaMemset2DAsync (void *devPtr, size_t pitch, int value, size_t width, size_t height, cudaStream_t stream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Initializes or sets device memory to a value....",
+      "filename": "__host____device__cudaerror_t_cudamemset2dasync_void_de_d0f1aae8.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudamemset3d_cudapitchedptr_pitched_82d6c142",
+      "title": "__host__cudaError_t cudaMemset3D (cudaPitchedPtr pitchedDevPtr, int value, cudaExtent extent)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Initializes or sets device memory to a value....",
+      "filename": "__host__cudaerror_t_cudamemset3d_cudapitchedptr_pitched_82d6c142.md"
+    },
+    {
+      "id": "__host____device__cudaerror_t_cudamemset3dasync_cudapit_145bc60c",
+      "title": "__host____device__cudaError_t cudaMemset3DAsync (cudaPitchedPtr pitchedDevPtr, int value, cudaExtent extent, cudaStream_t stream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Initializes or sets device memory to a value....",
+      "filename": "__host____device__cudaerror_t_cudamemset3dasync_cudapit_145bc60c.md"
+    },
+    {
+      "id": "__host____device__cudaerror_t_cudamemsetasync_void_devp_0ed03682",
+      "title": "__host____device__cudaError_t cudaMemsetAsync (void *devPtr, int value, size_t count, cudaStream_t stream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Initializes or sets device memory to a value....",
+      "filename": "__host____device__cudaerror_t_cudamemsetasync_void_devp_0ed03682.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudamipmappedarraygetmemoryrequirem_ab556380",
+      "title": "__host__cudaError_t cudaMipmappedArrayGetMemoryRequirements (cudaArrayMemoryRequirements *memoryRequirements, cudaMipmappedArray_t mipmap, int device)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the memory requirements of a CUDA mipmapped array....",
+      "filename": "__host__cudaerror_t_cudamipmappedarraygetmemoryrequirem_ab556380.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudamipmappedarraygetsparseproperti_c204984b",
+      "title": "__host__cudaError_t cudaMipmappedArrayGetSparseProperties (cudaArraySparseProperties *sparseProperties, cudaMipmappedArray_t mipmap)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the layout properties of a sparse CUDA mipmapped array....",
+      "filename": "__host__cudaerror_t_cudamipmappedarraygetsparseproperti_c204984b.md"
+    },
+    {
+      "id": "__host__make_cudaextent_size_t_w_size_t_h_size_t_d",
+      "title": "__host__make_cudaExtent (size_t w, size_t h, size_t d)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns a cudaExtent based on input parameters....",
+      "filename": "__host__make_cudaextent_size_t_w_size_t_h_size_t_d.md"
+    },
+    {
+      "id": "__host__make_cudapitchedptr_void_d_size_t_p_size_t_xsz__7550dbe3",
+      "title": "__host__make_cudaPitchedPtr (void *d, size_t p, size_t xsz, size_t ysz)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns a cudaPitchedPtr based on input parameters....",
+      "filename": "__host__make_cudapitchedptr_void_d_size_t_p_size_t_xsz__7550dbe3.md"
+    },
+    {
+      "id": "__host__make_cudapos_size_t_x_size_t_y_size_t_z",
+      "title": "__host__make_cudaPos (size_t x, size_t y, size_t z)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns a cudaPos based on input parameters....",
+      "filename": "__host__make_cudapos_size_t_x_size_t_y_size_t_z.md"
+    }
+  ]
+}

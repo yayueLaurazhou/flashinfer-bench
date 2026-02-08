@@ -1,0 +1,65 @@
+{
+  "description": "Documentation for 7.81. CUstreamBatchMemOpParams_v1 Union Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "custreambatchmemopparams_v1custreammemopflushremotew_cu_adb1f352",
+      "title": "CUstreamBatchMemOpParams_v1::CUstreamMemOpFlushRemoteW CUstreamBatchMemOpParams_v1::flushRemoteWrites",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Params for CU_STREAM_MEM_OP_FLUSH_REMOTE_WRITES operations....",
+      "filename": "custreambatchmemopparams_v1custreammemopflushremotew_cu_adb1f352.md"
+    },
+    {
+      "id": "custreambatchmemopparams_v1custreammemopmemorybarrie_cu_a2a2632a",
+      "title": "CUstreamBatchMemOpParams_v1::CUstreamMemOpMemoryBarrie CUstreamBatchMemOpParams_v1::memoryBarrier",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Params for CU_STREAM_MEM_OP_BARRIER operations....",
+      "filename": "custreambatchmemopparams_v1custreammemopmemorybarrie_cu_a2a2632a.md"
+    },
+    {
+      "id": "custreambatchmemoptype_custreambatchmemopparams_v1operation",
+      "title": "CUstreamBatchMemOpType CUstreamBatchMemOpParams_v1::operation",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Operation. This is the first field of all the union elemets and acts as a TAG to determine which union member is valid....",
+      "filename": "custreambatchmemoptype_custreambatchmemopparams_v1operation.md"
+    },
+    {
+      "id": "custreambatchmemopparams_v1custreammemopwaitvaluepara_c_fa6bceb1",
+      "title": "CUstreamBatchMemOpParams_v1::CUstreamMemOpWaitValuePara CUstreamBatchMemOpParams_v1::waitValue",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Params for CU_STREAM_MEM_OP_WAIT_VALUE_32 and CU_STREAM_MEM_OP_WAIT_VALUE_64 operations.   CUDA Driver API TRM-06703-001 _vRelease Version  |  734   Data Structures...",
+      "filename": "custreambatchmemopparams_v1custreammemopwaitvaluepara_c_fa6bceb1.md"
+    },
+    {
+      "id": "custreambatchmemopparams_v1custreammemopwritevaluepar_c_70e43217",
+      "title": "CUstreamBatchMemOpParams_v1::CUstreamMemOpWriteValuePar CUstreamBatchMemOpParams_v1::writeValue",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Params for CU_STREAM_MEM_OP_WRITE_VALUE_32 and CU_STREAM_MEM_OP_WRITE_VALUE_64 operations....",
+      "filename": "custreambatchmemopparams_v1custreammemopwritevaluepar_c_70e43217.md"
+    }
+  ]
+}

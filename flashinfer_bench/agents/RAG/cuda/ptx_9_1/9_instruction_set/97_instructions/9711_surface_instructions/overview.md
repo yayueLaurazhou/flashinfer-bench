@@ -1,0 +1,17 @@
+# 9.7.11. Surface Instructions
+
+### 9.7.11. [Surface Instructions](https://docs.nvidia.com/cuda/parallel-thread-execution/#surface-instructions)[](https://docs.nvidia.com/cuda/parallel-thread-execution/#surface-instructions "Permalink to this headline")
+
+This section describes PTX instructions for accessing surfaces. PTX supports the following
+operations on surface descriptors:
+
+* Static initialization of surface descriptors.
+* Module-scope and per-entry scope definitions of surface descriptors.
+* Ability to query fields within surface descriptors.
+
+These instructions provide access to surface memory.
+
+* `suld`
+* `sust`
+* `sured`
+* `suq`

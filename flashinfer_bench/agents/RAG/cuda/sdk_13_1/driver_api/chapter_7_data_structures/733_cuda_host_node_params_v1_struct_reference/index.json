@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 7.33. CUDA_HOST_NODE_PARAMS_v1 Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "cuhostfn_cuda_host_node_params_v1fn",
+      "title": "CUhostFn CUDA_HOST_NODE_PARAMS_v1::fn",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "The function to call when the node executes...",
+      "filename": "cuhostfn_cuda_host_node_params_v1fn.md"
+    },
+    {
+      "id": "void_cuda_host_node_params_v1userdata",
+      "title": "void *CUDA_HOST_NODE_PARAMS_v1::userData",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Argument to pass to the function...",
+      "filename": "void_cuda_host_node_params_v1userdata.md"
+    }
+  ]
+}

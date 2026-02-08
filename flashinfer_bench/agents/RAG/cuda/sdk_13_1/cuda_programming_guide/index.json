@@ -1,0 +1,155 @@
+{
+  "description": "PTX Documentation Root",
+  "directories": [
+    {
+      "name": "3_introduction",
+      "description": "# 3. Introduction[\uf0c1](#introduction \"Permalink to this headline\")  Warning  This document has been replaced by a new [CUDA Programming Guide](http://docs.nvidia.com/cuda/cuda-programming-guide). The in..."
+    },
+    {
+      "name": "5_programming_model",
+      "description": "# 5. Programming Model[\uf0c1](#programming-model \"Permalink to this headline\")  Warning  This document has been replaced by a new [CUDA Programming Guide](http://docs.nvidia.com/cuda/cuda-programming-guid..."
+    },
+    {
+      "name": "6_programming_interface",
+      "description": "# 6. Programming Interface[\uf0c1](#programming-interface \"Permalink to this headline\")  Warning  This document has been replaced by a new [CUDA Programming Guide](http://docs.nvidia.com/cuda/cuda-programm..."
+    },
+    {
+      "name": "7_hardware_implementation",
+      "description": "# 7. Hardware Implementation[\uf0c1](#hardware-implementation \"Permalink to this headline\")  Warning  This document has been replaced by a new [CUDA Programming Guide](http://docs.nvidia.com/cuda/cuda-prog..."
+    },
+    {
+      "name": "8_performance_guidelines",
+      "description": "# 8. Performance Guidelines[\uf0c1](#performance-guidelines \"Permalink to this headline\")  Warning  This document has been replaced by a new [CUDA Programming Guide](http://docs.nvidia.com/cuda/cuda-progra..."
+    },
+    {
+      "name": "10_c_language_extensions",
+      "description": "# 10. C++ Language Extensions[\uf0c1](#c-language-extensions \"Permalink to this headline\")  Warning  This document has been replaced by a new [CUDA Programming Guide](http://docs.nvidia.com/cuda/cuda-progr..."
+    },
+    {
+      "name": "11_cooperative_groups",
+      "description": "# 11. Cooperative Groups[\uf0c1](#cooperative-groups \"Permalink to this headline\")  Warning  This document has been replaced by a new [CUDA Programming Guide](http://docs.nvidia.com/cuda/cuda-programming-g..."
+    },
+    {
+      "name": "12_cluster_launch_control",
+      "description": "# 12. Cluster Launch Control[\uf0c1](#cluster-launch-control \"Permalink to this headline\")  Warning  This document has been replaced by a new [CUDA Programming Guide](http://docs.nvidia.com/cuda/cuda-progr..."
+    },
+    {
+      "name": "13_cuda_dynamic_parallelism",
+      "description": "# 13. CUDA Dynamic Parallelism[\uf0c1](#cuda-dynamic-parallelism \"Permalink to this headline\")  Warning  This document has been replaced by a new [CUDA Programming Guide](http://docs.nvidia.com/cuda/cuda-p..."
+    },
+    {
+      "name": "14_virtual_memory_management",
+      "description": "# 14. Virtual Memory Management[\uf0c1](#virtual-memory-management \"Permalink to this headline\")  Warning  This document has been replaced by a new [CUDA Programming Guide](http://docs.nvidia.com/cuda/cuda..."
+    },
+    {
+      "name": "15_stream_ordered_memory_allocator",
+      "description": "# 15. Stream Ordered Memory Allocator[\uf0c1](#stream-ordered-memory-allocator \"Permalink to this headline\")  Warning  This document has been replaced by a new [CUDA Programming Guide](http://docs.nvidia.c..."
+    },
+    {
+      "name": "16_graph_memory_nodes",
+      "description": "# 16. Graph Memory Nodes[\uf0c1](#graph-memory-nodes \"Permalink to this headline\")  Warning  This document has been replaced by a new [CUDA Programming Guide](http://docs.nvidia.com/cuda/cuda-programming-g..."
+    },
+    {
+      "name": "17_mathematical_functions",
+      "description": "# 17. Mathematical Functions[\uf0c1](#mathematical-functions-appendix \"Permalink to this headline\")  Warning  This document has been replaced by a new [CUDA Programming Guide](http://docs.nvidia.com/cuda/c..."
+    },
+    {
+      "name": "18_c_language_support",
+      "description": "# 18. C++ Language Support[\uf0c1](#c-language-support \"Permalink to this headline\")  Warning  This document has been replaced by a new [CUDA Programming Guide](http://docs.nvidia.com/cuda/cuda-programming..."
+    },
+    {
+      "name": "19_texture_fetching",
+      "description": "# 19. Texture Fetching[\uf0c1](#texture-fetching \"Permalink to this headline\")  Warning  This document has been replaced by a new [CUDA Programming Guide](http://docs.nvidia.com/cuda/cuda-programming-guide..."
+    },
+    {
+      "name": "20_compute_capabilities",
+      "description": "# 20. Compute Capabilities[\uf0c1](#compute-capabilities \"Permalink to this headline\")  Warning  This document has been replaced by a new [CUDA Programming Guide](http://docs.nvidia.com/cuda/cuda-programmi..."
+    },
+    {
+      "name": "21_driver_api",
+      "description": "# 21. Driver API[\uf0c1](#driver-api \"Permalink to this headline\")  Warning  This document has been replaced by a new [CUDA Programming Guide](http://docs.nvidia.com/cuda/cuda-programming-guide). The infor..."
+    },
+    {
+      "name": "23_error_log_management",
+      "description": "# 23. Error Log Management[\uf0c1](#error-log-management \"Permalink to this headline\")  Warning  This document has been replaced by a new [CUDA Programming Guide](http://docs.nvidia.com/cuda/cuda-programmi..."
+    },
+    {
+      "name": "24_unified_memory_programming",
+      "description": "# 24. Unified Memory Programming[\uf0c1](#unified-memory-programming \"Permalink to this headline\")  Warning  This document has been replaced by a new [CUDA Programming Guide](http://docs.nvidia.com/cuda/cu..."
+    },
+    {
+      "name": "25_lazy_loading",
+      "description": "# 25. Lazy Loading[\uf0c1](#lazy-loading \"Permalink to this headline\")  Warning  This document has been replaced by a new [CUDA Programming Guide](http://docs.nvidia.com/cuda/cuda-programming-guide). The i..."
+    },
+    {
+      "name": "26_extended_gpu_memory",
+      "description": "# 26. Extended GPU Memory[\uf0c1](#extended-gpu-memory \"Permalink to this headline\")  Warning  This document has been replaced by a new [CUDA Programming Guide](http://docs.nvidia.com/cuda/cuda-programming..."
+    },
+    {
+      "name": "27_notices",
+      "description": "# 27. Notices[\uf0c1](#notices \"Permalink to this headline\")..."
+    }
+  ],
+  "files": [
+    {
+      "id": "1_overview",
+      "title": "1. Overview",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "[CUDA C++ Programming Guide](contents.html)  * \u00bb * CUDA C++ Programming Guide (Legacy) * v13.1 |   [PDF](../pdf/CUDA_C_Programming_Guide.pdf)   |   [Archive](https://developer.nvidia.com/cuda-toolkit-...",
+      "filename": "1_overview.md"
+    },
+    {
+      "id": "1_overview",
+      "title": "1. Overview",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "# 1. Overview[\uf0c1](#overview \"Permalink to this headline\")  CUDA is a parallel computing platform and programming model developed by NVIDIA that enables dramatic increases in computing performance by ha...",
+      "filename": "1_overview.md"
+    },
+    {
+      "id": "2_what_is_the_cuda_c_programming_guide",
+      "title": "2. What Is the CUDA C Programming Guide?",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "# 2. What Is the CUDA C Programming Guide?[\uf0c1](#what-is-the-cuda-c-programming-guide \"Permalink to this headline\")  The CUDA C Programming Guide is the official, comprehensive resource that explains ho...",
+      "filename": "2_what_is_the_cuda_c_programming_guide.md"
+    },
+    {
+      "id": "4_changelog",
+      "title": "4. Changelog",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "# 4. Changelog[\uf0c1](#changelog \"Permalink to this headline\")  Table 1 Change Log[\uf0c1](#id452 \"Permalink to this table\")     | Version | Changes | | --- | --- | | 13.0 | Moved the instruction throughput ta...",
+      "filename": "4_changelog.md"
+    },
+    {
+      "id": "9_cuda_enabled_gpus",
+      "title": "9. CUDA-Enabled GPUs",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "# 9. CUDA-Enabled GPUs[\uf0c1](#cuda-enabled-gpus \"Permalink to this headline\")  Warning  This document has been replaced by a new [CUDA Programming Guide](http://docs.nvidia.com/cuda/cuda-programming-guid...",
+      "filename": "9_cuda_enabled_gpus.md"
+    },
+    {
+      "id": "22_cuda_environment_variables",
+      "title": "22. CUDA Environment Variables",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "# 22. CUDA Environment Variables[\uf0c1](#cuda-environment-variables \"Permalink to this headline\")  Warning  This document has been replaced by a new [CUDA Programming Guide](http://docs.nvidia.com/cuda/cu...",
+      "filename": "22_cuda_environment_variables.md"
+    }
+  ]
+}

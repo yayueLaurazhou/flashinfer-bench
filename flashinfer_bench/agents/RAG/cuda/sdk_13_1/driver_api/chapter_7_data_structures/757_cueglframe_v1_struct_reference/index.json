@@ -1,0 +1,125 @@
+{
+  "description": "Documentation for 7.57. CUeglFrame_v1 Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "cuarray_format_cueglframe_v1cuformat",
+      "title": "CUarray_format CUeglFrame_v1::cuFormat",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA Array Format   CUDA Driver API TRM-06703-001 _vRelease Version  |  717   Data Structures...",
+      "filename": "cuarray_format_cueglframe_v1cuformat.md"
+    },
+    {
+      "id": "unsigned_int_cueglframe_v1depth",
+      "title": "unsigned int CUeglFrame_v1::depth",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Depth of first plane...",
+      "filename": "unsigned_int_cueglframe_v1depth.md"
+    },
+    {
+      "id": "cueglcolorformat_cueglframe_v1eglcolorformat",
+      "title": "CUeglColorFormat CUeglFrame_v1::eglColorFormat",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA EGL Color Format...",
+      "filename": "cueglcolorformat_cueglframe_v1eglcolorformat.md"
+    },
+    {
+      "id": "cueglframetype_cueglframe_v1frametype",
+      "title": "CUeglFrameType CUeglFrame_v1::frameType",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Array or Pitch...",
+      "filename": "cueglframetype_cueglframe_v1frametype.md"
+    },
+    {
+      "id": "unsigned_int_cueglframe_v1height",
+      "title": "unsigned int CUeglFrame_v1::height",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Height of first plane...",
+      "filename": "unsigned_int_cueglframe_v1height.md"
+    },
+    {
+      "id": "unsigned_int_cueglframe_v1numchannels",
+      "title": "unsigned int CUeglFrame_v1::numChannels",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Number of channels for the plane...",
+      "filename": "unsigned_int_cueglframe_v1numchannels.md"
+    },
+    {
+      "id": "cuarray_cueglframe_v1parray",
+      "title": "CUarray CUeglFrame_v1::pArray",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Array of CUarray corresponding to each plane...",
+      "filename": "cuarray_cueglframe_v1parray.md"
+    },
+    {
+      "id": "unsigned_int_cueglframe_v1pitch",
+      "title": "unsigned int CUeglFrame_v1::pitch",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Pitch of first plane...",
+      "filename": "unsigned_int_cueglframe_v1pitch.md"
+    },
+    {
+      "id": "unsigned_int_cueglframe_v1planecount",
+      "title": "unsigned int CUeglFrame_v1::planeCount",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Number of planes...",
+      "filename": "unsigned_int_cueglframe_v1planecount.md"
+    },
+    {
+      "id": "void_cueglframe_v1ppitch",
+      "title": "void *CUeglFrame_v1::pPitch",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Array of Pointers corresponding to each plane...",
+      "filename": "void_cueglframe_v1ppitch.md"
+    },
+    {
+      "id": "unsigned_int_cueglframe_v1width",
+      "title": "unsigned int CUeglFrame_v1::width",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Width of first plane   CUDA Driver API TRM-06703-001 _vRelease Version  |  718   Data Structures...",
+      "filename": "unsigned_int_cueglframe_v1width.md"
+    }
+  ]
+}

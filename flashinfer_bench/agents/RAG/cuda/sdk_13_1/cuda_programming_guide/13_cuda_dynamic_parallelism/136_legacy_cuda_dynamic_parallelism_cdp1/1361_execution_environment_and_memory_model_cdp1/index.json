@@ -1,0 +1,24 @@
+{
+  "description": "Documentation for 13.6.1. Execution Environment and Memory Model (CDP1)",
+  "directories": [
+    {
+      "name": "13611_execution_environment_cdp1",
+      "description": "#### 13.6.1.1. Execution Environment (CDP1)[\uf0c1](#execution-environment-cdp1 \"Permalink to this headline\")  See [Execution Environment](#execution-environment-cdp2), above, for CDP2 version of document...."
+    },
+    {
+      "name": "13612_memory_model_cdp1",
+      "description": "#### 13.6.1.2. Memory Model (CDP1)[\uf0c1](#memory-model-cdp1 \"Permalink to this headline\")  See [Memory Model](#memory-model), above, for CDP2 version of document.  Parent and child grids share the same g..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    }
+  ]
+}

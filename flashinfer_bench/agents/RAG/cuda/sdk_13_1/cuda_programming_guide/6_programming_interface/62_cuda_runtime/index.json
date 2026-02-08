@@ -1,0 +1,128 @@
+{
+  "description": "Documentation for 6.2. CUDA Runtime",
+  "directories": [
+    {
+      "name": "623_device_memory_l2_access_management",
+      "description": "### 6.2.3. Device Memory L2 Access Management[\uf0c1](#device-memory-l2-access-management \"Permalink to this headline\")  When a CUDA kernel accesses a data region in the global memory repeatedly, such data..."
+    },
+    {
+      "name": "626_page_locked_host_memory",
+      "description": "### 6.2.6. Page-Locked Host Memory[\uf0c1](#page-locked-host-memory \"Permalink to this headline\")  The runtime provides functions to allow the use of *page-locked* (also known as *pinned*) host memory (as ..."
+    },
+    {
+      "name": "627_memory_synchronization_domains",
+      "description": "### 6.2.7. Memory Synchronization Domains[\uf0c1](#memory-synchronization-domains \"Permalink to this headline\")..."
+    },
+    {
+      "name": "628_asynchronous_concurrent_execution",
+      "description": "### 6.2.8. Asynchronous Concurrent Execution[\uf0c1](#asynchronous-concurrent-execution \"Permalink to this headline\")  CUDA exposes the following operations as independent tasks that can operate concurrent..."
+    },
+    {
+      "name": "629_multi_device_system",
+      "description": "### 6.2.9. Multi-Device System[\uf0c1](#multi-device-system \"Permalink to this headline\")..."
+    },
+    {
+      "name": "6214_texture_and_surface_memory",
+      "description": "### 6.2.14. Texture and Surface Memory[\uf0c1](#texture-and-surface-memory \"Permalink to this headline\")  CUDA supports a subset of the texturing hardware that the GPU uses for graphics to access texture a..."
+    },
+    {
+      "name": "6215_graphics_interoperability",
+      "description": "### 6.2.15. Graphics Interoperability[\uf0c1](#graphics-interoperability \"Permalink to this headline\")  Some resources from OpenGL and Direct3D may be mapped into the address space of CUDA, either to enabl..."
+    },
+    {
+      "name": "6216_external_resource_interoperability",
+      "description": "### 6.2.16. External Resource Interoperability[\uf0c1](#external-resource-interoperability \"Permalink to this headline\")  External resource interoperability allows CUDA to import certain resources that are..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "621_initialization",
+      "title": "6.2.1. Initialization",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 6.2.1. Initialization[\uf0c1](#initialization \"Permalink to this headline\")  As of CUDA 12.0, the `cudaInitDevice()` and `cudaSetDevice()` calls initialize the runtime and the primary context associate...",
+      "filename": "621_initialization.md"
+    },
+    {
+      "id": "622_device_memory",
+      "title": "6.2.2. Device Memory",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 6.2.2. Device Memory[\uf0c1](#device-memory \"Permalink to this headline\")  As mentioned in [Heterogeneous Programming](#heterogeneous-programming), the CUDA programming model assumes a system composed ...",
+      "filename": "622_device_memory.md"
+    },
+    {
+      "id": "624_shared_memory",
+      "title": "6.2.4. Shared Memory",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 6.2.4. Shared Memory[\uf0c1](#shared-memory \"Permalink to this headline\")  As detailed in [Variable Memory Space Specifiers](#variable-memory-space-specifiers) shared memory is allocated using the `__s...",
+      "filename": "624_shared_memory.md"
+    },
+    {
+      "id": "625_distributed_shared_memory",
+      "title": "6.2.5. Distributed Shared Memory",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 6.2.5. Distributed Shared Memory[\uf0c1](#distributed-shared-memory \"Permalink to this headline\")  Thread block clusters introduced in compute capability 9.0 provide the ability for threads in a thread...",
+      "filename": "625_distributed_shared_memory.md"
+    },
+    {
+      "id": "6210_unified_virtual_address_space",
+      "title": "6.2.10. Unified Virtual Address Space",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 6.2.10. Unified Virtual Address Space[\uf0c1](#unified-virtual-address-space \"Permalink to this headline\")  When the application is run as a 64-bit process, a single address space is used for the host ...",
+      "filename": "6210_unified_virtual_address_space.md"
+    },
+    {
+      "id": "6211_interprocess_communication",
+      "title": "6.2.11. Interprocess Communication",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 6.2.11. Interprocess Communication[\uf0c1](#interprocess-communication \"Permalink to this headline\")  Any device memory pointer or event handle created by a host thread can be directly referenced by an...",
+      "filename": "6211_interprocess_communication.md"
+    },
+    {
+      "id": "6212_error_checking",
+      "title": "6.2.12. Error Checking",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 6.2.12. Error Checking[\uf0c1](#error-checking \"Permalink to this headline\")  All runtime functions return an error code, but for an asynchronous function (see [Asynchronous Concurrent Execution](#asyn...",
+      "filename": "6212_error_checking.md"
+    },
+    {
+      "id": "6213_call_stack",
+      "title": "6.2.13. Call Stack",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 6.2.13. Call Stack[\uf0c1](#call-stack \"Permalink to this headline\")  On devices of compute capability 2.x and higher, the size of the call stack can be queried using`cudaDeviceGetLimit()` and set usin...",
+      "filename": "6213_call_stack.md"
+    }
+  ]
+}

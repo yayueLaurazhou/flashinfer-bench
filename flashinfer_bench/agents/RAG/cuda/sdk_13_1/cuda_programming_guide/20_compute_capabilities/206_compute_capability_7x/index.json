@@ -1,0 +1,55 @@
+{
+  "description": "Documentation for 20.6. Compute Capability 7.x",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "2061_architecture",
+      "title": "20.6.1. Architecture",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 20.6.1. Architecture[\uf0c1](#architecture-7-x \"Permalink to this headline\")  An SM consists of:  * 64 FP32 cores for single-precision arithmetic operations, * 32 FP64 cores for double-precision arithm...",
+      "filename": "2061_architecture.md"
+    },
+    {
+      "id": "2062_independent_thread_scheduling",
+      "title": "20.6.2. Independent Thread Scheduling",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 20.6.2. Independent Thread Scheduling[\uf0c1](#independent-thread-scheduling \"Permalink to this headline\")  The **NVIDIA Volta GPU Architecture** introduces *Independent Thread Scheduling* among thread...",
+      "filename": "2062_independent_thread_scheduling.md"
+    },
+    {
+      "id": "2063_global_memory",
+      "title": "20.6.3. Global Memory",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 20.6.3. Global Memory[\uf0c1](#global-memory-7-x \"Permalink to this headline\")  Global memory behaves the same way as in devices of compute capability 5.x (See [Global Memory](#global-memory-5-x))....",
+      "filename": "2063_global_memory.md"
+    },
+    {
+      "id": "2064_shared_memory",
+      "title": "20.6.4. Shared Memory",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 20.6.4. Shared Memory[\uf0c1](#shared-memory-7-x \"Permalink to this headline\")  The amount of the unified data cache reserved for shared memory is configurable on a per kernel basis. For the *Volta* ar...",
+      "filename": "2064_shared_memory.md"
+    }
+  ]
+}

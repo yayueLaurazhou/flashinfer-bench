@@ -1,0 +1,45 @@
+{
+  "description": "Documentation for 25.2. Lazy Loading version support",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "2521_driver",
+      "title": "25.2.1. Driver",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 25.2.1. Driver[\uf0c1](#driver \"Permalink to this headline\")  Lazy Loading requires R515+ user-mode library, but it supports Forward Compatibility, meaning it can run on top of older kernel mode driver...",
+      "filename": "2521_driver.md"
+    },
+    {
+      "id": "2522_toolkit",
+      "title": "25.2.2. Toolkit",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 25.2.2. Toolkit[\uf0c1](#toolkit \"Permalink to this headline\")  Lazy Loading was introduced in CUDA 11.7, and received a significant upgrade in CUDA 11.8.  If your application uses CUDA Runtime, then i...",
+      "filename": "2522_toolkit.md"
+    },
+    {
+      "id": "2523_compiler",
+      "title": "25.2.3. Compiler",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 25.2.3. Compiler[\uf0c1](#compiler \"Permalink to this headline\")  Lazy Loading does not require any compiler support. Both SASS and PTX compiled with pre-11.7 compilers can be loaded with Lazy Loading ...",
+      "filename": "2523_compiler.md"
+    }
+  ]
+}

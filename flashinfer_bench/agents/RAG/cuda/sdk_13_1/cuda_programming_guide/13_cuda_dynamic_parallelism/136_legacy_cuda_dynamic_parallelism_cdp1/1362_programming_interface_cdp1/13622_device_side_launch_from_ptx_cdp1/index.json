@@ -1,0 +1,30 @@
+{
+  "description": "Documentation for 13.6.2.2. Device-side Launch from PTX (CDP1)",
+  "directories": [
+    {
+      "name": "136221_kernel_launch_apis_cdp1",
+      "description": "##### 13.6.2.2.1. Kernel Launch APIs (CDP1)[\uf0c1](#kernel-launch-apis-cdp1 \"Permalink to this headline\")  See [Kernel Launch APIs](#id237), above, for CDP2 version of document.  Device-side kernel launch..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "136222_parameter_buffer_layout_cdp1",
+      "title": "13.6.2.2.2. Parameter Buffer Layout (CDP1)",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 13.6.2.2.2. Parameter Buffer Layout (CDP1)[\uf0c1](#parameter-buffer-layout-cdp1 \"Permalink to this headline\")  See [Parameter Buffer Layout](#parameter-buffer-layout), above, for CDP2 version of doc...",
+      "filename": "136222_parameter_buffer_layout_cdp1.md"
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "description": "Documentation for 7.63. CUgraphNodeParams Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "struct_cuda_mem_alloc_node_params_v2_cugraphnodeparamsalloc",
+      "title": "struct CUDA_MEM_ALLOC_NODE_PARAMS_v2 CUgraphNodeParams::alloc",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Memory allocation node parameters....",
+      "filename": "struct_cuda_mem_alloc_node_params_v2_cugraphnodeparamsalloc.md"
+    },
+    {
+      "id": "struct_cuda_conditional_node_params_cugraphnodeparamsconditional",
+      "title": "struct CUDA_CONDITIONAL_NODE_PARAMS CUgraphNodeParams::conditional",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Conditional node parameters....",
+      "filename": "struct_cuda_conditional_node_params_cugraphnodeparamsconditional.md"
+    },
+    {
+      "id": "struct_cuda_event_record_node_params_cugraphnodeparamse_6a2e8fd5",
+      "title": "struct CUDA_EVENT_RECORD_NODE_PARAMS CUgraphNodeParams::eventRecord",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Event record node parameters....",
+      "filename": "struct_cuda_event_record_node_params_cugraphnodeparamse_6a2e8fd5.md"
+    },
+    {
+      "id": "struct_cuda_event_wait_node_params_cugraphnodeparamseventwait",
+      "title": "struct CUDA_EVENT_WAIT_NODE_PARAMS CUgraphNodeParams::eventWait",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Event wait node parameters....",
+      "filename": "struct_cuda_event_wait_node_params_cugraphnodeparamseventwait.md"
+    },
+    {
+      "id": "struct_cuda_ext_sem_signal_node_params_v2_cugraphnodepa_65f5d12d",
+      "title": "struct CUDA_EXT_SEM_SIGNAL_NODE_PARAMS_v2 CUgraphNodeParams::extSemSignal",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "External semaphore signal node parameters....",
+      "filename": "struct_cuda_ext_sem_signal_node_params_v2_cugraphnodepa_65f5d12d.md"
+    },
+    {
+      "id": "struct_cuda_ext_sem_wait_node_params_v2_cugraphnodepara_e02fd717",
+      "title": "struct CUDA_EXT_SEM_WAIT_NODE_PARAMS_v2 CUgraphNodeParams::extSemWait",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "External semaphore wait node parameters....",
+      "filename": "struct_cuda_ext_sem_wait_node_params_v2_cugraphnodepara_e02fd717.md"
+    },
+    {
+      "id": "struct_cuda_mem_free_node_params_cugraphnodeparamsfree",
+      "title": "struct CUDA_MEM_FREE_NODE_PARAMS CUgraphNodeParams::free",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Memory free node parameters.   CUDA Driver API TRM-06703-001 _vRelease Version  |  721   Data Structures...",
+      "filename": "struct_cuda_mem_free_node_params_cugraphnodeparamsfree.md"
+    },
+    {
+      "id": "struct_cuda_child_graph_node_params_cugraphnodeparamsgraph",
+      "title": "struct CUDA_CHILD_GRAPH_NODE_PARAMS CUgraphNodeParams::graph",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Child graph node parameters....",
+      "filename": "struct_cuda_child_graph_node_params_cugraphnodeparamsgraph.md"
+    },
+    {
+      "id": "struct_cuda_host_node_params_v2_cugraphnodeparamshost",
+      "title": "struct CUDA_HOST_NODE_PARAMS_v2 CUgraphNodeParams::host",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Host node parameters....",
+      "filename": "struct_cuda_host_node_params_v2_cugraphnodeparamshost.md"
+    },
+    {
+      "id": "struct_cuda_kernel_node_params_v3_cugraphnodeparamskernel",
+      "title": "struct CUDA_KERNEL_NODE_PARAMS_v3 CUgraphNodeParams::kernel",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Kernel node parameters....",
+      "filename": "struct_cuda_kernel_node_params_v3_cugraphnodeparamskernel.md"
+    },
+    {
+      "id": "struct_cuda_memcpy_node_params_cugraphnodeparamsmemcpy",
+      "title": "struct CUDA_MEMCPY_NODE_PARAMS CUgraphNodeParams::memcpy",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Memcpy node parameters....",
+      "filename": "struct_cuda_memcpy_node_params_cugraphnodeparamsmemcpy.md"
+    },
+    {
+      "id": "struct_cuda_batch_mem_op_node_params_v2_cugraphnodeparamsmemop",
+      "title": "struct CUDA_BATCH_MEM_OP_NODE_PARAMS_v2 CUgraphNodeParams::memOp",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "MemOp node parameters....",
+      "filename": "struct_cuda_batch_mem_op_node_params_v2_cugraphnodeparamsmemop.md"
+    },
+    {
+      "id": "struct_cuda_memset_node_params_v2_cugraphnodeparamsmemset",
+      "title": "struct CUDA_MEMSET_NODE_PARAMS_v2 CUgraphNodeParams::memset",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Memset node parameters....",
+      "filename": "struct_cuda_memset_node_params_v2_cugraphnodeparamsmemset.md"
+    },
+    {
+      "id": "int_cugraphnodeparamsreserved0",
+      "title": "int CUgraphNodeParams::reserved0",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Reserved. Must be zero....",
+      "filename": "int_cugraphnodeparamsreserved0.md"
+    },
+    {
+      "id": "long_long_cugraphnodeparamsreserved1",
+      "title": "long long CUgraphNodeParams::reserved1",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Padding. Unused bytes must be zero.   CUDA Driver API TRM-06703-001 _vRelease Version  |  722   Data Structures...",
+      "filename": "long_long_cugraphnodeparamsreserved1.md"
+    },
+    {
+      "id": "long_long_cugraphnodeparamsreserved2",
+      "title": "long long CUgraphNodeParams::reserved2",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Reserved bytes. Must be zero....",
+      "filename": "long_long_cugraphnodeparamsreserved2.md"
+    },
+    {
+      "id": "cugraphnodetype_cugraphnodeparamstype",
+      "title": "CUgraphNodeType CUgraphNodeParams::type",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Type of the node...",
+      "filename": "cugraphnodetype_cugraphnodeparamstype.md"
+    }
+  ]
+}

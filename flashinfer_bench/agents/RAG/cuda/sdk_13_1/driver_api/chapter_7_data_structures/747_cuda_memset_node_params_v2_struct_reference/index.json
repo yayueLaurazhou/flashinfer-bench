@@ -1,0 +1,85 @@
+{
+  "description": "Documentation for 7.47. CUDA_MEMSET_NODE_PARAMS_v2 Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "cucontext_cuda_memset_node_params_v2ctx",
+      "title": "CUcontext CUDA_MEMSET_NODE_PARAMS_v2::ctx",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Context on which to run the node...",
+      "filename": "cucontext_cuda_memset_node_params_v2ctx.md"
+    },
+    {
+      "id": "cudeviceptr_cuda_memset_node_params_v2dst",
+      "title": "CUdeviceptr CUDA_MEMSET_NODE_PARAMS_v2::dst",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Destination device pointer...",
+      "filename": "cudeviceptr_cuda_memset_node_params_v2dst.md"
+    },
+    {
+      "id": "unsigned_int_cuda_memset_node_params_v2elementsize",
+      "title": "unsigned int CUDA_MEMSET_NODE_PARAMS_v2::elementSize",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Size of each element in bytes. Must be 1, 2, or 4....",
+      "filename": "unsigned_int_cuda_memset_node_params_v2elementsize.md"
+    },
+    {
+      "id": "size_t_cuda_memset_node_params_v2height",
+      "title": "size_t CUDA_MEMSET_NODE_PARAMS_v2::height",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Number of rows...",
+      "filename": "size_t_cuda_memset_node_params_v2height.md"
+    },
+    {
+      "id": "size_t_cuda_memset_node_params_v2pitch",
+      "title": "size_t CUDA_MEMSET_NODE_PARAMS_v2::pitch",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Pitch of destination device pointer. Unused if height is 1...",
+      "filename": "size_t_cuda_memset_node_params_v2pitch.md"
+    },
+    {
+      "id": "unsigned_int_cuda_memset_node_params_v2value",
+      "title": "unsigned int CUDA_MEMSET_NODE_PARAMS_v2::value",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Value to be set...",
+      "filename": "unsigned_int_cuda_memset_node_params_v2value.md"
+    },
+    {
+      "id": "size_t_cuda_memset_node_params_v2width",
+      "title": "size_t CUDA_MEMSET_NODE_PARAMS_v2::width",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Width of the row in elements   CUDA Driver API TRM-06703-001 _vRelease Version  |  710   Data Structures...",
+      "filename": "size_t_cuda_memset_node_params_v2width.md"
+    }
+  ]
+}

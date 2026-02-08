@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 9.7.9.27.2. Data Movement and Conversion Instructions: Bulk and Tensor copy completion instructions",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "9792721_data_movement_and_conversion_instructions_cpasyncbulkcommit_group",
+      "title": "9.7.9.27.2.1. Data Movement and Conversion Instructions: cp.async.bulk.commit_group",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`cp.async.bulk.commit_group`",
+      "filename": "9792721_data_movement_and_conversion_instructions_cpasyncbulkcommit_group.md"
+    },
+    {
+      "id": "9792722_data_movement_and_conversion_instructions_cpasyncbulkwait_group",
+      "title": "9.7.9.27.2.2. Data Movement and Conversion Instructions: cp.async.bulk.wait_group",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`cp.async.bulk.wait_group`",
+      "filename": "9792722_data_movement_and_conversion_instructions_cpasyncbulkwait_group.md"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Documentation for 12. Cluster Launch Control",
+  "directories": [
+    {
+      "name": "122_cluster_launch_control_api_details",
+      "description": "## 12.2. Cluster Launch Control API Details[\uf0c1](#cluster-launch-control-api-details \"Permalink to this headline\")  Cancelling a thread block via the Cluster Launch Control API is done asynchronously an..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "121_introduction",
+      "title": "12.1. Introduction",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 12.1. Introduction[\uf0c1](#introduction-clc \"Permalink to this headline\")  Compute Capability 10.0 introduces Cluster Launch Control, a new feature that provides developer with more control over thread...",
+      "filename": "121_introduction.md"
+    }
+  ]
+}

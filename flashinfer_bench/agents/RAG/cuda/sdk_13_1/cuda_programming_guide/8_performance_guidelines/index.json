@@ -1,0 +1,54 @@
+{
+  "description": "Documentation for 8. Performance Guidelines",
+  "directories": [
+    {
+      "name": "82_maximize_utilization",
+      "description": "## 8.2. Maximize Utilization[\uf0c1](#maximize-utilization \"Permalink to this headline\")  To maximize utilization the application should be structured in a way that it exposes as much parallelism as possib..."
+    },
+    {
+      "name": "83_maximize_memory_throughput",
+      "description": "## 8.3. Maximize Memory Throughput[\uf0c1](#maximize-memory-throughput \"Permalink to this headline\")  The first step in maximizing overall memory throughput for the application is to minimize data transfer..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "81_overall_performance_optimization_strategies",
+      "title": "8.1. Overall Performance Optimization Strategies",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 8.1. Overall Performance Optimization Strategies[\uf0c1](#overall-performance-optimization-strategies \"Permalink to this headline\")  Performance optimization revolves around four basic strategies:  * Ma...",
+      "filename": "81_overall_performance_optimization_strategies.md"
+    },
+    {
+      "id": "84_maximize_instruction_throughput",
+      "title": "8.4. Maximize Instruction Throughput",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 8.4. Maximize Instruction Throughput[\uf0c1](#maximize-instruction-throughput \"Permalink to this headline\")  See the [CUDA C++ Best Practices Guide](https://docs.nvidia.com/cuda/cuda-c-best-practices-gu...",
+      "filename": "84_maximize_instruction_throughput.md"
+    },
+    {
+      "id": "85_minimize_memory_thrashing",
+      "title": "8.5. Minimize Memory Thrashing",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 8.5. Minimize Memory Thrashing[\uf0c1](#minimize-memory-thrashing \"Permalink to this headline\")  Applications that constantly allocate and free memory too often may find that the allocation calls tend t...",
+      "filename": "85_minimize_memory_thrashing.md"
+    }
+  ]
+}

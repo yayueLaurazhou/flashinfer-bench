@@ -1,0 +1,115 @@
+{
+  "description": "Documentation for 7.38. CUDA_LAUNCH_PARAMS_v1 Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "unsigned_int_cuda_launch_params_v1blockdimx",
+      "title": "unsigned int CUDA_LAUNCH_PARAMS_v1::blockDimX",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "X dimension of each thread block...",
+      "filename": "unsigned_int_cuda_launch_params_v1blockdimx.md"
+    },
+    {
+      "id": "unsigned_int_cuda_launch_params_v1blockdimy",
+      "title": "unsigned int CUDA_LAUNCH_PARAMS_v1::blockDimY",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Y dimension of each thread block...",
+      "filename": "unsigned_int_cuda_launch_params_v1blockdimy.md"
+    },
+    {
+      "id": "unsigned_int_cuda_launch_params_v1blockdimz",
+      "title": "unsigned int CUDA_LAUNCH_PARAMS_v1::blockDimZ",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Z dimension of each thread block...",
+      "filename": "unsigned_int_cuda_launch_params_v1blockdimz.md"
+    },
+    {
+      "id": "cufunction_cuda_launch_params_v1function",
+      "title": "CUfunction CUDA_LAUNCH_PARAMS_v1::function",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Kernel to launch   CUDA Driver API TRM-06703-001 _vRelease Version  |  698   Data Structures...",
+      "filename": "cufunction_cuda_launch_params_v1function.md"
+    },
+    {
+      "id": "unsigned_int_cuda_launch_params_v1griddimx",
+      "title": "unsigned int CUDA_LAUNCH_PARAMS_v1::gridDimX",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Width of grid in blocks...",
+      "filename": "unsigned_int_cuda_launch_params_v1griddimx.md"
+    },
+    {
+      "id": "unsigned_int_cuda_launch_params_v1griddimy",
+      "title": "unsigned int CUDA_LAUNCH_PARAMS_v1::gridDimY",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Height of grid in blocks...",
+      "filename": "unsigned_int_cuda_launch_params_v1griddimy.md"
+    },
+    {
+      "id": "unsigned_int_cuda_launch_params_v1griddimz",
+      "title": "unsigned int CUDA_LAUNCH_PARAMS_v1::gridDimZ",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Depth of grid in blocks...",
+      "filename": "unsigned_int_cuda_launch_params_v1griddimz.md"
+    },
+    {
+      "id": "custream_cuda_launch_params_v1hstream",
+      "title": "CUstream CUDA_LAUNCH_PARAMS_v1::hStream",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Stream identifier...",
+      "filename": "custream_cuda_launch_params_v1hstream.md"
+    },
+    {
+      "id": "cuda_launch_params_v1kernelparams",
+      "title": "**CUDA_LAUNCH_PARAMS_v1::kernelParams",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Array of pointers to kernel parameters...",
+      "filename": "cuda_launch_params_v1kernelparams.md"
+    },
+    {
+      "id": "unsigned_int_cuda_launch_params_v1sharedmembytes",
+      "title": "unsigned int CUDA_LAUNCH_PARAMS_v1::sharedMemBytes",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Dynamic shared-memory size per thread block in bytes...",
+      "filename": "unsigned_int_cuda_launch_params_v1sharedmembytes.md"
+    }
+  ]
+}

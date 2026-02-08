@@ -1,0 +1,3 @@
+# #define CU_LAUNCH_PARAM_BUFFER_POINTER_AS_INT 0x01
+
+C++ compile time constant for CU_LAUNCH_PARAM_BUFFER_POINTER

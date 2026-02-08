@@ -1,0 +1,225 @@
+{
+  "description": "Documentation for Chapter 8. Data Fields",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "a",
+      "title": "A",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "**accessDescCount**    CUDA_MEM_ALLOC_NODE_PARAMS_v1 CUDA_MEM_ALLOC_NODE_PARAMS_v2 **accessDescs**  CUDA_MEM_ALLOC_NODE_PARAMS_v2 CUDA_MEM_ALLOC_NODE_PARAMS_v1 **accessPolicyWindow**    CUlaunchAttrib...",
+      "filename": "a.md"
+    },
+    {
+      "id": "b",
+      "title": "B",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "**base_ptr**  CUaccessPolicyWindow_v1   CUDA Driver API TRM-06703-001 _vRelease Version  |  737   Data Fields    **blockDimX**    CUDA_KERNEL_NODE_PARAMS_v1 CUDA_KERNEL_NODE_PARAMS_v3 CUlaunchConfig C...",
+      "filename": "b.md"
+    },
+    {
+      "id": "c",
+      "title": "C",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "**clockRate**    CUdevprop_v1 **clusterDim**    CUlaunchAttributeValue **clusterSchedulingPolicyPreference**    CUlaunchAttributeValue **compressionType**    CUmemAllocationProp_v1 **conditional**    ...",
+      "filename": "c.md"
+    },
+    {
+      "id": "d",
+      "title": "D",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "**default_**    CUlaunchMemSyncDomainMap **depth**    CUDA_ARRAY_SPARSE_PROPERTIES_v1 CUeglFrame_v1 **Depth**    CUDA_MEMCPY3D_v2 **depth**    CUDA_RESOURCE_VIEW_DESC_v1 **Depth**  CUDA_MEMCPY3D_PEER_...",
+      "filename": "d.md"
+    },
+    {
+      "id": "e",
+      "title": "E",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "**eglColorFormat**    CUeglFrame_v1 **elementSize**    CUDA_MEMSET_NODE_PARAMS_v1 CUDA_MEMSET_NODE_PARAMS_v2 **errorFromNode**    CUgraphExecUpdateResultInfo_v1 **errorNode**  CUgraphExecUpdateResultI...",
+      "filename": "e.md"
+    },
+    {
+      "id": "f",
+      "title": "F",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "**fd**    CUDA_EXTERNAL_MEMORY_HANDLE_DESC_v1 CUDA_EXTERNAL_SEMAPHORE_HANDLE_DESC_v1 **fence**    CUDA_EXTERNAL_SEMAPHORE_SIGNAL_PARAMS_v1 CUDA_EXTERNAL_SEMAPHORE_WAIT_PARAMS_v1 CUDA_EXTERNAL_SEMAPHOR...",
+      "filename": "f.md"
+    },
+    {
+      "id": "g",
+      "title": "G",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "**gpuPairs**    CUcheckpointRestoreArgs **gpuPairsCount**  CUcheckpointRestoreArgs **graph**    CUgraphNodeParams CUDA_CHILD_GRAPH_NODE_PARAMS **gridDimX**    CUlaunchConfig CUDA_LAUNCH_PARAMS_v1 CUDA...",
+      "filename": "g.md"
+    },
+    {
+      "id": "h",
+      "title": "H",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "**handle**    CUDA_CONDITIONAL_NODE_PARAMS CUDA_EXTERNAL_MEMORY_HANDLE_DESC_v1 CUDA_EXTERNAL_SEMAPHORE_HANDLE_DESC_v1 **handleTypes**    CUmulticastObjectProp_v1 CUmemPoolProps_v1 **hArray**    CUDA_R...",
+      "filename": "h.md"
+    },
+    {
+      "id": "i",
+      "title": "I",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "**id**    CUlaunchAttribute CUmemLocation_v1 **info**    CUasyncNotificationInfo...",
+      "filename": "i.md"
+    },
+    {
+      "id": "k",
+      "title": "K",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "**kern**    CUDA_KERNEL_NODE_PARAMS_v2 CUDA_KERNEL_NODE_PARAMS_v3 **kernel**    CUgraphNodeParams **kernelParams**    CUDA_KERNEL_NODE_PARAMS_v1 CUDA_KERNEL_NODE_PARAMS_v2 CUDA_LAUNCH_PARAMS_v1 CUDA_K...",
+      "filename": "k.md"
+    },
+    {
+      "id": "l",
+      "title": "L",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "**lastLayer**    CUDA_RESOURCE_VIEW_DESC_v1 **lastMipmapLevel**  CUDA_RESOURCE_VIEW_DESC_v1 **launchCompletionEvent**    CUlaunchAttributeValue **layer**    CUarrayMapInfo_v1 **layerHeight**    CUmemc...",
+      "filename": "l.md"
+    },
+    {
+      "id": "m",
+      "title": "M",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "**maxAnisotropy**    CUDA_TEXTURE_DESC_v1 **maxGridSize**    CUdevprop_v1 **maxMipmapLevelClamp**    CUDA_TEXTURE_DESC_v1 **maxSize**    CUmemPoolProps_v1 **maxThreadsDim**    CUdevprop_v1 **maxThread...",
+      "filename": "m.md"
+    },
+    {
+      "id": "n",
+      "title": "N",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "**name**    CUDA_EXTERNAL_MEMORY_HANDLE_DESC_v1 CUDA_EXTERNAL_SEMAPHORE_HANDLE_DESC_v1 **newUuid**    CUcheckpointGpuPair **num_bytes**    CUaccessPolicyWindow_v1 **numAttrs**    CUlaunchConfig **NumC...",
+      "filename": "n.md"
+    },
+    {
+      "id": "o",
+      "title": "O",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "**offset**    CUDA_EXTERNAL_MEMORY_BUFFER_DESC_v1 CUDA_EXTERNAL_MEMORY_MIPMAPPED_ARRAY_DESC_v1 CUarrayMapInfo_v1 **offsetX**    CUarrayMapInfo_v1 **offsetY**  CUarrayMapInfo_v1 **offsetZ**  CUarrayMap...",
+      "filename": "o.md"
+    },
+    {
+      "id": "p",
+      "title": "P",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "**paramArray**    CUDA_BATCH_MEM_OP_NODE_PARAMS_v2 **paramsArray**    CUDA_EXT_SEM_SIGNAL_NODE_PARAMS_v1 CUDA_EXT_SEM_WAIT_NODE_PARAMS_v1 CUDA_EXT_SEM_WAIT_NODE_PARAMS_v2 CUDA_EXT_SEM_SIGNAL_NODE_PARA...",
+      "filename": "p.md"
+    },
+    {
+      "id": "r",
+      "title": "R",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "**regsPerBlock**    CUdevprop_v1 **remote**    CUlaunchMemSyncDomainMap **requestedHandleTypes**    CUmemAllocationProp_v1 **reserved**    CUgraphEdgeData CUcheckpointCheckpointArgs CUcheckpointRestor...",
+      "filename": "r.md"
+    },
+    {
+      "id": "s",
+      "title": "S",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "**sharedMemBytes**    CUDA_KERNEL_NODE_PARAMS_v1 CUDA_KERNEL_NODE_PARAMS_v2 CUlaunchConfig CUDA_LAUNCH_PARAMS_v1 CUDA_KERNEL_NODE_PARAMS_v3 **sharedMemCarveout**    CUlaunchAttributeValue **sharedMemP...",
+      "filename": "s.md"
+    },
+    {
+      "id": "t",
+      "title": "T",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "**textureAlign**    CUdevprop_v1 **timeoutMs**    CUDA_EXTERNAL_SEMAPHORE_WAIT_PARAMS_v1 CUcheckpointLockArgs **to_port**    CUgraphEdgeData **totalConstantMemory**    CUdevprop_v1 **type**    CUDA_EX...",
+      "filename": "t.md"
+    },
+    {
+      "id": "u",
+      "title": "U",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "**usage**    CUmemAllocationProp_v1 CUmemPoolProps_v1 **userData**    CUDA_HOST_NODE_PARAMS_v1 CUDA_HOST_NODE_PARAMS_v2...",
+      "filename": "u.md"
+    },
+    {
+      "id": "v",
+      "title": "V",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "**val**    CUexecAffinitySmCount_v1 **value**    CUDA_EXTERNAL_SEMAPHORE_WAIT_PARAMS_v1 CUDA_EXTERNAL_SEMAPHORE_SIGNAL_PARAMS_v1    CUDA Driver API TRM-06703-001 _vRelease Version  |  752   Data Field...",
+      "filename": "v.md"
+    },
+    {
+      "id": "w",
+      "title": "W",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "**waitValue**    CUstreamBatchMemOpParams_v1 **width**    CUDA_MEMSET_NODE_PARAMS_v1 CUDA_ARRAY_SPARSE_PROPERTIES_v1 **Width**    CUDA_ARRAY_DESCRIPTOR_v2 CUDA_ARRAY3D_DESCRIPTOR_v2 **width**    CUDA_...",
+      "filename": "w.md"
+    }
+  ]
+}

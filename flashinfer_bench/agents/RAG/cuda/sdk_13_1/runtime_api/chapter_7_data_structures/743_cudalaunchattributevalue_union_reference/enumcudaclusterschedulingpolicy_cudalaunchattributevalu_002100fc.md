@@ -1,0 +1,4 @@
+# enumcudaClusterSchedulingPolicy cudaLaunchAttributeValue::clusterSchedulingPolicyPreference
+
+Value of launch attribute cudaLaunchAttributeClusterSchedulingPolicyPreference. Cluster scheduling
+policy preference for the kernel.

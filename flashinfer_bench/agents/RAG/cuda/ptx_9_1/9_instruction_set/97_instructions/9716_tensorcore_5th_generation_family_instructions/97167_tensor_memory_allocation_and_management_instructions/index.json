@@ -1,0 +1,25 @@
+{
+  "description": "Documentation for 9.7.16.7. Tensor Memory Allocation and Management Instructions",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "971671_tensorcore_5th_generation_instructions_tcgen05alloc_tcgen05dealloc_tcgen05relinquish_alloc_permit",
+      "title": "9.7.16.7.1. Tensorcore 5th Generation Instructions: tcgen05.alloc, tcgen05.dealloc, tcgen05.relinquish_alloc_permit",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`tcgen05.alloc`, `tcgen05.dealloc`, `tcgen05.relinquish_alloc_permit`",
+      "filename": "971671_tensorcore_5th_generation_instructions_tcgen05alloc_tcgen05dealloc_tcgen05relinquish_alloc_permit.md"
+    }
+  ]
+}

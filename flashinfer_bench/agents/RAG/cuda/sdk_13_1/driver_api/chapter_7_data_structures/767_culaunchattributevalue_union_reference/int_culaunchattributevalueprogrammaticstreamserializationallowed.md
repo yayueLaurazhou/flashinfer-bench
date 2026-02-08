@@ -1,0 +1,4 @@
+# int CUlaunchAttributeValue::programmaticStreamSerializationAllowed
+
+Value of launch attribute
+CU_LAUNCH_ATTRIBUTE_PROGRAMMATIC_STREAM_SERIALIZATION.

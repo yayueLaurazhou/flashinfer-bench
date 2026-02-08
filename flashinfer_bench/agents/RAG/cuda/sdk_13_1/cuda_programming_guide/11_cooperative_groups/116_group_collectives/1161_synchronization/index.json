@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 11.6.1. Synchronization",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "11611_barrier_arrive_and_barrier_wait",
+      "title": "11.6.1.1. barrier_arrive and barrier_wait",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 11.6.1.1. `barrier_arrive` and `barrier_wait`[\uf0c1](#barrier-arrive-and-barrier-wait \"Permalink to this headline\")  ``` T::arrival_token T::barrier_arrive(); void T::barrier_wait(T::arrival_token&&)...",
+      "filename": "11611_barrier_arrive_and_barrier_wait.md"
+    },
+    {
+      "id": "11612_sync",
+      "title": "11.6.1.2. sync",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 11.6.1.2. `sync`[\uf0c1](#sync \"Permalink to this headline\")  ``` static void T::sync();  template <typename T> void sync(T& group); ```  `sync` synchronizes the threads named in the group. Group type...",
+      "filename": "11612_sync.md"
+    }
+  ]
+}

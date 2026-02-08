@@ -1,0 +1,255 @@
+{
+  "description": "Documentation for 9.7.1. Integer Arithmetic Instructions",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Integer arithmetic instructions operate on the integer types in register and constant immediate forms. The integer arithmetic instructions are:"
+    },
+    {
+      "id": "9711_integer_arithmetic_instructions_add",
+      "title": "9.7.1.1. Integer Arithmetic Instructions: add",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`add`",
+      "filename": "9711_integer_arithmetic_instructions_add.md"
+    },
+    {
+      "id": "9712_integer_arithmetic_instructions_sub",
+      "title": "9.7.1.2. Integer Arithmetic Instructions: sub",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`sub`",
+      "filename": "9712_integer_arithmetic_instructions_sub.md"
+    },
+    {
+      "id": "9713_integer_arithmetic_instructions_mul",
+      "title": "9.7.1.3. Integer Arithmetic Instructions: mul",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`mul`",
+      "filename": "9713_integer_arithmetic_instructions_mul.md"
+    },
+    {
+      "id": "9714_integer_arithmetic_instructions_mad",
+      "title": "9.7.1.4. Integer Arithmetic Instructions: mad",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`mad`",
+      "filename": "9714_integer_arithmetic_instructions_mad.md"
+    },
+    {
+      "id": "9715_integer_arithmetic_instructions_mul24",
+      "title": "9.7.1.5. Integer Arithmetic Instructions: mul24",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`mul24`",
+      "filename": "9715_integer_arithmetic_instructions_mul24.md"
+    },
+    {
+      "id": "9716_integer_arithmetic_instructions_mad24",
+      "title": "9.7.1.6. Integer Arithmetic Instructions: mad24",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`mad24`",
+      "filename": "9716_integer_arithmetic_instructions_mad24.md"
+    },
+    {
+      "id": "9717_integer_arithmetic_instructions_sad",
+      "title": "9.7.1.7. Integer Arithmetic Instructions: sad",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`sad`",
+      "filename": "9717_integer_arithmetic_instructions_sad.md"
+    },
+    {
+      "id": "9718_integer_arithmetic_instructions_div",
+      "title": "9.7.1.8. Integer Arithmetic Instructions: div",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`div`",
+      "filename": "9718_integer_arithmetic_instructions_div.md"
+    },
+    {
+      "id": "9719_integer_arithmetic_instructions_rem",
+      "title": "9.7.1.9. Integer Arithmetic Instructions: rem",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`rem`",
+      "filename": "9719_integer_arithmetic_instructions_rem.md"
+    },
+    {
+      "id": "97110_integer_arithmetic_instructions_abs",
+      "title": "9.7.1.10. Integer Arithmetic Instructions: abs",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`abs`",
+      "filename": "97110_integer_arithmetic_instructions_abs.md"
+    },
+    {
+      "id": "97111_integer_arithmetic_instructions_neg",
+      "title": "9.7.1.11. Integer Arithmetic Instructions: neg",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`neg`",
+      "filename": "97111_integer_arithmetic_instructions_neg.md"
+    },
+    {
+      "id": "97112_integer_arithmetic_instructions_min",
+      "title": "9.7.1.12. Integer Arithmetic Instructions: min",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`min`",
+      "filename": "97112_integer_arithmetic_instructions_min.md"
+    },
+    {
+      "id": "97113_integer_arithmetic_instructions_max",
+      "title": "9.7.1.13. Integer Arithmetic Instructions: max",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`max`",
+      "filename": "97113_integer_arithmetic_instructions_max.md"
+    },
+    {
+      "id": "97114_integer_arithmetic_instructions_popc",
+      "title": "9.7.1.14. Integer Arithmetic Instructions: popc",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`popc`",
+      "filename": "97114_integer_arithmetic_instructions_popc.md"
+    },
+    {
+      "id": "97115_integer_arithmetic_instructions_clz",
+      "title": "9.7.1.15. Integer Arithmetic Instructions: clz",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`clz`",
+      "filename": "97115_integer_arithmetic_instructions_clz.md"
+    },
+    {
+      "id": "97116_integer_arithmetic_instructions_bfind",
+      "title": "9.7.1.16. Integer Arithmetic Instructions: bfind",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`bfind`",
+      "filename": "97116_integer_arithmetic_instructions_bfind.md"
+    },
+    {
+      "id": "97117_integer_arithmetic_instructions_fns",
+      "title": "9.7.1.17. Integer Arithmetic Instructions: fns",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`fns`",
+      "filename": "97117_integer_arithmetic_instructions_fns.md"
+    },
+    {
+      "id": "97118_integer_arithmetic_instructions_brev",
+      "title": "9.7.1.18. Integer Arithmetic Instructions: brev",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`brev`",
+      "filename": "97118_integer_arithmetic_instructions_brev.md"
+    },
+    {
+      "id": "97119_integer_arithmetic_instructions_bfe",
+      "title": "9.7.1.19. Integer Arithmetic Instructions: bfe",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`bfe`",
+      "filename": "97119_integer_arithmetic_instructions_bfe.md"
+    },
+    {
+      "id": "97120_integer_arithmetic_instructions_bfi",
+      "title": "9.7.1.20. Integer Arithmetic Instructions: bfi",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`bfi`",
+      "filename": "97120_integer_arithmetic_instructions_bfi.md"
+    },
+    {
+      "id": "97121_integer_arithmetic_instructions_szext",
+      "title": "9.7.1.21. Integer Arithmetic Instructions: szext",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`szext`",
+      "filename": "97121_integer_arithmetic_instructions_szext.md"
+    },
+    {
+      "id": "97122_integer_arithmetic_instructions_bmsk",
+      "title": "9.7.1.22. Integer Arithmetic Instructions: bmsk",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`bmsk`",
+      "filename": "97122_integer_arithmetic_instructions_bmsk.md"
+    },
+    {
+      "id": "97123_integer_arithmetic_instructions_dp4a",
+      "title": "9.7.1.23. Integer Arithmetic Instructions: dp4a",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`dp4a`",
+      "filename": "97123_integer_arithmetic_instructions_dp4a.md"
+    },
+    {
+      "id": "97124_integer_arithmetic_instructions_dp2a",
+      "title": "9.7.1.24. Integer Arithmetic Instructions: dp2a",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`dp2a`",
+      "filename": "97124_integer_arithmetic_instructions_dp2a.md"
+    }
+  ]
+}

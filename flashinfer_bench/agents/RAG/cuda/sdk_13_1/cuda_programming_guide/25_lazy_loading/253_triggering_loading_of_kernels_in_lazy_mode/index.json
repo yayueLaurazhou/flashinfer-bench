@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 25.3. Triggering loading of kernels in lazy mode",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "2531_cuda_driver_api",
+      "title": "25.3.1. CUDA Driver API",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 25.3.1. CUDA Driver API[\uf0c1](#cuda-driver-api \"Permalink to this headline\")  Loading of kernels happens during `cuModuleGetFunction()` call. This call is necessary even without Lazy Loading, as it i...",
+      "filename": "2531_cuda_driver_api.md"
+    },
+    {
+      "id": "2532_cuda_runtime_api",
+      "title": "25.3.2. CUDA Runtime API",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 25.3.2. CUDA Runtime API[\uf0c1](#cuda-runtime-api \"Permalink to this headline\")  CUDA Runtime API manages module management automatically, so we recommend simply using `cudaFuncGetAttributes()` to ref...",
+      "filename": "2532_cuda_runtime_api.md"
+    }
+  ]
+}

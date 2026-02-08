@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 6.6. Device Management [DEPRECATED]",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "curesult_cudevicecomputecapability_int_major_int_minor__1f3d3e74",
+      "title": "CUresult cuDeviceComputeCapability (int *major, int *minor, CUdevice dev)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the compute capability of the device....",
+      "filename": "curesult_cudevicecomputecapability_int_major_int_minor__1f3d3e74.md"
+    },
+    {
+      "id": "curesult_cudevicegetproperties_cudevprop_prop_cudevice_dev",
+      "title": "CUresult cuDeviceGetProperties (CUdevprop *prop, CUdevice dev)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns properties for a selected device....",
+      "filename": "curesult_cudevicegetproperties_cudevprop_prop_cudevice_dev.md"
+    }
+  ]
+}

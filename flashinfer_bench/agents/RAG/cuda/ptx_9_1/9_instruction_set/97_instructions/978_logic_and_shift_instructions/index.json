@@ -1,0 +1,105 @@
+{
+  "description": "Documentation for 9.7.8. Logic and Shift Instructions",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "The logic and shift instructions are fundamentally untyped, performing bit-wise operations on operands of any type, provided the operands are of the same size. This permits bit-wise operations on floating point values without having to define a union to access the bits. Instructions `and`, `or`, ..."
+    },
+    {
+      "id": "9781_logic_and_shift_instructions_and",
+      "title": "9.7.8.1. Logic and Shift Instructions: and",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`and`",
+      "filename": "9781_logic_and_shift_instructions_and.md"
+    },
+    {
+      "id": "9782_logic_and_shift_instructions_or",
+      "title": "9.7.8.2. Logic and Shift Instructions: or",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`or`",
+      "filename": "9782_logic_and_shift_instructions_or.md"
+    },
+    {
+      "id": "9783_logic_and_shift_instructions_xor",
+      "title": "9.7.8.3. Logic and Shift Instructions: xor",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`xor`",
+      "filename": "9783_logic_and_shift_instructions_xor.md"
+    },
+    {
+      "id": "9784_logic_and_shift_instructions_not",
+      "title": "9.7.8.4. Logic and Shift Instructions: not",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`not`",
+      "filename": "9784_logic_and_shift_instructions_not.md"
+    },
+    {
+      "id": "9785_logic_and_shift_instructions_cnot",
+      "title": "9.7.8.5. Logic and Shift Instructions: cnot",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`cnot`",
+      "filename": "9785_logic_and_shift_instructions_cnot.md"
+    },
+    {
+      "id": "9786_logic_and_shift_instructions_lop3",
+      "title": "9.7.8.6. Logic and Shift Instructions: lop3",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`lop3`",
+      "filename": "9786_logic_and_shift_instructions_lop3.md"
+    },
+    {
+      "id": "9787_logic_and_shift_instructions_shf",
+      "title": "9.7.8.7. Logic and Shift Instructions: shf",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`shf`",
+      "filename": "9787_logic_and_shift_instructions_shf.md"
+    },
+    {
+      "id": "9788_logic_and_shift_instructions_shl",
+      "title": "9.7.8.8. Logic and Shift Instructions: shl",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`shl`",
+      "filename": "9788_logic_and_shift_instructions_shl.md"
+    },
+    {
+      "id": "9789_logic_and_shift_instructions_shr",
+      "title": "9.7.8.9. Logic and Shift Instructions: shr",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`shr`",
+      "filename": "9789_logic_and_shift_instructions_shr.md"
+    }
+  ]
+}

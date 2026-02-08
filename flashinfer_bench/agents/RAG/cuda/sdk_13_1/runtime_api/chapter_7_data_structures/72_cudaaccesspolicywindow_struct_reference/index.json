@@ -1,0 +1,65 @@
+{
+  "description": "Documentation for 7.2. cudaAccessPolicyWindow Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "void_cudaaccesspolicywindowbase_ptr",
+      "title": "void *cudaAccessPolicyWindow::base_ptr",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Starting address of the access policy window. CUDA driver may align it....",
+      "filename": "void_cudaaccesspolicywindowbase_ptr.md"
+    },
+    {
+      "id": "enumcudaaccessproperty_cudaaccesspolicywindowhitprop",
+      "title": "enumcudaAccessProperty cudaAccessPolicyWindow::hitProp",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUaccessProperty set for hit....",
+      "filename": "enumcudaaccessproperty_cudaaccesspolicywindowhitprop.md"
+    },
+    {
+      "id": "float_cudaaccesspolicywindowhitratio",
+      "title": "float cudaAccessPolicyWindow::hitRatio",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "hitRatio specifies percentage of lines assigned hitProp, rest are assigned missProp....",
+      "filename": "float_cudaaccesspolicywindowhitratio.md"
+    },
+    {
+      "id": "enumcudaaccessproperty_cudaaccesspolicywindowmissprop",
+      "title": "enumcudaAccessProperty cudaAccessPolicyWindow::missProp",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUaccessProperty set for miss. Must be either NORMAL or STREAMING....",
+      "filename": "enumcudaaccessproperty_cudaaccesspolicywindowmissprop.md"
+    },
+    {
+      "id": "size_t_cudaaccesspolicywindownum_bytes",
+      "title": "size_t cudaAccessPolicyWindow::num_bytes",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Size in bytes of the window policy. CUDA driver may restrict the maximum size and alignment....",
+      "filename": "size_t_cudaaccesspolicywindownum_bytes.md"
+    }
+  ]
+}

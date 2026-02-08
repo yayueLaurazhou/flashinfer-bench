@@ -1,0 +1,45 @@
+{
+  "description": "Documentation for 6.2.7. Memory Synchronization Domains",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "6271_memory_fence_interference",
+      "title": "6.2.7.1. Memory Fence Interference",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 6.2.7.1. Memory Fence Interference[\uf0c1](#memory-fence-interference \"Permalink to this headline\")  Some CUDA applications may see degraded performance due to memory fence/flush operations waiting on...",
+      "filename": "6271_memory_fence_interference.md"
+    },
+    {
+      "id": "6272_isolating_traffic_with_domains",
+      "title": "6.2.7.2. Isolating Traffic with Domains",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 6.2.7.2. Isolating Traffic with Domains[\uf0c1](#isolating-traffic-with-domains \"Permalink to this headline\")  Beginning with Hopper architecture GPUs and CUDA 12.0, the memory synchronization domains...",
+      "filename": "6272_isolating_traffic_with_domains.md"
+    },
+    {
+      "id": "6273_using_domains_in_cuda",
+      "title": "6.2.7.3. Using Domains in CUDA",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 6.2.7.3. Using Domains in CUDA[\uf0c1](#using-domains-in-cuda \"Permalink to this headline\")  Domains are accessible via the new launch attributes `cudaLaunchAttributeMemSyncDomain` and `cudaLaunchAttr...",
+      "filename": "6273_using_domains_in_cuda.md"
+    }
+  ]
+}

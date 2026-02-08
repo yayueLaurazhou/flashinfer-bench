@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 6.1.1. Compilation Workflow",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "6111_offline_compilation",
+      "title": "6.1.1.1. Offline Compilation",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 6.1.1.1. Offline Compilation[\uf0c1](#offline-compilation \"Permalink to this headline\")  Source files compiled with `nvcc` can include a mix of host code (i.e., code that executes on the host) and dev...",
+      "filename": "6111_offline_compilation.md"
+    },
+    {
+      "id": "6112_just_in_time_compilation",
+      "title": "6.1.1.2. Just-in-Time Compilation",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 6.1.1.2. Just-in-Time Compilation[\uf0c1](#just-in-time-compilation \"Permalink to this headline\")  Any *PTX* code loaded by an application at runtime is compiled further to binary code by the device d...",
+      "filename": "6112_just_in_time_compilation.md"
+    }
+  ]
+}

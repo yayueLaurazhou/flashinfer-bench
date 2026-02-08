@@ -1,0 +1,25 @@
+{
+  "description": "Documentation for 11.4.2.2. Coalesced Groups",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "114221_discovery_pattern",
+      "title": "11.4.2.2.1. Discovery Pattern",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 11.4.2.2.1. Discovery Pattern[\uf0c1](#discovery-pattern \"Permalink to this headline\")  Commonly developers need to work with the current active set of threads. No assumption is made about the thread...",
+      "filename": "114221_discovery_pattern.md"
+    }
+  ]
+}

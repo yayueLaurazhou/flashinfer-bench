@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 10.20. Warp Match Functions",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "10201_synopsis",
+      "title": "10.20.1. Synopsis",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.20.1. Synopsis[\uf0c1](#synopsis-match \"Permalink to this headline\")  ``` unsigned int __match_any_sync(unsigned mask, T value); unsigned int __match_all_sync(unsigned mask, T value, int *pred); ```...",
+      "filename": "10201_synopsis.md"
+    },
+    {
+      "id": "10202_description",
+      "title": "10.20.2. Description",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.20.2. Description[\uf0c1](#warp-description-match \"Permalink to this headline\")  The `__match_sync()` intrinsics permit a broadcast-and-compare of a value `value` across threads in a warp after sync...",
+      "filename": "10202_description.md"
+    }
+  ]
+}

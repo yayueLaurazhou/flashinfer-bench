@@ -1,0 +1,65 @@
+{
+  "description": "Documentation for 18.7. Extended Lambdas",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "1871_extended_lambda_type_traits",
+      "title": "18.7.1. Extended Lambda Type Traits",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 18.7.1. Extended Lambda Type Traits[\uf0c1](#extended-lambda-type-traits \"Permalink to this headline\")  The compiler provides type traits to detect closure types for extended lambdas at compile time:  ...",
+      "filename": "1871_extended_lambda_type_traits.md"
+    },
+    {
+      "id": "1872_extended_lambda_restrictions",
+      "title": "18.7.2. Extended Lambda Restrictions",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 18.7.2. Extended Lambda Restrictions[\uf0c1](#extended-lambda-restrictions \"Permalink to this headline\")  The CUDA compiler will replace an extended lambda expression with an instance of a placeholder ...",
+      "filename": "1872_extended_lambda_restrictions.md"
+    },
+    {
+      "id": "1873_notes_on___host_____device___lambdas",
+      "title": "18.7.3. Notes on __host__ __device__ lambdas",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 18.7.3. Notes on \\_\\_host\\_\\_ \\_\\_device\\_\\_ lambdas[\uf0c1](#notes-on-host-device-lambdas \"Permalink to this headline\")  Unlike `__device__` lambdas, `__host__ __device__` lambdas can be called from h...",
+      "filename": "1873_notes_on___host_____device___lambdas.md"
+    },
+    {
+      "id": "1874_this_capture_by_value",
+      "title": "18.7.4. *this Capture By Value",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 18.7.4. \\*this Capture By Value[\uf0c1](#this-capture-by-value \"Permalink to this headline\")  When a lambda is defined within a non-static class member function, and the body of the lambda refers to a ...",
+      "filename": "1874_this_capture_by_value.md"
+    },
+    {
+      "id": "1875_additional_notes",
+      "title": "18.7.5. Additional Notes",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 18.7.5. Additional Notes[\uf0c1](#additional-notes \"Permalink to this headline\")  1. `ADL Lookup`: As described earlier, the CUDA compiler will replace an extended lambda expression with an instance of...",
+      "filename": "1875_additional_notes.md"
+    }
+  ]
+}

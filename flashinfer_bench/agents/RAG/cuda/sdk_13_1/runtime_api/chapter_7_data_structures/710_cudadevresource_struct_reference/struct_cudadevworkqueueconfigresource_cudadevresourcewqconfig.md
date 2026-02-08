@@ -1,0 +1,3 @@
+# struct cudaDevWorkqueueConfigResource cudaDevResource::wqConfig
+
+Resource corresponding to cudaDevResourceTypeWorkqueueConfig type.

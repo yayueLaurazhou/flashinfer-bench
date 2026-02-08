@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 7.42. cudaLaunchAttribute Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "cudalaunchattributeid_cudalaunchattributeid",
+      "title": "cudaLaunchAttributeID cudaLaunchAttribute::id",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Attribute to set...",
+      "filename": "cudalaunchattributeid_cudalaunchattributeid.md"
+    },
+    {
+      "id": "cudalaunchattributeval",
+      "title": "cudaLaunchAttribute::val",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Value of the attribute...",
+      "filename": "cudalaunchattributeval.md"
+    }
+  ]
+}

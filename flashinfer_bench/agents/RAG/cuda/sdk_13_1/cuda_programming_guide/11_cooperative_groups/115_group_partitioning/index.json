@@ -1,0 +1,45 @@
+{
+  "description": "Documentation for 11.5. Group Partitioning",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "1151_tiled_partition",
+      "title": "11.5.1. tiled_partition",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 11.5.1. `tiled_partition`[\uf0c1](#tiled-partition \"Permalink to this headline\")  ``` template <unsigned int Size, typename ParentT> thread_block_tile<Size, ParentT> tiled_partition(const ParentT& g); ...",
+      "filename": "1151_tiled_partition.md"
+    },
+    {
+      "id": "1152_labeled_partition",
+      "title": "11.5.2. labeled_partition",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 11.5.2. `labeled_partition`[\uf0c1](#labeled-partition \"Permalink to this headline\")  ``` template <typename Label> coalesced_group labeled_partition(const coalesced_group& g, Label label); ```  ``` te...",
+      "filename": "1152_labeled_partition.md"
+    },
+    {
+      "id": "1153_binary_partition",
+      "title": "11.5.3. binary_partition",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 11.5.3. `binary_partition`[\uf0c1](#binary-partition \"Permalink to this headline\")  ``` coalesced_group binary_partition(const coalesced_group& g, bool pred); ```  ``` template <unsigned int Size> coal...",
+      "filename": "1153_binary_partition.md"
+    }
+  ]
+}

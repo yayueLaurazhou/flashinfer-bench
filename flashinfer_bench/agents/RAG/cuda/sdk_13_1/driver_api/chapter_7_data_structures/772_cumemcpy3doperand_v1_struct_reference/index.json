@@ -1,0 +1,65 @@
+{
+  "description": "Documentation for 7.72. CUmemcpy3DOperand_v1 Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "cumemcpy3doperand_v13739_cumemcpy3doperand_v1array",
+      "title": "CUmemcpy3DOperand_v1::@37::@39 CUmemcpy3DOperand_v1::array",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Struct representing an operand when CUmemcpy3DOperand::type is CU_MEMCPY_OPERAND_TYPE_ARRAY...",
+      "filename": "cumemcpy3doperand_v13739_cumemcpy3doperand_v1array.md"
+    },
+    {
+      "id": "size_t_cumemcpy3doperand_v1layerheight",
+      "title": "size_t CUmemcpy3DOperand_v1::layerHeight",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Height of each layer in elements.   CUDA Driver API TRM-06703-001 _vRelease Version  |  729   Data Structures...",
+      "filename": "size_t_cumemcpy3doperand_v1layerheight.md"
+    },
+    {
+      "id": "struct_cumemlocation_cumemcpy3doperand_v1lochint",
+      "title": "struct CUmemLocation CUmemcpy3DOperand_v1::locHint",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Hint location for the operand. Ignored when the pointers are not managed memory or memory allocated outside CUDA....",
+      "filename": "struct_cumemlocation_cumemcpy3doperand_v1lochint.md"
+    },
+    {
+      "id": "cumemcpy3doperand_v13738_cumemcpy3doperand_v1ptr",
+      "title": "CUmemcpy3DOperand_v1::@37::@38 CUmemcpy3DOperand_v1::ptr",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Struct representing an operand when CUmemcpy3DOperand::type is CU_MEMCPY_OPERAND_TYPE_POINTER...",
+      "filename": "cumemcpy3doperand_v13738_cumemcpy3doperand_v1ptr.md"
+    },
+    {
+      "id": "size_t_cumemcpy3doperand_v1rowlength",
+      "title": "size_t CUmemcpy3DOperand_v1::rowLength",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Length of each row in elements....",
+      "filename": "size_t_cumemcpy3doperand_v1rowlength.md"
+    }
+  ]
+}

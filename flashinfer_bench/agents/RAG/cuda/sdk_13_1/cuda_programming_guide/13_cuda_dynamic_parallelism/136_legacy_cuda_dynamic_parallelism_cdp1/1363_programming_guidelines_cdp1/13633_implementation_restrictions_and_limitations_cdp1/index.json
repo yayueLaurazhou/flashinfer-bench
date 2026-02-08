@@ -1,0 +1,20 @@
+{
+  "description": "Documentation for 13.6.3.3. Implementation Restrictions and Limitations (CDP1)",
+  "directories": [
+    {
+      "name": "136331_runtime_cdp1",
+      "description": "##### 13.6.3.3.1. Runtime (CDP1)[\uf0c1](#runtime-cdp1 \"Permalink to this headline\")  See [Runtime](#runtime), above, for CDP2 version of document...."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    }
+  ]
+}

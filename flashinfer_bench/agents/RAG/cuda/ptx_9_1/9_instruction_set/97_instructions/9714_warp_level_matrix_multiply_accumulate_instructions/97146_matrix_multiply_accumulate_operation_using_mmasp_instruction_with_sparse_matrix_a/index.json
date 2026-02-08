@@ -1,0 +1,40 @@
+{
+  "description": "Documentation for 9.7.14.6. Matrix multiply-accumulate operation using mma.sp instruction with sparse matrix A",
+  "directories": [
+    {
+      "name": "971462_matrix_fragments_for_multiply_accumulate_operation_with_sparse_matrix_a",
+      "description": "In this section we describe how the contents of thread registers are associated with fragments of various matrices and the sparsity metadata. The following conventions are used throughout this section:"
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "This section describes warp-level `mma.sp{::ordered_metadata}` instruction with sparse matrix A. This variant of the `mma` operation can be used when A is a structured sparse matrix with 50% zeros in each row distributed in a shape-specific granularity. For an `MxNxK` sparse `mma.sp{::ordered_met..."
+    },
+    {
+      "id": "971461_sparse_matrix_storage",
+      "title": "9.7.14.6.1. Sparse matrix storage",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "Granularity of sparse matrix A is defined as the ratio of the number of non-zero elements in a sub-chunk of the matrix row to the total number of elements in that sub-chunk where the size of the sub-chunk is shape-specific. For example, in a `16x16` matrix A, sparsity is expected to be at 2:4 gra...",
+      "filename": "971461_sparse_matrix_storage.md"
+    },
+    {
+      "id": "971463_multiply_and_accumulate_instruction_mmasp_mmaspordered_metadata",
+      "title": "9.7.14.6.3. Multiply-and-Accumulate Instruction: mma.sp / mma.sp::ordered_metadata",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`mma.sp`, `mma.sp::ordered_metadata`",
+      "filename": "971463_multiply_and_accumulate_instruction_mmasp_mmaspordered_metadata.md"
+    }
+  ]
+}

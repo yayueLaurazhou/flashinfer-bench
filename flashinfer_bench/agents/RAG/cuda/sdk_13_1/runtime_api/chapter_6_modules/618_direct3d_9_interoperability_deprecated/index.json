@@ -1,0 +1,135 @@
+{
+  "description": "Documentation for 6.18. Direct3D 9 Interoperability [DEPRECATED]",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "enum_cudad3d9mapflags",
+      "title": "enum cudaD3D9MapFlags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA D3D9 Map Flags...",
+      "filename": "enum_cudad3d9mapflags.md"
+    },
+    {
+      "id": "enum_cudad3d9registerflags",
+      "title": "enum cudaD3D9RegisterFlags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA D3D9 Register Flags...",
+      "filename": "enum_cudad3d9registerflags.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudad3d9mapresources_int_count_idir_a9ba6b1a",
+      "title": "__host__cudaError_t cudaD3D9MapResources (int count, IDirect3DResource9 **ppResources)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Map Direct3D resources for access by CUDA....",
+      "filename": "__host__cudaerror_t_cudad3d9mapresources_int_count_idir_a9ba6b1a.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudad3d9registerresource_idirect3dr_030282ff",
+      "title": "__host__cudaError_t cudaD3D9RegisterResource (IDirect3DResource9 *pResource, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Registers a Direct3D resource for access by CUDA....",
+      "filename": "__host__cudaerror_t_cudad3d9registerresource_idirect3dr_030282ff.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudad3d9resourcegetmappedarray_cuda_0d8ea6ac",
+      "title": "__host__cudaError_t cudaD3D9ResourceGetMappedArray (cudaArray **ppArray, IDirect3DResource9 *pResource, unsigned int face, unsigned int level)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Get an array through which to access a subresource of a Direct3D resource which has been mapped for access by CUDA....",
+      "filename": "__host__cudaerror_t_cudad3d9resourcegetmappedarray_cuda_0d8ea6ac.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudad3d9resourcegetmappedpitch_size_717d7374",
+      "title": "__host__cudaError_t cudaD3D9ResourceGetMappedPitch (size_t *pPitch, size_t *pPitchSlice, IDirect3DResource9 *pResource, unsigned int face, unsigned int level)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Get the pitch of a subresource of a Direct3D resource which has been mapped for access by CUDA....",
+      "filename": "__host__cudaerror_t_cudad3d9resourcegetmappedpitch_size_717d7374.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudad3d9resourcegetmappedpointer_vo_6dbf9830",
+      "title": "__host__cudaError_t cudaD3D9ResourceGetMappedPointer (void **pPointer, IDirect3DResource9 *pResource, unsigned int face, unsigned int level)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Get a pointer through which to access a subresource of a Direct3D resource which has been mapped for access by CUDA....",
+      "filename": "__host__cudaerror_t_cudad3d9resourcegetmappedpointer_vo_6dbf9830.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudad3d9resourcegetmappedsize_size__06aac3ff",
+      "title": "__host__cudaError_t cudaD3D9ResourceGetMappedSize (size_t *pSize, IDirect3DResource9 *pResource, unsigned int face, unsigned int level)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Get the size of a subresource of a Direct3D resource which has been mapped for access by CUDA....",
+      "filename": "__host__cudaerror_t_cudad3d9resourcegetmappedsize_size__06aac3ff.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudad3d9resourcegetsurfacedimension_db61057a",
+      "title": "__host__cudaError_t cudaD3D9ResourceGetSurfaceDimensions (size_t *pWidth, size_t *pHeight, size_t *pDepth, IDirect3DResource9 *pResource, unsigned int face, unsigned int level)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Get the dimensions of a registered Direct3D surface....",
+      "filename": "__host__cudaerror_t_cudad3d9resourcegetsurfacedimension_db61057a.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudad3d9resourcesetmapflags_idirect_fc756ed4",
+      "title": "__host__cudaError_t cudaD3D9ResourceSetMapFlags (IDirect3DResource9 *pResource, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Set usage flags for mapping a Direct3D resource....",
+      "filename": "__host__cudaerror_t_cudad3d9resourcesetmapflags_idirect_fc756ed4.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudad3d9unmapresources_int_count_id_58674162",
+      "title": "__host__cudaError_t cudaD3D9UnmapResources (int count, IDirect3DResource9 **ppResources)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Unmap Direct3D resources for access by CUDA....",
+      "filename": "__host__cudaerror_t_cudad3d9unmapresources_int_count_id_58674162.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudad3d9unregisterresource_idirect3_a90d6f59",
+      "title": "__host__cudaError_t cudaD3D9UnregisterResource (IDirect3DResource9 *pResource)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Unregisters a Direct3D resource for access by CUDA....",
+      "filename": "__host__cudaerror_t_cudad3d9unregisterresource_idirect3_a90d6f59.md"
+    }
+  ]
+}

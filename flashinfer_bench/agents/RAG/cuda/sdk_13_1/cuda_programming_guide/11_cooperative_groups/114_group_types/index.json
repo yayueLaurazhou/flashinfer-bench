@@ -1,0 +1,24 @@
+{
+  "description": "Documentation for 11.4. Group Types",
+  "directories": [
+    {
+      "name": "1141_implicit_groups",
+      "description": "### 11.4.1. Implicit Groups[\uf0c1](#implicit-groups \"Permalink to this headline\")  Implicit groups represent the launch configuration of the kernel. Regardless of how your kernel is written, it always has..."
+    },
+    {
+      "name": "1142_explicit_groups",
+      "description": "### 11.4.2. Explicit Groups[\uf0c1](#explicit-groups \"Permalink to this headline\")..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "description": "Documentation for 7.47. cudaMemAllocNodeParams Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "size_t_cudamemallocnodeparamsaccessdesccount",
+      "title": "size_t cudaMemAllocNodeParams::accessDescCount",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "in: Number of `accessDescs`s...",
+      "filename": "size_t_cudamemallocnodeparamsaccessdesccount.md"
+    },
+    {
+      "id": "cudamemaccessdesc_cudamemallocnodeparamsaccessdescs",
+      "title": "cudaMemAccessDesc *cudaMemAllocNodeParams::accessDescs",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "in: number of memory access descriptors. Must not exceed the number of GPUs....",
+      "filename": "cudamemaccessdesc_cudamemallocnodeparamsaccessdescs.md"
+    },
+    {
+      "id": "size_t_cudamemallocnodeparamsbytesize",
+      "title": "size_t cudaMemAllocNodeParams::bytesize",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "in: size in bytes of the requested allocation   CUDA Runtime API vRelease Version  |  633   Data Structures...",
+      "filename": "size_t_cudamemallocnodeparamsbytesize.md"
+    },
+    {
+      "id": "void_cudamemallocnodeparamsdptr",
+      "title": "void *cudaMemAllocNodeParams::dptr",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "out: address of the allocation returned by CUDA...",
+      "filename": "void_cudamemallocnodeparamsdptr.md"
+    },
+    {
+      "id": "struct_cudamempoolprops_cudamemallocnodeparamspoolprops",
+      "title": "struct cudaMemPoolProps cudaMemAllocNodeParams::poolProps",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "in: location where the allocation should reside (specified in location). handleTypes must be cudaMemHandleTypeNone. IPC is not supported. in: array of memory access descriptors. Used to describe peer ...",
+      "filename": "struct_cudamempoolprops_cudamemallocnodeparamspoolprops.md"
+    }
+  ]
+}

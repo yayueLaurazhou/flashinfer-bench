@@ -1,0 +1,45 @@
+{
+  "description": "Documentation for 7.26. CUDA_EXTERNAL_MEMORY_BUFFER_DES Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "unsigned_int_cuda_external_memory_buffer_desc_v1flags",
+      "title": "unsigned int CUDA_EXTERNAL_MEMORY_BUFFER_DESC_v1::flags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Flags reserved for future use. Must be zero....",
+      "filename": "unsigned_int_cuda_external_memory_buffer_desc_v1flags.md"
+    },
+    {
+      "id": "unsigned_long_long_cuda_external_memory_buffer_desc_v1offset",
+      "title": "unsigned long long CUDA_EXTERNAL_MEMORY_BUFFER_DESC_v1::offset",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Offset into the memory object where the buffer's base is...",
+      "filename": "unsigned_long_long_cuda_external_memory_buffer_desc_v1offset.md"
+    },
+    {
+      "id": "unsigned_long_long_cuda_external_memory_buffer_desc_v1size",
+      "title": "unsigned long long CUDA_EXTERNAL_MEMORY_BUFFER_DESC_v1::size",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Size of the buffer...",
+      "filename": "unsigned_long_long_cuda_external_memory_buffer_desc_v1size.md"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "description": "Documentation for 7.4. cudaArraySparseProperties Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "unsigned_int_cudaarraysparsepropertiesdepth",
+      "title": "unsigned int cudaArraySparseProperties::depth",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Tile depth in elements...",
+      "filename": "unsigned_int_cudaarraysparsepropertiesdepth.md"
+    },
+    {
+      "id": "unsigned_int_cudaarraysparsepropertiesflags",
+      "title": "unsigned int cudaArraySparseProperties::flags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Flags will either be zero or cudaArraySparsePropertiesSingleMipTail...",
+      "filename": "unsigned_int_cudaarraysparsepropertiesflags.md"
+    },
+    {
+      "id": "unsigned_int_cudaarraysparsepropertiesheight",
+      "title": "unsigned int cudaArraySparseProperties::height",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Tile height in elements...",
+      "filename": "unsigned_int_cudaarraysparsepropertiesheight.md"
+    },
+    {
+      "id": "unsigned_int_cudaarraysparsepropertiesmiptailfirstlevel",
+      "title": "unsigned int cudaArraySparseProperties::miptailFirstLevel",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "First mip level at which the mip tail begins...",
+      "filename": "unsigned_int_cudaarraysparsepropertiesmiptailfirstlevel.md"
+    },
+    {
+      "id": "unsigned_long_long_cudaarraysparsepropertiesmiptailsize",
+      "title": "unsigned long long cudaArraySparseProperties::miptailSize",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Total size of the mip tail....",
+      "filename": "unsigned_long_long_cudaarraysparsepropertiesmiptailsize.md"
+    },
+    {
+      "id": "unsigned_int_cudaarraysparsepropertieswidth",
+      "title": "unsigned int cudaArraySparseProperties::width",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Tile width in elements   CUDA Runtime API vRelease Version  |  592   Data Structures...",
+      "filename": "unsigned_int_cudaarraysparsepropertieswidth.md"
+    }
+  ]
+}

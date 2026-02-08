@@ -1,0 +1,5 @@
+# 6.2.6.1. Portable Memory
+
+#### 6.2.6.1. Portable Memory[](#portable-memory "Permalink to this headline")
+
+A block of page-locked memory can be used in conjunction with any device in the system (see [Multi-Device System](#multi-device-system) for more details on multi-device systems), but by default, the benefits of using page-locked memory described above are only available in conjunction with the device that was current when the block was allocated (and with all devices sharing the same unified address space, if any, as described in [Unified Virtual Address Space](#unified-virtual-address-space)). To make these advantages available to all devices, the block needs to be allocated by passing the flag `cudaHostAllocPortable` to `cudaHostAlloc()` or page-locked by passing the flag `cudaHostRegisterPortable` to `cudaHostRegister()`.

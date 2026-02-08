@@ -1,0 +1,84 @@
+{
+  "description": "Documentation for 8. Memory Consistency Model",
+  "directories": [
+    {
+      "name": "81_scope_and_applicability_of_the_model",
+      "description": "The constraints specified under this model apply to PTX programs with any PTX ISA version number, running on `sm_70` or later architectures."
+    },
+    {
+      "name": "82_memory_operations",
+      "description": "The fundamental storage unit in the PTX memory model is a byte, consisting of 8 bits. Each state space available to a PTX program is a sequence of contiguous bytes in memory. Every byte in a PTX state space has a unique address relative to all threads that have access to the same state space."
+    },
+    {
+      "name": "84_operation_types",
+      "description": "For simplicity, the rest of the document refers to the following operation types, instead of mentioning specific instructions that give rise to them."
+    },
+    {
+      "name": "87_morally_strong_operations",
+      "description": "Two operations are said to be *morally strong* relative to each other if they satisfy all of the following conditions:"
+    },
+    {
+      "name": "89_ordering_of_memory_operations",
+      "description": "The sequence of operations performed by each thread is captured as *program order* while *memory synchronization* across threads is captured as *causality order*. The visibility of the side-effects of memory operations to other memory operations is captured as *communication order*. The memory co..."
+    },
+    {
+      "name": "810_axioms",
+      "description": "Documentation for Axioms."
+    },
+    {
+      "name": "811_special_cases",
+      "description": "Documentation for Special Cases."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "In multi-threaded executions, the side-effects of memory operations performed by each thread become visible to other threads in a partial and non-identical order. This means that any two operations may appear to happen in no order, or in different orders, to different threads. The axioms introduc..."
+    },
+    {
+      "id": "83_state_spaces",
+      "title": "8.3. State spaces",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "The relations defined in the memory consistency model are independent of state spaces. In particular, causality order closes over all memory operations across all the state spaces. But the side-effect of a memory operation in one state space can be observed directly only by operations that also h...",
+      "filename": "83_state_spaces.md"
+    },
+    {
+      "id": "85_scope",
+      "title": "8.5. Scope",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "Each *strong* operation must specify a *scope*, which is the set of threads that may interact directly with that operation and establish any of the relations described in the memory consistency model. There are four scopes:",
+      "filename": "85_scope.md"
+    },
+    {
+      "id": "86_proxies",
+      "title": "8.6. Proxies",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "A *memory proxy*, or a *proxy* is an abstract label applied to a method of memory access. When two memory operations use distinct methods of memory access, they are said to be different *proxies*.",
+      "filename": "86_proxies.md"
+    },
+    {
+      "id": "88_release_and_acquire_patterns",
+      "title": "8.8. Release and Acquire Patterns",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "Some sequences of instructions give rise to patterns that participate in memory synchronization as described later. The *release* pattern makes prior operations from the current thread1 visible to some operations from other threads. The *acquire* pattern makes some operations from other threads v...",
+      "filename": "88_release_and_acquire_patterns.md"
+    }
+  ]
+}

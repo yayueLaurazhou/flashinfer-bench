@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 26.2.2. Single-Node, Multi-GPU",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "26221_using_vmm_apis",
+      "title": "26.2.2.1. Using VMM APIs",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 26.2.2.1. Using VMM APIs[\uf0c1](#using-vmm-apis \"Permalink to this headline\")  The first step in memory allocation using Virtual Memory Management APIs is to create a physical memory chunk that will ...",
+      "filename": "26221_using_vmm_apis.md"
+    },
+    {
+      "id": "26222_using_cuda_memory_pool",
+      "title": "26.2.2.2. Using CUDA Memory Pool",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 26.2.2.2. Using CUDA Memory Pool[\uf0c1](#using-cuda-memory-pool \"Permalink to this headline\")  To define EGM, the user can create a memory pool on a node and give access to peers. In this case, the u...",
+      "filename": "26222_using_cuda_memory_pool.md"
+    }
+  ]
+}

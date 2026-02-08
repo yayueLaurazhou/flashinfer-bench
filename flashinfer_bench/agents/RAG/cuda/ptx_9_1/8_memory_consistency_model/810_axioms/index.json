@@ -1,0 +1,75 @@
+{
+  "description": "Documentation for 8.10. Axioms",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "8101_coherence",
+      "title": "8.10.1. Coherence",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "If a write W precedes an *overlapping* write W\u2019 in *causality order*, then W must precede W\u2019 in *coherence order*.",
+      "filename": "8101_coherence.md"
+    },
+    {
+      "id": "8102_fence_sc",
+      "title": "8.10.2. Fence-SC",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "*Fence-SC* order cannot contradict *causality order*. For a pair of *morally strong* *fence.sc* operations F1 and F2, if F1 precedes F2 in *causality order*, then F1 must precede F2 in *Fence-SC* order.",
+      "filename": "8102_fence_sc.md"
+    },
+    {
+      "id": "8103_atomicity",
+      "title": "8.10.3. Atomicity",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "Single-Copy Atomicity",
+      "filename": "8103_atomicity.md"
+    },
+    {
+      "id": "8104_no_thin_air",
+      "title": "8.10.4. No Thin Air",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "Values may not appear \u201cout of thin air\u201d: an execution cannot speculatively produce a value in such a way that the speculation becomes self-satisfying through chains of instruction dependencies and inter-thread communication. This matches both programmer intuition and hardware reality, but is nece...",
+      "filename": "8104_no_thin_air.md"
+    },
+    {
+      "id": "8105_sequential_consistency_per_location",
+      "title": "8.10.5. Sequential Consistency Per Location",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "Within any set of *overlapping* memory operations that are pairwise *morally strong*, *communication order* cannot contradict *program order*, i.e., a concatenation of *program order* between *overlapping* operations and *morally strong* relations in *communication order* cannot result in a cycle...",
+      "filename": "8105_sequential_consistency_per_location.md"
+    },
+    {
+      "id": "8106_causality",
+      "title": "8.10.6. Causality",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "Relations in *communication order* cannot contradict *causality order*. This constrains the set of candidate write operations that a read operation may read from:",
+      "filename": "8106_causality.md"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Documentation for 24. Unified Memory Programming",
+  "directories": [
+    {
+      "name": "241_unified_memory_introduction",
+      "description": "## 24.1. Unified Memory Introduction[\uf0c1](#unified-memory-introduction \"Permalink to this headline\")  CUDA Unified Memory provides all processors with:  * A single *unified* memory pool, that is,   a si..."
+    },
+    {
+      "name": "242_unified_memory_on_devices_with_full_cuda_unified_memory_support",
+      "description": "## 24.2. Unified memory on devices with full CUDA Unified Memory support[\uf0c1](#unified-memory-on-devices-with-full-cuda-unified-memory-support \"Permalink to this headline\")..."
+    },
+    {
+      "name": "243_unified_memory_on_devices_without_full_cuda_unified_memory_support",
+      "description": "## 24.3. Unified memory on devices without full CUDA Unified Memory support[\uf0c1](#unified-memory-on-devices-without-full-cuda-unified-memory-support \"Permalink to this headline\")..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    }
+  ]
+}

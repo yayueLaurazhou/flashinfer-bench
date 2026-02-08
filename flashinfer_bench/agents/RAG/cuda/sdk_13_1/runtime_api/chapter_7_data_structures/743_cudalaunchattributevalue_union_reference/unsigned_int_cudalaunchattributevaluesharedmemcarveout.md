@@ -1,0 +1,3 @@
+# unsigned int cudaLaunchAttributeValue::sharedMemCarveout
+
+Value of launch attribute cudaLaunchAttributePreferredSharedMemoryCarveout.

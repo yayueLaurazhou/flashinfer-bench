@@ -1,0 +1,25 @@
+{
+  "description": "Documentation for 7.1. Function Declarations and Definitions",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "In PTX, functions are declared and defined using the `.func` directive. A function *declaration* specifies an optional list of return parameters, the function name, and an optional list of input parameters; together these specify the function\u2019s interface, or prototype. A function *definition* spe..."
+    },
+    {
+      "id": "711_changes_from_ptx_isa_version_1x",
+      "title": "7.1.1. Changes from PTX ISA Version 1.x",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "In PTX ISA version 1.x, formal parameters were restricted to .reg state space, and there was no support for array parameters. Objects such as C structures were flattened and passed or returned using multiple registers. PTX ISA version 1.x supports multiple return values for this purpose.",
+      "filename": "711_changes_from_ptx_isa_version_1x.md"
+    }
+  ]
+}

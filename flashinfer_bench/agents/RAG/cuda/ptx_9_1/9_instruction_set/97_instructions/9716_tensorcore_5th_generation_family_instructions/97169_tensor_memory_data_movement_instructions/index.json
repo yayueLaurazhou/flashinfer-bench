@@ -1,0 +1,40 @@
+{
+  "description": "Documentation for 9.7.16.9. Tensor Memory Data Movement Instructions",
+  "directories": [
+    {
+      "name": "971691_optional_decompression",
+      "description": "Optionally, during the copy, a vector of 4-bit and 6-bit custom floating point types can be decompressed into 8-bit types."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Data from the shared memory can be copied asynchronously to the [Tensor Memory](https://docs.nvidia.com/cuda/parallel-thread-execution/#tensor-memory) using the [Tensorcore 5th Generation Instructions: tcgen05.cp](https://docs.nvidia.com/cuda/parallel-thread-execution/#tcgen05-instructions-tcgen0..."
+    },
+    {
+      "id": "971692_tensorcore_5th_generation_instructions_tcgen05cp",
+      "title": "9.7.16.9.2. Tensorcore 5th Generation Instructions: tcgen05.cp",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`tcgen05.cp`",
+      "filename": "971692_tensorcore_5th_generation_instructions_tcgen05cp.md"
+    },
+    {
+      "id": "971693_tensorcore_5th_generation_instructions_tcgen05shift",
+      "title": "9.7.16.9.3. Tensorcore 5th Generation Instructions: tcgen05.shift",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`tcgen05.shift`",
+      "filename": "971693_tensorcore_5th_generation_instructions_tcgen05shift.md"
+    }
+  ]
+}

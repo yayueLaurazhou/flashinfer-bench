@@ -1,0 +1,3 @@
+# CUmemAllocationHandleType CUmemAllocationProp_v1::requestedHandleTypes
+
+requested CUmemAllocationHandleType

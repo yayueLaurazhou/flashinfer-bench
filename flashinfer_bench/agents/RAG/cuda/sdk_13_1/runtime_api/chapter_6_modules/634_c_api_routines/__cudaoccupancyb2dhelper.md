@@ -1,0 +1,3 @@
+# __cudaOccupancyB2DHelper
+
+cppClassifierVisibility: visibility=public

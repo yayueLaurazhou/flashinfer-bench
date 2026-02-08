@@ -1,0 +1,56 @@
+{
+  "description": "Documentation for 11. Cooperative Groups",
+  "directories": [
+    {
+      "name": "112_whats_new_in_cooperative_groups",
+      "description": "## 11.2. What\u2019s New in Cooperative Groups[\uf0c1](#what-s-new-in-cooperative-groups \"Permalink to this headline\")..."
+    },
+    {
+      "name": "113_programming_model_concept",
+      "description": "## 11.3. Programming Model Concept[\uf0c1](#programming-model-concept \"Permalink to this headline\")  The Cooperative Groups programming model describes synchronization patterns both within and across CUDA ..."
+    },
+    {
+      "name": "114_group_types",
+      "description": "## 11.4. Group Types[\uf0c1](#group-types \"Permalink to this headline\")..."
+    },
+    {
+      "name": "115_group_partitioning",
+      "description": "## 11.5. Group Partitioning[\uf0c1](#group-partitioning \"Permalink to this headline\")..."
+    },
+    {
+      "name": "116_group_collectives",
+      "description": "## 11.6. Group Collectives[\uf0c1](#group-collectives \"Permalink to this headline\")  Cooperative Groups library provides a set of collective operations that can be performed by a group of threads. These op..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "111_introduction",
+      "title": "11.1. Introduction",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 11.1. Introduction[\uf0c1](#introduction-cg \"Permalink to this headline\")  Cooperative Groups is an extension to the CUDA programming model, introduced in CUDA 9, for organizing groups of communicating ...",
+      "filename": "111_introduction.md"
+    },
+    {
+      "id": "117_grid_synchronization",
+      "title": "11.7. Grid Synchronization",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 11.7. Grid Synchronization[\uf0c1](#grid-synchronization \"Permalink to this headline\")  Prior to the introduction of Cooperative Groups, the CUDA programming model only allowed synchronization between t...",
+      "filename": "117_grid_synchronization.md"
+    }
+  ]
+}

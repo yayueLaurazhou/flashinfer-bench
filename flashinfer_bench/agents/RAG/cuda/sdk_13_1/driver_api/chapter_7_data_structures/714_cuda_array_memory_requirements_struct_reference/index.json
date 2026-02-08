@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 7.14. CUDA_ARRAY_MEMORY_REQUIREMENTS Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "size_t_cuda_array_memory_requirements_v1alignment",
+      "title": "size_t CUDA_ARRAY_MEMORY_REQUIREMENTS_v1::alignment",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "alignment requirement   CUDA Driver API TRM-06703-001 _vRelease Version  |  679   Data Structures...",
+      "filename": "size_t_cuda_array_memory_requirements_v1alignment.md"
+    },
+    {
+      "id": "size_t_cuda_array_memory_requirements_v1size",
+      "title": "size_t CUDA_ARRAY_MEMORY_REQUIREMENTS_v1::size",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Total required memory size...",
+      "filename": "size_t_cuda_array_memory_requirements_v1size.md"
+    }
+  ]
+}

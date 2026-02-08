@@ -1,0 +1,115 @@
+{
+  "description": "Documentation for 7.52. CUdevprop_v1 Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "int_cudevprop_v1clockrate",
+      "title": "int CUdevprop_v1::clockRate",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Clock frequency in kilohertz   CUDA Driver API TRM-06703-001 _vRelease Version  |  714   Data Structures...",
+      "filename": "int_cudevprop_v1clockrate.md"
+    },
+    {
+      "id": "int_cudevprop_v1maxgridsize",
+      "title": "int CUdevprop_v1::maxGridSize",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Maximum size of each dimension of a grid...",
+      "filename": "int_cudevprop_v1maxgridsize.md"
+    },
+    {
+      "id": "int_cudevprop_v1maxthreadsdim",
+      "title": "int CUdevprop_v1::maxThreadsDim",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Maximum size of each dimension of a block...",
+      "filename": "int_cudevprop_v1maxthreadsdim.md"
+    },
+    {
+      "id": "int_cudevprop_v1maxthreadsperblock",
+      "title": "int CUdevprop_v1::maxThreadsPerBlock",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Maximum number of threads per block...",
+      "filename": "int_cudevprop_v1maxthreadsperblock.md"
+    },
+    {
+      "id": "int_cudevprop_v1mempitch",
+      "title": "int CUdevprop_v1::memPitch",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Maximum pitch in bytes allowed by memory copies...",
+      "filename": "int_cudevprop_v1mempitch.md"
+    },
+    {
+      "id": "int_cudevprop_v1regsperblock",
+      "title": "int CUdevprop_v1::regsPerBlock",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "32-bit registers available per block...",
+      "filename": "int_cudevprop_v1regsperblock.md"
+    },
+    {
+      "id": "int_cudevprop_v1sharedmemperblock",
+      "title": "int CUdevprop_v1::sharedMemPerBlock",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Shared memory available per block in bytes...",
+      "filename": "int_cudevprop_v1sharedmemperblock.md"
+    },
+    {
+      "id": "int_cudevprop_v1simdwidth",
+      "title": "int CUdevprop_v1::SIMDWidth",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Warp size in threads...",
+      "filename": "int_cudevprop_v1simdwidth.md"
+    },
+    {
+      "id": "int_cudevprop_v1texturealign",
+      "title": "int CUdevprop_v1::textureAlign",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Alignment requirement for textures...",
+      "filename": "int_cudevprop_v1texturealign.md"
+    },
+    {
+      "id": "int_cudevprop_v1totalconstantmemory",
+      "title": "int CUdevprop_v1::totalConstantMemory",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Constant memory available on device in bytes...",
+      "filename": "int_cudevprop_v1totalconstantmemory.md"
+    }
+  ]
+}

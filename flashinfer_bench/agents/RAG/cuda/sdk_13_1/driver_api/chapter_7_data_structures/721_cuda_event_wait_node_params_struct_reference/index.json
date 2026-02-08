@@ -1,0 +1,25 @@
+{
+  "description": "Documentation for 7.21. CUDA_EVENT_WAIT_NODE_PARAMS Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "cuevent_cuda_event_wait_node_paramsevent",
+      "title": "CUevent CUDA_EVENT_WAIT_NODE_PARAMS::event",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "The event to wait on from the node...",
+      "filename": "cuevent_cuda_event_wait_node_paramsevent.md"
+    }
+  ]
+}

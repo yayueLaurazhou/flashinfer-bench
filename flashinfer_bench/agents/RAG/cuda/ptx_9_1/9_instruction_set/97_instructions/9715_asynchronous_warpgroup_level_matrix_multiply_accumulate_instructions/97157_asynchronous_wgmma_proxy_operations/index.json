@@ -1,0 +1,45 @@
+{
+  "description": "Documentation for 9.7.15.7. Asynchronous wgmma Proxy Operations",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "This section describes warpgroup level `wgmma.fence`, `wgmma.commit_group` and `wgmma.wait_group` instructions."
+    },
+    {
+      "id": "971571_asynchronous_multiply_and_accumulate_instruction_wgmmafence",
+      "title": "9.7.15.7.1. Asynchronous Multiply-and-Accumulate Instruction: wgmma.fence",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`wgmma.fence`",
+      "filename": "971571_asynchronous_multiply_and_accumulate_instruction_wgmmafence.md"
+    },
+    {
+      "id": "971572_asynchronous_multiply_and_accumulate_instruction_wgmmacommit_group",
+      "title": "9.7.15.7.2. Asynchronous Multiply-and-Accumulate Instruction: wgmma.commit_group",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`wgmma.commit_group`",
+      "filename": "971572_asynchronous_multiply_and_accumulate_instruction_wgmmacommit_group.md"
+    },
+    {
+      "id": "971573_asynchronous_multiply_and_accumulate_instruction_wgmmawait_group",
+      "title": "9.7.15.7.3. Asynchronous Multiply-and-Accumulate Instruction: wgmma.wait_group",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`wgmma.wait_group`",
+      "filename": "971573_asynchronous_multiply_and_accumulate_instruction_wgmmawait_group.md"
+    }
+  ]
+}

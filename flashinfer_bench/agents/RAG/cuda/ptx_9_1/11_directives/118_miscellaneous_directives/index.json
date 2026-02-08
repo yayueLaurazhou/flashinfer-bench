@@ -1,0 +1,25 @@
+{
+  "description": "Documentation for 11.8. Miscellaneous Directives",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "PTX provides the following miscellaneous directives:"
+    },
+    {
+      "id": "1181_miscellaneous_directives_blocksareclusters",
+      "title": "11.8.1. Miscellaneous Directives: .blocksareclusters",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`.blocksareclusters`",
+      "filename": "1181_miscellaneous_directives_blocksareclusters.md"
+    }
+  ]
+}

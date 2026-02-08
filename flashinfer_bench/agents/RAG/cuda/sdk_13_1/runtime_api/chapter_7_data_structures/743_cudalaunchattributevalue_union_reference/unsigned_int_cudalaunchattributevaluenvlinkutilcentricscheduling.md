@@ -1,0 +1,3 @@
+# unsigned int cudaLaunchAttributeValue::nvlinkUtilCentricScheduling
+
+Value of launch attribute cudaLaunchAttributeNvlinkUtilCentricScheduling.

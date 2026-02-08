@@ -1,0 +1,25 @@
+{
+  "description": "Documentation for 6.13. Unified Addressing",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "__host__cudaerror_t_cudapointergetattributes_cudapointe_2d0cf2bf",
+      "title": "__host__cudaError_t cudaPointerGetAttributes (cudaPointerAttributes *attributes, const void *ptr)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns attributes about a specified pointer....",
+      "filename": "__host__cudaerror_t_cudapointergetattributes_cudapointe_2d0cf2bf.md"
+    }
+  ]
+}

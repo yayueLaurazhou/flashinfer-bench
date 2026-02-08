@@ -1,0 +1,40 @@
+{
+  "description": "Documentation for 26.2. Using the EGM Interface",
+  "directories": [
+    {
+      "name": "2622_single_node_multi_gpu",
+      "description": "### 26.2.2. Single-Node, Multi-GPU[\uf0c1](#single-node-multi-gpu \"Permalink to this headline\")  In a multi-GPU system, the user has to provide host information for the placement. As we mentioned, a natura..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "2621_single_node_single_gpu",
+      "title": "26.2.1. Single-Node, Single-GPU",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 26.2.1. Single-Node, Single-GPU[\uf0c1](#single-node-single-gpu \"Permalink to this headline\")  Any of the existing CUDA host allocators as well as system allocated memory can be used to benefit from hi...",
+      "filename": "2621_single_node_single_gpu.md"
+    },
+    {
+      "id": "2623_multi_node_single_gpu",
+      "title": "26.2.3. Multi-Node, Single-GPU",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 26.2.3. Multi-Node, Single-GPU[\uf0c1](#multi-node-single-gpu \"Permalink to this headline\")  Beyond memory allocation, remote peer access does not have EGM-specific modification and it follows CUDA int...",
+      "filename": "2623_multi_node_single_gpu.md"
+    }
+  ]
+}

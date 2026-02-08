@@ -1,0 +1,55 @@
+{
+  "description": "Documentation for 9.7.18.1. Scalar Video Instructions",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "All scalar video instructions operate on 32-bit register operands. The scalar video instructions are:"
+    },
+    {
+      "id": "971811_scalar_video_instructions_vadd_vsub_vabsdiff_vmin_vmax",
+      "title": "9.7.18.1.1. Scalar Video Instructions: vadd, vsub, vabsdiff, vmin, vmax",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`vadd`, `vsub`",
+      "filename": "971811_scalar_video_instructions_vadd_vsub_vabsdiff_vmin_vmax.md"
+    },
+    {
+      "id": "971812_scalar_video_instructions_vshl_vshr",
+      "title": "9.7.18.1.2. Scalar Video Instructions: vshl, vshr",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`vshl`, `vshr`",
+      "filename": "971812_scalar_video_instructions_vshl_vshr.md"
+    },
+    {
+      "id": "971813_scalar_video_instructions_vmad",
+      "title": "9.7.18.1.3. Scalar Video Instructions: vmad",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`vmad`",
+      "filename": "971813_scalar_video_instructions_vmad.md"
+    },
+    {
+      "id": "971814_scalar_video_instructions_vset",
+      "title": "9.7.18.1.4. Scalar Video Instructions: vset",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`vset`",
+      "filename": "971814_scalar_video_instructions_vset.md"
+    }
+  ]
+}

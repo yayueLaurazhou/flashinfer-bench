@@ -1,0 +1,45 @@
+{
+  "description": "Documentation for 9.7.17. Stack Manipulation Instructions",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "The stack manipulation instructions can be used to dynamically allocate and deallocate memory on the stack frame of the current function."
+    },
+    {
+      "id": "97171_stack_manipulation_instructions_stacksave",
+      "title": "9.7.17.1. Stack Manipulation Instructions: stacksave",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`stacksave`",
+      "filename": "97171_stack_manipulation_instructions_stacksave.md"
+    },
+    {
+      "id": "97172_stack_manipulation_instructions_stackrestore",
+      "title": "9.7.17.2. Stack Manipulation Instructions: stackrestore",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`stackrestore`",
+      "filename": "97172_stack_manipulation_instructions_stackrestore.md"
+    },
+    {
+      "id": "97173_stack_manipulation_instructions_alloca",
+      "title": "9.7.17.3. Stack Manipulation Instructions: alloca",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`alloca`",
+      "filename": "97173_stack_manipulation_instructions_alloca.md"
+    }
+  ]
+}

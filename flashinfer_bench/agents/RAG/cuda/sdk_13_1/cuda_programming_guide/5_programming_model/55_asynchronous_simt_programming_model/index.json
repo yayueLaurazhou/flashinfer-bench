@@ -1,0 +1,25 @@
+{
+  "description": "Documentation for 5.5. Asynchronous SIMT Programming Model",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "551_asynchronous_operations",
+      "title": "5.5.1. Asynchronous Operations",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 5.5.1. Asynchronous Operations[\uf0c1](#asynchronous-operations \"Permalink to this headline\")  An asynchronous operation is defined as an operation that is initiated by a CUDA thread and is executed as...",
+      "filename": "551_asynchronous_operations.md"
+    }
+  ]
+}

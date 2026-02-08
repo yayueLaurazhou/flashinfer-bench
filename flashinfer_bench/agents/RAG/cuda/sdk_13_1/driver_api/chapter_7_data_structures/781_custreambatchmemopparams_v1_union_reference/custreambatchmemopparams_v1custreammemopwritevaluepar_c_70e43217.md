@@ -1,0 +1,4 @@
+# CUstreamBatchMemOpParams_v1::CUstreamMemOpWriteValuePar CUstreamBatchMemOpParams_v1::writeValue
+
+Params for CU_STREAM_MEM_OP_WRITE_VALUE_32 and
+CU_STREAM_MEM_OP_WRITE_VALUE_64 operations.

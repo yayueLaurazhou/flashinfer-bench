@@ -1,0 +1,25 @@
+{
+  "description": "Documentation for 18.5.2. Preprocessor Symbols",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "18521___cuda_arch__",
+      "title": "18.5.2.1. __CUDA_ARCH__",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 18.5.2.1. \\_\\_CUDA\\_ARCH\\_\\_[\uf0c1](#cuda-arch \"Permalink to this headline\")  1. The type signature of the following entities shall not depend on whether `__CUDA_ARCH__` is defined or not, or on a pa...",
+      "filename": "18521___cuda_arch__.md"
+    }
+  ]
+}

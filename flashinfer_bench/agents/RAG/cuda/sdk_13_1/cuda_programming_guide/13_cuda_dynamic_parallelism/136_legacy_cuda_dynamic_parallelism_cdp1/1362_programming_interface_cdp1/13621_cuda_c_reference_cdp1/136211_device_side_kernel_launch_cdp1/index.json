@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 13.6.2.1.1. Device-Side Kernel Launch (CDP1)",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "1362111_launches_are_asynchronous_cdp1",
+      "title": "13.6.2.1.1.1. Launches are Asynchronous (CDP1)",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "###### 13.6.2.1.1.1. Launches are Asynchronous (CDP1)[\uf0c1](#launches-are-asynchronous-cdp1 \"Permalink to this headline\")  See [Launches are Asynchronous](#launches-are-asynchronous), above, for CDP2 ver...",
+      "filename": "1362111_launches_are_asynchronous_cdp1.md"
+    },
+    {
+      "id": "1362112_launch_environment_configuration_cdp1",
+      "title": "13.6.2.1.1.2. Launch Environment Configuration (CDP1)",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "###### 13.6.2.1.1.2. Launch Environment Configuration (CDP1)[\uf0c1](#launch-environment-configuration-cdp1 \"Permalink to this headline\")  See [Launch Environment Configuration](#launch-environment-configu...",
+      "filename": "1362112_launch_environment_configuration_cdp1.md"
+    }
+  ]
+}

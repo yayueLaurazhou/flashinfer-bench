@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 6.27. Surface Reference Management [DEPRECATED]",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "curesult_cusurfrefgetarray_cuarray_pharray_cusurfref_hsurfref",
+      "title": "CUresult cuSurfRefGetArray (CUarray *phArray, CUsurfref hSurfRef)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Passes back the CUDA array bound to a surface reference....",
+      "filename": "curesult_cusurfrefgetarray_cuarray_pharray_cusurfref_hsurfref.md"
+    },
+    {
+      "id": "curesult_cusurfrefsetarray_cusurfref_hsurfref_cuarray_h_fe847b11",
+      "title": "CUresult cuSurfRefSetArray (CUsurfref hSurfRef, CUarray hArray, unsigned int Flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets the CUDA array for a surface reference....",
+      "filename": "curesult_cusurfrefsetarray_cusurfref_hsurfref_cuarray_h_fe847b11.md"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "description": "Documentation for 7.12. CUDA_ARRAY3D_DESCRIPTOR_v2 Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "size_t_cuda_array3d_descriptor_v2depth",
+      "title": "size_t CUDA_ARRAY3D_DESCRIPTOR_v2::Depth",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Depth of 3D array...",
+      "filename": "size_t_cuda_array3d_descriptor_v2depth.md"
+    },
+    {
+      "id": "unsigned_int_cuda_array3d_descriptor_v2flags",
+      "title": "unsigned int CUDA_ARRAY3D_DESCRIPTOR_v2::Flags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Flags...",
+      "filename": "unsigned_int_cuda_array3d_descriptor_v2flags.md"
+    },
+    {
+      "id": "cuarray_format_cuda_array3d_descriptor_v2format",
+      "title": "CUarray_format CUDA_ARRAY3D_DESCRIPTOR_v2::Format",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Array format...",
+      "filename": "cuarray_format_cuda_array3d_descriptor_v2format.md"
+    },
+    {
+      "id": "size_t_cuda_array3d_descriptor_v2height",
+      "title": "size_t CUDA_ARRAY3D_DESCRIPTOR_v2::Height",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Height of 3D array...",
+      "filename": "size_t_cuda_array3d_descriptor_v2height.md"
+    },
+    {
+      "id": "unsigned_int_cuda_array3d_descriptor_v2numchannels",
+      "title": "unsigned int CUDA_ARRAY3D_DESCRIPTOR_v2::NumChannels",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Channels per array element   CUDA Driver API TRM-06703-001 _vRelease Version  |  678   Data Structures...",
+      "filename": "unsigned_int_cuda_array3d_descriptor_v2numchannels.md"
+    },
+    {
+      "id": "size_t_cuda_array3d_descriptor_v2width",
+      "title": "size_t CUDA_ARRAY3D_DESCRIPTOR_v2::Width",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Width of 3D array...",
+      "filename": "size_t_cuda_array3d_descriptor_v2width.md"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "description": "Documentation for 7.58. cudaMemsetParams Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "void_cudamemsetparamsdst",
+      "title": "void *cudaMemsetParams::dst",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Destination device pointer...",
+      "filename": "void_cudamemsetparamsdst.md"
+    },
+    {
+      "id": "unsigned_int_cudamemsetparamselementsize",
+      "title": "unsigned int cudaMemsetParams::elementSize",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Size of each element in bytes. Must be 1, 2, or 4....",
+      "filename": "unsigned_int_cudamemsetparamselementsize.md"
+    },
+    {
+      "id": "size_t_cudamemsetparamsheight",
+      "title": "size_t cudaMemsetParams::height",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Number of rows   CUDA Runtime API vRelease Version  |  640   Data Structures...",
+      "filename": "size_t_cudamemsetparamsheight.md"
+    },
+    {
+      "id": "size_t_cudamemsetparamspitch",
+      "title": "size_t cudaMemsetParams::pitch",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Pitch of destination device pointer. Unused if height is 1...",
+      "filename": "size_t_cudamemsetparamspitch.md"
+    },
+    {
+      "id": "unsigned_int_cudamemsetparamsvalue",
+      "title": "unsigned int cudaMemsetParams::value",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Value to be set...",
+      "filename": "unsigned_int_cudamemsetparamsvalue.md"
+    },
+    {
+      "id": "size_t_cudamemsetparamswidth",
+      "title": "size_t cudaMemsetParams::width",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Width of the row in elements...",
+      "filename": "size_t_cudamemsetparamswidth.md"
+    }
+  ]
+}

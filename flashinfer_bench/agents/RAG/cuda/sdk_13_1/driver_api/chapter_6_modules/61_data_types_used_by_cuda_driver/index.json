@@ -1,0 +1,1985 @@
+{
+  "description": "Documentation for 6.1. Data types used by CUDA driver",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "struct_cuaccesspolicywindow_v1_struct_cuarraymapinfo_v1_26c94f9b",
+      "title": "struct CUaccessPolicyWindow_v1 struct CUarrayMapInfo_v1 struct CUasyncNotificationInfo struct CUcheckpointCheckpointArgs struct CUcheckpointGpuPair struct CUcheckpointLockArgs struct CUcheckpointRestoreArgs struct CUcheckpointUnlockArgs struct CUctxCigParam struct CUctxCreateParams struct CUDA_ARRAY3D_DESCRIPTOR_v2 struct CUDA_ARRAY_DESCRIPTOR_v2 struct CUDA_ARRAY_MEMORY_REQUIREMENTS_v1 struct CUDA_ARRAY_SPARSE_PROPERTIES_v1 struct CUDA_BATCH_MEM_OP_NODE_PARAMS_v1 struct CUDA_BATCH_MEM_OP_NODE_PARAMS_v2 struct CUDA_CHILD_GRAPH_NODE_PARAMS",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA Driver API TRM-06703-001 _vRelease Version  |  11   Modules...",
+      "filename": "struct_cuaccesspolicywindow_v1_struct_cuarraymapinfo_v1_26c94f9b.md"
+    },
+    {
+      "id": "struct_cuda_conditional_node_params_struct_cuda_event_r_68972aa9",
+      "title": "struct CUDA_CONDITIONAL_NODE_PARAMS struct CUDA_EVENT_RECORD_NODE_PARAMS struct CUDA_EVENT_WAIT_NODE_PARAMS struct CUDA_EXT_SEM_SIGNAL_NODE_PARAMS_v1 struct CUDA_EXT_SEM_SIGNAL_NODE_PARAMS_v2 struct CUDA_EXT_SEM_WAIT_NODE_PARAMS_v1 struct CUDA_EXT_SEM_WAIT_NODE_PARAMS_v2 struct CUDA_EXTERNAL_MEMORY_BUFFER_DESC_v1 struct CUDA_EXTERNAL_MEMORY_HANDLE_DESC_v1 struct CUDA_EXTERNAL_MEMORY_MIPMAPPED_ARRAY_DESC_v struct CUDA_EXTERNAL_SEMAPHORE_HANDLE_DESC_v1 struct CUDA_EXTERNAL_SEMAPHORE_SIGNAL_PARAMS_v1 struct CUDA_EXTERNAL_SEMAPHORE_WAIT_PARAMS_v1",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA Driver API TRM-06703-001 _vRelease Version  |  12   Modules...",
+      "filename": "struct_cuda_conditional_node_params_struct_cuda_event_r_68972aa9.md"
+    },
+    {
+      "id": "struct_cuda_graph_instantiate_params_struct_cuda_host_n_0eb995f0",
+      "title": "struct CUDA_GRAPH_INSTANTIATE_PARAMS struct CUDA_HOST_NODE_PARAMS_v1 struct CUDA_HOST_NODE_PARAMS_v2 struct CUDA_KERNEL_NODE_PARAMS_v1 struct CUDA_KERNEL_NODE_PARAMS_v2 struct CUDA_KERNEL_NODE_PARAMS_v3 struct CUDA_LAUNCH_PARAMS_v1 struct CUDA_MEM_ALLOC_NODE_PARAMS_v1 struct CUDA_MEM_ALLOC_NODE_PARAMS_v2 struct CUDA_MEM_FREE_NODE_PARAMS struct CUDA_MEMCPY2D_v2 struct CUDA_MEMCPY3D_PEER_v1 struct CUDA_MEMCPY3D_v2 struct CUDA_MEMCPY_NODE_PARAMS struct CUDA_MEMSET_NODE_PARAMS_v1 struct CUDA_MEMSET_NODE_PARAMS_v2",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA Driver API TRM-06703-001 _vRelease Version  |  13   Modules...",
+      "filename": "struct_cuda_graph_instantiate_params_struct_cuda_host_n_0eb995f0.md"
+    },
+    {
+      "id": "struct_cuda_pointer_attribute_p2p_tokens_v1_struct_cuda_46d4de17",
+      "title": "struct CUDA_POINTER_ATTRIBUTE_P2P_TOKENS_v1 struct CUDA_RESOURCE_DESC_v1 struct CUDA_RESOURCE_VIEW_DESC_v1 struct CUDA_TEXTURE_DESC_v1 struct CUdevprop_v1 struct CUeglFrame_v1 struct CUexecAffinityParam_v1 struct CUexecAffinitySmCount_v1 struct CUextent3D_v1 struct CUgraphEdgeData struct CUgraphExecUpdateResultInfo_v1 struct CUgraphNodeParams struct CUipcEventHandle_v1 struct CUipcMemHandle_v1 struct CUlaunchAttribute union CUlaunchAttributeValue",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA Driver API TRM-06703-001 _vRelease Version  |  14   Modules...",
+      "filename": "struct_cuda_pointer_attribute_p2p_tokens_v1_struct_cuda_46d4de17.md"
+    },
+    {
+      "id": "struct_culaunchconfig_struct_culaunchmemsyncdomainmap_s_73f2052b",
+      "title": "struct CUlaunchConfig struct CUlaunchMemSyncDomainMap struct CUmemAccessDesc_v1 struct CUmemAllocationProp_v1 struct CUmemcpy3DOperand_v1 struct CUmemcpyAttributes_v1 struct CUmemFabricHandle_v1 struct CUmemLocation_v1 struct CUmemPoolProps_v1 struct CUmemPoolPtrExportData_v1 struct CUmulticastObjectProp_v1 struct CUoffset3D_v1 union CUstreamBatchMemOpParams_v1 struct CUtensorMap enum cl_context_flags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "NVCL context scheduling flags...",
+      "filename": "struct_culaunchconfig_struct_culaunchmemsyncdomainmap_s_73f2052b.md"
+    },
+    {
+      "id": "enum_cl_event_flags",
+      "title": "enum cl_event_flags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "NVCL event scheduling flags...",
+      "filename": "enum_cl_event_flags.md"
+    },
+    {
+      "id": "enum_cuaccessproperty",
+      "title": "enum CUaccessProperty",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Specifies performance hint with CUaccessPolicyWindow for hitProp and missProp members....",
+      "filename": "enum_cuaccessproperty.md"
+    },
+    {
+      "id": "enum_cuaddress_mode",
+      "title": "enum CUaddress_mode",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Texture reference addressing modes...",
+      "filename": "enum_cuaddress_mode.md"
+    },
+    {
+      "id": "enum_cuarray_cubemap_face",
+      "title": "enum CUarray_cubemap_face",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Array indices for cube faces...",
+      "filename": "enum_cuarray_cubemap_face.md"
+    },
+    {
+      "id": "enum_cuarray_format",
+      "title": "enum CUarray_format",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Array formats...",
+      "filename": "enum_cuarray_format.md"
+    },
+    {
+      "id": "enum_cuarraysparsesubresourcetype",
+      "title": "enum CUarraySparseSubresourceType",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sparse subresource types...",
+      "filename": "enum_cuarraysparsesubresourcetype.md"
+    },
+    {
+      "id": "enum_cuasyncnotificationtype",
+      "title": "enum CUasyncNotificationType",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Types of async notification that can be sent   CUDA Driver API TRM-06703-001 _vRelease Version  |  20   Modules...",
+      "filename": "enum_cuasyncnotificationtype.md"
+    },
+    {
+      "id": "enum_cuatomicoperation",
+      "title": "enum CUatomicOperation",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA-valid Atomic Operations...",
+      "filename": "enum_cuatomicoperation.md"
+    },
+    {
+      "id": "enum_cuatomicoperationcapability",
+      "title": "enum CUatomicOperationCapability",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA-valid Atomic Operation capabilities...",
+      "filename": "enum_cuatomicoperationcapability.md"
+    },
+    {
+      "id": "enum_cuclusterschedulingpolicy",
+      "title": "enum CUclusterSchedulingPolicy",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Cluster scheduling policies. These may be passed to cuFuncSetAttribute or cuKernelSetAttribute   CUDA Driver API TRM-06703-001 _vRelease Version  |  21   Modules...",
+      "filename": "enum_cuclusterschedulingpolicy.md"
+    },
+    {
+      "id": "enum_cucomputemode",
+      "title": "enum CUcomputemode",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Compute Modes...",
+      "filename": "enum_cucomputemode.md"
+    },
+    {
+      "id": "enum_cuctx_flags",
+      "title": "enum CUctx_flags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Context creation flags...",
+      "filename": "enum_cuctx_flags.md"
+    },
+    {
+      "id": "enum_cuda_pointer_attribute_access_flags",
+      "title": "enum CUDA_POINTER_ATTRIBUTE_ACCESS_FLAGS",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Access flags that specify the level of access the current context's device has on the memory referenced....",
+      "filename": "enum_cuda_pointer_attribute_access_flags.md"
+    },
+    {
+      "id": "enum_cudevice_attribute",
+      "title": "enum CUdevice_attribute",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Device properties...",
+      "filename": "enum_cudevice_attribute.md"
+    },
+    {
+      "id": "enum_cudevice_p2pattribute",
+      "title": "enum CUdevice_P2PAttribute",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "P2P Attributes...",
+      "filename": "enum_cudevice_p2pattribute.md"
+    },
+    {
+      "id": "enum_cudevicenumaconfig",
+      "title": "enum CUdeviceNumaConfig",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA device NUMA configuration...",
+      "filename": "enum_cudevicenumaconfig.md"
+    },
+    {
+      "id": "enum_cudriverprocaddress_flags",
+      "title": "enum CUdriverProcAddress_flags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Flags to specify search options. For more details see cuGetProcAddress...",
+      "filename": "enum_cudriverprocaddress_flags.md"
+    },
+    {
+      "id": "enum_cudriverprocaddressqueryresult",
+      "title": "enum CUdriverProcAddressQueryResult",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Flags to indicate search status. For more details see cuGetProcAddress...",
+      "filename": "enum_cudriverprocaddressqueryresult.md"
+    },
+    {
+      "id": "enum_cueglcolorformat",
+      "title": "enum CUeglColorFormat",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA EGL Color Format - The different planar and multiplanar formats currently supported for CUDA_EGL interops. Three channel formats are currently not supported for CU_EGL_FRAME_TYPE_ARRAY...",
+      "filename": "enum_cueglcolorformat.md"
+    },
+    {
+      "id": "enum_cueglframetype",
+      "title": "enum CUeglFrameType",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA EglFrame type - array or pointer...",
+      "filename": "enum_cueglframetype.md"
+    },
+    {
+      "id": "enum_cueglresourcelocationflags",
+      "title": "enum CUeglResourceLocationFlags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Resource location flags- sysmem or vidmem  For CUDA context on iGPU, since video and system memory are equivalent - these flags will not have an effect on the execution.  For CUDA context on dGPU, app...",
+      "filename": "enum_cueglresourcelocationflags.md"
+    },
+    {
+      "id": "enum_cuevent_flags",
+      "title": "enum CUevent_flags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Event creation flags...",
+      "filename": "enum_cuevent_flags.md"
+    },
+    {
+      "id": "enum_cuevent_record_flags",
+      "title": "enum CUevent_record_flags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Event record flags...",
+      "filename": "enum_cuevent_record_flags.md"
+    },
+    {
+      "id": "enum_cuevent_sched_flags",
+      "title": "enum CUevent_sched_flags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Event sched flags...",
+      "filename": "enum_cuevent_sched_flags.md"
+    },
+    {
+      "id": "enum_cuevent_wait_flags",
+      "title": "enum CUevent_wait_flags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Event wait flags...",
+      "filename": "enum_cuevent_wait_flags.md"
+    },
+    {
+      "id": "enum_cuexecaffinitytype",
+      "title": "enum CUexecAffinityType",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Execution Affinity Types...",
+      "filename": "enum_cuexecaffinitytype.md"
+    },
+    {
+      "id": "enum_cuexternalmemoryhandletype",
+      "title": "enum CUexternalMemoryHandleType",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "External memory handle types   CUDA Driver API TRM-06703-001 _vRelease Version  |  41   Modules...",
+      "filename": "enum_cuexternalmemoryhandletype.md"
+    },
+    {
+      "id": "enum_cuexternalsemaphorehandletype",
+      "title": "enum CUexternalSemaphoreHandleType",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "External semaphore handle types...",
+      "filename": "enum_cuexternalsemaphorehandletype.md"
+    },
+    {
+      "id": "enum_cufilter_mode",
+      "title": "enum CUfilter_mode",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Texture reference filtering modes...",
+      "filename": "enum_cufilter_mode.md"
+    },
+    {
+      "id": "enum_cuflushgpudirectrdmawritesoptions",
+      "title": "enum CUflushGPUDirectRDMAWritesOptions",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Bitmasks for CU_DEVICE_ATTRIBUTE_GPU_DIRECT_RDMA_FLUSH_WRITES_OPTIONS...",
+      "filename": "enum_cuflushgpudirectrdmawritesoptions.md"
+    },
+    {
+      "id": "enum_cuflushgpudirectrdmawritesscope",
+      "title": "enum CUflushGPUDirectRDMAWritesScope",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "The scopes for cuFlushGPUDirectRDMAWrites...",
+      "filename": "enum_cuflushgpudirectrdmawritesscope.md"
+    },
+    {
+      "id": "enum_cuflushgpudirectrdmawritestarget",
+      "title": "enum CUflushGPUDirectRDMAWritesTarget",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "The targets for cuFlushGPUDirectRDMAWrites...",
+      "filename": "enum_cuflushgpudirectrdmawritestarget.md"
+    },
+    {
+      "id": "enum_cufunc_cache",
+      "title": "enum CUfunc_cache",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Function cache configurations...",
+      "filename": "enum_cufunc_cache.md"
+    },
+    {
+      "id": "enum_cufunction_attribute",
+      "title": "enum CUfunction_attribute",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Function properties...",
+      "filename": "enum_cufunction_attribute.md"
+    },
+    {
+      "id": "enum_cugpudirectrdmawritesordering",
+      "title": "enum CUGPUDirectRDMAWritesOrdering",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Platform native ordering for GPUDirect RDMA writes...",
+      "filename": "enum_cugpudirectrdmawritesordering.md"
+    },
+    {
+      "id": "enum_cugraphchildgraphnodeownership",
+      "title": "enum CUgraphChildGraphNodeOwnership",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Child graph node ownership...",
+      "filename": "enum_cugraphchildgraphnodeownership.md"
+    },
+    {
+      "id": "enum_cugraphconditionalnodetype",
+      "title": "enum CUgraphConditionalNodeType",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Conditional node types   CUDA Driver API TRM-06703-001 _vRelease Version  |  46   Modules...",
+      "filename": "enum_cugraphconditionalnodetype.md"
+    },
+    {
+      "id": "enum_cugraphdebugdot_flags",
+      "title": "enum CUgraphDebugDot_flags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "The additional write options for cuGraphDebugDotPrint...",
+      "filename": "enum_cugraphdebugdot_flags.md"
+    },
+    {
+      "id": "enum_cugraphdependencytype",
+      "title": "enum CUgraphDependencyType",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Type annotations that can be applied to graph edges as part of CUgraphEdgeData....",
+      "filename": "enum_cugraphdependencytype.md"
+    },
+    {
+      "id": "enum_cugraphexecupdateresult",
+      "title": "enum CUgraphExecUpdateResult",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA Graph Update error types...",
+      "filename": "enum_cugraphexecupdateresult.md"
+    },
+    {
+      "id": "enum_cugraphicsmapresourceflags",
+      "title": "enum CUgraphicsMapResourceFlags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Flags for mapping and unmapping interop resources...",
+      "filename": "enum_cugraphicsmapresourceflags.md"
+    },
+    {
+      "id": "enum_cugraphicsregisterflags",
+      "title": "enum CUgraphicsRegisterFlags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Flags to register a graphics resource...",
+      "filename": "enum_cugraphicsregisterflags.md"
+    },
+    {
+      "id": "enum_cugraphinstantiate_flags",
+      "title": "enum CUgraphInstantiate_flags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Flags for instantiating a graph...",
+      "filename": "enum_cugraphinstantiate_flags.md"
+    },
+    {
+      "id": "enum_cugraphinstantiateresult",
+      "title": "enum CUgraphInstantiateResult",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Graph instantiation results   CUDA Driver API TRM-06703-001 _vRelease Version  |  49   Modules...",
+      "filename": "enum_cugraphinstantiateresult.md"
+    },
+    {
+      "id": "enum_cugraphnodetype",
+      "title": "enum CUgraphNodeType",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Graph node types...",
+      "filename": "enum_cugraphnodetype.md"
+    },
+    {
+      "id": "enum_cuipcmem_flags",
+      "title": "enum CUipcMem_flags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA Ipc Mem Flags...",
+      "filename": "enum_cuipcmem_flags.md"
+    },
+    {
+      "id": "enum_cujit_cachemode",
+      "title": "enum CUjit_cacheMode",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Caching modes for dlcm...",
+      "filename": "enum_cujit_cachemode.md"
+    },
+    {
+      "id": "enum_cujit_fallback",
+      "title": "enum CUjit_fallback",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Cubin matching fallback strategies...",
+      "filename": "enum_cujit_fallback.md"
+    },
+    {
+      "id": "enum_cujit_option",
+      "title": "enum CUjit_option",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Online compiler and linker options...",
+      "filename": "enum_cujit_option.md"
+    },
+    {
+      "id": "enum_cujit_target",
+      "title": "enum CUjit_target",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Online compilation targets...",
+      "filename": "enum_cujit_target.md"
+    },
+    {
+      "id": "enum_cujitinputtype",
+      "title": "enum CUjitInputType",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Device code formats...",
+      "filename": "enum_cujitinputtype.md"
+    },
+    {
+      "id": "enum_culaunchattributeid",
+      "title": "enum CUlaunchAttributeID",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Launch attributes enum; used as id field of CUlaunchAttribute...",
+      "filename": "enum_culaunchattributeid.md"
+    },
+    {
+      "id": "enum_culaunchmemsyncdomain",
+      "title": "enum CUlaunchMemSyncDomain",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Memory Synchronization Domain  A kernel can be launched in a specified memory synchronization domain that affects all memory operations issued by that kernel. A memory barrier issued in one domain wil...",
+      "filename": "enum_culaunchmemsyncdomain.md"
+    },
+    {
+      "id": "enum_culibraryoption",
+      "title": "enum CUlibraryOption",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Library options to be specified with cuLibraryLoadData() or cuLibraryLoadFromFile()   CUDA Driver API TRM-06703-001 _vRelease Version  |  61   Modules...",
+      "filename": "enum_culibraryoption.md"
+    },
+    {
+      "id": "enum_culimit",
+      "title": "enum CUlimit",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Limits...",
+      "filename": "enum_culimit.md"
+    },
+    {
+      "id": "enum_cumem_advise",
+      "title": "enum CUmem_advise",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Memory advise values...",
+      "filename": "enum_cumem_advise.md"
+    },
+    {
+      "id": "enum_cumemaccess_flags",
+      "title": "enum CUmemAccess_flags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Specifies the memory protection flags for mapping....",
+      "filename": "enum_cumemaccess_flags.md"
+    },
+    {
+      "id": "enum_cumemallocationcomptype",
+      "title": "enum CUmemAllocationCompType",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Specifies compression attribute for an allocation....",
+      "filename": "enum_cumemallocationcomptype.md"
+    },
+    {
+      "id": "enum_cumemallocationgranularity_flags",
+      "title": "enum CUmemAllocationGranularity_flags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Flag for requesting different optimal and required granularities for an allocation....",
+      "filename": "enum_cumemallocationgranularity_flags.md"
+    },
+    {
+      "id": "enum_cumemallocationhandletype",
+      "title": "enum CUmemAllocationHandleType",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Flags for specifying particular handle types...",
+      "filename": "enum_cumemallocationhandletype.md"
+    },
+    {
+      "id": "enum_cumemallocationtype",
+      "title": "enum CUmemAllocationType",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Defines the allocation types available...",
+      "filename": "enum_cumemallocationtype.md"
+    },
+    {
+      "id": "enum_cumemattach_flags",
+      "title": "enum CUmemAttach_flags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA Mem Attach Flags...",
+      "filename": "enum_cumemattach_flags.md"
+    },
+    {
+      "id": "enum_cumemcpy3doperandtype",
+      "title": "enum CUmemcpy3DOperandType",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "These flags allow applications to convey the operand type for individual copies specified in cuMemcpy3DBatchAsync....",
+      "filename": "enum_cumemcpy3doperandtype.md"
+    },
+    {
+      "id": "enum_cumemcpyflags",
+      "title": "enum CUmemcpyFlags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Flags to specify for copies within a batch. For more details see cuMemcpyBatchAsync....",
+      "filename": "enum_cumemcpyflags.md"
+    },
+    {
+      "id": "enum_cumemcpysrcaccessorder",
+      "title": "enum CUmemcpySrcAccessOrder",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "These flags allow applications to convey the source access ordering CUDA must maintain. The destination will always be accessed in stream order....",
+      "filename": "enum_cumemcpysrcaccessorder.md"
+    },
+    {
+      "id": "enum_cumemhandletype",
+      "title": "enum CUmemHandleType",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Memory handle types...",
+      "filename": "enum_cumemhandletype.md"
+    },
+    {
+      "id": "enum_cumemlocationtype",
+      "title": "enum CUmemLocationType",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Specifies the type of location...",
+      "filename": "enum_cumemlocationtype.md"
+    },
+    {
+      "id": "enum_cumemoperationtype",
+      "title": "enum CUmemOperationType",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Memory operation types...",
+      "filename": "enum_cumemoperationtype.md"
+    },
+    {
+      "id": "enum_cumemorytype",
+      "title": "enum CUmemorytype",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Memory types...",
+      "filename": "enum_cumemorytype.md"
+    },
+    {
+      "id": "enum_cumempool_attribute",
+      "title": "enum CUmemPool_attribute",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA memory pool attributes...",
+      "filename": "enum_cumempool_attribute.md"
+    },
+    {
+      "id": "enum_cumemrangeflags",
+      "title": "enum CUmemRangeFlags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Flag for requesting handle type for address range....",
+      "filename": "enum_cumemrangeflags.md"
+    },
+    {
+      "id": "enum_cumemrangehandletype",
+      "title": "enum CUmemRangeHandleType",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Specifies the handle type for address range...",
+      "filename": "enum_cumemrangehandletype.md"
+    },
+    {
+      "id": "enum_cumulticastgranularity_flags",
+      "title": "enum CUmulticastGranularity_flags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Flags for querying different granularities for a multicast object...",
+      "filename": "enum_cumulticastgranularity_flags.md"
+    },
+    {
+      "id": "enum_cuoccupancy_flags",
+      "title": "enum CUoccupancy_flags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Occupancy calculator flag   CUDA Driver API TRM-06703-001 _vRelease Version  |  68   Modules...",
+      "filename": "enum_cuoccupancy_flags.md"
+    },
+    {
+      "id": "enum_cupointer_attribute",
+      "title": "enum CUpointer_attribute",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Pointer information...",
+      "filename": "enum_cupointer_attribute.md"
+    },
+    {
+      "id": "enum_cuprocessstate",
+      "title": "enum CUprocessState",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA Process States...",
+      "filename": "enum_cuprocessstate.md"
+    },
+    {
+      "id": "enum_curesourcetype",
+      "title": "enum CUresourcetype",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Resource types...",
+      "filename": "enum_curesourcetype.md"
+    },
+    {
+      "id": "enum_curesourceviewformat",
+      "title": "enum CUresourceViewFormat",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Resource view format...",
+      "filename": "enum_curesourceviewformat.md"
+    },
+    {
+      "id": "enum_curesult",
+      "title": "enum CUresult",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Error codes...",
+      "filename": "enum_curesult.md"
+    },
+    {
+      "id": "enum_cushared_carveout",
+      "title": "enum CUshared_carveout",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Shared memory carveout configurations. These may be passed to cuFuncSetAttribute or cuKernelSetAttribute...",
+      "filename": "enum_cushared_carveout.md"
+    },
+    {
+      "id": "enum_cusharedconfig",
+      "title": "enum CUsharedconfig",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Deprecated  Shared memory configurations...",
+      "filename": "enum_cusharedconfig.md"
+    },
+    {
+      "id": "enum_custream_flags",
+      "title": "enum CUstream_flags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Stream creation flags...",
+      "filename": "enum_custream_flags.md"
+    },
+    {
+      "id": "enum_custreamatomicreductiondatatype",
+      "title": "enum CUstreamAtomicReductionDataType",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Atomic reduction data types for CUstreamBatchMemOpParams::atomicReduction::dataType...",
+      "filename": "enum_custreamatomicreductiondatatype.md"
+    },
+    {
+      "id": "enum_custreamatomicreductionoptype",
+      "title": "enum CUstreamAtomicReductionOpType",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Atomic reduction operation types for CUstreamBatchMemOpParams::atomicReduction::reductionOp...",
+      "filename": "enum_custreamatomicreductionoptype.md"
+    },
+    {
+      "id": "enum_custreambatchmemoptype",
+      "title": "enum CUstreamBatchMemOpType",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Operations for cuStreamBatchMemOp...",
+      "filename": "enum_custreambatchmemoptype.md"
+    },
+    {
+      "id": "enum_custreamcapturemode",
+      "title": "enum CUstreamCaptureMode",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Possible modes for stream capture thread interactions. For more details see cuStreamBeginCapture and cuThreadExchangeStreamCaptureMode...",
+      "filename": "enum_custreamcapturemode.md"
+    },
+    {
+      "id": "enum_custreamcapturestatus",
+      "title": "enum CUstreamCaptureStatus",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Possible stream capture statuses returned by cuStreamIsCapturing...",
+      "filename": "enum_custreamcapturestatus.md"
+    },
+    {
+      "id": "enum_custreammemorybarrier_flags",
+      "title": "enum CUstreamMemoryBarrier_flags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Flags for CUstreamBatchMemOpParams::memoryBarrier...",
+      "filename": "enum_custreammemorybarrier_flags.md"
+    },
+    {
+      "id": "enum_custreamupdatecapturedependencies_flags",
+      "title": "enum CUstreamUpdateCaptureDependencies_flags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Flags for cuStreamUpdateCaptureDependencies...",
+      "filename": "enum_custreamupdatecapturedependencies_flags.md"
+    },
+    {
+      "id": "enum_custreamwaitvalue_flags",
+      "title": "enum CUstreamWaitValue_flags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Flags for cuStreamWaitValue32 and cuStreamWaitValue64...",
+      "filename": "enum_custreamwaitvalue_flags.md"
+    },
+    {
+      "id": "enum_custreamwritevalue_flags",
+      "title": "enum CUstreamWriteValue_flags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Flags for cuStreamWriteValue32...",
+      "filename": "enum_custreamwritevalue_flags.md"
+    },
+    {
+      "id": "enum_cutensormapdatatype",
+      "title": "enum CUtensorMapDataType",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Tensor map data type...",
+      "filename": "enum_cutensormapdatatype.md"
+    },
+    {
+      "id": "enum_cutensormapfloatoobfill",
+      "title": "enum CUtensorMapFloatOOBfill",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Tensor map out-of-bounds fill type...",
+      "filename": "enum_cutensormapfloatoobfill.md"
+    },
+    {
+      "id": "enum_cutensormapim2colwidemode",
+      "title": "enum CUtensorMapIm2ColWideMode",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Tensor map Im2Col wide mode...",
+      "filename": "enum_cutensormapim2colwidemode.md"
+    },
+    {
+      "id": "enum_cutensormapinterleave",
+      "title": "enum CUtensorMapInterleave",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Tensor map interleave layout type   CUDA Driver API TRM-06703-001 _vRelease Version  |  84   Modules...",
+      "filename": "enum_cutensormapinterleave.md"
+    },
+    {
+      "id": "enum_cutensormapl2promotion",
+      "title": "enum CUtensorMapL2promotion",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Tensor map L2 promotion type...",
+      "filename": "enum_cutensormapl2promotion.md"
+    },
+    {
+      "id": "enum_cutensormapswizzle",
+      "title": "enum CUtensorMapSwizzle",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Tensor map swizzling mode of shared memory banks...",
+      "filename": "enum_cutensormapswizzle.md"
+    },
+    {
+      "id": "enum_cuuserobject_flags",
+      "title": "enum CUuserObject_flags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Flags for user objects for graphs...",
+      "filename": "enum_cuuserobject_flags.md"
+    },
+    {
+      "id": "enum_cuuserobjectretain_flags",
+      "title": "enum CUuserObjectRetain_flags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Flags for retaining user object references for graphs...",
+      "filename": "enum_cuuserobjectretain_flags.md"
+    },
+    {
+      "id": "typedef_cuaccesspolicywindow",
+      "title": "typedef CUaccessPolicyWindow",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Access policy window...",
+      "filename": "typedef_cuaccesspolicywindow.md"
+    },
+    {
+      "id": "typedef_struct_cuarray_st_cuarray",
+      "title": "typedef struct CUarray_st *CUarray",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA array...",
+      "filename": "typedef_struct_cuarray_st_cuarray.md"
+    },
+    {
+      "id": "typedef_cuasynccallback_cuasyncnotificationinfo_info_vo_6250f882",
+      "title": "typedef (*CUasyncCallback) (CUasyncNotificationInfo* info, void* userData, CUasyncCallbackHandle callback)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA async notification callback...",
+      "filename": "typedef_cuasynccallback_cuasyncnotificationinfo_info_vo_6250f882.md"
+    },
+    {
+      "id": "typedef_struct_cuasynccallbackentry_st_cuasynccallbackhandle",
+      "title": "typedef struct CUasyncCallbackEntry_st *CUasyncCallbackHandle",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA async notification callback handle...",
+      "filename": "typedef_struct_cuasynccallbackentry_st_cuasynccallbackhandle.md"
+    },
+    {
+      "id": "typedef_struct_cuctx_st_cucontext",
+      "title": "typedef struct CUctx_st *CUcontext",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "A regular context handle...",
+      "filename": "typedef_struct_cuctx_st_cucontext.md"
+    },
+    {
+      "id": "typedef_cudevice",
+      "title": "typedef CUdevice",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA device...",
+      "filename": "typedef_cudevice.md"
+    },
+    {
+      "id": "typedef_int_cudevice_v1",
+      "title": "typedef int CUdevice_v1",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA device...",
+      "filename": "typedef_int_cudevice_v1.md"
+    },
+    {
+      "id": "typedef_cudeviceptr",
+      "title": "typedef CUdeviceptr",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA device pointer...",
+      "filename": "typedef_cudeviceptr.md"
+    },
+    {
+      "id": "typedef_unsigned_int_cudeviceptr_v2",
+      "title": "typedef unsigned int CUdeviceptr_v2",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA device pointer CUdeviceptr is defined as an unsigned integer type whose size matches the size of a pointer on the target platform.   CUDA Driver API TRM-06703-001 _vRelease Version  |  86   Modul...",
+      "filename": "typedef_unsigned_int_cudeviceptr_v2.md"
+    },
+    {
+      "id": "typedef_struct_cueglstreamconnection_st_cueglstreamconnection",
+      "title": "typedef struct CUeglStreamConnection_st *CUeglStreamConnection",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA EGLSream Connection...",
+      "filename": "typedef_struct_cueglstreamconnection_st_cueglstreamconnection.md"
+    },
+    {
+      "id": "typedef_struct_cuevent_st_cuevent",
+      "title": "typedef struct CUevent_st *CUevent",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA event...",
+      "filename": "typedef_struct_cuevent_st_cuevent.md"
+    },
+    {
+      "id": "typedef_cuexecaffinityparam",
+      "title": "typedef CUexecAffinityParam",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Execution Affinity Parameters...",
+      "filename": "typedef_cuexecaffinityparam.md"
+    },
+    {
+      "id": "typedef_struct_cuextmemory_st_cuexternalmemory",
+      "title": "typedef struct CUextMemory_st *CUexternalMemory",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA external memory...",
+      "filename": "typedef_struct_cuextmemory_st_cuexternalmemory.md"
+    },
+    {
+      "id": "typedef_struct_cuextsemaphore_st_cuexternalsemaphore",
+      "title": "typedef struct CUextSemaphore_st *CUexternalSemaphore",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA external semaphore...",
+      "filename": "typedef_struct_cuextsemaphore_st_cuexternalsemaphore.md"
+    },
+    {
+      "id": "typedef_struct_cufunc_st_cufunction",
+      "title": "typedef struct CUfunc_st *CUfunction",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA function...",
+      "filename": "typedef_struct_cufunc_st_cufunction.md"
+    },
+    {
+      "id": "typedef_struct_cugraph_st_cugraph",
+      "title": "typedef struct CUgraph_st *CUgraph",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA graph...",
+      "filename": "typedef_struct_cugraph_st_cugraph.md"
+    },
+    {
+      "id": "typedef_cuuint64_t_cugraphconditionalhandle",
+      "title": "typedef cuuint64_t CUgraphConditionalHandle",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA graph conditional handle...",
+      "filename": "typedef_cuuint64_t_cugraphconditionalhandle.md"
+    },
+    {
+      "id": "typedef_struct_cugraphdeviceupdatablenode_st_cugraphdevicenode",
+      "title": "typedef struct CUgraphDeviceUpdatableNode_st *CUgraphDeviceNode",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA graph device node handle...",
+      "filename": "typedef_struct_cugraphdeviceupdatablenode_st_cugraphdevicenode.md"
+    },
+    {
+      "id": "typedef_struct_cugraphexec_st_cugraphexec",
+      "title": "typedef struct CUgraphExec_st *CUgraphExec",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA executable graph   CUDA Driver API TRM-06703-001 _vRelease Version  |  87   Modules...",
+      "filename": "typedef_struct_cugraphexec_st_cugraphexec.md"
+    },
+    {
+      "id": "typedef_struct_cugraphicsresource_st_cugraphicsresource",
+      "title": "typedef struct CUgraphicsResource_st *CUgraphicsResource",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA graphics interop resource...",
+      "filename": "typedef_struct_cugraphicsresource_st_cugraphicsresource.md"
+    },
+    {
+      "id": "typedef_struct_cugraphnode_st_cugraphnode",
+      "title": "typedef struct CUgraphNode_st *CUgraphNode",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA graph node...",
+      "filename": "typedef_struct_cugraphnode_st_cugraphnode.md"
+    },
+    {
+      "id": "typedef_struct_cugreenctx_st_cugreenctx",
+      "title": "typedef struct CUgreenCtx_st *CUgreenCtx",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "A green context handle. This handle can be used safely from only one CPU thread at a time. Created via cuGreenCtxCreate...",
+      "filename": "typedef_struct_cugreenctx_st_cugreenctx.md"
+    },
+    {
+      "id": "typedef_void_cuda_cb_cuhostfn_void_userdata",
+      "title": "typedef void (CUDA_CB *CUhostFn) (void* userData)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA host function...",
+      "filename": "typedef_void_cuda_cb_cuhostfn_void_userdata.md"
+    },
+    {
+      "id": "typedef_struct_cukern_st_cukernel",
+      "title": "typedef struct CUkern_st *CUkernel",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA kernel...",
+      "filename": "typedef_struct_cukern_st_cukernel.md"
+    },
+    {
+      "id": "typedef_struct_culib_st_culibrary",
+      "title": "typedef struct CUlib_st *CUlibrary",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA library...",
+      "filename": "typedef_struct_culib_st_culibrary.md"
+    },
+    {
+      "id": "typedef_struct_cumempoolhandle_st_cumemorypool",
+      "title": "typedef struct CUmemPoolHandle_st *CUmemoryPool",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA memory pool...",
+      "filename": "typedef_struct_cumempoolhandle_st_cumemorypool.md"
+    },
+    {
+      "id": "typedef_struct_cumipmappedarray_st_cumipmappedarray",
+      "title": "typedef struct CUmipmappedArray_st *CUmipmappedArray",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA mipmapped array...",
+      "filename": "typedef_struct_cumipmappedarray_st_cumipmappedarray.md"
+    },
+    {
+      "id": "typedef_struct_cumod_st_cumodule",
+      "title": "typedef struct CUmod_st *CUmodule",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA module   CUDA Driver API TRM-06703-001 _vRelease Version  |  88   Modules...",
+      "filename": "typedef_struct_cumod_st_cumodule.md"
+    },
+    {
+      "id": "typedef_size_t_cuda_cb_cuoccupancyb2dsize_int_blocksize",
+      "title": "typedef size_t (CUDA_CB *CUoccupancyB2DSize) (int blockSize)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Block size to per-block dynamic shared memory mapping for a certain kernel...",
+      "filename": "typedef_size_t_cuda_cb_cuoccupancyb2dsize_int_blocksize.md"
+    },
+    {
+      "id": "typedef_struct_custream_st_custream",
+      "title": "typedef struct CUstream_st *CUstream",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA stream...",
+      "filename": "typedef_struct_custream_st_custream.md"
+    },
+    {
+      "id": "typedef_void_cuda_cb_custreamcallback_custream_hstream__d30cacfb",
+      "title": "typedef void (CUDA_CB *CUstreamCallback) (CUstream hStream, CUresult status, void* userData)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA stream callback...",
+      "filename": "typedef_void_cuda_cb_custreamcallback_custream_hstream__d30cacfb.md"
+    },
+    {
+      "id": "typedef_cusurfobject",
+      "title": "typedef CUsurfObject",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "An opaque value that represents a CUDA surface object...",
+      "filename": "typedef_cusurfobject.md"
+    },
+    {
+      "id": "typedef_unsigned_long_long_cusurfobject_v1",
+      "title": "typedef unsigned long long CUsurfObject_v1",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "An opaque value that represents a CUDA surface object...",
+      "filename": "typedef_unsigned_long_long_cusurfobject_v1.md"
+    },
+    {
+      "id": "typedef_struct_cusurfref_st_cusurfref",
+      "title": "typedef struct CUsurfref_st *CUsurfref",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA surface reference...",
+      "filename": "typedef_struct_cusurfref_st_cusurfref.md"
+    },
+    {
+      "id": "typedef_cutexobject",
+      "title": "typedef CUtexObject",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "An opaque value that represents a CUDA texture object...",
+      "filename": "typedef_cutexobject.md"
+    },
+    {
+      "id": "typedef_unsigned_long_long_cutexobject_v1",
+      "title": "typedef unsigned long long CUtexObject_v1",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "An opaque value that represents a CUDA texture object...",
+      "filename": "typedef_unsigned_long_long_cutexobject_v1.md"
+    },
+    {
+      "id": "typedef_struct_cutexref_st_cutexref",
+      "title": "typedef struct CUtexref_st *CUtexref",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA texture reference...",
+      "filename": "typedef_struct_cutexref_st_cutexref.md"
+    },
+    {
+      "id": "typedef_struct_cuuserobject_st_cuuserobject",
+      "title": "typedef struct CUuserObject_st *CUuserObject",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA user object for graphs   CUDA Driver API TRM-06703-001 _vRelease Version  |  89   Modules...",
+      "filename": "typedef_struct_cuuserobject_st_cuuserobject.md"
+    },
+    {
+      "id": "define_cu_array_sparse_properties_single_miptail_0x1",
+      "title": "#define CU_ARRAY_SPARSE_PROPERTIES_SINGLE_MIPTAIL 0x1",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Indicates that the layered sparse CUDA array or CUDA mipmapped array has a single mip tail region for all layers...",
+      "filename": "define_cu_array_sparse_properties_single_miptail_0x1.md"
+    },
+    {
+      "id": "define_cu_device_cpu_cudevice_1",
+      "title": "#define CU_DEVICE_CPU ((CUdevice)-1)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Device that represents the CPU...",
+      "filename": "define_cu_device_cpu_cudevice_1.md"
+    },
+    {
+      "id": "define_cu_device_invalid_cudevice_2",
+      "title": "#define CU_DEVICE_INVALID ((CUdevice)-2)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Device that represents an invalid device...",
+      "filename": "define_cu_device_invalid_cudevice_2.md"
+    },
+    {
+      "id": "define_cu_graph_cond_assign_default_0x1",
+      "title": "#define CU_GRAPH_COND_ASSIGN_DEFAULT 0x1",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Conditional node handle flags Default value is applied when graph is launched....",
+      "filename": "define_cu_graph_cond_assign_default_0x1.md"
+    },
+    {
+      "id": "define_cu_graph_kernel_node_port_default_0",
+      "title": "#define CU_GRAPH_KERNEL_NODE_PORT_DEFAULT 0",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "This port activates when the kernel has finished executing....",
+      "filename": "define_cu_graph_kernel_node_port_default_0.md"
+    },
+    {
+      "id": "define_cu_graph_kernel_node_port_launch_order_2",
+      "title": "#define CU_GRAPH_KERNEL_NODE_PORT_LAUNCH_ORDER 2",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "This port activates when all blocks of the kernel have begun execution. See also CU_LAUNCH_ATTRIBUTE_LAUNCH_COMPLETION_EVENT....",
+      "filename": "define_cu_graph_kernel_node_port_launch_order_2.md"
+    },
+    {
+      "id": "define_cu_graph_kernel_node_port_programmatic_1",
+      "title": "#define CU_GRAPH_KERNEL_NODE_PORT_PROGRAMMATIC 1",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "This port activates when all blocks of the kernel have performed cudaTriggerProgrammaticLaunchCompletion() or have terminated. It must be used with edge type CU_GRAPH_DEPENDENCY_TYPE_PROGRAMMATIC. See...",
+      "filename": "define_cu_graph_kernel_node_port_programmatic_1.md"
+    },
+    {
+      "id": "define_cu_ipc_handle_size_64",
+      "title": "#define CU_IPC_HANDLE_SIZE 64",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA IPC handle size...",
+      "filename": "define_cu_ipc_handle_size_64.md"
+    },
+    {
+      "id": "define_cu_launch_kernel_required_block_dim_1",
+      "title": "#define CU_LAUNCH_KERNEL_REQUIRED_BLOCK_DIM 1",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Launch with the required block dimension....",
+      "filename": "define_cu_launch_kernel_required_block_dim_1.md"
+    },
+    {
+      "id": "define_cu_launch_param_buffer_pointer_voidcu_launch_par_fa2ca6d0",
+      "title": "#define CU_LAUNCH_PARAM_BUFFER_POINTER ((void*)CU_LAUNCH_PARAM_BUFFER_POINTER_AS_INT)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Indicator that the next value in the extra parameter to cuLaunchKernel will be a pointer to a buffer containing all kernel parameters used for launching kernel f. This buffer needs to honor all alignm...",
+      "filename": "define_cu_launch_param_buffer_pointer_voidcu_launch_par_fa2ca6d0.md"
+    },
+    {
+      "id": "define_cu_launch_param_buffer_pointer_as_int_0x01",
+      "title": "#define CU_LAUNCH_PARAM_BUFFER_POINTER_AS_INT 0x01",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "C++ compile time constant for CU_LAUNCH_PARAM_BUFFER_POINTER...",
+      "filename": "define_cu_launch_param_buffer_pointer_as_int_0x01.md"
+    },
+    {
+      "id": "define_cu_launch_param_buffer_size_voidcu_launch_param__428225d8",
+      "title": "#define CU_LAUNCH_PARAM_BUFFER_SIZE ((void*)CU_LAUNCH_PARAM_BUFFER_SIZE_AS_INT)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Indicator that the next value in the extra parameter to cuLaunchKernel will be a pointer to a size_t which contains the size of the buffer specified with CU_LAUNCH_PARAM_BUFFER_POINTER. It is required...",
+      "filename": "define_cu_launch_param_buffer_size_voidcu_launch_param__428225d8.md"
+    },
+    {
+      "id": "define_cu_launch_param_buffer_size_as_int_0x02",
+      "title": "#define CU_LAUNCH_PARAM_BUFFER_SIZE_AS_INT 0x02",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "C++ compile time constant for CU_LAUNCH_PARAM_BUFFER_SIZE   CUDA Driver API TRM-06703-001 _vRelease Version  |  91   Modules...",
+      "filename": "define_cu_launch_param_buffer_size_as_int_0x02.md"
+    },
+    {
+      "id": "define_cu_launch_param_end_voidcu_launch_param_end_as_int",
+      "title": "#define CU_LAUNCH_PARAM_END ((void*)CU_LAUNCH_PARAM_END_AS_INT)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "End of array terminator for the extra parameter to cuLaunchKernel...",
+      "filename": "define_cu_launch_param_end_voidcu_launch_param_end_as_int.md"
+    },
+    {
+      "id": "define_cu_launch_param_end_as_int_0x00",
+      "title": "#define CU_LAUNCH_PARAM_END_AS_INT 0x00",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "C++ compile time constant for CU_LAUNCH_PARAM_END...",
+      "filename": "define_cu_launch_param_end_as_int_0x00.md"
+    },
+    {
+      "id": "define_cu_mem_create_usage_hw_decompress_0x2",
+      "title": "#define CU_MEM_CREATE_USAGE_HW_DECOMPRESS 0x2",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "This flag, if set, indicates that the memory will be used as a buffer for hardware accelerated decompression....",
+      "filename": "define_cu_mem_create_usage_hw_decompress_0x2.md"
+    },
+    {
+      "id": "define_cu_mem_create_usage_tile_pool_0x1",
+      "title": "#define CU_MEM_CREATE_USAGE_TILE_POOL 0x1",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "This flag if set indicates that the memory will be used as a tile pool....",
+      "filename": "define_cu_mem_create_usage_tile_pool_0x1.md"
+    },
+    {
+      "id": "define_cu_mem_pool_create_usage_hw_decompress_0x2",
+      "title": "#define CU_MEM_POOL_CREATE_USAGE_HW_DECOMPRESS 0x2",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "This flag, if set, indicates that the memory will be used as a buffer for hardware accelerated decompression....",
+      "filename": "define_cu_mem_pool_create_usage_hw_decompress_0x2.md"
+    },
+    {
+      "id": "define_cu_memhostalloc_devicemap_0x02",
+      "title": "#define CU_MEMHOSTALLOC_DEVICEMAP 0x02",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "If set, host memory is mapped into CUDA address space and cuMemHostGetDevicePointer() may be called on the host pointer. Flag for cuMemHostAlloc()...",
+      "filename": "define_cu_memhostalloc_devicemap_0x02.md"
+    },
+    {
+      "id": "define_cu_memhostalloc_portable_0x01",
+      "title": "#define CU_MEMHOSTALLOC_PORTABLE 0x01",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "If set, host memory is portable between CUDA contexts. Flag for cuMemHostAlloc()...",
+      "filename": "define_cu_memhostalloc_portable_0x01.md"
+    },
+    {
+      "id": "define_cu_memhostalloc_writecombined_0x04",
+      "title": "#define CU_MEMHOSTALLOC_WRITECOMBINED 0x04",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "If set, host memory is allocated as write-combined - fast to write, faster to DMA, slow to read except via SSE4 streaming load instruction (MOVNTDQA). Flag for cuMemHostAlloc()   CUDA Driver API TRM-0...",
+      "filename": "define_cu_memhostalloc_writecombined_0x04.md"
+    },
+    {
+      "id": "define_cu_memhostregister_devicemap_0x02",
+      "title": "#define CU_MEMHOSTREGISTER_DEVICEMAP 0x02",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "If set, host memory is mapped into CUDA address space and cuMemHostGetDevicePointer() may be called on the host pointer. Flag for cuMemHostRegister()...",
+      "filename": "define_cu_memhostregister_devicemap_0x02.md"
+    },
+    {
+      "id": "define_cu_memhostregister_iomemory_0x04",
+      "title": "#define CU_MEMHOSTREGISTER_IOMEMORY 0x04",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "If set, the passed memory pointer is treated as pointing to some memory-mapped I/O space, e.g. belonging to a third-party PCIe device. On Windows the flag is a no-op. On Linux that memory is marked as...",
+      "filename": "define_cu_memhostregister_iomemory_0x04.md"
+    },
+    {
+      "id": "define_cu_memhostregister_portable_0x01",
+      "title": "#define CU_MEMHOSTREGISTER_PORTABLE 0x01",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "If set, host memory is portable between CUDA contexts. Flag for cuMemHostRegister()...",
+      "filename": "define_cu_memhostregister_portable_0x01.md"
+    },
+    {
+      "id": "define_cu_memhostregister_read_only_0x08",
+      "title": "#define CU_MEMHOSTREGISTER_READ_ONLY 0x08",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "If set, the passed memory pointer is treated as pointing to memory that is considered read-only by the device. On platforms without CU_DEVICE_ATTRIBUTE_PAGEABLE_MEMORY_ACCESS_USES_HOST_PAGE_TABLES, th...",
+      "filename": "define_cu_memhostregister_read_only_0x08.md"
+    },
+    {
+      "id": "define_cu_param_tr_default_1",
+      "title": "#define CU_PARAM_TR_DEFAULT -1",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "For texture references loaded into the module, use default texunit from texture reference....",
+      "filename": "define_cu_param_tr_default_1.md"
+    },
+    {
+      "id": "define_cu_stream_legacy_custream0x1",
+      "title": "#define CU_STREAM_LEGACY ((CUstream)0x1)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Legacy stream handle  Stream handle that can be passed as a CUstream to use an implicit stream with legacy synchronization behavior.  See details of the synchronization behavior.   CUDA Driver API TRM...",
+      "filename": "define_cu_stream_legacy_custream0x1.md"
+    },
+    {
+      "id": "define_cu_stream_per_thread_custream0x2",
+      "title": "#define CU_STREAM_PER_THREAD ((CUstream)0x2)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Per-thread stream handle  Stream handle that can be passed as a CUstream to use an implicit stream with per-thread synchronization behavior.  See details of the synchronization behavior....",
+      "filename": "define_cu_stream_per_thread_custream0x2.md"
+    },
+    {
+      "id": "define_cu_tensor_map_num_qwords_16",
+      "title": "#define CU_TENSOR_MAP_NUM_QWORDS 16",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Size of tensor map descriptor...",
+      "filename": "define_cu_tensor_map_num_qwords_16.md"
+    },
+    {
+      "id": "define_cu_trsa_override_format_0x01",
+      "title": "#define CU_TRSA_OVERRIDE_FORMAT 0x01",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Override the texref format with a format inferred from the array. Flag for cuTexRefSetArray()...",
+      "filename": "define_cu_trsa_override_format_0x01.md"
+    },
+    {
+      "id": "define_cu_trsf_disable_trilinear_optimization_0x20",
+      "title": "#define CU_TRSF_DISABLE_TRILINEAR_OPTIMIZATION 0x20",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Disable any trilinear filtering optimizations. Flag for cuTexRefSetFlags() and cuTexObjectCreate()...",
+      "filename": "define_cu_trsf_disable_trilinear_optimization_0x20.md"
+    },
+    {
+      "id": "define_cu_trsf_normalized_coordinates_0x02",
+      "title": "#define CU_TRSF_NORMALIZED_COORDINATES 0x02",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Use normalized texture coordinates in the range [0,1) instead of [0,dim). Flag for cuTexRefSetFlags() and cuTexObjectCreate()...",
+      "filename": "define_cu_trsf_normalized_coordinates_0x02.md"
+    },
+    {
+      "id": "define_cu_trsf_read_as_integer_0x01",
+      "title": "#define CU_TRSF_READ_AS_INTEGER 0x01",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Read the texture as integers rather than promoting the values to floats in the range [0,1]. Flag for cuTexRefSetFlags() and cuTexObjectCreate()...",
+      "filename": "define_cu_trsf_read_as_integer_0x01.md"
+    },
+    {
+      "id": "define_cu_trsf_seamless_cubemap_0x40",
+      "title": "#define CU_TRSF_SEAMLESS_CUBEMAP 0x40",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Enable seamless cube map filtering. Flag for cuTexObjectCreate()...",
+      "filename": "define_cu_trsf_seamless_cubemap_0x40.md"
+    },
+    {
+      "id": "define_cu_trsf_srgb_0x10",
+      "title": "#define CU_TRSF_SRGB 0x10",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Perform sRGB->linear conversion during texture read. Flag for cuTexRefSetFlags() and cuTexObjectCreate()   CUDA Driver API TRM-06703-001 _vRelease Version  |  94   Modules...",
+      "filename": "define_cu_trsf_srgb_0x10.md"
+    },
+    {
+      "id": "define_cuda_array3d_2darray_0x01",
+      "title": "#define CUDA_ARRAY3D_2DARRAY 0x01",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Deprecated, use CUDA_ARRAY3D_LAYERED...",
+      "filename": "define_cuda_array3d_2darray_0x01.md"
+    },
+    {
+      "id": "define_cuda_array3d_color_attachment_0x20",
+      "title": "#define CUDA_ARRAY3D_COLOR_ATTACHMENT 0x20",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "This flag indicates that the CUDA array may be bound as a color target in an external graphics API...",
+      "filename": "define_cuda_array3d_color_attachment_0x20.md"
+    },
+    {
+      "id": "define_cuda_array3d_cubemap_0x04",
+      "title": "#define CUDA_ARRAY3D_CUBEMAP 0x04",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "If set, the CUDA array is a collection of six 2D arrays, representing faces of a cube. The width of such a CUDA array must be equal to its height, and Depth must be six. If CUDA_ARRAY3D_LAYERED flag i...",
+      "filename": "define_cuda_array3d_cubemap_0x04.md"
+    },
+    {
+      "id": "define_cuda_array3d_deferred_mapping_0x80",
+      "title": "#define CUDA_ARRAY3D_DEFERRED_MAPPING 0x80",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "This flag if set indicates that the CUDA array or CUDA mipmapped array will allow deferred memory mapping...",
+      "filename": "define_cuda_array3d_deferred_mapping_0x80.md"
+    },
+    {
+      "id": "define_cuda_array3d_depth_texture_0x10",
+      "title": "#define CUDA_ARRAY3D_DEPTH_TEXTURE 0x10",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "This flag if set indicates that the CUDA array is a DEPTH_TEXTURE....",
+      "filename": "define_cuda_array3d_depth_texture_0x10.md"
+    },
+    {
+      "id": "define_cuda_array3d_layered_0x01",
+      "title": "#define CUDA_ARRAY3D_LAYERED 0x01",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "If set, the CUDA array is a collection of layers, where each layer is either a 1D or a 2D array and the Depth member of CUDA_ARRAY3D_DESCRIPTOR specifies the number of layers, not the depth of a 3D ar...",
+      "filename": "define_cuda_array3d_layered_0x01.md"
+    },
+    {
+      "id": "define_cuda_array3d_sparse_0x40",
+      "title": "#define CUDA_ARRAY3D_SPARSE 0x40",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "This flag if set indicates that the CUDA array or CUDA mipmapped array is a sparse CUDA array or CUDA mipmapped array respectively...",
+      "filename": "define_cuda_array3d_sparse_0x40.md"
+    },
+    {
+      "id": "define_cuda_array3d_surface_ldst_0x02",
+      "title": "#define CUDA_ARRAY3D_SURFACE_LDST 0x02",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "This flag must be set in order to bind a surface reference to the CUDA array   CUDA Driver API TRM-06703-001 _vRelease Version  |  95   Modules...",
+      "filename": "define_cuda_array3d_surface_ldst_0x02.md"
+    },
+    {
+      "id": "define_cuda_array3d_texture_gather_0x08",
+      "title": "#define CUDA_ARRAY3D_TEXTURE_GATHER 0x08",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "This flag must be set in order to perform texture gather operations on a CUDA array....",
+      "filename": "define_cuda_array3d_texture_gather_0x08.md"
+    },
+    {
+      "id": "define_cuda_array3d_video_encode_decode_0x100",
+      "title": "#define CUDA_ARRAY3D_VIDEO_ENCODE_DECODE 0x100",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "This flag indicates that the CUDA array will be used for hardware accelerated video encode/decode operations....",
+      "filename": "define_cuda_array3d_video_encode_decode_0x100.md"
+    },
+    {
+      "id": "define_cuda_cooperative_launch_multi_device_no_post__0x02",
+      "title": "#define CUDA_COOPERATIVE_LAUNCH_MULTI_DEVICE_NO_POST_ 0x02",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "If set, any subsequent work pushed in a stream that participated in a call to cuLaunchCooperativeKernelMultiDevice will only wait for the kernel launched on the GPU corresponding to that stream to com...",
+      "filename": "define_cuda_cooperative_launch_multi_device_no_post__0x02.md"
+    },
+    {
+      "id": "define_cuda_cooperative_launch_multi_device_no_pre_l_0x01",
+      "title": "#define CUDA_COOPERATIVE_LAUNCH_MULTI_DEVICE_NO_PRE_L 0x01",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "If set, each kernel launched as part of cuLaunchCooperativeKernelMultiDevice only waits for prior work in the stream corresponding to that GPU to complete before the kernel begins execution....",
+      "filename": "define_cuda_cooperative_launch_multi_device_no_pre_l_0x01.md"
+    },
+    {
+      "id": "define_cuda_egl_infinite_timeout_0xffffffff",
+      "title": "#define CUDA_EGL_INFINITE_TIMEOUT 0xFFFFFFFF",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Indicates that timeout for cuEGLStreamConsumerAcquireFrame is infinite....",
+      "filename": "define_cuda_egl_infinite_timeout_0xffffffff.md"
+    },
+    {
+      "id": "define_cuda_external_memory_dedicated_0x1",
+      "title": "#define CUDA_EXTERNAL_MEMORY_DEDICATED 0x1",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Indicates that the external memory object is a dedicated resource   CUDA Driver API TRM-06703-001 _vRelease Version  |  96   Modules...",
+      "filename": "define_cuda_external_memory_dedicated_0x1.md"
+    },
+    {
+      "id": "define_cuda_external_semaphore_signal_skip_nvscibuf__0x01",
+      "title": "#define CUDA_EXTERNAL_SEMAPHORE_SIGNAL_SKIP_NVSCIBUF_ 0x01",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "When the flags parameter of CUDA_EXTERNAL_SEMAPHORE_SIGNAL_PARAMS contains this flag, it indicates that signaling an external semaphore object should skip performing appropriate memory synchronization...",
+      "filename": "define_cuda_external_semaphore_signal_skip_nvscibuf__0x01.md"
+    },
+    {
+      "id": "define_cuda_external_semaphore_wait_skip_nvscibuf_me_0x02",
+      "title": "#define CUDA_EXTERNAL_SEMAPHORE_WAIT_SKIP_NVSCIBUF_ME 0x02",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "When the flags parameter of CUDA_EXTERNAL_SEMAPHORE_WAIT_PARAMS contains this flag, it indicates that waiting on an external semaphore object should skip performing appropriate memory synchronization ...",
+      "filename": "define_cuda_external_semaphore_wait_skip_nvscibuf_me_0x02.md"
+    },
+    {
+      "id": "define_cuda_nvscisync_attr_signal_0x1",
+      "title": "#define CUDA_NVSCISYNC_ATTR_SIGNAL 0x1",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "When flags of cuDeviceGetNvSciSyncAttributes is set to this, it indicates that application needs signaler specific NvSciSyncAttr to be filled by cuDeviceGetNvSciSyncAttributes....",
+      "filename": "define_cuda_nvscisync_attr_signal_0x1.md"
+    },
+    {
+      "id": "define_cuda_nvscisync_attr_wait_0x2",
+      "title": "#define CUDA_NVSCISYNC_ATTR_WAIT 0x2",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "When flags of cuDeviceGetNvSciSyncAttributes is set to this, it indicates that application needs waiter specific NvSciSyncAttr to be filled by cuDeviceGetNvSciSyncAttributes....",
+      "filename": "define_cuda_nvscisync_attr_wait_0x2.md"
+    },
+    {
+      "id": "define_cuda_version_13010",
+      "title": "#define CUDA_VERSION 13010",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA API version number...",
+      "filename": "define_cuda_version_13010.md"
+    },
+    {
+      "id": "define_max_planes_3",
+      "title": "#define MAX_PLANES 3",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Maximum number of planes per frame   CUDA Driver API TRM-06703-001 _vRelease Version  |  97   Modules...",
+      "filename": "define_max_planes_3.md"
+    }
+  ]
+}

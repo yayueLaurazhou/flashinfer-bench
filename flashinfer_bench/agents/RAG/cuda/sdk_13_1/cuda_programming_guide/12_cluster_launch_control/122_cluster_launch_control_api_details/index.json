@@ -1,0 +1,55 @@
+{
+  "description": "Documentation for 12.2. Cluster Launch Control API Details",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "1221_thread_block_cancellation_steps",
+      "title": "12.2.1. Thread block cancellation steps",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 12.2.1. Thread block cancellation steps[\uf0c1](#thread-block-cancellation-steps \"Permalink to this headline\")  The preferred way to use Cluster Launch Control is from a single thread, i.e., one reques...",
+      "filename": "1221_thread_block_cancellation_steps.md"
+    },
+    {
+      "id": "1222_thread_block_cancellation_constraints",
+      "title": "12.2.2. Thread block cancellation constraints",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 12.2.2. Thread block cancellation constraints[\uf0c1](#thread-block-cancellation-constraints \"Permalink to this headline\")  The constraints are related to failed cancellation requests:  * Submitting an...",
+      "filename": "1222_thread_block_cancellation_constraints.md"
+    },
+    {
+      "id": "1223_kernel_example_vector_scalar_multiplication",
+      "title": "12.2.3. Kernel Example: Vector-Scalar Multiplication",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 12.2.3. Kernel Example: Vector-Scalar Multiplication[\uf0c1](#kernel-example-vector-scalar-multiplication \"Permalink to this headline\")  The three kernels below demonstrate the Fixed Work per Thread Bl...",
+      "filename": "1223_kernel_example_vector_scalar_multiplication.md"
+    },
+    {
+      "id": "1224_cluster_launch_control_for_thread_block_clusters",
+      "title": "12.2.4. Cluster Launch Control for Thread Block Clusters",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 12.2.4. Cluster Launch Control for Thread Block Clusters[\uf0c1](#cluster-launch-control-for-thread-block-clusters \"Permalink to this headline\")  In the case of a [thread block clusters](#thread-block-...",
+      "filename": "1224_cluster_launch_control_for_thread_block_clusters.md"
+    }
+  ]
+}

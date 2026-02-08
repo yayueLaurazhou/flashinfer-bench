@@ -1,0 +1,65 @@
+{
+  "description": "Documentation for 6.42. Direct3D 10 Interoperability",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "direct3d_10_interoperability_deprecated_enum_cud3d10devicelist",
+      "title": "Direct3D 10 Interoperability [DEPRECATED] enum CUd3d10DeviceList",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA devices corresponding to a D3D10 device   CUDA Driver API TRM-06703-001 _vRelease Version  |  630   Modules...",
+      "filename": "direct3d_10_interoperability_deprecated_enum_cud3d10devicelist.md"
+    },
+    {
+      "id": "curesult_cud3d10getdevice_cudevice_pcudadevice_idxgiada_2c22077c",
+      "title": "CUresult cuD3D10GetDevice (CUdevice *pCudaDevice, IDXGIAdapter *pAdapter)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Gets the CUDA device corresponding to a display adapter....",
+      "filename": "curesult_cud3d10getdevice_cudevice_pcudadevice_idxgiada_2c22077c.md"
+    },
+    {
+      "id": "curesult_cud3d10getdevices_unsigned_int_pcudadevicecoun_67c5e173",
+      "title": "CUresult cuD3D10GetDevices (unsigned int *pCudaDeviceCount, CUdevice *pCudaDevices, unsigned int cudaDeviceCount, ID3D10Device *pD3D10Device, CUd3d10DeviceList deviceList)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Gets the CUDA devices corresponding to a Direct3D 10 device....",
+      "filename": "curesult_cud3d10getdevices_unsigned_int_pcudadevicecoun_67c5e173.md"
+    },
+    {
+      "id": "curesult_cugraphicsd3d10registerresource_cugraphicsreso_b84d7e35",
+      "title": "CUresult cuGraphicsD3D10RegisterResource (CUgraphicsResource *pCudaResource, ID3D10Resource *pD3DResource, unsigned int Flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Register a Direct3D 10 resource for access by CUDA....",
+      "filename": "curesult_cugraphicsd3d10registerresource_cugraphicsreso_b84d7e35.md"
+    },
+    {
+      "id": "6421_direct3d_10_interoperability_deprecated",
+      "title": "6.42.1. Direct3D 10 Interoperability [DEPRECATED]",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Direct3D 10 Interoperability  This section describes deprecated Direct3D 10 interoperability functionality....",
+      "filename": "6421_direct3d_10_interoperability_deprecated.md"
+    }
+  ]
+}

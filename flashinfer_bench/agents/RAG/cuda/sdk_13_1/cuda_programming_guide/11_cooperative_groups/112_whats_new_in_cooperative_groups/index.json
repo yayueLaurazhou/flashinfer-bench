@@ -1,0 +1,55 @@
+{
+  "description": "Documentation for 11.2. What\u2019s New in Cooperative Groups",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "1121_cuda_130",
+      "title": "11.2.1. CUDA 13.0",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 11.2.1. CUDA 13.0[\uf0c1](#cuda-13-0 \"Permalink to this headline\")  * `multi_grid_group` was removed....",
+      "filename": "1121_cuda_130.md"
+    },
+    {
+      "id": "1122_cuda_122",
+      "title": "11.2.2. CUDA 12.2",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 11.2.2. CUDA 12.2[\uf0c1](#cuda-12-2 \"Permalink to this headline\")  * `barrier_arrive` and `barrier_wait` member functions were added for [grid\\_group](#grid-group-cg) and [thread\\_block](#thread-block...",
+      "filename": "1122_cuda_122.md"
+    },
+    {
+      "id": "1123_cuda_121",
+      "title": "11.2.3. CUDA 12.1",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 11.2.3. CUDA 12.1[\uf0c1](#cuda-12-1 \"Permalink to this headline\")  * [invoke\\_one and invoke\\_one\\_broadcast](#invoke-one-and-invoke-one-broadcast) APIs were added....",
+      "filename": "1123_cuda_121.md"
+    },
+    {
+      "id": "1124_cuda_120",
+      "title": "11.2.4. CUDA 12.0",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 11.2.4. CUDA 12.0[\uf0c1](#cuda-12-0 \"Permalink to this headline\")  * The following experimental APIs are now moved to the main namespace:    + asynchronous reduce and scan update added in CUDA 11.7   ...",
+      "filename": "1124_cuda_120.md"
+    }
+  ]
+}

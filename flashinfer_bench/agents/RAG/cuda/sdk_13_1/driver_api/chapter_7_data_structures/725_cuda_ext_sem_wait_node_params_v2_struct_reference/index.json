@@ -1,0 +1,45 @@
+{
+  "description": "Documentation for 7.25. CUDA_EXT_SEM_WAIT_NODE_PARAMS_v2 Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "cuexternalsemaphore_cuda_ext_sem_wait_node_params_v2extsemarray",
+      "title": "CUexternalSemaphore *CUDA_EXT_SEM_WAIT_NODE_PARAMS_v2::extSemArray",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Array of external semaphore handles....",
+      "filename": "cuexternalsemaphore_cuda_ext_sem_wait_node_params_v2extsemarray.md"
+    },
+    {
+      "id": "unsigned_int_cuda_ext_sem_wait_node_params_v2numextsems",
+      "title": "unsigned int CUDA_EXT_SEM_WAIT_NODE_PARAMS_v2::numExtSems",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Number of handles and parameters supplied in extSemArray and paramsArray....",
+      "filename": "unsigned_int_cuda_ext_sem_wait_node_params_v2numextsems.md"
+    },
+    {
+      "id": "const_cuda_external_semaphore_wait_params_cuda_ext_sem__f2ddc0db",
+      "title": "const CUDA_EXTERNAL_SEMAPHORE_WAIT_PARAMS *CUDA_EXT_SEM_WAIT_NODE_PARAMS_v2::paramsArray",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Array of external semaphore wait parameters.   CUDA Driver API TRM-06703-001 _vRelease Version  |  685   Data Structures...",
+      "filename": "const_cuda_external_semaphore_wait_params_cuda_ext_sem__f2ddc0db.md"
+    }
+  ]
+}

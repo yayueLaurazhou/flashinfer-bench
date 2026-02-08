@@ -1,0 +1,45 @@
+{
+  "description": "Documentation for 9.7.9.25.4. Data Movement and Conversion Instructions: Bulk copy",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "9792541_data_movement_and_conversion_instructions_cpasyncbulk",
+      "title": "9.7.9.25.4.1. Data Movement and Conversion Instructions: cp.async.bulk",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`cp.async.bulk`",
+      "filename": "9792541_data_movement_and_conversion_instructions_cpasyncbulk.md"
+    },
+    {
+      "id": "9792542_data_movement_and_conversion_instructions_cpreduceasyncbulk",
+      "title": "9.7.9.25.4.2. Data Movement and Conversion Instructions: cp.reduce.async.bulk",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`cp.reduce.async.bulk`",
+      "filename": "9792542_data_movement_and_conversion_instructions_cpreduceasyncbulk.md"
+    },
+    {
+      "id": "9792543_data_movement_and_conversion_instructions_cpasyncbulkprefetch",
+      "title": "9.7.9.25.4.3. Data Movement and Conversion Instructions: cp.async.bulk.prefetch",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`cp.async.bulk.prefetch`",
+      "filename": "9792543_data_movement_and_conversion_instructions_cpasyncbulkprefetch.md"
+    }
+  ]
+}

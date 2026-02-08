@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 9.7.13.15.5. Tracking asynchronous operations by the mbarrier object",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Starting with the Hopper architecture (`sm_9x`), *mbarrier object* supports a new count, called *tx-count*, which is used for tracking the completion of asynchronous memory operations or transactions. *tx-count* tracks the number of asynchronous transactions, in units specified by the asynchronou..."
+    },
+    {
+      "id": "97131551_expect_tx_operation",
+      "title": "9.7.13.15.5.1. expect-tx operation",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "The *expect-tx* operation, with an `expectCount` argument, increases the *tx-count* of an *mbarrier object* by the value specified by `expectCount`. This sets the current phase of the *mbarrier object* to expect and track the completion of additional asynchronous transactions.",
+      "filename": "97131551_expect_tx_operation.md"
+    },
+    {
+      "id": "97131552_complete_tx_operation",
+      "title": "9.7.13.15.5.2. complete-tx operation",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "The *complete-tx* operation, with an `completeCount` argument, on an *mbarrier object* consists of the following:",
+      "filename": "97131552_complete_tx_operation.md"
+    }
+  ]
+}

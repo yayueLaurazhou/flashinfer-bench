@@ -1,0 +1,3 @@
+# #define CUDA_IPC_HANDLE_SIZE 64
+
+CUDA IPC Handle Size

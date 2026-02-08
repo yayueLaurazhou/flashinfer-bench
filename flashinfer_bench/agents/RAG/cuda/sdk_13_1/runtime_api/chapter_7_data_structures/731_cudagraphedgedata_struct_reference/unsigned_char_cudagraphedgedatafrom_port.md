@@ -1,0 +1,8 @@
+# unsigned char cudaGraphEdgeData::from_port
+
+This indicates when the dependency is triggered from the upstream node on the edge. The
+meaning is specfic to the node type. A value of 0 in all cases means full completion of the
+upstream node, with memory visibility to the downstream node or portion thereof (indicated by
+to_port). Only kernel nodes define non-zero ports. A kernel node can use the following output
+port types: cudaGraphKernelNodePortDefault, cudaGraphKernelNodePortProgrammatic, or
+cudaGraphKernelNodePortLaunchCompletion.

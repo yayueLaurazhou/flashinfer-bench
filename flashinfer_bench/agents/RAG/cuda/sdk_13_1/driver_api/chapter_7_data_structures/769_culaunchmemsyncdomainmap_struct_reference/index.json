@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 7.69. CUlaunchMemSyncDomainMap Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "unsigned_char_culaunchmemsyncdomainmapdefault_",
+      "title": "unsigned char CUlaunchMemSyncDomainMap::default_",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "The default domain ID to use for designated kernels   CUDA Driver API TRM-06703-001 _vRelease Version  |  727   Data Structures...",
+      "filename": "unsigned_char_culaunchmemsyncdomainmapdefault_.md"
+    },
+    {
+      "id": "unsigned_char_culaunchmemsyncdomainmapremote",
+      "title": "unsigned char CUlaunchMemSyncDomainMap::remote",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "The remote domain ID to use for designated kernels...",
+      "filename": "unsigned_char_culaunchmemsyncdomainmapremote.md"
+    }
+  ]
+}

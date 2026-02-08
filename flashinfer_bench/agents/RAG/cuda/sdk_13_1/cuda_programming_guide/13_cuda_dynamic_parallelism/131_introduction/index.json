@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 13.1. Introduction",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "1311_overview",
+      "title": "13.1.1. Overview",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 13.1.1. Overview[\uf0c1](#id214 \"Permalink to this headline\")  *Dynamic Parallelism* is an extension to the CUDA programming model enabling a CUDA kernel to create and synchronize with new work directl...",
+      "filename": "1311_overview.md"
+    },
+    {
+      "id": "1312_glossary",
+      "title": "13.1.2. Glossary",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 13.1.2. Glossary[\uf0c1](#glossary \"Permalink to this headline\")  Definitions for terms used in this guide.  Grid :   A Grid is a collection of *Threads*. Threads in a Grid execute a *Kernel Function* ...",
+      "filename": "1312_glossary.md"
+    }
+  ]
+}

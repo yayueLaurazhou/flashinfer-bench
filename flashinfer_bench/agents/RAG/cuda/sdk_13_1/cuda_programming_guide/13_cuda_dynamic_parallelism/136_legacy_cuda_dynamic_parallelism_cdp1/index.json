@@ -1,0 +1,28 @@
+{
+  "description": "Documentation for 13.6. Legacy CUDA Dynamic Parallelism (CDP1)",
+  "directories": [
+    {
+      "name": "1361_execution_environment_and_memory_model_cdp1",
+      "description": "### 13.6.1. Execution Environment and Memory Model (CDP1)[\uf0c1](#execution-environment-and-memory-model-cdp1 \"Permalink to this headline\")  See [Execution Environment and Memory Model](#execution-environ..."
+    },
+    {
+      "name": "1362_programming_interface_cdp1",
+      "description": "### 13.6.2. Programming Interface (CDP1)[\uf0c1](#programming-interface-cdp1 \"Permalink to this headline\")  See [Programming Interface](#programming-interface-cdp), above, for CDP2 version of document...."
+    },
+    {
+      "name": "1363_programming_guidelines_cdp1",
+      "description": "### 13.6.3. Programming Guidelines (CDP1)[\uf0c1](#programming-guidelines-cdp1 \"Permalink to this headline\")  See [Programming Guidelines](#programming-guidelines), above, for CDP2 version of document...."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "description": "Documentation for 7.11. cudaDevSmResource Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "unsigned_int_cudadevsmresourceflags",
+      "title": "unsigned int cudaDevSmResource::flags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "The flags set on this SM resource. For available flags see cudaDevSmResourceGroup_flags....",
+      "filename": "unsigned_int_cudadevsmresourceflags.md"
+    },
+    {
+      "id": "unsigned_int_cudadevsmresourceminsmpartitionsize",
+      "title": "unsigned int cudaDevSmResource::minSmPartitionSize",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "The minimum number of streaming multiprocessors required to partition this resource.   CUDA Runtime API vRelease Version  |  605   Data Structures...",
+      "filename": "unsigned_int_cudadevsmresourceminsmpartitionsize.md"
+    },
+    {
+      "id": "unsigned_int_cudadevsmresourcesmcoscheduledalignment",
+      "title": "unsigned int cudaDevSmResource::smCoscheduledAlignment",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "The number of streaming multiprocessors in this resource that are guaranteed to be co-scheduled on the same GPU processing cluster. smCount will be a multiple of this value, unless the backfill flag i...",
+      "filename": "unsigned_int_cudadevsmresourcesmcoscheduledalignment.md"
+    },
+    {
+      "id": "unsigned_int_cudadevsmresourcesmcount",
+      "title": "unsigned int cudaDevSmResource::smCount",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "The amount of streaming multiprocessors available in this resource....",
+      "filename": "unsigned_int_cudadevsmresourcesmcount.md"
+    }
+  ]
+}

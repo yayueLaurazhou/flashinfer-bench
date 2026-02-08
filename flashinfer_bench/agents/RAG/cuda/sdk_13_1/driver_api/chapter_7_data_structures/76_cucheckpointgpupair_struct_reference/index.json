@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 7.6. CUcheckpointGpuPair Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "cuuuid_cucheckpointgpupairnewuuid",
+      "title": "CUuuid CUcheckpointGpuPair::newUuid",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "UUID of the GPU to restore onto...",
+      "filename": "cuuuid_cucheckpointgpupairnewuuid.md"
+    },
+    {
+      "id": "cuuuid_cucheckpointgpupairolduuid",
+      "title": "CUuuid CUcheckpointGpuPair::oldUuid",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "UUID of the GPU that was checkpointed...",
+      "filename": "cuuuid_cucheckpointgpupairolduuid.md"
+    }
+  ]
+}

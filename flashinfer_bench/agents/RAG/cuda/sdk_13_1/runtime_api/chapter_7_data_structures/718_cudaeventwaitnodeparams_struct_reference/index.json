@@ -1,0 +1,25 @@
+{
+  "description": "Documentation for 7.18. cudaEventWaitNodeParams Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "cudaevent_t_cudaeventwaitnodeparamsevent",
+      "title": "cudaEvent_t cudaEventWaitNodeParams::event",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "The event to wait on from the node   CUDA Runtime API vRelease Version  |  609   Data Structures...",
+      "filename": "cudaevent_t_cudaeventwaitnodeparamsevent.md"
+    }
+  ]
+}

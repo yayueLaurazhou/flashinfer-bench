@@ -1,0 +1,4 @@
+# struct cudaLaunchMemSyncDomainMap cudaLaunchAttributeValue::memSyncDomainMap
+
+Value of launch attribute cudaLaunchAttributeMemSyncDomainMap. See
+cudaLaunchMemSyncDomainMap.

@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 16.4. Optimized Memory Reuse",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "1641_address_reuse_within_a_graph",
+      "title": "16.4.1. Address Reuse within a Graph",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 16.4.1. Address Reuse within a Graph[\uf0c1](#address-reuse-within-a-graph \"Permalink to this headline\")  CUDA may reuse memory within a graph by assigning the same virtual address ranges to different ...",
+      "filename": "1641_address_reuse_within_a_graph.md"
+    },
+    {
+      "id": "1642_physical_memory_management_and_sharing",
+      "title": "16.4.2. Physical Memory Management and Sharing",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 16.4.2. Physical Memory Management and Sharing[\uf0c1](#physical-memory-management-and-sharing \"Permalink to this headline\")  CUDA is responsible for mapping physical memory to the virtual address befo...",
+      "filename": "1642_physical_memory_management_and_sharing.md"
+    }
+  ]
+}

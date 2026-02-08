@@ -1,0 +1,85 @@
+{
+  "description": "Documentation for 7.29. CUDA_EXTERNAL_SEMAPHORE_HANDLE_ Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "int_cuda_external_semaphore_handle_desc_v1fd",
+      "title": "int CUDA_EXTERNAL_SEMAPHORE_HANDLE_DESC_v1::fd",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "File descriptor referencing the semaphore object. Valid when type is one of the following:  CU_EXTERNAL_SEMAPHORE_HANDLE_TYPE_OPAQUE_FD...",
+      "filename": "int_cuda_external_semaphore_handle_desc_v1fd.md"
+    },
+    {
+      "id": "unsigned_int_cuda_external_semaphore_handle_desc_v1flags",
+      "title": "unsigned int CUDA_EXTERNAL_SEMAPHORE_HANDLE_DESC_v1::flags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Flags reserved for the future. Must be zero....",
+      "filename": "unsigned_int_cuda_external_semaphore_handle_desc_v1flags.md"
+    },
+    {
+      "id": "void_cuda_external_semaphore_handle_desc_v1handle",
+      "title": "void *CUDA_EXTERNAL_SEMAPHORE_HANDLE_DESC_v1::handle",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Valid NT handle. Must be NULL if 'name' is non-NULL...",
+      "filename": "void_cuda_external_semaphore_handle_desc_v1handle.md"
+    },
+    {
+      "id": "const_void_cuda_external_semaphore_handle_desc_v1name",
+      "title": "const void *CUDA_EXTERNAL_SEMAPHORE_HANDLE_DESC_v1::name",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Name of a valid synchronization primitive. Must be NULL if 'handle' is non-NULL....",
+      "filename": "const_void_cuda_external_semaphore_handle_desc_v1name.md"
+    },
+    {
+      "id": "const_void_cuda_external_semaphore_handle_desc_v1nvscis",
+      "title": "const void *CUDA_EXTERNAL_SEMAPHORE_HANDLE_DESC_v1::nvSciS",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Valid NvSciSyncObj. Must be non NULL...",
+      "filename": "const_void_cuda_external_semaphore_handle_desc_v1nvscis.md"
+    },
+    {
+      "id": "cuexternalsemaphorehandletype_cuda_external_semaphore_h_8767bf75",
+      "title": "CUexternalSemaphoreHandleType CUDA_EXTERNAL_SEMAPHORE_HANDLE_DESC_v1::type",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Type of the handle...",
+      "filename": "cuexternalsemaphorehandletype_cuda_external_semaphore_h_8767bf75.md"
+    },
+    {
+      "id": "cuda_external_semaphore_handle_desc_v121_cuda_external__49a9f2f7",
+      "title": "CUDA_EXTERNAL_SEMAPHORE_HANDLE_DESC_v1::@21::@ CUDA_EXTERNAL_SEMAPHORE_HANDLE_DESC_v1::win32",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Win32 handle referencing the semaphore object. Valid when type is one of the following:  CU_EXTERNAL_SEMAPHORE_HANDLE_TYPE_OPAQUE_WIN32...",
+      "filename": "cuda_external_semaphore_handle_desc_v121_cuda_external__49a9f2f7.md"
+    }
+  ]
+}

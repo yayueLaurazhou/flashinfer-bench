@@ -1,0 +1,30 @@
+{
+  "description": "Documentation for 14.3. Allocating Physical Memory",
+  "directories": [
+    {
+      "name": "1432_memory_type",
+      "description": "### 14.3.2. Memory Type[\uf0c1](#memory-type \"Permalink to this headline\")  Before CUDA 10.2, applications had no user-controlled way of allocating any special type of memory that certain devices may suppo..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "1431_shareable_memory_allocations",
+      "title": "14.3.1. Shareable Memory Allocations",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 14.3.1. Shareable Memory Allocations[\uf0c1](#shareable-memory-allocations \"Permalink to this headline\")  With `cuMemCreate` users now have the facility to indicate to CUDA, at allocation time, that th...",
+      "filename": "1431_shareable_memory_allocations.md"
+    }
+  ]
+}

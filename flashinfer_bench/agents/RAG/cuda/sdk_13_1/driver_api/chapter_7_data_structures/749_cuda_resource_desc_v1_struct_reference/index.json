@@ -1,0 +1,125 @@
+{
+  "description": "Documentation for 7.49. CUDA_RESOURCE_DESC_v1 Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "cudeviceptr_cuda_resource_desc_v1devptr",
+      "title": "CUdeviceptr CUDA_RESOURCE_DESC_v1::devPtr",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Device pointer...",
+      "filename": "cudeviceptr_cuda_resource_desc_v1devptr.md"
+    },
+    {
+      "id": "unsigned_int_cuda_resource_desc_v1flags",
+      "title": "unsigned int CUDA_RESOURCE_DESC_v1::flags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Flags (must be zero)...",
+      "filename": "unsigned_int_cuda_resource_desc_v1flags.md"
+    },
+    {
+      "id": "cuarray_format_cuda_resource_desc_v1format",
+      "title": "CUarray_format CUDA_RESOURCE_DESC_v1::format",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Array format...",
+      "filename": "cuarray_format_cuda_resource_desc_v1format.md"
+    },
+    {
+      "id": "cuarray_cuda_resource_desc_v1harray",
+      "title": "CUarray CUDA_RESOURCE_DESC_v1::hArray",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA array...",
+      "filename": "cuarray_cuda_resource_desc_v1harray.md"
+    },
+    {
+      "id": "size_t_cuda_resource_desc_v1height",
+      "title": "size_t CUDA_RESOURCE_DESC_v1::height",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Height of the array in elements...",
+      "filename": "size_t_cuda_resource_desc_v1height.md"
+    },
+    {
+      "id": "cumipmappedarray_cuda_resource_desc_v1hmipmappedarray",
+      "title": "CUmipmappedArray CUDA_RESOURCE_DESC_v1::hMipmappedArray",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA mipmapped array   CUDA Driver API TRM-06703-001 _vRelease Version  |  711   Data Structures...",
+      "filename": "cumipmappedarray_cuda_resource_desc_v1hmipmappedarray.md"
+    },
+    {
+      "id": "unsigned_int_cuda_resource_desc_v1numchannels",
+      "title": "unsigned int CUDA_RESOURCE_DESC_v1::numChannels",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Channels per array element...",
+      "filename": "unsigned_int_cuda_resource_desc_v1numchannels.md"
+    },
+    {
+      "id": "size_t_cuda_resource_desc_v1pitchinbytes",
+      "title": "size_t CUDA_RESOURCE_DESC_v1::pitchInBytes",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Pitch between two rows in bytes...",
+      "filename": "size_t_cuda_resource_desc_v1pitchinbytes.md"
+    },
+    {
+      "id": "curesourcetype_cuda_resource_desc_v1restype",
+      "title": "CUresourcetype CUDA_RESOURCE_DESC_v1::resType",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Resource type...",
+      "filename": "curesourcetype_cuda_resource_desc_v1restype.md"
+    },
+    {
+      "id": "size_t_cuda_resource_desc_v1sizeinbytes",
+      "title": "size_t CUDA_RESOURCE_DESC_v1::sizeInBytes",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Size in bytes...",
+      "filename": "size_t_cuda_resource_desc_v1sizeinbytes.md"
+    },
+    {
+      "id": "size_t_cuda_resource_desc_v1width",
+      "title": "size_t CUDA_RESOURCE_DESC_v1::width",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Width of the array in elements...",
+      "filename": "size_t_cuda_resource_desc_v1width.md"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "description": "Documentation for 11.5. Debugging Directives",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "DWARF-format debug information is passed through PTX modules using the following directives:"
+    },
+    {
+      "id": "1151_debugging_directives_dwarf",
+      "title": "11.5.1. Debugging Directives: @@dwarf",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`@@dwarf`",
+      "filename": "1151_debugging_directives_dwarf.md"
+    },
+    {
+      "id": "1152_debugging_directives_section",
+      "title": "11.5.2. Debugging Directives: .section",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`.section`",
+      "filename": "1152_debugging_directives_section.md"
+    },
+    {
+      "id": "1153_debugging_directives_file",
+      "title": "11.5.3. Debugging Directives: .file",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`.file`",
+      "filename": "1153_debugging_directives_file.md"
+    },
+    {
+      "id": "1154_debugging_directives_loc",
+      "title": "11.5.4. Debugging Directives: .loc",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`.loc`",
+      "filename": "1154_debugging_directives_loc.md"
+    }
+  ]
+}

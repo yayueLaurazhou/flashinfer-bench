@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 24.2.2.1. Memory Paging and Page Sizes",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "242211_choosing_the_right_page_size",
+      "title": "24.2.2.1.1. Choosing the right page size",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 24.2.2.1.1. Choosing the right page size[\uf0c1](#choosing-the-right-page-size \"Permalink to this headline\")  In general, small page sizes lead to less (virtual) memory fragmentation but more TLB mis...",
+      "filename": "242211_choosing_the_right_page_size.md"
+    },
+    {
+      "id": "242212_cpu_and_gpu_page_tables_hardware_coherency_vs_software_coherency",
+      "title": "24.2.2.1.2. CPU and GPU page tables: hardware coherency vs. software coherency",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 24.2.2.1.2. CPU and GPU page tables: hardware coherency vs. software coherency[\uf0c1](#cpu-and-gpu-page-tables-hardware-coherency-vs-software-coherency \"Permalink to this headline\")  Note  In the re...",
+      "filename": "242212_cpu_and_gpu_page_tables_hardware_coherency_vs_software_coherency.md"
+    }
+  ]
+}

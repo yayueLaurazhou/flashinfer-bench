@@ -1,0 +1,75 @@
+{
+  "description": "Documentation for 6.2.16.4. Direct3D 11 Interoperability",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "621641_matching_device_luids",
+      "title": "6.2.16.4.1. Matching Device LUIDs",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 6.2.16.4.1. Matching Device LUIDs[\uf0c1](#matching-device-luids-dir3d-11-int \"Permalink to this headline\")  When importing memory and synchronization objects exported by Direct3D 11, they must be im...",
+      "filename": "621641_matching_device_luids.md"
+    },
+    {
+      "id": "621642_importing_memory_objects",
+      "title": "6.2.16.4.2. Importing Memory Objects",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 6.2.16.4.2. Importing Memory Objects[\uf0c1](#importing-memory-objects-dir3d-11-int \"Permalink to this headline\")  A shareable Direct3D 11 texture resource, viz, `ID3D11Texture1D`, `ID3D11Texture2D` ...",
+      "filename": "621642_importing_memory_objects.md"
+    },
+    {
+      "id": "621643_mapping_buffers_onto_imported_memory_objects",
+      "title": "6.2.16.4.3. Mapping Buffers onto Imported Memory Objects",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 6.2.16.4.3. Mapping Buffers onto Imported Memory Objects[\uf0c1](#mapping-buffers-onto-imported-memory-objects-dir3d-11-int \"Permalink to this headline\")  A device pointer can be mapped onto an impor...",
+      "filename": "621643_mapping_buffers_onto_imported_memory_objects.md"
+    },
+    {
+      "id": "621644_mapping_mipmapped_arrays_onto_imported_memory_objects",
+      "title": "6.2.16.4.4. Mapping Mipmapped Arrays onto Imported Memory Objects",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 6.2.16.4.4. Mapping Mipmapped Arrays onto Imported Memory Objects[\uf0c1](#mapping-mipmapped-arrays-onto-imported-memory-objects-dir3d-11-int \"Permalink to this headline\")  A CUDA mipmapped array can...",
+      "filename": "621644_mapping_mipmapped_arrays_onto_imported_memory_objects.md"
+    },
+    {
+      "id": "621645_importing_synchronization_objects",
+      "title": "6.2.16.4.5. Importing Synchronization Objects",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 6.2.16.4.5. Importing Synchronization Objects[\uf0c1](#importing-synchronization-objects-dir3d-11-int \"Permalink to this headline\")  A shareable Direct3D 11 fence object, created by setting the flag ...",
+      "filename": "621645_importing_synchronization_objects.md"
+    },
+    {
+      "id": "621646_signalingwaiting_on_imported_synchronization_objects",
+      "title": "6.2.16.4.6. Signaling/Waiting on Imported Synchronization Objects",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 6.2.16.4.6. Signaling/Waiting on Imported Synchronization Objects[\uf0c1](#signaling-waiting-on-imported-synchronization-objects-dir3d-11-int \"Permalink to this headline\")  An imported Direct3D 11 fe...",
+      "filename": "621646_signalingwaiting_on_imported_synchronization_objects.md"
+    }
+  ]
+}

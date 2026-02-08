@@ -1,0 +1,75 @@
+{
+  "description": "Documentation for 7.40. cudaKernelNodeParams Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "dim3_cudakernelnodeparamsblockdim",
+      "title": "dim3 cudaKernelNodeParams::blockDim",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Block dimensions...",
+      "filename": "dim3_cudakernelnodeparamsblockdim.md"
+    },
+    {
+      "id": "cudakernelnodeparamsextra",
+      "title": "**cudaKernelNodeParams::extra",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Pointer to kernel arguments in the \"extra\" format...",
+      "filename": "cudakernelnodeparamsextra.md"
+    },
+    {
+      "id": "void_cudakernelnodeparamsfunc",
+      "title": "void *cudaKernelNodeParams::func",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Kernel to launch...",
+      "filename": "void_cudakernelnodeparamsfunc.md"
+    },
+    {
+      "id": "dim3_cudakernelnodeparamsgriddim",
+      "title": "dim3 cudaKernelNodeParams::gridDim",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Grid dimensions...",
+      "filename": "dim3_cudakernelnodeparamsgriddim.md"
+    },
+    {
+      "id": "cudakernelnodeparamskernelparams",
+      "title": "**cudaKernelNodeParams::kernelParams",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Array of pointers to individual kernel arguments   CUDA Runtime API vRelease Version  |  627   Data Structures...",
+      "filename": "cudakernelnodeparamskernelparams.md"
+    },
+    {
+      "id": "unsigned_int_cudakernelnodeparamssharedmembytes",
+      "title": "unsigned int cudaKernelNodeParams::sharedMemBytes",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Dynamic shared-memory size per thread block in bytes...",
+      "filename": "unsigned_int_cudakernelnodeparamssharedmembytes.md"
+    }
+  ]
+}

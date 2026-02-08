@@ -1,0 +1,54 @@
+{
+  "description": "Documentation for 9.7.16.6. Memory Consistency Model for 5th generation of TensorCore operations",
+  "directories": [
+    {
+      "name": "971662_pipelined_tcgen05_instructions",
+      "description": "The asynchronous `tcgen05` operations may execute and complete in a different order than they were issued. However, some specific pairs of the asynchronous `tcgen05` instructions form `tcgen05` pipelines, where in the two asynchronous operations are guaranteed to execute in the same order as the ..."
+    },
+    {
+      "name": "971664_canonical_synchronization_patterns",
+      "description": "Using the above rules, the following are the five canonical synchronization patterns:"
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Ordering of `tcgen05` instructions is described in terms of two key concepts:"
+    },
+    {
+      "id": "971661_asynchronous_operations",
+      "title": "9.7.16.6.1. Asynchronous Operations",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "The tcgen05 family of instructions are divided into 2 categories:",
+      "filename": "971661_asynchronous_operations.md"
+    },
+    {
+      "id": "971663_specialized_inter_thread_synchronization_for_tcgen05_instructions",
+      "title": "9.7.16.6.3. Specialized Inter-thread Synchronization for tcgen05 instructions",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "The `tcgen05` instructions support a specialized inter-thread synchronization which are optimized for `tcgen05` family of instructions. The standard memory consistency model synchronization mechanisms also apply to the `tcgen05` family of instructions.",
+      "filename": "971663_specialized_inter_thread_synchronization_for_tcgen05_instructions.md"
+    },
+    {
+      "id": "971665_shared_memory_accesses",
+      "title": "9.7.16.6.5. Shared Memory Accesses",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "The shared memory accesses by `tcgen05.mma` and `tcgen05.cp` operations are performed in the asynchronous proxy (async proxy).",
+      "filename": "971665_shared_memory_accesses.md"
+    }
+  ]
+}

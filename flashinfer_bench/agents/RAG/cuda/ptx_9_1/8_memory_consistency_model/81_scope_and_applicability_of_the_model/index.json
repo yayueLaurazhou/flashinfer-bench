@@ -1,0 +1,25 @@
+{
+  "description": "Documentation for 8.1. Scope and applicability of the model",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "The constraints specified under this model apply to PTX programs with any PTX ISA version number, running on `sm_70` or later architectures."
+    },
+    {
+      "id": "811_limitations_on_atomicity_at_system_scope",
+      "title": "8.1.1. Limitations on atomicity at system scope",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "When communicating with the host CPU, certain strong operations with system scope may not be performed atomically on some systems. For more details on atomicity guarantees to host memory, see the *CUDA Atomicity Requirements*.",
+      "filename": "811_limitations_on_atomicity_at_system_scope.md"
+    }
+  ]
+}

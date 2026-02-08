@@ -1,0 +1,95 @@
+{
+  "description": "Documentation for 10.16. Address Space Conversion Functions",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "10161___cvta_generic_to_global",
+      "title": "10.16.1. __cvta_generic_to_global()",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.16.1. \\_\\_cvta\\_generic\\_to\\_global()[\uf0c1](#cvta-generic-to-global \"Permalink to this headline\")  ``` __device__ size_t __cvta_generic_to_global(const void *ptr); ```  Returns the result of execu...",
+      "filename": "10161___cvta_generic_to_global.md"
+    },
+    {
+      "id": "10162___cvta_generic_to_shared",
+      "title": "10.16.2. __cvta_generic_to_shared()",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.16.2. \\_\\_cvta\\_generic\\_to\\_shared()[\uf0c1](#cvta-generic-to-shared \"Permalink to this headline\")  ``` __device__ size_t __cvta_generic_to_shared(const void *ptr); ```  Returns the result of execu...",
+      "filename": "10162___cvta_generic_to_shared.md"
+    },
+    {
+      "id": "10163___cvta_generic_to_constant",
+      "title": "10.16.3. __cvta_generic_to_constant()",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.16.3. \\_\\_cvta\\_generic\\_to\\_constant()[\uf0c1](#cvta-generic-to-constant \"Permalink to this headline\")  ``` __device__ size_t __cvta_generic_to_constant(const void *ptr); ```  Returns the result of...",
+      "filename": "10163___cvta_generic_to_constant.md"
+    },
+    {
+      "id": "10164___cvta_generic_to_local",
+      "title": "10.16.4. __cvta_generic_to_local()",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.16.4. \\_\\_cvta\\_generic\\_to\\_local()[\uf0c1](#cvta-generic-to-local \"Permalink to this headline\")  ``` __device__ size_t __cvta_generic_to_local(const void *ptr); ```  Returns the result of executin...",
+      "filename": "10164___cvta_generic_to_local.md"
+    },
+    {
+      "id": "10165___cvta_global_to_generic",
+      "title": "10.16.5. __cvta_global_to_generic()",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.16.5. \\_\\_cvta\\_global\\_to\\_generic()[\uf0c1](#cvta-global-to-generic \"Permalink to this headline\")  ``` __device__ void * __cvta_global_to_generic(size_t rawbits); ```  Returns the generic pointer ...",
+      "filename": "10165___cvta_global_to_generic.md"
+    },
+    {
+      "id": "10166___cvta_shared_to_generic",
+      "title": "10.16.6. __cvta_shared_to_generic()",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.16.6. \\_\\_cvta\\_shared\\_to\\_generic()[\uf0c1](#cvta-shared-to-generic \"Permalink to this headline\")  ``` __device__ void * __cvta_shared_to_generic(size_t rawbits); ```  Returns the generic pointer ...",
+      "filename": "10166___cvta_shared_to_generic.md"
+    },
+    {
+      "id": "10167___cvta_constant_to_generic",
+      "title": "10.16.7. __cvta_constant_to_generic()",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.16.7. \\_\\_cvta\\_constant\\_to\\_generic()[\uf0c1](#cvta-constant-to-generic \"Permalink to this headline\")  ``` __device__ void * __cvta_constant_to_generic(size_t rawbits); ```  Returns the generic po...",
+      "filename": "10167___cvta_constant_to_generic.md"
+    },
+    {
+      "id": "10168___cvta_local_to_generic",
+      "title": "10.16.8. __cvta_local_to_generic()",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.16.8. \\_\\_cvta\\_local\\_to\\_generic()[\uf0c1](#cvta-local-to-generic \"Permalink to this headline\")  ``` __device__ void * __cvta_local_to_generic(size_t rawbits); ```  Returns the generic pointer obt...",
+      "filename": "10168___cvta_local_to_generic.md"
+    }
+  ]
+}

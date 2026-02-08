@@ -1,0 +1,180 @@
+{
+  "description": "Documentation for 9.7.13.15. Parallel Synchronization and Communication Instructions: mbarrier",
+  "directories": [
+    {
+      "name": "9713155_tracking_asynchronous_operations_by_the_mbarrier_object",
+      "description": "Starting with the Hopper architecture (`sm_9x`), *mbarrier object* supports a new count, called *tx-count*, which is used for tracking the completion of asynchronous memory operations or transactions. *tx-count* tracks the number of asynchronous transactions, in units specified by the asynchronou..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "`mbarrier` is a barrier created in shared memory that supports :"
+    },
+    {
+      "id": "9713151_size_and_alignment_of_mbarrier_object",
+      "title": "9.7.13.15.1. Size and alignment of mbarrier object",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "An mbarrier object is an opaque object with the following type and alignment requirements :",
+      "filename": "9713151_size_and_alignment_of_mbarrier_object.md"
+    },
+    {
+      "id": "9713152_contents_of_the_mbarrier_object",
+      "title": "9.7.13.15.2. Contents of the mbarrier object",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "An opaque *mbarrier object* keeps track of the following information :",
+      "filename": "9713152_contents_of_the_mbarrier_object.md"
+    },
+    {
+      "id": "9713153_lifecycle_of_the_mbarrier_object",
+      "title": "9.7.13.15.3. Lifecycle of the mbarrier object",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "The *mbarrier object* must be initialized prior to use.",
+      "filename": "9713153_lifecycle_of_the_mbarrier_object.md"
+    },
+    {
+      "id": "9713154_phase_of_the_mbarrier_object",
+      "title": "9.7.13.15.4. Phase of the mbarrier object",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "The phase of an *mbarrier object* is the number of times the *mbarrier object* has been used to synchronize threads and [asynchronous](https://docs.nvidia.com/cuda/parallel-thread-execution/#program-order-async-operations) operations. In each phase {0, 1, 2, \u2026}, threads perform in program order :",
+      "filename": "9713154_phase_of_the_mbarrier_object.md"
+    },
+    {
+      "id": "9713156_phase_completion_of_the_mbarrier_object",
+      "title": "9.7.13.15.6. Phase Completion of the mbarrier object",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "The requirements for completion of the current phase are described below. Upon completion of the current phase, the phase transitions to the subsequent phase as described below.",
+      "filename": "9713156_phase_completion_of_the_mbarrier_object.md"
+    },
+    {
+      "id": "9713157_arrive_on_operation_on_mbarrier_object",
+      "title": "9.7.13.15.7. Arrive-on operation on mbarrier object",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "An *arrive-on* operation, with an optional *count* argument, on an *mbarrier object* consists of the following 2 steps :",
+      "filename": "9713157_arrive_on_operation_on_mbarrier_object.md"
+    },
+    {
+      "id": "9713158_mbarrier_support_with_shared_memory",
+      "title": "9.7.13.15.8. mbarrier support with shared memory",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "The following table summarizes the support of various mbarrier operations on *mbarrier objects* located at different shared memory locations:",
+      "filename": "9713158_mbarrier_support_with_shared_memory.md"
+    },
+    {
+      "id": "9713159_parallel_synchronization_and_communication_instructions_mbarrierinit",
+      "title": "9.7.13.15.9. Parallel Synchronization and Communication Instructions: mbarrier.init",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`mbarrier.init`",
+      "filename": "9713159_parallel_synchronization_and_communication_instructions_mbarrierinit.md"
+    },
+    {
+      "id": "97131510_parallel_synchronization_and_communication_instructions_mbarrierinval",
+      "title": "9.7.13.15.10. Parallel Synchronization and Communication Instructions: mbarrier.inval",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`mbarrier.inval`",
+      "filename": "97131510_parallel_synchronization_and_communication_instructions_mbarrierinval.md"
+    },
+    {
+      "id": "97131511_parallel_synchronization_and_communication_instructions_mbarrierexpect_tx",
+      "title": "9.7.13.15.11. Parallel Synchronization and Communication Instructions: mbarrier.expect_tx",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`mbarrier.expect_tx`",
+      "filename": "97131511_parallel_synchronization_and_communication_instructions_mbarrierexpect_tx.md"
+    },
+    {
+      "id": "97131512_parallel_synchronization_and_communication_instructions_mbarriercomplete_tx",
+      "title": "9.7.13.15.12. Parallel Synchronization and Communication Instructions: mbarrier.complete_tx",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`mbarrier.complete_tx`",
+      "filename": "97131512_parallel_synchronization_and_communication_instructions_mbarriercomplete_tx.md"
+    },
+    {
+      "id": "97131513_parallel_synchronization_and_communication_instructions_mbarrierarrive",
+      "title": "9.7.13.15.13. Parallel Synchronization and Communication Instructions: mbarrier.arrive",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`mbarrier.arrive`",
+      "filename": "97131513_parallel_synchronization_and_communication_instructions_mbarrierarrive.md"
+    },
+    {
+      "id": "97131514_parallel_synchronization_and_communication_instructions_mbarrierarrive_drop",
+      "title": "9.7.13.15.14. Parallel Synchronization and Communication Instructions: mbarrier.arrive_drop",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`mbarrier.arrive_drop`",
+      "filename": "97131514_parallel_synchronization_and_communication_instructions_mbarrierarrive_drop.md"
+    },
+    {
+      "id": "97131515_parallel_synchronization_and_communication_instructions_cpasyncmbarrierarrive",
+      "title": "9.7.13.15.15. Parallel Synchronization and Communication Instructions: cp.async.mbarrier.arrive",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`cp.async.mbarrier.arrive`",
+      "filename": "97131515_parallel_synchronization_and_communication_instructions_cpasyncmbarrierarrive.md"
+    },
+    {
+      "id": "97131516_parallel_synchronization_and_communication_instructions_mbarriertest_wait_mbarriertry_wait",
+      "title": "9.7.13.15.16. Parallel Synchronization and Communication Instructions: mbarrier.test_wait / mbarrier.try_wait",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`mbarrier.test_wait`, `mbarrier.try_wait`",
+      "filename": "97131516_parallel_synchronization_and_communication_instructions_mbarriertest_wait_mbarriertry_wait.md"
+    },
+    {
+      "id": "97131517_parallel_synchronization_and_communication_instructions_mbarrierpending_count",
+      "title": "9.7.13.15.17. Parallel Synchronization and Communication Instructions: mbarrier.pending_count",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`mbarrier.pending_count`",
+      "filename": "97131517_parallel_synchronization_and_communication_instructions_mbarrierpending_count.md"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Documentation for CUDA Runtime API",
+  "directories": [],
+  "files": [
+    {
+      "id": "api_reference_manual",
+      "title": "API Reference Manual",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "vRelease Version  |  January  2024...",
+      "filename": "api_reference_manual.md"
+    },
+    {
+      "id": "table_of_contents",
+      "title": "Table of Contents",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Chapter 1. Difference between the driver and runtime APIs.......................................................... 1  Chapter 2. API synchronization behavior.............................................",
+      "filename": "table_of_contents.md"
+    }
+  ]
+}

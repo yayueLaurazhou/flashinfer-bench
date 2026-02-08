@@ -1,0 +1,28 @@
+{
+  "description": "Documentation for 10.14. Atomic Functions",
+  "directories": [
+    {
+      "name": "10141_arithmetic_functions",
+      "description": "### 10.14.1. Arithmetic Functions[\uf0c1](#arithmetic-functions \"Permalink to this headline\")..."
+    },
+    {
+      "name": "10142_bitwise_functions",
+      "description": "### 10.14.2. Bitwise Functions[\uf0c1](#bitwise-functions \"Permalink to this headline\")..."
+    },
+    {
+      "name": "10143_other_atomic_functions",
+      "description": "### 10.14.3. Other atomic functions[\uf0c1](#other-atomic-functions \"Permalink to this headline\")..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    }
+  ]
+}

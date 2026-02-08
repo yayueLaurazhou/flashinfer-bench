@@ -1,0 +1,65 @@
+{
+  "description": "Documentation for 7.62. cudaPointerAttributes Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "int_cudapointerattributesdevice",
+      "title": "int cudaPointerAttributes::device",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "The device against which the memory was allocated or registered. If the memory type is cudaMemoryTypeDevice then this identifies the device on which the memory referred physically   CUDA Runtime API v...",
+      "filename": "int_cudapointerattributesdevice.md"
+    },
+    {
+      "id": "void_cudapointerattributesdevicepointer",
+      "title": "void *cudaPointerAttributes::devicePointer",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "The address which may be dereferenced on the current device to access the memory or NULL if no such address exists....",
+      "filename": "void_cudapointerattributesdevicepointer.md"
+    },
+    {
+      "id": "void_cudapointerattributeshostpointer",
+      "title": "void *cudaPointerAttributes::hostPointer",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "The address which may be dereferenced on the host to access the memory or NULL if no such address exists.   Note:   CUDA doesn't check if unregistered memory is allocated so this field may contain inv...",
+      "filename": "void_cudapointerattributeshostpointer.md"
+    },
+    {
+      "id": "long_cudapointerattributesreserved",
+      "title": "long cudaPointerAttributes::reserved",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Must be zero...",
+      "filename": "long_cudapointerattributesreserved.md"
+    },
+    {
+      "id": "enumcudamemorytype_cudapointerattributestype",
+      "title": "enumcudaMemoryType cudaPointerAttributes::type",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "The type of memory - cudaMemoryTypeUnregistered, cudaMemoryTypeHost, cudaMemoryTypeDevice or cudaMemoryTypeManaged....",
+      "filename": "enumcudamemorytype_cudapointerattributestype.md"
+    }
+  ]
+}

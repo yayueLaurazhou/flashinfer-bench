@@ -1,0 +1,40 @@
+{
+  "description": "Documentation for 10.36. Dynamic Global Memory Allocation and Operations",
+  "directories": [
+    {
+      "name": "10363_examples",
+      "description": "### 10.36.3. Examples[\uf0c1](#examples-per-thread \"Permalink to this headline\")..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "10361_heap_memory_allocation",
+      "title": "10.36.1. Heap Memory Allocation",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.36.1. Heap Memory Allocation[\uf0c1](#heap-memory-allocation \"Permalink to this headline\")  The device memory heap has a fixed size that must be specified before any program using `malloc()`, `__nv_...",
+      "filename": "10361_heap_memory_allocation.md"
+    },
+    {
+      "id": "10362_interoperability_with_host_memory_api",
+      "title": "10.36.2. Interoperability with Host Memory API",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.36.2. Interoperability with Host Memory API[\uf0c1](#interoperability-with-host-memory-api \"Permalink to this headline\")  Memory allocated via device `malloc()` or `__nv_aligned_device_malloc()` can...",
+      "filename": "10362_interoperability_with_host_memory_api.md"
+    }
+  ]
+}

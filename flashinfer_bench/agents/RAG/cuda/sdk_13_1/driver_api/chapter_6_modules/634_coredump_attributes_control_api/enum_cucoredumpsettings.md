@@ -1,0 +1,14 @@
+# enum CUcoredumpSettings
+
+Flags for choosing a coredump attribute to get/set
+
+###### Values
+
+**CU_COREDUMP_ENABLE_ON_EXCEPTION = 1**
+**CU_COREDUMP_TRIGGER_HOST**
+**CU_COREDUMP_LIGHTWEIGHT**
+**CU_COREDUMP_ENABLE_USER_TRIGGER**
+**CU_COREDUMP_FILE**
+**CU_COREDUMP_PIPE**
+**CU_COREDUMP_GENERATION_FLAGS**
+**CU_COREDUMP_MAX**

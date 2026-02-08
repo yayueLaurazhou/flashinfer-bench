@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 9.7.7. Half Precision Comparison Instructions",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "The comparison instructions are:"
+    },
+    {
+      "id": "9771_half_precision_comparison_instructions_set",
+      "title": "9.7.7.1. Half Precision Comparison Instructions: set",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`set`",
+      "filename": "9771_half_precision_comparison_instructions_set.md"
+    },
+    {
+      "id": "9772_half_precision_comparison_instructions_setp",
+      "title": "9.7.7.2. Half Precision Comparison Instructions: setp",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`setp`",
+      "filename": "9772_half_precision_comparison_instructions_setp.md"
+    }
+  ]
+}

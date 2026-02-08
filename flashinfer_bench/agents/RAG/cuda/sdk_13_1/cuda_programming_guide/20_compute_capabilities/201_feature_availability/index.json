@@ -1,0 +1,45 @@
+{
+  "description": "Documentation for 20.1. Feature Availability",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "2011_architecture_specific_features",
+      "title": "20.1.1. Architecture-Specific Features",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 20.1.1. Architecture-Specific Features[\uf0c1](#architecture-specific-features \"Permalink to this headline\")  Beginning with devices of Compute Capability 9.0, specialized compute features that are int...",
+      "filename": "2011_architecture_specific_features.md"
+    },
+    {
+      "id": "2012_family_specific_features",
+      "title": "20.1.2. Family-Specific Features",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 20.1.2. Family-Specific Features[\uf0c1](#family-specific-features \"Permalink to this headline\")  Beginning with devices of Compute Capability 10.0, some architecture-specific features are common to de...",
+      "filename": "2012_family_specific_features.md"
+    },
+    {
+      "id": "2013_feature_set_compiler_targets",
+      "title": "20.1.3. Feature Set Compiler Targets",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 20.1.3. Feature Set Compiler Targets[\uf0c1](#feature-set-compiler-targets \"Permalink to this headline\")  There are three sets of compute features which the compiler can target:  **Baseline Feature Set...",
+      "filename": "2013_feature_set_compiler_targets.md"
+    }
+  ]
+}

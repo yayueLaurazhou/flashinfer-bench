@@ -1,0 +1,85 @@
+{
+  "description": "Documentation for 7.29. cudaExternalSemaphoreWaitParams Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "void_cudaexternalsemaphorewaitparamsfence",
+      "title": "void *cudaExternalSemaphoreWaitParams::fence",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Pointer to NvSciSyncFence. Valid if cudaExternalSemaphoreHandleType is of type cudaExternalSemaphoreHandleTypeNvSciSync....",
+      "filename": "void_cudaexternalsemaphorewaitparamsfence.md"
+    },
+    {
+      "id": "cudaexternalsemaphorewaitparams1920_cudaexternalsemapho_46e3b774",
+      "title": "cudaExternalSemaphoreWaitParams::@19::@20 cudaExternalSemaphoreWaitParams::fence",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Parameters for fence objects...",
+      "filename": "cudaexternalsemaphorewaitparams1920_cudaexternalsemapho_46e3b774.md"
+    },
+    {
+      "id": "unsigned_int_cudaexternalsemaphorewaitparamsflags",
+      "title": "unsigned int cudaExternalSemaphoreWaitParams::flags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Only when cudaExternalSemaphoreSignalParams is used to signal a cudaExternalSemaphore_t of type cudaExternalSemaphoreHandleTypeNvSciSync, the valid flag is cudaExternalSemaphoreSignalSkipNvSciBufMemSy...",
+      "filename": "unsigned_int_cudaexternalsemaphorewaitparamsflags.md"
+    },
+    {
+      "id": "unsigned_long_long_cudaexternalsemaphorewaitparamskey",
+      "title": "unsigned long long cudaExternalSemaphoreWaitParams::key",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Value of key to acquire the mutex with...",
+      "filename": "unsigned_long_long_cudaexternalsemaphorewaitparamskey.md"
+    },
+    {
+      "id": "cudaexternalsemaphorewaitparams1922_cudaexternalsemapho_883b77fc",
+      "title": "cudaExternalSemaphoreWaitParams::@19::@22 cudaExternalSemaphoreWaitParams::keyedMutex",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Parameters for keyed mutex objects...",
+      "filename": "cudaexternalsemaphorewaitparams1922_cudaexternalsemapho_883b77fc.md"
+    },
+    {
+      "id": "unsigned_int_cudaexternalsemaphorewaitparamstimeoutms",
+      "title": "unsigned int cudaExternalSemaphoreWaitParams::timeoutMs",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Timeout in milliseconds to wait to acquire the mutex...",
+      "filename": "unsigned_int_cudaexternalsemaphorewaitparamstimeoutms.md"
+    },
+    {
+      "id": "unsigned_long_long_cudaexternalsemaphorewaitparamsvalue",
+      "title": "unsigned long long cudaExternalSemaphoreWaitParams::value",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Value of fence to be waited on   CUDA Runtime API vRelease Version  |  618   Data Structures...",
+      "filename": "unsigned_long_long_cudaexternalsemaphorewaitparamsvalue.md"
+    }
+  ]
+}

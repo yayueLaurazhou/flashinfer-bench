@@ -1,0 +1,25 @@
+{
+  "description": "Documentation for 5.1.3. Constant State Space",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "The constant (`.const`) state space is a read-only memory initialized by the host. Constant memory is accessed with a `ld.const` instruction. Constant memory is restricted in size, currently limited to 64 KB which can be used to hold statically-sized constant variables. There is an additional 640..."
+    },
+    {
+      "id": "5131_banked_constant_state_space_deprecated",
+      "title": "5.1.3.1. Banked Constant State Space (deprecated)",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "Previous versions of PTX exposed constant memory as a set of eleven 64 KB banks, with explicit bank numbers required for variable declaration and during access.",
+      "filename": "5131_banked_constant_state_space_deprecated.md"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 6.36. Profiler Control",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "__host__cudaerror_t_cudaprofilerstart_void",
+      "title": "__host__cudaError_t cudaProfilerStart (void)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Enable profiling....",
+      "filename": "__host__cudaerror_t_cudaprofilerstart_void.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudaprofilerstop_void",
+      "title": "__host__cudaError_t cudaProfilerStop (void)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Disable profiling....",
+      "filename": "__host__cudaerror_t_cudaprofilerstop_void.md"
+    }
+  ]
+}

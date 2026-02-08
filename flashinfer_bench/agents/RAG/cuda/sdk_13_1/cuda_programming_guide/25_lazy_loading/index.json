@@ -1,0 +1,48 @@
+{
+  "description": "Documentation for 25. Lazy Loading",
+  "directories": [
+    {
+      "name": "252_lazy_loading_version_support",
+      "description": "## 25.2. Lazy Loading version support[\uf0c1](#lazy-loading-version-support \"Permalink to this headline\")  Lazy Loading is a CUDA Runtime and CUDA Driver feature. Upgrades to both might be necessary to uti..."
+    },
+    {
+      "name": "253_triggering_loading_of_kernels_in_lazy_mode",
+      "description": "## 25.3. Triggering loading of kernels in lazy mode[\uf0c1](#triggering-loading-of-kernels-in-lazy-mode \"Permalink to this headline\")  Loading kernels and variables happens automatically, without any need ..."
+    },
+    {
+      "name": "255_possible_issues_when_adopting_lazy_loading",
+      "description": "## 25.5. Possible Issues when Adopting Lazy Loading[\uf0c1](#possible-issues-when-adopting-lazy-loading \"Permalink to this headline\")  Lazy Loading is designed so that it should not require any modificatio..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "251_what_is_lazy_loading",
+      "title": "25.1. What is Lazy Loading?",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 25.1. What is Lazy Loading?[\uf0c1](#what-is-lazy-loading \"Permalink to this headline\")  Lazy Loading delays loading of CUDA modules and kernels from program initialization closer to kernels execution. ...",
+      "filename": "251_what_is_lazy_loading.md"
+    },
+    {
+      "id": "254_querying_whether_lazy_loading_is_turned_on",
+      "title": "25.4. Querying whether Lazy Loading is Turned On",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 25.4. Querying whether Lazy Loading is Turned On[\uf0c1](#querying-whether-lazy-loading-is-turned-on \"Permalink to this headline\")  In order to check whether user enabled Lazy Loading, `CUresult cuModul...",
+      "filename": "254_querying_whether_lazy_loading_is_turned_on.md"
+    }
+  ]
+}

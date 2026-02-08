@@ -1,0 +1,64 @@
+{
+  "description": "Documentation for 5. Programming Model",
+  "directories": [
+    {
+      "name": "52_thread_hierarchy",
+      "description": "## 5.2. Thread Hierarchy[\uf0c1](#thread-hierarchy \"Permalink to this headline\")  For convenience, `threadIdx` is a 3-component vector, so that threads can be identified using a one-dimensional, two-dimens..."
+    },
+    {
+      "name": "55_asynchronous_simt_programming_model",
+      "description": "## 5.5. Asynchronous SIMT Programming Model[\uf0c1](#asynchronous-simt-programming-model \"Permalink to this headline\")  In the CUDA programming model a thread is the lowest level of abstraction for doing a..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "51_kernels",
+      "title": "5.1. Kernels",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 5.1. Kernels[\uf0c1](#kernels \"Permalink to this headline\")  CUDA C++ extends C++ by allowing the programmer to define C++ functions, called *kernels*, that, when called, are executed N times in paralle...",
+      "filename": "51_kernels.md"
+    },
+    {
+      "id": "53_memory_hierarchy",
+      "title": "5.3. Memory Hierarchy",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 5.3. Memory Hierarchy[\uf0c1](#memory-hierarchy \"Permalink to this headline\")  CUDA threads may access data from multiple memory spaces during their execution as illustrated by [Figure 6](#memory-hierar...",
+      "filename": "53_memory_hierarchy.md"
+    },
+    {
+      "id": "54_heterogeneous_programming",
+      "title": "5.4. Heterogeneous Programming",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 5.4. Heterogeneous Programming[\uf0c1](#heterogeneous-programming \"Permalink to this headline\")  As illustrated by [Figure 7](#heterogeneous-programming-heterogeneous-programming), the CUDA programming ...",
+      "filename": "54_heterogeneous_programming.md"
+    },
+    {
+      "id": "56_compute_capability",
+      "title": "5.6. Compute Capability",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 5.6. Compute Capability[\uf0c1](#compute-capability \"Permalink to this headline\")  The *compute capability* of a device is represented by a version number, also sometimes called its \u201cSM version\u201d. This v...",
+      "filename": "56_compute_capability.md"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Documentation for 9.7.16.11. TensorCore 5th Generation Specialized Synchronization Operations",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "9716111_tensorcore_5th_generation_instructions_tcgen05fence",
+      "title": "9.7.16.11.1. TensorCore 5th Generation Instructions: tcgen05.fence",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`tcgen05.fence`",
+      "filename": "9716111_tensorcore_5th_generation_instructions_tcgen05fence.md"
+    }
+  ]
+}

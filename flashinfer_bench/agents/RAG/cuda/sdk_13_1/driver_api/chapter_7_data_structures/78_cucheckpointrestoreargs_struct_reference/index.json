@@ -1,0 +1,55 @@
+{
+  "description": "Documentation for 7.8. CUcheckpointRestoreArgs Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "cucheckpointgpupair_cucheckpointrestoreargsgpupairs",
+      "title": "CUcheckpointGpuPair *CUcheckpointRestoreArgs::gpuPairs",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Pointer to array of gpu pairs that indicate how to remap GPUs during restore...",
+      "filename": "cucheckpointgpupair_cucheckpointrestoreargsgpupairs.md"
+    },
+    {
+      "id": "unsigned_int_cucheckpointrestoreargsgpupairscount",
+      "title": "unsigned int CUcheckpointRestoreArgs::gpuPairsCount",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Number of gpu pairs to remap...",
+      "filename": "unsigned_int_cucheckpointrestoreargsgpupairscount.md"
+    },
+    {
+      "id": "char_cucheckpointrestoreargsreserved",
+      "title": "char CUcheckpointRestoreArgs::reserved",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Reserved for future use, must be zeroed...",
+      "filename": "char_cucheckpointrestoreargsreserved.md"
+    },
+    {
+      "id": "cuuint64_t_cucheckpointrestoreargsreserved1",
+      "title": "cuuint64_t CUcheckpointRestoreArgs::reserved1",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Reserved for future use, must be zeroed...",
+      "filename": "cuuint64_t_cucheckpointrestoreargsreserved1.md"
+    }
+  ]
+}

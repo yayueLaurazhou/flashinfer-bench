@@ -1,0 +1,75 @@
+{
+  "description": "Documentation for 8.2. Memory operations",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "The fundamental storage unit in the PTX memory model is a byte, consisting of 8 bits. Each state space available to a PTX program is a sequence of contiguous bytes in memory. Every byte in a PTX state space has a unique address relative to all threads that have access to the same state space."
+    },
+    {
+      "id": "821_overlap",
+      "title": "8.2.1. Overlap",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "Two memory locations are said to overlap when the starting address of one location is within the range of bytes constituting the other location. Two memory operations are said to overlap when they specify the same virtual address and the corresponding memory locations overlap. The overlap is said...",
+      "filename": "821_overlap.md"
+    },
+    {
+      "id": "822_aliases",
+      "title": "8.2.2. Aliases",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "Two distinct virtual addresses are said to be aliases if they map to the same memory location.",
+      "filename": "822_aliases.md"
+    },
+    {
+      "id": "823_multimem_addresses",
+      "title": "8.2.3. Multimem Addresses",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "A multimem address is a virtual address which points to multiple distinct memory locations across devices.",
+      "filename": "823_multimem_addresses.md"
+    },
+    {
+      "id": "824_memory_operations_on_vector_data_types",
+      "title": "8.2.4. Memory Operations on Vector Data Types",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "The memory consistency model relates operations executed on memory locations with scalar data types, which have a maximum size and alignment of 64 bits. Memory operations with a vector data type are modelled as a set of equivalent memory operations with a scalar data type, executed in an unspecif...",
+      "filename": "824_memory_operations_on_vector_data_types.md"
+    },
+    {
+      "id": "825_memory_operations_on_packed_data_types",
+      "title": "8.2.5. Memory Operations on Packed Data Types",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "A packed data type consists of two values of the same scalar data type, as described in [Packed Data Types](https://docs.nvidia.com/cuda/parallel-thread-execution/#packed-data-types). These values are accessed in adjacent memory locations. A memory operation on a packed data type is modelled as a...",
+      "filename": "825_memory_operations_on_packed_data_types.md"
+    },
+    {
+      "id": "826_initialization",
+      "title": "8.2.6. Initialization",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "Each byte in memory is initialized by a hypothetical write *W0* executed before starting any thread in the program. If the byte is included in a program variable, and that variable has an initial value, then *W0* writes the corresponding initial value for that byte; else *W0* is assumed to have w...",
+      "filename": "826_initialization.md"
+    }
+  ]
+}

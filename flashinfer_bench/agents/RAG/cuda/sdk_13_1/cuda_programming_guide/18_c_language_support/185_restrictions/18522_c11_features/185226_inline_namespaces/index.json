@@ -1,0 +1,25 @@
+{
+  "description": "Documentation for 18.5.22.6. Inline namespaces",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "1852261_inline_unnamed_namespaces",
+      "title": "18.5.22.6.1. Inline unnamed namespaces",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 18.5.22.6.1. Inline unnamed namespaces[\uf0c1](#inline-unnamed-namespaces \"Permalink to this headline\")  The following entities cannot be declared in namespace scope within an inline unnamed namespac...",
+      "filename": "1852261_inline_unnamed_namespaces.md"
+    }
+  ]
+}

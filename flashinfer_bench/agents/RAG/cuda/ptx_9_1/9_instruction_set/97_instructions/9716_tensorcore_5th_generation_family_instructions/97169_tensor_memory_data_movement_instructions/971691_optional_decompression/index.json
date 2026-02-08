@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 9.7.16.9.1. Optional Decompression",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Optionally, during the copy, a vector of 4-bit and 6-bit custom floating point types can be decompressed into 8-bit types."
+    },
+    {
+      "id": "9716911_decompression_of_4_bit_floating_point_to_8_bit_type",
+      "title": "9.7.16.9.1.1. Decompression of 4-bit floating point to 8-bit type",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "A contiguous set of 16 elements of 4-bits each followed by 8 bytes of padding can be converted into 16 elements of 8-bits each as shown in [Figure 194](https://docs.nvidia.com/cuda/parallel-thread-execution/#tcgen05-decompression-4b8b).",
+      "filename": "9716911_decompression_of_4_bit_floating_point_to_8_bit_type.md"
+    },
+    {
+      "id": "9716912_decompression_of_6_bit_floating_point_to_8_bit_type",
+      "title": "9.7.16.9.1.2. Decompression of 6-bit floating point to 8-bit type",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "A contiguous set of 16 elements of 6-bits each followed by 4 bytes of padding is decompressed into 16 elements of 8-bits each as shown in [Figure 196](https://docs.nvidia.com/cuda/parallel-thread-execution/#tcgen05-decompression-6b8b).",
+      "filename": "9716912_decompression_of_6_bit_floating_point_to_8_bit_type.md"
+    }
+  ]
+}

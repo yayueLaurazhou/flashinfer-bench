@@ -1,0 +1,17 @@
+# 13.17. Changes in PTX ISA Version 7.3
+
+## 13.17. [Changes in PTX ISA Version 7.3](https://docs.nvidia.com/cuda/parallel-thread-execution/#changes-in-ptx-isa-version-7-3)[](https://docs.nvidia.com/cuda/parallel-thread-execution/#changes-in-ptx-isa-version-7-3 "Permalink to this headline")
+
+New Features
+
+PTX ISA version 7.3 introduces the following new features:
+
+* Extends `mask()` operator used in initializers to also support integer constant expression.
+* Adds support for stack manpulation instructions that allow manipulating stack using `stacksave`
+  and `stackrestore` instructions and allocation of per-thread stack using `alloca`
+  instruction.
+
+Semantic Changes and Clarifications
+
+The unimplemented version of `alloca` from the older PTX ISA specification has been replaced with
+new stack manipulation instructions in PTX ISA version 7.3.

@@ -1,0 +1,65 @@
+{
+  "description": "Documentation for 6.36. Error Log Management Functions",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "curesult_culogscurrent_culogiterator_iterator_out_unsig_182ef835",
+      "title": "CUresult cuLogsCurrent (CUlogIterator *iterator_out, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets log iterator to point to the end of log buffer, where the next message would be written....",
+      "filename": "curesult_culogscurrent_culogiterator_iterator_out_unsig_182ef835.md"
+    },
+    {
+      "id": "curesult_culogsdumptofile_culogiterator_iterator_const__07718965",
+      "title": "CUresult cuLogsDumpToFile (CUlogIterator *iterator, const char *pathToFile, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Dump accumulated driver logs into a file....",
+      "filename": "curesult_culogsdumptofile_culogiterator_iterator_const__07718965.md"
+    },
+    {
+      "id": "curesult_culogsdumptomemory_culogiterator_iterator_char_eba8700a",
+      "title": "CUresult cuLogsDumpToMemory (CUlogIterator *iterator, char *buffer, size_t *size, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Dump accumulated driver logs into a buffer....",
+      "filename": "curesult_culogsdumptomemory_culogiterator_iterator_char_eba8700a.md"
+    },
+    {
+      "id": "curesult_culogsregistercallback_culogscallback_callback_46924d48",
+      "title": "CUresult cuLogsRegisterCallback (CUlogsCallback callbackFunc, void *userData, CUlogsCallbackHandle *callback_out)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Register a callback function to receive error log messages....",
+      "filename": "curesult_culogsregistercallback_culogscallback_callback_46924d48.md"
+    },
+    {
+      "id": "curesult_culogsunregistercallback_culogscallbackhandle_callback",
+      "title": "CUresult cuLogsUnregisterCallback (CUlogsCallbackHandle callback)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Unregister a log message callback....",
+      "filename": "curesult_culogsunregistercallback_culogscallbackhandle_callback.md"
+    }
+  ]
+}

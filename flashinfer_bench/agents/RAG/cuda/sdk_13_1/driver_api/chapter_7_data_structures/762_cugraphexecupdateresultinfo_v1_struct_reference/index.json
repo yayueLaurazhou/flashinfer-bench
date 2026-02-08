@@ -1,0 +1,45 @@
+{
+  "description": "Documentation for 7.62. CUgraphExecUpdateResultInfo_v1 Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "cugraphnode_cugraphexecupdateresultinfo_v1errorfromnode",
+      "title": "CUgraphNode CUgraphExecUpdateResultInfo_v1::errorFromNode",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "The from node of error edge when the topologies do not match. Otherwise NULL....",
+      "filename": "cugraphnode_cugraphexecupdateresultinfo_v1errorfromnode.md"
+    },
+    {
+      "id": "cugraphnode_cugraphexecupdateresultinfo_v1errornode",
+      "title": "CUgraphNode CUgraphExecUpdateResultInfo_v1::errorNode",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "The \"to node\" of the error edge when the topologies do not match. The error node when the error is associated with a specific node. NULL when the error is generic....",
+      "filename": "cugraphnode_cugraphexecupdateresultinfo_v1errornode.md"
+    },
+    {
+      "id": "cugraphexecupdateresult_cugraphexecupdateresultinfo_v1result",
+      "title": "CUgraphExecUpdateResult CUgraphExecUpdateResultInfo_v1::result",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Gives more specific detail when a cuda graph update fails.   CUDA Driver API TRM-06703-001 _vRelease Version  |  720   Data Structures...",
+      "filename": "cugraphexecupdateresult_cugraphexecupdateresultinfo_v1result.md"
+    }
+  ]
+}

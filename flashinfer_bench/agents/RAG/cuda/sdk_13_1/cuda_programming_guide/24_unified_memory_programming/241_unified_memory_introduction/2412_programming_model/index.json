@@ -1,0 +1,90 @@
+{
+  "description": "Documentation for 24.1.2. Programming Model",
+  "directories": [
+    {
+      "name": "24128_performance_hints",
+      "description": "#### 24.1.2.8. Performance Hints[\uf0c1](#performance-hints \"Permalink to this headline\")  The following sections describes the available unified memory performance hints, which may be used on all Unified ..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "24121_allocation_apis_for_system_allocated_memory",
+      "title": "24.1.2.1. Allocation APIs for System-Allocated Memory",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 24.1.2.1. Allocation APIs for System-Allocated Memory[\uf0c1](#allocation-apis-for-system-allocated-memory \"Permalink to this headline\")  On [systems with full CUDA Unified Memory support](#um-require...",
+      "filename": "24121_allocation_apis_for_system_allocated_memory.md"
+    },
+    {
+      "id": "24122_allocation_api_for_cuda_managed_memory_cudamallocmanaged",
+      "title": "24.1.2.2. Allocation API for CUDA Managed Memory: cudaMallocManaged()",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 24.1.2.2. Allocation API for CUDA Managed Memory: `cudaMallocManaged()`[\uf0c1](#allocation-api-for-cuda-managed-memory-cudamallocmanaged \"Permalink to this headline\")  On systems with CUDA Managed Me...",
+      "filename": "24122_allocation_api_for_cuda_managed_memory_cudamallocmanaged.md"
+    },
+    {
+      "id": "24123_global_scope_managed_variables_using___managed__",
+      "title": "24.1.2.3. Global-Scope Managed Variables Using __managed__",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 24.1.2.3. Global-Scope Managed Variables Using `__managed__`[\uf0c1](#global-scope-managed-variables-using-managed \"Permalink to this headline\")  CUDA `__managed__` variables behave as if they were al...",
+      "filename": "24123_global_scope_managed_variables_using___managed__.md"
+    },
+    {
+      "id": "24124_difference_between_unified_memory_and_mapped_memory",
+      "title": "24.1.2.4. Difference between Unified Memory and Mapped Memory",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 24.1.2.4. Difference between Unified Memory and Mapped Memory[\uf0c1](#difference-between-unified-memory-and-mapped-memory \"Permalink to this headline\")  The main difference between Unified Memory and...",
+      "filename": "24124_difference_between_unified_memory_and_mapped_memory.md"
+    },
+    {
+      "id": "24125_pointer_attributes",
+      "title": "24.1.2.5. Pointer Attributes",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 24.1.2.5. Pointer Attributes[\uf0c1](#um-pointer-attributes \"Permalink to this headline\")  CUDA Programs may check whether a pointer addresses a CUDA Managed Memory allocation by calling `cudaPointerG...",
+      "filename": "24125_pointer_attributes.md"
+    },
+    {
+      "id": "24126_runtime_detection_of_unified_memory_support_level",
+      "title": "24.1.2.6. Runtime detection of Unified Memory Support Level",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 24.1.2.6. Runtime detection of Unified Memory Support Level[\uf0c1](#runtime-detection-of-unified-memory-support-level \"Permalink to this headline\")  The following example shows how to detect the Unif...",
+      "filename": "24126_runtime_detection_of_unified_memory_support_level.md"
+    },
+    {
+      "id": "24127_gpu_memory_oversubscription",
+      "title": "24.1.2.7. GPU Memory Oversubscription",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 24.1.2.7. GPU Memory Oversubscription[\uf0c1](#gpu-memory-oversubscription \"Permalink to this headline\")  Unified Memory enables applications to *oversubscribe* the memory of any individual processor:...",
+      "filename": "24127_gpu_memory_oversubscription.md"
+    }
+  ]
+}

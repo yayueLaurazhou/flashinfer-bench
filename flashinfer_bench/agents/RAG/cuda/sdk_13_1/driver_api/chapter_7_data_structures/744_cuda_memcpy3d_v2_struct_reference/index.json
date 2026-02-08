@@ -1,0 +1,265 @@
+{
+  "description": "Documentation for 7.44. CUDA_MEMCPY3D_v2 Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "size_t_cuda_memcpy3d_v2depth",
+      "title": "size_t CUDA_MEMCPY3D_v2::Depth",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Depth of 3D memory copy...",
+      "filename": "size_t_cuda_memcpy3d_v2depth.md"
+    },
+    {
+      "id": "cuarray_cuda_memcpy3d_v2dstarray",
+      "title": "CUarray CUDA_MEMCPY3D_v2::dstArray",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Destination array reference...",
+      "filename": "cuarray_cuda_memcpy3d_v2dstarray.md"
+    },
+    {
+      "id": "cudeviceptr_cuda_memcpy3d_v2dstdevice",
+      "title": "CUdeviceptr CUDA_MEMCPY3D_v2::dstDevice",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Destination device pointer...",
+      "filename": "cudeviceptr_cuda_memcpy3d_v2dstdevice.md"
+    },
+    {
+      "id": "size_t_cuda_memcpy3d_v2dstheight",
+      "title": "size_t CUDA_MEMCPY3D_v2::dstHeight",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Destination height (ignored when dst is array; may be 0 if Depth==1)...",
+      "filename": "size_t_cuda_memcpy3d_v2dstheight.md"
+    },
+    {
+      "id": "void_cuda_memcpy3d_v2dsthost",
+      "title": "void *CUDA_MEMCPY3D_v2::dstHost",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Destination host pointer...",
+      "filename": "void_cuda_memcpy3d_v2dsthost.md"
+    },
+    {
+      "id": "size_t_cuda_memcpy3d_v2dstlod",
+      "title": "size_t CUDA_MEMCPY3D_v2::dstLOD",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Destination LOD...",
+      "filename": "size_t_cuda_memcpy3d_v2dstlod.md"
+    },
+    {
+      "id": "cumemorytype_cuda_memcpy3d_v2dstmemorytype",
+      "title": "CUmemorytype CUDA_MEMCPY3D_v2::dstMemoryType",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Destination memory type (host, device, array)...",
+      "filename": "cumemorytype_cuda_memcpy3d_v2dstmemorytype.md"
+    },
+    {
+      "id": "size_t_cuda_memcpy3d_v2dstpitch",
+      "title": "size_t CUDA_MEMCPY3D_v2::dstPitch",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Destination pitch (ignored when dst is array)...",
+      "filename": "size_t_cuda_memcpy3d_v2dstpitch.md"
+    },
+    {
+      "id": "size_t_cuda_memcpy3d_v2dstxinbytes",
+      "title": "size_t CUDA_MEMCPY3D_v2::dstXInBytes",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Destination X in bytes...",
+      "filename": "size_t_cuda_memcpy3d_v2dstxinbytes.md"
+    },
+    {
+      "id": "size_t_cuda_memcpy3d_v2dsty",
+      "title": "size_t CUDA_MEMCPY3D_v2::dstY",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Destination Y   CUDA Driver API TRM-06703-001 _vRelease Version  |  706   Data Structures...",
+      "filename": "size_t_cuda_memcpy3d_v2dsty.md"
+    },
+    {
+      "id": "size_t_cuda_memcpy3d_v2dstz",
+      "title": "size_t CUDA_MEMCPY3D_v2::dstZ",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Destination Z...",
+      "filename": "size_t_cuda_memcpy3d_v2dstz.md"
+    },
+    {
+      "id": "size_t_cuda_memcpy3d_v2height",
+      "title": "size_t CUDA_MEMCPY3D_v2::Height",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Height of 3D memory copy...",
+      "filename": "size_t_cuda_memcpy3d_v2height.md"
+    },
+    {
+      "id": "void_cuda_memcpy3d_v2reserved0",
+      "title": "void *CUDA_MEMCPY3D_v2::reserved0",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Must be NULL...",
+      "filename": "void_cuda_memcpy3d_v2reserved0.md"
+    },
+    {
+      "id": "void_cuda_memcpy3d_v2reserved1",
+      "title": "void *CUDA_MEMCPY3D_v2::reserved1",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Must be NULL...",
+      "filename": "void_cuda_memcpy3d_v2reserved1.md"
+    },
+    {
+      "id": "cuarray_cuda_memcpy3d_v2srcarray",
+      "title": "CUarray CUDA_MEMCPY3D_v2::srcArray",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Source array reference...",
+      "filename": "cuarray_cuda_memcpy3d_v2srcarray.md"
+    },
+    {
+      "id": "cudeviceptr_cuda_memcpy3d_v2srcdevice",
+      "title": "CUdeviceptr CUDA_MEMCPY3D_v2::srcDevice",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Source device pointer...",
+      "filename": "cudeviceptr_cuda_memcpy3d_v2srcdevice.md"
+    },
+    {
+      "id": "size_t_cuda_memcpy3d_v2srcheight",
+      "title": "size_t CUDA_MEMCPY3D_v2::srcHeight",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Source height (ignored when src is array; may be 0 if Depth==1)...",
+      "filename": "size_t_cuda_memcpy3d_v2srcheight.md"
+    },
+    {
+      "id": "const_void_cuda_memcpy3d_v2srchost",
+      "title": "const void *CUDA_MEMCPY3D_v2::srcHost",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Source host pointer...",
+      "filename": "const_void_cuda_memcpy3d_v2srchost.md"
+    },
+    {
+      "id": "size_t_cuda_memcpy3d_v2srclod",
+      "title": "size_t CUDA_MEMCPY3D_v2::srcLOD",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Source LOD...",
+      "filename": "size_t_cuda_memcpy3d_v2srclod.md"
+    },
+    {
+      "id": "cumemorytype_cuda_memcpy3d_v2srcmemorytype",
+      "title": "CUmemorytype CUDA_MEMCPY3D_v2::srcMemoryType",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Source memory type (host, device, array)   CUDA Driver API TRM-06703-001 _vRelease Version  |  707   Data Structures...",
+      "filename": "cumemorytype_cuda_memcpy3d_v2srcmemorytype.md"
+    },
+    {
+      "id": "size_t_cuda_memcpy3d_v2srcpitch",
+      "title": "size_t CUDA_MEMCPY3D_v2::srcPitch",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Source pitch (ignored when src is array)...",
+      "filename": "size_t_cuda_memcpy3d_v2srcpitch.md"
+    },
+    {
+      "id": "size_t_cuda_memcpy3d_v2srcxinbytes",
+      "title": "size_t CUDA_MEMCPY3D_v2::srcXInBytes",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Source X in bytes...",
+      "filename": "size_t_cuda_memcpy3d_v2srcxinbytes.md"
+    },
+    {
+      "id": "size_t_cuda_memcpy3d_v2srcy",
+      "title": "size_t CUDA_MEMCPY3D_v2::srcY",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Source Y...",
+      "filename": "size_t_cuda_memcpy3d_v2srcy.md"
+    },
+    {
+      "id": "size_t_cuda_memcpy3d_v2srcz",
+      "title": "size_t CUDA_MEMCPY3D_v2::srcZ",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Source Z...",
+      "filename": "size_t_cuda_memcpy3d_v2srcz.md"
+    },
+    {
+      "id": "size_t_cuda_memcpy3d_v2widthinbytes",
+      "title": "size_t CUDA_MEMCPY3D_v2::WidthInBytes",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Width of 3D memory copy in bytes...",
+      "filename": "size_t_cuda_memcpy3d_v2widthinbytes.md"
+    }
+  ]
+}

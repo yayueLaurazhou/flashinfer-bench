@@ -1,0 +1,4 @@
+# struct CUlaunchMemSyncDomainMap CUlaunchAttributeValue::memSyncDomainMap
+
+Value of launch attribute CU_LAUNCH_ATTRIBUTE_MEM_SYNC_DOMAIN_MAP. See
+CUlaunchMemSyncDomainMap.

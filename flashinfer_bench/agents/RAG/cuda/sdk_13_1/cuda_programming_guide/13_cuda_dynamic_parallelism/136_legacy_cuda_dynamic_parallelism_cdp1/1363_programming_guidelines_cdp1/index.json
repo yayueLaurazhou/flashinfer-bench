@@ -1,0 +1,34 @@
+{
+  "description": "Documentation for 13.6.3. Programming Guidelines (CDP1)",
+  "directories": [
+    {
+      "name": "13632_performance_cdp1",
+      "description": "#### 13.6.3.2. Performance (CDP1)[\uf0c1](#performance-cdp1 \"Permalink to this headline\")  See [Performance](#performance), above, for CDP2 version of document...."
+    },
+    {
+      "name": "13633_implementation_restrictions_and_limitations_cdp1",
+      "description": "#### 13.6.3.3. Implementation Restrictions and Limitations (CDP1)[\uf0c1](#implementation-restrictions-and-limitations-cdp1 \"Permalink to this headline\")  See [Implementation Restrictions and Limitations](..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "13631_basics_cdp1",
+      "title": "13.6.3.1. Basics (CDP1)",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 13.6.3.1. Basics (CDP1)[\uf0c1](#basics-cdp1 \"Permalink to this headline\")  See [Basics](#basics), above, for CDP2 version of document.  The device runtime is a functional subset of the host runtime. ...",
+      "filename": "13631_basics_cdp1.md"
+    }
+  ]
+}

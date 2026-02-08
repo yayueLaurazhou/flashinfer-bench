@@ -1,0 +1,65 @@
+{
+  "description": "Documentation for 23. Error Log Management",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "231_background",
+      "title": "23.1. Background",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 23.1. Background[\uf0c1](#id446 \"Permalink to this headline\")  Traditionally, the only indication of a failed CUDA API call is the return of a non-zero code. As of CUDA Toolkit 12.9, the CUDA Runtime de...",
+      "filename": "231_background.md"
+    },
+    {
+      "id": "232_activation",
+      "title": "23.2. Activation",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 23.2. Activation[\uf0c1](#activation \"Permalink to this headline\")  Set the *CUDA\\_LOG\\_FILE* environment variable. Acceptable values are *stdout*, *stderr*, or a valid path on the system to write a fil...",
+      "filename": "232_activation.md"
+    },
+    {
+      "id": "233_output",
+      "title": "23.3. Output",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 23.3. Output[\uf0c1](#output \"Permalink to this headline\")  Logs are output in the following format:  ``` [Time][TID][Source][Severity][API Entry Point] Message ```  The following line is an actual erro...",
+      "filename": "233_output.md"
+    },
+    {
+      "id": "234_api_description",
+      "title": "23.4. API Description",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 23.4. API Description[\uf0c1](#id447 \"Permalink to this headline\")  The CUDA Driver provides APIs in two categories for interacting with the Error Log Management feature.  This feature allows developers...",
+      "filename": "234_api_description.md"
+    },
+    {
+      "id": "235_limitations_and_known_issues",
+      "title": "23.5. Limitations and Known Issues",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 23.5. Limitations and Known Issues[\uf0c1](#limitations-and-known-issues \"Permalink to this headline\")  1. The log buffer is limited to 100 entries. After this limit is reached, the oldest entries will ...",
+      "filename": "235_limitations_and_known_issues.md"
+    }
+  ]
+}

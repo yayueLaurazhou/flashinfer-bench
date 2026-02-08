@@ -1,0 +1,165 @@
+{
+  "description": "Documentation for 7.43. cudaLaunchAttributeValue Union Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "struct_cudaaccesspolicywindow_cudalaunchattributevaluea_42bcd001",
+      "title": "struct cudaAccessPolicyWindow cudaLaunchAttributeValue::accessPolicyWindow",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Value of launch attribute cudaLaunchAttributeAccessPolicyWindow....",
+      "filename": "struct_cudaaccesspolicywindow_cudalaunchattributevaluea_42bcd001.md"
+    },
+    {
+      "id": "cudalaunchattributevalue29_cudalaunchattributevalueclusterdim",
+      "title": "cudaLaunchAttributeValue::@29 cudaLaunchAttributeValue::clusterDim",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Value of launch attribute cudaLaunchAttributeClusterDimension that represents the desired cluster dimensions for the kernel. Opaque type with the following fields:     - The X dimension of the cluster...",
+      "filename": "cudalaunchattributevalue29_cudalaunchattributevalueclusterdim.md"
+    },
+    {
+      "id": "enumcudaclusterschedulingpolicy_cudalaunchattributevalu_002100fc",
+      "title": "enumcudaClusterSchedulingPolicy cudaLaunchAttributeValue::clusterSchedulingPolicyPreference",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Value of launch attribute cudaLaunchAttributeClusterSchedulingPolicyPreference. Cluster scheduling policy preference for the kernel....",
+      "filename": "enumcudaclusterschedulingpolicy_cudalaunchattributevalu_002100fc.md"
+    },
+    {
+      "id": "int_cudalaunchattributevaluecooperative",
+      "title": "int cudaLaunchAttributeValue::cooperative",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Value of launch attribute cudaLaunchAttributeCooperative. Nonzero indicates a cooperative kernel (see cudaLaunchCooperativeKernel).   CUDA Runtime API vRelease Version  |  629   Data Structures...",
+      "filename": "int_cudalaunchattributevaluecooperative.md"
+    },
+    {
+      "id": "cudalaunchattributevalue33_cudalaunchattributevaluedevi_dd45dbdd",
+      "title": "cudaLaunchAttributeValue::@33 cudaLaunchAttributeValue::deviceUpdatableKernelNode",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Value of launch attribute cudaLaunchAttributeDeviceUpdatableKernelNode with the following fields:  deviceUpdatable - Whether or not the resulting kernel node should be device-updatable....",
+      "filename": "cudalaunchattributevalue33_cudalaunchattributevaluedevi_dd45dbdd.md"
+    },
+    {
+      "id": "cudalaunchattributevalue32_cudalaunchattributevaluelaun_d1e91245",
+      "title": "cudaLaunchAttributeValue::@32 cudaLaunchAttributeValue::launchCompletionEvent",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Value of launch attribute cudaLaunchAttributeLaunchCompletionEvent with the following fields:  event - Event to fire when the last block launches....",
+      "filename": "cudalaunchattributevalue32_cudalaunchattributevaluelaun_d1e91245.md"
+    },
+    {
+      "id": "cudalaunchmemsyncdomain_cudalaunchattributevaluememsyncdomain",
+      "title": "cudaLaunchMemSyncDomain cudaLaunchAttributeValue::memSyncDomain",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Value of launch attribute cudaLaunchAttributeMemSyncDomain. See cudaLaunchMemSyncDomain....",
+      "filename": "cudalaunchmemsyncdomain_cudalaunchattributevaluememsyncdomain.md"
+    },
+    {
+      "id": "struct_cudalaunchmemsyncdomainmap_cudalaunchattributeva_ff9d3785",
+      "title": "struct cudaLaunchMemSyncDomainMap cudaLaunchAttributeValue::memSyncDomainMap",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Value of launch attribute cudaLaunchAttributeMemSyncDomainMap. See cudaLaunchMemSyncDomainMap....",
+      "filename": "struct_cudalaunchmemsyncdomainmap_cudalaunchattributeva_ff9d3785.md"
+    },
+    {
+      "id": "unsigned_int_cudalaunchattributevaluenvlinkutilcentricscheduling",
+      "title": "unsigned int cudaLaunchAttributeValue::nvlinkUtilCentricScheduling",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Value of launch attribute cudaLaunchAttributeNvlinkUtilCentricScheduling....",
+      "filename": "unsigned_int_cudalaunchattributevaluenvlinkutilcentricscheduling.md"
+    },
+    {
+      "id": "cudalaunchattributevalue31_cudalaunchattributevaluepref_67be297b",
+      "title": "cudaLaunchAttributeValue::@31 cudaLaunchAttributeValue::preferredClusterDim",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Value of launch attribute cudaLaunchAttributePreferredClusterDimension that represents the desired preferred cluster dimensions for the kernel. Opaque type with the following fields:   CUDA Runtime AP...",
+      "filename": "cudalaunchattributevalue31_cudalaunchattributevaluepref_67be297b.md"
+    },
+    {
+      "id": "int_cudalaunchattributevaluepriority",
+      "title": "int cudaLaunchAttributeValue::priority",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Value of launch attribute cudaLaunchAttributePriority. Execution priority of the kernel....",
+      "filename": "int_cudalaunchattributevaluepriority.md"
+    },
+    {
+      "id": "cudalaunchattributevalue30_cudalaunchattributevalueprog_b9e257e1",
+      "title": "cudaLaunchAttributeValue::@30 cudaLaunchAttributeValue::programmaticEvent",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Value of launch attribute cudaLaunchAttributeProgrammaticEvent with the following fields:  event - Event to fire when all blocks trigger it....",
+      "filename": "cudalaunchattributevalue30_cudalaunchattributevalueprog_b9e257e1.md"
+    },
+    {
+      "id": "int_cudalaunchattributevalueprogrammaticstreamserializa_460b2625",
+      "title": "int cudaLaunchAttributeValue::programmaticStreamSerializationAllowe",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Value of launch attribute cudaLaunchAttributeProgrammaticStreamSerialization....",
+      "filename": "int_cudalaunchattributevalueprogrammaticstreamserializa_460b2625.md"
+    },
+    {
+      "id": "unsigned_int_cudalaunchattributevaluesharedmemcarveout",
+      "title": "unsigned int cudaLaunchAttributeValue::sharedMemCarveout",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Value of launch attribute cudaLaunchAttributePreferredSharedMemoryCarveout....",
+      "filename": "unsigned_int_cudalaunchattributevaluesharedmemcarveout.md"
+    },
+    {
+      "id": "enum_cudasynchronizationpolicy_cudalaunchattributevalue_886bf223",
+      "title": "enum cudaSynchronizationPolicy cudaLaunchAttributeValue::syncPolicy",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Value of launch attribute cudaLaunchAttributeSynchronizationPolicy. cudaSynchronizationPolicy for work queued up in this stream.   CUDA Runtime API vRelease Version  |  631   Data Structures...",
+      "filename": "enum_cudasynchronizationpolicy_cudalaunchattributevalue_886bf223.md"
+    }
+  ]
+}

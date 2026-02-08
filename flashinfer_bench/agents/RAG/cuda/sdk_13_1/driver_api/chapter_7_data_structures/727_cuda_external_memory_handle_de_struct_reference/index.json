@@ -1,0 +1,95 @@
+{
+  "description": "Documentation for 7.27. CUDA_EXTERNAL_MEMORY_HANDLE_DE Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "int_cuda_external_memory_handle_desc_v1fd",
+      "title": "int CUDA_EXTERNAL_MEMORY_HANDLE_DESC_v1::fd",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "File descriptor referencing the memory object. Valid when type is CU_EXTERNAL_MEMORY_HANDLE_TYPE_OPAQUE_FD...",
+      "filename": "int_cuda_external_memory_handle_desc_v1fd.md"
+    },
+    {
+      "id": "unsigned_int_cuda_external_memory_handle_desc_v1flags",
+      "title": "unsigned int CUDA_EXTERNAL_MEMORY_HANDLE_DESC_v1::flags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Flags must either be zero or CUDA_EXTERNAL_MEMORY_DEDICATED   CUDA Driver API TRM-06703-001 _vRelease Version  |  686   Data Structures...",
+      "filename": "unsigned_int_cuda_external_memory_handle_desc_v1flags.md"
+    },
+    {
+      "id": "void_cuda_external_memory_handle_desc_v1handle",
+      "title": "void *CUDA_EXTERNAL_MEMORY_HANDLE_DESC_v1::handle",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Valid NT handle. Must be NULL if 'name' is non-NULL...",
+      "filename": "void_cuda_external_memory_handle_desc_v1handle.md"
+    },
+    {
+      "id": "const_void_cuda_external_memory_handle_desc_v1name",
+      "title": "const void *CUDA_EXTERNAL_MEMORY_HANDLE_DESC_v1::name",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Name of a valid memory object. Must be NULL if 'handle' is non-NULL....",
+      "filename": "const_void_cuda_external_memory_handle_desc_v1name.md"
+    },
+    {
+      "id": "const_void_cuda_external_memory_handle_desc_v1nvscibufo",
+      "title": "const void *CUDA_EXTERNAL_MEMORY_HANDLE_DESC_v1::nvSciBufO",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "A handle representing an NvSciBuf Object. Valid when type is CU_EXTERNAL_MEMORY_HANDLE_TYPE_NVSCIBUF...",
+      "filename": "const_void_cuda_external_memory_handle_desc_v1nvscibufo.md"
+    },
+    {
+      "id": "unsigned_long_long_cuda_external_memory_handle_desc_v1size",
+      "title": "unsigned long long CUDA_EXTERNAL_MEMORY_HANDLE_DESC_v1::size",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Size of the memory allocation...",
+      "filename": "unsigned_long_long_cuda_external_memory_handle_desc_v1size.md"
+    },
+    {
+      "id": "cuexternalmemoryhandletype_cuda_external_memory_handle__47bda6c4",
+      "title": "CUexternalMemoryHandleType CUDA_EXTERNAL_MEMORY_HANDLE_DESC_v1::type",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Type of the handle...",
+      "filename": "cuexternalmemoryhandletype_cuda_external_memory_handle__47bda6c4.md"
+    },
+    {
+      "id": "cuda_external_memory_handle_desc_v11920_cuda_external_m_de55136d",
+      "title": "CUDA_EXTERNAL_MEMORY_HANDLE_DESC_v1::@19::@20 CUDA_EXTERNAL_MEMORY_HANDLE_DESC_v1::win32",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Win32 handle referencing the semaphore object. Valid when type is one of the following:  CU_EXTERNAL_MEMORY_HANDLE_TYPE_OPAQUE_WIN32...",
+      "filename": "cuda_external_memory_handle_desc_v11920_cuda_external_m_de55136d.md"
+    }
+  ]
+}

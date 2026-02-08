@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 16.7. Peer Access",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "1671_peer_access_with_graph_node_apis",
+      "title": "16.7.1. Peer Access with Graph Node APIs",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 16.7.1. Peer Access with Graph Node APIs[\uf0c1](#peer-access-with-graph-node-apis \"Permalink to this headline\")  The `cudaGraphAddMemAllocNode` API accepts mapping requests in the `accessDescs` array ...",
+      "filename": "1671_peer_access_with_graph_node_apis.md"
+    },
+    {
+      "id": "1672_peer_access_with_stream_capture",
+      "title": "16.7.2. Peer Access with Stream Capture",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 16.7.2. Peer Access with Stream Capture[\uf0c1](#peer-access-with-stream-capture \"Permalink to this headline\")  For stream capture, the allocation node records the peer accessibility of the allocating ...",
+      "filename": "1672_peer_access_with_stream_capture.md"
+    }
+  ]
+}

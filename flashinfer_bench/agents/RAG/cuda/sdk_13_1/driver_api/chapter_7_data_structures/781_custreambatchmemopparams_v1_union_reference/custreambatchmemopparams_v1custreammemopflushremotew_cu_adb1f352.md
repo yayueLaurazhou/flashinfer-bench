@@ -1,0 +1,3 @@
+# CUstreamBatchMemOpParams_v1::CUstreamMemOpFlushRemoteW CUstreamBatchMemOpParams_v1::flushRemoteWrites
+
+Params for CU_STREAM_MEM_OP_FLUSH_REMOTE_WRITES operations.

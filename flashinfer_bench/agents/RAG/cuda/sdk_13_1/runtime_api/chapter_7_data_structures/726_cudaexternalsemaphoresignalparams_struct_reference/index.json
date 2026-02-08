@@ -1,0 +1,65 @@
+{
+  "description": "Documentation for 7.26. cudaExternalSemaphoreSignalParams Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "void_cudaexternalsemaphoresignalparamsfence",
+      "title": "void *cudaExternalSemaphoreSignalParams::fence",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Pointer to NvSciSyncFence. Valid if cudaExternalSemaphoreHandleType is of type cudaExternalSemaphoreHandleTypeNvSciSync....",
+      "filename": "void_cudaexternalsemaphoresignalparamsfence.md"
+    },
+    {
+      "id": "cudaexternalsemaphoresignalparams1516_cudaexternalsemap_1e7a2721",
+      "title": "cudaExternalSemaphoreSignalParams::@15::@16 cudaExternalSemaphoreSignalParams::fence",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Parameters for fence objects...",
+      "filename": "cudaexternalsemaphoresignalparams1516_cudaexternalsemap_1e7a2721.md"
+    },
+    {
+      "id": "unsigned_int_cudaexternalsemaphoresignalparamsflags",
+      "title": "unsigned int cudaExternalSemaphoreSignalParams::flags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Only when cudaExternalSemaphoreSignalParams is used to signal a cudaExternalSemaphore_t of type cudaExternalSemaphoreHandleTypeNvSciSync, the valid flag is cudaExternalSemaphoreSignalSkipNvSciBufMemSy...",
+      "filename": "unsigned_int_cudaexternalsemaphoresignalparamsflags.md"
+    },
+    {
+      "id": "cudaexternalsemaphoresignalparams1518_cudaexternalsemap_4e935ba2",
+      "title": "cudaExternalSemaphoreSignalParams::@15::@18 cudaExternalSemaphoreSignalParams::keyedMutex",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Parameters for keyed mutex objects...",
+      "filename": "cudaexternalsemaphoresignalparams1518_cudaexternalsemap_4e935ba2.md"
+    },
+    {
+      "id": "unsigned_long_long_cudaexternalsemaphoresignalparamsvalue",
+      "title": "unsigned long long cudaExternalSemaphoreSignalParams::value",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Value of fence to be signaled...",
+      "filename": "unsigned_long_long_cudaexternalsemaphoresignalparamsvalue.md"
+    }
+  ]
+}

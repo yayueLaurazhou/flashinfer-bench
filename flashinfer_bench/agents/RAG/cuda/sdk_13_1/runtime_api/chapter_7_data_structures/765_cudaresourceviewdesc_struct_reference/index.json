@@ -1,0 +1,105 @@
+{
+  "description": "Documentation for 7.65. cudaResourceViewDesc Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "size_t_cudaresourceviewdescdepth",
+      "title": "size_t cudaResourceViewDesc::depth",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Depth of the resource view...",
+      "filename": "size_t_cudaresourceviewdescdepth.md"
+    },
+    {
+      "id": "unsigned_int_cudaresourceviewdescfirstlayer",
+      "title": "unsigned int cudaResourceViewDesc::firstLayer",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "First layer index...",
+      "filename": "unsigned_int_cudaresourceviewdescfirstlayer.md"
+    },
+    {
+      "id": "unsigned_int_cudaresourceviewdescfirstmipmaplevel",
+      "title": "unsigned int cudaResourceViewDesc::firstMipmapLevel",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "First defined mipmap level...",
+      "filename": "unsigned_int_cudaresourceviewdescfirstmipmaplevel.md"
+    },
+    {
+      "id": "enumcudaresourceviewformat_cudaresourceviewdescformat",
+      "title": "enumcudaResourceViewFormat cudaResourceViewDesc::format",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Resource view format...",
+      "filename": "enumcudaresourceviewformat_cudaresourceviewdescformat.md"
+    },
+    {
+      "id": "size_t_cudaresourceviewdescheight",
+      "title": "size_t cudaResourceViewDesc::height",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Height of the resource view...",
+      "filename": "size_t_cudaresourceviewdescheight.md"
+    },
+    {
+      "id": "unsigned_int_cudaresourceviewdesclastlayer",
+      "title": "unsigned int cudaResourceViewDesc::lastLayer",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Last layer index...",
+      "filename": "unsigned_int_cudaresourceviewdesclastlayer.md"
+    },
+    {
+      "id": "unsigned_int_cudaresourceviewdesclastmipmaplevel",
+      "title": "unsigned int cudaResourceViewDesc::lastMipmapLevel",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Last defined mipmap level   CUDA Runtime API vRelease Version  |  645   Data Structures...",
+      "filename": "unsigned_int_cudaresourceviewdesclastmipmaplevel.md"
+    },
+    {
+      "id": "unsigned_int_cudaresourceviewdescreserved",
+      "title": "unsigned int cudaResourceViewDesc::reserved",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Must be zero...",
+      "filename": "unsigned_int_cudaresourceviewdescreserved.md"
+    },
+    {
+      "id": "size_t_cudaresourceviewdescwidth",
+      "title": "size_t cudaResourceViewDesc::width",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Width of the resource view...",
+      "filename": "size_t_cudaresourceviewdescwidth.md"
+    }
+  ]
+}

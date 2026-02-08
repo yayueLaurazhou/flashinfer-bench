@@ -1,0 +1,55 @@
+{
+  "description": "Documentation for 16.3. API Fundamentals",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "1631_graph_node_apis",
+      "title": "16.3.1. Graph Node APIs",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 16.3.1. Graph Node APIs[\uf0c1](#graph-node-apis \"Permalink to this headline\")  Graph memory nodes may be explicitly created with the memory node creation APIs, `cudaGraphAddMemAllocNode` and `cudaGrap...",
+      "filename": "1631_graph_node_apis.md"
+    },
+    {
+      "id": "1632_stream_capture",
+      "title": "16.3.2. Stream Capture",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 16.3.2. Stream Capture[\uf0c1](#stream-capture \"Permalink to this headline\")  Graph memory nodes can be created by capturing the corresponding stream ordered allocation and free calls `cudaMallocAsync`...",
+      "filename": "1632_stream_capture.md"
+    },
+    {
+      "id": "1633_accessing_and_freeing_graph_memory_outside_of_the_allocating_graph",
+      "title": "16.3.3. Accessing and Freeing Graph Memory Outside of the Allocating Graph",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 16.3.3. Accessing and Freeing Graph Memory Outside of the Allocating Graph[\uf0c1](#accessing-and-freeing-graph-memory-outside-of-the-allocating-graph \"Permalink to this headline\")  Graph allocations d...",
+      "filename": "1633_accessing_and_freeing_graph_memory_outside_of_the_allocating_graph.md"
+    },
+    {
+      "id": "1634_cudagraphinstantiateflagautofreeonlaunch",
+      "title": "16.3.4. cudaGraphInstantiateFlagAutoFreeOnLaunch",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 16.3.4. cudaGraphInstantiateFlagAutoFreeOnLaunch[\uf0c1](#cudagraphinstantiateflagautofreeonlaunch \"Permalink to this headline\")  Under normal circumstances, CUDA will prevent a graph from being relaun...",
+      "filename": "1634_cudagraphinstantiateflagautofreeonlaunch.md"
+    }
+  ]
+}

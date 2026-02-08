@@ -1,0 +1,95 @@
+{
+  "description": "Documentation for 7.10. cudaDevResource Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "type_cudadevresourcetypeinvalid",
+      "title": "\u2023 type cudaDevResourceTypeInvalid",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "accessed. If is, the cudaDevSmResource structure is filled in. For...",
+      "filename": "type_cudadevresourcetypeinvalid.md"
+    },
+    {
+      "id": "type_cudadevresourcetypesm_sm",
+      "title": "\u2023 type cudaDevResourceTypeSm sm",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "example, sm.smCount will reflect the amount of streaming multiprocessors available in this resource. If is, the...",
+      "filename": "type_cudadevresourcetypesm_sm.md"
+    },
+    {
+      "id": "type_cudadevresourcetypeworkqueueconfig",
+      "title": "\u2023 type cudaDevResourceTypeWorkqueueConfig",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "cudaDevWorkqueueConfigResource structure wqConfig is filled in. If is, the cudaDevWorkqueueResource structure...",
+      "filename": "type_cudadevresourcetypeworkqueueconfig.md"
+    },
+    {
+      "id": "type_cudadevresourcetypeworkqueue",
+      "title": "\u2023 type cudaDevResourceTypeWorkqueue",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "wq is filled in....",
+      "filename": "type_cudadevresourcetypeworkqueue.md"
+    },
+    {
+      "id": "struct_cudadevsmresource_cudadevresourcesm",
+      "title": "struct cudaDevSmResource cudaDevResource::sm",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Resource corresponding to cudaDevResourceTypeSm type....",
+      "filename": "struct_cudadevsmresource_cudadevresourcesm.md"
+    },
+    {
+      "id": "enumcudadevresourcetype_cudadevresourcetype",
+      "title": "enumcudaDevResourceType cudaDevResource::type",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Type of resource, dictates which union field was last set...",
+      "filename": "enumcudadevresourcetype_cudadevresourcetype.md"
+    },
+    {
+      "id": "struct_cudadevworkqueueresource_cudadevresourcewq",
+      "title": "struct cudaDevWorkqueueResource cudaDevResource::wq",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Resource corresponding to cudaDevResourceTypeWorkqueue type....",
+      "filename": "struct_cudadevworkqueueresource_cudadevresourcewq.md"
+    },
+    {
+      "id": "struct_cudadevworkqueueconfigresource_cudadevresourcewqconfig",
+      "title": "struct cudaDevWorkqueueConfigResource cudaDevResource::wqConfig",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Resource corresponding to cudaDevResourceTypeWorkqueueConfig type....",
+      "filename": "struct_cudadevworkqueueconfigresource_cudadevresourcewqconfig.md"
+    }
+  ]
+}

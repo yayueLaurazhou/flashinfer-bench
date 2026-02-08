@@ -1,0 +1,76 @@
+{
+  "description": "Documentation for 9.7.16.10. TensorCore 5th Generation Matrix Multiply and accumulate Operations",
+  "directories": [
+    {
+      "name": "9716104_packing_formats_of_elements_in_tensor_and_shared_memory",
+      "description": "Documentation for Packing Formats Of Elements In Tensor And Shared Memory."
+    },
+    {
+      "name": "9716105_data_path_layout_organization",
+      "description": "Different MMA variants access the tensor memory with different layout organization. The following table lists the various layouts:"
+    },
+    {
+      "name": "9716107_block_scaling_for_tcgen05mmasync",
+      "description": "The `tcgen05.mma` instructions with the following `.kind` qualifier:"
+    },
+    {
+      "name": "9716108_sparse_matrices",
+      "description": "This instruction `tcgen05.mma.sp` can be used when the matrix `A` is a structured sparse matrix with 50% zeros in each row distributed as per its sparse granularity."
+    },
+    {
+      "name": "9716109_tensorcore_5th_generation_of_mma_instructions",
+      "description": "Documentation for Tensorcore 5Th Generation Of Mma Instructions."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "The 5th generation of TensorCore operations of shape *MxNxK* perform matrix multiplication and accumulation of the form:"
+    },
+    {
+      "id": "9716101_transpose_and_negate_operations",
+      "title": "9.7.16.10.1. Transpose and Negate operations",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "The matrices `A` and `B` can be transposed by specifying the Tranpose `A` Matrix and Transpose `B` Matrix bits in the instruction descriptor respectively.",
+      "filename": "9716101_transpose_and_negate_operations.md"
+    },
+    {
+      "id": "9716102_matrix_layout_organization",
+      "title": "9.7.16.10.2. Matrix Layout Organization",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "[Table 53](https://docs.nvidia.com/cuda/parallel-thread-execution/#tcgen05-matrices-majorness) describes the major-ness used for different matrices.",
+      "filename": "9716102_matrix_layout_organization.md"
+    },
+    {
+      "id": "9716103_valid_combinations_of_type_size_major_ness_and_swizzling",
+      "title": "9.7.16.10.3. Valid Combinations of Type-Size, Major-ness and Swizzling",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "Table 54 Valid Combinations of Type-Size, Major-ness and Swizzling[\uf0c1](https://docs.nvidia.com/cuda/parallel-thread-execution/#tcgen05-matrices-valid-type-size-majorness-swizzle \"Permalink to this table\")",
+      "filename": "9716103_valid_combinations_of_type_size_major_ness_and_swizzling.md"
+    },
+    {
+      "id": "9716106_shared_memory_layout_and_swizzling",
+      "title": "9.7.16.10.6. Shared Memory Layout and Swizzling",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "If the bit `Transpose A Matrix` / `Transpose B Matrix` in the [Instruction descriptor](https://docs.nvidia.com/cuda/parallel-thread-execution/#tcgen05-instruction-descriptor) is 0, then *K-major* is used for matrix `A` / `B` respectively. If the bit `Transpose A Matrix` in the [Instruction descri...",
+      "filename": "9716106_shared_memory_layout_and_swizzling.md"
+    }
+  ]
+}

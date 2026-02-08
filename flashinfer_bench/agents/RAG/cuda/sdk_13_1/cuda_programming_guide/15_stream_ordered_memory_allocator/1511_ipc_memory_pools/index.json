@@ -1,0 +1,65 @@
+{
+  "description": "Documentation for 15.11. IPC Memory Pools",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "15111_creating_and_sharing_ipc_memory_pools",
+      "title": "15.11.1. Creating and Sharing IPC Memory Pools",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 15.11.1. Creating and Sharing IPC Memory Pools[\uf0c1](#creating-and-sharing-ipc-memory-pools \"Permalink to this headline\")  Sharing access to a pool involves retrieving an OS native handle to the pool...",
+      "filename": "15111_creating_and_sharing_ipc_memory_pools.md"
+    },
+    {
+      "id": "15112_set_access_in_the_importing_process",
+      "title": "15.11.2. Set Access in the Importing Process",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 15.11.2. Set Access in the Importing Process[\uf0c1](#set-access-in-the-importing-process \"Permalink to this headline\")  Imported memory pools are initially only accessible from their resident device. ...",
+      "filename": "15112_set_access_in_the_importing_process.md"
+    },
+    {
+      "id": "15113_creating_and_sharing_allocations_from_an_exported_pool",
+      "title": "15.11.3. Creating and Sharing Allocations from an Exported Pool",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 15.11.3. Creating and Sharing Allocations from an Exported Pool[\uf0c1](#creating-and-sharing-allocations-from-an-exported-pool \"Permalink to this headline\")  Once the pool has been shared, allocations...",
+      "filename": "15113_creating_and_sharing_allocations_from_an_exported_pool.md"
+    },
+    {
+      "id": "15114_ipc_export_pool_limitations",
+      "title": "15.11.4. IPC Export Pool Limitations",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 15.11.4. IPC Export Pool Limitations[\uf0c1](#ipc-export-pool-limitations \"Permalink to this headline\")  IPC pools currently do not support releasing physical blocks back to the OS. As a result the `cu...",
+      "filename": "15114_ipc_export_pool_limitations.md"
+    },
+    {
+      "id": "15115_ipc_import_pool_limitations",
+      "title": "15.11.5. IPC Import Pool Limitations",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 15.11.5. IPC Import Pool Limitations[\uf0c1](#ipc-import-pool-limitations \"Permalink to this headline\")  Allocating from an import pool is not allowed; specifically, import pools cannot be set current ...",
+      "filename": "15115_ipc_import_pool_limitations.md"
+    }
+  ]
+}

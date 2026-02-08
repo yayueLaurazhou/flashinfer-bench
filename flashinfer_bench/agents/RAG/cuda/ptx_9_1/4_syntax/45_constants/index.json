@@ -1,0 +1,75 @@
+{
+  "description": "Documentation for 4.5. Constants",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "PTX supports integer and floating-point constants and constant expressions. These constants may be used in data initialization and as operands to instructions. Type checking rules remain the same for integer, floating-point, and bit-size types. For predicate-type data and instructions, integer co..."
+    },
+    {
+      "id": "451_integer_constants",
+      "title": "4.5.1. Integer Constants",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "Integer constants are 64-bits in size and are either signed or unsigned, i.e., every integer constant has type `.s64` or `.u64`. The signed/unsigned nature of an integer constant is needed to correctly evaluate constant expressions containing operations such as division and ordered comparisons, w...",
+      "filename": "451_integer_constants.md"
+    },
+    {
+      "id": "452_floating_point_constants",
+      "title": "4.5.2. Floating-Point Constants",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "Floating-point constants are represented as 64-bit double-precision values, and all floating-point constant expressions are evaluated using 64-bit double precision arithmetic. The only exception is the 32-bit hex notation for expressing an exact single-precision floating-point value; such values ...",
+      "filename": "452_floating_point_constants.md"
+    },
+    {
+      "id": "453_predicate_constants",
+      "title": "4.5.3. Predicate Constants",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "In PTX, integer constants may be used as predicates. For predicate-type data initializers and instruction operands, integer constants are interpreted as in C, i.e., zero values are `False` and non-zero values are `True`.",
+      "filename": "453_predicate_constants.md"
+    },
+    {
+      "id": "454_constant_expressions",
+      "title": "4.5.4. Constant Expressions",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "In PTX, constant expressions are formed using operators as in C and are evaluated using rules similar to those in C, but simplified by restricting types and sizes, removing most casts, and defining full semantics to eliminate cases where expression evaluation in C is implementation dependent.",
+      "filename": "454_constant_expressions.md"
+    },
+    {
+      "id": "455_integer_constant_expression_evaluation",
+      "title": "4.5.5. Integer Constant Expression Evaluation",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "Integer constant expressions are evaluated at compile time according to a set of rules that determine the type (signed `.s64` versus unsigned `.u64`) of each sub-expression. These rules are based on the rules in C, but they\u2019ve been simplified to apply only to 64-bit integers, and behavior is full...",
+      "filename": "455_integer_constant_expression_evaluation.md"
+    },
+    {
+      "id": "456_summary_of_constant_expression_evaluation_rules",
+      "title": "4.5.6. Summary of Constant Expression Evaluation Rules",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "[Table 5](https://docs.nvidia.com/cuda/parallel-thread-execution/#summary-of-constant-expression-evaluation-rules-constant-expression-evaluation-rules) contains a summary of the constant expression evaluation rules.",
+      "filename": "456_summary_of_constant_expression_evaluation_rules.md"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "description": "Documentation for 20.8. Compute Capability 9.0",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "2081_architecture",
+      "title": "20.8.1. Architecture",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 20.8.1. Architecture[\uf0c1](#architecture-9-0 \"Permalink to this headline\")  A Streaming Multiprocessor (SM) consists of:  * 128 FP32 cores for single-precision arithmetic operations, * 64 FP64 cores ...",
+      "filename": "2081_architecture.md"
+    },
+    {
+      "id": "2082_global_memory",
+      "title": "20.8.2. Global Memory",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 20.8.2. Global Memory[\uf0c1](#global-memory-9-0 \"Permalink to this headline\")  Global memory behaves the same way as for devices of compute capability 5.x (See [Global Memory](#global-memory-5-x))....",
+      "filename": "2082_global_memory.md"
+    },
+    {
+      "id": "2083_shared_memory",
+      "title": "20.8.3. Shared Memory",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 20.8.3. Shared Memory[\uf0c1](#shared-memory-9-0 \"Permalink to this headline\")  Similar to the [NVIDIA Ampere GPU architecture](#architecture-8-x), the amount of the unified data cache reserved for sha...",
+      "filename": "2083_shared_memory.md"
+    },
+    {
+      "id": "2084_features_accelerating_specialized_computations",
+      "title": "20.8.4. Features Accelerating Specialized Computations",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 20.8.4. Features Accelerating Specialized Computations[\uf0c1](#features-accelerating-specialized-computations \"Permalink to this headline\")  The NVIDIA Hopper GPU architecture includes features to acc...",
+      "filename": "2084_features_accelerating_specialized_computations.md"
+    }
+  ]
+}

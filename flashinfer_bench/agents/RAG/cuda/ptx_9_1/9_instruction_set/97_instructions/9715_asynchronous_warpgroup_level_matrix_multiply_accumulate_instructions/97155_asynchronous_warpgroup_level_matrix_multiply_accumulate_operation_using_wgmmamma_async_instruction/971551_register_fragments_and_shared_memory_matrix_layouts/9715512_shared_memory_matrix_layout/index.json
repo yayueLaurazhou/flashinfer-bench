@@ -1,0 +1,30 @@
+{
+  "description": "Documentation for 9.7.15.5.1.2. Shared Memory Matrix Layout",
+  "directories": [
+    {
+      "name": "asynchronous_warpgroup_level_majorness_supported_by_strides",
+      "description": "There are two strides involved while accessing a matrix from shared memory:"
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "If the argument `imm-trans-a` / `imm-trans-b` of the instruction `wgmma.mma_async{.sp}` is 0, then *K-major* is used for matrix `A` / `B` respectively. If the value of argument `imm-trans-a` is 1 then *M-major* is used for matrix `A`. If the value of the argument `imm-trans-b` is 1, then *N-major..."
+    },
+    {
+      "id": "asynchronous_warpgroup_level_matrix_shared_memory_layout_matrix_descriptor",
+      "title": "asynchronous-warpgroup-level-matrix-shared-memory-layout-matrix-descriptor",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "Matrix descriptor specifies the properties of the matrix in shared memory that is a multiplicand in the matrix multiply and accumulate operation. It is a 64-bit value contained in a register with the following layout:",
+      "filename": "asynchronous_warpgroup_level_matrix_shared_memory_layout_matrix_descriptor.md"
+    }
+  ]
+}

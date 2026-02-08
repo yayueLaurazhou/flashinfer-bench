@@ -1,0 +1,416 @@
+{
+  "description": "Documentation for Chapter 7. Data Structures",
+  "directories": [
+    {
+      "name": "71_cu_dev_sm_resource_group_params_struct_reference",
+      "description": "Input data for splitting SMs..."
+    },
+    {
+      "name": "72_cuaccesspolicywindow_v1_struct_reference",
+      "description": "Specifies an access policy for a window, a contiguous extent of memory beginning at base_ptr and ending at base_ptr + num_bytes. num_bytes is limited by CU_DEVICE_ATTRIBUTE_MAX_ACCESS_POLICY_WINDOW_SI..."
+    },
+    {
+      "name": "73_cuarraymapinfo_v1_struct_reference",
+      "description": "Specifies the CUDA array or CUDA mipmapped array memory mapping information..."
+    },
+    {
+      "name": "74_cuasyncnotificationinfo_struct_reference",
+      "description": "Information passed to the user via the async notification callback..."
+    },
+    {
+      "name": "75_cucheckpointcheckpointargs_struct_reference",
+      "description": "CUDA checkpoint optional checkpoint arguments..."
+    },
+    {
+      "name": "76_cucheckpointgpupair_struct_reference",
+      "description": "CUDA checkpoint GPU UUID pairs for device remapping during restore..."
+    },
+    {
+      "name": "77_cucheckpointlockargs_struct_reference",
+      "description": "CUDA checkpoint optional lock arguments..."
+    },
+    {
+      "name": "78_cucheckpointrestoreargs_struct_reference",
+      "description": "CUDA checkpoint optional restore arguments..."
+    },
+    {
+      "name": "79_cucheckpointunlockargs_struct_reference",
+      "description": "CUDA checkpoint optional unlock arguments..."
+    },
+    {
+      "name": "712_cuda_array3d_descriptor_v2_struct_reference",
+      "description": "3D array descriptor..."
+    },
+    {
+      "name": "713_cuda_array_descriptor_v2_struct_reference",
+      "description": "Array descriptor..."
+    },
+    {
+      "name": "714_cuda_array_memory_requirements_struct_reference",
+      "description": "CUDA array memory requirements..."
+    },
+    {
+      "name": "715_cuda_array_sparse_properties_v1_struct_reference",
+      "description": "CUDA array sparse properties..."
+    },
+    {
+      "name": "718_cuda_child_graph_node_params_struct_reference",
+      "description": "Child graph node parameters..."
+    },
+    {
+      "name": "719_cuda_conditional_node_params_struct_reference",
+      "description": "Conditional node parameters   CUDA Driver API TRM-06703-001 _vRelease Version  |  681   Data Structures..."
+    },
+    {
+      "name": "720_cuda_event_record_node_params_struct_reference",
+      "description": "Event record node parameters..."
+    },
+    {
+      "name": "721_cuda_event_wait_node_params_struct_reference",
+      "description": "Event wait node parameters..."
+    },
+    {
+      "name": "722_cuda_ext_sem_signal_node_params_struct_reference",
+      "description": "Semaphore signal node parameters..."
+    },
+    {
+      "name": "723_cuda_ext_sem_signal_node_params_struct_reference",
+      "description": "Semaphore signal node parameters..."
+    },
+    {
+      "name": "724_cuda_ext_sem_wait_node_params_v_struct_reference",
+      "description": "Semaphore wait node parameters   CUDA Driver API TRM-06703-001 _vRelease Version  |  684   Data Structures..."
+    },
+    {
+      "name": "725_cuda_ext_sem_wait_node_params_v2_struct_reference",
+      "description": "Semaphore wait node parameters..."
+    },
+    {
+      "name": "726_cuda_external_memory_buffer_des_struct_reference",
+      "description": "External memory buffer descriptor..."
+    },
+    {
+      "name": "727_cuda_external_memory_handle_de_struct_reference",
+      "description": "External memory handle descriptor..."
+    },
+    {
+      "name": "728_cuda_external_memory_mipmapped_struct_reference",
+      "description": "External memory mipmap descriptor..."
+    },
+    {
+      "name": "729_cuda_external_semaphore_handle__struct_reference",
+      "description": "External semaphore handle descriptor..."
+    },
+    {
+      "name": "730_cuda_external_semaphore_signal_p_struct_reference",
+      "description": "External semaphore signal parameters..."
+    },
+    {
+      "name": "731_cuda_external_semaphore_wait_pa_struct_reference",
+      "description": "External semaphore wait parameters..."
+    },
+    {
+      "name": "732_cuda_graph_instantiate_params_struct_reference",
+      "description": "Graph instantiation parameters..."
+    },
+    {
+      "name": "733_cuda_host_node_params_v1_struct_reference",
+      "description": "Host node parameters..."
+    },
+    {
+      "name": "734_cuda_host_node_params_v2_struct_reference",
+      "description": "Host node parameters..."
+    },
+    {
+      "name": "735_cuda_kernel_node_params_v1_struct_reference",
+      "description": "GPU kernel node parameters   CUDA Driver API TRM-06703-001 _vRelease Version  |  693   Data Structures..."
+    },
+    {
+      "name": "736_cuda_kernel_node_params_v2_struct_reference",
+      "description": "GPU kernel node parameters..."
+    },
+    {
+      "name": "737_cuda_kernel_node_params_v3_struct_reference",
+      "description": "GPU kernel node parameters   CUDA Driver API TRM-06703-001 _vRelease Version  |  696   Data Structures..."
+    },
+    {
+      "name": "738_cuda_launch_params_v1_struct_reference",
+      "description": "Kernel launch parameters..."
+    },
+    {
+      "name": "739_cuda_mem_alloc_node_params_v1_struct_reference",
+      "description": "Memory allocation node parameters..."
+    },
+    {
+      "name": "740_cuda_mem_alloc_node_params_v2_struct_reference",
+      "description": "Memory allocation node parameters..."
+    },
+    {
+      "name": "741_cuda_mem_free_node_params_struct_reference",
+      "description": "Memory free node parameters..."
+    },
+    {
+      "name": "742_cuda_memcpy2d_v2_struct_reference",
+      "description": "2D memory copy parameters..."
+    },
+    {
+      "name": "743_cuda_memcpy3d_peer_v1_struct_reference",
+      "description": "3D memory cross-context copy parameters..."
+    },
+    {
+      "name": "744_cuda_memcpy3d_v2_struct_reference",
+      "description": "3D memory copy parameters   CUDA Driver API TRM-06703-001 _vRelease Version  |  705   Data Structures..."
+    },
+    {
+      "name": "745_cuda_memcpy_node_params_struct_reference",
+      "description": "Memcpy node parameters..."
+    },
+    {
+      "name": "746_cuda_memset_node_params_v1_struct_reference",
+      "description": "Memset node parameters..."
+    },
+    {
+      "name": "747_cuda_memset_node_params_v2_struct_reference",
+      "description": "Memset node parameters..."
+    },
+    {
+      "name": "749_cuda_resource_desc_v1_struct_reference",
+      "description": "CUDA Resource descriptor..."
+    },
+    {
+      "name": "750_cuda_resource_view_desc_v1_struct_reference",
+      "description": "Resource view descriptor..."
+    },
+    {
+      "name": "751_cuda_texture_desc_v1_struct_reference",
+      "description": "Texture descriptor..."
+    },
+    {
+      "name": "752_cudevprop_v1_struct_reference",
+      "description": "Legacy device properties..."
+    },
+    {
+      "name": "753_cudevresource_struct_reference",
+      "description": "A tagged union describing different resources identified by the type field. This structure should not be directly modified outside of the API that created it.   CUDA Driver API TRM-06703-001 _vRelease..."
+    },
+    {
+      "name": "754_cudevsmresource_struct_reference",
+      "description": "Data for SM-related resources All parameters in this structure are OUTPUT only. Do not write to any of the fields in this structure...."
+    },
+    {
+      "name": "755_cudevworkqueueconfigresource_struct_reference",
+      "description": "Data for workqueue configuration related resources..."
+    },
+    {
+      "name": "756_cudevworkqueueresource_struct_reference",
+      "description": "Handle to a pre-existing workqueue related resource..."
+    },
+    {
+      "name": "757_cueglframe_v1_struct_reference",
+      "description": "CUDA EGLFrame structure Descriptor - structure defining one frame of EGL.  Each frame may contain one or more planes depending on whether the surface * is Multiplanar or not...."
+    },
+    {
+      "name": "759_cuexecaffinitysmcount_v1_struct_reference",
+      "description": "Value for CU_EXEC_AFFINITY_TYPE_SM_COUNT..."
+    },
+    {
+      "name": "761_cugraphedgedata_struct_reference",
+      "description": "Optional annotation for edges in a CUDA graph. Note, all edges implicitly have annotations and default to a zero-initialized value if not specified. A zero-initialized struct indicates a standard full..."
+    },
+    {
+      "name": "762_cugraphexecupdateresultinfo_v1_struct_reference",
+      "description": "Result information returned by cuGraphExecUpdate..."
+    },
+    {
+      "name": "763_cugraphnodeparams_struct_reference",
+      "description": "Graph node parameters. See cuGraphAddNode...."
+    },
+    {
+      "name": "766_culaunchattribute_struct_reference",
+      "description": "Launch attribute..."
+    },
+    {
+      "name": "767_culaunchattributevalue_union_reference",
+      "description": "Launch attributes union; used as value field of CUlaunchAttribute..."
+    },
+    {
+      "name": "768_culaunchconfig_struct_reference",
+      "description": "CUDA extensible launch configuration..."
+    },
+    {
+      "name": "769_culaunchmemsyncdomainmap_struct_reference",
+      "description": "Memory Synchronization Domain map  See cudaLaunchMemSyncDomain.  By default, kernels are launched in domain 0. Kernel launched with CU_LAUNCH_MEM_SYNC_DOMAIN_REMOTE will have a different domain ID. Us..."
+    },
+    {
+      "name": "770_cumemaccessdesc_v1_struct_reference",
+      "description": "Memory access descriptor..."
+    },
+    {
+      "name": "771_cumemallocationprop_v1_struct_reference",
+      "description": "Specifies the allocation properties for a allocation...."
+    },
+    {
+      "name": "772_cumemcpy3doperand_v1_struct_reference",
+      "description": "Struct representing an operand for copy with cuMemcpy3DBatchAsync..."
+    },
+    {
+      "name": "773_cumemcpyattributes_v1_struct_reference",
+      "description": "Attributes specific to copies within a batch. For more details on usage see cuMemcpyBatchAsync...."
+    },
+    {
+      "name": "774_cumemdecompressparams_struct_reference",
+      "description": "Structure describing the parameters that compose a single decompression operation...."
+    },
+    {
+      "name": "776_cumemlocation_v1_struct_reference",
+      "description": "Specifies a memory location...."
+    },
+    {
+      "name": "777_cumempoolprops_v1_struct_reference",
+      "description": "Specifies the properties of allocations made from the pool...."
+    },
+    {
+      "name": "779_cumulticastobjectprop_v1_struct_reference",
+      "description": "Specifies the properties for a multicast object...."
+    },
+    {
+      "name": "781_custreambatchmemopparams_v1_union_reference",
+      "description": "Per-operation parameters for cuStreamBatchMemOp..."
+    },
+    {
+      "name": "717_difference_between_the_driver_and_runtime_apis",
+      "description": "The driver and runtime APIs are very similar and can for the most part be used interchangeably. However, there are some key differences worth noting between the two...."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "710_cuctxcigparam_struct_reference",
+      "title": "7.10. CUctxCigParam Struct Reference",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CIG Context Create Params...",
+      "filename": "710_cuctxcigparam_struct_reference.md"
+    },
+    {
+      "id": "711_cuctxcreateparams_struct_reference",
+      "title": "7.11. CUctxCreateParams Struct Reference",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Params for creating CUDA context Exactly one of execAffinityParams and cigParams must be nonNULL....",
+      "filename": "711_cuctxcreateparams_struct_reference.md"
+    },
+    {
+      "id": "716_cuda_batch_mem_op_node_params_v_struct_reference",
+      "title": "7.16. CUDA_BATCH_MEM_OP_NODE_PARAMS_v Struct Reference",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Batch memory operation node parameters  Used in the legacy cuGraphAddBatchMemOpNode api. New code should use cuGraphAddNode()...",
+      "filename": "716_cuda_batch_mem_op_node_params_v_struct_reference.md"
+    },
+    {
+      "id": "748_cuda_pointer_attribute_p2p_tokens_struct_reference",
+      "title": "7.48. CUDA_POINTER_ATTRIBUTE_P2P_TOKENS Struct Reference",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "GPU Direct v3 tokens...",
+      "filename": "748_cuda_pointer_attribute_p2p_tokens_struct_reference.md"
+    },
+    {
+      "id": "758_cuexecaffinityparam_v1_struct_reference",
+      "title": "7.58. CUexecAffinityParam_v1 Struct Reference",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Execution Affinity Parameters...",
+      "filename": "758_cuexecaffinityparam_v1_struct_reference.md"
+    },
+    {
+      "id": "760_cuextent3d_v1_struct_reference",
+      "title": "7.60. CUextent3D_v1 Struct Reference",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Struct representing width/height/depth of a CUarray in elements...",
+      "filename": "760_cuextent3d_v1_struct_reference.md"
+    },
+    {
+      "id": "764_cuipceventhandle_v1_struct_reference",
+      "title": "7.64. CUipcEventHandle_v1 Struct Reference",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA IPC event handle...",
+      "filename": "764_cuipceventhandle_v1_struct_reference.md"
+    },
+    {
+      "id": "765_cuipcmemhandle_v1_struct_reference",
+      "title": "7.65. CUipcMemHandle_v1 Struct Reference",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA IPC mem handle...",
+      "filename": "765_cuipcmemhandle_v1_struct_reference.md"
+    },
+    {
+      "id": "775_cumemfabrichandle_v1_struct_reference",
+      "title": "7.75. CUmemFabricHandle_v1 Struct Reference",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Fabric handle - An opaque handle representing a memory allocation that can be exported to processes in same or different nodes. For IPC between processes on different nodes they must be connected via ...",
+      "filename": "775_cumemfabrichandle_v1_struct_reference.md"
+    },
+    {
+      "id": "778_cumempoolptrexportdata_v1_struct_reference",
+      "title": "7.78. CUmemPoolPtrExportData_v1 Struct Reference",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Opaque data for exporting a pool allocation...",
+      "filename": "778_cumempoolptrexportdata_v1_struct_reference.md"
+    },
+    {
+      "id": "780_cuoffset3d_v1_struct_reference",
+      "title": "7.80. CUoffset3D_v1 Struct Reference",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Struct representing offset into a CUarray in elements...",
+      "filename": "780_cuoffset3d_v1_struct_reference.md"
+    },
+    {
+      "id": "782_cutensormap_struct_reference",
+      "title": "7.82. CUtensorMap Struct Reference",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Tensor map descriptor. Requires compiler support for aligning to 128 bytes....",
+      "filename": "782_cutensormap_struct_reference.md"
+    }
+  ]
+}

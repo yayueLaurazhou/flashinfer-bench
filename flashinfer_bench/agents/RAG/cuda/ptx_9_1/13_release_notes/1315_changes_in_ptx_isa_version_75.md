@@ -1,0 +1,21 @@
+# 13.15. Changes in PTX ISA Version 7.5
+
+## 13.15. [Changes in PTX ISA Version 7.5](https://docs.nvidia.com/cuda/parallel-thread-execution/#changes-in-ptx-isa-version-7-5)[](https://docs.nvidia.com/cuda/parallel-thread-execution/#changes-in-ptx-isa-version-7-5 "Permalink to this headline")
+
+New Features
+
+PTX ISA version 7.5 introduces the following new features:
+
+* Debug information enhancements to support label difference and negative values in the `.section`
+  debugging directive.
+* Support for `ignore-src` operand on `cp.async` instruction.
+* Extensions to the memory consistency model to introduce the following new concepts:
+
+  > + A *memory proxy* as an abstract label for different methods of memory access.
+  > + Virtual aliases as distinct memory addresses accessing the same physical memory location.
+* Support for new `fence.proxy` and `membar.proxy` instructions to allow synchronization of
+  memory accesses performed via virtual aliases.
+
+Semantic Changes and Clarifications
+
+None.

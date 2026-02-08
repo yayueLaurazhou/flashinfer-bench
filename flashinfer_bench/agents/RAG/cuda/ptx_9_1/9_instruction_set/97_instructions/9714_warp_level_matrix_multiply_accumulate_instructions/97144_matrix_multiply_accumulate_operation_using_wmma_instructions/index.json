@@ -1,0 +1,65 @@
+{
+  "description": "Documentation for 9.7.14.4. Matrix multiply-accumulate operation using wmma instructions",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "This section describes warp level `wmma.load, wmma.mma` and `wmma.store` instructions and the organization of various matrices invovled in these instruction."
+    },
+    {
+      "id": "971441_matrix_fragments_for_wmma",
+      "title": "9.7.14.4.1. Matrix Fragments for WMMA",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "Each thread in the warp holds a fragment of the matrix. The distribution of fragments loaded by the threads in a warp is unspecified and is target architecture dependent, and hence the identity of the fragment within the matrix is also unspecified and is target architecture dependent. The fragmen...",
+      "filename": "971441_matrix_fragments_for_wmma.md"
+    },
+    {
+      "id": "971442_matrix_storage_for_wmma",
+      "title": "9.7.14.4.2. Matrix Storage for WMMA",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "Each matrix can be stored in memory with a *row-major* or *column-major* layout. In a *row-major* format, consecutive elements of each row are stored in contiguous memory locations, and the row is called the *leading dimension* of the matrix. In a *column-major* format, consecutive elements of ea...",
+      "filename": "971442_matrix_storage_for_wmma.md"
+    },
+    {
+      "id": "971443_warp_level_matrix_load_instruction_wmmaload",
+      "title": "9.7.14.4.3. Warp-level Matrix Load Instruction: wmma.load",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`wmma.load`",
+      "filename": "971443_warp_level_matrix_load_instruction_wmmaload.md"
+    },
+    {
+      "id": "971444_warp_level_matrix_store_instruction_wmmastore",
+      "title": "9.7.14.4.4. Warp-level Matrix Store Instruction: wmma.store",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`wmma.store`",
+      "filename": "971444_warp_level_matrix_store_instruction_wmmastore.md"
+    },
+    {
+      "id": "971445_warp_level_matrix_multiply_and_accumulate_instruction_wmmamma",
+      "title": "9.7.14.4.5. Warp-level Matrix Multiply-and-Accumulate Instruction: wmma.mma",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`wmma.mma`",
+      "filename": "971445_warp_level_matrix_multiply_and_accumulate_instruction_wmmamma.md"
+    }
+  ]
+}

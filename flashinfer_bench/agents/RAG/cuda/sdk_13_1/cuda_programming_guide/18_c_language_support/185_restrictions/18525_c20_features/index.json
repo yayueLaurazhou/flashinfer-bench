@@ -1,0 +1,55 @@
+{
+  "description": "Documentation for 18.5.25. C++20 Features",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "185251_module_support",
+      "title": "18.5.25.1. Module support",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 18.5.25.1. Module support[\uf0c1](#module-support \"Permalink to this headline\")  Modules are not supported in CUDA C++, in either host or device code. Uses of the `module`, `export` and `import` keywo...",
+      "filename": "185251_module_support.md"
+    },
+    {
+      "id": "185252_coroutine_support",
+      "title": "18.5.25.2. Coroutine support",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 18.5.25.2. Coroutine support[\uf0c1](#coroutine-support \"Permalink to this headline\")  Coroutines are not supported in device code. Uses of the `co_await`, `co_yield` and `co_return` keywords in the s...",
+      "filename": "185252_coroutine_support.md"
+    },
+    {
+      "id": "185253_three_way_comparison_operator",
+      "title": "18.5.25.3. Three-way comparison operator",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 18.5.25.3. Three-way comparison operator[\uf0c1](#three-way-comparison-operator \"Permalink to this headline\")  The three-way comparison operator is supported in both host and device code, but some use...",
+      "filename": "185253_three_way_comparison_operator.md"
+    },
+    {
+      "id": "185254_consteval_functions",
+      "title": "18.5.25.4. Consteval functions",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 18.5.25.4. Consteval functions[\uf0c1](#consteval-functions \"Permalink to this headline\")  Ordinarily, cross execution space calls are not allowed, and cause a compiler diagnostic (warning or error). ...",
+      "filename": "185254_consteval_functions.md"
+    }
+  ]
+}

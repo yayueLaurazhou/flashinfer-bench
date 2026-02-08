@@ -1,0 +1,245 @@
+{
+  "description": "Documentation for 6.8. Context Management",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "curesult_cuctxcreate_cucontext_pctx_cuctxcreateparams_c_b1a5849e",
+      "title": "CUresult cuCtxCreate (CUcontext *pctx, CUctxCreateParams *ctxCreateParams, unsigned int flags, CUdevice dev)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Create a CUDA context....",
+      "filename": "curesult_cuctxcreate_cucontext_pctx_cuctxcreateparams_c_b1a5849e.md"
+    },
+    {
+      "id": "curesult_cuctxdestroy_cucontext_ctx",
+      "title": "CUresult cuCtxDestroy (CUcontext ctx)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Destroy a CUDA context....",
+      "filename": "curesult_cuctxdestroy_cucontext_ctx.md"
+    },
+    {
+      "id": "curesult_cuctxgetapiversion_cucontext_ctx_unsigned_int_version",
+      "title": "CUresult cuCtxGetApiVersion (CUcontext ctx, unsigned int *version)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Gets the context's API version....",
+      "filename": "curesult_cuctxgetapiversion_cucontext_ctx_unsigned_int_version.md"
+    },
+    {
+      "id": "curesult_cuctxgetcacheconfig_cufunc_cache_pconfig",
+      "title": "CUresult cuCtxGetCacheConfig (CUfunc_cache *pconfig)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the preferred cache configuration for the current context....",
+      "filename": "curesult_cuctxgetcacheconfig_cufunc_cache_pconfig.md"
+    },
+    {
+      "id": "curesult_cuctxgetcurrent_cucontext_pctx",
+      "title": "CUresult cuCtxGetCurrent (CUcontext *pctx)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the CUDA context bound to the calling CPU thread....",
+      "filename": "curesult_cuctxgetcurrent_cucontext_pctx.md"
+    },
+    {
+      "id": "curesult_cuctxgetdevice_cudevice_device",
+      "title": "CUresult cuCtxGetDevice (CUdevice *device)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the device handle for the current context....",
+      "filename": "curesult_cuctxgetdevice_cudevice_device.md"
+    },
+    {
+      "id": "curesult_cuctxgetdevice_v2_cudevice_device_cucontext_ctx",
+      "title": "CUresult cuCtxGetDevice_v2 (CUdevice *device, CUcontext ctx)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the device handle for the specified context....",
+      "filename": "curesult_cuctxgetdevice_v2_cudevice_device_cucontext_ctx.md"
+    },
+    {
+      "id": "curesult_cuctxgetexecaffinity_cuexecaffinityparam_pexec_c4b2fda4",
+      "title": "CUresult cuCtxGetExecAffinity (CUexecAffinityParam *pExecAffinity, CUexecAffinityType type)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the execution affinity setting for the current context....",
+      "filename": "curesult_cuctxgetexecaffinity_cuexecaffinityparam_pexec_c4b2fda4.md"
+    },
+    {
+      "id": "curesult_cuctxgetflags_unsigned_int_flags",
+      "title": "CUresult cuCtxGetFlags (unsigned int *flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the flags for the current context....",
+      "filename": "curesult_cuctxgetflags_unsigned_int_flags.md"
+    },
+    {
+      "id": "curesult_cuctxgetid_cucontext_ctx_unsigned_long_long_ctxid",
+      "title": "CUresult cuCtxGetId (CUcontext ctx, unsigned long long *ctxId)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the unique Id associated with the context supplied....",
+      "filename": "curesult_cuctxgetid_cucontext_ctx_unsigned_long_long_ctxid.md"
+    },
+    {
+      "id": "curesult_cuctxgetlimit_size_t_pvalue_culimit_limit",
+      "title": "CUresult cuCtxGetLimit (size_t *pvalue, CUlimit limit)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns resource limits....",
+      "filename": "curesult_cuctxgetlimit_size_t_pvalue_culimit_limit.md"
+    },
+    {
+      "id": "curesult_cuctxgetstreampriorityrange_int_leastpriority__6ed42a41",
+      "title": "CUresult cuCtxGetStreamPriorityRange (int *leastPriority, int *greatestPriority)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns numerical values that correspond to the least and greatest stream priorities....",
+      "filename": "curesult_cuctxgetstreampriorityrange_int_leastpriority__6ed42a41.md"
+    },
+    {
+      "id": "curesult_cuctxpopcurrent_cucontext_pctx",
+      "title": "CUresult cuCtxPopCurrent (CUcontext *pctx)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Pops the current CUDA context from the current CPU thread....",
+      "filename": "curesult_cuctxpopcurrent_cucontext_pctx.md"
+    },
+    {
+      "id": "curesult_cuctxpushcurrent_cucontext_ctx",
+      "title": "CUresult cuCtxPushCurrent (CUcontext ctx)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Pushes a context on the current CPU thread....",
+      "filename": "curesult_cuctxpushcurrent_cucontext_ctx.md"
+    },
+    {
+      "id": "curesult_cuctxrecordevent_cucontext_hctx_cuevent_hevent",
+      "title": "CUresult cuCtxRecordEvent (CUcontext hCtx, CUevent hEvent)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Records an event....",
+      "filename": "curesult_cuctxrecordevent_cucontext_hctx_cuevent_hevent.md"
+    },
+    {
+      "id": "curesult_cuctxresetpersistingl2cache_void",
+      "title": "CUresult cuCtxResetPersistingL2Cache (void)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Resets all persisting lines in cache to normal status....",
+      "filename": "curesult_cuctxresetpersistingl2cache_void.md"
+    },
+    {
+      "id": "curesult_cuctxsetcacheconfig_cufunc_cache_config",
+      "title": "CUresult cuCtxSetCacheConfig (CUfunc_cache config)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets the preferred cache configuration for the current context....",
+      "filename": "curesult_cuctxsetcacheconfig_cufunc_cache_config.md"
+    },
+    {
+      "id": "curesult_cuctxsetcurrent_cucontext_ctx",
+      "title": "CUresult cuCtxSetCurrent (CUcontext ctx)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Binds the specified CUDA context to the calling CPU thread....",
+      "filename": "curesult_cuctxsetcurrent_cucontext_ctx.md"
+    },
+    {
+      "id": "curesult_cuctxsetflags_unsigned_int_flags",
+      "title": "CUresult cuCtxSetFlags (unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets the flags for the current context....",
+      "filename": "curesult_cuctxsetflags_unsigned_int_flags.md"
+    },
+    {
+      "id": "curesult_cuctxsetlimit_culimit_limit_size_t_value",
+      "title": "CUresult cuCtxSetLimit (CUlimit limit, size_t value)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Set resource limits....",
+      "filename": "curesult_cuctxsetlimit_culimit_limit_size_t_value.md"
+    },
+    {
+      "id": "curesult_cuctxsynchronize_void",
+      "title": "CUresult cuCtxSynchronize (void)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Block for the current context's tasks to complete....",
+      "filename": "curesult_cuctxsynchronize_void.md"
+    },
+    {
+      "id": "curesult_cuctxsynchronize_v2_cucontext_ctx",
+      "title": "CUresult cuCtxSynchronize_v2 (CUcontext ctx)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Block for the specified context's tasks to complete....",
+      "filename": "curesult_cuctxsynchronize_v2_cucontext_ctx.md"
+    },
+    {
+      "id": "curesult_cuctxwaitevent_cucontext_hctx_cuevent_hevent",
+      "title": "CUresult cuCtxWaitEvent (CUcontext hCtx, CUevent hEvent)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Make a context wait on an event....",
+      "filename": "curesult_cuctxwaitevent_cucontext_hctx_cuevent_hevent.md"
+    }
+  ]
+}

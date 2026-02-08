@@ -1,0 +1,55 @@
+{
+  "description": "Documentation for 10.28.4. Pipeline Primitives Interface",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "102841_memcpy_async_primitive",
+      "title": "10.28.4.1. memcpy_async Primitive",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 10.28.4.1. `memcpy_async` Primitive[\uf0c1](#memcpy-async-primitive \"Permalink to this headline\")  ``` void __pipeline_memcpy_async(void* __restrict__ dst_shared,                              const vo...",
+      "filename": "102841_memcpy_async_primitive.md"
+    },
+    {
+      "id": "102842_commit_primitive",
+      "title": "10.28.4.2. Commit Primitive",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 10.28.4.2. Commit Primitive[\uf0c1](#commit-primitive \"Permalink to this headline\")  ``` void __pipeline_commit(); ```  * Commit submitted `memcpy_async` to the pipeline as the current batch....",
+      "filename": "102842_commit_primitive.md"
+    },
+    {
+      "id": "102843_wait_primitive",
+      "title": "10.28.4.3. Wait Primitive",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 10.28.4.3. Wait Primitive[\uf0c1](#wait-primitive \"Permalink to this headline\")  ``` void __pipeline_wait_prior(size_t N); ```  * Let `{0, 1, 2, ..., L}` be the sequence of indices associated with inv...",
+      "filename": "102843_wait_primitive.md"
+    },
+    {
+      "id": "102844_arrive_on_barrier_primitive",
+      "title": "10.28.4.4. Arrive On Barrier Primitive",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 10.28.4.4. Arrive On Barrier Primitive[\uf0c1](#arrive-on-barrier-primitive \"Permalink to this headline\")  ``` void __pipeline_arrive_on(__mbarrier_t* bar); ```  * `bar` points to a barrier in shared ...",
+      "filename": "102844_arrive_on_barrier_primitive.md"
+    }
+  ]
+}

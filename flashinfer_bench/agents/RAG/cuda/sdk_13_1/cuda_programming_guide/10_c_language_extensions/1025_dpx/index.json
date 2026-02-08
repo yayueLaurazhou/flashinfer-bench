@@ -1,0 +1,25 @@
+{
+  "description": "Documentation for 10.25. DPX",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "10251_examples",
+      "title": "10.25.1. Examples",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 10.25.1. Examples[\uf0c1](#dpx-example \"Permalink to this headline\")  Max value of three signed 32-bit integers, with ReLU  ``` const int a = -15; const int b = 8; const int c = 5; int max_value_0 = __...",
+      "filename": "10251_examples.md"
+    }
+  ]
+}

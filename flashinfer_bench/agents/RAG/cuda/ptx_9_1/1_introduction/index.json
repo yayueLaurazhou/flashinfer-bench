@@ -1,0 +1,55 @@
+{
+  "description": "Documentation for 1. Introduction",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "This document describes PTX, a low-level *parallel thread execution* virtual machine and instruction set architecture (ISA). PTX exposes the GPU as a data-parallel computing *device*."
+    },
+    {
+      "id": "11_scalable_data_parallel_computing_using_gpus",
+      "title": "1.1. Scalable Data-Parallel Computing using GPUs",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "Driven by the insatiable market demand for real-time, high-definition 3D graphics, the programmable GPU has evolved into a highly parallel, multithreaded, many-core processor with tremendous computational horsepower and very high memory bandwidth. The GPU is especially well-suited to address prob...",
+      "filename": "11_scalable_data_parallel_computing_using_gpus.md"
+    },
+    {
+      "id": "12_goals_of_ptx",
+      "title": "1.2. Goals of PTX",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "*PTX* provides a stable programming model and instruction set for general purpose parallel programming. It is designed to be efficient on NVIDIA GPUs supporting the computation features defined by the NVIDIA Tesla architecture. High level language compilers for languages such as CUDA and C/C++ ge...",
+      "filename": "12_goals_of_ptx.md"
+    },
+    {
+      "id": "13_ptx_isa_version_91",
+      "title": "1.3. PTX ISA Version 9.1",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "PTX ISA version 9.1 introduces the following new features:",
+      "filename": "13_ptx_isa_version_91.md"
+    },
+    {
+      "id": "14_document_structure",
+      "title": "1.4. Document Structure",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "The information in this document is organized into the following Chapters:",
+      "filename": "14_document_structure.md"
+    }
+  ]
+}

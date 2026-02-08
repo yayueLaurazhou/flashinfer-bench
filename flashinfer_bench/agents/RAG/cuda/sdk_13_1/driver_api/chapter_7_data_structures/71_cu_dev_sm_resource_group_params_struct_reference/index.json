@@ -1,0 +1,65 @@
+{
+  "description": "Documentation for 7.1. CU_DEV_SM_RESOURCE_GROUP_PARAMS Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "unsigned_int_cu_dev_sm_resource_group_paramscoscheduledsmco",
+      "title": "unsigned int CU_DEV_SM_RESOURCE_GROUP_PARAMS::coscheduledSmCo",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "The amount of co-scheduled SMs grouped together for locality purposes....",
+      "filename": "unsigned_int_cu_dev_sm_resource_group_paramscoscheduledsmco.md"
+    },
+    {
+      "id": "unsigned_int_cu_dev_sm_resource_group_paramsflags",
+      "title": "unsigned int CU_DEV_SM_RESOURCE_GROUP_PARAMS::flags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Combination of CUdevSmResourceGroup_flags values to indicate this this group is created....",
+      "filename": "unsigned_int_cu_dev_sm_resource_group_paramsflags.md"
+    },
+    {
+      "id": "unsigned_int_cu_dev_sm_resource_group_paramspreferredcoschedu",
+      "title": "unsigned int CU_DEV_SM_RESOURCE_GROUP_PARAMS::preferredCoschedu",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "When possible, combine co-scheduled groups together into larger groups of this size....",
+      "filename": "unsigned_int_cu_dev_sm_resource_group_paramspreferredcoschedu.md"
+    },
+    {
+      "id": "unsigned_int_cu_dev_sm_resource_group_paramsreserved",
+      "title": "unsigned int CU_DEV_SM_RESOURCE_GROUP_PARAMS::reserved",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Reserved for future use - ensure this is is zero initialized....",
+      "filename": "unsigned_int_cu_dev_sm_resource_group_paramsreserved.md"
+    },
+    {
+      "id": "unsigned_int_cu_dev_sm_resource_group_paramssmcount",
+      "title": "unsigned int CU_DEV_SM_RESOURCE_GROUP_PARAMS::smCount",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "The amount of SMs available in this resource.   CUDA Driver API TRM-06703-001 _vRelease Version  |  672   Data Structures...",
+      "filename": "unsigned_int_cu_dev_sm_resource_group_paramssmcount.md"
+    }
+  ]
+}

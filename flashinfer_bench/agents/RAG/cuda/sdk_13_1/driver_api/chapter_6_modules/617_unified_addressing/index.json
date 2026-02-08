@@ -1,0 +1,115 @@
+{
+  "description": "Documentation for 6.17. Unified Addressing",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "curesult_cumemadvise_cudeviceptr_devptr_size_t_count_cu_29ed0c57",
+      "title": "CUresult cuMemAdvise (CUdeviceptr devPtr, size_t count, CUmem_advise advice, CUmemLocation location)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Advise about the usage of a given memory range....",
+      "filename": "curesult_cumemadvise_cudeviceptr_devptr_size_t_count_cu_29ed0c57.md"
+    },
+    {
+      "id": "curesult_cumemdiscardandprefetchbatchasync_cudeviceptr__474c24a5",
+      "title": "CUresult cuMemDiscardAndPrefetchBatchAsync (CUdeviceptr *dptrs, size_t *sizes, size_t count, CUmemLocation *prefetchLocs, size_t *prefetchLocIdxs, size_t numPrefetchLocs, unsigned long long flags, CUstream hStream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Performs a batch of memory discards and prefetches asynchronously....",
+      "filename": "curesult_cumemdiscardandprefetchbatchasync_cudeviceptr__474c24a5.md"
+    },
+    {
+      "id": "curesult_cumemdiscardbatchasync_cudeviceptr_dptrs_size__94bca5c4",
+      "title": "CUresult cuMemDiscardBatchAsync (CUdeviceptr *dptrs, size_t *sizes, size_t count, unsigned long long flags, CUstream hStream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Performs a batch of memory discards asynchronously....",
+      "filename": "curesult_cumemdiscardbatchasync_cudeviceptr_dptrs_size__94bca5c4.md"
+    },
+    {
+      "id": "curesult_cumemprefetchasync_cudeviceptr_devptr_size_t_c_21fe5739",
+      "title": "CUresult cuMemPrefetchAsync (CUdeviceptr devPtr, size_t count, CUmemLocation location, unsigned int flags, CUstream hStream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Prefetches memory to the specified destination location....",
+      "filename": "curesult_cumemprefetchasync_cudeviceptr_devptr_size_t_c_21fe5739.md"
+    },
+    {
+      "id": "curesult_cumemprefetchbatchasync_cudeviceptr_dptrs_size_d3298f01",
+      "title": "CUresult cuMemPrefetchBatchAsync (CUdeviceptr *dptrs, size_t *sizes, size_t count, CUmemLocation *prefetchLocs, size_t *prefetchLocIdxs, size_t numPrefetchLocs, unsigned long long flags, CUstream hStream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Performs a batch of memory prefetches asynchronously....",
+      "filename": "curesult_cumemprefetchbatchasync_cudeviceptr_dptrs_size_d3298f01.md"
+    },
+    {
+      "id": "curesult_cumemrangegetattribute_void_data_size_t_datasi_c1cd9ed3",
+      "title": "CUresult cuMemRangeGetAttribute (void *data, size_t dataSize, CUmem_range_attribute attribute, CUdeviceptr devPtr, size_t count)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Query an attribute of a given memory range....",
+      "filename": "curesult_cumemrangegetattribute_void_data_size_t_datasi_c1cd9ed3.md"
+    },
+    {
+      "id": "curesult_cumemrangegetattributes_void_data_size_t_datas_be07cfd8",
+      "title": "CUresult cuMemRangeGetAttributes (void **data, size_t *dataSizes, CUmem_range_attribute *attributes, size_t numAttributes, CUdeviceptr devPtr, size_t count)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Query attributes of a given memory range....",
+      "filename": "curesult_cumemrangegetattributes_void_data_size_t_datas_be07cfd8.md"
+    },
+    {
+      "id": "curesult_cupointergetattribute_void_data_cupointer_attr_efd23cd6",
+      "title": "CUresult cuPointerGetAttribute (void *data, CUpointer_attribute attribute, CUdeviceptr ptr)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns information about a pointer....",
+      "filename": "curesult_cupointergetattribute_void_data_cupointer_attr_efd23cd6.md"
+    },
+    {
+      "id": "curesult_cupointergetattributes_unsigned_int_numattribu_73216c39",
+      "title": "CUresult cuPointerGetAttributes (unsigned int numAttributes, CUpointer_attribute *attributes, void **data, CUdeviceptr ptr)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns information about a pointer....",
+      "filename": "curesult_cupointergetattributes_unsigned_int_numattribu_73216c39.md"
+    },
+    {
+      "id": "curesult_cupointersetattribute_const_void_value_cupoint_07c04b8b",
+      "title": "CUresult cuPointerSetAttribute (const void *value, CUpointer_attribute attribute, CUdeviceptr ptr)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Set attributes on a previously allocated memory region....",
+      "filename": "curesult_cupointersetattribute_const_void_value_cupoint_07c04b8b.md"
+    }
+  ]
+}

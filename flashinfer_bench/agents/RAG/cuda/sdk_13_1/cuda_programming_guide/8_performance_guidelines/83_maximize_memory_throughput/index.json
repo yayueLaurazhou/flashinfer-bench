@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 8.3. Maximize Memory Throughput",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "831_data_transfer_between_host_and_device",
+      "title": "8.3.1. Data Transfer between Host and Device",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 8.3.1. Data Transfer between Host and Device[\uf0c1](#data-transfer-between-host-and-device \"Permalink to this headline\")  Applications should strive to minimize data transfer between the host and the ...",
+      "filename": "831_data_transfer_between_host_and_device.md"
+    },
+    {
+      "id": "832_device_memory_accesses",
+      "title": "8.3.2. Device Memory Accesses",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 8.3.2. Device Memory Accesses[\uf0c1](#device-memory-accesses \"Permalink to this headline\")  An instruction that accesses addressable memory (i.e., global, local, shared, constant, or texture memory) m...",
+      "filename": "832_device_memory_accesses.md"
+    }
+  ]
+}

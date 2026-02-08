@@ -1,0 +1,75 @@
+{
+  "description": "Documentation for 6.34. Coredump Attributes Control API",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "enum_cucoredumpgenerationflags",
+      "title": "enum CUCoredumpGenerationFlags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Flags for controlling coredump contents...",
+      "filename": "enum_cucoredumpgenerationflags.md"
+    },
+    {
+      "id": "enum_cucoredumpsettings",
+      "title": "enum CUcoredumpSettings",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Flags for choosing a coredump attribute to get/set...",
+      "filename": "enum_cucoredumpsettings.md"
+    },
+    {
+      "id": "curesult_cucoredumpgetattribute_cucoredumpsettings_attr_14a3e85a",
+      "title": "CUresult cuCoredumpGetAttribute (CUcoredumpSettings attrib, void *value, size_t *size)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Allows caller to fetch a coredump attribute value for the current context....",
+      "filename": "curesult_cucoredumpgetattribute_cucoredumpsettings_attr_14a3e85a.md"
+    },
+    {
+      "id": "curesult_cucoredumpgetattributeglobal_cucoredumpsetting_ff310387",
+      "title": "CUresult cuCoredumpGetAttributeGlobal (CUcoredumpSettings attrib, void *value, size_t *size)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Allows caller to fetch a coredump attribute value for the entire application....",
+      "filename": "curesult_cucoredumpgetattributeglobal_cucoredumpsetting_ff310387.md"
+    },
+    {
+      "id": "curesult_cucoredumpsetattribute_cucoredumpsettings_attr_efe71e80",
+      "title": "CUresult cuCoredumpSetAttribute (CUcoredumpSettings attrib, void *value, size_t *size)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Allows caller to set a coredump attribute value for the current context....",
+      "filename": "curesult_cucoredumpsetattribute_cucoredumpsettings_attr_efe71e80.md"
+    },
+    {
+      "id": "curesult_cucoredumpsetattributeglobal_cucoredumpsetting_79bb56a9",
+      "title": "CUresult cuCoredumpSetAttributeGlobal (CUcoredumpSettings attrib, void *value, size_t *size)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Allows caller to set a coredump attribute value globally....",
+      "filename": "curesult_cucoredumpsetattributeglobal_cucoredumpsetting_79bb56a9.md"
+    }
+  ]
+}

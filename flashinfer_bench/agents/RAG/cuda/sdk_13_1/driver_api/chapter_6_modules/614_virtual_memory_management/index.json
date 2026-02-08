@@ -1,0 +1,155 @@
+{
+  "description": "Documentation for 6.14. Virtual Memory Management",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "curesult_cumemaddressfree_cudeviceptr_ptr_size_t_size",
+      "title": "CUresult cuMemAddressFree (CUdeviceptr ptr, size_t size)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Free an address range reservation....",
+      "filename": "curesult_cumemaddressfree_cudeviceptr_ptr_size_t_size.md"
+    },
+    {
+      "id": "curesult_cumemaddressreserve_cudeviceptr_ptr_size_t_siz_50bb20aa",
+      "title": "CUresult cuMemAddressReserve (CUdeviceptr *ptr, size_t size, size_t alignment, CUdeviceptr addr, unsigned long long flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Allocate an address range reservation....",
+      "filename": "curesult_cumemaddressreserve_cudeviceptr_ptr_size_t_siz_50bb20aa.md"
+    },
+    {
+      "id": "curesult_cumemcreate_cumemgenericallocationhandle_handl_920dad84",
+      "title": "CUresult cuMemCreate (CUmemGenericAllocationHandle *handle, size_t size, const CUmemAllocationProp *prop, unsigned long long flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Create a CUDA memory handle representing a memory allocation of a given size described by the given properties....",
+      "filename": "curesult_cumemcreate_cumemgenericallocationhandle_handl_920dad84.md"
+    },
+    {
+      "id": "curesult_cumemexporttoshareablehandle_void_shareablehan_304efc00",
+      "title": "CUresult cuMemExportToShareableHandle (void *shareableHandle, CUmemGenericAllocationHandle handle, CUmemAllocationHandleType handleType, unsigned long long flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Exports an allocation to a requested shareable handle type....",
+      "filename": "curesult_cumemexporttoshareablehandle_void_shareablehan_304efc00.md"
+    },
+    {
+      "id": "curesult_cumemgetaccess_unsigned_long_long_flags_const__ed30a57d",
+      "title": "CUresult cuMemGetAccess (unsigned long long *flags, const CUmemLocation *location, CUdeviceptr ptr)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Get the access flags set for the given location and ptr....",
+      "filename": "curesult_cumemgetaccess_unsigned_long_long_flags_const__ed30a57d.md"
+    },
+    {
+      "id": "curesult_cumemgetallocationgranularity_size_t_granulari_878f36d7",
+      "title": "CUresult cuMemGetAllocationGranularity (size_t *granularity, const CUmemAllocationProp *prop, CUmemAllocationGranularity_flags option)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Calculates either the minimal or recommended granularity....",
+      "filename": "curesult_cumemgetallocationgranularity_size_t_granulari_878f36d7.md"
+    },
+    {
+      "id": "curesult_cumemgetallocationpropertiesfromhandle_cumemal_4c87319f",
+      "title": "CUresult cuMemGetAllocationPropertiesFromHandle (CUmemAllocationProp *prop, CUmemGenericAllocationHandle handle)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Retrieve the contents of the property structure defining properties for this handle....",
+      "filename": "curesult_cumemgetallocationpropertiesfromhandle_cumemal_4c87319f.md"
+    },
+    {
+      "id": "curesult_cumemimportfromshareablehandle_cumemgenericall_a094e0f9",
+      "title": "CUresult cuMemImportFromShareableHandle (CUmemGenericAllocationHandle *handle, void *osHandle, CUmemAllocationHandleType shHandleType)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Imports an allocation from a requested shareable handle type....",
+      "filename": "curesult_cumemimportfromshareablehandle_cumemgenericall_a094e0f9.md"
+    },
+    {
+      "id": "curesult_cumemmap_cudeviceptr_ptr_size_t_size_size_t_of_9560b0a8",
+      "title": "CUresult cuMemMap (CUdeviceptr ptr, size_t size, size_t offset, CUmemGenericAllocationHandle handle, unsigned long long flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Maps an allocation handle to a reserved virtual address range....",
+      "filename": "curesult_cumemmap_cudeviceptr_ptr_size_t_size_size_t_of_9560b0a8.md"
+    },
+    {
+      "id": "curesult_cumemmaparrayasync_cuarraymapinfo_mapinfolist__70933e9f",
+      "title": "CUresult cuMemMapArrayAsync (CUarrayMapInfo *mapInfoList, unsigned int count, CUstream hStream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Maps or unmaps subregions of sparse CUDA arrays and sparse CUDA mipmapped arrays....",
+      "filename": "curesult_cumemmaparrayasync_cuarraymapinfo_mapinfolist__70933e9f.md"
+    },
+    {
+      "id": "curesult_cumemrelease_cumemgenericallocationhandle_handle",
+      "title": "CUresult cuMemRelease (CUmemGenericAllocationHandle handle)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Release a memory handle representing a memory allocation which was previously allocated through cuMemCreate....",
+      "filename": "curesult_cumemrelease_cumemgenericallocationhandle_handle.md"
+    },
+    {
+      "id": "curesult_cumemretainallocationhandle_cumemgenericalloca_836c5835",
+      "title": "CUresult cuMemRetainAllocationHandle (CUmemGenericAllocationHandle *handle, void *addr)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Given an address addr, returns the allocation handle of the backing memory allocation....",
+      "filename": "curesult_cumemretainallocationhandle_cumemgenericalloca_836c5835.md"
+    },
+    {
+      "id": "curesult_cumemsetaccess_cudeviceptr_ptr_size_t_size_con_3bb56b8a",
+      "title": "CUresult cuMemSetAccess (CUdeviceptr ptr, size_t size, const CUmemAccessDesc *desc, size_t count)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Set the access flags for each location specified in desc for the given virtual address range....",
+      "filename": "curesult_cumemsetaccess_cudeviceptr_ptr_size_t_size_con_3bb56b8a.md"
+    },
+    {
+      "id": "curesult_cumemunmap_cudeviceptr_ptr_size_t_size",
+      "title": "CUresult cuMemUnmap (CUdeviceptr ptr, size_t size)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Unmap the backing memory of a given address range....",
+      "filename": "curesult_cumemunmap_cudeviceptr_ptr_size_t_size.md"
+    }
+  ]
+}

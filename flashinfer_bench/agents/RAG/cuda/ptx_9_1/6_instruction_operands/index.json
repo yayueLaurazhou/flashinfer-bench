@@ -1,0 +1,64 @@
+{
+  "description": "Documentation for 6. Instruction Operands",
+  "directories": [
+    {
+      "name": "64_using_addresses_arrays_and_vectors",
+      "description": "Using scalar variables as operands is straightforward. The interesting capabilities begin with addresses, arrays, and vectors."
+    },
+    {
+      "name": "65_type_conversion",
+      "description": "All operands to all arithmetic, logic, and data movement instruction must be of the same type and size, except for operations where changing the size and/or type is part of the definition of the instruction. Operands of different sizes or types must be converted prior to the operation."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "61_operand_type_information",
+      "title": "6.1. Operand Type Information",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "All operands in instructions have a known type from their declarations. Each operand type must be compatible with the type determined by the instruction template and instruction type. There is no automatic conversion between types.",
+      "filename": "61_operand_type_information.md"
+    },
+    {
+      "id": "62_source_operands",
+      "title": "6.2. Source Operands",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "The source operands are denoted in the instruction descriptions by the names `a`, `b`, and `c`. PTX describes a load-store machine, so operands for ALU instructions must all be in variables declared in the `.reg` register state space. For most operations, the sizes of the operands must be consist...",
+      "filename": "62_source_operands.md"
+    },
+    {
+      "id": "63_destination_operands",
+      "title": "6.3. Destination Operands",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "PTX instructions that produce a single result store the result in the field denoted by `d` (for destination) in the instruction descriptions. The result operand is a scalar or vector variable in the register state space.",
+      "filename": "63_destination_operands.md"
+    },
+    {
+      "id": "66_operand_costs",
+      "title": "6.6. Operand Costs",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "Operands from different state spaces affect the speed of an operation. Registers are fastest, while global memory is slowest. Much of the delay to memory can be hidden in a number of ways. The first is to have multiple threads of execution so that the hardware can issue a memory operation and the...",
+      "filename": "66_operand_costs.md"
+    }
+  ]
+}

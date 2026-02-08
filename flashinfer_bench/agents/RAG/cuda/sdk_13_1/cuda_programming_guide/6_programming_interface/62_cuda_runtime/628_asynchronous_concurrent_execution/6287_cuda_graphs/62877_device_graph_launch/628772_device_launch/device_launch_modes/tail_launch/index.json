@@ -1,0 +1,25 @@
+{
+  "description": "Documentation for tail-launch",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "tail_self_launch",
+      "title": "tail-self-launch",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "###### 6.2.8.7.7.2.1.3.1. Tail Self-launch[\uf0c1](#tail-self-launch \"Permalink to this headline\")  It is possible for a device graph to enqueue itself for a tail launch, although a given graph can only ha...",
+      "filename": "tail_self_launch.md"
+    }
+  ]
+}

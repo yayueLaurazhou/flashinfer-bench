@@ -1,0 +1,65 @@
+{
+  "description": "Documentation for 6.2.8.7.8. Conditional Graph Nodes",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "628781_conditional_handles",
+      "title": "6.2.8.7.8.1. Conditional Handles",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "###### 6.2.8.7.8.1. Conditional Handles[\uf0c1](#conditional-handles \"Permalink to this headline\")  A condition value is represented by `cudaGraphConditionalHandle` and is created by `cudaGraphConditionalH...",
+      "filename": "628781_conditional_handles.md"
+    },
+    {
+      "id": "628782_conditional_node_body_graph_requirements",
+      "title": "6.2.8.7.8.2. Conditional Node Body Graph Requirements",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "###### 6.2.8.7.8.2. Conditional Node Body Graph Requirements[\uf0c1](#conditional-node-body-graph-requirements \"Permalink to this headline\")  General requirements:  * The graph\u2019s nodes must all reside on a...",
+      "filename": "628782_conditional_node_body_graph_requirements.md"
+    },
+    {
+      "id": "628783_conditional_if_nodes",
+      "title": "6.2.8.7.8.3. Conditional IF Nodes",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "###### 6.2.8.7.8.3. Conditional IF Nodes[\uf0c1](#conditional-if-nodes \"Permalink to this headline\")  The body graph of an IF node will be executed once if the condition is non-zero when the node is execut...",
+      "filename": "628783_conditional_if_nodes.md"
+    },
+    {
+      "id": "628784_conditional_while_nodes",
+      "title": "6.2.8.7.8.4. Conditional WHILE Nodes",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "###### 6.2.8.7.8.4. Conditional WHILE Nodes[\uf0c1](#conditional-while-nodes \"Permalink to this headline\")  The body graph of a WHILE node will be executed as long as the condition is non-zero. The conditi...",
+      "filename": "628784_conditional_while_nodes.md"
+    },
+    {
+      "id": "628785_conditional_switch_nodes",
+      "title": "6.2.8.7.8.5. Conditional SWITCH Nodes",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "###### 6.2.8.7.8.5. Conditional SWITCH Nodes[\uf0c1](#conditional-switch-nodes \"Permalink to this headline\")  SWITCH nodes, added in CUDA 12.8, execute 1 of n different graphs within the conditional node. ...",
+      "filename": "628785_conditional_switch_nodes.md"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Documentation for 13.3. Programming Interface",
+  "directories": [
+    {
+      "name": "1331_cuda_c_reference",
+      "description": "### 13.3.1. CUDA C++ Reference[\uf0c1](#cuda-c-reference \"Permalink to this headline\")  This section describes changes and additions to the CUDA C++ language extensions for supporting *Dynamic Parallelism*..."
+    },
+    {
+      "name": "1332_device_side_launch_from_ptx",
+      "description": "### 13.3.2. Device-side Launch from PTX[\uf0c1](#device-side-launch-from-ptx \"Permalink to this headline\")  This section is for the programming language and compiler implementers who target *Parallel Threa..."
+    },
+    {
+      "name": "1333_toolkit_support_for_dynamic_parallelism",
+      "description": "### 13.3.3. Toolkit Support for Dynamic Parallelism[\uf0c1](#toolkit-support-for-dynamic-parallelism \"Permalink to this headline\")..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    }
+  ]
+}

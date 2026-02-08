@@ -1,0 +1,85 @@
+{
+  "description": "Documentation for 7.77. CUmemPoolProps_v1 Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "cumemallocationtype_cumempoolprops_v1alloctype",
+      "title": "CUmemAllocationType CUmemPoolProps_v1::allocType",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Allocation type. Currently must be specified as CU_MEM_ALLOCATION_TYPE_PINNED...",
+      "filename": "cumemallocationtype_cumempoolprops_v1alloctype.md"
+    },
+    {
+      "id": "cumemallocationhandletype_cumempoolprops_v1handletypes",
+      "title": "CUmemAllocationHandleType CUmemPoolProps_v1::handleTypes",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Handle types that will be supported by allocations from the pool....",
+      "filename": "cumemallocationhandletype_cumempoolprops_v1handletypes.md"
+    },
+    {
+      "id": "struct_cumemlocation_cumempoolprops_v1location",
+      "title": "struct CUmemLocation CUmemPoolProps_v1::location",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Location where allocations should reside.   CUDA Driver API TRM-06703-001 _vRelease Version  |  732   Data Structures...",
+      "filename": "struct_cumemlocation_cumempoolprops_v1location.md"
+    },
+    {
+      "id": "size_t_cumempoolprops_v1maxsize",
+      "title": "size_t CUmemPoolProps_v1::maxSize",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Maximum pool size. When set to 0, defaults to a system dependent value....",
+      "filename": "size_t_cumempoolprops_v1maxsize.md"
+    },
+    {
+      "id": "unsigned_char_cumempoolprops_v1reserved",
+      "title": "unsigned char CUmemPoolProps_v1::reserved",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "reserved for future use, must be 0...",
+      "filename": "unsigned_char_cumempoolprops_v1reserved.md"
+    },
+    {
+      "id": "unsigned_short_cumempoolprops_v1usage",
+      "title": "unsigned short CUmemPoolProps_v1::usage",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Bitmask indicating intended usage for the pool....",
+      "filename": "unsigned_short_cumempoolprops_v1usage.md"
+    },
+    {
+      "id": "void_cumempoolprops_v1win32securityattributes",
+      "title": "void *CUmemPoolProps_v1::win32SecurityAttributes",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Windows-specific LPSECURITYATTRIBUTES required when CU_MEM_HANDLE_TYPE_WIN32 is specified. This security attribute defines the scope of which exported allocations may be transferred to other processes...",
+      "filename": "void_cumempoolprops_v1win32securityattributes.md"
+    }
+  ]
+}

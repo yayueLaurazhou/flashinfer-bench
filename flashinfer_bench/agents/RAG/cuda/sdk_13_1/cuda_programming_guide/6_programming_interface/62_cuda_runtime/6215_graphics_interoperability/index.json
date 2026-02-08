@@ -1,0 +1,40 @@
+{
+  "description": "Documentation for 6.2.15. Graphics Interoperability",
+  "directories": [
+    {
+      "name": "62152_direct3d_interoperability",
+      "description": "#### 6.2.15.2. Direct3D Interoperability[\uf0c1](#direct3d-interoperability \"Permalink to this headline\")  Direct3D interoperability is supported for Direct3D 9Ex, Direct3D 10, and Direct3D 11.  A CUDA con..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "62151_opengl_interoperability",
+      "title": "6.2.15.1. OpenGL Interoperability",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 6.2.15.1. OpenGL Interoperability[\uf0c1](#opengl-interoperability \"Permalink to this headline\")  The OpenGL resources that may be mapped into the address space of CUDA are OpenGL buffer, texture, and...",
+      "filename": "62151_opengl_interoperability.md"
+    },
+    {
+      "id": "62153_sli_interoperability",
+      "title": "6.2.15.3. SLI Interoperability",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 6.2.15.3. SLI Interoperability[\uf0c1](#sli-interoperability \"Permalink to this headline\")  In a system with multiple GPUs, all CUDA-enabled GPUs are accessible via the CUDA driver and runtime as sepa...",
+      "filename": "62153_sli_interoperability.md"
+    }
+  ]
+}

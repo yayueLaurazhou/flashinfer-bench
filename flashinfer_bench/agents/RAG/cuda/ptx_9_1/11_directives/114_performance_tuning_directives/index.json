@@ -1,0 +1,105 @@
+{
+  "description": "Documentation for 11.4. Performance-Tuning Directives",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "To provide a mechanism for low-level performance tuning, PTX supports the following directives, which pass information to the optimizing backend compiler."
+    },
+    {
+      "id": "1141_performance_tuning_directives_maxnreg",
+      "title": "11.4.1. Performance-Tuning Directives: .maxnreg",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`.maxnreg`",
+      "filename": "1141_performance_tuning_directives_maxnreg.md"
+    },
+    {
+      "id": "1142_performance_tuning_directives_maxntid",
+      "title": "11.4.2. Performance-Tuning Directives: .maxntid",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`.maxntid`",
+      "filename": "1142_performance_tuning_directives_maxntid.md"
+    },
+    {
+      "id": "1143_performance_tuning_directives_reqntid",
+      "title": "11.4.3. Performance-Tuning Directives: .reqntid",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`.reqntid`",
+      "filename": "1143_performance_tuning_directives_reqntid.md"
+    },
+    {
+      "id": "1144_performance_tuning_directives_minnctapersm",
+      "title": "11.4.4. Performance-Tuning Directives: .minnctapersm",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`.minnctapersm`",
+      "filename": "1144_performance_tuning_directives_minnctapersm.md"
+    },
+    {
+      "id": "1145_performance_tuning_directives_maxnctapersm_deprecated",
+      "title": "11.4.5. Performance-Tuning Directives: .maxnctapersm (deprecated)",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`.maxnctapersm`",
+      "filename": "1145_performance_tuning_directives_maxnctapersm_deprecated.md"
+    },
+    {
+      "id": "1146_performance_tuning_directives_noreturn",
+      "title": "11.4.6. Performance-Tuning Directives: .noreturn",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`.noreturn`",
+      "filename": "1146_performance_tuning_directives_noreturn.md"
+    },
+    {
+      "id": "1147_performance_tuning_directives_pragma",
+      "title": "11.4.7. Performance-Tuning Directives: .pragma",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`.pragma`",
+      "filename": "1147_performance_tuning_directives_pragma.md"
+    },
+    {
+      "id": "1148_performance_tuning_directives_abi_preserve",
+      "title": "11.4.8. Performance-Tuning Directives: .abi_preserve",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`.abi_preserve`",
+      "filename": "1148_performance_tuning_directives_abi_preserve.md"
+    },
+    {
+      "id": "1149_performance_tuning_directives_abi_preserve_control",
+      "title": "11.4.9. Performance-Tuning Directives: .abi_preserve_control",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`.abi_preserve_control`",
+      "filename": "1149_performance_tuning_directives_abi_preserve_control.md"
+    }
+  ]
+}

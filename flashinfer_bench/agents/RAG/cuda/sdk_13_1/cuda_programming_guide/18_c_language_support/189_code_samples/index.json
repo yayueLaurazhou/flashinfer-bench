@@ -1,0 +1,65 @@
+{
+  "description": "Documentation for 18.9. Code Samples",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "1891_data_aggregation_class",
+      "title": "18.9.1. Data Aggregation Class",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 18.9.1. Data Aggregation Class[\uf0c1](#data-aggregation-class \"Permalink to this headline\")  ``` class PixelRGBA { public:     __device__ PixelRGBA(): r_(0), g_(0), b_(0), a_(0) { }      __device__ Pi...",
+      "filename": "1891_data_aggregation_class.md"
+    },
+    {
+      "id": "1892_derived_class",
+      "title": "18.9.2. Derived Class",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 18.9.2. Derived Class[\uf0c1](#derived-class \"Permalink to this headline\")  ``` __device__ void* operator new(size_t bytes, MemoryPool& p); __device__ void operator delete(void*, MemoryPool& p); class ...",
+      "filename": "1892_derived_class.md"
+    },
+    {
+      "id": "1893_class_template",
+      "title": "18.9.3. Class Template",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 18.9.3. Class Template[\uf0c1](#class-template \"Permalink to this headline\")  ``` template <class T> class myValues {     T values[MAX_VALUES]; public:     __device__ myValues(T clear) { ... }     __de...",
+      "filename": "1893_class_template.md"
+    },
+    {
+      "id": "1894_function_template",
+      "title": "18.9.4. Function Template",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 18.9.4. Function Template[\uf0c1](#function-template \"Permalink to this headline\")  ``` template <typename T> __device__ bool func(T x) {    ...    return (...); }  template <> __device__ bool func<int...",
+      "filename": "1894_function_template.md"
+    },
+    {
+      "id": "1895_functor_class",
+      "title": "18.9.5. Functor Class",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 18.9.5. Functor Class[\uf0c1](#functor-class \"Permalink to this headline\")  ``` class Add { public:     __device__  float operator() (float a, float b) const     {         return a + b;     } };  class...",
+      "filename": "1895_functor_class.md"
+    }
+  ]
+}

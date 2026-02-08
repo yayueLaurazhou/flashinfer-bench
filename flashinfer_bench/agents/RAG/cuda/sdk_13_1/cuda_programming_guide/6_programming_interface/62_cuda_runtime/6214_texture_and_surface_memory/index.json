@@ -1,0 +1,44 @@
+{
+  "description": "Documentation for 6.2.14. Texture and Surface Memory",
+  "directories": [
+    {
+      "name": "62141_texture_memory",
+      "description": "#### 6.2.14.1. Texture Memory[\uf0c1](#texture-memory \"Permalink to this headline\")  Texture memory is read from kernels using the device functions described in [Texture Functions](#texture-functions). The..."
+    },
+    {
+      "name": "62142_surface_memory",
+      "description": "#### 6.2.14.2. Surface Memory[\uf0c1](#surface-memory \"Permalink to this headline\")  For devices of compute capability 2.0 and higher, a CUDA array (described in [Cubemap Surfaces](#cubemap-surfaces)), cre..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "62143_cuda_arrays",
+      "title": "6.2.14.3. CUDA Arrays",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 6.2.14.3. CUDA Arrays[\uf0c1](#cuda-arrays \"Permalink to this headline\")  CUDA arrays are opaque memory layouts optimized for texture fetching. They are one dimensional, two dimensional, or three-dime...",
+      "filename": "62143_cuda_arrays.md"
+    },
+    {
+      "id": "62144_readwrite_coherency",
+      "title": "6.2.14.4. Read/Write Coherency",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 6.2.14.4. Read/Write Coherency[\uf0c1](#read-write-coherency \"Permalink to this headline\")  The texture and surface memory is cached (see [Device Memory Accesses](#device-memory-accesses)) and within ...",
+      "filename": "62144_readwrite_coherency.md"
+    }
+  ]
+}

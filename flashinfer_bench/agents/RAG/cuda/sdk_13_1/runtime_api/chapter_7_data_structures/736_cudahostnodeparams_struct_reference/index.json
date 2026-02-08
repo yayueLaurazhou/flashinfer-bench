@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 7.36. cudaHostNodeParams Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "cudahostfn_t_cudahostnodeparamsfn",
+      "title": "cudaHostFn_t cudaHostNodeParams::fn",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "The function to call when the node executes...",
+      "filename": "cudahostfn_t_cudahostnodeparamsfn.md"
+    },
+    {
+      "id": "void_cudahostnodeparamsuserdata",
+      "title": "void *cudaHostNodeParams::userData",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Argument to pass to the function...",
+      "filename": "void_cudahostnodeparamsuserdata.md"
+    }
+  ]
+}

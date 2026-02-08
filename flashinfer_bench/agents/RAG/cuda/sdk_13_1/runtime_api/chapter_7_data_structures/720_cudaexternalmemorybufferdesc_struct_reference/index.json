@@ -1,0 +1,55 @@
+{
+  "description": "Documentation for 7.20. cudaExternalMemoryBufferDesc Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "unsigned_int_cudaexternalmemorybufferdescflags",
+      "title": "unsigned int cudaExternalMemoryBufferDesc::flags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Flags reserved for future use. Must be zero....",
+      "filename": "unsigned_int_cudaexternalmemorybufferdescflags.md"
+    },
+    {
+      "id": "unsigned_long_long_cudaexternalmemorybufferdescoffset",
+      "title": "unsigned long long cudaExternalMemoryBufferDesc::offset",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Offset into the memory object where the buffer's base is...",
+      "filename": "unsigned_long_long_cudaexternalmemorybufferdescoffset.md"
+    },
+    {
+      "id": "unsigned_int_cudaexternalmemorybufferdescreserved",
+      "title": "unsigned int cudaExternalMemoryBufferDesc::reserved",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Must be zero   CUDA Runtime API vRelease Version  |  610   Data Structures...",
+      "filename": "unsigned_int_cudaexternalmemorybufferdescreserved.md"
+    },
+    {
+      "id": "unsigned_long_long_cudaexternalmemorybufferdescsize",
+      "title": "unsigned long long cudaExternalMemoryBufferDesc::size",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Size of the buffer...",
+      "filename": "unsigned_long_long_cudaexternalmemorybufferdescsize.md"
+    }
+  ]
+}

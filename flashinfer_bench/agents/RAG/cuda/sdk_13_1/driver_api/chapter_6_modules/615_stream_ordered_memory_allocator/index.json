@@ -1,0 +1,185 @@
+{
+  "description": "Documentation for 6.15. Stream Ordered Memory Allocator",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "curesult_cumemallocasync_cudeviceptr_dptr_size_t_bytesi_50b74506",
+      "title": "CUresult cuMemAllocAsync (CUdeviceptr *dptr, size_t bytesize, CUstream hStream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Allocates memory with stream ordered semantics....",
+      "filename": "curesult_cumemallocasync_cudeviceptr_dptr_size_t_bytesi_50b74506.md"
+    },
+    {
+      "id": "curesult_cumemallocfrompoolasync_cudeviceptr_dptr_size__0a0d342d",
+      "title": "CUresult cuMemAllocFromPoolAsync (CUdeviceptr *dptr, size_t bytesize, CUmemoryPool pool, CUstream hStream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Allocates memory from a specified pool with stream ordered semantics....",
+      "filename": "curesult_cumemallocfrompoolasync_cudeviceptr_dptr_size__0a0d342d.md"
+    },
+    {
+      "id": "curesult_cumemfreeasync_cudeviceptr_dptr_custream_hstream",
+      "title": "CUresult cuMemFreeAsync (CUdeviceptr dptr, CUstream hStream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Frees memory with stream ordered semantics....",
+      "filename": "curesult_cumemfreeasync_cudeviceptr_dptr_custream_hstream.md"
+    },
+    {
+      "id": "curesult_cumemgetdefaultmempool_cumemorypool_pool_out_c_9f70363d",
+      "title": "CUresult cuMemGetDefaultMemPool (CUmemoryPool *pool_out, CUmemLocation *location, CUmemAllocationType type)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the default memory pool for a given location and allocation type....",
+      "filename": "curesult_cumemgetdefaultmempool_cumemorypool_pool_out_c_9f70363d.md"
+    },
+    {
+      "id": "curesult_cumemgetmempool_cumemorypool_pool_cumemlocatio_44233125",
+      "title": "CUresult cuMemGetMemPool (CUmemoryPool *pool, CUmemLocation *location, CUmemAllocationType type)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Gets the current memory pool for a memory location and of a particular allocation type....",
+      "filename": "curesult_cumemgetmempool_cumemorypool_pool_cumemlocatio_44233125.md"
+    },
+    {
+      "id": "curesult_cumempoolcreate_cumemorypool_pool_const_cumemp_50634820",
+      "title": "CUresult cuMemPoolCreate (CUmemoryPool *pool, const CUmemPoolProps *poolProps)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Creates a memory pool....",
+      "filename": "curesult_cumempoolcreate_cumemorypool_pool_const_cumemp_50634820.md"
+    },
+    {
+      "id": "curesult_cumempooldestroy_cumemorypool_pool",
+      "title": "CUresult cuMemPoolDestroy (CUmemoryPool pool)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Destroys the specified memory pool....",
+      "filename": "curesult_cumempooldestroy_cumemorypool_pool.md"
+    },
+    {
+      "id": "curesult_cumempoolexportpointer_cumempoolptrexportdata__f36634e1",
+      "title": "CUresult cuMemPoolExportPointer (CUmemPoolPtrExportData *shareData_out, CUdeviceptr ptr)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Export data to share a memory pool allocation between processes....",
+      "filename": "curesult_cumempoolexportpointer_cumempoolptrexportdata__f36634e1.md"
+    },
+    {
+      "id": "curesult_cumempoolexporttoshareablehandle_void_handle_o_b88d0e44",
+      "title": "CUresult cuMemPoolExportToShareableHandle (void *handle_out, CUmemoryPool pool, CUmemAllocationHandleType handleType, unsigned long long flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Exports a memory pool to the requested handle type....",
+      "filename": "curesult_cumempoolexporttoshareablehandle_void_handle_o_b88d0e44.md"
+    },
+    {
+      "id": "curesult_cumempoolgetaccess_cumemaccess_flags_flags_cum_8bde4cfd",
+      "title": "CUresult cuMemPoolGetAccess (CUmemAccess_flags *flags, CUmemoryPool memPool, CUmemLocation *location)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the accessibility of a pool from a device....",
+      "filename": "curesult_cumempoolgetaccess_cumemaccess_flags_flags_cum_8bde4cfd.md"
+    },
+    {
+      "id": "curesult_cumempoolgetattribute_cumemorypool_pool_cumemp_bb330be3",
+      "title": "CUresult cuMemPoolGetAttribute (CUmemoryPool pool, CUmemPool_attribute attr, void *value)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Gets attributes of a memory pool....",
+      "filename": "curesult_cumempoolgetattribute_cumemorypool_pool_cumemp_bb330be3.md"
+    },
+    {
+      "id": "curesult_cumempoolimportfromshareablehandle_cumemorypoo_091efeac",
+      "title": "CUresult cuMemPoolImportFromShareableHandle (CUmemoryPool *pool_out, void *handle, CUmemAllocationHandleType handleType, unsigned long long flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "imports a memory pool from a shared handle....",
+      "filename": "curesult_cumempoolimportfromshareablehandle_cumemorypoo_091efeac.md"
+    },
+    {
+      "id": "curesult_cumempoolimportpointer_cudeviceptr_ptr_out_cum_5e0fa891",
+      "title": "CUresult cuMemPoolImportPointer (CUdeviceptr *ptr_out, CUmemoryPool pool, CUmemPoolPtrExportData *shareData)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Import a memory pool allocation from another process....",
+      "filename": "curesult_cumempoolimportpointer_cudeviceptr_ptr_out_cum_5e0fa891.md"
+    },
+    {
+      "id": "curesult_cumempoolsetaccess_cumemorypool_pool_const_cum_187b47c2",
+      "title": "CUresult cuMemPoolSetAccess (CUmemoryPool pool, const CUmemAccessDesc *map, size_t count)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Controls visibility of pools between devices....",
+      "filename": "curesult_cumempoolsetaccess_cumemorypool_pool_const_cum_187b47c2.md"
+    },
+    {
+      "id": "curesult_cumempoolsetattribute_cumemorypool_pool_cumemp_91d4af8c",
+      "title": "CUresult cuMemPoolSetAttribute (CUmemoryPool pool, CUmemPool_attribute attr, void *value)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets attributes of a memory pool....",
+      "filename": "curesult_cumempoolsetattribute_cumemorypool_pool_cumemp_91d4af8c.md"
+    },
+    {
+      "id": "curesult_cumempooltrimto_cumemorypool_pool_size_t_minbytestokeep",
+      "title": "CUresult cuMemPoolTrimTo (CUmemoryPool pool, size_t minBytesToKeep)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Tries to release memory back to the OS....",
+      "filename": "curesult_cumempooltrimto_cumemorypool_pool_size_t_minbytestokeep.md"
+    },
+    {
+      "id": "curesult_cumemsetmempool_cumemlocation_location_cumemal_0196a62b",
+      "title": "CUresult cuMemSetMemPool (CUmemLocation *location, CUmemAllocationType type, CUmemoryPool pool)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets the current memory pool for a memory location and allocation type....",
+      "filename": "curesult_cumemsetmempool_cumemlocation_location_cumemal_0196a62b.md"
+    }
+  ]
+}

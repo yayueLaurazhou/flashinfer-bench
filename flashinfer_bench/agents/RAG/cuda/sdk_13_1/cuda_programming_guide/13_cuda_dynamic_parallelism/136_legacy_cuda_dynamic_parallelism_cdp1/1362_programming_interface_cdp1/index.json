@@ -1,0 +1,28 @@
+{
+  "description": "Documentation for 13.6.2. Programming Interface (CDP1)",
+  "directories": [
+    {
+      "name": "13621_cuda_c_reference_cdp1",
+      "description": "#### 13.6.2.1. CUDA C++ Reference (CDP1)[\uf0c1](#cuda-c-reference-cdp1 \"Permalink to this headline\")  See [CUDA C++ Reference](#cuda-c-reference), above, for CDP2 version of document.  This section descri..."
+    },
+    {
+      "name": "13622_device_side_launch_from_ptx_cdp1",
+      "description": "#### 13.6.2.2. Device-side Launch from PTX (CDP1)[\uf0c1](#device-side-launch-from-ptx-cdp1 \"Permalink to this headline\")  See [Device-side Launch from PTX](#device-side-launch-from-ptx-cdp2), above, for C..."
+    },
+    {
+      "name": "13623_toolkit_support_for_dynamic_parallelism_cdp1",
+      "description": "#### 13.6.2.3. Toolkit Support for Dynamic Parallelism (CDP1)[\uf0c1](#toolkit-support-for-dynamic-parallelism-cdp1 \"Permalink to this headline\")  See [Toolkit Support for Dynamic Parallelism](#toolkit-sup..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    }
+  ]
+}

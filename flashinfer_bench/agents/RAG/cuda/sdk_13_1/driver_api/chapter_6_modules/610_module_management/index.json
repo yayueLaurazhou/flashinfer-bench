@@ -1,0 +1,175 @@
+{
+  "description": "Documentation for 6.10. Module Management",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "enum_cumoduleloadingmode",
+      "title": "enum CUmoduleLoadingMode",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA Lazy Loading status...",
+      "filename": "enum_cumoduleloadingmode.md"
+    },
+    {
+      "id": "curesult_culinkadddata_culinkstate_state_cujitinputtype_31f494a5",
+      "title": "CUresult cuLinkAddData (CUlinkState state, CUjitInputType type, void *data, size_t size, const char *name, unsigned int numOptions, CUjit_option *options, void **optionValues)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Add an input to a pending linker invocation....",
+      "filename": "curesult_culinkadddata_culinkstate_state_cujitinputtype_31f494a5.md"
+    },
+    {
+      "id": "curesult_culinkaddfile_culinkstate_state_cujitinputtype_153a00bf",
+      "title": "CUresult cuLinkAddFile (CUlinkState state, CUjitInputType type, const char *path, unsigned int numOptions, CUjit_option *options, void **optionValues)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Add a file input to a pending linker invocation....",
+      "filename": "curesult_culinkaddfile_culinkstate_state_cujitinputtype_153a00bf.md"
+    },
+    {
+      "id": "curesult_culinkcomplete_culinkstate_state_void_cubinout_870089bb",
+      "title": "CUresult cuLinkComplete (CUlinkState state, void **cubinOut, size_t *sizeOut)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Complete a pending linker invocation....",
+      "filename": "curesult_culinkcomplete_culinkstate_state_void_cubinout_870089bb.md"
+    },
+    {
+      "id": "curesult_culinkcreate_unsigned_int_numoptions_cujit_opt_11fa2770",
+      "title": "CUresult cuLinkCreate (unsigned int numOptions, CUjit_option *options, void **optionValues, CUlinkState *stateOut)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Creates a pending JIT linker invocation....",
+      "filename": "curesult_culinkcreate_unsigned_int_numoptions_cujit_opt_11fa2770.md"
+    },
+    {
+      "id": "curesult_culinkdestroy_culinkstate_state",
+      "title": "CUresult cuLinkDestroy (CUlinkState state)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Destroys state for a JIT linker invocation....",
+      "filename": "curesult_culinkdestroy_culinkstate_state.md"
+    },
+    {
+      "id": "curesult_cumoduleenumeratefunctions_cufunction_function_b5d4b980",
+      "title": "CUresult cuModuleEnumerateFunctions (CUfunction *functions, unsigned int numFunctions, CUmodule mod)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the function handles within a module....",
+      "filename": "curesult_cumoduleenumeratefunctions_cufunction_function_b5d4b980.md"
+    },
+    {
+      "id": "curesult_cumodulegetfunction_cufunction_hfunc_cumodule__2676e8e1",
+      "title": "CUresult cuModuleGetFunction (CUfunction *hfunc, CUmodule hmod, const char *name)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns a function handle....",
+      "filename": "curesult_cumodulegetfunction_cufunction_hfunc_cumodule__2676e8e1.md"
+    },
+    {
+      "id": "curesult_cumodulegetfunctioncount_unsigned_int_count_cu_ade05453",
+      "title": "CUresult cuModuleGetFunctionCount (unsigned int *count, CUmodule mod)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the number of functions within a module....",
+      "filename": "curesult_cumodulegetfunctioncount_unsigned_int_count_cu_ade05453.md"
+    },
+    {
+      "id": "curesult_cumodulegetglobal_cudeviceptr_dptr_size_t_byte_e56dcb45",
+      "title": "CUresult cuModuleGetGlobal (CUdeviceptr *dptr, size_t *bytes, CUmodule hmod, const char *name)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns a global pointer from a module....",
+      "filename": "curesult_cumodulegetglobal_cudeviceptr_dptr_size_t_byte_e56dcb45.md"
+    },
+    {
+      "id": "curesult_cumodulegetloadingmode_cumoduleloadingmode_mode",
+      "title": "CUresult cuModuleGetLoadingMode (CUmoduleLoadingMode *mode)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Query lazy loading mode....",
+      "filename": "curesult_cumodulegetloadingmode_cumoduleloadingmode_mode.md"
+    },
+    {
+      "id": "curesult_cumoduleload_cumodule_module_const_char_fname",
+      "title": "CUresult cuModuleLoad (CUmodule *module, const char *fname)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Loads a compute module....",
+      "filename": "curesult_cumoduleload_cumodule_module_const_char_fname.md"
+    },
+    {
+      "id": "curesult_cumoduleloaddata_cumodule_module_const_void_image",
+      "title": "CUresult cuModuleLoadData (CUmodule *module, const void *image)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Load a module's data....",
+      "filename": "curesult_cumoduleloaddata_cumodule_module_const_void_image.md"
+    },
+    {
+      "id": "curesult_cumoduleloaddataex_cumodule_module_const_void__c60dd38b",
+      "title": "CUresult cuModuleLoadDataEx (CUmodule *module, const void *image, unsigned int numOptions, CUjit_option *options, void **optionValues)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Load a module's data with options....",
+      "filename": "curesult_cumoduleloaddataex_cumodule_module_const_void__c60dd38b.md"
+    },
+    {
+      "id": "curesult_cumoduleloadfatbinary_cumodule_module_const_vo_bb87fe71",
+      "title": "CUresult cuModuleLoadFatBinary (CUmodule *module, const void *fatCubin)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Load a module's data....",
+      "filename": "curesult_cumoduleloadfatbinary_cumodule_module_const_vo_bb87fe71.md"
+    },
+    {
+      "id": "curesult_cumoduleunload_cumodule_hmod",
+      "title": "CUresult cuModuleUnload (CUmodule hmod)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Unloads a module....",
+      "filename": "curesult_cumoduleunload_cumodule_hmod.md"
+    }
+  ]
+}

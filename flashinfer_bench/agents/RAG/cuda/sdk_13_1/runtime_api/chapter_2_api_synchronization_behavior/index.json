@@ -1,0 +1,45 @@
+{
+  "description": "Documentation for Chapter 2. API synchronization behavior",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "memcpy",
+      "title": "Memcpy",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "In the reference documentation, each memcpy function is categorized as synchronous or asynchronous, corresponding to the definitions below.  Synchronous  1. For transfers from pageable host memory to ...",
+      "filename": "memcpy.md"
+    },
+    {
+      "id": "memset",
+      "title": "Memset",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "The cudaMemset functions are asynchronous with respect to the host except when the target memory is pinned host memory. The Async versions are always asynchronous with respect to the host....",
+      "filename": "memset.md"
+    },
+    {
+      "id": "kernel_launches",
+      "title": "Kernel Launches",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Kernel launches are asynchronous with respect to the host. Details of concurrent kernel execution and data transfers can be found in the CUDA Programmers Guide.   CUDA Runtime API vRelease Version  | ...",
+      "filename": "kernel_launches.md"
+    }
+  ]
+}

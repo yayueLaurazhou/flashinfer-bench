@@ -1,0 +1,145 @@
+{
+  "description": "Documentation for 6.7. Execution Control",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "__host____device__cudaerror_t_cudafuncgetattributes_cud_e40abb5a",
+      "title": "__host____device__cudaError_t cudaFuncGetAttributes (cudaFuncAttributes *attr, const void *func)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Find out attributes for a given function....",
+      "filename": "__host____device__cudaerror_t_cudafuncgetattributes_cud_e40abb5a.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudafuncgetname_const_char_name_con_be836449",
+      "title": "__host__cudaError_t cudaFuncGetName (const char **name, const void *func)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the function name for a device entry function pointer....",
+      "filename": "__host__cudaerror_t_cudafuncgetname_const_char_name_con_be836449.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudafuncgetparaminfo_const_void_fun_0024f921",
+      "title": "__host__cudaError_t cudaFuncGetParamInfo (const void *func, size_t paramIndex, size_t *paramOffset, size_t *paramSize)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the offset and size of a kernel parameter in the device-side parameter layout....",
+      "filename": "__host__cudaerror_t_cudafuncgetparaminfo_const_void_fun_0024f921.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudafuncsetattribute_const_void_fun_0e640356",
+      "title": "__host__cudaError_t cudaFuncSetAttribute (const void *func, cudaFuncAttribute attr, int value)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Set attributes for a given function....",
+      "filename": "__host__cudaerror_t_cudafuncsetattribute_const_void_fun_0e640356.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudafuncsetcacheconfig_const_void_f_3ccf7387",
+      "title": "__host__cudaError_t cudaFuncSetCacheConfig (const void *func, cudaFuncCache cacheConfig)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets the preferred cache configuration for a device function....",
+      "filename": "__host__cudaerror_t_cudafuncsetcacheconfig_const_void_f_3ccf7387.md"
+    },
+    {
+      "id": "__device___void_cudagetparameterbuffer_size_t_alignment_25199c01",
+      "title": "__device__ void *cudaGetParameterBuffer (size_t alignment, size_t size)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Obtains a parameter buffer....",
+      "filename": "__device___void_cudagetparameterbuffer_size_t_alignment_25199c01.md"
+    },
+    {
+      "id": "__device___void_cudagriddependencysynchronize_void",
+      "title": "__device__ void cudaGridDependencySynchronize (void)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Programmatic grid dependency synchronization....",
+      "filename": "__device___void_cudagriddependencysynchronize_void.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudalaunchcooperativekernel_const_v_5dc8abed",
+      "title": "__host__cudaError_t cudaLaunchCooperativeKernel (const void *func, dim3 gridDim, dim3 blockDim, void **args, size_t sharedMem, cudaStream_t stream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Launches a device function where thread blocks can cooperate and synchronize as they execute....",
+      "filename": "__host__cudaerror_t_cudalaunchcooperativekernel_const_v_5dc8abed.md"
+    },
+    {
+      "id": "__device__cudaerror_t_cudalaunchdevice_void_func_void_p_e220a67d",
+      "title": "__device__cudaError_t cudaLaunchDevice (void *func, void *parameterBuffer, dim3 gridDimension, dim3 blockDimension, unsigned int sharedMemSize, cudaStream_t stream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Launches a specified kernel....",
+      "filename": "__device__cudaerror_t_cudalaunchdevice_void_func_void_p_e220a67d.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudalaunchhostfunc_cudastream_t_str_e9de9827",
+      "title": "__host__cudaError_t cudaLaunchHostFunc (cudaStream_t stream, cudaHostFn_t fn, void *userData)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Enqueues a host function call in a stream....",
+      "filename": "__host__cudaerror_t_cudalaunchhostfunc_cudastream_t_str_e9de9827.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudalaunchkernel_const_void_func_di_bd8d5e7c",
+      "title": "__host__cudaError_t cudaLaunchKernel (const void *func, dim3 gridDim, dim3 blockDim, void **args, size_t sharedMem, cudaStream_t stream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Launches a device function....",
+      "filename": "__host__cudaerror_t_cudalaunchkernel_const_void_func_di_bd8d5e7c.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudalaunchkernelexc_const_cudalaunc_6d629dd1",
+      "title": "__host__cudaError_t cudaLaunchKernelExC (const cudaLaunchConfig_t *config, const void *func, void **args)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Launches a CUDA function with launch-time configuration....",
+      "filename": "__host__cudaerror_t_cudalaunchkernelexc_const_cudalaunc_6d629dd1.md"
+    },
+    {
+      "id": "__device___void_cudatriggerprogrammaticlaunchcompletion_void",
+      "title": "__device__ void cudaTriggerProgrammaticLaunchCompletion (void)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Programmatic dependency trigger....",
+      "filename": "__device___void_cudatriggerprogrammaticlaunchcompletion_void.md"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "description": "Documentation for 7.23. cudaExternalSemaphoreHandleDesc Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "int_cudaexternalsemaphorehandledescfd",
+      "title": "int cudaExternalSemaphoreHandleDesc::fd",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "File descriptor referencing the semaphore object. Valid when type is one of the following:  cudaExternalSemaphoreHandleTypeOpaqueFd...",
+      "filename": "int_cudaexternalsemaphorehandledescfd.md"
+    },
+    {
+      "id": "unsigned_int_cudaexternalsemaphorehandledescflags",
+      "title": "unsigned int cudaExternalSemaphoreHandleDesc::flags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Flags reserved for the future. Must be zero....",
+      "filename": "unsigned_int_cudaexternalsemaphorehandledescflags.md"
+    },
+    {
+      "id": "void_cudaexternalsemaphorehandledeschandle",
+      "title": "void *cudaExternalSemaphoreHandleDesc::handle",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Valid NT handle. Must be NULL if 'name' is non-NULL...",
+      "filename": "void_cudaexternalsemaphorehandledeschandle.md"
+    },
+    {
+      "id": "const_void_cudaexternalsemaphorehandledescname",
+      "title": "const void *cudaExternalSemaphoreHandleDesc::name",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Name of a valid synchronization primitive. Must be NULL if 'handle' is non-NULL.   CUDA Runtime API vRelease Version  |  613   Data Structures...",
+      "filename": "const_void_cudaexternalsemaphorehandledescname.md"
+    },
+    {
+      "id": "const_void_cudaexternalsemaphorehandledescnvscisyncobj",
+      "title": "const void *cudaExternalSemaphoreHandleDesc::nvSciSyncObj",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Valid NvSciSyncObj. Must be non NULL...",
+      "filename": "const_void_cudaexternalsemaphorehandledescnvscisyncobj.md"
+    },
+    {
+      "id": "unsigned_int_cudaexternalsemaphorehandledescreserved",
+      "title": "unsigned int cudaExternalSemaphoreHandleDesc::reserved",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Must be zero...",
+      "filename": "unsigned_int_cudaexternalsemaphorehandledescreserved.md"
+    },
+    {
+      "id": "enumcudaexternalsemaphorehandletype_cudaexternalsemapho_9809e3f1",
+      "title": "enumcudaExternalSemaphoreHandleType cudaExternalSemaphoreHandleDesc::type",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Type of the handle...",
+      "filename": "enumcudaexternalsemaphorehandletype_cudaexternalsemapho_9809e3f1.md"
+    },
+    {
+      "id": "cudaexternalsemaphorehandledesc1314_cudaexternalsemapho_93ced088",
+      "title": "cudaExternalSemaphoreHandleDesc::@13::@14 cudaExternalSemaphoreHandleDesc::win32",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Win32 handle referencing the semaphore object. Valid when type is one of the following:  cudaExternalSemaphoreHandleTypeOpaqueWin32...",
+      "filename": "cudaexternalsemaphorehandledesc1314_cudaexternalsemapho_93ced088.md"
+    }
+  ]
+}

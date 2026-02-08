@@ -1,0 +1,100 @@
+{
+  "description": "Documentation for 18.5.10. Functions",
+  "directories": [
+    {
+      "name": "185103_function_parameters",
+      "description": "#### 18.5.10.3. Function Parameters[\uf0c1](#function-parameters \"Permalink to this headline\")  `__global__` function parameters are passed to the device via constant memory and are limited to 32,764 bytes..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "185101_external_linkage",
+      "title": "18.5.10.1. External Linkage",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 18.5.10.1. External Linkage[\uf0c1](#external-linkage \"Permalink to this headline\")  A call within some device code of a function declared with the extern qualifier is only allowed if the function is ...",
+      "filename": "185101_external_linkage.md"
+    },
+    {
+      "id": "185102_implicitly_declared_and_non_virtual_explicitly_defaulted_functions",
+      "title": "18.5.10.2. Implicitly-declared and non-virtual explicitly-defaulted functions",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 18.5.10.2. Implicitly-declared and non-virtual explicitly-defaulted functions[\uf0c1](#implicitly-declared-and-non-virtual-explicitly-defaulted-functions \"Permalink to this headline\")  Let `F` denote ...",
+      "filename": "185102_implicitly_declared_and_non_virtual_explicitly_defaulted_functions.md"
+    },
+    {
+      "id": "185104_static_variables_within_function",
+      "title": "18.5.10.4. Static Variables within Function",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 18.5.10.4. Static Variables within Function[\uf0c1](#static-variables-within-function \"Permalink to this headline\")  Variable memory space specifiers are allowed in the declaration of a static variabl...",
+      "filename": "185104_static_variables_within_function.md"
+    },
+    {
+      "id": "185105_function_pointers",
+      "title": "18.5.10.5. Function Pointers",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 18.5.10.5. Function Pointers[\uf0c1](#function-pointers \"Permalink to this headline\")  The address of a `__global__` function taken in host code cannot be used in device code (e.g. to launch the kerne...",
+      "filename": "185105_function_pointers.md"
+    },
+    {
+      "id": "185106_function_recursion",
+      "title": "18.5.10.6. Function Recursion",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 18.5.10.6. Function Recursion[\uf0c1](#function-recursion \"Permalink to this headline\")  `__global__` functions do not support recursion....",
+      "filename": "185106_function_recursion.md"
+    },
+    {
+      "id": "185107_friend_functions",
+      "title": "18.5.10.7. Friend Functions",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 18.5.10.7. Friend Functions[\uf0c1](#friend-functions \"Permalink to this headline\")  A `__global__` function or function template cannot be defined in a friend declaration.  Example:  ``` struct S1_t ...",
+      "filename": "185107_friend_functions.md"
+    },
+    {
+      "id": "185108_operator_function",
+      "title": "18.5.10.8. Operator Function",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 18.5.10.8. Operator Function[\uf0c1](#operator-function \"Permalink to this headline\")  An operator function cannot be a `__global__` function....",
+      "filename": "185108_operator_function.md"
+    },
+    {
+      "id": "185109_allocation_and_deallocation_functions",
+      "title": "18.5.10.9. Allocation and Deallocation Functions",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 18.5.10.9. Allocation and Deallocation Functions[\uf0c1](#allocation-and-deallocation-functions \"Permalink to this headline\")  A user-defined `operator new`, `operator new[]`, `operator delete`, or `o...",
+      "filename": "185109_allocation_and_deallocation_functions.md"
+    }
+  ]
+}

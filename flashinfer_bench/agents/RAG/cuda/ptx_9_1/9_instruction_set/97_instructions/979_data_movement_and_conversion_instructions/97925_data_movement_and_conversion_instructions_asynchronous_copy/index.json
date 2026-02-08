@@ -1,0 +1,38 @@
+{
+  "description": "Documentation for 9.7.9.25. Data Movement and Conversion Instructions: Asynchronous copy",
+  "directories": [
+    {
+      "name": "979251_completion_mechanisms_for_asynchronous_copy_operations",
+      "description": "A thread must explicitly wait for the completion of an asynchronous copy operation in order to access the result of the operation. Once an asynchronous copy operation is initiated, modifying the source memory location or tensor descriptor or reading from the destination memory location before the..."
+    },
+    {
+      "name": "979253_data_movement_and_conversion_instructions_non_bulk_copy",
+      "description": "Documentation for Data Movement And Conversion Instructions Non Bulk Copy."
+    },
+    {
+      "name": "979254_data_movement_and_conversion_instructions_bulk_copy",
+      "description": "Documentation for Data Movement And Conversion Instructions Bulk Copy."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "An asynchronous copy operation performs the underlying operation asynchronously in the background, thus allowing the issuing threads to perform subsequent tasks."
+    },
+    {
+      "id": "979252_async_proxy",
+      "title": "9.7.9.25.2. Async Proxy",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "The `cp{.reduce}.async.bulk` operations are performed in the *asynchronous proxy* (or *async proxy*).",
+      "filename": "979252_async_proxy.md"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "description": "Documentation for 9.7.16.2. Matrix and Data Movement Shape",
+  "directories": [
+    {
+      "name": "971621_matrix_shape",
+      "description": "The matrix multiply and accumulate operations support a limited set of shapes for the operand matrices `A`, `B` and `D`. The shapes of all three matrix operands are collectively described by the tuple *MxNxK* where `A` is *MxK* matrix, `B` is a *KxN* matrix, and `D` is a *MxN* matrix."
+    },
+    {
+      "name": "971623_data_movement_shape",
+      "description": "The data movement shape indicates the dimension of the data to be moved to or from the [Tensor Memory](https://docs.nvidia.com/cuda/parallel-thread-execution/#tensor-memory). These shapes are described as a tuple `lane x size` where:"
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "There are two kinds of shapes involved."
+    },
+    {
+      "id": "971622_specifying_matrix_shape",
+      "title": "9.7.16.2.2. Specifying Matrix Shape",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "*M* and *N* can be specified in the [Instruction descriptor](https://docs.nvidia.com/cuda/parallel-thread-execution/#tcgen05-instruction-descriptor).",
+      "filename": "971622_specifying_matrix_shape.md"
+    }
+  ]
+}

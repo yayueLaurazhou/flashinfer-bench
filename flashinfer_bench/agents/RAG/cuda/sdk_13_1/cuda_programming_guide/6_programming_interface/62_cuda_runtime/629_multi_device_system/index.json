@@ -1,0 +1,60 @@
+{
+  "description": "Documentation for 6.2.9. Multi-Device System",
+  "directories": [
+    {
+      "name": "6294_peer_to_peer_memory_access",
+      "description": "#### 6.2.9.4. Peer-to-Peer Memory Access[\uf0c1](#peer-to-peer-memory-access \"Permalink to this headline\")  Depending on the system properties, specifically the PCIe and/or NVLINK topology, devices are abl..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "6291_device_enumeration",
+      "title": "6.2.9.1. Device Enumeration",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 6.2.9.1. Device Enumeration[\uf0c1](#device-enumeration \"Permalink to this headline\")  A host system can have multiple devices. The following code sample shows how to enumerate these devices, query th...",
+      "filename": "6291_device_enumeration.md"
+    },
+    {
+      "id": "6292_device_selection",
+      "title": "6.2.9.2. Device Selection",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 6.2.9.2. Device Selection[\uf0c1](#device-selection \"Permalink to this headline\")  A host thread can set the device it operates on at any time by calling `cudaSetDevice()`. Device memory allocations a...",
+      "filename": "6292_device_selection.md"
+    },
+    {
+      "id": "6293_stream_and_event_behavior",
+      "title": "6.2.9.3. Stream and Event Behavior",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 6.2.9.3. Stream and Event Behavior[\uf0c1](#stream-and-event-behavior \"Permalink to this headline\")  A kernel launch will fail if it is issued to a stream that is not associated to the current device ...",
+      "filename": "6293_stream_and_event_behavior.md"
+    },
+    {
+      "id": "6295_peer_to_peer_memory_copy",
+      "title": "6.2.9.5. Peer-to-Peer Memory Copy",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 6.2.9.5. Peer-to-Peer Memory Copy[\uf0c1](#peer-to-peer-memory-copy \"Permalink to this headline\")  Memory copies can be performed between the memories of two different devices.  When a unified address...",
+      "filename": "6295_peer_to_peer_memory_copy.md"
+    }
+  ]
+}

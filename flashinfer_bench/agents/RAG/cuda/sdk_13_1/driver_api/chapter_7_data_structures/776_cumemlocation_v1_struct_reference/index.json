@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 7.76. CUmemLocation_v1 Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "int_cumemlocation_v1id",
+      "title": "int CUmemLocation_v1::id",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "identifier for a given this location's CUmemLocationType....",
+      "filename": "int_cumemlocation_v1id.md"
+    },
+    {
+      "id": "cumemlocationtype_cumemlocation_v1type",
+      "title": "CUmemLocationType CUmemLocation_v1::type",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Specifies the location type, which modifies the meaning of id....",
+      "filename": "cumemlocationtype_cumemlocation_v1type.md"
+    }
+  ]
+}

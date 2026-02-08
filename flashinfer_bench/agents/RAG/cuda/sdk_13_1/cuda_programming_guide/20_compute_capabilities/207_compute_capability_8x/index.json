@@ -1,0 +1,45 @@
+{
+  "description": "Documentation for 20.7. Compute Capability 8.x",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "2071_architecture",
+      "title": "20.7.1. Architecture",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 20.7.1. Architecture[\uf0c1](#architecture-8-x \"Permalink to this headline\")  A Streaming Multiprocessor (SM) consists of:  * 64 FP32 cores for single-precision arithmetic operations in devices of comp...",
+      "filename": "2071_architecture.md"
+    },
+    {
+      "id": "2072_global_memory",
+      "title": "20.7.2. Global Memory",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 20.7.2. Global Memory[\uf0c1](#global-memory-8-x \"Permalink to this headline\")  Global memory behaves the same way as for devices of compute capability 5.x (See [Global Memory](#global-memory-5-x))....",
+      "filename": "2072_global_memory.md"
+    },
+    {
+      "id": "2073_shared_memory",
+      "title": "20.7.3. Shared Memory",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 20.7.3. Shared Memory[\uf0c1](#shared-memory-8-x \"Permalink to this headline\")  Similar to the [Volta architecture](#architecture-7-x), the amount of the unified data cache reserved for shared memory i...",
+      "filename": "2073_shared_memory.md"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Documentation for 13.6.2.1.2. Streams (CDP1)",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "1362121_the_implicit_null_stream_cdp1",
+      "title": "13.6.2.1.2.1. The Implicit (NULL) Stream (CDP1)",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "###### 13.6.2.1.2.1. The Implicit (NULL) Stream (CDP1)[\uf0c1](#the-implicit-null-stream-cdp1 \"Permalink to this headline\")  See [The Implicit (NULL) Stream](#the-implicit-null-stream), above, for CDP2 ver...",
+      "filename": "1362121_the_implicit_null_stream_cdp1.md"
+    }
+  ]
+}

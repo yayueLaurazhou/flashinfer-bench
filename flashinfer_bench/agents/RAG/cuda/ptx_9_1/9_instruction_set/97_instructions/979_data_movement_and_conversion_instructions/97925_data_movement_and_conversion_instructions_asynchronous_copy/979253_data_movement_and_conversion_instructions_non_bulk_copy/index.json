@@ -1,0 +1,45 @@
+{
+  "description": "Documentation for 9.7.9.25.3. Data Movement and Conversion Instructions: Non-bulk copy",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "9792531_data_movement_and_conversion_instructions_cpasync",
+      "title": "9.7.9.25.3.1. Data Movement and Conversion Instructions: cp.async",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`cp.async`",
+      "filename": "9792531_data_movement_and_conversion_instructions_cpasync.md"
+    },
+    {
+      "id": "9792532_data_movement_and_conversion_instructions_cpasynccommit_group",
+      "title": "9.7.9.25.3.2. Data Movement and Conversion Instructions: cp.async.commit_group",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`cp.async.commit_group`",
+      "filename": "9792532_data_movement_and_conversion_instructions_cpasynccommit_group.md"
+    },
+    {
+      "id": "9792533_data_movement_and_conversion_instructions_cpasyncwait_group_cpasyncwait_all",
+      "title": "9.7.9.25.3.3. Data Movement and Conversion Instructions:\ncp.async.wait_group / cp.async.wait_all",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "cp.async.wait_group / cp.async.wait_all",
+      "filename": "9792533_data_movement_and_conversion_instructions_cpasyncwait_group_cpasyncwait_all.md"
+    }
+  ]
+}

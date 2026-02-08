@@ -1,0 +1,45 @@
+{
+  "description": "Documentation for 6.29. Surface Object Management",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "curesult_cusurfobjectcreate_cusurfobject_psurfobject_co_492c52ec",
+      "title": "CUresult cuSurfObjectCreate (CUsurfObject *pSurfObject, const CUDA_RESOURCE_DESC *pResDesc)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Creates a surface object....",
+      "filename": "curesult_cusurfobjectcreate_cusurfobject_psurfobject_co_492c52ec.md"
+    },
+    {
+      "id": "curesult_cusurfobjectdestroy_cusurfobject_surfobject",
+      "title": "CUresult cuSurfObjectDestroy (CUsurfObject surfObject)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Destroys a surface object....",
+      "filename": "curesult_cusurfobjectdestroy_cusurfobject_surfobject.md"
+    },
+    {
+      "id": "curesult_cusurfobjectgetresourcedesc_cuda_resource_desc_6391a877",
+      "title": "CUresult cuSurfObjectGetResourceDesc (CUDA_RESOURCE_DESC *pResDesc, CUsurfObject surfObject)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns a surface object's resource descriptor....",
+      "filename": "curesult_cusurfobjectgetresourcedesc_cuda_resource_desc_6391a877.md"
+    }
+  ]
+}

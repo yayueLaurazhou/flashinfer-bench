@@ -1,0 +1,50 @@
+{
+  "description": "Documentation for 6.4. Using Addresses, Arrays, and Vectors",
+  "directories": [
+    {
+      "name": "641_addresses_as_operands",
+      "description": "All the memory instructions take an address operand that specifies the memory location being accessed. This addressable operand is one of:"
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Using scalar variables as operands is straightforward. The interesting capabilities begin with addresses, arrays, and vectors."
+    },
+    {
+      "id": "642_arrays_as_operands",
+      "title": "6.4.2. Arrays as Operands",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "Arrays of all types can be declared, and the identifier becomes an address constant in the space where the array is declared. The size of the array is a constant in the program.",
+      "filename": "642_arrays_as_operands.md"
+    },
+    {
+      "id": "643_vectors_as_operands",
+      "title": "6.4.3. Vectors as Operands",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "Vector operands can be specified as source and destination operands for instructions. However, when specified as destination operand, all elements in vector expression must be unique, otherwise behavior is undefined. Vectors may also be passed as arguments to called functions.",
+      "filename": "643_vectors_as_operands.md"
+    },
+    {
+      "id": "644_labels_and_function_names_as_operands",
+      "title": "6.4.4. Labels and Function Names as Operands",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "Labels and function names can be used only in `bra`/`brx.idx` and `call` instructions respectively. Function names can be used in `mov` instruction to get the address of the function into a register, for use in an indirect call.",
+      "filename": "644_labels_and_function_names_as_operands.md"
+    }
+  ]
+}

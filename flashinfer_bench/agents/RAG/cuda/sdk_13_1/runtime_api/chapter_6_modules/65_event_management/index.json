@@ -1,0 +1,95 @@
+{
+  "description": "Documentation for 6.5. Event Management",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "__host__cudaerror_t_cudaeventcreate_cudaevent_t_event",
+      "title": "__host__cudaError_t cudaEventCreate (cudaEvent_t *event)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Creates an event object....",
+      "filename": "__host__cudaerror_t_cudaeventcreate_cudaevent_t_event.md"
+    },
+    {
+      "id": "__host____device__cudaerror_t_cudaeventcreatewithflags__340d8076",
+      "title": "__host____device__cudaError_t cudaEventCreateWithFlags (cudaEvent_t *event, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Creates an event object with the specified flags....",
+      "filename": "__host____device__cudaerror_t_cudaeventcreatewithflags__340d8076.md"
+    },
+    {
+      "id": "__host____device__cudaerror_t_cudaeventdestroy_cudaevent_t_event",
+      "title": "__host____device__cudaError_t cudaEventDestroy (cudaEvent_t event)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Destroys an event object....",
+      "filename": "__host____device__cudaerror_t_cudaeventdestroy_cudaevent_t_event.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudaeventelapsedtime_float_ms_cudae_8311ebf1",
+      "title": "__host__cudaError_t cudaEventElapsedTime (float *ms, cudaEvent_t start, cudaEvent_t end)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Computes the elapsed time between events....",
+      "filename": "__host__cudaerror_t_cudaeventelapsedtime_float_ms_cudae_8311ebf1.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudaeventquery_cudaevent_t_event",
+      "title": "__host__cudaError_t cudaEventQuery (cudaEvent_t event)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Queries an event's status....",
+      "filename": "__host__cudaerror_t_cudaeventquery_cudaevent_t_event.md"
+    },
+    {
+      "id": "__host____device__cudaerror_t_cudaeventrecord_cudaevent_f1a8fbb5",
+      "title": "__host____device__cudaError_t cudaEventRecord (cudaEvent_t event, cudaStream_t stream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Records an event....",
+      "filename": "__host____device__cudaerror_t_cudaeventrecord_cudaevent_f1a8fbb5.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudaeventrecordwithflags_cudaevent__e26b2d38",
+      "title": "__host__cudaError_t cudaEventRecordWithFlags (cudaEvent_t event, cudaStream_t stream, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Records an event....",
+      "filename": "__host__cudaerror_t_cudaeventrecordwithflags_cudaevent__e26b2d38.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudaeventsynchronize_cudaevent_t_event",
+      "title": "__host__cudaError_t cudaEventSynchronize (cudaEvent_t event)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Waits for an event to complete....",
+      "filename": "__host__cudaerror_t_cudaeventsynchronize_cudaevent_t_event.md"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "description": "Documentation for 7.24. CUDA_EXT_SEM_WAIT_NODE_PARAMS_v Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "cuexternalsemaphore_cuda_ext_sem_wait_node_params_v1extsemarray",
+      "title": "CUexternalSemaphore *CUDA_EXT_SEM_WAIT_NODE_PARAMS_v1::extSemArray",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Array of external semaphore handles....",
+      "filename": "cuexternalsemaphore_cuda_ext_sem_wait_node_params_v1extsemarray.md"
+    },
+    {
+      "id": "unsigned_int_cuda_ext_sem_wait_node_params_v1numextsems",
+      "title": "unsigned int CUDA_EXT_SEM_WAIT_NODE_PARAMS_v1::numExtSems",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Number of handles and parameters supplied in extSemArray and paramsArray....",
+      "filename": "unsigned_int_cuda_ext_sem_wait_node_params_v1numextsems.md"
+    },
+    {
+      "id": "const_cuda_external_semaphore_wait_params_cuda_ext_sem__fbff6725",
+      "title": "const CUDA_EXTERNAL_SEMAPHORE_WAIT_PARAMS *CUDA_EXT_SEM_WAIT_NODE_PARAMS_v1::paramsArray",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Array of external semaphore wait parameters....",
+      "filename": "const_cuda_external_semaphore_wait_params_cuda_ext_sem__fbff6725.md"
+    }
+  ]
+}

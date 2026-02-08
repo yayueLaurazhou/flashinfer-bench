@@ -1,0 +1,66 @@
+{
+  "description": "Documentation for 6.2.8.7. CUDA Graphs",
+  "directories": [
+    {
+      "name": "62871_graph_structure",
+      "description": "##### 6.2.8.7.1. Graph Structure[\uf0c1](#graph-structure \"Permalink to this headline\")  An operation forms a node in a graph. The dependencies between the operations are the edges. These dependencies cons..."
+    },
+    {
+      "name": "62873_creating_a_graph_using_stream_capture",
+      "description": "##### 6.2.8.7.3. Creating a Graph Using Stream Capture[\uf0c1](#creating-a-graph-using-stream-capture \"Permalink to this headline\")  Stream capture provides a mechanism to create a graph from existing stre..."
+    },
+    {
+      "name": "62875_updating_instantiated_graphs",
+      "description": "##### 6.2.8.7.5. Updating Instantiated Graphs[\uf0c1](#updating-instantiated-graphs \"Permalink to this headline\")  Work submission using graphs is separated into three distinct stages: definition, instanti..."
+    },
+    {
+      "name": "62877_device_graph_launch",
+      "description": "##### 6.2.8.7.7. Device Graph Launch[\uf0c1](#device-graph-launch \"Permalink to this headline\")  There are many workflows which need to make data-dependent decisions during runtime and execute different op..."
+    },
+    {
+      "name": "62878_conditional_graph_nodes",
+      "description": "##### 6.2.8.7.8. Conditional Graph Nodes[\uf0c1](#conditional-graph-nodes \"Permalink to this headline\")  Conditional nodes allow conditional execution and looping of a graph contained within the conditiona..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "62872_creating_a_graph_using_graph_apis",
+      "title": "6.2.8.7.2. Creating a Graph Using Graph APIs",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 6.2.8.7.2. Creating a Graph Using Graph APIs[\uf0c1](#creating-a-graph-using-graph-apis \"Permalink to this headline\")  Graphs can be created via two mechanisms: explicit API and stream capture. The f...",
+      "filename": "62872_creating_a_graph_using_graph_apis.md"
+    },
+    {
+      "id": "62874_cuda_user_objects",
+      "title": "6.2.8.7.4. CUDA User Objects",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 6.2.8.7.4. CUDA User Objects[\uf0c1](#cuda-user-objects \"Permalink to this headline\")  CUDA User Objects can be used to help manage the lifetime of resources used by asynchronous work in CUDA. In par...",
+      "filename": "62874_cuda_user_objects.md"
+    },
+    {
+      "id": "62876_using_graph_apis",
+      "title": "6.2.8.7.6. Using Graph APIs",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 6.2.8.7.6. Using Graph APIs[\uf0c1](#using-graph-apis \"Permalink to this headline\")  `cudaGraph_t` objects are not thread-safe. It is the responsibility of the user to ensure that multiple threads do...",
+      "filename": "62876_using_graph_apis.md"
+    }
+  ]
+}

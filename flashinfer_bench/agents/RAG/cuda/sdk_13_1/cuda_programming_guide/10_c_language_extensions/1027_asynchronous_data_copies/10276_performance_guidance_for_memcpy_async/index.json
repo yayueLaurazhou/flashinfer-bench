@@ -1,0 +1,75 @@
+{
+  "description": "Documentation for 10.27.6. Performance Guidance for memcpy_async",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "102761_alignment",
+      "title": "10.27.6.1. Alignment",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 10.27.6.1. Alignment[\uf0c1](#alignment \"Permalink to this headline\")  On devices with compute capability 8.0, the [cp.async family of instructions](https://docs.nvidia.com/cuda/parallel-thread-execut...",
+      "filename": "102761_alignment.md"
+    },
+    {
+      "id": "102762_trivially_copyable",
+      "title": "10.27.6.2. Trivially copyable",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 10.27.6.2. Trivially copyable[\uf0c1](#trivially-copyable \"Permalink to this headline\")  On devices with compute capability 8.0, the [cp.async family of instructions](https://docs.nvidia.com/cuda/para...",
+      "filename": "102762_trivially_copyable.md"
+    },
+    {
+      "id": "102763_warp_entanglement_commit",
+      "title": "10.27.6.3. Warp Entanglement - Commit",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 10.27.6.3. Warp Entanglement - Commit[\uf0c1](#warp-entanglement-commit \"Permalink to this headline\")  The sequence of `memcpy_async` batches is shared across the warp. The commit operation is coalesc...",
+      "filename": "102763_warp_entanglement_commit.md"
+    },
+    {
+      "id": "102764_warp_entanglement_wait",
+      "title": "10.27.6.4. Warp Entanglement - Wait",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 10.27.6.4. Warp Entanglement - Wait[\uf0c1](#warp-entanglement-wait \"Permalink to this headline\")  A CUDA thread invokes either `pipeline_consumer_wait_prior<N>()` or `pipeline::consumer_wait()` to wa...",
+      "filename": "102764_warp_entanglement_wait.md"
+    },
+    {
+      "id": "102765_warp_entanglement_arrive_on",
+      "title": "10.27.6.5. Warp Entanglement - Arrive-On",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 10.27.6.5. Warp Entanglement - Arrive-On[\uf0c1](#warp-entanglement-arrive-on \"Permalink to this headline\")  Warp-divergence affects the number of times an `arrive_on(bar)` operation updates the barri...",
+      "filename": "102765_warp_entanglement_arrive_on.md"
+    },
+    {
+      "id": "102766_keep_commit_and_arrive_on_operations_converged",
+      "title": "10.27.6.6. Keep Commit and Arrive-On Operations Converged",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 10.27.6.6. Keep Commit and Arrive-On Operations Converged[\uf0c1](#keep-commit-and-arrive-on-operations-converged \"Permalink to this headline\")  It is recommended that commit and arrive-on invocations...",
+      "filename": "102766_keep_commit_and_arrive_on_operations_converged.md"
+    }
+  ]
+}

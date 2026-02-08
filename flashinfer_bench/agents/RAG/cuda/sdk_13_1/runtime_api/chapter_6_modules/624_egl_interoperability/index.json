@@ -1,0 +1,135 @@
+{
+  "description": "Documentation for 6.24. EGL Interoperability",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "__host__cudaerror_t_cudaeglstreamconsumeracquireframe_c_8dc4b873",
+      "title": "__host__cudaError_t cudaEGLStreamConsumerAcquireFrame (cudaEglStreamConnection *conn, cudaGraphicsResource_t *pCudaResource, cudaStream_t *pStream, unsigned int timeout)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Acquire an image frame from the EGLStream with CUDA as a consumer....",
+      "filename": "__host__cudaerror_t_cudaeglstreamconsumeracquireframe_c_8dc4b873.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudaeglstreamconsumerconnect_cudaeg_a99b5a04",
+      "title": "__host__cudaError_t cudaEGLStreamConsumerConnect (cudaEglStreamConnection *conn, EGLStreamKHR eglStream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Connect CUDA to EGLStream as a consumer....",
+      "filename": "__host__cudaerror_t_cudaeglstreamconsumerconnect_cudaeg_a99b5a04.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudaeglstreamconsumerconnectwithfla_a524b07d",
+      "title": "__host__cudaError_t cudaEGLStreamConsumerConnectWithFlags (cudaEglStreamConnection *conn, EGLStreamKHR eglStream, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Connect CUDA to EGLStream as a consumer with given flags....",
+      "filename": "__host__cudaerror_t_cudaeglstreamconsumerconnectwithfla_a524b07d.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudaeglstreamconsumerdisconnect_cud_a3f5ad44",
+      "title": "__host__cudaError_t cudaEGLStreamConsumerDisconnect (cudaEglStreamConnection *conn)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Disconnect CUDA as a consumer to EGLStream ....",
+      "filename": "__host__cudaerror_t_cudaeglstreamconsumerdisconnect_cud_a3f5ad44.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudaeglstreamconsumerreleaseframe_c_aa617c84",
+      "title": "__host__cudaError_t cudaEGLStreamConsumerReleaseFrame (cudaEglStreamConnection *conn, cudaGraphicsResource_t pCudaResource, cudaStream_t *pStream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Releases the last frame acquired from the EGLStream....",
+      "filename": "__host__cudaerror_t_cudaeglstreamconsumerreleaseframe_c_aa617c84.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudaeglstreamproducerconnect_cudaeg_b4f8971f",
+      "title": "__host__cudaError_t cudaEGLStreamProducerConnect (cudaEglStreamConnection *conn, EGLStreamKHR eglStream, EGLint width, EGLint height)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Connect CUDA to EGLStream as a producer....",
+      "filename": "__host__cudaerror_t_cudaeglstreamproducerconnect_cudaeg_b4f8971f.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudaeglstreamproducerdisconnect_cud_dc7a4dbd",
+      "title": "__host__cudaError_t cudaEGLStreamProducerDisconnect (cudaEglStreamConnection *conn)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Disconnect CUDA as a producer to EGLStream ....",
+      "filename": "__host__cudaerror_t_cudaeglstreamproducerdisconnect_cud_dc7a4dbd.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudaeglstreamproducerpresentframe_c_cf47f973",
+      "title": "__host__cudaError_t cudaEGLStreamProducerPresentFrame (cudaEglStreamConnection *conn, cudaEglFrame eglframe, cudaStream_t *pStream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Present a CUDA eglFrame to the EGLStream with CUDA as a producer....",
+      "filename": "__host__cudaerror_t_cudaeglstreamproducerpresentframe_c_cf47f973.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudaeglstreamproducerreturnframe_cu_3437e1da",
+      "title": "__host__cudaError_t cudaEGLStreamProducerReturnFrame (cudaEglStreamConnection *conn, cudaEglFrame *eglframe, cudaStream_t *pStream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Return the CUDA eglFrame to the EGLStream last released by the consumer....",
+      "filename": "__host__cudaerror_t_cudaeglstreamproducerreturnframe_cu_3437e1da.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudaeventcreatefromeglsync_cudaeven_d6ce0f41",
+      "title": "__host__cudaError_t cudaEventCreateFromEGLSync (cudaEvent_t *phEvent, EGLSyncKHR eglSync, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Creates an event from EGLSync object....",
+      "filename": "__host__cudaerror_t_cudaeventcreatefromeglsync_cudaeven_d6ce0f41.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphicseglregisterimage_cudagr_d2c48b12",
+      "title": "__host__cudaError_t cudaGraphicsEGLRegisterImage (cudaGraphicsResource **pCudaResource, EGLImageKHR image, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Registers an EGL image....",
+      "filename": "__host__cudaerror_t_cudagraphicseglregisterimage_cudagr_d2c48b12.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphicsresourcegetmappedeglfra_14060fcd",
+      "title": "__host__cudaError_t cudaGraphicsResourceGetMappedEglFrame (cudaEglFrame *eglFrame, cudaGraphicsResource_t resource, unsigned int index, unsigned int mipLevel)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Get an eglFrame through which to access a registered EGL graphics resource....",
+      "filename": "__host__cudaerror_t_cudagraphicsresourcegetmappedeglfra_14060fcd.md"
+    }
+  ]
+}

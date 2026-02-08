@@ -1,0 +1,365 @@
+{
+  "description": "Documentation for 6.1. Device Management",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "__host__cudaerror_t_cudachoosedevice_int_device_const_c_6c4ef348",
+      "title": "__host__cudaError_t cudaChooseDevice (int *device, const cudaDeviceProp *prop)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Select compute-device which best matches criteria....",
+      "filename": "__host__cudaerror_t_cudachoosedevice_int_device_const_c_6c4ef348.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudadeviceflushgpudirectrdmawrites__86a65505",
+      "title": "__host__cudaError_t cudaDeviceFlushGPUDirectRDMAWrites (cudaFlushGPUDirectRDMAWritesTarget target, cudaFlushGPUDirectRDMAWritesScope scope)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Blocks until remote writes are visible to the specified scope....",
+      "filename": "__host__cudaerror_t_cudadeviceflushgpudirectrdmawrites__86a65505.md"
+    },
+    {
+      "id": "__host____device__cudaerror_t_cudadevicegetattribute_in_bde6f945",
+      "title": "__host____device__cudaError_t cudaDeviceGetAttribute (int *value, cudaDeviceAttr attr, int device)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns information about the device....",
+      "filename": "__host____device__cudaerror_t_cudadevicegetattribute_in_bde6f945.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudadevicegetbypcibusid_int_device__69780769",
+      "title": "__host__cudaError_t cudaDeviceGetByPCIBusId (int *device, const char *pciBusId)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns a handle to a compute device....",
+      "filename": "__host__cudaerror_t_cudadevicegetbypcibusid_int_device__69780769.md"
+    },
+    {
+      "id": "__host____device__cudaerror_t_cudadevicegetcacheconfig__b3f2cef3",
+      "title": "__host____device__cudaError_t cudaDeviceGetCacheConfig (cudaFuncCache *pCacheConfig)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the preferred cache configuration for the current device....",
+      "filename": "__host____device__cudaerror_t_cudadevicegetcacheconfig__b3f2cef3.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudadevicegetdefaultmempool_cudamem_b46619a5",
+      "title": "__host__cudaError_t cudaDeviceGetDefaultMemPool (cudaMemPool_t *memPool, int device)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the default mempool of a device....",
+      "filename": "__host__cudaerror_t_cudadevicegetdefaultmempool_cudamem_b46619a5.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudadevicegethostatomiccapabilities_88fed0eb",
+      "title": "__host__cudaError_t cudaDeviceGetHostAtomicCapabilities (unsigned int *capabilities, const cudaAtomicOperation *operations, unsigned int count, int device)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Queries details about atomic operations supported between the device and host....",
+      "filename": "__host__cudaerror_t_cudadevicegethostatomiccapabilities_88fed0eb.md"
+    },
+    {
+      "id": "__host____device__cudaerror_t_cudadevicegetlimit_size_t_0326bba2",
+      "title": "__host____device__cudaError_t cudaDeviceGetLimit (size_t *pValue, cudaLimit limit)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Return resource limits....",
+      "filename": "__host____device__cudaerror_t_cudadevicegetlimit_size_t_0326bba2.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudadevicegetmempool_cudamempool_t__71584a60",
+      "title": "__host__cudaError_t cudaDeviceGetMemPool (cudaMemPool_t *memPool, int device)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Gets the current mempool for a device....",
+      "filename": "__host__cudaerror_t_cudadevicegetmempool_cudamempool_t__71584a60.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudadevicegetnvscisyncattributes_vo_a77a12c3",
+      "title": "__host__cudaError_t cudaDeviceGetNvSciSyncAttributes (void *nvSciSyncAttrList, int device, int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Return NvSciSync attributes that this device can support....",
+      "filename": "__host__cudaerror_t_cudadevicegetnvscisyncattributes_vo_a77a12c3.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudadevicegetp2patomiccapabilities__7e07f905",
+      "title": "__host__cudaError_t cudaDeviceGetP2PAtomicCapabilities (unsigned int *capabilities, const cudaAtomicOperation *operations, unsigned int count, int srcDevice, int dstDevice)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Queries details about atomic operations supported between two devices....",
+      "filename": "__host__cudaerror_t_cudadevicegetp2patomiccapabilities__7e07f905.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudadevicegetp2pattribute_int_value_6e45e5c2",
+      "title": "__host__cudaError_t cudaDeviceGetP2PAttribute (int *value, cudaDeviceP2PAttr attr, int srcDevice, int dstDevice)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Queries attributes of the link between two devices....",
+      "filename": "__host__cudaerror_t_cudadevicegetp2pattribute_int_value_6e45e5c2.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudadevicegetpcibusid_char_pcibusid_31e62819",
+      "title": "__host__cudaError_t cudaDeviceGetPCIBusId (char *pciBusId, int len, int device)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns a PCI Bus Id string for the device....",
+      "filename": "__host__cudaerror_t_cudadevicegetpcibusid_char_pcibusid_31e62819.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudadevicegetstreampriorityrange_in_30d8bc58",
+      "title": "__host__cudaError_t cudaDeviceGetStreamPriorityRange (int *leastPriority, int *greatestPriority)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns numerical values that correspond to the least and greatest stream priorities....",
+      "filename": "__host__cudaerror_t_cudadevicegetstreampriorityrange_in_30d8bc58.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudadevicegettexture1dlinearmaxwidt_05dc99bd",
+      "title": "__host__cudaError_t cudaDeviceGetTexture1DLinearMaxWidth (size_t *maxWidthInElements, const cudaChannelFormatDesc *fmtDesc, int device)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the maximum number of elements allocatable in a 1D linear texture for a given element size....",
+      "filename": "__host__cudaerror_t_cudadevicegettexture1dlinearmaxwidt_05dc99bd.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudadeviceregisterasyncnotification_ce48ac3c",
+      "title": "__host__cudaError_t cudaDeviceRegisterAsyncNotification (int device, cudaAsyncCallback callbackFunc, void *userData, cudaAsyncCallbackHandle_t *callback)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Registers a callback function to receive async notifications....",
+      "filename": "__host__cudaerror_t_cudadeviceregisterasyncnotification_ce48ac3c.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudadevicereset_void",
+      "title": "__host__cudaError_t cudaDeviceReset (void)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Destroy all allocations and reset all state on the current device in the current process....",
+      "filename": "__host__cudaerror_t_cudadevicereset_void.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudadevicesetcacheconfig_cudafuncca_c12841cf",
+      "title": "__host__cudaError_t cudaDeviceSetCacheConfig (cudaFuncCache cacheConfig)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets the preferred cache configuration for the current device....",
+      "filename": "__host__cudaerror_t_cudadevicesetcacheconfig_cudafuncca_c12841cf.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudadevicesetlimit_cudalimit_limit__e1693959",
+      "title": "__host__cudaError_t cudaDeviceSetLimit (cudaLimit limit, size_t value)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Set resource limits....",
+      "filename": "__host__cudaerror_t_cudadevicesetlimit_cudalimit_limit__e1693959.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudadevicesetmempool_int_device_cud_fa3c0f06",
+      "title": "__host__cudaError_t cudaDeviceSetMemPool (int device, cudaMemPool_t memPool)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets the current memory pool of a device....",
+      "filename": "__host__cudaerror_t_cudadevicesetmempool_int_device_cud_fa3c0f06.md"
+    },
+    {
+      "id": "__host____device__cudaerror_t_cudadevicesynchronize_void",
+      "title": "__host____device__cudaError_t cudaDeviceSynchronize (void)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Wait for compute device to finish....",
+      "filename": "__host____device__cudaerror_t_cudadevicesynchronize_void.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudadeviceunregisterasyncnotificati_1ac9a958",
+      "title": "__host__cudaError_t cudaDeviceUnregisterAsyncNotification (int device, cudaAsyncCallbackHandle_t callback)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Unregisters an async notification callback....",
+      "filename": "__host__cudaerror_t_cudadeviceunregisterasyncnotificati_1ac9a958.md"
+    },
+    {
+      "id": "__host____device__cudaerror_t_cudagetdevice_int_device",
+      "title": "__host____device__cudaError_t cudaGetDevice (int *device)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns which device is currently being used....",
+      "filename": "__host____device__cudaerror_t_cudagetdevice_int_device.md"
+    },
+    {
+      "id": "__host____device__cudaerror_t_cudagetdevicecount_int_count",
+      "title": "__host____device__cudaError_t cudaGetDeviceCount (int *count)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns the number of compute-capable devices....",
+      "filename": "__host____device__cudaerror_t_cudagetdevicecount_int_count.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagetdeviceflags_unsigned_int_flags",
+      "title": "__host__cudaError_t cudaGetDeviceFlags (unsigned int *flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Gets the flags for the current device....",
+      "filename": "__host__cudaerror_t_cudagetdeviceflags_unsigned_int_flags.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagetdeviceproperties_cudadevicep_33f49324",
+      "title": "__host__cudaError_t cudaGetDeviceProperties (cudaDeviceProp *prop, int device)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns information about the compute-device....",
+      "filename": "__host__cudaerror_t_cudagetdeviceproperties_cudadevicep_33f49324.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudainitdevice_int_device_unsigned__da7af50c",
+      "title": "__host__cudaError_t cudaInitDevice (int device, unsigned int deviceFlags, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Initialize device to be used for GPU executions....",
+      "filename": "__host__cudaerror_t_cudainitdevice_int_device_unsigned__da7af50c.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudaipcclosememhandle_void_devptr",
+      "title": "__host__cudaError_t cudaIpcCloseMemHandle (void *devPtr)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Attempts to close memory mapped with cudaIpcOpenMemHandle....",
+      "filename": "__host__cudaerror_t_cudaipcclosememhandle_void_devptr.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudaipcgeteventhandle_cudaipceventh_0e09e2d1",
+      "title": "__host__cudaError_t cudaIpcGetEventHandle (cudaIpcEventHandle_t *handle, cudaEvent_t event)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Gets an interprocess handle for a previously allocated event....",
+      "filename": "__host__cudaerror_t_cudaipcgeteventhandle_cudaipceventh_0e09e2d1.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudaipcgetmemhandle_cudaipcmemhandl_bb72f76d",
+      "title": "__host__cudaError_t cudaIpcGetMemHandle (cudaIpcMemHandle_t *handle, void *devPtr)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Gets an interprocess memory handle for an existing device memory allocation....",
+      "filename": "__host__cudaerror_t_cudaipcgetmemhandle_cudaipcmemhandl_bb72f76d.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudaipcopeneventhandle_cudaevent_t__8c761cc6",
+      "title": "__host__cudaError_t cudaIpcOpenEventHandle (cudaEvent_t *event, cudaIpcEventHandle_t handle)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Opens an interprocess event handle for use in the current process....",
+      "filename": "__host__cudaerror_t_cudaipcopeneventhandle_cudaevent_t__8c761cc6.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudaipcopenmemhandle_void_devptr_cu_1f7d1ffa",
+      "title": "__host__cudaError_t cudaIpcOpenMemHandle (void **devPtr, cudaIpcMemHandle_t handle, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Opens an interprocess memory handle exported from another process and returns a device pointer usable in the local process....",
+      "filename": "__host__cudaerror_t_cudaipcopenmemhandle_void_devptr_cu_1f7d1ffa.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudasetdevice_int_device",
+      "title": "__host__cudaError_t cudaSetDevice (int device)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Set device to be used for GPU executions....",
+      "filename": "__host__cudaerror_t_cudasetdevice_int_device.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudasetdeviceflags_unsigned_int_flags",
+      "title": "__host__cudaError_t cudaSetDeviceFlags (unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets flags to be used for device executions....",
+      "filename": "__host__cudaerror_t_cudasetdeviceflags_unsigned_int_flags.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudasetvaliddevices_int_device_arr_int_len",
+      "title": "__host__cudaError_t cudaSetValidDevices (int *device_arr, int len)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Set a list of devices that can be used for CUDA....",
+      "filename": "__host__cudaerror_t_cudasetvaliddevices_int_device_arr_int_len.md"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "description": "Documentation for 7.39. CUDA_MEM_ALLOC_NODE_PARAMS_v1 Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "size_t_cuda_mem_alloc_node_params_v1accessdesccount",
+      "title": "size_t CUDA_MEM_ALLOC_NODE_PARAMS_v1::accessDescCount",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "in: number of memory access descriptors. Must not exceed the number of GPUs....",
+      "filename": "size_t_cuda_mem_alloc_node_params_v1accessdesccount.md"
+    },
+    {
+      "id": "const_cumemaccessdesc_cuda_mem_alloc_node_params_v1accessdescs",
+      "title": "const CUmemAccessDesc *CUDA_MEM_ALLOC_NODE_PARAMS_v1::accessDescs",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "in: array of memory access descriptors. Used to describe peer GPU access   CUDA Driver API TRM-06703-001 _vRelease Version  |  699   Data Structures...",
+      "filename": "const_cumemaccessdesc_cuda_mem_alloc_node_params_v1accessdescs.md"
+    },
+    {
+      "id": "size_t_cuda_mem_alloc_node_params_v1bytesize",
+      "title": "size_t CUDA_MEM_ALLOC_NODE_PARAMS_v1::bytesize",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "in: size in bytes of the requested allocation...",
+      "filename": "size_t_cuda_mem_alloc_node_params_v1bytesize.md"
+    },
+    {
+      "id": "cudeviceptr_cuda_mem_alloc_node_params_v1dptr",
+      "title": "CUdeviceptr CUDA_MEM_ALLOC_NODE_PARAMS_v1::dptr",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "out: address of the allocation returned by CUDA...",
+      "filename": "cudeviceptr_cuda_mem_alloc_node_params_v1dptr.md"
+    },
+    {
+      "id": "struct_cumempoolprops_cuda_mem_alloc_node_params_v1poolprops",
+      "title": "struct CUmemPoolProps CUDA_MEM_ALLOC_NODE_PARAMS_v1::poolProps",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "in: location where the allocation should reside (specified in location). handleTypes must be CU_MEM_HANDLE_TYPE_NONE. IPC is not supported....",
+      "filename": "struct_cumempoolprops_cuda_mem_alloc_node_params_v1poolprops.md"
+    }
+  ]
+}

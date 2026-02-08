@@ -1,0 +1,24 @@
+{
+  "description": "Documentation for 11.4.2. Explicit Groups",
+  "directories": [
+    {
+      "name": "11421_thread_block_tile",
+      "description": "#### 11.4.2.1. Thread Block Tile[\uf0c1](#thread-block-tile \"Permalink to this headline\")  A templated version of a tiled group, where a template parameter is used to specify the size of the tile - with th..."
+    },
+    {
+      "name": "11422_coalesced_groups",
+      "description": "#### 11.4.2.2. Coalesced Groups[\uf0c1](#coalesced-groups \"Permalink to this headline\")  In CUDA\u2019s SIMT architecture, at the hardware level the multiprocessor executes threads in groups of 32 called warps...."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    }
+  ]
+}

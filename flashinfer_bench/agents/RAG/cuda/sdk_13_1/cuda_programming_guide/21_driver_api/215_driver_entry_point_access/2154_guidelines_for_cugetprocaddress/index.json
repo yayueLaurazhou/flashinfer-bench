@@ -1,0 +1,25 @@
+{
+  "description": "Documentation for 21.5.4. Guidelines for cuGetProcAddress",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "21541_guidelines_for_runtime_api_usage",
+      "title": "21.5.4.1. Guidelines for Runtime API Usage",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 21.5.4.1. Guidelines for Runtime API Usage[\uf0c1](#guidelines-for-runtime-api-usage \"Permalink to this headline\")  Unless specified otherwise, the CUDA runtime API `cudaGetDriverEntryPointByVersion` ...",
+      "filename": "21541_guidelines_for_runtime_api_usage.md"
+    }
+  ]
+}

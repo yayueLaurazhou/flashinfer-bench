@@ -1,0 +1,85 @@
+{
+  "description": "Documentation for 6.25. Occupancy",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "curesult_cuoccupancyavailabledynamicsmemperblock_size_t_dd86175f",
+      "title": "CUresult cuOccupancyAvailableDynamicSMemPerBlock (size_t *dynamicSmemSize, CUfunction func, int numBlocks, int blockSize)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns dynamic shared memory available per block when launching numBlocks blocks on SM....",
+      "filename": "curesult_cuoccupancyavailabledynamicsmemperblock_size_t_dd86175f.md"
+    },
+    {
+      "id": "curesult_cuoccupancymaxactiveblockspermultiprocessor_in_541a9a76",
+      "title": "CUresult cuOccupancyMaxActiveBlocksPerMultiprocessor (int *numBlocks, CUfunction func, int blockSize, size_t dynamicSMemSize)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns occupancy of a function....",
+      "filename": "curesult_cuoccupancymaxactiveblockspermultiprocessor_in_541a9a76.md"
+    },
+    {
+      "id": "curesult_cuoccupancymaxactiveblockspermultiprocessorwit_342fdce2",
+      "title": "CUresult cuOccupancyMaxActiveBlocksPerMultiprocessorWithFlags (int *numBlocks, CUfunction func, int blockSize, size_t dynamicSMemSize, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Returns occupancy of a function....",
+      "filename": "curesult_cuoccupancymaxactiveblockspermultiprocessorwit_342fdce2.md"
+    },
+    {
+      "id": "curesult_cuoccupancymaxactiveclusters_int_numclusters_c_ca470cac",
+      "title": "CUresult cuOccupancyMaxActiveClusters (int *numClusters, CUfunction func, const CUlaunchConfig *config)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Given the kernel function (func) and launch configuration (config), return the maximum number of clusters that could co-exist on the target device in *numClusters....",
+      "filename": "curesult_cuoccupancymaxactiveclusters_int_numclusters_c_ca470cac.md"
+    },
+    {
+      "id": "curesult_cuoccupancymaxpotentialblocksize_int_mingridsi_8372a753",
+      "title": "CUresult cuOccupancyMaxPotentialBlockSize (int *minGridSize, int *blockSize, CUfunction func, CUoccupancyB2DSize blockSizeToDynamicSMemSize, size_t dynamicSMemSize, int blockSizeLimit)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Suggest a launch configuration with reasonable occupancy....",
+      "filename": "curesult_cuoccupancymaxpotentialblocksize_int_mingridsi_8372a753.md"
+    },
+    {
+      "id": "curesult_cuoccupancymaxpotentialblocksizewithflags_int__a5078369",
+      "title": "CUresult cuOccupancyMaxPotentialBlockSizeWithFlags (int *minGridSize, int *blockSize, CUfunction func, CUoccupancyB2DSize blockSizeToDynamicSMemSize, size_t dynamicSMemSize, int blockSizeLimit, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Suggest a launch configuration with reasonable occupancy....",
+      "filename": "curesult_cuoccupancymaxpotentialblocksizewithflags_int__a5078369.md"
+    },
+    {
+      "id": "curesult_cuoccupancymaxpotentialclustersize_int_cluster_54b63174",
+      "title": "CUresult cuOccupancyMaxPotentialClusterSize (int *clusterSize, CUfunction func, const CUlaunchConfig *config)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Given the kernel function (func) and launch configuration (config), return the maximum cluster size in *clusterSize....",
+      "filename": "curesult_cuoccupancymaxpotentialclustersize_int_cluster_54b63174.md"
+    }
+  ]
+}

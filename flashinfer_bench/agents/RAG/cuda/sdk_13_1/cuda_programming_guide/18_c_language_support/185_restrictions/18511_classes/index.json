@@ -1,0 +1,75 @@
+{
+  "description": "Documentation for 18.5.11. Classes",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "185111_data_members",
+      "title": "18.5.11.1. Data Members",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 18.5.11.1. Data Members[\uf0c1](#data-members \"Permalink to this headline\")  Static data members are not supported except for those that are also const-qualified (see [Const-qualified variables](#cons...",
+      "filename": "185111_data_members.md"
+    },
+    {
+      "id": "185112_function_members",
+      "title": "18.5.11.2. Function Members",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 18.5.11.2. Function Members[\uf0c1](#function-members \"Permalink to this headline\")  Static member functions cannot be `__global__` functions....",
+      "filename": "185112_function_members.md"
+    },
+    {
+      "id": "185113_virtual_functions",
+      "title": "18.5.11.3. Virtual Functions",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 18.5.11.3. Virtual Functions[\uf0c1](#virtual-functions \"Permalink to this headline\")  When a function in a derived class overrides a virtual function in a base class, the execution space specifiers (...",
+      "filename": "185113_virtual_functions.md"
+    },
+    {
+      "id": "185114_virtual_base_classes",
+      "title": "18.5.11.4. Virtual Base Classes",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 18.5.11.4. Virtual Base Classes[\uf0c1](#virtual-base-classes \"Permalink to this headline\")  It is not allowed to pass as an argument to a `__global__` function an object of a class derived from virtu...",
+      "filename": "185114_virtual_base_classes.md"
+    },
+    {
+      "id": "185115_anonymous_unions",
+      "title": "18.5.11.5. Anonymous Unions",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 18.5.11.5. Anonymous Unions[\uf0c1](#anonymous-unions \"Permalink to this headline\")  Member variables of a namespace scope anonymous union cannot be referenced in a `__global__` or `__device__` functi...",
+      "filename": "185115_anonymous_unions.md"
+    },
+    {
+      "id": "185116_windows_specific",
+      "title": "18.5.11.6. Windows-Specific",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 18.5.11.6. Windows-Specific[\uf0c1](#windows-specific \"Permalink to this headline\")  The CUDA compiler follows the IA64 ABI for class layout, while the Microsoft host compiler does not. Let `T` denote...",
+      "filename": "185116_windows_specific.md"
+    }
+  ]
+}

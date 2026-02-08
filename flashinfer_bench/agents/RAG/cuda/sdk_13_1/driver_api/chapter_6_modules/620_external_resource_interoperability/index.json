@@ -1,0 +1,95 @@
+{
+  "description": "Documentation for 6.20. External Resource Interoperability",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "curesult_cudestroyexternalmemory_cuexternalmemory_extmem",
+      "title": "CUresult cuDestroyExternalMemory (CUexternalMemory extMem)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Destroys an external memory object....",
+      "filename": "curesult_cudestroyexternalmemory_cuexternalmemory_extmem.md"
+    },
+    {
+      "id": "curesult_cudestroyexternalsemaphore_cuexternalsemaphore_extsem",
+      "title": "CUresult cuDestroyExternalSemaphore (CUexternalSemaphore extSem)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Destroys an external semaphore....",
+      "filename": "curesult_cudestroyexternalsemaphore_cuexternalsemaphore_extsem.md"
+    },
+    {
+      "id": "curesult_cuexternalmemorygetmappedbuffer_cudeviceptr_de_f844aab9",
+      "title": "CUresult cuExternalMemoryGetMappedBuffer (CUdeviceptr *devPtr, CUexternalMemory extMem, const CUDA_EXTERNAL_MEMORY_BUFFER_DESC *bufferDesc)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Maps a buffer onto an imported memory object....",
+      "filename": "curesult_cuexternalmemorygetmappedbuffer_cudeviceptr_de_f844aab9.md"
+    },
+    {
+      "id": "curesult_cuexternalmemorygetmappedmipmappedarray_cumipm_4c7632b2",
+      "title": "CUresult cuExternalMemoryGetMappedMipmappedArray (CUmipmappedArray *mipmap, CUexternalMemory extMem, const CUDA_EXTERNAL_MEMORY_MIPMAPPED_ARRAY_DESC *mipmapDesc)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Maps a CUDA mipmapped array onto an external memory object....",
+      "filename": "curesult_cuexternalmemorygetmappedmipmappedarray_cumipm_4c7632b2.md"
+    },
+    {
+      "id": "curesult_cuimportexternalmemory_cuexternalmemory_extmem_3e4b29e2",
+      "title": "CUresult cuImportExternalMemory (CUexternalMemory *extMem_out, const CUDA_EXTERNAL_MEMORY_HANDLE_DESC *memHandleDesc)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Imports an external memory object....",
+      "filename": "curesult_cuimportexternalmemory_cuexternalmemory_extmem_3e4b29e2.md"
+    },
+    {
+      "id": "curesult_cuimportexternalsemaphore_cuexternalsemaphore__92a37cc7",
+      "title": "CUresult cuImportExternalSemaphore (CUexternalSemaphore *extSem_out, const CUDA_EXTERNAL_SEMAPHORE_HANDLE_DESC *semHandleDesc)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Imports an external semaphore....",
+      "filename": "curesult_cuimportexternalsemaphore_cuexternalsemaphore__92a37cc7.md"
+    },
+    {
+      "id": "curesult_cusignalexternalsemaphoresasync_const_cuextern_0b0c253b",
+      "title": "CUresult cuSignalExternalSemaphoresAsync (const CUexternalSemaphore *extSemArray, const CUDA_EXTERNAL_SEMAPHORE_SIGNAL_PARAMS *paramsArray, unsigned int numExtSems, CUstream stream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Signals a set of external semaphore objects....",
+      "filename": "curesult_cusignalexternalsemaphoresasync_const_cuextern_0b0c253b.md"
+    },
+    {
+      "id": "curesult_cuwaitexternalsemaphoresasync_const_cuexternal_26515989",
+      "title": "CUresult cuWaitExternalSemaphoresAsync (const CUexternalSemaphore *extSemArray, const CUDA_EXTERNAL_SEMAPHORE_WAIT_PARAMS *paramsArray, unsigned int numExtSems, CUstream stream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Waits on a set of external semaphore objects....",
+      "filename": "curesult_cuwaitexternalsemaphoresasync_const_cuexternal_26515989.md"
+    }
+  ]
+}

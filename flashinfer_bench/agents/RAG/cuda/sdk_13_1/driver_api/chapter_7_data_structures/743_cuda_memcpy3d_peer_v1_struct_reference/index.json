@@ -1,0 +1,265 @@
+{
+  "description": "Documentation for 7.43. CUDA_MEMCPY3D_PEER_v1 Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "size_t_cuda_memcpy3d_peer_v1depth",
+      "title": "size_t CUDA_MEMCPY3D_PEER_v1::Depth",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Depth of 3D memory copy...",
+      "filename": "size_t_cuda_memcpy3d_peer_v1depth.md"
+    },
+    {
+      "id": "cuarray_cuda_memcpy3d_peer_v1dstarray",
+      "title": "CUarray CUDA_MEMCPY3D_PEER_v1::dstArray",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Destination array reference...",
+      "filename": "cuarray_cuda_memcpy3d_peer_v1dstarray.md"
+    },
+    {
+      "id": "cucontext_cuda_memcpy3d_peer_v1dstcontext",
+      "title": "CUcontext CUDA_MEMCPY3D_PEER_v1::dstContext",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Destination context (ignored with dstMemoryType is CU_MEMORYTYPE_ARRAY)...",
+      "filename": "cucontext_cuda_memcpy3d_peer_v1dstcontext.md"
+    },
+    {
+      "id": "cudeviceptr_cuda_memcpy3d_peer_v1dstdevice",
+      "title": "CUdeviceptr CUDA_MEMCPY3D_PEER_v1::dstDevice",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Destination device pointer...",
+      "filename": "cudeviceptr_cuda_memcpy3d_peer_v1dstdevice.md"
+    },
+    {
+      "id": "size_t_cuda_memcpy3d_peer_v1dstheight",
+      "title": "size_t CUDA_MEMCPY3D_PEER_v1::dstHeight",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Destination height (ignored when dst is array; may be 0 if Depth==1)...",
+      "filename": "size_t_cuda_memcpy3d_peer_v1dstheight.md"
+    },
+    {
+      "id": "void_cuda_memcpy3d_peer_v1dsthost",
+      "title": "void *CUDA_MEMCPY3D_PEER_v1::dstHost",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Destination host pointer   CUDA Driver API TRM-06703-001 _vRelease Version  |  703   Data Structures...",
+      "filename": "void_cuda_memcpy3d_peer_v1dsthost.md"
+    },
+    {
+      "id": "size_t_cuda_memcpy3d_peer_v1dstlod",
+      "title": "size_t CUDA_MEMCPY3D_PEER_v1::dstLOD",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Destination LOD...",
+      "filename": "size_t_cuda_memcpy3d_peer_v1dstlod.md"
+    },
+    {
+      "id": "cumemorytype_cuda_memcpy3d_peer_v1dstmemorytype",
+      "title": "CUmemorytype CUDA_MEMCPY3D_PEER_v1::dstMemoryType",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Destination memory type (host, device, array)...",
+      "filename": "cumemorytype_cuda_memcpy3d_peer_v1dstmemorytype.md"
+    },
+    {
+      "id": "size_t_cuda_memcpy3d_peer_v1dstpitch",
+      "title": "size_t CUDA_MEMCPY3D_PEER_v1::dstPitch",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Destination pitch (ignored when dst is array)...",
+      "filename": "size_t_cuda_memcpy3d_peer_v1dstpitch.md"
+    },
+    {
+      "id": "size_t_cuda_memcpy3d_peer_v1dstxinbytes",
+      "title": "size_t CUDA_MEMCPY3D_PEER_v1::dstXInBytes",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Destination X in bytes...",
+      "filename": "size_t_cuda_memcpy3d_peer_v1dstxinbytes.md"
+    },
+    {
+      "id": "size_t_cuda_memcpy3d_peer_v1dsty",
+      "title": "size_t CUDA_MEMCPY3D_PEER_v1::dstY",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Destination Y...",
+      "filename": "size_t_cuda_memcpy3d_peer_v1dsty.md"
+    },
+    {
+      "id": "size_t_cuda_memcpy3d_peer_v1dstz",
+      "title": "size_t CUDA_MEMCPY3D_PEER_v1::dstZ",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Destination Z...",
+      "filename": "size_t_cuda_memcpy3d_peer_v1dstz.md"
+    },
+    {
+      "id": "size_t_cuda_memcpy3d_peer_v1height",
+      "title": "size_t CUDA_MEMCPY3D_PEER_v1::Height",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Height of 3D memory copy...",
+      "filename": "size_t_cuda_memcpy3d_peer_v1height.md"
+    },
+    {
+      "id": "cuarray_cuda_memcpy3d_peer_v1srcarray",
+      "title": "CUarray CUDA_MEMCPY3D_PEER_v1::srcArray",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Source array reference...",
+      "filename": "cuarray_cuda_memcpy3d_peer_v1srcarray.md"
+    },
+    {
+      "id": "cucontext_cuda_memcpy3d_peer_v1srccontext",
+      "title": "CUcontext CUDA_MEMCPY3D_PEER_v1::srcContext",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Source context (ignored with srcMemoryType is CU_MEMORYTYPE_ARRAY)...",
+      "filename": "cucontext_cuda_memcpy3d_peer_v1srccontext.md"
+    },
+    {
+      "id": "cudeviceptr_cuda_memcpy3d_peer_v1srcdevice",
+      "title": "CUdeviceptr CUDA_MEMCPY3D_PEER_v1::srcDevice",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Source device pointer   CUDA Driver API TRM-06703-001 _vRelease Version  |  704   Data Structures...",
+      "filename": "cudeviceptr_cuda_memcpy3d_peer_v1srcdevice.md"
+    },
+    {
+      "id": "size_t_cuda_memcpy3d_peer_v1srcheight",
+      "title": "size_t CUDA_MEMCPY3D_PEER_v1::srcHeight",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Source height (ignored when src is array; may be 0 if Depth==1)...",
+      "filename": "size_t_cuda_memcpy3d_peer_v1srcheight.md"
+    },
+    {
+      "id": "const_void_cuda_memcpy3d_peer_v1srchost",
+      "title": "const void *CUDA_MEMCPY3D_PEER_v1::srcHost",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Source host pointer...",
+      "filename": "const_void_cuda_memcpy3d_peer_v1srchost.md"
+    },
+    {
+      "id": "size_t_cuda_memcpy3d_peer_v1srclod",
+      "title": "size_t CUDA_MEMCPY3D_PEER_v1::srcLOD",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Source LOD...",
+      "filename": "size_t_cuda_memcpy3d_peer_v1srclod.md"
+    },
+    {
+      "id": "cumemorytype_cuda_memcpy3d_peer_v1srcmemorytype",
+      "title": "CUmemorytype CUDA_MEMCPY3D_PEER_v1::srcMemoryType",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Source memory type (host, device, array)...",
+      "filename": "cumemorytype_cuda_memcpy3d_peer_v1srcmemorytype.md"
+    },
+    {
+      "id": "size_t_cuda_memcpy3d_peer_v1srcpitch",
+      "title": "size_t CUDA_MEMCPY3D_PEER_v1::srcPitch",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Source pitch (ignored when src is array)...",
+      "filename": "size_t_cuda_memcpy3d_peer_v1srcpitch.md"
+    },
+    {
+      "id": "size_t_cuda_memcpy3d_peer_v1srcxinbytes",
+      "title": "size_t CUDA_MEMCPY3D_PEER_v1::srcXInBytes",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Source X in bytes...",
+      "filename": "size_t_cuda_memcpy3d_peer_v1srcxinbytes.md"
+    },
+    {
+      "id": "size_t_cuda_memcpy3d_peer_v1srcy",
+      "title": "size_t CUDA_MEMCPY3D_PEER_v1::srcY",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Source Y...",
+      "filename": "size_t_cuda_memcpy3d_peer_v1srcy.md"
+    },
+    {
+      "id": "size_t_cuda_memcpy3d_peer_v1srcz",
+      "title": "size_t CUDA_MEMCPY3D_PEER_v1::srcZ",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Source Z...",
+      "filename": "size_t_cuda_memcpy3d_peer_v1srcz.md"
+    },
+    {
+      "id": "size_t_cuda_memcpy3d_peer_v1widthinbytes",
+      "title": "size_t CUDA_MEMCPY3D_PEER_v1::WidthInBytes",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Width of 3D memory copy in bytes...",
+      "filename": "size_t_cuda_memcpy3d_peer_v1widthinbytes.md"
+    }
+  ]
+}

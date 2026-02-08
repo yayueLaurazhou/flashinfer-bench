@@ -1,0 +1,6 @@
+# 9.6. Semantics
+
+## 9.6. [Semantics](https://docs.nvidia.com/cuda/parallel-thread-execution/#semantics)[](https://docs.nvidia.com/cuda/parallel-thread-execution/#semantics "Permalink to this headline")
+
+The goal of the semantic description of an instruction is to describe the results in all cases in as
+simple language as possible. The semantics are described using C, until C is not expressive enough.

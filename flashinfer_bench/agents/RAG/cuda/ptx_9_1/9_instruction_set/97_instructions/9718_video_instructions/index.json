@@ -1,0 +1,24 @@
+{
+  "description": "Documentation for 9.7.18. Video Instructions",
+  "directories": [
+    {
+      "name": "97181_scalar_video_instructions",
+      "description": "All scalar video instructions operate on 32-bit register operands. The scalar video instructions are:"
+    },
+    {
+      "name": "97182_simd_video_instructions",
+      "description": "The SIMD video instructions operate on pairs of 16-bit values and quads of 8-bit values."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "All video instructions operate on 32-bit register operands. However, the video instructions may be classified as either scalar or SIMD based on whether their core operation applies to one or multiple values."
+    }
+  ]
+}

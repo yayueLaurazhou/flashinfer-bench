@@ -1,0 +1,55 @@
+{
+  "description": "Documentation for 7.33. cudaGraphInstantiateParams Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "cudagraphnode_t_cudagraphinstantiateparamserrnode_out",
+      "title": "cudaGraphNode_t cudaGraphInstantiateParams::errNode_out",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "The node which caused instantiation to fail, if any...",
+      "filename": "cudagraphnode_t_cudagraphinstantiateparamserrnode_out.md"
+    },
+    {
+      "id": "unsigned_long_long_cudagraphinstantiateparamsflags",
+      "title": "unsigned long long cudaGraphInstantiateParams::flags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Instantiation flags   CUDA Runtime API vRelease Version  |  622   Data Structures...",
+      "filename": "unsigned_long_long_cudagraphinstantiateparamsflags.md"
+    },
+    {
+      "id": "cudagraphinstantiateresult_cudagraphinstantiateparamsresult_out",
+      "title": "cudaGraphInstantiateResult cudaGraphInstantiateParams::result_out",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Whether instantiation was successful. If it failed, the reason why...",
+      "filename": "cudagraphinstantiateresult_cudagraphinstantiateparamsresult_out.md"
+    },
+    {
+      "id": "cudastream_t_cudagraphinstantiateparamsuploadstream",
+      "title": "cudaStream_t cudaGraphInstantiateParams::uploadStream",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Upload stream...",
+      "filename": "cudastream_t_cudagraphinstantiateparamsuploadstream.md"
+    }
+  ]
+}

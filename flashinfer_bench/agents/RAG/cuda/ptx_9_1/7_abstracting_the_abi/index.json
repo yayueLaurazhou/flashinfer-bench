@@ -1,0 +1,40 @@
+{
+  "description": "Documentation for 7. Abstracting the ABI",
+  "directories": [
+    {
+      "name": "71_function_declarations_and_definitions",
+      "description": "In PTX, functions are declared and defined using the `.func` directive. A function *declaration* specifies an optional list of return parameters, the function name, and an optional list of input parameters; together these specify the function\u2019s interface, or prototype. A function *definition* spe..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Rather than expose details of a particular calling convention, stack layout, and Application Binary Interface (ABI), PTX provides a slightly higher-level abstraction and supports multiple ABI implementations. In this section, we describe the features of PTX needed to achieve this hiding of the AB..."
+    },
+    {
+      "id": "72_variadic_functions",
+      "title": "7.2. Variadic Functions",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "Note",
+      "filename": "72_variadic_functions.md"
+    },
+    {
+      "id": "73_alloca",
+      "title": "7.3. Alloca",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "PTX provides `alloca` instruction for allocating storage at runtime on the per-thread local memory stack. The allocated stack memory can be accessed with `ld.local` and `st.local` instructions using the pointer returned by `alloca`.",
+      "filename": "73_alloca.md"
+    }
+  ]
+}

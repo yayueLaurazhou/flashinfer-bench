@@ -1,0 +1,75 @@
+{
+  "description": "Documentation for 9.7.10. Texture Instructions",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "This section describes PTX instructions for accessing textures and samplers. PTX supports the following operations on texture and sampler descriptors:"
+    },
+    {
+      "id": "97101_texturing_modes",
+      "title": "9.7.10.1. Texturing Modes",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "For working with textures and samplers, PTX has two modes of operation. In the *unified mode,* texture and sampler information is accessed through a single `.texref` handle. In the *independent mode*, texture and sampler information each have their own handle, allowing them to be defined separate...",
+      "filename": "97101_texturing_modes.md"
+    },
+    {
+      "id": "97102_mipmaps",
+      "title": "9.7.10.2. Mipmaps",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "A *mipmap* is a sequence of textures, each of which is a progressively lower resolution representation of the same image. The height and width of each image, or level of detail (LOD), in the mipmap is a power of two smaller than the previous level. Mipmaps are used in graphics applications to imp...",
+      "filename": "97102_mipmaps.md"
+    },
+    {
+      "id": "97103_texture_instructions_tex",
+      "title": "9.7.10.3. Texture Instructions: tex",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`tex`",
+      "filename": "97103_texture_instructions_tex.md"
+    },
+    {
+      "id": "97104_texture_instructions_tld4",
+      "title": "9.7.10.4. Texture Instructions: tld4",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`tld4`",
+      "filename": "97104_texture_instructions_tld4.md"
+    },
+    {
+      "id": "97105_texture_instructions_txq",
+      "title": "9.7.10.5. Texture Instructions: txq",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`txq`",
+      "filename": "97105_texture_instructions_txq.md"
+    },
+    {
+      "id": "97106_texture_instructions_istypep",
+      "title": "9.7.10.6. Texture Instructions: istypep",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "`istypep`",
+      "filename": "97106_texture_instructions_istypep.md"
+    }
+  ]
+}

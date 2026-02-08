@@ -1,0 +1,25 @@
+{
+  "description": "Documentation for 9.7.16.4.1. Shared memory descriptor",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "The shared memory descriptor describes the properties of multiplicand matrix in shared memory including its location in the shared memory of the current *CTA*. It is a 64-bit value contained in a register with the following layout:"
+    },
+    {
+      "id": "9716411_target_isa_note",
+      "title": "9.7.16.4.1.1. Target ISA Note",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "* The byte address mode for the leading dimension stride is supported on `sm_103a`.",
+      "filename": "9716411_target_isa_note.md"
+    }
+  ]
+}

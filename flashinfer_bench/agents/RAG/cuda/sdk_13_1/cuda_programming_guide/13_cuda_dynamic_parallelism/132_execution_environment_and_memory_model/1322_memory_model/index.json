@@ -1,0 +1,20 @@
+{
+  "description": "Documentation for 13.2.2. Memory Model",
+  "directories": [
+    {
+      "name": "13221_coherence_and_consistency",
+      "description": "#### 13.2.2.1. Coherence and Consistency[\uf0c1](#coherence-and-consistency \"Permalink to this headline\")..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    }
+  ]
+}

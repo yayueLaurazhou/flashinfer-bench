@@ -1,0 +1,95 @@
+{
+  "description": "Documentation for 6.6. External Resource Interoperability",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "__host__cudaerror_t_cudadestroyexternalmemory_cudaexter_8e45aced",
+      "title": "__host__cudaError_t cudaDestroyExternalMemory (cudaExternalMemory_t extMem)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Destroys an external memory object....",
+      "filename": "__host__cudaerror_t_cudadestroyexternalmemory_cudaexter_8e45aced.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudadestroyexternalsemaphore_cudaex_46d3d7b3",
+      "title": "__host__cudaError_t cudaDestroyExternalSemaphore (cudaExternalSemaphore_t extSem)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Destroys an external semaphore....",
+      "filename": "__host__cudaerror_t_cudadestroyexternalsemaphore_cudaex_46d3d7b3.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudaexternalmemorygetmappedbuffer_v_0fa1e687",
+      "title": "__host__cudaError_t cudaExternalMemoryGetMappedBuffer (void **devPtr, cudaExternalMemory_t extMem, const cudaExternalMemoryBufferDesc *bufferDesc)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Maps a buffer onto an imported memory object....",
+      "filename": "__host__cudaerror_t_cudaexternalmemorygetmappedbuffer_v_0fa1e687.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudaexternalmemorygetmappedmipmappe_4d91a143",
+      "title": "__host__cudaError_t cudaExternalMemoryGetMappedMipmappedArray (cudaMipmappedArray_t *mipmap, cudaExternalMemory_t extMem, const cudaExternalMemoryMipmappedArrayDesc *mipmapDesc)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Maps a CUDA mipmapped array onto an external memory object....",
+      "filename": "__host__cudaerror_t_cudaexternalmemorygetmappedmipmappe_4d91a143.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudaimportexternalmemory_cudaextern_d3cf7a74",
+      "title": "__host__cudaError_t cudaImportExternalMemory (cudaExternalMemory_t *extMem_out, const cudaExternalMemoryHandleDesc *memHandleDesc)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Imports an external memory object....",
+      "filename": "__host__cudaerror_t_cudaimportexternalmemory_cudaextern_d3cf7a74.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudaimportexternalsemaphore_cudaext_08d588f8",
+      "title": "__host__cudaError_t cudaImportExternalSemaphore (cudaExternalSemaphore_t *extSem_out, const cudaExternalSemaphoreHandleDesc *semHandleDesc)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Imports an external semaphore....",
+      "filename": "__host__cudaerror_t_cudaimportexternalsemaphore_cudaext_08d588f8.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudasignalexternalsemaphoresasync_c_b8bbe4c0",
+      "title": "__host__cudaError_t cudaSignalExternalSemaphoresAsync (const cudaExternalSemaphore_t *extSemArray, const cudaExternalSemaphoreSignalParams *paramsArray, unsigned int numExtSems, cudaStream_t stream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Signals a set of external semaphore objects....",
+      "filename": "__host__cudaerror_t_cudasignalexternalsemaphoresasync_c_b8bbe4c0.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudawaitexternalsemaphoresasync_con_91e3e0cb",
+      "title": "__host__cudaError_t cudaWaitExternalSemaphoresAsync (const cudaExternalSemaphore_t *extSemArray, const cudaExternalSemaphoreWaitParams *paramsArray, unsigned int numExtSems, cudaStream_t stream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Waits on a set of external semaphore objects....",
+      "filename": "__host__cudaerror_t_cudawaitexternalsemaphoresasync_con_91e3e0cb.md"
+    }
+  ]
+}

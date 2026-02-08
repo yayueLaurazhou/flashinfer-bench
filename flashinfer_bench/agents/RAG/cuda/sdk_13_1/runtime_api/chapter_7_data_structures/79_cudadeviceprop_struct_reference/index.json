@@ -1,0 +1,945 @@
+{
+  "description": "Documentation for 7.9. cudaDeviceProp Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "int_cudadevicepropaccesspolicymaxwindowsize",
+      "title": "int cudaDeviceProp::accessPolicyMaxWindowSize",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "The maximum value of cudaAccessPolicyWindow::num_bytes.   CUDA Runtime API vRelease Version  |  595   Data Structures...",
+      "filename": "int_cudadevicepropaccesspolicymaxwindowsize.md"
+    },
+    {
+      "id": "int_cudadevicepropasyncenginecount",
+      "title": "int cudaDeviceProp::asyncEngineCount",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Number of asynchronous engines...",
+      "filename": "int_cudadevicepropasyncenginecount.md"
+    },
+    {
+      "id": "int_cudadevicepropcanmaphostmemory",
+      "title": "int cudaDeviceProp::canMapHostMemory",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Device can map host memory with cudaHostAlloc/cudaHostGetDevicePointer...",
+      "filename": "int_cudadevicepropcanmaphostmemory.md"
+    },
+    {
+      "id": "int_cudadevicepropcanusehostpointerforregisteredmem",
+      "title": "int cudaDeviceProp::canUseHostPointerForRegisteredMem",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Device can access host registered memory at the same virtual address as the CPU...",
+      "filename": "int_cudadevicepropcanusehostpointerforregisteredmem.md"
+    },
+    {
+      "id": "int_cudadevicepropclusterlaunch",
+      "title": "int cudaDeviceProp::clusterLaunch",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Indicates device supports cluster launch...",
+      "filename": "int_cudadevicepropclusterlaunch.md"
+    },
+    {
+      "id": "int_cudadevicepropcomputepreemptionsupported",
+      "title": "int cudaDeviceProp::computePreemptionSupported",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Device supports Compute Preemption...",
+      "filename": "int_cudadevicepropcomputepreemptionsupported.md"
+    },
+    {
+      "id": "int_cudadevicepropconcurrentkernels",
+      "title": "int cudaDeviceProp::concurrentKernels",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Device can possibly execute multiple kernels concurrently...",
+      "filename": "int_cudadevicepropconcurrentkernels.md"
+    },
+    {
+      "id": "int_cudadevicepropconcurrentmanagedaccess",
+      "title": "int cudaDeviceProp::concurrentManagedAccess",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Device can coherently access managed memory concurrently with the CPU...",
+      "filename": "int_cudadevicepropconcurrentmanagedaccess.md"
+    },
+    {
+      "id": "int_cudadevicepropcooperativelaunch",
+      "title": "int cudaDeviceProp::cooperativeLaunch",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Device supports launching cooperative kernels via cudaLaunchCooperativeKernel...",
+      "filename": "int_cudadevicepropcooperativelaunch.md"
+    },
+    {
+      "id": "int_cudadevicepropdeferredmappingcudaarraysupported",
+      "title": "int cudaDeviceProp::deferredMappingCudaArraySupported",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "1 if the device supports deferred mapping CUDA arrays and CUDA mipmapped arrays...",
+      "filename": "int_cudadevicepropdeferredmappingcudaarraysupported.md"
+    },
+    {
+      "id": "int_cudadevicepropdevicenumaconfig",
+      "title": "int cudaDeviceProp::deviceNumaConfig",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "NUMA configuration of a device: value is of type cudaDeviceNumaConfig enum...",
+      "filename": "int_cudadevicepropdevicenumaconfig.md"
+    },
+    {
+      "id": "int_cudadevicepropdevicenumaid",
+      "title": "int cudaDeviceProp::deviceNumaId",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "NUMA node ID of the GPU memory   CUDA Runtime API vRelease Version  |  596   Data Structures...",
+      "filename": "int_cudadevicepropdevicenumaid.md"
+    },
+    {
+      "id": "int_cudadevicepropdirectmanagedmemaccessfromhost",
+      "title": "int cudaDeviceProp::directManagedMemAccessFromHost",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Host can directly access managed memory on the device without migration....",
+      "filename": "int_cudadevicepropdirectmanagedmemaccessfromhost.md"
+    },
+    {
+      "id": "int_cudadevicepropeccenabled",
+      "title": "int cudaDeviceProp::ECCEnabled",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Device has ECC support enabled...",
+      "filename": "int_cudadevicepropeccenabled.md"
+    },
+    {
+      "id": "int_cudadevicepropgloball1cachesupported",
+      "title": "int cudaDeviceProp::globalL1CacheSupported",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Device supports caching globals in L1...",
+      "filename": "int_cudadevicepropgloball1cachesupported.md"
+    },
+    {
+      "id": "unsigned_int_cudadevicepropgpudirectrdmaflushwritesoptions",
+      "title": "unsigned int cudaDeviceProp::gpuDirectRDMAFlushWritesOptions",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Bitmask to be interpreted according to the cudaFlushGPUDirectRDMAWritesOptions enum...",
+      "filename": "unsigned_int_cudadevicepropgpudirectrdmaflushwritesoptions.md"
+    },
+    {
+      "id": "int_cudadevicepropgpudirectrdmasupported",
+      "title": "int cudaDeviceProp::gpuDirectRDMASupported",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "1 if the device supports GPUDirect RDMA APIs, 0 otherwise...",
+      "filename": "int_cudadevicepropgpudirectrdmasupported.md"
+    },
+    {
+      "id": "int_cudadevicepropgpudirectrdmawritesordering",
+      "title": "int cudaDeviceProp::gpuDirectRDMAWritesOrdering",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "See the cudaGPUDirectRDMAWritesOrdering enum for numerical values...",
+      "filename": "int_cudadevicepropgpudirectrdmawritesordering.md"
+    },
+    {
+      "id": "unsigned_int_cudadevicepropgpupcideviceid",
+      "title": "unsigned int cudaDeviceProp::gpuPciDeviceID",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "The combined 16-bit PCI device ID and 16-bit PCI vendor ID...",
+      "filename": "unsigned_int_cudadevicepropgpupcideviceid.md"
+    },
+    {
+      "id": "unsigned_int_cudadevicepropgpupcisubsystemid",
+      "title": "unsigned int cudaDeviceProp::gpuPciSubsystemID",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "The combined 16-bit PCI subsystem ID and 16-bit PCI subsystem vendor ID...",
+      "filename": "unsigned_int_cudadevicepropgpupcisubsystemid.md"
+    },
+    {
+      "id": "int_cudadeviceprophostnativeatomicsupported",
+      "title": "int cudaDeviceProp::hostNativeAtomicSupported",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Link between the device and the host supports native atomic operations...",
+      "filename": "int_cudadeviceprophostnativeatomicsupported.md"
+    },
+    {
+      "id": "int_cudadeviceprophostnumaid",
+      "title": "int cudaDeviceProp::hostNumaId",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "NUMA ID of the host node closest to the device or -1 when system does not support NUMA   CUDA Runtime API vRelease Version  |  597   Data Structures...",
+      "filename": "int_cudadeviceprophostnumaid.md"
+    },
+    {
+      "id": "int_cudadeviceprophostnumamultinodeipcsupported",
+      "title": "int cudaDeviceProp::hostNumaMultinodeIpcSupported",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "1 if the device supports HostNuma location IPC between nodes in a multi-node system....",
+      "filename": "int_cudadeviceprophostnumamultinodeipcsupported.md"
+    },
+    {
+      "id": "int_cudadeviceprophostregisterreadonlysupported",
+      "title": "int cudaDeviceProp::hostRegisterReadOnlySupported",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Device supports using the cudaHostRegister flag cudaHostRegisterReadOnly to register memory that must be mapped as read-only to the GPU...",
+      "filename": "int_cudadeviceprophostregisterreadonlysupported.md"
+    },
+    {
+      "id": "int_cudadeviceprophostregistersupported",
+      "title": "int cudaDeviceProp::hostRegisterSupported",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Device supports host memory registration via cudaHostRegister....",
+      "filename": "int_cudadeviceprophostregistersupported.md"
+    },
+    {
+      "id": "int_cudadevicepropintegrated",
+      "title": "int cudaDeviceProp::integrated",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Device is integrated as opposed to discrete...",
+      "filename": "int_cudadevicepropintegrated.md"
+    },
+    {
+      "id": "int_cudadevicepropipceventsupported",
+      "title": "int cudaDeviceProp::ipcEventSupported",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Device supports IPC Events....",
+      "filename": "int_cudadevicepropipceventsupported.md"
+    },
+    {
+      "id": "int_cudadevicepropismultigpuboard",
+      "title": "int cudaDeviceProp::isMultiGpuBoard",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Device is on a multi-GPU board...",
+      "filename": "int_cudadevicepropismultigpuboard.md"
+    },
+    {
+      "id": "int_cudadevicepropl2cachesize",
+      "title": "int cudaDeviceProp::l2CacheSize",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Size of L2 cache in bytes...",
+      "filename": "int_cudadevicepropl2cachesize.md"
+    },
+    {
+      "id": "int_cudadeviceproplocall1cachesupported",
+      "title": "int cudaDeviceProp::localL1CacheSupported",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Device supports caching locals in L1...",
+      "filename": "int_cudadeviceproplocall1cachesupported.md"
+    },
+    {
+      "id": "char_cudadevicepropluid",
+      "title": "char cudaDeviceProp::luid",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "8-byte locally unique identifier. Value is undefined on TCC and non-Windows platforms...",
+      "filename": "char_cudadevicepropluid.md"
+    },
+    {
+      "id": "unsigned_int_cudadevicepropluiddevicenodemask",
+      "title": "unsigned int cudaDeviceProp::luidDeviceNodeMask",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "LUID device node mask. Value is undefined on TCC and non-Windows platforms   CUDA Runtime API vRelease Version  |  598   Data Structures...",
+      "filename": "unsigned_int_cudadevicepropluiddevicenodemask.md"
+    },
+    {
+      "id": "int_cudadevicepropmajor",
+      "title": "int cudaDeviceProp::major",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Major compute capability...",
+      "filename": "int_cudadevicepropmajor.md"
+    },
+    {
+      "id": "int_cudadevicepropmanagedmemory",
+      "title": "int cudaDeviceProp::managedMemory",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Device supports allocating managed memory on this system...",
+      "filename": "int_cudadevicepropmanagedmemory.md"
+    },
+    {
+      "id": "int_cudadevicepropmaxblockspermultiprocessor",
+      "title": "int cudaDeviceProp::maxBlocksPerMultiProcessor",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Maximum number of resident blocks per multiprocessor...",
+      "filename": "int_cudadevicepropmaxblockspermultiprocessor.md"
+    },
+    {
+      "id": "int_cudadevicepropmaxgridsize",
+      "title": "int cudaDeviceProp::maxGridSize",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Maximum size of each dimension of a grid...",
+      "filename": "int_cudadevicepropmaxgridsize.md"
+    },
+    {
+      "id": "int_cudadevicepropmaxsurface1d",
+      "title": "int cudaDeviceProp::maxSurface1D",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Maximum 1D surface size...",
+      "filename": "int_cudadevicepropmaxsurface1d.md"
+    },
+    {
+      "id": "int_cudadevicepropmaxsurface1dlayered",
+      "title": "int cudaDeviceProp::maxSurface1DLayered",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Maximum 1D layered surface dimensions...",
+      "filename": "int_cudadevicepropmaxsurface1dlayered.md"
+    },
+    {
+      "id": "int_cudadevicepropmaxsurface2d",
+      "title": "int cudaDeviceProp::maxSurface2D",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Maximum 2D surface dimensions...",
+      "filename": "int_cudadevicepropmaxsurface2d.md"
+    },
+    {
+      "id": "int_cudadevicepropmaxsurface2dlayered",
+      "title": "int cudaDeviceProp::maxSurface2DLayered",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Maximum 2D layered surface dimensions...",
+      "filename": "int_cudadevicepropmaxsurface2dlayered.md"
+    },
+    {
+      "id": "int_cudadevicepropmaxsurface3d",
+      "title": "int cudaDeviceProp::maxSurface3D",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Maximum 3D surface dimensions...",
+      "filename": "int_cudadevicepropmaxsurface3d.md"
+    },
+    {
+      "id": "int_cudadevicepropmaxsurfacecubemap",
+      "title": "int cudaDeviceProp::maxSurfaceCubemap",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Maximum Cubemap surface dimensions...",
+      "filename": "int_cudadevicepropmaxsurfacecubemap.md"
+    },
+    {
+      "id": "int_cudadevicepropmaxsurfacecubemaplayered",
+      "title": "int cudaDeviceProp::maxSurfaceCubemapLayered",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Maximum Cubemap layered surface dimensions   CUDA Runtime API vRelease Version  |  599   Data Structures...",
+      "filename": "int_cudadevicepropmaxsurfacecubemaplayered.md"
+    },
+    {
+      "id": "int_cudadevicepropmaxtexture1d",
+      "title": "int cudaDeviceProp::maxTexture1D",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Maximum 1D texture size...",
+      "filename": "int_cudadevicepropmaxtexture1d.md"
+    },
+    {
+      "id": "int_cudadevicepropmaxtexture1dlayered",
+      "title": "int cudaDeviceProp::maxTexture1DLayered",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Maximum 1D layered texture dimensions...",
+      "filename": "int_cudadevicepropmaxtexture1dlayered.md"
+    },
+    {
+      "id": "int_cudadevicepropmaxtexture1dmipmap",
+      "title": "int cudaDeviceProp::maxTexture1DMipmap",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Maximum 1D mipmapped texture size...",
+      "filename": "int_cudadevicepropmaxtexture1dmipmap.md"
+    },
+    {
+      "id": "int_cudadevicepropmaxtexture2d",
+      "title": "int cudaDeviceProp::maxTexture2D",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Maximum 2D texture dimensions...",
+      "filename": "int_cudadevicepropmaxtexture2d.md"
+    },
+    {
+      "id": "int_cudadevicepropmaxtexture2dgather",
+      "title": "int cudaDeviceProp::maxTexture2DGather",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Maximum 2D texture dimensions if texture gather operations have to be performed...",
+      "filename": "int_cudadevicepropmaxtexture2dgather.md"
+    },
+    {
+      "id": "int_cudadevicepropmaxtexture2dlayered",
+      "title": "int cudaDeviceProp::maxTexture2DLayered",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Maximum 2D layered texture dimensions...",
+      "filename": "int_cudadevicepropmaxtexture2dlayered.md"
+    },
+    {
+      "id": "int_cudadevicepropmaxtexture2dlinear",
+      "title": "int cudaDeviceProp::maxTexture2DLinear",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Maximum dimensions (width, height, pitch) for 2D textures bound to pitched memory...",
+      "filename": "int_cudadevicepropmaxtexture2dlinear.md"
+    },
+    {
+      "id": "int_cudadevicepropmaxtexture2dmipmap",
+      "title": "int cudaDeviceProp::maxTexture2DMipmap",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Maximum 2D mipmapped texture dimensions...",
+      "filename": "int_cudadevicepropmaxtexture2dmipmap.md"
+    },
+    {
+      "id": "int_cudadevicepropmaxtexture3d",
+      "title": "int cudaDeviceProp::maxTexture3D",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Maximum 3D texture dimensions...",
+      "filename": "int_cudadevicepropmaxtexture3d.md"
+    },
+    {
+      "id": "int_cudadevicepropmaxtexture3dalt",
+      "title": "int cudaDeviceProp::maxTexture3DAlt",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Maximum alternate 3D texture dimensions...",
+      "filename": "int_cudadevicepropmaxtexture3dalt.md"
+    },
+    {
+      "id": "int_cudadevicepropmaxtexturecubemap",
+      "title": "int cudaDeviceProp::maxTextureCubemap",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Maximum Cubemap texture dimensions   CUDA Runtime API vRelease Version  |  600   Data Structures...",
+      "filename": "int_cudadevicepropmaxtexturecubemap.md"
+    },
+    {
+      "id": "int_cudadevicepropmaxtexturecubemaplayered",
+      "title": "int cudaDeviceProp::maxTextureCubemapLayered",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Maximum Cubemap layered texture dimensions...",
+      "filename": "int_cudadevicepropmaxtexturecubemaplayered.md"
+    },
+    {
+      "id": "int_cudadevicepropmaxthreadsdim",
+      "title": "int cudaDeviceProp::maxThreadsDim",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Maximum size of each dimension of a block...",
+      "filename": "int_cudadevicepropmaxthreadsdim.md"
+    },
+    {
+      "id": "int_cudadevicepropmaxthreadsperblock",
+      "title": "int cudaDeviceProp::maxThreadsPerBlock",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Maximum number of threads per block...",
+      "filename": "int_cudadevicepropmaxthreadsperblock.md"
+    },
+    {
+      "id": "int_cudadevicepropmaxthreadspermultiprocessor",
+      "title": "int cudaDeviceProp::maxThreadsPerMultiProcessor",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Maximum resident threads per multiprocessor...",
+      "filename": "int_cudadevicepropmaxthreadspermultiprocessor.md"
+    },
+    {
+      "id": "int_cudadevicepropmemorybuswidth",
+      "title": "int cudaDeviceProp::memoryBusWidth",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Global memory bus width in bits...",
+      "filename": "int_cudadevicepropmemorybuswidth.md"
+    },
+    {
+      "id": "int_cudadevicepropmemorypoolssupported",
+      "title": "int cudaDeviceProp::memoryPoolsSupported",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "1 if the device supports using the cudaMallocAsync and cudaMemPool family of APIs, 0 otherwise...",
+      "filename": "int_cudadevicepropmemorypoolssupported.md"
+    },
+    {
+      "id": "unsigned_int_cudadevicepropmemorypoolsupportedhandletypes",
+      "title": "unsigned int cudaDeviceProp::memoryPoolSupportedHandleTypes",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Bitmask of handle types supported with mempool-based IPC...",
+      "filename": "unsigned_int_cudadevicepropmemorypoolsupportedhandletypes.md"
+    },
+    {
+      "id": "size_t_cudadevicepropmempitch",
+      "title": "size_t cudaDeviceProp::memPitch",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Maximum pitch in bytes allowed by memory copies...",
+      "filename": "size_t_cudadevicepropmempitch.md"
+    },
+    {
+      "id": "int_cudadevicepropminor",
+      "title": "int cudaDeviceProp::minor",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Minor compute capability...",
+      "filename": "int_cudadevicepropminor.md"
+    },
+    {
+      "id": "int_cudadevicepropmpsenabled",
+      "title": "int cudaDeviceProp::mpsEnabled",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Indicates if contexts created on this device will be shared via MPS   CUDA Runtime API vRelease Version  |  601   Data Structures...",
+      "filename": "int_cudadevicepropmpsenabled.md"
+    },
+    {
+      "id": "int_cudadevicepropmultigpuboardgroupid",
+      "title": "int cudaDeviceProp::multiGpuBoardGroupID",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Unique identifier for a group of devices on the same multi-GPU board...",
+      "filename": "int_cudadevicepropmultigpuboardgroupid.md"
+    },
+    {
+      "id": "int_cudadevicepropmultiprocessorcount",
+      "title": "int cudaDeviceProp::multiProcessorCount",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Number of multiprocessors on device...",
+      "filename": "int_cudadevicepropmultiprocessorcount.md"
+    },
+    {
+      "id": "char_cudadevicepropname",
+      "title": "char cudaDeviceProp::name",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "ASCII string identifying device...",
+      "filename": "char_cudadevicepropname.md"
+    },
+    {
+      "id": "int_cudadeviceproppageablememoryaccess",
+      "title": "int cudaDeviceProp::pageableMemoryAccess",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Device supports coherently accessing pageable memory without calling cudaHostRegister on it...",
+      "filename": "int_cudadeviceproppageablememoryaccess.md"
+    },
+    {
+      "id": "int_cudadeviceproppageablememoryaccessuseshostpagetables",
+      "title": "int cudaDeviceProp::pageableMemoryAccessUsesHostPageTables",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Device accesses pageable memory via the host's page tables...",
+      "filename": "int_cudadeviceproppageablememoryaccessuseshostpagetables.md"
+    },
+    {
+      "id": "int_cudadeviceproppcibusid",
+      "title": "int cudaDeviceProp::pciBusID",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "PCI bus ID of the device...",
+      "filename": "int_cudadeviceproppcibusid.md"
+    },
+    {
+      "id": "int_cudadeviceproppcideviceid",
+      "title": "int cudaDeviceProp::pciDeviceID",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "PCI device ID of the device...",
+      "filename": "int_cudadeviceproppcideviceid.md"
+    },
+    {
+      "id": "int_cudadeviceproppcidomainid",
+      "title": "int cudaDeviceProp::pciDomainID",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "PCI domain ID of the device...",
+      "filename": "int_cudadeviceproppcidomainid.md"
+    },
+    {
+      "id": "int_cudadeviceproppersistingl2cachemaxsize",
+      "title": "int cudaDeviceProp::persistingL2CacheMaxSize",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Device's maximum l2 persisting lines capacity setting in bytes...",
+      "filename": "int_cudadeviceproppersistingl2cachemaxsize.md"
+    },
+    {
+      "id": "int_cudadevicepropregsperblock",
+      "title": "int cudaDeviceProp::regsPerBlock",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "32-bit registers available per block   CUDA Runtime API vRelease Version  |  602   Data Structures...",
+      "filename": "int_cudadevicepropregsperblock.md"
+    },
+    {
+      "id": "int_cudadevicepropregspermultiprocessor",
+      "title": "int cudaDeviceProp::regsPerMultiprocessor",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "32-bit registers available per multiprocessor...",
+      "filename": "int_cudadevicepropregspermultiprocessor.md"
+    },
+    {
+      "id": "int_cudadevicepropreserved",
+      "title": "int cudaDeviceProp::reserved",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Reserved for future use...",
+      "filename": "int_cudadevicepropreserved.md"
+    },
+    {
+      "id": "size_t_cudadevicepropreservedsharedmemperblock",
+      "title": "size_t cudaDeviceProp::reservedSharedMemPerBlock",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Shared memory reserved by CUDA driver per block in bytes...",
+      "filename": "size_t_cudadevicepropreservedsharedmemperblock.md"
+    },
+    {
+      "id": "size_t_cudadevicepropsharedmemperblock",
+      "title": "size_t cudaDeviceProp::sharedMemPerBlock",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Shared memory available per block in bytes...",
+      "filename": "size_t_cudadevicepropsharedmemperblock.md"
+    },
+    {
+      "id": "size_t_cudadevicepropsharedmemperblockoptin",
+      "title": "size_t cudaDeviceProp::sharedMemPerBlockOptin",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Per device maximum shared memory per block usable by special opt in...",
+      "filename": "size_t_cudadevicepropsharedmemperblockoptin.md"
+    },
+    {
+      "id": "size_t_cudadevicepropsharedmempermultiprocessor",
+      "title": "size_t cudaDeviceProp::sharedMemPerMultiprocessor",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Shared memory available per multiprocessor in bytes...",
+      "filename": "size_t_cudadevicepropsharedmempermultiprocessor.md"
+    },
+    {
+      "id": "int_cudadevicepropsparsecudaarraysupported",
+      "title": "int cudaDeviceProp::sparseCudaArraySupported",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "1 if the device supports sparse CUDA arrays and sparse CUDA mipmapped arrays, 0 otherwise...",
+      "filename": "int_cudadevicepropsparsecudaarraysupported.md"
+    },
+    {
+      "id": "int_cudadevicepropstreamprioritiessupported",
+      "title": "int cudaDeviceProp::streamPrioritiesSupported",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Device supports stream priorities...",
+      "filename": "int_cudadevicepropstreamprioritiessupported.md"
+    },
+    {
+      "id": "size_t_cudadevicepropsurfacealignment",
+      "title": "size_t cudaDeviceProp::surfaceAlignment",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Alignment requirements for surfaces...",
+      "filename": "size_t_cudadevicepropsurfacealignment.md"
+    },
+    {
+      "id": "int_cudadeviceproptccdriver",
+      "title": "int cudaDeviceProp::tccDriver",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "1 if device is a Tesla device using TCC driver, 0 otherwise...",
+      "filename": "int_cudadeviceproptccdriver.md"
+    },
+    {
+      "id": "size_t_cudadeviceproptexturealignment",
+      "title": "size_t cudaDeviceProp::textureAlignment",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Alignment requirement for textures   CUDA Runtime API vRelease Version  |  603   Data Structures...",
+      "filename": "size_t_cudadeviceproptexturealignment.md"
+    },
+    {
+      "id": "size_t_cudadeviceproptexturepitchalignment",
+      "title": "size_t cudaDeviceProp::texturePitchAlignment",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Pitch alignment requirement for texture references bound to pitched memory...",
+      "filename": "size_t_cudadeviceproptexturepitchalignment.md"
+    },
+    {
+      "id": "int_cudadeviceproptimelinesemaphoreinteropsupported",
+      "title": "int cudaDeviceProp::timelineSemaphoreInteropSupported",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "External timeline semaphore interop is supported on the device...",
+      "filename": "int_cudadeviceproptimelinesemaphoreinteropsupported.md"
+    },
+    {
+      "id": "size_t_cudadeviceproptotalconstmem",
+      "title": "size_t cudaDeviceProp::totalConstMem",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Constant memory available on device in bytes...",
+      "filename": "size_t_cudadeviceproptotalconstmem.md"
+    },
+    {
+      "id": "size_t_cudadeviceproptotalglobalmem",
+      "title": "size_t cudaDeviceProp::totalGlobalMem",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Global memory available on device in bytes...",
+      "filename": "size_t_cudadeviceproptotalglobalmem.md"
+    },
+    {
+      "id": "int_cudadevicepropunifiedaddressing",
+      "title": "int cudaDeviceProp::unifiedAddressing",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Device shares a unified address space with the host...",
+      "filename": "int_cudadevicepropunifiedaddressing.md"
+    },
+    {
+      "id": "int_cudadevicepropunifiedfunctionpointers",
+      "title": "int cudaDeviceProp::unifiedFunctionPointers",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Indicates device supports unified pointers...",
+      "filename": "int_cudadevicepropunifiedfunctionpointers.md"
+    },
+    {
+      "id": "cudauuid_t_cudadevicepropuuid",
+      "title": "cudaUUID_t cudaDeviceProp::uuid",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "16-byte unique identifier...",
+      "filename": "cudauuid_t_cudadevicepropuuid.md"
+    },
+    {
+      "id": "int_cudadevicepropwarpsize",
+      "title": "int cudaDeviceProp::warpSize",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Warp size in threads...",
+      "filename": "int_cudadevicepropwarpsize.md"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+    "sections": [
+        {
+            "title": "Chapter 1. Difference between the driver and runtime APIs",
+            "description": "This section contrasts the two APIs, noting that while the Runtime API favors simplicity by implicitly managing device contexts and module loading, the Driver API provides granular control over these resources. It highlights that the Runtime API's reliance on a shared 'primary context' can be risky for libraries or plugins—where one component might accidentally destroy a context needed by another—and suggests using the Driver API's explicit context management to isolate execution states and avoid conflicts."
+        },
+        {
+            "title": "Chapter 2. API synchronization behavior",
+            "description": "This section explains that API calls, particularly memory copies (memcpy) and sets (memset), may block the host thread even if they carry an 'Async' suffix. It defines the specific conditions under which transfers are synchronous (e.g., involving pageable host memory which requires staging) versus truly asynchronous. It clarifies that while kernel launches are standardly asynchronous, memory operations depend heavily on the type of host memory (pinned vs. pageable) and the direction of the transfer."
+        },
+        {
+            "title": "Chapter 3. Stream synchronization behavior",
+            "description": "This section describes the behavior of the 'default stream' (stream 0), which can operate in two distinct modes: 'Legacy,' which forces synchronization with all other blocking streams in the same context (effectively serializing operations), and 'Per-thread,' which isolates the default stream to the calling thread to allow concurrency. It details how developers can toggle between these modes using compiler flags or preprocessor macros to optimize synchronization overhead."
+        },
+        {
+            "title": "Chapter 4. Graph object thread safety",
+            "description": "This section explicitly states that CUDA Graph objects (CUgraph) and their associated management APIs are not thread-safe. It emphasizes that applications must enforce their own external serialization (e.g., using locks) if multiple threads need to access or modify the same graph instance, as concurrent access can lead to race conditions and undefined behavior."
+        },
+        {
+            "title": "Chapter 5. Rules for version mixing",
+            "description": "This section provides guidelines for maintaining binary compatibility, warning that CUDA Runtime types are tied to major release versions and cannot be safely mixed across different toolkit versions. It explains the Driver API's versioning scheme—denoted by suffixes like _v2—and enforces strict rules that resources (such as memory allocations or contexts) must be managed and freed using the specific API version they were created with."
+        },
+        {
+            "title": "Chapter 6. Modules",
+            "description": "This comprehensive reference section organizes the Driver API functions into logical groups, covering the full lifecycle of CUDA applications from Initialization and Device Management to Context and Module control. It details specific subsystems like Memory Management, Execution Control, and Graph Management, as well as providing the interface definitions for interoperability with external graphics APIs like OpenGL and Direct3D."
+        },
+        {
+            "title": "Chapter 7. Data Structures",
+            "description": "This section catalogues the specific C-structs and unions required to interact with the API, defining the member fields used to configure kernel launches, describe memory layouts (such as 3D arrays and textures), and set parameters for graph nodes. It serves as the dictionary for the parameter objects passed to the functions listed in the Modules section."
+        }
+    ]
+}

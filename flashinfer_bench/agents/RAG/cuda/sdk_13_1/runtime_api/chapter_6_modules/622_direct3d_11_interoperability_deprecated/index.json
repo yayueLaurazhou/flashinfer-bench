@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 6.22. Direct3D 11 Interoperability [DEPRECATED]",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "__host__cudaerror_t_cudad3d11getdirect3ddevice_id3d11de_a3d8cc60",
+      "title": "__host__cudaError_t cudaD3D11GetDirect3DDevice (ID3D11Device **ppD3D11Device)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Gets the Direct3D device against which the current CUDA context was created....",
+      "filename": "__host__cudaerror_t_cudad3d11getdirect3ddevice_id3d11de_a3d8cc60.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudad3d11setdirect3ddevice_id3d11de_36ee8584",
+      "title": "__host__cudaError_t cudaD3D11SetDirect3DDevice (ID3D11Device *pD3D11Device, int device)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets the Direct3D 11 device to use for interoperability with a CUDA device....",
+      "filename": "__host__cudaerror_t_cudad3d11setdirect3ddevice_id3d11de_36ee8584.md"
+    }
+  ]
+}

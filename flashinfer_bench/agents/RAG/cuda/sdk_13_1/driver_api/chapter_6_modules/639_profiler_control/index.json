@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 6.39. Profiler Control",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "curesult_cuprofilerstart_void",
+      "title": "CUresult cuProfilerStart (void)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Enable profiling....",
+      "filename": "curesult_cuprofilerstart_void.md"
+    },
+    {
+      "id": "curesult_cuprofilerstop_void",
+      "title": "CUresult cuProfilerStop (void)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Disable profiling....",
+      "filename": "curesult_cuprofilerstop_void.md"
+    }
+  ]
+}

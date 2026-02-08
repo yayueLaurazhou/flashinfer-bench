@@ -1,0 +1,45 @@
+{
+  "description": "Documentation for 7.27. cudaExternalSemaphoreWaitNodeParams Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "cudaexternalsemaphore_t_cudaexternalsemaphorewaitnodepa_c374f72f",
+      "title": "cudaExternalSemaphore_t *cudaExternalSemaphoreWaitNodeParams::extSemArray",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Array of external semaphore handles.   CUDA Runtime API vRelease Version  |  616   Data Structures...",
+      "filename": "cudaexternalsemaphore_t_cudaexternalsemaphorewaitnodepa_c374f72f.md"
+    },
+    {
+      "id": "unsigned_int_cudaexternalsemaphorewaitnodeparamsnumextsems",
+      "title": "unsigned int cudaExternalSemaphoreWaitNodeParams::numExtSems",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Number of handles and parameters supplied in extSemArray and paramsArray....",
+      "filename": "unsigned_int_cudaexternalsemaphorewaitnodeparamsnumextsems.md"
+    },
+    {
+      "id": "cudaexternalsemaphorewaitparams_cudaexternalsemaphorewa_9f298449",
+      "title": "cudaExternalSemaphoreWaitParams *cudaExternalSemaphoreWaitNodeParams::paramsArray",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Array of external semaphore wait parameters....",
+      "filename": "cudaexternalsemaphorewaitparams_cudaexternalsemaphorewa_9f298449.md"
+    }
+  ]
+}

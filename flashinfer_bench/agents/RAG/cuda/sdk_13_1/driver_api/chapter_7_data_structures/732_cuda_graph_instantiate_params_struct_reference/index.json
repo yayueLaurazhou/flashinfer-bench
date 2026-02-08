@@ -1,0 +1,55 @@
+{
+  "description": "Documentation for 7.32. CUDA_GRAPH_INSTANTIATE_PARAMS Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "cuuint64_t_cuda_graph_instantiate_paramsflags",
+      "title": "cuuint64_t CUDA_GRAPH_INSTANTIATE_PARAMS::flags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Instantiation flags...",
+      "filename": "cuuint64_t_cuda_graph_instantiate_paramsflags.md"
+    },
+    {
+      "id": "cugraphnode_cuda_graph_instantiate_paramsherrnode_out",
+      "title": "CUgraphNode CUDA_GRAPH_INSTANTIATE_PARAMS::hErrNode_out",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "The node which caused instantiation to fail, if any...",
+      "filename": "cugraphnode_cuda_graph_instantiate_paramsherrnode_out.md"
+    },
+    {
+      "id": "custream_cuda_graph_instantiate_paramshuploadstream",
+      "title": "CUstream CUDA_GRAPH_INSTANTIATE_PARAMS::hUploadStream",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Upload stream   CUDA Driver API TRM-06703-001 _vRelease Version  |  692   Data Structures...",
+      "filename": "custream_cuda_graph_instantiate_paramshuploadstream.md"
+    },
+    {
+      "id": "cugraphinstantiateresult_cuda_graph_instantiate_paramsresult_out",
+      "title": "CUgraphInstantiateResult CUDA_GRAPH_INSTANTIATE_PARAMS::result_out",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Whether instantiation was successful. If it failed, the reason why...",
+      "filename": "cugraphinstantiateresult_cuda_graph_instantiate_paramsresult_out.md"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "description": "Documentation for 7.53. CUdevResource Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "type_cu_dev_resource_type_invalid",
+      "title": "\u2023 type CU_DEV_RESOURCE_TYPE_INVALID",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "accessed. If is, the CUdevSmResource structure is filled in....",
+      "filename": "type_cu_dev_resource_type_invalid.md"
+    },
+    {
+      "id": "type_cu_dev_resource_type_sm_sm",
+      "title": "\u2023 type CU_DEV_RESOURCE_TYPE_SM sm",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "For example, sm.smCount will reflect the amount of streaming multiprocessors available in this resource. If is, the...",
+      "filename": "type_cu_dev_resource_type_sm_sm.md"
+    },
+    {
+      "id": "type_cu_dev_resource_type_workqueue_config",
+      "title": "\u2023 type CU_DEV_RESOURCE_TYPE_WORKQUEUE_CONFIG",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUdevWorkqueueConfigResource structure wqConfig is filled in. If is, the CUdevWorkqueueResource structure...",
+      "filename": "type_cu_dev_resource_type_workqueue_config.md"
+    },
+    {
+      "id": "type_cu_dev_resource_type_workqueue",
+      "title": "\u2023 type CU_DEV_RESOURCE_TYPE_WORKQUEUE",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "wq is filled in....",
+      "filename": "type_cu_dev_resource_type_workqueue.md"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "description": "Documentation for 6.2.8.7.3. Creating a Graph Using Stream Capture",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "628731_cross_stream_dependencies_and_events",
+      "title": "6.2.8.7.3.1. Cross-stream Dependencies and Events",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "###### 6.2.8.7.3.1. Cross-stream Dependencies and Events[\uf0c1](#cross-stream-dependencies-and-events \"Permalink to this headline\")  Stream capture can handle cross-stream dependencies expressed with `cud...",
+      "filename": "628731_cross_stream_dependencies_and_events.md"
+    },
+    {
+      "id": "628732_prohibited_and_unhandled_operations",
+      "title": "6.2.8.7.3.2. Prohibited and Unhandled Operations",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "###### 6.2.8.7.3.2. Prohibited and Unhandled Operations[\uf0c1](#prohibited-and-unhandled-operations \"Permalink to this headline\")  It is invalid to synchronize or query the execution status of a stream wh...",
+      "filename": "628732_prohibited_and_unhandled_operations.md"
+    },
+    {
+      "id": "628733_invalidation",
+      "title": "6.2.8.7.3.3. Invalidation",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "###### 6.2.8.7.3.3. Invalidation[\uf0c1](#invalidation \"Permalink to this headline\")  When an invalid operation is attempted during stream capture, any associated capture graphs are *invalidated*. When a c...",
+      "filename": "628733_invalidation.md"
+    }
+  ]
+}

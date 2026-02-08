@@ -1,0 +1,55 @@
+{
+  "description": "Documentation for 7.61. cudaPitchedPtr Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "size_t_cudapitchedptrpitch",
+      "title": "size_t cudaPitchedPtr::pitch",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Pitch of allocated memory in bytes...",
+      "filename": "size_t_cudapitchedptrpitch.md"
+    },
+    {
+      "id": "void_cudapitchedptrptr",
+      "title": "void *cudaPitchedPtr::ptr",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Pointer to allocated memory...",
+      "filename": "void_cudapitchedptrptr.md"
+    },
+    {
+      "id": "size_t_cudapitchedptrxsize",
+      "title": "size_t cudaPitchedPtr::xsize",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Logical width of allocation in elements...",
+      "filename": "size_t_cudapitchedptrxsize.md"
+    },
+    {
+      "id": "size_t_cudapitchedptrysize",
+      "title": "size_t cudaPitchedPtr::ysize",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Logical height of allocation in elements...",
+      "filename": "size_t_cudapitchedptrysize.md"
+    }
+  ]
+}

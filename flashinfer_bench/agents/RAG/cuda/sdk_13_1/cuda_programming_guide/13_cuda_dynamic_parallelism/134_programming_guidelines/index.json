@@ -1,0 +1,34 @@
+{
+  "description": "Documentation for 13.4. Programming Guidelines",
+  "directories": [
+    {
+      "name": "1342_performance",
+      "description": "### 13.4.2. Performance[\uf0c1](#performance \"Permalink to this headline\")..."
+    },
+    {
+      "name": "1343_implementation_restrictions_and_limitations",
+      "description": "### 13.4.3. Implementation Restrictions and Limitations[\uf0c1](#implementation-restrictions-and-limitations \"Permalink to this headline\")  *Dynamic Parallelism* guarantees all semantics described in this ..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "1341_basics",
+      "title": "13.4.1. Basics",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "### 13.4.1. Basics[\uf0c1](#basics \"Permalink to this headline\")  The device runtime is a functional subset of the host runtime. API level device management, kernel launching, device memcpy, stream managem...",
+      "filename": "1341_basics.md"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "description": "Documentation for 7.6. cudaChannelFormatDesc Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "enumcudachannelformatkind_cudachannelformatdescf",
+      "title": "enumcudaChannelFormatKind cudaChannelFormatDesc::f",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Channel format kind...",
+      "filename": "enumcudachannelformatkind_cudachannelformatdescf.md"
+    },
+    {
+      "id": "int_cudachannelformatdescw",
+      "title": "int cudaChannelFormatDesc::w",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "w   CUDA Runtime API vRelease Version  |  593   Data Structures...",
+      "filename": "int_cudachannelformatdescw.md"
+    },
+    {
+      "id": "int_cudachannelformatdescx",
+      "title": "int cudaChannelFormatDesc::x",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "x...",
+      "filename": "int_cudachannelformatdescx.md"
+    },
+    {
+      "id": "int_cudachannelformatdescy",
+      "title": "int cudaChannelFormatDesc::y",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "y...",
+      "filename": "int_cudachannelformatdescy.md"
+    },
+    {
+      "id": "int_cudachannelformatdescz",
+      "title": "int cudaChannelFormatDesc::z",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "z...",
+      "filename": "int_cudachannelformatdescz.md"
+    }
+  ]
+}

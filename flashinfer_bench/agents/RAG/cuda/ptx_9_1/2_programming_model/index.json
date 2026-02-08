@@ -1,0 +1,40 @@
+{
+  "description": "Documentation for 2. Programming Model",
+  "directories": [
+    {
+      "name": "22_thread_hierarchy",
+      "description": "The batch of threads that executes a kernel is organized as a grid. A grid consists of either cooperative thread arrays or clusters of cooperative thread arrays as described in this section and illustrated in [Figure 1](https://docs.nvidia.com/cuda/parallel-thread-execution/#grid-of-clusters-grid..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "21_a_highly_multithreaded_coprocessor",
+      "title": "2.1. A Highly Multithreaded Coprocessor",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "The GPU is a compute device capable of executing a very large number of threads in parallel. It operates as a coprocessor to the main CPU, or host: In other words, data-parallel, compute-intensive portions of applications running on the host are off-loaded onto the device.",
+      "filename": "21_a_highly_multithreaded_coprocessor.md"
+    },
+    {
+      "id": "23_memory_hierarchy",
+      "title": "2.3. Memory Hierarchy",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "PTX threads may access data from multiple state spaces during their execution as illustrated by [Figure 3](https://docs.nvidia.com/cuda/parallel-thread-execution/#memory-hierarchy-memory-hierarchy-with-clusters) where cluster level is introduced from target architecture `sm_90` onwards. Each thre...",
+      "filename": "23_memory_hierarchy.md"
+    }
+  ]
+}

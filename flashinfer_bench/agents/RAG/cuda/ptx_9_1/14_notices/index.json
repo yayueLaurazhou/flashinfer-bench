@@ -1,0 +1,45 @@
+{
+  "description": "Documentation for 14. Notices",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "141_notice",
+      "title": "14.1. Notice",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "This document is provided for information purposes only and shall not be regarded as a warranty of a certain functionality, condition, or quality of a product. NVIDIA Corporation (\u201cNVIDIA\u201d) makes no representations or warranties, expressed or implied, as to the accuracy or completeness of the inf...",
+      "filename": "141_notice.md"
+    },
+    {
+      "id": "142_opencl",
+      "title": "14.2. OpenCL",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "OpenCL is a trademark of Apple Inc. used under license to the Khronos Group Inc.",
+      "filename": "142_opencl.md"
+    },
+    {
+      "id": "143_trademarks",
+      "title": "14.3. Trademarks",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "NVIDIA and the NVIDIA logo are trademarks or registered trademarks of NVIDIA Corporation in the U.S. and other countries. Other company and product names may be trademarks of the respective companies with which they are associated.",
+      "filename": "143_trademarks.md"
+    }
+  ]
+}

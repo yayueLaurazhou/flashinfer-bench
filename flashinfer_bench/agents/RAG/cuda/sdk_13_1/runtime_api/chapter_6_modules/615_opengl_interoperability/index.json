@@ -1,0 +1,65 @@
+{
+  "description": "Documentation for 6.15. OpenGL Interoperability",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "enum_cudagldevicelist",
+      "title": "enum cudaGLDeviceList",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA devices corresponding to the current OpenGL context...",
+      "filename": "enum_cudagldevicelist.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudaglgetdevices_unsigned_int_pcuda_1c79e98e",
+      "title": "__host__cudaError_t cudaGLGetDevices (unsigned int *pCudaDeviceCount, int *pCudaDevices, unsigned int cudaDeviceCount, cudaGLDeviceList deviceList)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Gets the CUDA devices associated with the current OpenGL context....",
+      "filename": "__host__cudaerror_t_cudaglgetdevices_unsigned_int_pcuda_1c79e98e.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphicsglregisterbuffer_cudagr_43882a96",
+      "title": "__host__cudaError_t cudaGraphicsGLRegisterBuffer (cudaGraphicsResource **resource, GLuint buffer, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Registers an OpenGL buffer object....",
+      "filename": "__host__cudaerror_t_cudagraphicsglregisterbuffer_cudagr_43882a96.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudagraphicsglregisterimage_cudagra_e94ded90",
+      "title": "__host__cudaError_t cudaGraphicsGLRegisterImage (cudaGraphicsResource **resource, GLuint image, GLenum target, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Register an OpenGL texture or renderbuffer object....",
+      "filename": "__host__cudaerror_t_cudagraphicsglregisterimage_cudagra_e94ded90.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudawglgetdevice_int_device_hgpunv_hgpu",
+      "title": "__host__cudaError_t cudaWGLGetDevice (int *device, HGPUNV hGpu)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Gets the CUDA device associated with hGpu....",
+      "filename": "__host__cudaerror_t_cudawglgetdevice_int_device_hgpunv_hgpu.md"
+    }
+  ]
+}

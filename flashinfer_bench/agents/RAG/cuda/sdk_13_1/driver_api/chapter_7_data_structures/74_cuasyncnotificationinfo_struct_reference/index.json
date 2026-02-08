@@ -1,0 +1,55 @@
+{
+  "description": "Documentation for 7.4. CUasyncNotificationInfo Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "unsigned_long_long_cuasyncnotificationinfobytesoverbudget",
+      "title": "unsigned long long CUasyncNotificationInfo::bytesOverBudget",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "The number of bytes that the process has allocated above its device memory budget...",
+      "filename": "unsigned_long_long_cuasyncnotificationinfobytesoverbudget.md"
+    },
+    {
+      "id": "cuasyncnotificationinfo4_cuasyncnotificationinfoinfo",
+      "title": "CUasyncNotificationInfo::@4 CUasyncNotificationInfo::info",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Information about the notification. type must be checked in order to interpret this field.   CUDA Driver API TRM-06703-001 _vRelease Version  |  675   Data Structures...",
+      "filename": "cuasyncnotificationinfo4_cuasyncnotificationinfoinfo.md"
+    },
+    {
+      "id": "cuasyncnotificationinfo45_cuasyncnotificationinfooverbudget",
+      "title": "CUasyncNotificationInfo::@4::@5 CUasyncNotificationInfo::overBudget",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Information about notifications of type CU_ASYNC_NOTIFICATION_TYPE_OVER_BUDGET...",
+      "filename": "cuasyncnotificationinfo45_cuasyncnotificationinfooverbudget.md"
+    },
+    {
+      "id": "cuasyncnotificationtype_cuasyncnotificationinfotype",
+      "title": "CUasyncNotificationType CUasyncNotificationInfo::type",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "The type of notification being sent...",
+      "filename": "cuasyncnotificationtype_cuasyncnotificationinfotype.md"
+    }
+  ]
+}

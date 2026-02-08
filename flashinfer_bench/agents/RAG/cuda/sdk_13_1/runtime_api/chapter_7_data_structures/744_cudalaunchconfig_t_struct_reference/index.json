@@ -1,0 +1,75 @@
+{
+  "description": "Documentation for 7.44. cudaLaunchConfig_t Struct Reference",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "cudalaunchattribute_cudalaunchconfig_tattrs",
+      "title": "cudaLaunchAttribute *cudaLaunchConfig_t::attrs",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "List of attributes; nullable if cudaLaunchConfig_t::numAttrs == 0...",
+      "filename": "cudalaunchattribute_cudalaunchconfig_tattrs.md"
+    },
+    {
+      "id": "dim3_cudalaunchconfig_tblockdim",
+      "title": "dim3 cudaLaunchConfig_t::blockDim",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Block dimensions...",
+      "filename": "dim3_cudalaunchconfig_tblockdim.md"
+    },
+    {
+      "id": "size_t_cudalaunchconfig_tdynamicsmembytes",
+      "title": "size_t cudaLaunchConfig_t::dynamicSmemBytes",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Dynamic shared-memory size per thread block in bytes...",
+      "filename": "size_t_cudalaunchconfig_tdynamicsmembytes.md"
+    },
+    {
+      "id": "dim3_cudalaunchconfig_tgriddim",
+      "title": "dim3 cudaLaunchConfig_t::gridDim",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Grid dimensions...",
+      "filename": "dim3_cudalaunchconfig_tgriddim.md"
+    },
+    {
+      "id": "unsigned_int_cudalaunchconfig_tnumattrs",
+      "title": "unsigned int cudaLaunchConfig_t::numAttrs",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Number of attributes populated in cudaLaunchConfig_t::attrs...",
+      "filename": "unsigned_int_cudalaunchconfig_tnumattrs.md"
+    },
+    {
+      "id": "cudastream_t_cudalaunchconfig_tstream",
+      "title": "cudaStream_t cudaLaunchConfig_t::stream",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Stream identifier...",
+      "filename": "cudastream_t_cudalaunchconfig_tstream.md"
+    }
+  ]
+}

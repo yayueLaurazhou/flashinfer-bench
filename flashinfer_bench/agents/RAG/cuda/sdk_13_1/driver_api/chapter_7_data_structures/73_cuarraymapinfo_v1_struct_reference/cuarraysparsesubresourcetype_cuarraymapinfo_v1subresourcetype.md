@@ -1,0 +1,3 @@
+# CUarraySparseSubresourceType CUarrayMapInfo_v1::subresourceType
+
+Sparse subresource type

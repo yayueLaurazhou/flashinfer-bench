@@ -1,0 +1,105 @@
+{
+  "description": "Documentation for 6.16. OpenGL Interoperability [DEPRECATED]",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "enum_cudaglmapflags",
+      "title": "enum cudaGLMapFlags",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "CUDA GL Map Flags...",
+      "filename": "enum_cudaglmapflags.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudaglmapbufferobject_void_devptr_g_d3095786",
+      "title": "__host__cudaError_t cudaGLMapBufferObject (void **devPtr, GLuint bufObj)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Maps a buffer object for access by CUDA....",
+      "filename": "__host__cudaerror_t_cudaglmapbufferobject_void_devptr_g_d3095786.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudaglmapbufferobjectasync_void_dev_760b886f",
+      "title": "__host__cudaError_t cudaGLMapBufferObjectAsync (void **devPtr, GLuint bufObj, cudaStream_t stream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Maps a buffer object for access by CUDA....",
+      "filename": "__host__cudaerror_t_cudaglmapbufferobjectasync_void_dev_760b886f.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudaglregisterbufferobject_gluint_bufobj",
+      "title": "__host__cudaError_t cudaGLRegisterBufferObject (GLuint bufObj)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Registers a buffer object for access by CUDA....",
+      "filename": "__host__cudaerror_t_cudaglregisterbufferobject_gluint_bufobj.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudaglsetbufferobjectmapflags_gluin_383959c8",
+      "title": "__host__cudaError_t cudaGLSetBufferObjectMapFlags (GLuint bufObj, unsigned int flags)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Set usage flags for mapping an OpenGL buffer....",
+      "filename": "__host__cudaerror_t_cudaglsetbufferobjectmapflags_gluin_383959c8.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudaglsetgldevice_int_device",
+      "title": "__host__cudaError_t cudaGLSetGLDevice (int device)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Sets a CUDA device to use OpenGL interoperability....",
+      "filename": "__host__cudaerror_t_cudaglsetgldevice_int_device.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudaglunmapbufferobject_gluint_bufobj",
+      "title": "__host__cudaError_t cudaGLUnmapBufferObject (GLuint bufObj)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Unmaps a buffer object for access by CUDA....",
+      "filename": "__host__cudaerror_t_cudaglunmapbufferobject_gluint_bufobj.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudaglunmapbufferobjectasync_gluint_0c8cce43",
+      "title": "__host__cudaError_t cudaGLUnmapBufferObjectAsync (GLuint bufObj, cudaStream_t stream)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Unmaps a buffer object for access by CUDA....",
+      "filename": "__host__cudaerror_t_cudaglunmapbufferobjectasync_gluint_0c8cce43.md"
+    },
+    {
+      "id": "__host__cudaerror_t_cudaglunregisterbufferobject_gluint_bufobj",
+      "title": "__host__cudaError_t cudaGLUnregisterBufferObject (GLuint bufObj)",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "summary": "Unregisters a buffer object for access by CUDA....",
+      "filename": "__host__cudaerror_t_cudaglunregisterbufferobject_gluint_bufobj.md"
+    }
+  ]
+}

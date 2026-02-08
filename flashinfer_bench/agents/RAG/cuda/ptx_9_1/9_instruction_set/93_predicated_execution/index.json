@@ -1,0 +1,30 @@
+{
+  "description": "Documentation for 9.3. Predicated Execution",
+  "directories": [
+    {
+      "name": "931_comparisons",
+      "description": "Documentation for Comparisons."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "In PTX, predicate registers are virtual and have `.pred` as the type specifier. So, predicate registers can be declared as"
+    },
+    {
+      "id": "932_manipulating_predicates",
+      "title": "9.3.2. Manipulating Predicates",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "Predicate values may be computed and manipulated using the following instructions: `and`, `or`, `xor`, `not`, and `mov`.",
+      "filename": "932_manipulating_predicates.md"
+    }
+  ]
+}

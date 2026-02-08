@@ -1,0 +1,24 @@
+{
+  "description": "Documentation for 9.7.9.27. Data Movement and Conversion Instructions: multimem.cp.reduce.async.bulk",
+  "directories": [
+    {
+      "name": "979271_data_movement_and_conversion_instructions_tensor_copy",
+      "description": "Documentation for Data Movement And Conversion Instructions Tensor Copy."
+    },
+    {
+      "name": "979272_data_movement_and_conversion_instructions_bulk_and_tensor_copy_completion_instructions",
+      "description": "Documentation for Data Movement And Conversion Instructions Bulk And Tensor Copy Completion Instructions."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "`multimem.cp.reduce.async.bulk`"
+    }
+  ]
+}

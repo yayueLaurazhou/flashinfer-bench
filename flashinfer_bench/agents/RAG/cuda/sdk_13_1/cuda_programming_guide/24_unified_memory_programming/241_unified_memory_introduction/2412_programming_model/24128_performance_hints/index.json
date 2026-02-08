@@ -1,0 +1,55 @@
+{
+  "description": "Documentation for 24.1.2.8. Performance Hints",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "241281_data_prefetching",
+      "title": "24.1.2.8.1. Data Prefetching",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 24.1.2.8.1. Data Prefetching[\uf0c1](#data-prefetching \"Permalink to this headline\")  The `cudaMemPrefetchAsync` API is an asynchronous stream-ordered API that may migrate data to reside closer to th...",
+      "filename": "241281_data_prefetching.md"
+    },
+    {
+      "id": "241282_memory_discarding",
+      "title": "24.1.2.8.2. Memory Discarding",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 24.1.2.8.2. Memory Discarding[\uf0c1](#memory-discarding \"Permalink to this headline\")  The `cudaMemDiscardBatchAsync` API allows applications to inform the CUDA runtime that the contents of specifie...",
+      "filename": "241282_memory_discarding.md"
+    },
+    {
+      "id": "241283_data_usage_hints",
+      "title": "24.1.2.8.3. Data Usage Hints",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 24.1.2.8.3. Data Usage Hints[\uf0c1](#data-usage-hints \"Permalink to this headline\")  When multiple processors simultaneously access the same data, `cudaMemAdvise` may be used to hint how the data at...",
+      "filename": "241283_data_usage_hints.md"
+    },
+    {
+      "id": "241284_querying_data_usage_attributes_on_managed_memory",
+      "title": "24.1.2.8.4. Querying Data Usage Attributes on Managed Memory",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 24.1.2.8.4. Querying Data Usage Attributes on Managed Memory[\uf0c1](#querying-data-usage-attributes-on-managed-memory \"Permalink to this headline\")  A program can query memory range attributes assig...",
+      "filename": "241284_querying_data_usage_attributes_on_managed_memory.md"
+    }
+  ]
+}

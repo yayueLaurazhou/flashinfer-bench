@@ -1,0 +1,35 @@
+{
+  "description": "Documentation for 18.5.23. C++14 Features",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "185231_functions_with_deduced_return_type",
+      "title": "18.5.23.1. Functions with deduced return type",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 18.5.23.1. Functions with deduced return type[\uf0c1](#functions-with-deduced-return-type \"Permalink to this headline\")  A `__global__` function cannot have a deduced return type.  If a `__device__` f...",
+      "filename": "185231_functions_with_deduced_return_type.md"
+    },
+    {
+      "id": "185232_variable_templates",
+      "title": "18.5.23.2. Variable templates",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 18.5.23.2. Variable templates[\uf0c1](#variable-templates \"Permalink to this headline\")  A `__device__/__constant__` variable template cannot have a const qualified type when using the Microsoft host ...",
+      "filename": "185232_variable_templates.md"
+    }
+  ]
+}

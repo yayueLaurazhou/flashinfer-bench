@@ -1,0 +1,25 @@
+{
+  "description": "Documentation for 6.2.9.4. Peer-to-Peer Memory Access",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "62941_iommu_on_linux",
+      "title": "6.2.9.4.1. IOMMU on Linux",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "##### 6.2.9.4.1. IOMMU on Linux[\uf0c1](#iommu-on-linux \"Permalink to this headline\")  On Linux only, CUDA and the display driver does not support IOMMU-enabled bare-metal PCIe peer to peer memory copy. Ho...",
+      "filename": "62941_iommu_on_linux.md"
+    }
+  ]
+}

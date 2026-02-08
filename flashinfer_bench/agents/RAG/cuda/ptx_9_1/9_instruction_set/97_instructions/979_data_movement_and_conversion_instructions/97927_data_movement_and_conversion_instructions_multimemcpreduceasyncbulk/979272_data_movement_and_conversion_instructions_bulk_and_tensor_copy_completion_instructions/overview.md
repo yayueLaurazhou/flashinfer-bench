@@ -1,0 +1,3 @@
+# 9.7.9.27.2. Data Movement and Conversion Instructions: Bulk and Tensor copy completion instructions
+
+##### 9.7.9.27.2. [Data Movement and Conversion Instructions: Bulk and Tensor copy completion instructions](https://docs.nvidia.com/cuda/parallel-thread-execution/#data-movement-and-conversion-instructions-bulk-tensor-copy-completion)[](https://docs.nvidia.com/cuda/parallel-thread-execution/#data-movement-and-conversion-instructions-bulk-tensor-copy-completion "Permalink to this headline")

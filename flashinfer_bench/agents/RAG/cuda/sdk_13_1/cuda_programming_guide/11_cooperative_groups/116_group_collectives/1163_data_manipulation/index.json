@@ -1,0 +1,45 @@
+{
+  "description": "Documentation for 11.6.3. Data Manipulation",
+  "directories": [],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "11631_reduce",
+      "title": "11.6.3.1. reduce",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 11.6.3.1. `reduce`[\uf0c1](#reduce \"Permalink to this headline\")  ``` template <typename TyGroup, typename TyArg, typename TyOp> auto reduce(const TyGroup& group, TyArg&& val, TyOp&& op) -> decltype(o...",
+      "filename": "11631_reduce.md"
+    },
+    {
+      "id": "11632_reduce_operators",
+      "title": "11.6.3.2. Reduce Operators",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 11.6.3.2. `Reduce` Operators[\uf0c1](#reduce-operators \"Permalink to this headline\")  Below are the prototypes of function objects for some of the basic operations that can be done with `reduce`  ``` ...",
+      "filename": "11632_reduce_operators.md"
+    },
+    {
+      "id": "11633_inclusive_scan_and_exclusive_scan",
+      "title": "11.6.3.3. inclusive_scan and exclusive_scan",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "#### 11.6.3.3. `inclusive_scan` and `exclusive_scan`[\uf0c1](#inclusive-scan-and-exclusive-scan \"Permalink to this headline\")  ``` template <typename TyGroup, typename TyVal, typename TyFn> auto inclusive_...",
+      "filename": "11633_inclusive_scan_and_exclusive_scan.md"
+    }
+  ]
+}

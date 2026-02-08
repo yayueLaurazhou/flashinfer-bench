@@ -1,0 +1,64 @@
+{
+  "description": "Documentation for 6. Programming Interface",
+  "directories": [
+    {
+      "name": "61_compilation_with_nvcc",
+      "description": "## 6.1. Compilation with NVCC[\uf0c1](#compilation-with-nvcc \"Permalink to this headline\")  Kernels can be written using the CUDA instruction set architecture, called *PTX*, which is described in the PTX r..."
+    },
+    {
+      "name": "62_cuda_runtime",
+      "description": "## 6.2. CUDA Runtime[\uf0c1](#cuda-runtime \"Permalink to this headline\")  The runtime is implemented in the `cudart` library, which is linked to the application, either statically via `cudart.lib` or `libc..."
+    }
+  ],
+  "files": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "filename": "overview.md",
+      "tags": [
+        "overview"
+      ],
+      "summary": "Overview of this section."
+    },
+    {
+      "id": "63_versioning_and_compatibility",
+      "title": "6.3. Versioning and Compatibility",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 6.3. Versioning and Compatibility[\uf0c1](#versioning-and-compatibility \"Permalink to this headline\")  There are two version numbers that developers should care about when developing a CUDA application:...",
+      "filename": "63_versioning_and_compatibility.md"
+    },
+    {
+      "id": "64_compute_modes",
+      "title": "6.4. Compute Modes",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 6.4. Compute Modes[\uf0c1](#compute-modes \"Permalink to this headline\")  On Tesla solutions running Windows Server 2008 and later or Linux, one can set any device in a system in one of the three followi...",
+      "filename": "64_compute_modes.md"
+    },
+    {
+      "id": "65_mode_switches",
+      "title": "6.5. Mode Switches",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 6.5. Mode Switches[\uf0c1](#mode-switches \"Permalink to this headline\")  GPUs that have a display output dedicate some DRAM memory to the so-called *primary surface*, which is used to refresh the displa...",
+      "filename": "65_mode_switches.md"
+    },
+    {
+      "id": "66_tesla_compute_cluster_mode_for_windows",
+      "title": "6.6. Tesla Compute Cluster Mode for Windows",
+      "tags": [
+        "ptx",
+        "documentation"
+      ],
+      "summary": "## 6.6. Tesla Compute Cluster Mode for Windows[\uf0c1](#tesla-compute-cluster-mode-for-windows \"Permalink to this headline\")  Using NVIDIA\u2019s System Management Interface (*nvidia-smi*), the Windows device d...",
+      "filename": "66_tesla_compute_cluster_mode_for_windows.md"
+    }
+  ]
+}
